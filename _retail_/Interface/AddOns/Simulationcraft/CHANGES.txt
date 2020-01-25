@@ -1,16 +1,16 @@
-lightweight tag 62a4ba6fec0d342db22e808fb194391145e08eef v1.12.4
+lightweight tag fdd37a05e23f9418ecfcbd6aa113b02b09ba0fdc v1.12.5
 Author:	Dave Hendler <sollaires@gmail.com>
-Date:	Sun Jan 5 15:39:22 2020 -0800
+Date:	Fri Jan 24 12:37:32 2020 -0800
 
-commit 62a4ba6fec0d342db22e808fb194391145e08eef
+commit fdd37a05e23f9418ecfcbd6aa113b02b09ba0fdc
 Author: Dave Hendler <sollaires@gmail.com>
-Date:   Sun Jan 5 15:39:22 2020 -0800
+Date:   Fri Jan 24 12:37:32 2020 -0800
 
-    Update addon version
+    Bump version
 
-commit 9377803a90ee1fff48a45e17532b0872186693ea
+commit c746735037ac9c3b368106e402d5dff43d08ebbd
 Author: Dave Hendler <sollaires@gmail.com>
-Date:   Sun Jan 5 15:38:57 2020 -0800
+Date:   Fri Jan 24 12:37:08 2020 -0800
 
-    Bump Interface version for 8.3
+    Fix bug with main bank slots showing wrong item slot, add header comment with a player summary and date
 

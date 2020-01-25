@@ -1,11 +1,23 @@
 
 BigWigs:AddColors("Wrathion", {
+	[305978] = {"blue","purple","yellow"},
 	[306163] = {"blue","orange"},
 	[306289] = "red",
 	[306735] = "red",
 	[307013] = "red",
-	[313973] = {"blue","purple","yellow"},
 	["stages"] = "cyan",
+})
+
+BigWigs:AddColors("Maut", {
+	[305663] = "orange",
+	[305722] = "cyan",
+	[307806] = "blue",
+	[308044] = "red",
+	[308872] = "purple",
+	[308903] = "yellow",
+	[310129] = {"blue","purple"},
+	[314337] = "red",
+	[314993] = "blue",
 })
 
 BigWigs:AddColors("The Prophet Skitra", {
@@ -30,21 +42,39 @@ BigWigs:AddColors("The Hivemind", {
 	[307201] = "orange",
 	[307213] = "orange",
 	[307232] = "orange",
+	[307569] = "red",
 	[307968] = "yellow",
-	[308178] = "red",
 	[308227] = "yellow",
 	[310340] = "orange",
 	[313652] = "yellow",
+	[313672] = "blue",
+	[314583] = "red",
 })
 
 BigWigs:AddColors("Shad'har the Insatiable", {
+	[306448] = "orange",
+	[306928] = "red",
+	[306929] = "red",
+	[306930] = "red",
 	[306942] = "cyan",
-	[307358] = {"blue","yellow"},
+	[306953] = {"blue","yellow"},
 	[307471] = {"blue","purple"},
 	[307472] = {"blue","cyan"},
-	[312528] = "yellow",
-	[312529] = "yellow",
-	[312530] = "yellow",
+	[314736] = "blue",
+	[318078] = {"blue","red"},
+	["stages"] = "cyan",
+})
+
+BigWigs:AddColors("Drest'agath", {
+	[308377] = "green",
+	[308941] = {"cyan","orange"},
+	[310246] = "red",
+	[310277] = {"blue","purple"},
+	[310329] = "yellow",
+	[310358] = {"blue","yellow"},
+	[310390] = "orange",
+	[310580] = "blue",
+	["adds"] = "cyan",
 })
 
 BigWigs:AddColors("Vexiona", {
@@ -68,12 +98,12 @@ BigWigs:AddColors("Ra-den the Despoiled", {
 	[306603] = "orange",
 	[306732] = "cyan",
 	[306733] = "cyan",
+	[306819] = {"blue","purple"},
 	[306865] = "yellow",
 	[306866] = "yellow",
 	[306881] = "red",
 	[310003] = "yellow",
 	[310019] = {"blue","cyan","green"},
-	[311551] = {"blue","purple"},
 	[312996] = "cyan",
 	[313077] = {"blue","red"},
 	[313213] = {"blue","purple","red"},
@@ -83,19 +113,49 @@ BigWigs:AddColors("Ra-den the Despoiled", {
 	["stages"] = "cyan",
 })
 
+BigWigs:AddColors("Il'gynoth, Corruption Reborn", {
+	[309961] = "purple",
+	[310322] = "blue",
+	[310433] = "orange",
+	[311401] = "yellow",
+	[313759] = {"blue","yellow"},
+	["stages"] = "cyan",
+})
+
+BigWigs:AddColors("Carapace of N'Zoth", {
+	[-21069] = "red",
+	[-20565] = "red",
+	[-20560] = "red",
+	[306973] = {"blue","yellow"},
+	[306984] = "yellow",
+	[306988] = "orange",
+	[307011] = "blue",
+	[307079] = {"blue","green"},
+	[307092] = "red",
+	[313039] = "red",
+	[315947] = "orange",
+	[315954] = {"blue","purple"},
+	["stages"] = {"cyan","green"},
+})
+
 BigWigs:AddColors("N'Zoth, the Corruptor", {
-	[309713] = "purple",
-	[309980] = {"blue","yellow"},
+	[-21491] = "yellow",
+	[309698] = "purple",
 	[309991] = "blue",
 	[310042] = "red",
-	[310134] = "red",
 	[310184] = "yellow",
-	[310331] = "yellow",
 	[312155] = "green",
+	[312866] = "orange",
 	[313184] = {"blue","green"},
+	[313400] = {"blue","orange","red"},
 	[313609] = {"blue","yellow"},
-	[314889] = "blue",
-	[315772] = "orange",
-	[316711] = {"blue","purple"},
-	[317292] = "red",
+	[315772] = "yellow",
+	[315927] = {"blue","green","yellow"},
+	[316463] = "green",
+	[316711] = {"blue","purple","red"},
+	[317066] = "orange",
+	[317102] = "red",
+	[318449] = "yellow",
+	[318976] = "yellow",
+	["stages"] = {"cyan","green"},
 })

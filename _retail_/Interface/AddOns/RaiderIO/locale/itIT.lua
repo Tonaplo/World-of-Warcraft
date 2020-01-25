@@ -65,6 +65,10 @@ L["DUNGEON_SHORT_NAME_UNDR"] = "GRO"
 L["DUNGEON_SHORT_NAME_UPPR"] = "KSUP"
 L["DUNGEON_SHORT_NAME_VOTW"] = "SDC"
 L["DUNGEON_SHORT_NAME_WM"] = "MDC"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_WORK"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_YARD"] = ""--]] 
 L["ENABLE_AUTO_FRAME_POSITION"] = "Posiziona Automaticamente la Cornice del Profilo RaiderIO"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "Abilitando questa Opzione manterrai la Descrizione del Profilo M+ accanto Finestra della Ricerca delle Incursioni o al Tooltip del Giocatore."
 --[[Translation missing --]]
@@ -150,6 +154,30 @@ L["RAID_BOSS_EP_5"] = "Orgozoa"
 L["RAID_BOSS_EP_6"] = "Corte della Regina"
 L["RAID_BOSS_EP_7"] = "Za'qul"
 L["RAID_BOSS_EP_8"] = "Regina Azshara"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_10"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_11"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_12"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_8"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_9"] = ""--]] 
 L["RAID_BOSS_ULD_1"] = "Taloc"
 L["RAID_BOSS_ULD_2"] = "MADRE"
 L["RAID_BOSS_ULD_3"] = "Divoratore Fetido"
@@ -186,6 +214,8 @@ L["RELOAD_NOW"] = "Ricarica Ora"
 --[[ L["SEASON_LABEL_2"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["SEASON_LABEL_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SEASON_LABEL_4"] = ""--]] 
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = "Visualizza il Punteggio Medio Per Corse In Tempo"
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO_DESC"] = "Mostra il punteggio medio Raider.IO visualizzato sui membri delle Spedizioni finite in tempo. Questo è visibile nel Tooltip della Chiava del Potere e nelle descrizioni dei giocatori nella finestra Ricerca delle Incursioni."
 --[[Translation missing --]]

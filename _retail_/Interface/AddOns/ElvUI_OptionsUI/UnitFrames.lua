@@ -1854,9 +1854,18 @@ local function GetOptionsTable_Portrait(updateFunc, groupName, numUnits)
 		set = function(info, value) E.db.unitframe.units[groupName].portrait[info[#info]] = value; updateFunc(UF, groupName, numUnits) end,
 		args = {
 			header = {
-				order = 1,
+				order = 0,
 				type = "header",
 				name = L["Portrait"],
+			},
+			warning = {
+				order = 1,
+				type = "description",
+				fontSize = 'medium',
+				width = 'full',
+				name = function()
+					return (E.db.unitframe.units[groupName].orientation == "MIDDLE" and L["Overlay mode is forced when the Frame Orientation is set to Middle."]) or ''
+				end
 			},
 			enable = {
 				type = 'toggle',
@@ -1864,47 +1873,71 @@ local function GetOptionsTable_Portrait(updateFunc, groupName, numUnits)
 				name = L["Enable"],
 				desc = L["If you have a lot of 3D Portraits active then it will likely have a big impact on your FPS. Disable some portraits if you experience FPS issues."],
 				confirmText = L["If you have a lot of 3D Portraits active then it will likely have a big impact on your FPS. Disable some portraits if you experience FPS issues."],
-				confirm = true,
+				confirm = true
+			},
+			paused = {
+				order = 3,
+				type = 'toggle',
+				name = L["Pause"],
+				disabled = function() return E.db.unitframe.units[groupName].portrait.style ~= '3D' end,
 			},
 			overlay = {
-				order = 3,
+				order = 4,
 				type = 'toggle',
 				name = L["Overlay"],
 				desc = L["The Portrait will overlay the Healthbar. This will be automatically happen if the Frame Orientation is set to Middle."],
+				get = function(info) return (E.db.unitframe.units[groupName].orientation == "MIDDLE") or E.db.unitframe.units[groupName].portrait[info[#info]] end,
+				disabled = function() return E.db.unitframe.units[groupName].orientation == "MIDDLE" end
 			},
 			fullOverlay = {
-				order = 4,
+				order = 5,
 				type = 'toggle',
 				name = L["Full Overlay"],
 				desc = L["This option allows the overlay to span the whole health, including the background."],
-				disabled = function() return not E.db.unitframe.units[groupName].portrait.overlay end,
+				disabled = function() return not (E.db.unitframe.units[groupName].orientation == "MIDDLE" or E.db.unitframe.units[groupName].portrait.overlay) end,
 			},
 			style = {
-				order = 5,
+				order = 6,
 				type = 'select',
 				name = L["Style"],
 				desc = L["Select the display method of the portrait."],
 				values = {
 					['2D'] = L["2D"],
 					['3D'] = L["3D"],
+					['Class'] = L["Class"],
 				},
 			},
 			width = {
-				order = 6,
+				order = 7,
 				type = 'range',
 				name = L["Width"],
 				min = 15, max = 150, step = 1,
-				disabled = function() return E.db.unitframe.units[groupName].portrait.overlay end,
+				disabled = function() return (E.db.unitframe.units[groupName].orientation == "MIDDLE" or E.db.unitframe.units[groupName].portrait.overlay) end,
+			},
+			overlayAlpha = {
+				order = 8,
+				type = "range",
+				name = L["Overlay Alpha"],
+				desc = L["Set the alpha level of portrait when frame is overlayed."],
+				min = 0.01, max = 1, step = 0.01,
+				disabled = function() return not (E.db.unitframe.units[groupName].orientation == "MIDDLE" or E.db.unitframe.units[groupName].portrait.overlay) end,
 			},
 			rotation = {
-				order = 7,
+				order = 9,
 				type = 'range',
 				name = L["Model Rotation"],
 				min = 0, max = 360, step = 1,
 				disabled = function() return E.db.unitframe.units[groupName].portrait.style ~= '3D' end,
 			},
+			desaturation = {
+				order = 10,
+				type = 'range',
+				name = L["Desaturate"],
+				min = 0, max = 1, step = 0.01,
+				disabled = function() return E.db.unitframe.units[groupName].portrait.style ~= '3D' end,
+			},
 			camDistanceScale = {
-				order = 8,
+				order = 11,
 				type = 'range',
 				name = L["Camera Distance Scale"],
 				desc = L["How far away the portrait is from the camera."],
@@ -1912,7 +1945,7 @@ local function GetOptionsTable_Portrait(updateFunc, groupName, numUnits)
 				disabled = function() return E.db.unitframe.units[groupName].portrait.style ~= '3D' end,
 			},
 			xOffset = {
-				order = 9,
+				order = 12,
 				type = "range",
 				name = L["X-Offset"],
 				desc = L["Position the Model horizontally."],
@@ -1920,20 +1953,12 @@ local function GetOptionsTable_Portrait(updateFunc, groupName, numUnits)
 				disabled = function() return E.db.unitframe.units[groupName].portrait.style ~= '3D' end,
 			},
 			yOffset = {
-				order = 10,
+				order = 13,
 				type = "range",
 				name = L["Y-Offset"],
 				desc = L["Position the Model vertically."],
 				min = -1, max = 1, step = 0.01,
 				disabled = function() return E.db.unitframe.units[groupName].portrait.style ~= '3D' end,
-			},
-			overlayAlpha = {
-				order = 11,
-				type = "range",
-				name = L["Overlay Alpha"],
-				desc = L["Set the alpha level of portrait when frame is overlayed."],
-				min = 0.01, max = 1, step = 0.01,
-				disabled = function() return E.db.unitframe.units[groupName].portrait.overlay == false end,
 			},
 		},
 	}
@@ -1958,10 +1983,12 @@ local function GetOptionsTable_Power(hasDetatchOption, updateFunc, groupName, nu
 				order = 1,
 				name = L["Enable"],
 			},
-			powerPrediction = {
-				type = 'toggle',
+			attachTextTo = {
+				type = 'select',
 				order = 2,
-				name = L["Power Prediction"],
+				name = L["Attach Text To"],
+				desc = L["The object you want to attach to."],
+				values = attachToValues,
 			},
 			width = {
 				type = 'select',
@@ -2019,37 +2046,35 @@ local function GetOptionsTable_Power(hasDetatchOption, updateFunc, groupName, nu
 				min = ((E.db.unitframe.thinBorders or E.PixelMode) and 3 or 7), max = 50, step = 1,
 				hidden = function() return E.db.unitframe.units[groupName].power.width == 'offset' end,
 			},
+			powerPrediction = {
+				type = 'toggle',
+				order = 5,
+				name = L["Power Prediction"],
+			},
 			offset = {
 				type = 'range',
 				name = L["Offset"],
 				desc = L["Offset of the powerbar to the healthbar, set to 0 to disable."],
-				order = 5,
+				order = 6,
 				min = 0, max = 20, step = 1,
 				hidden = function() return E.db.unitframe.units[groupName].power.width ~= 'offset' end,
-			},
-			configureButton = {
-				order = 6,
-				name = L["Coloring"],
-				desc = L["This opens the UnitFrames Color settings. These settings affect all unitframes."],
-				type = 'execute',
-				func = function() ACD:SelectGroup("ElvUI", "unitframe", "generalOptionsGroup", "allColorsGroup", "powerGroup") end,
 			},
 			reverseFill = {
 				type = "toggle",
 				order = 7,
 				name = L["Reverse Fill"],
 			},
-			attachTextTo = {
-				type = 'select',
-				order = 11,
-				name = L["Attach Text To"],
-				desc = L["The object you want to attach to."],
-				values = attachToValues,
-			},
 			autoHide = {
-				order = 12,
+				order = 8,
 				type = 'toggle',
 				name = L["Auto-Hide"],
+			},
+			configureButton = {
+				order = 10,
+				name = L["Coloring"],
+				desc = L["This opens the UnitFrames Color settings. These settings affect all unitframes."],
+				type = 'execute',
+				func = function() ACD:SelectGroup("ElvUI", "unitframe", "generalOptionsGroup", "allColorsGroup", "powerGroup") end,
 			},
 			textGroup = {
 				type = 'group',
@@ -2091,19 +2116,19 @@ local function GetOptionsTable_Power(hasDetatchOption, updateFunc, groupName, nu
 	if hasDetatchOption then
 			config.args.detachFromFrame = {
 				type = 'toggle',
-				order = 11,
+				order = 90,
 				name = L["Detach From Frame"],
 			}
 			config.args.detachedWidth = {
 				type = 'range',
-				order = 12,
+				order = 91,
 				name = L["Detached Width"],
 				hidden = function() return not E.db.unitframe.units[groupName].power.detachFromFrame end,
 				min = 15, max = 1000, step = 1,
 			}
 			config.args.parent = {
 				type = 'select',
-				order = 13,
+				order = 92,
 				name = L["Parent"],
 				desc = L["Choose UIPARENT to prevent it from hiding with the unitframe."],
 				hidden = function() return not E.db.unitframe.units[groupName].power.detachFromFrame end,
@@ -2116,7 +2141,7 @@ local function GetOptionsTable_Power(hasDetatchOption, updateFunc, groupName, nu
 
 	if hasStrataLevel then
 		config.args.strataAndLevel = {
-			order = 101,
+			order = 100,
 			type = "group",
 			name = L["Strata and Level"],
 			get = function(info) return E.db.unitframe.units[groupName].power.strataAndLevel[info[#info]] end,
@@ -2158,6 +2183,14 @@ local function GetOptionsTable_Power(hasDetatchOption, updateFunc, groupName, nu
 					min = 2, max = 128, step = 1,
 				},
 			},
+		}
+	end
+
+	if groupName == 'party' or groupName == 'raid' or groupName == 'raid40' then
+		config.args.displayAltPower = {
+			type = "toggle",
+			order = 9,
+			name = L["Swap to Alt Power"],
 		}
 	end
 
@@ -2711,6 +2744,201 @@ local function GetOptionsTable_SummonIcon(updateFunc, groupName, numUnits)
 			},
 		},
 	}
+
+	return config
+end
+
+local function GetOptionsTable_ClassBar(updateFunc, groupName, numUnits)
+	local config = {
+		type = 'group',
+		name = L["Classbar"],
+		get = function(info) return E.db.unitframe.units[groupName].classbar[info[#info]] end,
+		set = function(info, value) E.db.unitframe.units[groupName].classbar[info[#info]] = value; updateFunc(UF, groupName, numUnits) end,
+		args = {
+			header = {
+				order = 1,
+				type = "header",
+				name = L["Classbar"],
+			},
+			enable = {
+				type = 'toggle',
+				order = 2,
+				name = L["Enable"],
+			},
+			height = {
+				type = 'range',
+				order = 3,
+				name = L["Height"],
+				min = ((E.db.unitframe.thinBorders or E.PixelMode) and 3 or 7),
+				max = 30,
+				step = 1,
+			},
+			fill = {
+				type = 'select',
+				order = 4,
+				name = L["Fill"],
+				values = {
+					['fill'] = L["Filled"],
+					['spaced'] = L["Spaced"],
+				},
+			},
+		},
+	}
+
+	if groupName == 'party' or groupName == 'raid' or groupName == 'raid40' then
+		config.args.altPowerColor = {
+			get = function(info)
+				local t = E.db.unitframe.units[groupName].classbar[info[#info]]
+				local d = P.unitframe.units[groupName].classbar[info[#info]]
+				return t.r, t.g, t.b, t.a, d.r, d.g, d.b
+			end,
+			set = function(info, r, g, b)
+				local t = E.db.unitframe.units[groupName].classbar[info[#info]]
+				t.r, t.g, t.b = r, g, b
+				UF:Update_AllFrames()
+			end,
+			order = 5,
+			name = L["COLOR"],
+			type = 'color',
+		}
+		config.args.altPowerTextFormat = {
+			order = 6,
+			name = L["Text Format"],
+			desc = L["Controls the text displayed. Available Tags are listed under Info/Controls"],
+			type = 'input',
+			width = 'full',
+		}
+	elseif groupName == 'player' then
+		config.args.height.max = (E.db.unitframe.units[groupName].classbar.detachFromFrame and 300 or 30)
+		config.args.autoHide = {
+			order = 5,
+			type = 'toggle',
+			name = L["Auto-Hide"],
+		}
+		config.args.additionalPowerText = {
+			order = 6,
+			type = "toggle",
+			name = L["Additional Power Text"],
+		}
+		config.args.spacer = {
+			order = 10,
+			type = "description",
+			name = "",
+		}
+		config.args.detachGroup = {
+			order = 20,
+			type = "group",
+			name = L["Detach From Frame"],
+			get = function(info) return E.db.unitframe.units.player.classbar[info[#info]] end,
+			set = function(info, value) E.db.unitframe.units.player.classbar[info[#info]] = value; UF:CreateAndUpdateUF('player') end,
+			hidden = groupName ~= 'player',
+			guiInline = true,
+			args = {
+				detachFromFrame = {
+					type = 'toggle',
+					order = 1,
+					name = L["Enable"],
+					width = 'full',
+					set = function(info, value)
+						if value == true then
+							E.Options.args.unitframe.args.player.args.classbar.args.height.max = 300
+						else
+							E.Options.args.unitframe.args.player.args.classbar.args.height.max = 30
+						end
+						E.db.unitframe.units.player.classbar[info[#info]] = value;
+						UF:CreateAndUpdateUF('player')
+					end,
+				},
+				detachedWidth = {
+					type = 'range',
+					order = 2,
+					name = L["Detached Width"],
+					disabled = function() return not E.db.unitframe.units.player.classbar.detachFromFrame end,
+					min = ((E.db.unitframe.thinBorders or E.PixelMode) and 3 or 7), max = 800, step = 1,
+				},
+				orientation = {
+					type = 'select',
+					order = 3,
+					name = L["Frame Orientation"],
+					disabled = function() return not E.db.unitframe.units.player.classbar.detachFromFrame end,
+					values = {
+						['HORIZONTAL'] = L["Horizontal"],
+						['VERTICAL'] = L["Vertical"],
+					},
+				},
+				verticalOrientation = {
+					order = 4,
+					type = "toggle",
+					name = L["Vertical Fill Direction"],
+					disabled = function() return not E.db.unitframe.units.player.classbar.detachFromFrame end,
+				},
+				spacing = {
+					order = 5,
+					type = "range",
+					name = L["Spacing"],
+					min = ((E.db.unitframe.thinBorders or E.PixelMode) and -1 or -4), max = 20, step = 1,
+					disabled = function() return not E.db.unitframe.units.player.classbar.detachFromFrame end,
+				},
+				parent = {
+					type = 'select',
+					order = 6,
+					name = L["Parent"],
+					desc = L["Choose UIPARENT to prevent it from hiding with the unitframe."],
+					disabled = function() return not E.db.unitframe.units.player.classbar.detachFromFrame end,
+					values = {
+						["FRAME"] = "FRAME",
+						["UIPARENT"] = "UIPARENT",
+					},
+				},
+				strataAndLevel = {
+					order = 10,
+					type = "group",
+					name = L["Strata and Level"],
+					get = function(info) return E.db.unitframe.units.player.classbar.strataAndLevel[info[#info]] end,
+					set = function(info, value) E.db.unitframe.units.player.classbar.strataAndLevel[info[#info]] = value; UF:CreateAndUpdateUF('player') end,
+					guiInline = true,
+					disabled = function() return not E.db.unitframe.units.player.classbar.detachFromFrame end,
+					hidden = function() return not E.db.unitframe.units.player.classbar.detachFromFrame end,
+					args = {
+						useCustomStrata = {
+							order = 1,
+							type = "toggle",
+							name = L["Use Custom Strata"],
+						},
+						frameStrata = {
+							order = 2,
+							type = "select",
+							name = L["Frame Strata"],
+							values = {
+								["BACKGROUND"] = "BACKGROUND",
+								["LOW"] = "LOW",
+								["MEDIUM"] = "MEDIUM",
+								["HIGH"] = "HIGH",
+								["DIALOG"] = "DIALOG",
+								["TOOLTIP"] = "TOOLTIP",
+							},
+						},
+						spacer = {
+							order = 3,
+							type = "description",
+							name = "",
+						},
+						useCustomLevel = {
+							order = 4,
+							type = "toggle",
+							name = L["Use Custom Level"],
+						},
+						frameLevel = {
+							order = 5,
+							type = "range",
+							name = L["Frame Level"],
+							min = 2, max = 128, step = 1,
+						},
+					},
+				},
+			},
+		}
+	end
 
 	return config
 end
@@ -3407,6 +3635,11 @@ E.Options.args.unitframe = {
 								MAELSTROM = {
 									order = 29,
 									name = L["MAELSTROM"],
+									type = 'color'
+								},
+								ALT_POWER = {
+									order = 30,
+									name = L["Swapped Alt Power"],
 									type = 'color'
 								},
 							},
@@ -4181,168 +4414,6 @@ E.Options.args.unitframe.args.player = {
 				},
 			},
 		},
-		classbar = {
-			type = 'group',
-			name = L["Classbar"],
-			get = function(info) return E.db.unitframe.units.player.classbar[info[#info]] end,
-			set = function(info, value) E.db.unitframe.units.player.classbar[info[#info]] = value; UF:CreateAndUpdateUF('player') end,
-			args = {
-				header = {
-					order = 1,
-					type = "header",
-					name = L["Classbar"],
-				},
-				enable = {
-					type = 'toggle',
-					order = 2,
-					name = L["Enable"],
-				},
-				height = {
-					type = 'range',
-					order = 3,
-					name = L["Height"],
-					min = ((E.db.unitframe.thinBorders or E.PixelMode) and 3 or 7),
-					max = (E.db.unitframe.units.player.classbar.detachFromFrame and 300 or 30),
-					step = 1,
-				},
-				fill = {
-					type = 'select',
-					order = 4,
-					name = L["Fill"],
-					values = {
-						['fill'] = L["Filled"],
-						['spaced'] = L["Spaced"],
-					},
-				},
-				autoHide = {
-					order = 5,
-					type = 'toggle',
-					name = L["Auto-Hide"],
-				},
-				additionalPowerText = {
-					order = 6,
-					type = "toggle",
-					name = L["Additional Power Text"],
-				},
-				spacer = {
-					order = 10,
-					type = "description",
-					name = "",
-				},
-				detachGroup = {
-					order = 20,
-					type = "group",
-					name = L["Detach From Frame"],
-					get = function(info) return E.db.unitframe.units.player.classbar[info[#info]] end,
-					set = function(info, value) E.db.unitframe.units.player.classbar[info[#info]] = value; UF:CreateAndUpdateUF('player') end,
-					guiInline = true,
-					args = {
-						detachFromFrame = {
-							type = 'toggle',
-							order = 1,
-							name = L["Enable"],
-							width = 'full',
-							set = function(info, value)
-								if value == true then
-									E.Options.args.unitframe.args.player.args.classbar.args.height.max = 300
-								else
-									E.Options.args.unitframe.args.player.args.classbar.args.height.max = 30
-								end
-								E.db.unitframe.units.player.classbar[info[#info]] = value;
-								UF:CreateAndUpdateUF('player')
-							end,
-						},
-						detachedWidth = {
-							type = 'range',
-							order = 2,
-							name = L["Detached Width"],
-							disabled = function() return not E.db.unitframe.units.player.classbar.detachFromFrame end,
-							min = ((E.db.unitframe.thinBorders or E.PixelMode) and 3 or 7), max = 800, step = 1,
-						},
-						orientation = {
-							type = 'select',
-							order = 3,
-							name = L["Frame Orientation"],
-							disabled = function() return not E.db.unitframe.units.player.classbar.detachFromFrame end,
-							values = {
-								['HORIZONTAL'] = L["Horizontal"],
-								['VERTICAL'] = L["Vertical"],
-							},
-						},
-						verticalOrientation = {
-							order = 4,
-							type = "toggle",
-							name = L["Vertical Fill Direction"],
-							disabled = function() return not E.db.unitframe.units.player.classbar.detachFromFrame end,
-						},
-						spacing = {
-							order = 5,
-							type = "range",
-							name = L["Spacing"],
-							min = ((E.db.unitframe.thinBorders or E.PixelMode) and -1 or -4), max = 20, step = 1,
-							disabled = function() return not E.db.unitframe.units.player.classbar.detachFromFrame end,
-						},
-						parent = {
-							type = 'select',
-							order = 6,
-							name = L["Parent"],
-							desc = L["Choose UIPARENT to prevent it from hiding with the unitframe."],
-							disabled = function() return not E.db.unitframe.units.player.classbar.detachFromFrame end,
-							values = {
-								["FRAME"] = "FRAME",
-								["UIPARENT"] = "UIPARENT",
-							},
-						},
-						strataAndLevel = {
-							order = 10,
-							type = "group",
-							name = L["Strata and Level"],
-							get = function(info) return E.db.unitframe.units.player.classbar.strataAndLevel[info[#info]] end,
-							set = function(info, value) E.db.unitframe.units.player.classbar.strataAndLevel[info[#info]] = value; UF:CreateAndUpdateUF('player') end,
-							guiInline = true,
-							disabled = function() return not E.db.unitframe.units.player.classbar.detachFromFrame end,
-							hidden = function() return not E.db.unitframe.units.player.classbar.detachFromFrame end,
-							args = {
-								useCustomStrata = {
-									order = 1,
-									type = "toggle",
-									name = L["Use Custom Strata"],
-								},
-								frameStrata = {
-									order = 2,
-									type = "select",
-									name = L["Frame Strata"],
-									values = {
-										["BACKGROUND"] = "BACKGROUND",
-										["LOW"] = "LOW",
-										["MEDIUM"] = "MEDIUM",
-										["HIGH"] = "HIGH",
-										["DIALOG"] = "DIALOG",
-										["TOOLTIP"] = "TOOLTIP",
-									},
-								},
-								spacer = {
-									order = 3,
-									type = "description",
-									name = "",
-								},
-								useCustomLevel = {
-									order = 4,
-									type = "toggle",
-									name = L["Use Custom Level"],
-								},
-								frameLevel = {
-									order = 5,
-									type = "range",
-									name = L["Frame Level"],
-									min = 2, max = 128, step = 1,
-								},
-							},
-						},
-					},
-				},
-			},
-		},
 		RestIcon = {
 			type = 'group',
 			name = L["Rest Icon"],
@@ -4573,6 +4644,7 @@ E.Options.args.unitframe.args.player = {
 		aurabar = GetOptionsTable_AuraBars(UF.CreateAndUpdateUF, 'player'),
 		buffs = GetOptionsTable_Auras('buffs', false, UF.CreateAndUpdateUF, 'player'),
 		castbar = GetOptionsTable_Castbar(true, UF.CreateAndUpdateUF, 'player'),
+		classbar = GetOptionsTable_ClassBar(UF.CreateAndUpdateUF, 'player'),
 		customText = GetOptionsTable_CustomText(UF.CreateAndUpdateUF, 'player'),
 		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateUF, 'player'),
 		debuffs = GetOptionsTable_Auras('debuffs', false, UF.CreateAndUpdateUF, 'player'),
@@ -6252,6 +6324,7 @@ E.Options.args.unitframe.args.party = {
 		buffIndicator = GetOptionsTable_AuraWatch(UF.CreateAndUpdateHeaderGroup, 'party'),
 		buffs = GetOptionsTable_Auras('buffs', true, UF.CreateAndUpdateHeaderGroup, 'party'),
 		castbar = GetOptionsTable_Castbar(false, UF.CreateAndUpdateHeaderGroup, 'party', 5),
+		classbar = GetOptionsTable_ClassBar(UF.CreateAndUpdateHeaderGroup, 'party'),
 		customText = GetOptionsTable_CustomText(UF.CreateAndUpdateHeaderGroup, 'party'),
 		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateHeaderGroup, 'party'),
 		debuffs = GetOptionsTable_Auras('debuffs', true, UF.CreateAndUpdateHeaderGroup, 'party'),
@@ -6272,6 +6345,8 @@ E.Options.args.unitframe.args.party = {
 		summonIcon = GetOptionsTable_SummonIcon(UF.CreateAndUpdateHeaderGroup, 'party'),
 	},
 }
+E.Options.args.unitframe.args.party.args.classbar.name = L["Alternative Power"]
+E.Options.args.unitframe.args.party.args.classbar.args.header.name = L["Alternative Power"]
 
 --Raid Frames
 E.Options.args.unitframe.args.raid = {
@@ -6536,6 +6611,7 @@ E.Options.args.unitframe.args.raid = {
 		},
 		buffIndicator = GetOptionsTable_AuraWatch(UF.CreateAndUpdateHeaderGroup, 'raid'),
 		buffs = GetOptionsTable_Auras('buffs', true, UF.CreateAndUpdateHeaderGroup, 'raid'),
+		classbar = GetOptionsTable_ClassBar(UF.CreateAndUpdateHeaderGroup, 'raid'),
 		customText = GetOptionsTable_CustomText(UF.CreateAndUpdateHeaderGroup, 'raid'),
 		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateHeaderGroup, 'raid'),
 		debuffs = GetOptionsTable_Auras('debuffs', true, UF.CreateAndUpdateHeaderGroup, 'raid'),
@@ -6556,6 +6632,8 @@ E.Options.args.unitframe.args.raid = {
 		summonIcon = GetOptionsTable_SummonIcon(UF.CreateAndUpdateHeaderGroup, 'raid'),
 	},
 }
+E.Options.args.unitframe.args.raid.args.classbar.name = L["Alternative Power"]
+E.Options.args.unitframe.args.raid.args.classbar.args.header.name = L["Alternative Power"]
 
 --Raid-40 Frames
 E.Options.args.unitframe.args.raid40 = {
@@ -6743,7 +6821,7 @@ E.Options.args.unitframe.args.raid40 = {
 							confirm = true,
 							func = function()
 								E.db.unitframe.units.raid40.visibility = P.unitframe.units.raid40.visibility
-								UF:CreateAndUpdateHeaderGroup('raid', nil, nil, true)
+								UF:CreateAndUpdateHeaderGroup('raid40', nil, nil, true)
 							end,
 						},
 						visibility = {
@@ -6820,6 +6898,7 @@ E.Options.args.unitframe.args.raid40 = {
 		},
 		buffIndicator = GetOptionsTable_AuraWatch(UF.CreateAndUpdateHeaderGroup, 'raid40'),
 		buffs = GetOptionsTable_Auras('buffs', true, UF.CreateAndUpdateHeaderGroup, 'raid40'),
+		classbar = GetOptionsTable_ClassBar(UF.CreateAndUpdateHeaderGroup, 'raid40'),
 		customText = GetOptionsTable_CustomText(UF.CreateAndUpdateHeaderGroup, 'raid40'),
 		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateHeaderGroup, 'raid40'),
 		debuffs = GetOptionsTable_Auras('debuffs', true, UF.CreateAndUpdateHeaderGroup, 'raid40'),
@@ -6840,6 +6919,8 @@ E.Options.args.unitframe.args.raid40 = {
 		summonIcon = GetOptionsTable_SummonIcon(UF.CreateAndUpdateHeaderGroup, 'raid40'),
 	},
 }
+E.Options.args.unitframe.args.raid40.args.classbar.name = L["Alternative Power"]
+E.Options.args.unitframe.args.raid40.args.classbar.args.header.name = L["Alternative Power"]
 
 --Raid Pet Frames
 E.Options.args.unitframe.args.raidpet = {

@@ -62,8 +62,8 @@ E.version = GetAddOnMetadata('ElvUI', 'Version')
 E.wowpatch, E.wowbuild = GetBuildInfo()
 E.wowbuild = tonumber(E.wowbuild)
 E.IsRetail = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
-E.resolution = ({GetScreenResolutions()})[GetCurrentResolution()] or GetCVar('gxWindowedResolution') --only used for now in our install.lua line 779
 E.screenwidth, E.screenheight = GetPhysicalScreenSize()
+E.resolution = format('%dx%d', E.screenwidth, E.screenheight)
 E.isMacClient = IsMacClient()
 E.NewSign = '|TInterface\\OptionsFrame\\UI-OptionsFrame-NewFeatureIcon:14:14|t' -- not used by ElvUI yet, but plugins like BenikUI and MerathilisUI use it.
 E.TexturePath = 'Interface\\AddOns\\ElvUI\\Media\\Textures\\' -- for plugins?
@@ -1277,6 +1277,23 @@ function E:InitializeModules()
 	end
 end
 
+local function buffwatchConvert(spell)
+	if spell.sizeOverride then
+		local newSize = spell.sizeOverride
+		spell.size = (newSize > 8 and newSize) or 8
+		spell.sizeOverride = nil
+	elseif not spell.size or spell.size < 6 then
+		spell.size = 6
+	end
+
+	if spell.styleOverride then
+		spell.style = spell.styleOverride
+		spell.styleOverride = nil
+	elseif not spell.style then
+		spell.style = 'coloredIcon'
+	end
+end
+
 function E:DBConversions()
 	--Fix issue where UIScale was incorrectly stored as string
 	E.global.general.UIScale = tonumber(E.global.general.UIScale)
@@ -1474,19 +1491,14 @@ function E:DBConversions()
 		E.db.nameplates.units.ENEMY_NPC.minions = nil
 	end
 
-	if E.global.unitframe.buffwatch then
-		for class, spellTable in pairs(E.global.unitframe.buffwatch) do
-			for spellID in pairs(spellTable) do
-				if E.global.unitframe.buffwatch[class][spellID].sizeOverride then
-					E.global.unitframe.buffwatch[class][spellID].size = E.global.unitframe.buffwatch[class][spellID].sizeOverride
-					E.global.unitframe.buffwatch[class][spellID].sizeOverride = nil
-				end
-				if E.global.unitframe.buffwatch[class][spellID].styleOverride then
-					E.global.unitframe.buffwatch[class][spellID].style = E.global.unitframe.buffwatch[class][spellID].styleOverride
-					E.global.unitframe.buffwatch[class][spellID].styleOverride = nil
-				end
-			end
+	-- removed override stuff from aurawatch
+	for _, spells in pairs(E.global.unitframe.buffwatch) do
+		for _, spell in pairs(spells) do
+			buffwatchConvert(spell)
 		end
+	end
+	for _, spell in pairs(E.db.unitframe.filters.buffwatch) do
+		buffwatchConvert(spell)
 	end
 end
 

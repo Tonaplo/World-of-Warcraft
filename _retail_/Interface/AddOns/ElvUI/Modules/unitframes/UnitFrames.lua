@@ -26,13 +26,14 @@ local UnitFrame_OnEnter = UnitFrame_OnEnter
 local UnitFrame_OnLeave = UnitFrame_OnLeave
 local UnregisterAttributeDriver = UnregisterAttributeDriver
 local UnregisterStateDriver = UnregisterStateDriver
+local PlaySound = PlaySound
 
 local C_NamePlate_GetNamePlateForUnit = C_NamePlate.GetNamePlateForUnit
 local SOUNDKIT_IG_CREATURE_AGGRO_SELECT = SOUNDKIT.IG_CREATURE_AGGRO_SELECT
 local SOUNDKIT_IG_CHARACTER_NPC_SELECT = SOUNDKIT.IG_CHARACTER_NPC_SELECT
 local SOUNDKIT_IG_CREATURE_NEUTRAL_SELECT = SOUNDKIT.IG_CREATURE_NEUTRAL_SELECT
 local SOUNDKIT_INTERFACE_SOUND_LOST_TARGET_UNIT = SOUNDKIT.INTERFACE_SOUND_LOST_TARGET_UNIT
-local PlaySound = PlaySound
+local ALTERNATE_POWER_INDEX = Enum.PowerType.Alternate or 10
 
 -- GLOBALS: ElvUF_Parent, Arena_LoadUI
 local hiddenParent = CreateFrame("Frame", nil, _G.UIParent)
@@ -85,13 +86,13 @@ UF.instanceMapIDs = {
 	[761]  = 10, -- The Battle for Gilneas
 	[968]  = 10, -- Rated Eye of the Storm
 	[998]  = 10, -- Temple of Kotmogu
-	[1105] = 15, -- Deepwind Gorge
 	[1280] = 40, -- Southshore vs Tarren Mill
 	[1681] = 15, -- Arathi Basin Winter
 	[1803] = 10, -- Seething Shore
 	[2106] = 10, -- Warsong Gulch
 	[2107] = 15, -- Arathi Basin
 	[2118] = 40, -- Battle for Wintergrasp
+	[2245] = 15, -- Deepwind Gorge
 	[3358] = 15, -- Arathi Basin (NEW - Only Brawl?)
 }
 
@@ -373,6 +374,7 @@ function UF:UpdateColors()
 	ElvUF.colors.power.LUNAR_POWER = E:SetColorTable(ElvUF.colors.power.LUNAR_POWER, db.power.LUNAR_POWER)
 	ElvUF.colors.power.INSANITY = E:SetColorTable(ElvUF.colors.power.INSANITY, db.power.INSANITY)
 	ElvUF.colors.power.MAELSTROM = E:SetColorTable(ElvUF.colors.power.MAELSTROM, db.power.MAELSTROM)
+	ElvUF.colors.power[ALTERNATE_POWER_INDEX] = E:SetColorTable(ElvUF.colors.power[ALTERNATE_POWER_INDEX], db.power.ALT_POWER)
 
 	ElvUF.colors.threat[0] = E:SetColorTable(ElvUF.colors.threat[0], db.threat[0])
 	ElvUF.colors.threat[1] = E:SetColorTable(ElvUF.colors.threat[1], db.threat[1])
@@ -557,6 +559,10 @@ function UF:Update_AllFrames()
 			self[unit]:Disable()
 			E:DisableMover(self[unit].mover:GetName())
 		end
+
+		if self[unit].isForced then
+			self:ForceShow(self[unit])
+		end
 	end
 
 	UF:UpdateAllHeaders()
@@ -593,9 +599,6 @@ function UF:CreateAndUpdateUFGroup(group, numGroup)
 
 			frame.Update()
 
-			if frame.isForced then
-				self:ForceShow(frame)
-			end
 			E:EnableMover(frame.mover:GetName())
 		else
 			frame:Disable()
@@ -610,6 +613,10 @@ function UF:CreateAndUpdateUFGroup(group, numGroup)
 			end
 
 			E:DisableMover(frame.mover:GetName())
+		end
+
+		if frame.isForced then
+			self:ForceShow(frame)
 		end
 	end
 end

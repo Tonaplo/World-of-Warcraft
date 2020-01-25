@@ -51,7 +51,7 @@ function S:Blizzard_Collections()
 
 	S:HandleIcon(MountJournal.MountDisplay.InfoButton.Icon)
 	S:HandleCheckBox(MountJournal.MountDisplay.ModelScene.TogglePlayer)
-	MountJournal.MountDisplay.ModelScene.TogglePlayer:SetSize(22, 22)
+	MountJournal.MountDisplay.ModelScene.TogglePlayer:Size(22)
 
 	S:HandleButton(_G.MountJournalMountButton, true)
 	S:HandleEditBox(_G.MountJournalSearchBox)
@@ -507,6 +507,9 @@ function S:Blizzard_Collections()
 		end
 	end)
 
+	_G.WardrobeSetsCollectionVariantSetsButton.Icon:SetTexture(E.Media.Textures.ArrowUp)
+	_G.WardrobeSetsCollectionVariantSetsButton.Icon:SetRotation(S.ArrowRotation['down'])
+
 	-- Transmogrify NPC
 	local WardrobeFrame = _G.WardrobeFrame
 	S:HandlePortraitFrame(WardrobeFrame, true)
@@ -517,7 +520,8 @@ function S:Blizzard_Collections()
 	S:HandleButton(_G.WardrobeOutfitDropDown.SaveButton)
 	S:HandleDropDownBox(_G.WardrobeOutfitDropDown, 221)
 	_G.WardrobeOutfitDropDown:SetHeight(34)
-	_G.WardrobeOutfitDropDown.SaveButton:SetPoint("TOPLEFT", _G.WardrobeOutfitDropDown, "TOPRIGHT", -2, -2)
+	_G.WardrobeOutfitDropDown.SaveButton:ClearAllPoints()
+	_G.WardrobeOutfitDropDown.SaveButton:Point("TOPLEFT", _G.WardrobeOutfitDropDown, "TOPRIGHT", -2, -2)
 
 	local WardrobeTransmogFrame = _G.WardrobeTransmogFrame
 	WardrobeTransmogFrame:StripTextures()

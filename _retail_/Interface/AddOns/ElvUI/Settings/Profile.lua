@@ -107,13 +107,6 @@ P.general = {
 				xOffset = 8,
 				yOffset = -8,
 			},
-			vehicleLeave = {
-				scale = 1,
-				position = 'BOTTOMLEFT',
-				xOffset = 2,
-				yOffset = 2,
-				hide = false,
-			},
 			ticket = {
 				scale = 1,
 				position = 'TOPRIGHT',
@@ -508,6 +501,7 @@ P.nameplates = {
 			PAIN = {r = 225/255, g = 225/255, b = 225/255, atlas = '_DemonHunter-DemonicPainBar'},
 			RAGE = {r = 0.78, g = 0.25, b = 0.25},
 			RUNIC_POWER = {r = 0, g = 0.82, b = 1},
+			ALT_POWER = {r = 0.2, g = 0.4, b = 0.8},
 		},
 		selection = {
 			[ 0] = {r = 254/255, g = 045/255, b = 045/255}, -- HOSTILE
@@ -691,7 +685,7 @@ P.nameplates = {
 			enable = true,
 			showTitle = true,
 			nameOnly = true,
-			nazjatarFollowerXP = {
+			widgetXPBar = {
 				enable = true,
 				yOffset = -4,
 				color = {
@@ -718,6 +712,15 @@ P.nameplates = {
 			enable = true,
 			showTitle = true,
 			nameOnly = false,
+			widgetXPBar = {
+				enable = true,
+				yOffset = -4,
+				color = {
+					r = 0.529,
+					g = 0.808,
+					b = 0.922
+				}
+			},
 			buffs = CopyTable(NP_Auras),
 			castbar = CopyTable(NP_Castbar),
 			debuffs = CopyTable(NP_Auras),
@@ -771,6 +774,7 @@ P.nameplates.units.FRIENDLY_NPC.debuffs.growthY = 'UP'
 P.nameplates.units.FRIENDLY_NPC.debuffs.yOffset = 35
 P.nameplates.units.FRIENDLY_NPC.debuffs.priority = 'Blacklist,Boss,CCDebuffs,RaidDebuffs,Dispellable'
 P.nameplates.units.FRIENDLY_NPC.level.format = '[difficultycolor][level][shortclassification]'
+P.nameplates.units.FRIENDLY_NPC.title.format = '[npctitle]'
 
 P.nameplates.units.ENEMY_NPC.buffs.priority = 'Blacklist,RaidBuffsElvUI,Dispellable,blockNoDuration,PlayerBuffs,TurtleBuffs,CastByUnit'
 P.nameplates.units.ENEMY_NPC.debuffs.anchorPoint = 'TOPRIGHT'
@@ -1158,11 +1162,13 @@ local UF_PhaseIndicator = {
 }
 
 local UF_Portrait = {
-	camDistanceScale = 2,
 	enable = false,
+	paused = false,
 	fullOverlay = false,
 	overlay = false,
-	overlayAlpha = 0.35,
+	overlayAlpha = 0.5,
+	camDistanceScale = 2,
+	desaturation =  0,
 	rotation = 0,
 	style = '3D',
 	width = 45,
@@ -1187,6 +1193,7 @@ local UF_Power = {
 	width = 'fill',
 	xOffset = 2,
 	yOffset = 0,
+	displayAltPower = false,
 	strataAndLevel = {
 		frameLevel = 1,
 		frameStrata = 'LOW',
@@ -1295,6 +1302,29 @@ local UF_SubGroup = {
 	raidicon = CopyTable(UF_RaidIcon),
 }
 
+local UF_ClassBar = {
+	enable = true,
+	fill = 'fill',
+	height = 10,
+	autoHide = false,
+	sortDirection = 'asc',
+	additionalPowerText = false,
+	altPowerColor = { r = 0.2, g = 0.4, b = 0.8 },
+	altPowerTextFormat = '[altpower:current]',
+	detachFromFrame = false,
+	detachedWidth = 250,
+	parent = 'FRAME',
+	verticalOrientation = false,
+	orientation = 'HORIZONTAL',
+	spacing = 5,
+	strataAndLevel = {
+		useCustomStrata = false,
+		frameStrata = 'LOW',
+		useCustomLevel = false,
+		frameLevel = 1,
+	},
+}
+
 --UnitFrame
 P.unitframe = {
 	smoothbars = false,
@@ -1364,6 +1394,7 @@ P.unitframe = {
 			LUNAR_POWER = {r = .9, g = .86, b = .12},
 			INSANITY = {r = 0.55, g = 0.14, b = 0.69},
 			MAELSTROM = {r = 0, g = 0.5, b = 1},
+			ALT_POWER = {r = 0.2, g = 0.4, b = 0.8},
 		},
 		reaction = {
 			BAD = { r = 199/255, g = 64/255, b = 64/255 },
@@ -1485,26 +1516,7 @@ P.unitframe = {
 				size = 20,
 				texture = 'DEFAULT',
 			},
-			classbar = {
-				enable = true,
-				fill = 'fill',
-				height = 10,
-				autoHide = false,
-				sortDirection = 'asc',
-				additionalPowerText = true,
-				detachFromFrame = false,
-				detachedWidth = 250,
-				parent = 'FRAME',
-				verticalOrientation = false,
-				orientation = 'HORIZONTAL',
-				spacing = 5,
-				strataAndLevel = {
-					useCustomStrata = false,
-					frameStrata = 'LOW',
-					useCustomLevel = false,
-					frameLevel = 1,
-				},
-			},
+			classbar = CopyTable(UF_ClassBar),
 			stagger = {
 				enable = true,
 				width = 10,
@@ -1705,6 +1717,7 @@ P.unitframe = {
 			buffIndicator = CopyTable(UF_AuraWatch),
 			buffs = CopyTable(UF_Auras),
 			castbar = CopyTable(UF_Castbar),
+			classbar = CopyTable(UF_ClassBar),
 			cutaway = CopyTable(UF_Cutaway),
 			debuffs = CopyTable(UF_Auras),
 			fader = CopyTable(UF_Fader),
@@ -1755,6 +1768,7 @@ P.unitframe.units.player.aurabar.maxDuration = 120
 P.unitframe.units.player.aurabar.priority = 'Blacklist,blockNoDuration,Personal,Boss,RaidDebuffs,PlayerBuffs'
 P.unitframe.units.player.buffs.attachTo = 'DEBUFFS'
 P.unitframe.units.player.buffs.priority = 'Blacklist,Personal,PlayerBuffs,Whitelist,blockNoDuration,nonPersonal'
+P.unitframe.units.player.classbar.additionalPowerText = true
 P.unitframe.units.player.debuffs.enable = true
 P.unitframe.units.player.debuffs.priority = 'Blacklist,Personal,nonPersonal'
 P.unitframe.units.player.fader.enable = false
@@ -2106,6 +2120,7 @@ P.actionbar = {
 	barPet = {
 		enabled = true,
 		mouseover = false,
+		clickThrough = false,
 		buttons = _G.NUM_PET_ACTION_SLOTS,
 		buttonsPerRow = 1,
 		point = 'TOPRIGHT',
@@ -2123,6 +2138,7 @@ P.actionbar = {
 		enabled = true,
 		style = 'darkenInactive',
 		mouseover = false,
+		clickThrough = false,
 		buttonsPerRow = _G.NUM_STANCE_SLOTS,
 		buttons = _G.NUM_STANCE_SLOTS,
 		point = 'TOPLEFT',
@@ -2142,12 +2158,19 @@ P.actionbar = {
 		scale = 1,
 		inheritGlobalFade = false,
 	},
+	vehicleExitButton = {
+		enable = true,
+		size = 32,
+		level = 1,
+		strata = 'MEDIUM'
+	}
 };
 
 for i = 1, 10 do
 	P.actionbar['bar'..i] = {
 		enabled = false,
 		mouseover = false,
+		clickThrough = false,
 		buttons = 12,
 		buttonsPerRow = 12,
 		point = 'BOTTOMLEFT',

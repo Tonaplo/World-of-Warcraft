@@ -467,15 +467,15 @@ function S:HandleDropDownBox(frame, width, pos)
 
 	frame:CreateBackdrop()
 	frame:SetFrameLevel(frame:GetFrameLevel() + 2)
-	frame.backdrop:SetPoint("TOPLEFT", 20, -2)
-	frame.backdrop:SetPoint("BOTTOMRIGHT", button, "BOTTOMRIGHT", 2, -2)
+	frame.backdrop:Point("TOPLEFT", 20, -2)
+	frame.backdrop:Point("BOTTOMRIGHT", button, "BOTTOMRIGHT", 2, -2)
 
 	button:ClearAllPoints()
 
 	if pos then
-		button:SetPoint("TOPRIGHT", frame.Right, -20, -21)
+		button:Point("TOPRIGHT", frame.Right, -20, -21)
 	else
-		button:SetPoint("RIGHT", frame, "RIGHT", -10, 3)
+		button:Point("RIGHT", frame, "RIGHT", -10, 3)
 	end
 
 	button.SetPoint = E.noop
@@ -483,11 +483,11 @@ function S:HandleDropDownBox(frame, width, pos)
 
 	if text then
 		text:ClearAllPoints()
-		text:SetPoint("RIGHT", button, "LEFT", -2, 0)
+		text:Point("RIGHT", button, "LEFT", -2, 0)
 	end
 
 	if icon then
-		icon:SetPoint("LEFT", 23, 0)
+		icon:Point("LEFT", 23, 0)
 	end
 end
 
@@ -1115,41 +1115,6 @@ function S:WorldMapMixin_AddOverlayFrame(frame, templateName)
 	S[templateName](frame.overlayFrames[#frame.overlayFrames])
 end
 
--- Override for NineSlice Credits Aurora
-do -- SharedXML\NineSlice.lua
-	local nineSliceSetup = {
-		"TopLeftCorner",
-		"TopRightCorner",
-		"BottomLeftCorner",
-		"BottomRightCorner",
-		"TopEdge",
-		"BottomEdge",
-		"LeftEdge",
-		"RightEdge",
-		"Center",
-	}
-
-	local function GetNineSlicePiece(container, pieceName)
-		if container.GetNineSlicePiece then
-			return container:GetNineSlicePiece(pieceName)
-		end
-
-		return container[pieceName]
-	end
-
-	function NineSliceUtil.ApplyLayout(container, userLayout, textureKit)
-		if not container.IsSkinned then return end
-		container:SetBackdrop(nil)
-		for i = 1, #nineSliceSetup do
-			local piece = GetNineSlicePiece(container, nineSliceSetup[i])
-			if piece then
-				piece:SetTexture("")
-			end
-		end
-	end
-end
-hooksecurefunc(_G.NineSliceUtil, "ApplyLayout", NineSliceUtil.ApplyLayout)
-
 -- UIWidgets
 function S:SkinIconAndTextWidget()
 end
@@ -1236,8 +1201,9 @@ function S:SkinSpellDisplay(widgetFrame)
 		end
 
 		local x = E.PixelMode and 1 or 2
-		spell.Icon.backdrop:SetPoint("TOPLEFT", spell.Icon, -x, x)
-		spell.Icon.backdrop:SetPoint("BOTTOMRIGHT", spell.Icon, x, -x)
+		spell.Icon.backdrop:ClearAllPoints()
+		spell.Icon.backdrop:Point("TOPLEFT", spell.Icon, -x, x)
+		spell.Icon.backdrop:Point("BOTTOMRIGHT", spell.Icon, x, -x)
 	end
 end
 
@@ -1409,8 +1375,8 @@ function S:Initialize()
 
 			if not widgetInfo.backdrop then
 				widgetInfo:CreateBackdrop()
-				widgetInfo.backdrop:SetPoint("TOPLEFT", widgetInfo.LeftBar, -2, 2)
-				widgetInfo.backdrop:SetPoint("BOTTOMRIGHT", widgetInfo.RightBar, 2, -2)
+				widgetInfo.backdrop:Point("TOPLEFT", widgetInfo.LeftBar, -2, 2)
+				widgetInfo.backdrop:Point("BOTTOMRIGHT", widgetInfo.RightBar, 2, -2)
 			end
 		end)
 

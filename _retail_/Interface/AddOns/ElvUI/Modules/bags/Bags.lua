@@ -8,7 +8,7 @@ local Search = E.Libs.ItemSearch
 local _G = _G
 local type, ipairs, pairs, unpack, select, assert, pcall = type, ipairs, pairs, unpack, select, assert, pcall
 local tinsert, tremove, twipe, tmaxn = tinsert, tremove, wipe, table.maxn
-local floor, ceil, abs = floor, ceil, abs
+local next, floor, ceil, abs = next, floor, ceil, abs
 local format, sub = format, strsub
 --WoW API / Variables
 local GetCVarBool = GetCVarBool
@@ -62,6 +62,7 @@ local SetItemButtonCount = SetItemButtonCount
 local SetItemButtonDesaturated = SetItemButtonDesaturated
 local SetItemButtonTexture = SetItemButtonTexture
 local SetItemButtonTextureVertexColor = SetItemButtonTextureVertexColor
+local SetItemButtonQuality = SetItemButtonQuality
 local SortBags = SortBags
 local SortBankBags = SortBankBags
 local SortReagentBankBags = SortReagentBankBags
@@ -69,7 +70,6 @@ local StaticPopup_Show = StaticPopup_Show
 local ToggleFrame = ToggleFrame
 local UseContainerItem = UseContainerItem
 
-local C_AzeriteEmpoweredItem_IsAzeriteEmpoweredItemByID = C_AzeriteEmpoweredItem.IsAzeriteEmpoweredItemByID
 local C_Item_CanScrapItem = C_Item.CanScrapItem
 local C_Item_DoesItemExist = C_Item.DoesItemExist
 local C_NewItems_IsNewItem = C_NewItems.IsNewItem
@@ -481,16 +481,13 @@ function B:UpdateSlot(frame, bagID, slotID)
 		slot.questIcon:Hide()
 	end
 
-	if slot.Azerite then
-		slot.Azerite:Hide()
-	end
-
 	slot.isJunk = (slot.rarity and slot.rarity == LE_ITEM_QUALITY_POOR) and not noValue
 	slot.junkDesaturate = slot.isJunk and E.db.bags.junkDesaturate
 
 	SetItemButtonTexture(slot, texture)
 	SetItemButtonCount(slot, count)
 	SetItemButtonDesaturated(slot, slot.locked or slot.junkDesaturate)
+	SetItemButtonQuality(slot, rarity, itemLink)
 
 	local color = E.db.bags.countFontColor
 	slot.Count:SetTextColor(color.r, color.g, color.b)
@@ -607,8 +604,6 @@ function B:UpdateSlot(frame, bagID, slotID)
 			slot:SetBackdropColor(unpack(E.db.bags.transparent and E.media.backdropfadecolor or E.media.backdropcolor))
 			slot.ignoreBorderColors = nil
 		end
-
-		if slot.Azerite and C_AzeriteEmpoweredItem_IsAzeriteEmpoweredItemByID(clink) then slot.Azerite:Show() end
 	elseif B.db.showAssignedColor and B.AssignmentColors[assignedBag] then
 		local rr, gg, bb = unpack(B.AssignmentColors[assignedBag])
 		slot.newItemGlow:SetVertexColor(rr, gg, bb)
@@ -761,8 +756,7 @@ function B:AssignBagFlagMenu()
 
 					if value then
 						holder.tempflag = i
-						holder.ElvUIFilterIcon.Icon:SetTexture(BAG_FILTER_ICONS[i])
-						holder.ElvUIFilterIcon.Icon:SetTexCoord(unpack(E.TexCoords))
+						holder.ElvUIFilterIcon:SetTexture(BAG_FILTER_ICONS[i])
 						holder.ElvUIFilterIcon:Show()
 					else
 						holder.ElvUIFilterIcon:Hide()
@@ -868,8 +862,7 @@ function B:Container_OnShow()
 				active = GetBagSlotFlag(self.id, i)
 			end
 			if active then
-				self.ElvUIFilterIcon.Icon:SetTexture(BAG_FILTER_ICONS[i])
-				self.ElvUIFilterIcon.Icon:SetTexCoord(unpack(E.TexCoords))
+				self.ElvUIFilterIcon:SetTexture(BAG_FILTER_ICONS[i])
 				self.ElvUIFilterIcon:Show()
 				break
 			end
@@ -878,41 +871,14 @@ function B:Container_OnShow()
 end
 
 function B:CreateFilterIcon(parent)
-	--Create FilterIcon element needed for item type assignment
-	parent.ElvUIFilterIcon = CreateFrame('Button', nil, parent)
+	--Create the texture showing the assignment type
+	parent.ElvUIFilterIcon = parent:CreateTexture(nil, 'OVERLAY')
 	parent.ElvUIFilterIcon:Hide()
-	parent.ElvUIFilterIcon:Size(18, 18)
+	parent.ElvUIFilterIcon:SetTexture('Interface/ICONS/INV_Potion_93')
 	parent.ElvUIFilterIcon:CreateBackdrop('Transparent')
 	parent.ElvUIFilterIcon:Point('TOPLEFT', parent, 'TOPLEFT', E.Border, -E.Border)
-	parent.ElvUIFilterIcon:RegisterForClicks('LeftButtonUp', 'RightButtonUp')
-	parent.ElvUIFilterIcon:SetScript('OnShow', function(efi)
-		efi:SetFrameLevel(efi:GetParent():GetFrameLevel()+1)
-	end)
-
-	--Create the texture showing the assignment type
-	parent.ElvUIFilterIcon.Icon = parent.ElvUIFilterIcon:CreateTexture(nil, 'BORDER')
-	parent.ElvUIFilterIcon.Icon:SetTexture('Interface/ICONS/INV_Potion_93')
-	parent.ElvUIFilterIcon.Icon:SetTexCoord(unpack(E.TexCoords))
-	parent.ElvUIFilterIcon.Icon:Size(18, 18)
-	parent.ElvUIFilterIcon.Icon:Point('CENTER')
-
-	--Re-route various mouse events to the underlying container bag icon
-	parent.ElvUIFilterIcon:SetScript('OnEnter', function(efi)
-		local target = efi:GetParent()
-		target:GetScript('OnEnter')(target)
-	end)
-	parent.ElvUIFilterIcon:SetScript('OnLeave', function(efi)
-		local target = efi:GetParent()
-		target:GetScript('OnLeave')(target)
-	end)
-	parent.ElvUIFilterIcon:SetScript('OnClick', function(efi, btn)
-		local target = efi:GetParent()
-		target:GetScript('OnClick')(target, btn)
-	end)
-	parent.ElvUIFilterIcon:SetScript('OnReceiveDrag', function(efi)
-		local target = efi:GetParent()
-		target:GetScript('OnReceiveDrag')(target)
-	end)
+	parent.ElvUIFilterIcon:SetTexCoord(unpack(E.TexCoords))
+	parent.ElvUIFilterIcon:Size(18, 18)
 
 	--Update FilterIcon texture when container is shown
 	parent:HookScript('OnShow', B.Container_OnShow)
@@ -940,11 +906,19 @@ function B:Layout(isBank)
 
 	f.totalSlots = 0
 	local lastButton, lastRowButton, newBag
-	local numContainerSlots = isBank and GetNumBankSlots() + 1 or 5
+	local numContainerSlots = isBank and 8 or 5
 
 	f.totalSlots = 0
 	f.holderFrame:Width(holderWidth)
 	f.ContainerHolder:Size(((buttonSize + buttonSpacing) * numContainerSlots) + buttonSpacing, buttonSize + (buttonSpacing * 2))
+
+	if isBank and not f.fullBank then
+		f.fullBank = select(2, GetNumBankSlots())
+		f.purchaseBagButton:SetShown(not f.fullBank)
+		if _G.BankFrame.selectedTab == 1 then
+			f.editBox:Point('RIGHT', f.fullBank and f.bagsButton or f.purchaseBagButton, 'LEFT', -5, 0)
+		end
+	end
 
 	for i, bagID in ipairs(f.BagIDs) do
 		local assignedBag
@@ -960,9 +934,10 @@ function B:Layout(isBank)
 				end
 
 				if (i - 1) > GetNumBankSlots() then
-					SetItemButtonTextureVertexColor(f.ContainerHolder[i], 1.0,0.1,0.1);
+					SetItemButtonTextureVertexColor(f.ContainerHolder[i], 1, .1, .1)
 					f.ContainerHolder[i].tooltipText = _G.BANK_BAG_PURCHASE;
 				else
+					SetItemButtonTextureVertexColor(f.ContainerHolder[i], 1, 1, 1)
 					f.ContainerHolder[i].tooltipText = ''
 				end
 			end
@@ -1143,8 +1118,8 @@ function B:UpdateReagentSlot(slotID)
 end
 
 function B:UpdateAll()
-	if B.BagFrame then B:Layout() end
-	if B.BankFrame then B:Layout(true) end
+	B:Layout()
+	B:Layout(true)
 end
 
 function B:OnEvent(event, ...)
@@ -1185,56 +1160,54 @@ end
 function B:UpdateTokens()
 	local f = B.BagFrame
 	local numTokens = 0
+
+	for _, button in ipairs(f.currencyButton) do
+		button:Hide()
+	end
+
 	for i = 1, MAX_WATCHED_TOKENS do
 		local name, count, icon, currencyID = GetBackpackCurrencyInfo(i)
+		if not name then break end
+
 		local button = f.currencyButton[i]
-
 		button:ClearAllPoints()
-		if name then
-			button.icon:SetTexture(icon)
+		button.icon:SetTexture(icon)
 
-			if B.db.currencyFormat == 'ICON_TEXT' then
-				button.text:SetText(name..': '..count)
-			elseif B.db.currencyFormat == 'ICON_TEXT_ABBR' then
-				button.text:SetText(E:AbbreviateString(name)..': '..count)
-			elseif B.db.currencyFormat == 'ICON' then
-				button.text:SetText(count)
-			end
-
-			button.currencyID = currencyID
-			button:Show()
-			numTokens = numTokens + 1
-		else
-			button:Hide()
+		if B.db.currencyFormat == 'ICON_TEXT' then
+			button.text:SetText(name..': '..count)
+		elseif B.db.currencyFormat == 'ICON_TEXT_ABBR' then
+			button.text:SetText(E:AbbreviateString(name)..': '..count)
+		elseif B.db.currencyFormat == 'ICON' then
+			button.text:SetText(count)
 		end
+
+		button.currencyID = currencyID
+		button:Show()
+
+		numTokens = numTokens + 1
 	end
 
 	if numTokens == 0 then
-		f.bottomOffset = 8
-
-		if f.currencyButton:IsShown() then
-			f.currencyButton:Hide()
+		if f.bottomOffset > 8 then
+			f.bottomOffset = 8
+			B:Layout()
+		end
+	else
+		if f.bottomOffset < 28 then
+			f.bottomOffset = 28
 			B:Layout()
 		end
 
-		return
-	elseif not f.currencyButton:IsShown() then
-		f.bottomOffset = 28
-		f.currencyButton:Show()
-		B:Layout()
-	end
-
-	f.bottomOffset = 28
-
-	if numTokens == 1 then
-		f.currencyButton[1]:Point('BOTTOM', f.currencyButton, 'BOTTOM', -(f.currencyButton[1].text:GetWidth() / 2), 3)
-	elseif numTokens == 2 then
-		f.currencyButton[1]:Point('BOTTOM', f.currencyButton, 'BOTTOM', -(f.currencyButton[1].text:GetWidth()) - (f.currencyButton[1]:GetWidth() / 2), 3)
-		f.currencyButton[2]:Point('BOTTOMLEFT', f.currencyButton, 'BOTTOM', f.currencyButton[2]:GetWidth() / 2, 3)
-	else
-		f.currencyButton[1]:Point('BOTTOMLEFT', f.currencyButton, 'BOTTOMLEFT', 3, 3)
-		f.currencyButton[2]:Point('BOTTOM', f.currencyButton, 'BOTTOM', -(f.currencyButton[2].text:GetWidth() / 3), 3)
-		f.currencyButton[3]:Point('BOTTOMRIGHT', f.currencyButton, 'BOTTOMRIGHT', -(f.currencyButton[3].text:GetWidth()) - (f.currencyButton[3]:GetWidth() / 2), 3)
+		if numTokens == 1 then
+			f.currencyButton[1]:Point('BOTTOM', f.currencyButton, 'BOTTOM', -(f.currencyButton[1].text:GetWidth() / 2), 3)
+		elseif numTokens == 2 then
+			f.currencyButton[1]:Point('BOTTOM', f.currencyButton, 'BOTTOM', -(f.currencyButton[1].text:GetWidth()) - (f.currencyButton[1]:GetWidth() / 2), 3)
+			f.currencyButton[2]:Point('BOTTOMLEFT', f.currencyButton, 'BOTTOM', f.currencyButton[2]:GetWidth() / 2, 3)
+		else
+			f.currencyButton[1]:Point('BOTTOMLEFT', f.currencyButton, 'BOTTOMLEFT', 3, 3)
+			f.currencyButton[2]:Point('BOTTOM', f.currencyButton, 'BOTTOM', -(f.currencyButton[2].text:GetWidth() / 3), 3)
+			f.currencyButton[3]:Point('BOTTOMRIGHT', f.currencyButton, 'BOTTOMRIGHT', -(f.currencyButton[3].text:GetWidth()) - (f.currencyButton[3]:GetWidth() / 2), 3)
+		end
 	end
 end
 
@@ -1242,6 +1215,11 @@ function B:Token_OnEnter()
 	local GameTooltip = _G.GameTooltip
 	GameTooltip:SetOwner(self, 'ANCHOR_RIGHT')
 	GameTooltip:SetBackpackToken(self:GetID())
+
+	if TT.db.spellID then
+		GameTooltip:AddLine(format("|cFFCA3C3C%s|r %d", _G.ID, self.currencyID))
+		GameTooltip:Show()
+	end
 end
 
 function B:Token_OnClick()
@@ -1427,7 +1405,6 @@ function B:ConstructContainerFrame(name, isBank)
 
 		if isBank then
 			f.ContainerHolder[i]:SetID(bagID - 4)
-			if not f.ContainerHolder[i].tooltipText then f.ContainerHolder[i].tooltipText = '' end
 			f.ContainerHolder[i].icon:SetTexture('Interface/Buttons/Button-Backpack-Up')
 			f.ContainerHolder[i]:SetScript('OnClick', function(holder, button)
 				if button == 'RightButton' and holder.id then
@@ -1536,6 +1513,8 @@ function B:ConstructContainerFrame(name, isBank)
 	f.editBox.searchIcon:Size(15, 15)
 
 	if isBank then
+		f.fullBank = select(2, GetNumBankSlots())
+
 		for _, event in pairs(f.events) do
 			f:RegisterEvent(event)
 		end
@@ -1663,16 +1642,12 @@ function B:ConstructContainerFrame(name, isBank)
 		--Toggle Bags Button
 		f.bagsButton:Point('RIGHT', f.depositButtonBank, 'LEFT', -5, 0)
 		f.bagsButton:SetScript('OnClick', function()
-			local numSlots = GetNumBankSlots()
+			ToggleFrame(f.ContainerHolder)
 			PlaySound(852) --IG_MAINMENU_OPTION
-			if numSlots >= 1 then
-				ToggleFrame(f.ContainerHolder)
-			else
-				E:StaticPopup_Show('NO_BANK_BAGS')
-			end
 		end)
 
 		f.purchaseBagButton = CreateFrame('Button', nil, f.holderFrame)
+		f.purchaseBagButton:SetShown(not f.fullBank)
 		f.purchaseBagButton:Size(16 + E.Border, 16 + E.Border)
 		f.purchaseBagButton:SetTemplate()
 		f.purchaseBagButton:Point('RIGHT', f.bagsButton, 'LEFT', -5, 0)
@@ -1709,7 +1684,6 @@ function B:ConstructContainerFrame(name, isBank)
 
 		--Search
 		f.editBox:Point('BOTTOMLEFT', f.holderFrame, 'TOPLEFT', (E.Border * 2) + 18, E.Border * 2 + 2)
-		f.editBox:Point('RIGHT', f.purchaseBagButton, 'LEFT', -5, 0)
 	else
 		--Gold Text
 		f.goldText = f:CreateFontString(nil, 'OVERLAY')
@@ -1830,32 +1804,28 @@ function B:ConstructContainerButton(f, slotID, bagID)
 	end
 
 	if not slot.JunkIcon then
-		slot.JunkIcon = slot:CreateTexture(nil, 'OVERLAY')
+		slot.JunkIcon = slot:CreateTexture(nil, 'OVERLAY', nil, 2)
 		slot.JunkIcon:SetAtlas('bags-junkcoin', true)
-		slot.JunkIcon:Point('TOPLEFT', 1, 0)
+		slot.JunkIcon:Point('TOPRIGHT', -1, -1)
 		slot.JunkIcon:Hide()
 	end
 
 	if not slot.ScrapIcon then
-		slot.ScrapIcon = slot:CreateTexture(nil, 'OVERLAY')
+		slot.ScrapIcon = slot:CreateTexture(nil, 'OVERLAY', nil, 2)
 		slot.ScrapIcon:SetAtlas('bags-icon-scrappable')
-		slot.ScrapIcon:Size(14, 12)
+		slot.ScrapIcon:SetSize(14, 12)
 		slot.ScrapIcon:Point('TOPRIGHT', -1, -1)
 		slot.ScrapIcon:Hide()
 	end
 
-	if not slot.Azerite then
-		slot.Azerite = slot:CreateTexture(nil, 'OVERLAY')
-		slot.Azerite:SetAtlas('AzeriteIconFrame')
-		slot.Azerite:SetTexCoord(0,1,0,1)
-		slot.Azerite:SetInside()
-		slot.Azerite:Hide()
-	end
-
 	slot.searchOverlay:SetAllPoints()
+	slot.IconBorder:SetAlpha(0)
+	slot.IconOverlay:SetInside()
+
 	slot.cooldown = _G[slot:GetName()..'Cooldown']
 	slot.cooldown.CooldownOverride = 'bags'
 	E:RegisterCooldown(slot.cooldown)
+
 	slot.bagID = bagID
 	slot.slotID = slotID
 
@@ -1893,6 +1863,10 @@ function B:ConstructReagentSlot(f, slotID)
 	slot:StyleButton()
 	slot:SetTemplate(E.db.bags.transparent and 'Transparent', true)
 	slot:SetNormalTexture(nil)
+
+	slot.icon:SetTexCoord(unpack(E.TexCoords))
+	slot.IconBorder:SetAlpha(0)
+	slot.IconOverlay:SetInside()
 
 	slot.Count:ClearAllPoints()
 	slot.Count:Point('BOTTOMRIGHT', 0, 2)
@@ -1995,7 +1969,7 @@ function B:ShowBankTab(f, showReagent)
 		_G.BankFrame.selectedTab = 1
 		f.reagentFrame:Hide()
 		f.holderFrame:Show()
-		f.editBox:Point('RIGHT', f.purchaseBagButton, 'LEFT', -5, 0)
+		f.editBox:Point('RIGHT', f.fullBank and f.bagsButton or f.purchaseBagButton, 'LEFT', -5, 0)
 		f.bagText:SetText(L["Bank"])
 	end
 end
@@ -2048,7 +2022,6 @@ function B:OpenBank()
 	B:Layout(true)
 
 	B:OpenBags()
-	B:UpdateTokens()
 
 	_G.BankFrame:Show()
 	B.BankFrame:Show()
@@ -2440,7 +2413,6 @@ function B:Initialize()
 	B:SecureHook('ToggleAllBags', 'ToggleBackpack')
 	B:SecureHook('ToggleBackpack')
 	B:SecureHook('BackpackTokenFrame_Update', 'UpdateTokens')
-	B:Layout()
 
 	B:DisableBlizzard()
 	B:RegisterEvent('PLAYER_ENTERING_WORLD')

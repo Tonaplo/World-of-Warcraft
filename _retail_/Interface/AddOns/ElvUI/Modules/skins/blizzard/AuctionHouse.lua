@@ -8,6 +8,7 @@ local GetItemInfo = GetItemInfo
 local GetItemQualityColor = GetItemQualityColor
 --WoW API / Variables
 local hooksecurefunc = hooksecurefunc
+local FRIENDS_BNET_NAME_COLOR = FRIENDS_BNET_NAME_COLOR
 
 --[[
 TO DO:
@@ -34,7 +35,7 @@ local function HandleSearchBarFrame(Frame)
 	S:HandleButton(Frame.SearchButton)
 	S:HandleEditBox(Frame.SearchBox)
 	S:HandleButton(Frame.FavoritesSearchButton)
-	Frame.FavoritesSearchButton:SetSize(22, 22)
+	Frame.FavoritesSearchButton:Size(22)
 end
 
 local function HandleListIcon(frame)
@@ -76,15 +77,15 @@ local function SkinItemDisplay(frame)
 	local ItemDisplay = frame.ItemDisplay
 	ItemDisplay:StripTextures()
 	ItemDisplay:CreateBackdrop("Transparent")
-	ItemDisplay.backdrop:SetPoint("TOPLEFT", 3, -3)
-	ItemDisplay.backdrop:SetPoint("BOTTOMRIGHT", -3, 0)
+	ItemDisplay.backdrop:Point("TOPLEFT", 3, -3)
+	ItemDisplay.backdrop:Point("BOTTOMRIGHT", -3, 0)
 
 	local ItemButton = ItemDisplay.ItemButton
 	ItemButton.CircleMask:Hide()
 
 	-- We skin the new IconBorder from the AH, it looks really cool tbh.
 	ItemButton.Icon:SetTexCoord(.08, .92, .08, .92)
-	ItemButton.Icon:SetSize(44, 44)
+	ItemButton.Icon:Size(44)
 	ItemButton.IconBorder:SetTexCoord(.08, .92, .08, .92)
 end
 
@@ -102,7 +103,7 @@ local function HandleHeaders(frame)
 		end
 
 		if header.backdrop then
-			header.backdrop:SetPoint("BOTTOMRIGHT", i < maxHeaders and -5 or 0, -2)
+			header.backdrop:Point("BOTTOMRIGHT", i < maxHeaders and -5 or 0, -2)
 		end
 	end
 
@@ -111,7 +112,7 @@ end
 
 local function HandleAuctionButtons(button)
 	S:HandleButton(button)
-	button:SetSize(22,22)
+	button:Size(22)
 end
 
 local function HandleSellFrame(frame)
@@ -149,8 +150,37 @@ local function HandleSellFrame(frame)
 
 	if frame.BuyoutModeCheckButton then
 		S:HandleCheckBox(frame.BuyoutModeCheckButton)
-		frame.BuyoutModeCheckButton:SetSize(20, 20)
+		frame.BuyoutModeCheckButton:Size(20)
 	end
+end
+
+local function HandleTokenSellFrame(frame)
+	frame:StripTextures()
+
+	local ItemDisplay = frame.ItemDisplay
+	ItemDisplay:StripTextures()
+	ItemDisplay:CreateBackdrop("Transparent")
+
+	local ItemButton = ItemDisplay.ItemButton
+	if ItemButton.IconMask then ItemButton.IconMask:Hide() end
+	if ItemButton.IconBorder then ItemButton.IconBorder:SetAlpha(0) end
+
+	ItemButton.EmptyBackground:Hide()
+	ItemButton:SetPushedTexture("")
+	ItemButton.Highlight:SetColorTexture(1, 1, 1, .25)
+	ItemButton.Highlight:SetAllPoints(ItemButton.Icon)
+
+	S:HandleIcon(ItemButton.Icon, true)
+	hooksecurefunc(ItemButton.IconBorder, "SetVertexColor", function(_, r, g, b) ItemButton.Icon.backdrop:SetBackdropBorderColor(r, g, b) end)
+	hooksecurefunc(ItemButton.IconBorder, "Hide", function() ItemButton.Icon.backdrop:SetBackdropBorderColor(0, 0, 0) end)
+
+	S:HandleButton(frame.PostButton)
+	HandleAuctionButtons(frame.DummyRefreshButton)
+
+	frame.DummyItemList:StripTextures()
+	frame.DummyItemList:CreateBackdrop("Transparent")
+	HandleAuctionButtons(frame.DummyRefreshButton)
+	S:HandleScrollBar(frame.DummyItemList.DummyScrollBar)
 end
 
 local function HandleSellList(frame, hasHeader)
@@ -190,7 +220,7 @@ local function LoadSkin()
 	end
 
 	_G.AuctionHouseFrameBuyTab:ClearAllPoints()
-	_G.AuctionHouseFrameBuyTab:SetPoint("BOTTOMLEFT", Frame, "BOTTOMLEFT", 0, -32)
+	_G.AuctionHouseFrameBuyTab:Point("BOTTOMLEFT", Frame, "BOTTOMLEFT", 0, -32)
 
 	-- SearchBar Frame
 	HandleSearchBarFrame(Frame.SearchBar)
@@ -212,8 +242,15 @@ local function LoadSkin()
 		button:StripTextures(true)
 		button:StyleButton()
 
-		button.SelectedTexture:SetAlpha(0)
+		button.SelectedTexture:SetInside(button)
 	end
+
+	hooksecurefunc("AuctionFrameFilters_UpdateCategories", function(categoriesList, _)
+		for _, button in ipairs(categoriesList.FilterButtons) do
+			button.SelectedTexture:SetAtlas(nil)
+			button.SelectedTexture:SetColorTexture(0.7, 0.7, 0.7, 0.4)
+		end
+	end)
 
 	--[[ Browse Frame ]]--
 	local Browse = Frame.BrowseResultsFrame
@@ -267,7 +304,7 @@ local function LoadSkin()
 
 	S:HandleButton(ItemBuyFrame.BidFrame.BidButton)
 	ItemBuyFrame.BidFrame.BidButton:ClearAllPoints()
-	ItemBuyFrame.BidFrame.BidButton:SetPoint("LEFT", ItemBuyFrame.BidFrame.BidAmount, "RIGHT", 2, -2)
+	ItemBuyFrame.BidFrame.BidButton:Point("LEFT", ItemBuyFrame.BidFrame.BidAmount, "RIGHT", 2, -2)
 	S:HandleButton(ItemBuyFrame.BidFrame.BidButton)
 
 	--[[ Item Sell Frame | TAB 2 ]]--
@@ -282,6 +319,9 @@ local function LoadSkin()
 
 	local ItemList = Frame.CommoditiesSellList
 	HandleSellList(ItemList, true)
+
+	local TokenSellFrame = Frame.WoWTokenSellFrame
+	HandleTokenSellFrame(TokenSellFrame)
 
 	--[[ Auctions Frame | TAB 3 ]]--
 	local AuctionsFrame = _G.AuctionHouseFrameAuctionsFrame
@@ -337,21 +377,21 @@ local function LoadSkin()
 
 	local ItemButton = Token.ItemButton
 	S:HandleIcon(ItemButton.Icon, true)
-	local _, _, itemRarity = GetItemInfo(_G.WOW_TOKEN_ITEM_ID)
-	local r, g, b
-	if itemRarity then
-		r, g, b = GetItemQualityColor(itemRarity)
-	end
-	ItemButton.Icon.backdrop:SetBackdropBorderColor(r, g, b)
+	ItemButton.Icon.backdrop:SetBackdropBorderColor(0, .8, 1)
 	ItemButton.IconBorder:SetAlpha(0)
 
 	--WoW Token Tutorial Frame
 	local WowTokenGameTimeTutorial = Frame.WoWTokenResults.GameTimeTutorial
+	WowTokenGameTimeTutorial.NineSlice:Hide()
 	WowTokenGameTimeTutorial.TitleBg:SetAlpha(0)
 	WowTokenGameTimeTutorial:CreateBackdrop("Transparent")
 	S:HandleCloseButton(WowTokenGameTimeTutorial.CloseButton)
 	S:HandleButton(WowTokenGameTimeTutorial.RightDisplay.StoreButton)
 	WowTokenGameTimeTutorial.Bg:SetAlpha(0)
+	WowTokenGameTimeTutorial.LeftDisplay.Label:SetTextColor(1, 1, 1)
+	WowTokenGameTimeTutorial.LeftDisplay.Tutorial1:SetTextColor(1, 0, 0)
+	WowTokenGameTimeTutorial.RightDisplay.Label:SetTextColor(1, 1, 1)
+	WowTokenGameTimeTutorial.RightDisplay.Tutorial1:SetTextColor(1, 0, 0)
 
 	--[[ Dialogs ]]--
 	Frame.BuyDialog:StripTextures()

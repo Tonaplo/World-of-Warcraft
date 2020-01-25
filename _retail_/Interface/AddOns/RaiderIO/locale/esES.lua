@@ -66,6 +66,10 @@ L["DUNGEON_SHORT_NAME_UNDR"] = "Catacumbas"
 L["DUNGEON_SHORT_NAME_UPPR"] = "Kara-S"
 L["DUNGEON_SHORT_NAME_VOTW"] = "Celadoras"
 L["DUNGEON_SHORT_NAME_WM"] = "Mansión "
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_WORK"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_YARD"] = ""--]] 
 L["ENABLE_AUTO_FRAME_POSITION"] = "Posicionar automáticamente el marco de perfil de RaiderIO"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "Fija la ventana emergente de perfil de M+ junto al marco del buscador de grupos o la ventana emergente de jugador."
 L["ENABLE_DEBUG_MODE_RELOAD"] = "Estás activando el modo depuración. Esto es solo para fines de pruebas y desarrollo, y puede incurrir en un aumento del uso de memoria. Haz clic en confirmar para recargar la interfaz."
@@ -146,6 +150,30 @@ L["RAID_BOSS_EP_5"] = "Orgozoa"
 L["RAID_BOSS_EP_6"] = "Corte de la reina"
 L["RAID_BOSS_EP_7"] = "Za'qul"
 L["RAID_BOSS_EP_8"] = "Reina Azshara"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_10"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_11"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_12"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_8"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_9"] = ""--]] 
 L["RAID_BOSS_ULD_1"] = "Taloc"
 L["RAID_BOSS_ULD_2"] = "MADRE"
 L["RAID_BOSS_ULD_3"] = "Devorador fétido"
@@ -177,6 +205,8 @@ L["RELOAD_NOW"] = "Reiniciarla ahora"
 L["SEASON_LABEL_1"] = "T1"
 L["SEASON_LABEL_2"] = "T2"
 L["SEASON_LABEL_3"] = "T3"
+--[[Translation missing --]]
+--[[ L["SEASON_LABEL_4"] = ""--]] 
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = "Mostrar puntuación media de M+ en tiempo"
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO_DESC"] = "Muestra la puntuación media de M+ en tiempo de los miembros de un grupo. Aparece en las descripciones emergentes de piedras angulares y jugadores en el buscador de grupos."
 L["SHOW_BEST_MAINS_SCORE"] = "Mostrar puntuación de M+ del personaje principal de la mejor temporada"

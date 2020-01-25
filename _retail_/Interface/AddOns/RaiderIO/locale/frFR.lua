@@ -67,6 +67,10 @@ L["DUNGEON_SHORT_NAME_UNDR"] = "UNDR"
 L["DUNGEON_SHORT_NAME_UPPR"] = "UPPR"
 L["DUNGEON_SHORT_NAME_VOTW"] = "VOTW"
 L["DUNGEON_SHORT_NAME_WM"] = "WM"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_WORK"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_YARD"] = ""--]] 
 L["ENABLE_AUTO_FRAME_POSITION"] = "Positionner le cadre de profil RaiderIO automatiquement "
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "Activer cette option gardera l'info-bulle de profil M+ à côté du cadre de recherche de donjon ou de l'info-bulle du joueur. "
 L["ENABLE_DEBUG_MODE_RELOAD"] = [=[Vous activez le mode de débogage. Ceci est destiné uniquement à des fins de test et de développement, et entraînera une utilisation supplémentaire de la mémoire.
@@ -151,6 +155,30 @@ L["RAID_BOSS_EP_5"] = "Orgozoa"
 L["RAID_BOSS_EP_6"] = "Cour de la reine"
 L["RAID_BOSS_EP_7"] = "Za'qul"
 L["RAID_BOSS_EP_8"] = "Reine Azshara"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_10"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_11"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_12"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_8"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_NYA_9"] = ""--]] 
 L["RAID_BOSS_ULD_1"] = "Taloc"
 L["RAID_BOSS_ULD_2"] = "DAME"
 L["RAID_BOSS_ULD_3"] = "Dévoreur Fétide"
@@ -186,6 +214,8 @@ L["SEASON_LABEL_1"] = "S1"
 L["SEASON_LABEL_2"] = "S2"
 --[[Translation missing --]]
 --[[ L["SEASON_LABEL_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SEASON_LABEL_4"] = ""--]] 
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = "Afficher le score moyen des joueurs pour une clé dans les temps"
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO_DESC"] = "Afficher la moyenne des scores Raider.IO des joueurs ayant fini une clé dans les temps. Cela est visible sur l'infobulle de la clé ainsi que des joueurs dans la recherche de groupe."
 L["SHOW_BEST_MAINS_SCORE"] = "Afficher le score Mythique+ de la meilleure saison du personnage principal"
