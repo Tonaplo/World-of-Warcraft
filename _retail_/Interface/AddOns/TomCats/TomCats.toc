@@ -2,7 +2,7 @@
 ## Title: TomCat's Tours
 ## Author: TomCat
 ## X-Website: https://www.tomcatstours.com
-## Version: 1.4.9
+## Version: 1.4.12
 ## DefaultState: enabled
 ## SavedVariablesPerCharacter: TomCats_Character
 ## SavedVariables: TomCats_Account

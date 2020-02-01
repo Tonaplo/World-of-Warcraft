@@ -9,9 +9,9 @@
 
 local mod, CL = BigWigs:NewBoss("N'Zoth, the Corruptor", 2217, 2375)
 if not mod then return end
-mod:RegisterEnableMob(158041) -- N'Zoth, the Corruptor
+mod:RegisterEnableMob(158041, 158376) -- N'Zoth, the Corruptor
 mod.engageId = 2344
---mod.respawnTime = 30
+mod.respawnTime = 49
 
 --------------------------------------------------------------------------------
 -- Locals
@@ -19,16 +19,16 @@ mod.engageId = 2344
 
 local mobCollector = {}
 local stage = 1
-local shatteredPsycheCount = 1
+local shatteredEgoCount = 1
 local psychusName = nil
 local mindwrackCount = 0
-local synapticShockCounter = 0
+local synapticShockCount = 0
 local creepingAnguishCount = 1
 local mindgateCount = 1
 local paranoiaCount = 1
 local paranoiaTimers = {
-	{51.1, 56.8, 48.7}, -- After first Shattered Psyche
-	{47.3, 56.0, 63.6}, -- After second Shattered Psyche
+	{51.1, 56.8, 48.7}, -- After first Shattered Ego
+	{47.3, 56.0, 63.6}, -- After second Shattered Ego
 }
 local eternalTormentCount = 1
 local eternalTormentTimers = {35.5, 56.5, 30, 20}
@@ -38,7 +38,7 @@ local glareTimers = {40.7, 67.2, 35.4}
 local anguishCount = 1
 local evokeAnguishTimers = {13, 46.2, 32.0, 30.4, 35.3, 35.3}
 local harvesterCount = 1
-local harvesterTimers = {15.5, 25, 45, 	31, 4, 31.8, 4, 30, 4}
+local harvesterTimers = {15.5, 25, 45, 31, 4, 31.8, 4, 30, 4}
 local mindgraspCount = 1
 
 --------------------------------------------------------------------------------
@@ -50,7 +50,7 @@ if L then
 	L.realm_switch = "Realm Switched" -- When you leave the Mind of N'zoth
 
 	L.custom_on_repeating_paranoia_say = "Repeating Paranoia Say"
-	L.custom_on_repeating_paranoia_say_desc = "Spam a say message in chat to be avoided while you have paranoia"
+	L.custom_on_repeating_paranoia_say_desc = "Spam a say message in chat to be avoided while you have paranoia."
 	L.custom_on_repeating_paranoia_say_icon = 315927
 end
 
@@ -62,16 +62,17 @@ function mod:GetOptions()
 	return {
 		-- General
 		"stages",
+		"altpower",
 		{313609, "SAY_COUNTDOWN"}, -- Gift of N'zoth
 		-- Stage 1
-		316711, -- Mind Wrack
+		316711, -- Mindwrack
 		310184, -- Creeping Anquish
 		309991, -- Anguish
 		313184, -- Synaptic Shock
-		312155, -- Shattered Psyche
+		312155, -- Shattered Ego
 		-- Stage 2
 		315772, -- Mindgrasp
-		{315927, "SAY"}, -- Paranoia
+		{315927, "SAY", "PROXIMITY"}, -- Paranoia
 		"custom_on_repeating_paranoia_say",
 		318449, -- Eternal Torment
 		316463, -- Mindgate
@@ -84,11 +85,20 @@ function mod:GetOptions()
 		317102, -- Evoke Anguish
 		-21491, -- Thought Harvester
 		317066, -- Harvest Thoughts
+	}, {
+		["stages"] = CL.general,
+		[313609] = -20936, -- Sanity
+		[316711] = -21273, -- Psychus
+		[315772] = -21485, -- N'Zoth
+		[312866] = 315772, -- Mindgate
+		[309698] = -21286, -- Basher Tentacle
+		[313400] = -21441, -- Corruptor Tentacle
+		[318976] = -20767, -- Stage Three: Convergence
+		[-21491] = -21491, -- Thought Harvester
 	}
 end
 
 function mod:OnBossEnable()
-	self:RegisterEvent("INSTANCE_ENCOUNTER_ENGAGE_UNIT")
 	-- General
 	self:Log("SPELL_AURA_APPLIED", "GiftofNzothApplied", 313609)
 	self:Log("SPELL_AURA_REMOVED", "GiftofNzothRemoved", 313609)
@@ -100,12 +110,12 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "SynapticShockApplied", 313184)
 	self:Log("SPELL_AURA_APPLIED_DOSE", "SynapticShockApplied", 313184)
 	self:Log("SPELL_AURA_REMOVED", "SynapticShockRemoved", 313184)
-	self:Log("SPELL_AURA_APPLIED", "ShatteredPsyche", 312155)
+	self:Log("SPELL_AURA_APPLIED", "ShatteredEgo", 312155)
 	self:Log("SPELL_AURA_APPLIED", "InfinitysToll", 319346)
 
 
 	-- Stage 2
-	self:Log("SPELL_AURA_REMOVED", "ShatteredPsycheRemoved", 312155)
+	self:Log("SPELL_AURA_REMOVED", "ShatteredEgoRemoved", 312155)
 	self:Log("SPELL_CAST_START", "Mindgrasp", 315772)
 	self:Log("SPELL_CAST_START", "Paranoia", 315927)
 	self:Log("SPELL_AURA_APPLIED", "ParanoiaApplied", 316541, 316542) -- Applied in order of pairs 1, 1, 2, 2, 3, 3
@@ -133,15 +143,15 @@ function mod:OnBossEnable()
 end
 
 function mod:OnEngage()
-
-	self:Message2("stages", "cyan", "test")
+	self:RegisterEvent("INSTANCE_ENCOUNTER_ENGAGE_UNIT")
+	self:OpenAltPower("altpower", -21056, "ZA") -- Sanity
 	wipe(mobCollector)
 	wipe(corruptedMindCount)
 
 	stage = 1
 	creepingAnguishCount = 1
-	synapticShockCounter = 0
-	shatteredPsycheCount = 1
+	synapticShockCount = 0
+	shatteredEgoCount = 1
 	mindwrackCount = 1
 	mindgateCount = 1
 	mindgraspCount = 1
@@ -159,9 +169,9 @@ function mod:INSTANCE_ENCOUNTER_ENGAGE_UNIT()
 		local mobId = self:MobId(guid)
 		if mobId == 158376 and not mobCollector[guid] then -- Psychus
 			mobCollector[guid] = true
-			mindwrackCount = 1
+			mindwrackCount = 0
 
-			self:CDBar(316711, 7.3, CL.count:format(self:SpellName(316711), mindwrackCount)) -- Mindwrack
+			self:CDBar(316711, 7.3, CL.count:format(self:SpellName(316711), (mindwrackCount%3)+1)) -- Mindwrack
 			self:Bar(310184, 12.1, CL.count:format(self:SpellName(310184), creepingAnguishCount)) -- Creeping Anquish
 		elseif mobId == 162933 and not mobCollector[guid] then -- Thought Harvester
 			mobCollector[guid] = true
@@ -201,13 +211,13 @@ function mod:Mindwrack(args)
 	if stage < 3 then -- Cannot interrupt in stage 3
 		local canDo, ready = self:Interrupter(args.sourceGUID)
 		if canDo then
-			self:Message2(args.spellId, "red", CL.count:format(args.spellName, mindwrackCount))
+			self:Message2(args.spellId, "red", CL.count:format(args.spellName, (mindwrackCount%3)+1))
 			if ready then
 				self:PlaySound(args.spellId, "alarm")
 			end
 		end
 		mindwrackCount = mindwrackCount + 1
-		self:CDBar(args.spellId, 6, CL.count:format(args.spellName, mindwrackCount))
+		self:CDBar(args.spellId, 6, CL.count:format(args.spellName, (mindwrackCount%3)+1)) -- Only show 1-3 for interrupts
 	elseif self:Tank() then -- Warn tanks about casts in stage 3 with nameplate bars
 		self:Message2(args.spellId, "red")
 		self:PlaySound(args.spellId, "alarm")
@@ -233,34 +243,35 @@ end
 function mod:SynapticShockApplied(args)
 	local amount = args.amount or 1
 	psychusName = args.destName
-	self:StopBar(CL.count:format(args.spellName, synapticShockCounter), psychusName)
+	self:StopBar(CL.count:format(args.spellName, synapticShockCount), psychusName)
 	self:StackMessage(args.spellId, args.destName, amount, "green")
 	self:PlaySound(args.spellId, "info")
-	synapticShockCounter = amount
-	self:TargetBar(args.spellId, 20, psychusName, CL.count:format(args.spellName, synapticShockCounter))
+	synapticShockCount = amount
+	self:TargetBar(args.spellId, 20, psychusName, CL.count:format(args.spellName, synapticShockCount))
 end
 
 function mod:SynapticShockRemoved(args)
-	synapticShockCounter = 0
+	self:StopBar(CL.count:format(args.spellName, synapticShockCount), psychusName)
+	synapticShockCount = 0
 end
 
 do
 	local prev = 0
-	function mod:ShatteredPsyche(args)
+	function mod:ShatteredEgo(args)
 		local t = args.time
 		if t-prev > 2 then
 			prev = t
 			self:StopBar(CL.count:format(self:SpellName(310184), creepingAnguishCount)) -- Creeping Anguish
-			self:StopBar(CL.count:format(self:SpellName(313184), synapticShockCounter), psychusName) -- Synaptic Shock
+			self:StopBar(CL.count:format(self:SpellName(313184), synapticShockCount), psychusName) -- Synaptic Shock
 			self:StopBar(CL.count:format(self:SpellName(315927), paranoiaCount)) -- Paranoia
 
-			self:Message2(args.spellId, "green", CL.count:format(args.spellName, shatteredPsycheCount))
+			self:Message2(args.spellId, "green", CL.count:format(args.spellName, shatteredEgoCount))
 			self:PlaySound(args.spellId, "long")
-			self:CastBar(args.spellId, 30, CL.count:format(args.spellName, shatteredPsycheCount))
-			shatteredPsycheCount = shatteredPsycheCount + 1
+			self:CastBar(args.spellId, 30, CL.count:format(args.spellName, shatteredEgoCount))
+			shatteredEgoCount = shatteredEgoCount + 1
 
-			creepingAnguishCount = 0
-			synapticShockCounter = 0
+			creepingAnguishCount = 1
+			synapticShockCount = 0
 		end
 	end
 end
@@ -273,7 +284,7 @@ function mod:InfinitysToll(args)
 end
 
 -- Stage 2
-function mod:ShatteredPsycheRemoved()
+function mod:ShatteredEgoRemoved()
 	if stage == 1 then -- Stage 2 Starting
 		stage = 2
 		self:Message2("stages", "cyan", CL.stage:format(stage), false)
@@ -284,10 +295,12 @@ function mod:ShatteredPsycheRemoved()
 		eternalTormentCount = 1
 
 		-- XXX Add Timer Bar
-		self:Bar(315772, 12) -- Mindgrasp
+		self:Bar(315772, 7.1) -- Mindgrasp
 		self:Bar(318449, 35.5, CL.count:format(self:SpellName(318449), eternalTormentCount)) -- Eternal Torment
-		self:Bar(315927, paranoiaTimers[mindgateCount][paranoiaCount], CL.count:format(self:SpellName(315927), paranoiaCount)) -- Paranoia
-		self:Bar(316463, 68, CL.count:format(self:SpellName(310184), mindgateCount)) -- Mindgate
+		if paranoiaTimers[shatteredEgoCount-1] then -- XXX fixme
+			self:Bar(315927, paranoiaTimers[shatteredEgoCount-1][paranoiaCount], CL.count:format(self:SpellName(315927), paranoiaCount)) -- Paranoia
+		end
+		self:Bar(316463, 68, CL.count:format(self:SpellName(316463), mindgateCount)) -- Mindgate
 	elseif stage == 2 and mindgateCount == 2 then -- Stun restart bars only the first time, second time starts stage 3
 		paranoiaCount = 1
 		eternalTormentCount = 1
@@ -306,27 +319,85 @@ function mod:Mindgrasp(args)
 	self:CastBar(args.spellId, 12, CL.count:format(args.spellName, mindgraspCount))
 end
 
-function mod:Paranoia(args)
-	self:Bar(args.spellId, paranoiaTimers[mindgateCount][paranoiaCount], CL.count:format(args.spellName, paranoiaCount))
-end
-
 do
-	local sayTimer = nil
-	local playerList = mod:NewTargetList()
+	local firstParanoiaTargetGUID, lastParanoiaName, mateName = nil, nil, nil
+	local proxList, isOnMe, isCasting = {}, nil, nil
+
+	local function updateProximity(self)
+		if isCasting then -- spread during cast
+			self:OpenProximity(315927, 5)
+		elseif isOnMe and mateName then -- stand with mate
+			self:OpenProximity(315927, 5, mateName, true)
+		elseif #proxList > 0 then -- avoid Paranoias
+			self:OpenProximity(315927, 5, proxList)
+		else -- no more Paranoias, so we're done
+			self:CloseProximity(315927)
+		end
+	end
+
+	function mod:Paranoia(args)
+		wipe(proxList)
+		isOnMe = nil
+		mateName = nil
+		isCasting = true
+		firstParanoiaTargetGUID = nil
+		paranoiaCount = paranoiaCount + 1
+		if paranoiaTimers[shatteredEgoCount-1] then -- XXX fixme
+			self:Bar(args.spellId, paranoiaTimers[shatteredEgoCount-1][paranoiaCount], CL.count:format(args.spellName, paranoiaCount))
+		end
+		updateProximity(self)
+	end
+
+	local sayTimer, paranoiaFallbackTimer = nil, nil
 	function mod:ParanoiaApplied(args)
-		playerList[#playerList+1] = args.destName
+		isCasting = false
 		if self:Me(args.destGUID) then
+			isOnMe = true
 			self:Say(315927, args.spellName, true)
 			self:PlaySound(315927, "warning")
 			if self:GetOption("custom_on_repeating_paranoia_say") then
 				sayTimer = self:ScheduleRepeatingTimer(SendChatMessage, 1.5, args.spellName, "SAY")
 			end
 		end
-		self:TargetsMessage(315927, "yellow", playerList)
+
+		if args.spellId == 316542 then -- 1st paranoia - save data, print on 2nd
+			firstParanoiaTargetGUID = args.destGUID
+			lastParanoiaName = args.destName
+			if self:Me(args.destGUID) then -- fallback if the last event is missing
+				paranoiaFallbackTimer = self:ScheduleTimer("Message2", 0.1, 315927, "blue", CL.link:format("|cffff0000???"))
+			end
+		elseif args.spellId == 316541 and firstParanoiaTargetGUID then -- Paranoia 2
+			if self:Me(args.destGUID) then -- We got 2nd debuff, so print last name
+				self:Message2(315927, "blue", CL.link:format(self:ColorName(lastParanoiaName)))
+				mateName = lastParanoiaName
+			elseif self:Me(firstParanoiaTargetGUID) then -- We got 1st debuff so this is our mate
+				self:Message2(315927, "blue", CL.link:format(self:ColorName(args.destName)))
+				mateName = args.destName
+			end
+			firstParanoiaTargetGUID = nil
+			if paranoiaFallbackTimer then -- We printed above, so cancel this
+				self:CancelTimer(paranoiaFallbackTimer)
+				paranoiaFallbackTimer = nil
+			end
+		else -- One of them immuned, so no proper linked message
+			if self:Me(args.destGUID) or self:Me(firstParanoiaTargetGUID) then
+				self:Message2(315927, "blue", CL.link:format("|cffff00ff???"))
+				if paranoiaFallbackTimer then -- We printed above, so cancel this
+					self:CancelTimer(paranoiaFallbackTimer)
+					paranoiaFallbackTimer = nil
+				end
+			end
+			firstParanoiaTargetGUID = nil
+		end
+
+		proxList[#proxList+1] = args.destName
+
+		updateProximity(self)
 	end
 
 	function mod:ParanoiaRemoved(args)
 		if self:Me(args.destGUID) then
+			isOnMe = nil
 			self:Message2(315927, "green", CL.removed:format(args.spellName))
 			self:PlaySound(315927, "info")
 			if sayTimer then
@@ -334,6 +405,10 @@ do
 				sayTimer = nil
 			end
 		end
+
+		tDeleteItem(proxList, args.destName)
+
+		updateProximity(self)
 	end
 end
 
@@ -341,7 +416,15 @@ function mod:EternalTorment(args)
 	self:Message2(args.spellId, "yellow", CL.count:format(args.spellName, eternalTormentCount))
 	self:PlaySound(args.spellId, "alert")
 	eternalTormentCount = eternalTormentCount + 1
-	self:Bar(args.spellId, stage == 3 and (eternalTormentCount == 2 and (72.5 or eternalTormentCount % 2 == 1 and 11 or 24)) or eternalTormentTimers[eternalTormentCount], CL.count:format(args.spellName, eternalTormentCount))
+	if stage == 3 then
+		if eternalTormentCount % 2 == 1 then -- 3,5,7,etc
+			self:Bar(args.spellId, 11, CL.count:format(args.spellName, eternalTormentCount))
+		else
+			self:Bar(args.spellId, eternalTormentCount == 2 and 72.5 or 24, CL.count:format(args.spellName, eternalTormentCount))
+		end
+	else
+		self:Bar(args.spellId, eternalTormentTimers[eternalTormentCount], CL.count:format(args.spellName, eternalTormentCount))
+	end
 end
 
 function mod:Mindgate(args)
@@ -350,8 +433,8 @@ function mod:Mindgate(args)
 	if mindgateCount == 1 then
 		self:Bar(312866, 31.5) -- Cataclysmic Flames
 	end
-	mindgateCount = mindgateCount + 1
 	self:CastBar(args.spellId, 5, CL.count:format(args.spellName, mindgateCount))
+	mindgateCount = mindgateCount + 1
 end
 
 function mod:CataclysmicFlames(args)
@@ -360,10 +443,17 @@ function mod:CataclysmicFlames(args)
 	self:Bar(args.spellId, 24.3)
 end
 
-function mod:VoidLash(args)
-	self:Message2(args.spellId, "purple")
-	self:PlaySound(args.spellId, "alert")
-	self:NameplateBar(args.spellId, 23, args.sourceGUID)
+do
+	local prev = 0
+	function mod:VoidLash(args)
+		local t = args.time
+		if t-prev > 2 then -- 2 Tentacles are up in the same wave, cast within 1s
+			prev = t
+			self:Message2(args.spellId, "purple")
+			self:PlaySound(args.spellId, "alert")
+			self:CDBar(args.spellId, 23)
+		end
+	end
 end
 
 function mod:TumultuousBurst(args)
@@ -383,7 +473,6 @@ function mod:CorruptedMind(args)
 		end
 	end
 	corruptedMindCount[args.sourceGUID] = corruptedMindCount[args.sourceGUID] + 1
-	self:NameplateBar(args.spellId, 5, args.sourceGUID, CL.count:format(args.spellName, corruptedMindCount[args.sourceGUID]))
 end
 
 function mod:CorruptedMindApplied(args)

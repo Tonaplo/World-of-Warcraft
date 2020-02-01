@@ -5,17 +5,20 @@ BigWigs:AddSounds("Wrathion", {
 	[306289] = "alarm",
 	[306735] = "alert",
 	[307013] = "warning",
+	[313250] = "info",
+	[313255] = {"info","warning"},
 	["stages"] = "long",
 })
 
 BigWigs:AddSounds("Maut", {
 	[305722] = "long",
+	[307586] = "warning",
 	[307806] = "warning",
 	[308044] = "long",
 	[308872] = "alarm",
 	[308903] = "alarm",
 	[310129] = "alarm",
-	[314337] = "warning",
+	[314337] = {"info","warning"},
 	[314993] = "warning",
 })
 
@@ -56,8 +59,10 @@ BigWigs:AddSounds("Shad'har the Insatiable", {
 	[306930] = "alert",
 	[306942] = "info",
 	[306953] = "info",
-	[307471] = "alarm",
-	[307472] = "info",
+	[307471] = {"alarm","info"},
+	[307472] = {"alarm","info"},
+	[312099] = {"info","long"},
+	[312328] = "alarm",
 	[314736] = "alarm",
 	[318078] = "warning",
 	["stages"] = "long",
@@ -77,7 +82,7 @@ BigWigs:AddSounds("Drest'agath", {
 
 BigWigs:AddSounds("Vexiona", {
 	[307020] = "alarm",
-	[307043] = "info",
+	[307057] = "info",
 	[307116] = "info",
 	[307314] = "warning",
 	[307343] = "alarm",
@@ -107,6 +112,7 @@ BigWigs:AddSounds("Ra-den the Despoiled", {
 	[313213] = {"alarm","alert"},
 	[314484] = "alert",
 	[315252] = "alarm",
+	[316065] = "warning",
 	["essences"] = "warning",
 	["stages"] = "long",
 })

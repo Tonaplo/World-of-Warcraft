@@ -21,103 +21,37 @@ function U.IsRetail()
     return WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
 end
 do
-    local GetAddonChannelName, InitiateAddonChannel, JoinAddonChannel;
-    local ADDON_LOADED, CHAT_MSG_CHANNEL_NOTICE, CHAT_MSG_CHANNEL_NOTICE_USER;
+    local GetAddonChannelName, JoinAddonChannel, MoveAddonChannelToLast, OnUpdate;
+    local CHANNEL_UI_UPDATE, CHAT_MSG_CHANNEL_NOTICE, CHAT_MSG_CHANNEL_NOTICE_USER;
     local addonChannelBaseName = "TomCats";
     local addonChannelAltNum;
     local joined;
-    local JOIN_CHANNEL_DELAY = 60;
-    --local GetChannelList_Orig = GetChannelList;
-    --local GetNumDisplayChannels_Orig = GetNumDisplayChannels;
-    --local GetChannelDisplayInfo_Orig = GetChannelDisplayInfo;
-    --local GetChannelName_Orig = GetChannelName;
-    --function GetChannelList()
-    --    if (joined) then
-    --        local result = { };
-    --        local orig = { GetChannelList_Orig() };
-    --        for i = 1, #orig, 3 do
-    --            if (orig[i + 1] ~= addonChannelBaseName .. (addonChannelAltNum or "")) then
-    --                table.insert(result, orig[i])
-    --                table.insert(result, orig[i + 1])
-    --                table.insert(result, orig[i + 2])
-    --            end
-    --        end
-    --        return unpack(result);
-    --    end
-    --    return GetChannelList_Orig();
-    --end
-    --local addonChannelIndex;
-    --local customCategoryIndex;
-    --local customChannelCount;
-    --local numDisplayChannels;
-    --function GetNumDisplayChannels()
-    --    if (joined) then
-    --        addonChannelIndex = nil;
-    --        customCategoryIndex = nil;
-    --        local addonChannelName = GetAddonChannelName();
-    --        numDisplayChannels = GetNumDisplayChannels_Orig();
-    --        for i = 1, numDisplayChannels do
-    --            if (not (addonChannelIndex and customCategoryIndex)) then
-    --                local name, header, _, _, count, _, category = GetChannelDisplayInfo_Orig(i);
-    --                if (name == addonChannelName) then
-    --                    addonChannelIndex = i;
-    --                    numDisplayChannels = numDisplayChannels - 1;
-    --                elseif (header and category == "CHANNEL_CATEGORY_CUSTOM") then
-    --                    customCategoryIndex = i;
-    --                    customChannelCount = count - 1;
-    --                end
-    --            end
-    --        end
-    --        return numDisplayChannels;
-    --    end
-    --    return GetNumDisplayChannels_Orig();
-    --end
-    --function GetChannelDisplayInfo(channelID)
-    --    if (joined) then
-    --        if (channelID < addonChannelIndex) then
-    --            if (channelID == customCategoryIndex) then
-    --                local name, header, collapsed, channelNumber, _, active, category, voiceEnabled, voiceActive = GetChannelDisplayInfo_Orig(channelID);
-    --                return name, header, collapsed, channelNumber, customChannelCount, active, category, voiceEnabled, voiceActive;
-    --            end
-    --            return GetChannelDisplayInfo_Orig(channelID);
-    --        end
-    --        return GetChannelDisplayInfo_Orig(channelID + 1);
-    --    end
-    --    return GetChannelDisplayInfo_Orig(channelID);
-    --end
-    --
-    --function GetChannelName(channel)
-    --    local id, name, instanceID = GetChannelName_Orig(channel);
-    --    if (joined) then
-    --        if (name == GetAddonChannelName()) then
-    --            return 0, nil, 0, false;
-    --        end
-    --    end
-    --    return id, name, instanceID;
-    --end
     function GetAddonChannelName()
         return addonChannelBaseName .. (addonChannelAltNum or "");
-    end
-    function InitiateAddonChannel()
-        E.RegisterEvent("CHAT_MSG_CHANNEL_NOTICE",CHAT_MSG_CHANNEL_NOTICE);
-        E.RegisterEvent("CHAT_MSG_CHANNEL_NOTICE_USER",CHAT_MSG_CHANNEL_NOTICE_USER);
-        UIParent:UnregisterEvent("CHANNEL_PASSWORD_REQUEST");
-        JoinAddonChannel();
     end
     function JoinAddonChannel()
         JoinTemporaryChannel(addonChannelBaseName .. (addonChannelAltNum or ""));
     end
-    function ADDON_LOADED(_, _, name)
-        if (name == "TomCats") then
-            E.UnregisterEvent("ADDON_LOADED", ADDON_LOADED);
-            local channels = { GetChannelList() }
-            for i = 2, #channels, 3 do
-                local baseName = string.sub(channels[i],1, #addonChannelBaseName);
-                if (baseName == addonChannelBaseName) then
-                    LeaveChannelByName(channels[i])
+    function MoveAddonChannelToLast()
+        local channels = { GetChannelList() };
+        if (channels[1]) then
+            local lastChannelID = channels[#channels - 2];
+            local addonChannelID = GetChannelName(GetAddonChannelName());
+            if (addonChannelID and lastChannelID ~= addonChannelID) then
+                for idx = addonChannelID, lastChannelID - 1 do
+                    C_ChatInfo.SwapChatChannelsByChannelIndex(idx, idx + 1);
                 end
             end
-            C_Timer.After(JOIN_CHANNEL_DELAY, InitiateAddonChannel)
+        end
+    end
+    function OnUpdate()
+        if (EnumerateServerChannels()) then
+            E.UnregisterEvent("ON_UPDATE", OnUpdate)
+            E.RegisterEvent("CHAT_MSG_CHANNEL_NOTICE",CHAT_MSG_CHANNEL_NOTICE);
+            E.RegisterEvent("CHAT_MSG_CHANNEL_NOTICE_USER",CHAT_MSG_CHANNEL_NOTICE_USER);
+            E.RegisterEvent("CHANNEL_UI_UPDATE",CHANNEL_UI_UPDATE);
+            UIParent:UnregisterEvent("CHANNEL_PASSWORD_REQUEST");
+            JoinAddonChannel()
         end
     end
     function CHAT_MSG_CHANNEL_NOTICE(_, _, text, _, _, _, _, _, _, _, channelBaseName)
@@ -127,6 +61,7 @@ do
                 C_Timer.After(0, JoinAddonChannel)
             end
         elseif (text == "YOU_CHANGED") then
+            MoveAddonChannelToLast();
             if (channelBaseName == GetAddonChannelName()) then
                 UIParent:RegisterEvent("CHANNEL_PASSWORD_REQUEST");
                 joined = true;
@@ -141,7 +76,10 @@ do
             end
         end
     end
-    E.RegisterEvent("ADDON_LOADED",ADDON_LOADED)
+    function CHANNEL_UI_UPDATE()
+        MoveAddonChannelToLast();
+    end
+    E.RegisterEvent("ON_UPDATE", OnUpdate)
 end
 --todo: Internationalize
 addon.supportedMaps = {
@@ -233,7 +171,7 @@ local slashCommandsHtmlHead = "<html>\n<body>\n<h1>Slash Commands</h1>\n<br />\n
 local slashCommandHtmlTemplate = "<h3>%s:</h3>\n<p>/TOMCATS %s</p>\n<br />\n"
 local slashCommandsHtmlFoot = "</body>\n</html>"
 TomCats = {}
-TomCats.version = "1.4.9"
+TomCats.version = "1.4.12"
 local function refreshInterfaceControlPanels()
     local slashCommandsHtml = slashCommandsHtmlHead
     local infoText = "Installed Components:\n|cffffffff"

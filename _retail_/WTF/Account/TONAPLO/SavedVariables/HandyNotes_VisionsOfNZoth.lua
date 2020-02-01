@@ -1,9 +1,11 @@
 
 HandyNotes_VisionsOfNZothDB = {
 	["profileKeys"] = {
-		["Praerend - Silvermoon"] = "Default",
-		["Mallusof - Silvermoon"] = "Default",
 		["Amranar - Silvermoon"] = "Default",
+		["Kaldowrath - Silvermoon"] = "Default",
+		["Greyblood - Silvermoon"] = "Default",
+		["Mallusof - Silvermoon"] = "Default",
+		["Praerend - Silvermoon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

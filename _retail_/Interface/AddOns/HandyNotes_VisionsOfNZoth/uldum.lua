@@ -288,13 +288,13 @@ nodes[19755847] = Rare({id=155531, quest=56823, note=L["wastewander"], pois={
 nodes[73908353] = Rare({id=157134, quest=57259, rewards={
     Mount({id=1314, item=174641}) -- Drake of the Four Winds
 }}) -- Ishak of the Four Winds
-nodes[77005000] = Rare({id=152431, quest=nil, assault=AMA, note=L["kanebti"]}) -- Kaneb-ti
+nodes[77005000] = Rare({id=152431, quest=55629, assault=AMA, note=L["kanebti"]}) -- Kaneb-ti
 nodes[71237375] = Rare({id=156655, quest=57433, assault=EMP}) -- Korzaran the Slaughterer
 nodes[34681890] = Rare({id=154604, quest=56340, assault=AQR, note=L["chamber_of_the_moon"], rewards={
     Pet({id=2847, item=174475}) -- Rotbreath
 }}) -- Lord Aj'qirai
 nodes[30476602] = Rare({id=156078, quest=56952, assault=AQR, pois={
-    POI({30476602, 33696573})
+    POI({30476602, 32876907, 33696573})
 }}) -- Magus Rehleth
 nodes[66842035] = Rare({id=157157, quest=57277, assault=AMA}) -- Muminah the Incandescent
 nodes[62012454] = Rare({id=152677, quest=55684, assault=AMA}) -- Nebet the Ascended
@@ -415,6 +415,7 @@ nodes[33476998] = AQRTR2
 nodes[18356130] = AQRTR3
 nodes[19836512] = AQRTR3
 nodes[20585920] = AQRTR3
+nodes[23406539] = AQRTR3
 nodes[23055936] = AQRTR3
 nodes[24525507] = AQRTR3
 nodes[24606387] = AQRTR3
@@ -434,7 +435,9 @@ nodes[30671611] = AQRTR5
 nodes[30903046] = AQRTR5
 nodes[31521515] = AQRTR5
 nodes[33953036] = AQRTR5
+nodes[35101878] = AQRTR5
 nodes[35413157] = AQRTR5
+nodes[36871616] = AQRTR5
 nodes[41592264] = clone(AQRTR5, {note=L["chamber_of_the_moon"]})
 nodes[45561320] = AQRTR5
 
@@ -458,19 +461,28 @@ nodes[58361535] = EMPTR1
 -- quest=57624
 nodes[50793143] = EMPTR2
 -- quest=57626
+nodes[57808250] = EMPTR3
 nodes[57817487] = EMPTR3
+nodes[58247282] = EMPTR3
 nodes[59226749] = EMPTR3
 nodes[60576213] = EMPTR3
 nodes[61778172] = EMPTR3
 nodes[62588188] = EMPTR3
 nodes[62977610] = EMPTR3
 nodes[64436501] = EMPTR3
+nodes[67547066] = EMPTR3
 nodes[70217325] = EMPTR3
 -- quest=57627
+nodes[59816610] = EMPTR4
 nodes[59867422] = EMPTR4
 nodes[60757493] = EMPTR4
+nodes[60967000] = EMPTR4
+nodes[61206544] = EMPTR4
+nodes[61817595] = EMPTR4
 nodes[62157346] = EMPTR4
 nodes[62737184] = EMPTR4
+nodes[62807565] = EMPTR4
+nodes[63867065] = EMPTR4
 nodes[64607503] = EMPTR4
 nodes[65357117] = EMPTR4
 nodes[67167394] = EMPTR4
@@ -479,11 +491,14 @@ nodes[45697961] = EMPTR5
 nodes[47507687] = EMPTR5
 nodes[49037684] = EMPTR5
 nodes[49398584] = EMPTR5
+nodes[49807210] = EMPTR5
+nodes[51157388] = EMPTR5
 nodes[51707135] = EMPTR5
 nodes[51777298] = EMPTR5
 nodes[51897858] = EMPTR5
 nodes[52197757] = EMPTR5
 nodes[55397860] = EMPTR5
+nodes[55658346] = EMPTR5
 
 local EMPCOFF = Supply({quest=57628, assault=EMP, note=L["cursed_relic"],
     label=L["black_empire_coffer"]})
@@ -520,6 +535,7 @@ nodes[73987095] = AMATR2
 nodes[78286207] = AMATR2
 nodes[79166486] = AMATR2
 -- quest=55691
+nodes[71504750] = AMATR3
 nodes[72474857] = AMATR3
 nodes[74195187] = AMATR3
 nodes[75335579] = AMATR3
@@ -527,6 +543,7 @@ nodes[75575372] = AMATR3
 nodes[78125302] = AMATR3
 -- quest=55698
 nodes[71884388] = AMATR4
+nodes[72764468] = AMATR4
 nodes[72944350] = AMATR4
 nodes[74364390] = AMATR4
 nodes[75134608] = AMATR4
@@ -548,11 +565,13 @@ nodes[65543142] = AMATR6
 nodes[65882147] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
 nodes[67172800] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
 nodes[68222051] = AMATR6
+nodes[68933234] = AMATR6
 
 local AMACOFF = Supply({quest=55692, assault=AMA,
     label=L["amathet_reliquary"], sublabel=L["tolvir_relic"]})
 
 nodes[64463415] = clone(AMACOFF, {note=L["chamber_of_the_stars"]})
+nodes[66882414] = AMACOFF
 nodes[67464294] = AMACOFF
 nodes[73337356] = AMACOFF
 nodes[73685054] = AMACOFF
@@ -586,6 +605,7 @@ nodes[46793424] = TimedEvent({quest=58256, assault=EMP, note=L["consuming_maw"],
 
 nodes[48518489] = TimedEvent({quest=57522, assault=EMP, note=L["call_of_void"]}) -- Call of the Void
 nodes[53677575] = TimedEvent({quest=57585, assault=EMP, note=L["call_of_void"]}) -- Call of the Void
+nodes[65907284] = TimedEvent({quest=57541, assault=EMP, note=L["call_of_void"]}) -- Call of the Void
 nodes[52015072] = TimedEvent({quest=57543, assault=EMP, note=L["executor_nzoth"]}) -- Executor of N'Zoth
 nodes[57044951] = TimedEvent({quest=57592, assault=EMP, note=L["executor_nzoth"]}) -- Executor of N'Zoth
 nodes[59014663] = TimedEvent({quest=57580, assault=EMP, note=L["executor_nzoth"]}) -- Executor of N'Zoth
@@ -614,24 +634,23 @@ nodes[59022780] = TimedEvent({quest=57588, assault=EMP, pois={
 
 -------------------------------------------------------------------------------
 
+nodes[84005400] = TimedEvent({quest=55670, assault=AMA, note=L["raiding_fleet"]}) -- Amathet Raiding Fleet
+nodes[76004700] = TimedEvent({quest=57243, assault=AMA, note=L["slave_camp"]}) -- Amathet Slave Camp
+nodes[62062069] = TimedEvent({quest=55356, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
+nodes[71594586] = TimedEvent({quest=55358, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
+nodes[83496186] = TimedEvent({quest=55357, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
 nodes[64002800] = TimedEvent({quest=57215, assault=AMA, note=L["engine_of_ascen"]}) -- Engine of Ascension
 nodes[64962255] = TimedEvent({quest=55355, assault=AMA, note=L["lightblade_training"]}) -- Lightblade Training Grounds
+nodes[64482984] = TimedEvent({quest=55359, assault=AMA, note=L["chamber_of_the_stars"]..' '..L["ritual_ascension"]}) -- Ritual of Ascension
+nodes[66515030] = TimedEvent({quest=57235, assault=AMA, note=L["solar_collector"]}) -- Solar Collector
+nodes[80256607] = TimedEvent({quest=57234, assault=AMA, note=L["solar_collector"]}) -- Solar Collector
 nodes[70006000] = TimedEvent({quest=55360, assault=AMA, note=L["unsealed_tomb"]}) -- The Unsealed Tomb
-nodes[71004500] = TimedEvent({quest=55358, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
-nodes[76004700] = TimedEvent({quest=57243, assault=AMA, note=L["slave_camp"]}) -- Amathet Slave Camp
-nodes[84005400] = TimedEvent({quest=55670, assault=AMA, note=L["raiding_fleet"]}) -- Amathet Raiding Fleet
 
--- nodes[????????] = TimedEvent({quest=nil, assault=AMA}) -- Solar Collector
--- nodes[62002000] = TimedEvent({quest=nil, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
--- nodes[64003000] = TimedEvent({quest=nil, assault=AMA}) -- Ritual of Ascension
 -- nodes[65003700] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
--- nodes[66005000] = TimedEvent({quest=nil, assault=AMA}) -- Solar Collector
 -- nodes[66005000] = TimedEvent({quest=nil, assault=AMA}) -- Solar Extractor
 -- nodes[71006800] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
 -- nodes[78005700] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
--- nodes[80006600] = TimedEvent({quest=nil, assault=AMA}) -- Solar Extractor
 -- nodes[83004800] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
--- nodes[83006100] = TimedEvent({quest=nil, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
 -- nodes[61004700] = TimedEvent({quest=nil, assault=AMA}) -- The Vir'naal Front
 
 -------------------------------------------------------------------------------
@@ -657,7 +676,7 @@ local Alpaca = Class('Alpaca', NPC, {
     note=L["friendly_alpaca"],
     pois={POI({
         15006200, 24000900, 27004800, 30002900, 39000800, 41007000, 47004800,
-        52001900, 55006900, 62705340, 63011446, 69001300, 70003900, 76636813
+        52001900, 55006900, 62705340, 63011446, 70003900, 76636813
     })},
     rewards={Mount({id=1329, item=174859})} -- Springfur Alpaca
 })
@@ -665,13 +684,13 @@ local Alpaca = Class('Alpaca', NPC, {
 local Gersahl = Class('Gersahl', Node, {
     icon=134190, alpaca=true, label=L["gersahl"], note=L["gersahl_note"],
     pois={POI({
-        46922961, 49453556, 50504167, 50583294, 53133577, 55484468, 56114967,
-        56265101, 56691882, 57112548, 57235056, 57281602, 57458491, 57474682,
-        57741910, 58005169, 58131768, 58202808, 58967759, 59027433, 59098568,
-        59266302, 59557986, 59567664, 59628482, 60018165, 60447755, 60627655,
-        61371430, 64717249, 65167045, 65427433, 66047881, 66137572, 66217063,
-        66257753, 66557212, 67377771, 68097535, 68117202, 68517407, 68947308,
-        69237501, 71087875, 71657803
+        43802760, 46922961, 49453556, 50504167, 50583294, 53133577, 55484468,
+        56114967, 56202550, 56265101, 56691882, 56901740, 57112548, 57235056,
+        57281602, 57458491, 57474682, 57741910, 58005169, 58131768, 58202808,
+        58967759, 59027433, 59098568, 59266302, 59557986, 59567664, 59628482,
+        59805460, 60018165, 60447755, 60627655, 61371430, 64717249, 65167045,
+        65427433, 66047881, 66137572, 66217063, 66257753, 66557212, 67377771,
+        68097535, 68117202, 68517407, 68947308, 69237501, 71087875, 71657803
     })},
     rewards={Item({item=174858})} -- Gersahl Greens
 })

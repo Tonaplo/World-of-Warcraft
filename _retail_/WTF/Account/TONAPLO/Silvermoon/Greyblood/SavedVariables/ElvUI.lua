@@ -1852,5 +1852,27 @@ ElvCharacterDB = {
 			[51] = 1579040033,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [84]
+		{
+			"<NBC> SEASON 4 Selling NEW RAID Ny'alotha the waking! M+6 for 140K ! 180k share loot (20k with full armor)  also +10 280k (30K armor..100% In Time)! and +15 for 990k time (650k out of time... weekly drops 475 ilvl)  Mechagon NM/HM+Mount 100%!!2v2 /w", -- [1]
+			"Amatratsu-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Amatratsu-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1114, -- [11]
+			"Player-3391-0AAC06A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Amatratsu|r",
+			[51] = 1580561362,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
 	},
 }

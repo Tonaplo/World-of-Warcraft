@@ -605,9 +605,10 @@ app.L = {
 		[-686] = "Interface\\Icons\\inv_stormdragonmount2light",							-- Fierce Gladiator: Legion Season 5
 		[-687] = "Interface\\Icons\\inv_stormdragonmount2yellow",							-- Dominant Gladiator: Legion Season 6
 		[-688] = "Interface\\Icons\\inv_stormdragonmount2_fel",								-- Demonic Gladiator: Legion Season 7
-		[-689] = "Interface\\Icons\\ability_mount_protodrakegladiatormount",				-- Dread Gladiator: Battle for Azeroth Season 1
-		[-690] = "Interface\\Icons\\inv_misc_tabard_forsaken",								-- Sinister Gladiator: Battle for Azeroth Season 2
+		[-689] = "Interface\\Icons\\inv_protodrakegladiatormount_gold",						-- Dread Gladiator: Battle for Azeroth Season 1
+		[-690] = "Interface\\Icons\\inv_protodrakegladiatormount_blue",						-- Sinister Gladiator: Battle for Azeroth Season 2
 		[-691] = "Interface\\Icons\\inv_protodrakegladiatormount_purple",					-- Notorious Gladiator: Battle for Azeroth Season 3
+		[-692] = "Interface\\Icons\\inv_protodrakegladiatormount_black",					-- Corrupted Gladiator: Battle for Azeroth Season 4
 		[-800] = "Interface\\Icons\\inv_horse2purple",										-- Lucid Nightmare
 		[-801] = "Interface\\Icons\\inv_serpentmount_darkblue",								-- Riddler's Mind-Worm
 		[-802] = "Interface\\Icons\\inv_faeriedragon2_orange",								-- Sun Darter Hatchling
@@ -912,6 +913,8 @@ app.L = {
 		[-10078] = "Interface\\Icons\\Paladin_Protection",							-- Assault: The Endless Swarm
 		[-10079] = "Interface\\Icons\\Paladin_Protection",							-- Assault: Aqir Unearthed
 		[-10080] = "Interface\\Icons\\Paladin_Protection",							-- Assault: Aqir Unearthed
+		[-10081] = "Interface\\Icons\\spell_priest_shadow-mend",					-- Corrupted Area (Vision Scenario)
+		[-10082] = "Interface\\Icons\\spell_priest_psyfiend",						-- Lost Area (Vision Scenario)
 
 		[-101501] = "Interface\\FriendsFrame\\achievements_zone_azsuna",
 		[-101502] = "Interface\\FriendsFrame\\achievements_zone_azsuna",
@@ -1342,7 +1345,7 @@ app.L = {
 		[-689] = select(2, GetAchievementInfo(12945)),							-- Dread Gladiator: Battle for Azeroth Season 1
 		[-690] = select(2, GetAchievementInfo(13200)),							-- Sinister Gladiator: Battle for Azeroth Season 2
 		[-691] = select(2, GetAchievementInfo(13630)),							-- Notorious Gladiator: Battle for Azeroth Season 3
-	--	[-692] = select(2, GetAchievementInfo(13630)),							-- Corrupted Gladiator: Battle for Azeroth Season 4
+		[-692] = select(2, GetAchievementInfo(13957)),							-- Corrupted Gladiator: Battle for Azeroth Season 4
 
 -- Secret Header [Maybe need to change the numbers again when I need more space for PvP -- sadidorf]
 		[-800] = GetSpellInfo(247402), 											-- Lucid Nightmare
@@ -1782,14 +1785,14 @@ app.L = {
 		[-10063] = BATTLE_PET_BREED_QUALITY3,			-- "Uncommon";
 		[-10064] = BATTLE_PET_BREED_QUALITY4,			-- "Rare";
 		[-10065] = BATTLE_PET_BREED_QUALITY5,			-- "Epic";
-]]--
+]]--	-- 8.3
 		[-10066] = BATTLE_PET_BREED_QUALITY6,			-- "Legendary";
 		[-10067] = ITEM_QUALITY6_DESC, 					-- Artifact
 		[-10068] = OPTION_TOOLTIP_ANIMATION,			-- PLACE_HOLDER
 		[-10069] = "Scenarios",
 		[-10070] = select(1, GetCategoryInfo(15417)),		-- Heart of Azeroth
 		[-10071] = "Visions of N'Zoth",
-		[-10072] = "N'Zoth Assaults",
+		[-10072] = "N'Zoth Assault",
 		[-10073] = "Horrific Vision of Orgrimmar",
 		[-10074] = "Horrific Vision of Stormwind",
 		[-10075] = "Assault: Amathet Advance",
@@ -1798,6 +1801,8 @@ app.L = {
 		[-10078] = "Assault: The Endless Swarm",
 		[-10079] = "Assault: Aqir Unearthed",
 		[-10080] = "Horrific Visions",
+		[-10081] = "Corrupted Area",
+		[-10082] = "Lost Area",
 	},
 
 	["OBJECT_ID_ICONS"] = {
@@ -4083,14 +4088,14 @@ app.L = {
 		{3, "|CFFFF0000This item is purchased from the In-Game Store.|r", "In-Game Store (35)"}; --35
 		{21, "|CFFFF0000This was obtainable only during the WoW Anniversary when it was active and is no longer available.|r\n", "WoW Anniversary [Removed] (36)"}; -- 36
 		{1, "|CFFFF0000This title is no longer obtainable in game.|r", "Titles (37)"}; --37
-		{4, "|CFFFF0000These items are only available for players that completed the Legendary Cloak quest chain during Mists of Pandaria|r", "Ordos - Legendary Cloak (38)"}; --38
+		{4, "|CFFFF0000These items are only available for players that completed the Legendary Cloak quest chain during Mists of Pandaria or via the BMAH|r", "Ordos - Legendary Cloak (38)"}; --38
 		{4, "|CFFFF0000This title is no longer available.|r", "Legacy Titles (39)"}; --39
 		{4, "|CFFFF0000This is a Legacy quest or quest item, and is no longer available.|r", "Legacy Quests (40)"}; -- 40
 		{4, "|CFFFF0000These appearances are only available for players that completed the respective Mage Tower Artifact Challenges and earned the base appearance.|r", "Mage Tower Appearances (41)"}; -- 41
 		{21, "|CFFFF0000These appearances are only available during the weekly Timewalking Event.\nOnly dungeons released during the featured expansion will be available.|r", "Timewalking (42)"}; -- 42
 		{1, "|CFFFF0000This NPC or creature has been removed from the game.|r", "Removed NPCs (43)"}; -- 43
 		{2, "|CFFFF0000This Item was only available from the BMAH for a limited Time.|r", "BMAH Limited Time (44)"}; -- 44
-		{1, "|CFFFF0000Blizzard's Legacy Loot changes broke several Items and made them Unobtainable.\nWarpwood (DM West) & Kara (Chess Event)\nare currently broken and need to be fixed.|r", "Broken Loot (45)"}; -- 45
+		{1, "|CFFFF0000Blizzard's Loot changes broke several Items and made them Unobtainable.\nHouse of Nobles Cape & Gurubashi Empire Greatcloak (both BFA Emissary Rewards) \nare currently broken and need to be fixed.|r", "Broken Loot (45)"}; -- 45
 	--	{3, "|CFFFF0000This item is only available from War Chests while under max level.|r", "Incursion Loot (46)"}; -- 46
 	--	{1, "|CFFFF0000With 8.0, Blizzard's Legacy Loot implementation broke Gruul' loot table.|r", "Gruul Non-Tier Loot (47)"}; -- 47
 	};

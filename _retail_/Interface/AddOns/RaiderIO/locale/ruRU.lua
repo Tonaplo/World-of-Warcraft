@@ -61,10 +61,8 @@ L["DUNGEON_SHORT_NAME_UNDR"] = "UNDR"
 L["DUNGEON_SHORT_NAME_UPPR"] = "UPPR"
 L["DUNGEON_SHORT_NAME_VOTW"] = "VOTW"
 L["DUNGEON_SHORT_NAME_WM"] = "WM"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_WORK"] = ""--]] 
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_YARD"] = ""--]] 
+L["DUNGEON_SHORT_NAME_WORK"] = "Операция «Мехагон» — мастерская"
+L["DUNGEON_SHORT_NAME_YARD"] = "Операция «Мехагон» — свалка"
 L["ENABLE_AUTO_FRAME_POSITION"] = "Автоматическая позиция окна профиля RaiderIO"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "Включение этого параметра будет удерживать подсказку Эпох+ профиля рядом с окном поиска группы или подсказкой игрока. "
 L["ENABLE_DEBUG_MODE_RELOAD"] = [=[Вы включаете режим отладки. Он предназначен только для тестирования и разработки и потребует дополнительного использования памяти.
@@ -146,30 +144,18 @@ L["RAID_BOSS_EP_5"] = "Оргозоа"
 L["RAID_BOSS_EP_6"] = "Королевский суд"
 L["RAID_BOSS_EP_7"] = "За'кул"
 L["RAID_BOSS_EP_8"] = "Королева Азшара"
---[[Translation missing --]]
---[[ L["RAID_BOSS_NYA_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NYA_10"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NYA_11"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NYA_12"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NYA_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NYA_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NYA_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NYA_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NYA_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NYA_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NYA_8"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_NYA_9"] = ""--]] 
+L["RAID_BOSS_NYA_1"] = "Гневион"
+L["RAID_BOSS_NYA_10"] = "Ра-ден Отчаявшийся"
+L["RAID_BOSS_NYA_11"] = "Панцирь Н'Зота"
+L["RAID_BOSS_NYA_12"] = "Н'Зот Заразитель"
+L["RAID_BOSS_NYA_2"] = "Маут"
+L["RAID_BOSS_NYA_3"] = "Пророк Скитра"
+L["RAID_BOSS_NYA_4"] = "Темный инквизитор Занеш"
+L["RAID_BOSS_NYA_5"] = "Коллективный разум"
+L["RAID_BOSS_NYA_6"] = "Шад'хар Ненасытный"
+L["RAID_BOSS_NYA_7"] = "Дест'агат"
+L["RAID_BOSS_NYA_8"] = "Ил'гинот, Возрожденная Порча"
+L["RAID_BOSS_NYA_9"] = "Вексиона"
 L["RAID_BOSS_ULD_1"] = "Талок"
 L["RAID_BOSS_ULD_2"] = "МАТРИАРХ"
 L["RAID_BOSS_ULD_3"] = "Зловонный пожиратель"
@@ -201,8 +187,7 @@ L["RELOAD_NOW"] = "Перезагрузить сейчас"
 L["SEASON_LABEL_1"] = "C1"
 L["SEASON_LABEL_2"] = "C2"
 L["SEASON_LABEL_3"] = "С3"
---[[Translation missing --]]
---[[ L["SEASON_LABEL_4"] = ""--]] 
+L["SEASON_LABEL_4"] = "С4"
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = "Отображать средние очки прошедших вовремя"
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO_DESC"] = "Показывает среднее количество очков по версии RaiderIO у персонажей прошедших подземелье по ключу вовремя. Показывается в подсказке для ключа и информации по персонажу в поиске подземелий и рейдов."
 L["SHOW_BEST_MAINS_SCORE"] = "Отображать Эпох+ счет главного персонажа из лучшего сезона"

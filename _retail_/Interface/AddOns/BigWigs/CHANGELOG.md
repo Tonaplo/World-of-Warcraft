@@ -1,14 +1,8 @@
 # BigWigs
 
-## [v175](https://github.com/BigWigsMods/BigWigs/tree/v175) (2020-01-24)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v174...v175)
+## [v180](https://github.com/BigWigsMods/BigWigs/tree/v180) (2020-01-31)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v179.3...v180)
 
 - bump version  
-- Nyalotha/NZoth: Fix minor issues  
-- Nyalotha/NZoth: initial alpha module  
-- Nyalotha/Wrathion: Correct the say countdown to not be late  
-- parser: Error on invalid combat log events  
-- BossPrototype: Fix ldoc arg  
-- Nyalotha/Shadhar: Fix Debilitating Spit, fix Breath timer  
-- Nyalotha/CarapaceofNZoth: Fix stage messages, add Thrashing Tentacle timers, fix proximity error  
-- Nyalotha/Wrathion: Add respawn timer  
+- Nyalotha/Raden: Add Corrupted Existance timers for Mythic, Add a say message for Dread Inferno fixate, respawn timer, initial Void Collapse timer  
+- Plugins/AutoReply: Fix a potential error when getting a whisper  

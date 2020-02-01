@@ -53,7 +53,7 @@ RaiderIO_DB_TW_H_R: disabled
 RareShare: disabled
 RareShareMechagon: disabled
 Rematch: enabled
-Simulationcraft: disabled
+Simulationcraft: enabled
 StatPriority: disabled
 VuhDo: enabled
 VuhDoOptions: enabled
