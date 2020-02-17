@@ -23,32 +23,24 @@ L["API_DEPRECATED_UNKNOWN_FILE"] = "<Arquivo de AddOn desconhecido>"
 --[[Translation missing --]]
 --[[ L["BEST_FOR_DUNGEON"] = ""--]] 
 L["BEST_RUN"] = "Melhor M+"
---[[Translation missing --]]
---[[ L["BEST_SCORE"] = ""--]] 
+L["BEST_SCORE"] = "Melhor Pontuação M+ (%s)"
 L["CANCEL"] = "Cancela"
---[[Translation missing --]]
---[[ L["CHANGES_REQUIRES_UI_RELOAD"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHECKBOX_DISPLAY_WEEKLY"] = ""--]] 
+L["CHANGES_REQUIRES_UI_RELOAD"] = "Suas mudanças foram salvas, mas você precisa recarregar sua interface para que elas funcionem. Você deseja fazer isso agora?"
+L["CHECKBOX_DISPLAY_WEEKLY"] = "Mostrar Semanalmente"
 --[[Translation missing --]]
 --[[ L["CHOOSE_HEADLINE_HEADER"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["CONFIG_SHOW_TOOLTIPS_HEADER"] = ""--]] 
---[[Translation missing --]]
---[[ L["CONFIG_WHERE_TO_SHOW_TOOLTIPS"] = ""--]] 
+L["CONFIG_WHERE_TO_SHOW_TOOLTIPS"] = "Onde Mostrar o Progresso em Mítica+ e Raide"
 L["CONFIRM"] = "Confirmar"
 L["COPY_RAIDERIO_PROFILE_URL"] = "Copiar URL do Raider.IO"
 L["COPY_RAIDERIO_URL"] = "Copiar URL do Raider.IO"
---[[Translation missing --]]
---[[ L["CURRENT_MAINS_SCORE"] = ""--]] 
---[[Translation missing --]]
---[[ L["CURRENT_SCORE"] = ""--]] 
---[[Translation missing --]]
---[[ L["DISABLE_DEBUG_MODE_RELOAD"] = ""--]] 
+L["CURRENT_MAINS_SCORE"] = "Pontuação Principal Vigente em M+"
+L["CURRENT_SCORE"] = "Pontuação Vigente em M+"
+L["DISABLE_DEBUG_MODE_RELOAD"] = "Você está desabilitando o Modo de Depuração. Clicar em Confirmar irá Recarregar sua Interface."
 L["DPS"] = "DPS"
 L["DPS_SCORE"] = "Pontos DPS"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_AD"] = ""--]] 
+L["DUNGEON_SHORT_NAME_AD"] = "AD"
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_ARC"] = ""--]] 
 --[[Translation missing --]]
@@ -99,8 +91,7 @@ L["DPS_SCORE"] = "Pontos DPS"
 --[[ L["DUNGEON_SHORT_NAME_WORK"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_YARD"] = ""--]] 
---[[Translation missing --]]
---[[ L["ENABLE_AUTO_FRAME_POSITION"] = ""--]] 
+L["ENABLE_AUTO_FRAME_POSITION"] = "Posicionar o Quadro de Perfil do Raider.IO Automaticamente"
 --[[Translation missing --]]
 --[[ L["ENABLE_AUTO_FRAME_POSITION_DESC"] = ""--]] 
 --[[Translation missing --]]

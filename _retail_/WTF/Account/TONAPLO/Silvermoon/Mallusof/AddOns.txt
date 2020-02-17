@@ -74,3 +74,4 @@ ElvUI_EverySecondCounts: disabled
 ElvUI_AuraBarsMovers: disabled
 BigWigs_Nyalotha: enabled
 ElvUI_CustomTweaks: disabled
+WeakAurasArchive: enabled

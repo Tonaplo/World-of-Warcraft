@@ -26,6 +26,7 @@ L["kanebti"] = "Recoge Figurilla de Escarabajo con Joyas haciendo click en Escar
 L["left_eye"] = "Te da la mitad izquierda del juguete Ojos que todo lo ven."
 L["neferset_rare"] = "Los seis raros comparten los tres lugares de aparición en Neferset. Tras completar un número de veces el evento del Ritual de Invocación, aparecerán tres raros aleatorios."
 L["platform"] = "Aparece encima de la plataforma flotante."
+L["single_chest"] = "¡Este cofre aparece sólo en una localización! Si no está aquí, espera un poco y aparecerá."
 L["spirit_cave"] = "Entrada de la cueva para el Espíritu del Ritualista Oscuro Zakahn."
 L["tomb_widow"] = "Para invocarlo: cuando los sacos de huevos blancos están presentes por los pilares, mata las arañas invisibles."
 L["uatka"] = "Junto con otros dos jugadores más, haced click al mismo tiempo al Dispositivo Misterioso. Requiere que cada uno tenga un Amuleto Fúlgido de un Relicario Amathet."
@@ -60,13 +61,17 @@ L["monstrous_summon"] = "Mata a todos los Prestagistas Abisales para parar la in
 L["obsidian_extract"] = "Destruye los cristales de Obsidiana formada por el Vacío."
 L["purging_flames"] = "Recoge los cuerpos y tíralos al fuego."
 L["pyre_amalgamated"] = "Limpia la pira y mata todas las amalgamas hasta que aparezca el raro."
+L["ritual_ascension"] = "Mata a todos los Ritualistas Fúlgidos."
+L["solar_collector"] = "Enciende los cinco cristales de poder en todos los lados del Recolector. Haciendo click en un cristal enciendes o apagas todos los cristales que están a su lado."
 L["summoning_ritual"] = "Mata a los acólitos y cierra el portal de invocación. Tras completar el evento cierto número de veces, aparecerán tres raros aleatorios aldrededor de Neferset."
 L["titanus_egg"] = "Destruye el Huevo de Titanus y mata el Titanus Joven."
+L["unearthed_keeper"] = "Destruye al Centinela Desenterrado."
+L["virnall_front"] = "Mata oleadas de bichos hasta que aparezca Menepthah el Belisario."
 L["voidflame_ritual"] = "Apaga todas las velas tocadas por el Vacío."
 
 L["beacon_of_sun_king"] = "Gira los rayos de las tres estatuas hacia el orbe."
 L["engine_of_ascen"] = "Mueve las cuatro estatuas hasta interceptar los rayos."
-L["lightblade_training"] = "Mata Instructores y Siervos hasta que aparezca Kames, Hoja del Crepúsculo."
+L["lightblade_training"] = "Mata Instructores y Siervos hasta que aparezca Kames, Hoja del Alba."
 L["raiding_fleet"] = "Quema todos los botes usando la antorcha de la misión."
 L["slave_camp"] = "Abre todos las jaulas cercanas."
 L["unsealed_tomb"] = "Protege a Heru de las oleadas de bichos."
@@ -128,14 +133,47 @@ L["weighted_artifact"] = "Coge el Jarrón Extrañamente Pesado y vuelve por dond
 ----------------------------------- VISIONS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["colored_potion"] = "Poción Coloreada"
+L["colored_potion_note"] = [[
+La poción junto al cuerpo de %s siempre indica el color de la poción de efectos negativos de la visión en curso.
+
+El color de la poción de +100 de cordura se puede saber por el color de esta poción (|cFFFF0000bad|r => |cFF00FF00good|r):
+
+Negro => Verde
+Azul => Violeta
+Verde => Rojo
+Violeta => Negro
+Rojo => Azul
+]]
+
+L["bear_spirit"] = "Espíritu de Oso"
+L["bear_spirit_note"] = "Mata el Espíritu de Alfombra de Oso Enfadado Y todas las oleadas de bichos para ganar un buff de 10% de celeridad."
+L["buffs_change"] = "Los buffs disponibles cambian cada semana. Los edificios estarán cerrados cuando no tengan el buff."
+L["clear_sight"] = "Requiere Visión Clara rango %d."
+L["craggle"] = "Deja un juguete en el suelo (como el Conjunto de Trenes de Juguete) para distraerlo mientras sus robots siguen patrullando. Cuando estén suficientemente separados, mata los robots y después a Chichón Perinola."
+L["empowered"] = "Potenciado"
+L["empowered_note"] = "Atraviesa el laberinto de minas hasta el piso superior y súbete encima de la Mina de Beneficio Experimental para conseguir un buff de 10% de daño incrementado."
+L["enriched"] = "Enriquecido"
+L["enriched_note"] = "Mata el Banco de Hermandad Desatendido para conseguir un buff de 10% de crítico."
+L["ethereal"] = "Etéreo"
+L["ethereal_note"] = "Consigue cristales naranjas escondidos a lo largo de la visión y llévaselos a este NPC para conseguir Recuerdos adicionales."
 L["horrific_visions"] = "Visiones Horripilantes"
+L["inside_building"] = "Dentro de un edificio."
 L["mailbox"] = "Buzón de Correo"
 L["mail_muncher"] = "Cuando se abre, existe la probabilidad de que aparezca el raro Zampacorreos."
-L["options_toggle_visions_desc"] = "Muestra las recompensas de zona dentro de las Visiones Horripilantes."
+L["requited_bulwark"] = "Baluarte Retribuido"
+L["requited_bulwark_note"] = "Mata a Agustus Moulaine para conseguir un buff de 7% de versatilidad."
 L["shave_kit"] = "Equipo de Afeitado de Ricitos"
-L["shave_kit_note"] = "Dentro de la peluquería."
+L["shave_kit_note"] = "Dentro de la peluquería. Despoja la caja que hay encima de la mesa."
 L["void_skull"] = "Calavera tocada por el Vacío"
 L["void_skull_note"] = "Haz click en la calavera del suelo para despojar el juguete."
+
+L["options_toggle_visions_buffs"] = "Buffs"
+L["options_toggle_visions_buffs_desc"] = "Mostrar localizaciones de eventos que garantizan buffs de daño durante 1 hora."
+L["options_toggle_visions_chest_desc"] = "Mostrar localizaciones de cofres posibles dentro de las visiones horripilantes."
+L["options_toggle_visions_mail"] = "Buzones"
+L["options_toggle_visions_mail_desc"] = "Mostrar localizaciones de buzones para la montura del Zampacorreos."
+L["options_toggle_visions_misc_desc"] = "Mostrar localizaciones de raros, juguetes, pociones y del etéreo dentro de las visiones horripilantes."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------

@@ -1955,10 +1955,8 @@ function VUHDO_loadDefaultConfig()
 		-- Wrathion
 		306163, -- Incineration
 		314347, -- Noxious Choke
-		307013, -- Burning Madness
 		-- Maut
 		307806, -- Devour Magic
-		306301, -- Forbidden Mana
 		-- The Prophet Skitra
 		308059, -- ShadowShockApplied
 		307950, -- Shred Psyche
@@ -2004,6 +2002,26 @@ function VUHDO_loadDefaultConfig()
 		316541, -- Paranoia
 		316542  -- Paranoia
 	);
+
+	-- 8.3.0 - Battle for Azeroth - Visions of N'Zoth part 2
+	VUHDO_addCustomSpellIds(47,
+		-- [[ Ny'alotha, The Waking City ]]
+		-- Wrathion
+		-- Maut
+		-- The Prophet Skitra
+		-- Dark Inquisitor Xanesh
+		306311, -- Soul Flay
+		-- Vexiona
+		-- The Hivemind
+		-- Ra-den
+		306184  -- Unleashed Void
+		-- Shad'har the Insatiable
+		-- Drest'agath
+		-- Il'gynoth
+		-- Carapice of N'Zoth
+		-- N'Zoth
+	);
+
 
 	local debuffRemovalList = {};
 
@@ -2379,7 +2397,8 @@ local VUHDO_DEFAULT_PER_PANEL_SETUP = {
 	},
 
 	["ID_TEXT"] = {
-		["showName"] = true,
+		["showName"] = true, 
+		["showNickname"] = false,
 		["showClass"] = false,
 		["showTags"] = true,
 		["showPetOwners"] = true,

@@ -368,8 +368,13 @@ local NefRare = Class('NefersetRare', Rare, {
 
 function NefRare:enabled (map, coord, minimap)
     if not Rare.enabled(self, map, coord, minimap) then return false end
-    -- Only show if the Summoning Ritual event is active or completed
-    return C_TaskQuest.GetQuestTimeLeftMinutes(57359) or IsQuestFlaggedCompleted(57359)
+    -- Only show if a Summoning Ritual event is active or completed
+    for i, quest in ipairs({57359, 57621}) do
+        if C_TaskQuest.GetQuestTimeLeftMinutes(quest) or IsQuestFlaggedCompleted(quest) then
+            return true
+        end
+    end
+    return false
 end
 
 nodes[coord(0, 0)] = NefRare({id=157472, quest=57437}) -- Aphrom the Guise of Madness
@@ -434,6 +439,7 @@ nodes[28030834] = AQRTR5
 nodes[30671611] = AQRTR5
 nodes[30903046] = AQRTR5
 nodes[31521515] = AQRTR5
+nodes[33571901] = AQRTR5
 nodes[33953036] = AQRTR5
 nodes[35101878] = AQRTR5
 nodes[35413157] = AQRTR5
@@ -450,8 +456,8 @@ local EMPChest = Class('EMPChest', Treasure, {
     assault=EMP, label=L["black_empire_cache"]
 })
 
-local EMPTR1 = EMPChest({quest=57623, icon='chest_blue'})
-local EMPTR2 = EMPChest({quest=57624, icon='chest_purple'})
+local EMPTR1 = EMPChest({quest=57623, icon='chest_blue', note=L["single_chest"]})
+local EMPTR2 = EMPChest({quest=57624, icon='chest_purple', note=L["single_chest"]})
 local EMPTR3 = EMPChest({quest=57626, icon='chest_orange'})
 local EMPTR4 = EMPChest({quest=57627, icon='chest_yellow'})
 local EMPTR5 = EMPChest({quest=57635, icon='chest_teal'})
@@ -469,7 +475,9 @@ nodes[60576213] = EMPTR3
 nodes[61778172] = EMPTR3
 nodes[62588188] = EMPTR3
 nodes[62977610] = EMPTR3
+nodes[62996440] = EMPTR3
 nodes[64436501] = EMPTR3
+nodes[66756810] = EMPTR3
 nodes[67547066] = EMPTR3
 nodes[70217325] = EMPTR3
 -- quest=57627
@@ -492,7 +500,9 @@ nodes[47507687] = EMPTR5
 nodes[49037684] = EMPTR5
 nodes[49398584] = EMPTR5
 nodes[49807210] = EMPTR5
+nodes[50207510] = EMPTR5
 nodes[51157388] = EMPTR5
+nodes[51207970] = EMPTR5
 nodes[51707135] = EMPTR5
 nodes[51777298] = EMPTR5
 nodes[51897858] = EMPTR5
@@ -519,46 +529,60 @@ local AMATR5 = AMAChest({quest=55699, icon='chest_teal'})
 local AMATR6 = AMAChest({quest=55700, icon='chest_lime'})
 
 -- quest=55689
+nodes[78265073] = AMATR1
 nodes[80575110] = AMATR1
 nodes[80785611] = AMATR1
 nodes[81585359] = AMATR1
 nodes[84534540] = AMATR1
 nodes[84836185] = AMATR1
+nodes[85005097] = AMATR1
 nodes[85275138] = AMATR1
 nodes[85285297] = AMATR1
 -- quest=55690
+nodes[70325819] = AMATR2
 nodes[71226851] = AMATR2
 nodes[71305922] = AMATR2
 nodes[72216422] = AMATR2
 nodes[73117297] = AMATR2
+nodes[73707393] = AMATR2
 nodes[73987095] = AMATR2
 nodes[78286207] = AMATR2
 nodes[79166486] = AMATR2
 -- quest=55691
 nodes[71504750] = AMATR3
 nodes[72474857] = AMATR3
+nodes[73035386] = AMATR3
+nodes[73045143] = AMATR3
 nodes[74195187] = AMATR3
 nodes[75335579] = AMATR3
 nodes[75575372] = AMATR3
+nodes[76364879] = AMATR3
 nodes[78125302] = AMATR3
 -- quest=55698
 nodes[71884388] = AMATR4
 nodes[72764468] = AMATR4
 nodes[72944350] = AMATR4
+nodes[73714646] = AMATR4
 nodes[74364390] = AMATR4
 nodes[75134608] = AMATR4
 nodes[76344679] = AMATR4
+nodes[77274934] = AMATR4
+nodes[77544828] = AMATR4
 nodes[79314578] = AMATR4
 -- quest=55699 (no blizzard minimap icon for this one?)
 nodes[63084970] = AMATR5
 nodes[64094488] = AMATR5
 nodes[65403796] = AMATR5
 nodes[66394350] = AMATR5
+nodes[66624829] = AMATR5
+nodes[67004050] = AMATR5
+nodes[67884158] = AMATR5
 nodes[69744236] = AMATR5
 nodes[69874163] = AMATR5
 -- quest=55700
 nodes[60932455] = AMATR6
 nodes[61343060] = AMATR6
+nodes[62722355] = AMATR6
 nodes[63122508] = clone(AMATR6, {note=L["chamber_of_the_stars"]})
 nodes[63532160] = AMATR6
 nodes[65543142] = AMATR6
@@ -576,6 +600,7 @@ nodes[67464294] = AMACOFF
 nodes[73337356] = AMACOFF
 nodes[73685054] = AMACOFF
 nodes[75914194] = AMACOFF
+nodes[83116028] = AMACOFF
 
 -------------------------------------------------------------------------------
 -------------------------------- ASSAULT EVENTS -------------------------------
@@ -596,12 +621,12 @@ nodes[31614380] = TimedEvent({quest=58660, assault=AQR, note=L["burrowing_terror
 
 -------------------------------------------------------------------------------
 
--- local MAWREWARD = {Achievement({id=14161, criteria=1})}
+local MAWREWARD = {Achievement({id=14161, criteria=1})}
 
-nodes[55382132] = TimedEvent({quest=58257, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
-nodes[62407931] = TimedEvent({quest=58258, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
 nodes[46793424] = TimedEvent({quest=58256, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
--- nodes[] = TimedEvent({quest=58216, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
+nodes[55382132] = TimedEvent({quest=58257, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
+nodes[60154555] = TimedEvent({quest=58216, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
+nodes[62407931] = TimedEvent({quest=58258, assault=EMP, note=L["consuming_maw"], rewards=MAWREWARD}) -- Consuming Maw
 
 nodes[48518489] = TimedEvent({quest=57522, assault=EMP, note=L["call_of_void"]}) -- Call of the Void
 nodes[53677575] = TimedEvent({quest=57585, assault=EMP, note=L["call_of_void"]}) -- Call of the Void
@@ -617,10 +642,17 @@ nodes[59767241] = TimedEvent({quest=57429, assault=EMP, note=L["pyre_amalgamated
     Pet({id=2851, item=174478}) -- Wicked Lurker
 }}) -- Pyre of the Amalgamated One (also 58330?)
 nodes[50568833] = TimedEvent({quest=57359, assault=EMP, note=L["summoning_ritual"]}) -- Summoning Ritual
+nodes[55227932] = TimedEvent({quest=57621, assault=EMP, note=L["summoning_ritual"]}) -- Summoning Ritual
 nodes[62037070] = TimedEvent({quest=58271, assault=EMP, note=L["voidflame_ritual"]}) -- Voidflame Ritual
 
+nodes[46243068] = TimedEvent({quest=57586, assault=EMP, pois={
+    Path({44272884, 44772860, 45202953, 46012982, 46243068, 47193047, 47773145, 47803309, 47203350})
+}}) -- Spirit Drinker
 nodes[47174044] = TimedEvent({quest=57456, assault=EMP, pois={
     Path({47944278, 47084245, 47254116, 47053964, 46583882, 46943783})
+}}) -- Spirit Drinker
+nodes[52733202] = TimedEvent({quest=57587, assault=EMP, pois={
+    Path({53993205, 52733202, 51713098, 50903050, 50412889, 49212843, 48162695, 47002657})
 }}) -- Spirit Drinker
 nodes[58347785] = TimedEvent({quest=57590, assault=EMP, pois={
     Path({58908017, 58347785, 58907588, 58187367, 58687192, 58896905, 58886621})
@@ -628,30 +660,31 @@ nodes[58347785] = TimedEvent({quest=57590, assault=EMP, pois={
 nodes[59022780] = TimedEvent({quest=57588, assault=EMP, pois={
     Path({58102290, 58422547, 59022780, 59602914, 60063133, 60753296, 60453467})
 }}) -- Spirit Drinker
--- nodes[60005506] = TimedEvent({quest=, assault=EMP, pois={
---     Path({60315245, 59785364, 60005506, 60385696, 60495866})
--- }}) -- Spirit Drinker (57591, 57586, 57587)
+nodes[60005506] = TimedEvent({quest=57591, assault=EMP, pois={
+    Path({60315245, 59785364, 60005506, 60385696, 60495866})
+}}) -- Spirit Drinker
+nodes[64066598] = TimedEvent({quest=57589, assault=EMP, pois={
+    Path({63356496, 64066598, 65306702, 65436896, 66697001, 67986971, 68547031, 68677190, 69447238, 69867349})
+}}) -- Spirit Drinker
 
 -------------------------------------------------------------------------------
 
-nodes[84005400] = TimedEvent({quest=55670, assault=AMA, note=L["raiding_fleet"]}) -- Amathet Raiding Fleet
-nodes[76004700] = TimedEvent({quest=57243, assault=AMA, note=L["slave_camp"]}) -- Amathet Slave Camp
+nodes[84205548] = TimedEvent({quest=55670, assault=AMA, note=L["raiding_fleet"]}) -- Amathet Raiding Fleet
+nodes[76094793] = TimedEvent({quest=57243, assault=AMA, note=L["slave_camp"]}) -- Amathet Slave Camp
 nodes[62062069] = TimedEvent({quest=55356, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
 nodes[71594586] = TimedEvent({quest=55358, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
 nodes[83496186] = TimedEvent({quest=55357, assault=AMA, note=L["beacon_of_sun_king"]}) -- Beacon of the Sun King
-nodes[64002800] = TimedEvent({quest=57215, assault=AMA, note=L["engine_of_ascen"]}) -- Engine of Ascension
-nodes[64962255] = TimedEvent({quest=55355, assault=AMA, note=L["lightblade_training"]}) -- Lightblade Training Grounds
+nodes[64502982] = TimedEvent({quest=57215, assault=AMA, note=L["engine_of_ascen"]}) -- Engine of Ascension
+nodes[64442267] = TimedEvent({quest=55355, assault=AMA, note=L["lightblade_training"]}) -- Lightblade Training Grounds
 nodes[64482984] = TimedEvent({quest=55359, assault=AMA, note=L["chamber_of_the_stars"]..' '..L["ritual_ascension"]}) -- Ritual of Ascension
 nodes[66515030] = TimedEvent({quest=57235, assault=AMA, note=L["solar_collector"]}) -- Solar Collector
 nodes[80256607] = TimedEvent({quest=57234, assault=AMA, note=L["solar_collector"]}) -- Solar Collector
-nodes[70006000] = TimedEvent({quest=55360, assault=AMA, note=L["unsealed_tomb"]}) -- The Unsealed Tomb
-
--- nodes[65003700] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
--- nodes[66005000] = TimedEvent({quest=nil, assault=AMA}) -- Solar Extractor
--- nodes[71006800] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
--- nodes[78005700] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
--- nodes[83004800] = TimedEvent({quest=nil, assault=AMA}) -- Unearthed Keeper
--- nodes[61004700] = TimedEvent({quest=nil, assault=AMA}) -- The Vir'naal Front
+nodes[69905991] = TimedEvent({quest=55360, assault=AMA, note=L["unsealed_tomb"]}) -- The Unsealed Tomb
+nodes[61414704] = TimedEvent({quest=55354, assault=AMA, note=L["virnall_front"]}) -- The Vir'nall Front
+nodes[65513779] = TimedEvent({quest=57219, assault=AMA, note=L["unearthed_keeper"]}) -- Unearthed Keeper
+nodes[71366849] = TimedEvent({quest=57217, assault=AMA, note=L["unearthed_keeper"]}) -- Unearthed Keeper
+nodes[78225754] = TimedEvent({quest=57223, assault=AMA, note=L["unearthed_keeper"]}) -- Unearthed Keeper
+nodes[82534796] = TimedEvent({quest=57218, assault=AMA, note=L["unearthed_keeper"]}) -- Unearthed Keeper
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

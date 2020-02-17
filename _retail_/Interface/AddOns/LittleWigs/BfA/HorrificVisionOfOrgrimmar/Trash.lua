@@ -60,6 +60,7 @@ function mod:GetOptions()
 		-- General
 		"altpower",
 		311996, -- Open Vision
+		311390, -- Madness: Entomophobia
 		-- Voidbound Shaman
 		297237, -- Endless Hunger Totem
 		-- Crawling Corruption
@@ -114,11 +115,19 @@ function mod:GetOptions()
 	}
 end
 
+-- Some mob ids are shared by different visions
+function mod:VerifyEnable()
+	local _, _, _, _, _, _, _, instanceId = GetInstanceInfo()
+	return instanceId == 2212
+end
+
 function mod:OnBossEnable()
 	self:OpenAltPower("altpower", 318335, "ZA") -- Sanity
 
 	self:RegisterEvent("UNIT_SPELLCAST_START")
 	self:Log("SPELL_CAST_SUCCESS", "MindProtected", 291295)	-- Cast when the vision ends
+	self:Log("SPELL_AURA_APPLIED", "MadnessEntomophobiaApplied", 311390)
+	self:Log("SPELL_AURA_APPLIED_DOSE", "MadnessEntomophobiaApplied", 311390)
 	self:Log("SPELL_CAST_SUCCESS", "EndlessHungerTotem", 297237)
 	self:Log("SPELL_CAST_START", "CreepyCrawler", 296510)
 	self:Log("SPELL_CAST_START", "HorrifyingShout", 305378)
@@ -165,6 +174,14 @@ end
 
 function mod:MindProtected(args)
 	self:CloseAltPower("altpower")
+end
+
+function mod:MadnessEntomophobiaApplied(args)
+	local amount = args.amount or 1
+	if self:Me(args.destGUID) and amount >= 3 then
+		self:StackMessage(args.spellId, args.destName, amount, "blue")
+		self:PlaySound(args.spellId, "info")
+	end
 end
 
 function mod:EndlessHungerTotem(args)

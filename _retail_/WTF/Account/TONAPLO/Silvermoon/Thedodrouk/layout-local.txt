@@ -13,3 +13,10 @@ X: 0
 Y: 0
 W: 365
 H: 240
+Frame: scanner_button
+FrameLevel: 200
+Anchor: LEFT
+X: 143
+Y: 146
+W: 200
+H: 50

@@ -1,7 +1,9 @@
 
 HandyNotes_VisionsOfNZothDB = {
 	["profileKeys"] = {
+		["Thedodrouk - Silvermoon"] = "Default",
 		["Amranar - Silvermoon"] = "Default",
+		["Rahran - Silvermoon"] = "Default",
 		["Kaldowrath - Silvermoon"] = "Default",
 		["Greyblood - Silvermoon"] = "Default",
 		["Mallusof - Silvermoon"] = "Default",

@@ -205,18 +205,18 @@ local baseLocale = {
     --- Ny’alotha, the Walking City
     -------------------------------------------------------
     --Tactics
-    ["Ny’alotha_WrathionTheBlackEmperor"] = "",
-    ["Ny’alotha_Maut"] = "",
-    ["Ny’alotha_TheProphetSkitra"] = "",
-    ["Ny’alotha_DarkInquisitorXanesh"] = "",
-    ["Ny’alotha_TheHivemind"] = "",
-    ["Ny’alotha_ShadharTheInsatiable"] = "",
-    ["Ny’alotha_Drestagath"] = "",
-    ["Ny’alotha_Vexiona"] = "",
-    ["Ny’alotha_RadenTheDespoiled"] = "",
-    ["Ny’alotha_IlgynothCorruptionReborn"] = "",
-    ["Ny’alotha_CarapaceOfNZoth"] = "",
-    ["Ny’alotha_NZothTheCorruptor"] = "",
+    ["Ny’alotha_WrathionTheBlackEmperor"] = "For this achievement you have to defeat 10 %s within 3 seconds. You can easily do this by having three people get the %s in Phase 2 and then have them walk over the shards at the same time.\n\n Demon Hunters' %s and Monks' %s are excellent spells for this fight, as they can go through multiple shards instantly.",
+    ["Ny’alotha_Maut"] = "For this achievement you have to power up a %s by letting it absorb a mana orb from Phase 2, defeat it and then defeat %s.\n\n To make this achievement much easier, have a third tank get the %s away from the boss and tank it in a %s until Phase 2 starts.\n\n Once the add transforms into a %s, use %s and nuke the add before finishes his %s cast.",
+    ["Ny’alotha_TheProphetSkitra"] = "For this achievement you have to defeat the %s and his two clones after engaging %s.\n\n %s is found at the end of the corridor on the left before you get to %s. Make sure to clear all the trash over there, as well as the trash to the boss room before pulling the %s.\n\n After you start the fight, two clones of the %s will spawn. Use %s, nuke the disciples and then you can finish the boss and get the achievement.",
+    ["Ny’alotha_DarkInquisitorXanesh"] = "For this achievement you have to eliminate a %s three times, each with less than 3 seconds remaining on the %s debuff.\n\n To get the %s debuff, players must soak the %s zones. From there just bounce the %s between two players, get it close to portal and eliminate it when the %s debuff is going to expire within 3 seconds.\n\n Note: Make sure to account for orb travel time, even if you're close to the portal it's still going to take 1 or 2 more seconds for the orb to get eliminated.\n\n Important: If the %s debuff has expired and then the %s went in, that will not count and you'll have to do it again.",
+    ["Ny’alotha_TheHivemind"] = "For this achievement you have to find and pick up three %s and bring them to %s fight.\n\n You will find one specimen near the entrance to Maw of Gor'ma, one in the Ritual Chamber (before %s) and the last one right before %s.\n\n Start the fight and the three specimens will evolve shortly. Use %s, nuke the %s and then you can finish the boss and get the achievement.\n\n Note: Players that pick up the specimens will get a buff: %s. If the buff goes away for whatever reason, the specimens will spawn in their original location.",
+    ["Ny’alotha_ShadharTheInsatiable"] = "For this achievement everyone in the raid has to /pet %s and get the %s debuff.\n\n Note: Every time someone /pets %s, he will get a haste buff and not bite anyone else for 5 seconds. Players will have to /pet during the fight until everyone gets the debuff.",
+    ["Ny’alotha_Drestagath"] = "For this achievement you have to trigger %s twice within 60 seconds.\n\n Strategy: Kill tentacles until %s reaches 80 energy and then wait for the tentacles to respawn. Once 4+ tentacles are up, kill one so %s gets to 100 energy and casts %s.\n\n From there, use %s and kill all the remaining tentacles and the new ones that spawn during the 1 minute timer.",
+    ["Ny’alotha_Vexiona"] = "For this achievement every player in the group has to be hit by %s at least 30 times before defeating %s.\n\n Stack up as a group, have the tank face the %s towards the group, and use raid cooldowns such as %s, %s and %s once the add starts casting %s.\n\n Since you can't reach 30 stacks from a single cast, you will have to do this multiple times. Make sure to rotate between using raid cooldowns and personal cooldowns.",
+    ["Ny’alotha_RadenTheDespoiled"] = "For this achievement players have to destroy 2 obelisks by using the %s that you get from %s. To trigger %s, players must kill the %s.\n\n Note: You will need five players to redirect the %s towards the obelisks by facing their character in their direction.",
+    ["Ny’alotha_IlgynothCorruptionReborn"] = "For this achievement you have to defeat 10 %s in under 3 seconds. The best moment to complete the achievement is either shortly after the first intermission or at the end of the fight when %s are spawning constantly.\n\n Once 10 or more %s are alive group up, use %s, defensive cooldowns for the raid (such as %s and %s) and nuke the adds.",
+    ["Ny’alotha_CarapaceOfNZoth"] = "For this achievement your group will have to split into two groups, bring all the %s to 10%%-15%% hp, and then kill them within 10 seconds.\n\n Note that %s isn't really required for this phase, you can save it for Phase 3. As long as players use cooldowns and essences to destroy the growths, you should have no problem defeating them within 10 seconds.",
+    ["Ny’alotha_NZothTheCorruptor"] = "For this achievement everyone in the group will have to get to 0 %s to get the %s and then defeat %s. This achievement is done in Phase 3 (on Normal or Heroic), at the end of the fight.\n\n Once every player has below 50 %s and the boss is around 15%%-20%% hp, let %s finish his %s cast without anyone soaking it. Everyone will then reach 0 %s, receive the %s and you can use %s to nuke N'Zoth.\n\n Tip: In Phase 3, players with high %s should always soak %s and players with low %s should use one tick of %s to avoid getting the %s early.\n\n Tip: If some players have high %s, they can stay in %s to quickly lose it.",
     
     --Chat Output
     ["OrbNotReturnedSuccessfully"] = "Orb not returned successfully",
@@ -614,11 +614,11 @@ local baseLocale = {
     --Tactics
     ["BlackrockFoundry_BeastlordDarmac"] = "This achievement will take 3 kills to complete. On each attempt, pull the boss while he is closest to a different beast. It will take several seconds for the boss to mount the beast after pulling. Once he has mounted one of the beasts you can then kill the boss.",
     ["BlackrockFoundry_OperatorThogar"] = "After pulling the boss wait 10 seconds then place a %s and then immediately after the %s on the first set of tracks as you enter the boss room. The achievement will be earned as soon as the train runs over the %s",
-    ["BlackrockFoundry_Kromog"] = "This achievement requires atleast 10 players to complete although more players will make the achievement easier.\n\n After pulling the boss spread out around the room and wait for %s to spawn. After the %s have spawned, each player will need to stand on their own rune and wait to be grabbed by a hand. Next wait for the boss to cast %s then have all players AOE down the hands within 5 seconds of one another.\n\n Note: If you kill the hands before %s has been cast, all players will be thrown into the air which may prevent some players recieving the achievement if they die from the fall and have not tagged the boss.",
+    ["BlackrockFoundry_Kromog"] = "This achievement requires atleast 10 players to complete although more players will make the achievement easier.\n\n After pulling the boss spread out around the room and wait for %s to spawn. After the %s have spawned, each player will need to stand on their own rune and wait to be grabbed by a hand. Next wait for the boss to cast %s then have all players AOE down the hands within 5 seconds of one another.\n\n Note: If you kill the hands before %s has been cast, all players will be thrown into the air which may prevent some players receiving the achievement if they die from the fall and have not tagged the boss.",
     ["BlackrockFoundry_Gruul"] = "",
     ["BlackrockFoundry_Oregorger"] = "",
     ["BlackrockFoundry_BlastFurnace"] = "Completed during phase 2. During phase 2, 4 random players will be targeted by slag elementals. If you have a slag elemental following you, run to one of the primal elementalists which doesn’t have a slag elemental already on. Once there is slag elemental on each primal elementalists you can nuke down the slag elemental then primal elementalists as quick as possible. Getting all 4 primal elementalists down within 10 seconds will reward this achievement.",
-    ["BlackrockFoundry_Blackhand"] = "DPS the boss down to 30% to reach phase 3. Ashes will then start falling from the ceiling. Spread out around the platform and stand underneath the falling ashes until it lands on you. Once the group has collected 20 falling ashes you can nuke boss. The more players you have the easy this achievement is.",
+    ["BlackrockFoundry_Blackhand"] = "To complete this achievement, DPS the boss down to 30%% to reach phase 3. Next players will need to spread out around the boss room and collect %s by standing underneath them as they fall from the ceiling. Once the group has collected 20 %s you can kill the boss.\n\n Note: This achievement is easier to complete in a group due to the boss knocking players off the platform with %s followed by %s.",
 
     --Chat Output
 
@@ -634,7 +634,7 @@ local baseLocale = {
     ["HellfireCitadel_SocretharTheEternal"] = "During phase 2. Use the robot to put up a prison at the blue portal. Continue to use the prison at the portal to trap the adds until 20 Haunting Souls are trapped. Once this is done, leave the vehicle and aoe all the adds down. Players can also cc the adds to keep them in place. Do not kill the adds with the robot.",
     ["HellfireCitadel_TyrantVelhari"] = "1 person tank the Ancient Enforcer away from the group. Everyone else nuke the boss down",
     ["HellfireCitadel_Mannoroth"] = "At the start of the fight kill the green & purple summoner. Wait for a player to get curse of the legion debuff before killing the red summoner. Once the curse of the legion debuff runs out or is dispelled, a doom lord will spawn. Get the doom lord down to 5% health. Next dps down Mannoroth to 30% health. Once this is done place the doom lord in front of the boss and wait for it to get killed by Mannoroth Empowered Fel Seeker ability. Once the doom lord has been killed by the boss, you can kill the boss.",
-    ["HellfireCitadel_Archimonde"] = "Wait for the Doomfire Spirit to spawn then nuke down boss. The Doomfire Spirit does not need to stay alive",
+    ["HellfireCitadel_Archimonde"] = "To complete this achievement, pull the boss then wait for a %s to spawn. Once a %s has spawned you can then kill the boss.\n\n Note: You do not need to keep the %s alive as long as you kill the boss within 120 seconds.",
 
     --Chat Output
 
@@ -678,7 +678,7 @@ local baseLocale = {
     --- Grimrail Depot
     -------------------------------------------------------
     --Tactics
-    ["GrimrailDepot_RocketsparkAndBorka"] = "",
+    ["GrimrailDepot_RocketsparkAndBorka"] = "There are 4 chests (%s) located around the boss room which needs to be shattered to complete this achievement. First pull the boss then wait at each of the chests for %s to cast %s to shatter the chest. Once all 4 chests have been shattered, you can kill the boss.",
     ["GrimrailDepot_NitroggThundertower"] = "",
 
     --Chat Output
@@ -1156,8 +1156,8 @@ local baseLocale = {
     --- End Time
     -------------------------------------------------------
     --Tactics
-    ["EndTime_EchoOfTyrande"] = "At 110, run the gauntlet without any player in healing spec. This way you don’t need to worry about a healer taking any damage.",
-    ["EndTime_EchoOfSylvanas"] = "Pull the boss then wait for the Risen Ghouls to spawn. Once the Risen Ghouls have spawned, kill two of them then kill boss.",
+    ["EndTime_EchoOfTyrande"] = "The easiest way to complete this achievement is to simply run the gauntlet without any players being in healing spec.",
+    ["EndTime_EchoOfSylvanas"] = "To complete this achievement, pull the boss then wait for %s to spawn. Once the %s have spawned, kill at least two of them then kill the boss.",
 
     --Chat Output
 
@@ -1181,7 +1181,7 @@ local baseLocale = {
     --- Obsidian Sanctum
     -------------------------------------------------------
     --Tactics
-    ["ObsidianSanctum_SartharionTheOnyxGuardian"] = "At 110, you can simply just kill Sartharion and ignore all the other bosses to get this achievement.",
+    ["ObsidianSanctum_SartharionTheOnyxGuardian"] = "At max level, you can just kill %s and ignore all the other bosses to get this achievement.",
 
     --Chat Output
 
@@ -1317,7 +1317,7 @@ local baseLocale = {
     --- Violet Hold
     -------------------------------------------------------
     --Tactics
-    ["VioletHold_Cyanigosa"] = "To complete this achievement simply kill all the mobs as soon as they spawn from their portals and do not activate any red crystals around the room.",
+    ["VioletHold_Cyanigosa"] = "At max level, kill all the mobs as soon as they spawn from the portals around the room to prevent them reaching the door. You must also not activate any of the red crystals around the room.",
     ["VioletHold_Other"] = "This achievement will take multiple runs to complete since it’s random which bosses are going to spawn.",
 
     --Chat Output

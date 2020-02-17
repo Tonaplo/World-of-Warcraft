@@ -44,7 +44,7 @@ L["tolvir_relic"] = "Benötigt Tol'virrelikt"
 L["options_toggle_alpaca_uldum"] = "Freundliches Alpaka"
 L["options_toggle_alpaca_uldum_desc"] = "Zeigt Positionen für Gersahlstrauch und Freundliches Alpaka."
 L["options_toggle_assault_events"] = "Angriffevents"
-L["options_toggle_assault_events_desc"] = "Zeigt mögliche Positionen für Angriffevents"
+L["options_toggle_assault_events_desc"] = "Zeigt mögliche Positionen für Angriffevents."
 L["options_toggle_coffers"] = "Verschlossene Kisten"
 L["options_toggle_coffers_desc"] = "Zeigt die Positionen von Verschlossene Kisten (einmal pro Angriff plünderbar)."
 
@@ -60,8 +60,12 @@ L["monstrous_summon"] = "Töte alle Abyssischen Herolds um die Beschwörung zu s
 L["obsidian_extract"] = "Zerstöre jeden Leerengestaltenobsidian Kristall."
 L["purging_flames"] = "Hebe die Körper auf und werfe sie ins Feuer."
 L["pyre_amalgamated"] = "Läutere den Scheiterhaufen, töte die Fleischbestien bis die Fleischverschmelzung erscheint."
+L["ritual_ascension"] = "Töte die Sonnenberührten Ritualisten."
+L["solar_collector"] = "Aktiviere alle fünf Machtkristalle an allen Seiten des Sonnensammlers. Durch klicken auf eine Kristall werden alle Kristalle umgeschaltet die dieser berührt."
 L["summoning_ritual"] = "Töte die Akolythen von N'Zoth und läutere das Beschwörungsportal."
 L["titanus_egg"] = "Zerstöre das Titanusei und besiege dann das Titanusjungtier."
+L["unearthed_keeper"] = "Zerstöre den Ausgegrabenen Hüter."
+L["virnall_front"] = "Besiege Wellen von Gegnern bis Menepthah der Kriegshetzer erscheint."
 L["voidflame_ritual"] = "Lösche alle Leerenberührten Kerzen."
 
 L["beacon_of_sun_king"] = "Drehe alle drei Statuen nach innen."
@@ -112,9 +116,9 @@ L["mantid_hatch"] = "Hebe den Flammenwerfer der Shado-Pan auf und zerstöre die 
 L["mending_monstro"] = "Zerstöre alle Heilbernkristalle."
 L["mystery_sacro"] = "Zerstöre alle Verdächtigen Grabsteine und töte dann die Schreiende Seele."
 L["protect_stout"] = "Beschütze die Höhle vor Wellen von Gegnern."
-L["noodle_cart"] = "Beschütze Chin währen er seinen Wagen repariert."
+L["noodle_cart"] = "Beschütze Chin während er seinen Wagen repariert."
 L["pulse_mound"] = "Töte Gegner in der Umgebung und dann Lebendiges Wachstum."
-L["ravager_hive"] = "Zerstöre alle hives am Baum." --check for correctness
+L["ravager_hive"] = "Zerstöre alle Verheererbauten am Baum."
 L["ritual_wakening"] = "Töte die Erwecker der Klaxxi."
 L["serpent_binding"] = "Töte die Unterjocher der Zan-Tien und dann Haofeng."
 L["stormchosen_arena"] = "Töte alle Gegner in diesem Bereich und dann Xigan."
@@ -128,14 +132,46 @@ L["weighted_artifact"] = "Hebe das Seltsam schweres Gefäß auf und navigiere du
 ----------------------------------- VISIONS -----------------------------------
 -------------------------------------------------------------------------------
 
+L["colored_potion"] = "Farbige Fläschchen"
+L["colored_potion_note"] = [[
+Das Fläschchen neben der Leiche von %s zeigt immer die Farbe des Negativeffekt Fläschchens für diesen Lauf an.
+
+Die Farbe des +100 Geistigegesundheit Fläschchens kann mit hilfe der Farbe dieses Fläschchens herausgefunden werden (|cFFFF0000schlecht|r => |cFF00FF00gut|r):
+
+Schwarz => Grün
+Blau => Lila
+Grün => Rot
+Lila => Schwarz
+Rot => Blau
+]]
+
+L["bear_spirit"] = "Bärengeist"
+L["bear_spirit_note"] = "Töte Wütender Bärpelzgeist und alle Wellen von Gegnern um einen 10% Tempo Stärkungszauber zu erhalten."
+L["clear_sight"] = "Benötigt Klare Sicht Rang %d."
+L["craggle"] = "Platziere ein Spielzeug auf dem Boden (wie das Spielzeugzugset), um ihn abzulenken, während seine Wachen weiter laufen. Sobald sie genug getrennt sind, töte die Wachen und dann Craggle."
+L["empowered"] = "Ermächtigt"
+L["empowered_note"] = "Gehe durch das Minenfeld und stelle dich auf die Experimentelle Stärkungsmine für einen 10% Schaden Stärkungszauber."
+L["enriched"] = "Angereichert"
+L["enriched_note"] = "Töte die Vernachlässigte Gildenbank um einen 10% kritische Trefferwertung Stärkungszauber zu erhalten."
+L["ethereal"] = "Astraler"
+L["ethereal_note"] = "Sammel orangene Kristalle die in der Vision versteckt sind und bringe sie zu diesem NPC um extra Verderbte Andenken zu erhalten."
 L["horrific_visions"] = "Verstörende Visionen"
+L["inside_building"] = "In einem Gebäude."
 L["mailbox"] = "Briefkasten"
 L["mail_muncher"] = "Beim öffnen besteht eine Chance das Postmampfer erscheint."
-L["options_toggle_visions_desc"] = "Zeigt die Positionen von Belohnungen in Verstörenden Visionen."
+L["requited_bulwark"] = "Belohnendes Bollwerk"
+L["requited_bulwark_note"] = "Töte Agustus Moulaine um einen 7% Vielseitigkeits Stärkungszauber zu erhalten."
 L["shave_kit"] = "Haubenlockes Glattrasurset"
-L["shave_kit_note"] = "Im Barbierladen."
+L["shave_kit_note"] = "Im Barbierladen. Loote die Kiste auf dem Tisch."
 L["void_skull"] = "Leerenberührter Schädel"
 L["void_skull_note"] = "Klicke den Schädel auf dem Boden an um das Spielzeug zu plündern."
+
+L["options_toggle_visions_buffs"] = "Stärkungszauber"
+L["options_toggle_visions_buffs_desc"] = "Zeigt die Positionen von Events die einen 1 Stunde Stärkungszauber gewähren."
+L["options_toggle_visions_chest_desc"] = "Zeigt mögliche Truhen Positionen in Verstörenden Visionen an."
+L["options_toggle_visions_mail"] = "Briefkästen"
+L["options_toggle_visions_mail_desc"] = "Zeigt die Positionen von Briefkästen für das Postmampfer Reittier."
+L["options_toggle_visions_misc_desc"] = "Zeigt die Position von Seltenen Gegner, Spielzeugen, Fläschchen und Astralen in Verstörenden Visionen."
 
 -------------------------------------------------------------------------------
 ----------------------------------- VOLDUN ------------------------------------
