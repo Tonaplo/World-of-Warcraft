@@ -13,8 +13,7 @@ local L = WeakAuras.L
 	L["% of Progress"] = "% de progression"
 	L["%i auras selected"] = "%i auras sélectionnées"
 	L["%i Matches"] = "%i Correspondances"
-	--[[Translation missing --]]
-	L["%s - Option #%i has the key %s. Please choose a different option key."] = "%s - Option #%i has the key %s. Please choose a different option key."
+	L["%s - Option #%i has the key %s. Please choose a different option key."] = "%s - L'option #%i est attribuée à la touche %s. Veuillez choisir une touche différente."
 	--[[Translation missing --]]
 	L["%s %s, Lines: %d, Frequency: %0.2f, Length: %d, Thickness: %d"] = "%s %s, Lines: %d, Frequency: %0.2f, Length: %d, Thickness: %d"
 	--[[Translation missing --]]
@@ -709,7 +708,8 @@ Seule une unique valeur peut être choisie]=]
 	L["Time in"] = "Temps entrant"
 	L["Tiny Icon"] = "Très petite icône"
 	L["To Frame's"] = "Au cadre de"
-	L["to group's"] = "au groupe..."
+	--[[Translation missing --]]
+	L["To Group's"] = "To Group's"
 	L["To Personal Ressource Display's"] = "À ... du cadre des Res. Perso"
 	L["To Screen's"] = "À ... de l'écran"
 	L["Toggle the visibility of all loaded displays"] = "Change la visibilité de tous les affichages chargés"

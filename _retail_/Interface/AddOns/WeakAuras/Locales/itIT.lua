@@ -44,9 +44,9 @@ L["/wa pstop - Finish profiling"] = "/wa pstop - Termina il profiling"
 L["/wa repair - Repair tool"] = "/wa repair - Repair tool"
 L["|cffeda55fLeft-Click|r to toggle showing the main window."] = "|cffeda55fClick Sinistro|r per mostrare/nascondere la finestra principale."
 L["|cffeda55fMiddle-Click|r to toggle the minimap icon on or off."] = "|cffeda55fClick Centrale|r per mostrare/nascondere l'icona della minimappa."
-L["|cffeda55fRight-Click|r to toggle performance profiling on or off."] = "|cffeda55fClick Destro|r per attivare/disattivare il profiling delle prestazioni."
+--[[Translation missing --]]
+L["|cffeda55fRight-Click|r to toggle performance profiling window."] = "|cffeda55fRight-Click|r to toggle performance profiling window."
 L["|cffeda55fShift-Click|r to pause addon execution."] = "|cffeda55fShift Click|r per mettere in pausa l'addon."
-L["|cffeda55fShift-Right-Click|r to show profiling results."] = "|cffeda55fShift Click Destro|r per mostrare i risultati del profiling."
 --[[Translation missing --]]
 L["|cFFffcc00Extra Options:|r %s"] = "|cFFffcc00Extra Options:|r %s"
 --[[Translation missing --]]
@@ -104,6 +104,8 @@ L["Armor Rating"] = "Armor Rating"
 --[[Translation missing --]]
 L["Array"] = "Array"
 L["Ascending"] = "Crescente"
+--[[Translation missing --]]
+L["Assigned Role"] = "Assigned Role"
 L["At Least One Enemy"] = "Almeno un nemico"
 L["Attach to End"] = "Aggiungi alla Fine"
 L["Attach to Start"] = "Aggiungi all'inizio"
@@ -130,7 +132,6 @@ L["Author Options"] = "Opzioni Autore"
 L["Auto"] = "Auto"
 --[[Translation missing --]]
 L["Autocast Shine"] = "Autocast Shine"
-L["Auto-Clone (Show all Matches)"] = "Auto-Clona (Mostra tutte le corrispondenze)"
 L["Automatic"] = "Automatico"
 --[[Translation missing --]]
 L["Automatic Repair Confirmation Dialog"] = "Automatic Repair Confirmation Dialog"
@@ -241,6 +242,8 @@ L["Combat Log"] = "Registro di combattimento"
 L["Combine all matches"] = "Combine all matches"
 L["Conditions"] = "Condizioni"
 L["Contains"] = "Contiene"
+--[[Translation missing --]]
+L["Continously update Movement Speed"] = "Continously update Movement Speed"
 --[[Translation missing --]]
 L["Cooldown"] = "Cooldown"
 --[[Translation missing --]]
@@ -796,6 +799,8 @@ L["Name of Caster's Target"] = "Name of Caster's Target"
 --[[Translation missing --]]
 L["Nameplate"] = "Nameplate"
 --[[Translation missing --]]
+L["Nameplate Type"] = "Nameplate Type"
+--[[Translation missing --]]
 L["Nameplates"] = "Nameplates"
 --[[Translation missing --]]
 L["Names of affected Players"] = "Names of affected Players"
@@ -837,6 +842,8 @@ L["Note: The available text replacements for multi triggers match the normal tri
 L["Note: This trigger type estimates the range to the hitbox of a unit. The actual range of friendly players is usually 3 yards more than the estimate. Range checking capabilities depend on your current class and known abilities as well as the type of unit being checked. Some of the ranges may also not work with certain NPCs.|n|n|cFFAAFFAAFriendly Units:|r %s|n|cFFFFAAAAHarmful Units:|r %s|n|cFFAAAAFFMiscellanous Units:|r %s"] = "Note: This trigger type estimates the range to the hitbox of a unit. The actual range of friendly players is usually 3 yards more than the estimate. Range checking capabilities depend on your current class and known abilities as well as the type of unit being checked. Some of the ranges may also not work with certain NPCs.|n|n|cFFAAFFAAFriendly Units:|r %s|n|cFFFFAAAAHarmful Units:|r %s|n|cFFAAAAFFMiscellanous Units:|r %s"
 --[[Translation missing --]]
 L["NPC"] = "NPC"
+--[[Translation missing --]]
+L["Npc ID"] = "Npc ID"
 --[[Translation missing --]]
 L["Number"] = "Number"
 --[[Translation missing --]]
@@ -1010,6 +1017,8 @@ L["Repair"] = "Repair"
 --[[Translation missing --]]
 L["Repeat"] = "Repeat"
 --[[Translation missing --]]
+L["Report"] = "Report"
+--[[Translation missing --]]
 L["Requested display does not exist"] = "Requested display does not exist"
 --[[Translation missing --]]
 L["Requested display not authorized"] = "Requested display not authorized"
@@ -1158,6 +1167,8 @@ L["Slider"] = "Slider"
 --[[Translation missing --]]
 L["Small"] = "Small"
 --[[Translation missing --]]
+L["Smart Group"] = "Smart Group"
+--[[Translation missing --]]
 L["Sound"] = "Sound"
 --[[Translation missing --]]
 L["Sound by Kit ID"] = "Sound by Kit ID"
@@ -1234,15 +1245,15 @@ L["Stamina"] = "Stamina"
 --[[Translation missing --]]
 L["Stance/Form/Aura"] = "Stance/Form/Aura"
 --[[Translation missing --]]
-L["Start Profiling"] = "Start Profiling"
+L["Star Shake"] = "Star Shake"
+--[[Translation missing --]]
+L["Start"] = "Start"
 --[[Translation missing --]]
 L["Status"] = "Status"
 --[[Translation missing --]]
 L["Stolen"] = "Stolen"
 --[[Translation missing --]]
 L["Stop"] = "Stop"
---[[Translation missing --]]
-L["Stop Profiling"] = "Stop Profiling"
 --[[Translation missing --]]
 L["Strength"] = "Strength"
 --[[Translation missing --]]
@@ -1321,6 +1332,8 @@ L["Toggle"] = "Toggle"
 L["Toggle List"] = "Toggle List"
 --[[Translation missing --]]
 L["Toggle Options Window"] = "Toggle Options Window"
+--[[Translation missing --]]
+L["Toggle Performance Profiling Window"] = "Toggle Performance Profiling Window"
 --[[Translation missing --]]
 L["Tooltip"] = "Tooltip"
 --[[Translation missing --]]
@@ -1437,6 +1450,8 @@ L["Warning: Name info is now available via %affected, %unaffected. Number of aff
 L["Warning: Tooltip values are now available via %tooltip1, %tooltip2, %tooltip3 instead of %s. This is not automatically adjusted."] = "Warning: Tooltip values are now available via %tooltip1, %tooltip2, %tooltip3 instead of %s. This is not automatically adjusted."
 --[[Translation missing --]]
 L["WeakAuras has encountered an error during the login process. Please report this issue at https://github.com/WeakAuras/Weakauras2/issues/new."] = "WeakAuras has encountered an error during the login process. Please report this issue at https://github.com/WeakAuras/Weakauras2/issues/new."
+--[[Translation missing --]]
+L["WeakAuras Profiling"] = "WeakAuras Profiling"
 --[[Translation missing --]]
 L["WeakAuras Profiling Data"] = "WeakAuras Profiling Data"
 --[[Translation missing --]]

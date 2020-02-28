@@ -965,7 +965,7 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["To Frame's"] = "To Frame's"
 	--[[Translation missing --]]
-	L["to group's"] = "to group's"
+	L["To Group's"] = "To Group's"
 	--[[Translation missing --]]
 	L["To Personal Ressource Display's"] = "To Personal Ressource Display's"
 	--[[Translation missing --]]

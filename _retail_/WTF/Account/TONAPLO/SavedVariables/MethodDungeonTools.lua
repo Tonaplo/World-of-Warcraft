@@ -4,19 +4,24 @@ MethodDungeonToolsDB = {
 		["Jaletta - Auchindoun"] = "Jaletta - Auchindoun",
 		["Kenne - Auchindoun"] = "Kenne - Auchindoun",
 		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
+		["Puukaa - Ragnaros"] = "Puukaa - Ragnaros",
 		["Thorlan - Silvermoon"] = "Thorlan - Silvermoon",
 		["Amranar - Silvermoon"] = "Amranar - Silvermoon",
 		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
 		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
 		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
 		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
+		["Grommarg - Ragnaros"] = "Grommarg - Ragnaros",
 		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
-		["Tukar - Auchindoun"] = "Tukar - Auchindoun",
 		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
+		["Tukar - Auchindoun"] = "Tukar - Auchindoun",
+		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
+		["Skyreacher - Ragnaros"] = "Skyreacher - Ragnaros",
+		["Welor - Auchindoun"] = "Welor - Auchindoun",
 		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
 		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
-		["Welor - Auchindoun"] = "Welor - Auchindoun",
+		["Alurana - Ragnaros"] = "Alurana - Ragnaros",
 		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Glora - Auchindoun"] = "Glora - Auchindoun",
 	},
@@ -94,7 +99,7 @@ MethodDungeonToolsDB = {
 		["currentPreset"] = {
 			[15] = 3,
 			[16] = 4,
-			[17] = 3,
+			[17] = 4,
 			[18] = 5,
 			[19] = 3,
 			[20] = 5,
@@ -2554,9 +2559,385 @@ MethodDungeonToolsDB = {
 					["difficulty"] = 15,
 				}, -- [3]
 				{
+					["difficulty"] = 10,
+					["week"] = 7,
+					["value"] = {
+						["currentPull"] = 11,
+						["currentSublevel"] = 1,
+						["pulls"] = {
+							{
+								["color"] = "1dff00",
+								[2] = {
+									1, -- [1]
+									7, -- [2]
+									2, -- [3]
+									4, -- [4]
+									8, -- [5]
+									5, -- [6]
+									3, -- [7]
+									6, -- [8]
+								},
+							}, -- [1]
+							{
+								{
+									2, -- [1]
+									1, -- [2]
+								}, -- [1]
+								["color"] = "00eaff",
+								[33] = {
+								},
+							}, -- [2]
+							{
+								["color"] = "228b22",
+								[36] = {
+									1, -- [1]
+								},
+								[37] = {
+									2, -- [1]
+								},
+							}, -- [3]
+							{
+								["color"] = "0010ff",
+								[2] = {
+									14, -- [1]
+									13, -- [2]
+									9, -- [3]
+									10, -- [4]
+									12, -- [5]
+									11, -- [6]
+								},
+							}, -- [4]
+							{
+								[32] = {
+									9, -- [1]
+								},
+								["color"] = "ec00ff",
+								[4] = {
+									1, -- [1]
+								},
+								[5] = {
+									1, -- [1]
+									6, -- [2]
+								},
+								[3] = {
+									1, -- [1]
+									4, -- [2]
+								},
+							}, -- [5]
+							{
+								[3] = {
+									2, -- [1]
+								},
+								[5] = {
+									3, -- [1]
+									2, -- [2]
+								},
+								[32] = {
+									2, -- [1]
+								},
+								["color"] = "ff002c",
+							}, -- [6]
+							{
+								[32] = {
+									4, -- [1]
+								},
+								[3] = {
+									3, -- [1]
+								},
+								["color"] = "ffbc00",
+								[4] = {
+									2, -- [1]
+								},
+								[5] = {
+									4, -- [1]
+									5, -- [2]
+								},
+								[34] = {
+									6, -- [1]
+								},
+							}, -- [7]
+							{
+								["color"] = "228b22",
+								[6] = {
+									1, -- [1]
+								},
+							}, -- [8]
+							{
+								[13] = {
+									1, -- [1]
+								},
+								[7] = {
+									1, -- [1]
+								},
+								[14] = {
+									1, -- [1]
+								},
+								["color"] = "93ff00",
+								[15] = {
+									1, -- [1]
+								},
+								[8] = {
+									1, -- [1]
+								},
+								[9] = {
+									1, -- [1]
+								},
+								[34] = {
+									7, -- [1]
+								},
+								[10] = {
+									2, -- [1]
+									3, -- [2]
+									1, -- [3]
+									4, -- [4]
+									5, -- [5]
+								},
+								[11] = {
+									1, -- [1]
+								},
+								[12] = {
+									1, -- [1]
+								},
+							}, -- [9]
+							{
+								["color"] = "228b22",
+								[35] = {
+									1, -- [1]
+								},
+							}, -- [10]
+							{
+								{
+								}, -- [1]
+								[20] = {
+									3, -- [1]
+								},
+								[31] = {
+									9, -- [1]
+									8, -- [2]
+									4, -- [3]
+									1, -- [4]
+									2, -- [5]
+									5, -- [6]
+									3, -- [7]
+									7, -- [8]
+									6, -- [9]
+									10, -- [10]
+									11, -- [11]
+									12, -- [12]
+									14, -- [13]
+									13, -- [14]
+									17, -- [15]
+									16, -- [16]
+									15, -- [17]
+								},
+								[21] = {
+									2, -- [1]
+								},
+								[32] = {
+									5, -- [1]
+									6, -- [2]
+								},
+								["color"] = "006bff",
+								[19] = {
+									3, -- [1]
+								},
+								[34] = {
+									8, -- [1]
+									4, -- [2]
+								},
+								[33] = {
+								},
+							}, -- [11]
+							{
+								["color"] = "b100ff",
+								[17] = {
+									2, -- [1]
+									1, -- [2]
+								},
+							}, -- [12]
+							{
+								["color"] = "228b22",
+								[18] = {
+									1, -- [1]
+								},
+							}, -- [13]
+							{
+								[20] = {
+									1, -- [1]
+								},
+								[21] = {
+									4, -- [1]
+								},
+								[32] = {
+									10, -- [1]
+								},
+								["color"] = "ff00c7",
+								[19] = {
+									2, -- [1]
+									1, -- [2]
+								},
+							}, -- [14]
+							{
+								[20] = {
+									2, -- [1]
+								},
+								[21] = {
+									1, -- [1]
+								},
+								[32] = {
+									7, -- [1]
+								},
+								["color"] = "ff0600",
+								[22] = {
+									1, -- [1]
+								},
+							}, -- [15]
+							{
+								[24] = {
+									1, -- [1]
+									2, -- [2]
+								},
+								[33] = {
+									9, -- [1]
+								},
+								[23] = {
+									1, -- [1]
+								},
+								["color"] = "ffe300",
+							}, -- [16]
+							{
+								[37] = {
+									1, -- [1]
+								},
+								[36] = {
+									2, -- [1]
+								},
+								["color"] = "228b22",
+							}, -- [17]
+							{
+								["color"] = "228b22",
+								[38] = {
+									1, -- [1]
+								},
+							}, -- [18]
+							{
+								["color"] = "228b22",
+								[28] = {
+									1, -- [1]
+								},
+								[26] = {
+									1, -- [1]
+								},
+								[27] = {
+									1, -- [1]
+								},
+							}, -- [19]
+							{
+								[20] = {
+									6, -- [1]
+									5, -- [2]
+								},
+								[24] = {
+								},
+								["color"] = "6bff00",
+								[34] = {
+								},
+								[23] = {
+								},
+								[19] = {
+								},
+							}, -- [20]
+							{
+								[24] = {
+									3, -- [1]
+								},
+								["color"] = "00ffae",
+								[34] = {
+									9, -- [1]
+								},
+								[23] = {
+									2, -- [1]
+								},
+								[19] = {
+									4, -- [1]
+								},
+							}, -- [21]
+							{
+								["color"] = "001aff",
+								[29] = {
+									1, -- [1]
+								},
+							}, -- [22]
+							{
+								["color"] = "228b22",
+								[30] = {
+									1, -- [1]
+								},
+							}, -- [23]
+						},
+						["currentDungeonIdx"] = 17,
+						["teeming"] = false,
+						["selection"] = {
+							11, -- [1]
+						},
+						["riftOffsets"] = {
+							[5] = {
+							},
+							[6] = {
+								[161124] = {
+									["y"] = -368.400998832351,
+									["x"] = 674.4288047859498,
+								},
+								[161241] = {
+									["y"] = -256.611681912906,
+									["x"] = 369.7224099026955,
+								},
+								[161243] = {
+									["y"] = -201.7214590761734,
+									["x"] = 456.7061548022199,
+								},
+								[161244] = {
+									["y"] = -397.6198717427287,
+									["x"] = 370.280609585404,
+								},
+							},
+							[7] = {
+								[161241] = {
+									["y"] = -364.4471354127594,
+									["x"] = 673.1133239622345,
+								},
+								[161124] = {
+									["y"] = -269.0012454882202,
+									["x"] = 371.9954579582152,
+								},
+								[161243] = {
+									["y"] = -185.5218257576249,
+									["x"] = 447.1162833373816,
+								},
+								[161244] = {
+									["y"] = -385.1848487342591,
+									["x"] = 369.2417023866859,
+								},
+							},
+						},
+					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
+					},
+					["text"] = "4.7 KR by Dratnos",
+					["objects"] = {
+					},
+					["mdi"] = {
+						["beguiling"] = 1,
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+					},
+				}, -- [4]
+				{
 					["value"] = 0,
 					["text"] = "<New Preset>",
-				}, -- [4]
+				}, -- [5]
 			},
 			[18] = {
 				{
@@ -15836,7 +16217,7 @@ MethodDungeonToolsDB = {
 				}, -- [4]
 			},
 		},
-		["currentDungeonIdx"] = 19,
+		["currentDungeonIdx"] = 17,
 		["version"] = 302,
 		["xoffset"] = 268.0010375976563,
 		["nonFullscreenScale"] = 1,

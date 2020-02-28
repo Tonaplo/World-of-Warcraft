@@ -58,11 +58,9 @@ L["|cffeda55fLeft-Click|r to toggle showing the main window."] = "|cffeda55fLeft
 --[[Translation missing --]]
 L["|cffeda55fMiddle-Click|r to toggle the minimap icon on or off."] = "|cffeda55fMiddle-Click|r to toggle the minimap icon on or off."
 --[[Translation missing --]]
-L["|cffeda55fRight-Click|r to toggle performance profiling on or off."] = "|cffeda55fRight-Click|r to toggle performance profiling on or off."
+L["|cffeda55fRight-Click|r to toggle performance profiling window."] = "|cffeda55fRight-Click|r to toggle performance profiling window."
 --[[Translation missing --]]
 L["|cffeda55fShift-Click|r to pause addon execution."] = "|cffeda55fShift-Click|r to pause addon execution."
---[[Translation missing --]]
-L["|cffeda55fShift-Right-Click|r to show profiling results."] = "|cffeda55fShift-Right-Click|r to show profiling results."
 --[[Translation missing --]]
 L["|cFFffcc00Extra Options:|r %s"] = "|cFFffcc00Extra Options:|r %s"
 --[[Translation missing --]]
@@ -130,6 +128,8 @@ L["Armor Rating"] = "Armor Rating"
 --[[Translation missing --]]
 L["Array"] = "Array"
 L["Ascending"] = "Ascendente"
+--[[Translation missing --]]
+L["Assigned Role"] = "Assigned Role"
 L["At Least One Enemy"] = "Mínimo un enemigo"
 --[[Translation missing --]]
 L["Attach to End"] = "Attach to End"
@@ -163,8 +163,6 @@ L["Author Options"] = "Author Options"
 L["Auto"] = "Auto"
 --[[Translation missing --]]
 L["Autocast Shine"] = "Autocast Shine"
---[[Translation missing --]]
-L["Auto-Clone (Show all Matches)"] = "Auto-Clone (Show all Matches)"
 L["Automatic"] = "Automático"
 --[[Translation missing --]]
 L["Automatic Repair Confirmation Dialog"] = "Automatic Repair Confirmation Dialog"
@@ -265,6 +263,8 @@ L["Combat Log"] = "Registro de combate"
 L["Combine all matches"] = "Combine all matches"
 L["Conditions"] = "Condiciones"
 L["Contains"] = "Contiene"
+--[[Translation missing --]]
+L["Continously update Movement Speed"] = "Continously update Movement Speed"
 --[[Translation missing --]]
 L["Cooldown"] = "Cooldown"
 L["Cooldown Progress (Equipment Slot)"] = "Recarga en proceso (Equipamiento)"
@@ -669,6 +669,8 @@ L["Name of Caster's Target"] = "Name of Caster's Target"
 --[[Translation missing --]]
 L["Nameplate"] = "Nameplate"
 --[[Translation missing --]]
+L["Nameplate Type"] = "Nameplate Type"
+--[[Translation missing --]]
 L["Nameplates"] = "Nameplates"
 --[[Translation missing --]]
 L["Names of affected Players"] = "Names of affected Players"
@@ -701,6 +703,8 @@ L["Note: The available text replacements for multi triggers match the normal tri
 L["Note: This trigger type estimates the range to the hitbox of a unit. The actual range of friendly players is usually 3 yards more than the estimate. Range checking capabilities depend on your current class and known abilities as well as the type of unit being checked. Some of the ranges may also not work with certain NPCs.|n|n|cFFAAFFAAFriendly Units:|r %s|n|cFFFFAAAAHarmful Units:|r %s|n|cFFAAAAFFMiscellanous Units:|r %s"] = "Note: This trigger type estimates the range to the hitbox of a unit. The actual range of friendly players is usually 3 yards more than the estimate. Range checking capabilities depend on your current class and known abilities as well as the type of unit being checked. Some of the ranges may also not work with certain NPCs.|n|n|cFFAAFFAAFriendly Units:|r %s|n|cFFFFAAAAHarmful Units:|r %s|n|cFFAAAAFFMiscellanous Units:|r %s"
 --[[Translation missing --]]
 L["NPC"] = "NPC"
+--[[Translation missing --]]
+L["Npc ID"] = "Npc ID"
 L["Number"] = "Número"
 L["Number Affected"] = "Dependiente de números"
 --[[Translation missing --]]
@@ -821,6 +825,8 @@ L["Remove Obsolete Auras"] = "Remove Obsolete Auras"
 L["Repair"] = "Repair"
 --[[Translation missing --]]
 L["Repeat"] = "Repeat"
+--[[Translation missing --]]
+L["Report"] = "Report"
 L["Requested display does not exist"] = "El aura requerida no existe"
 L["Requested display not authorized"] = "El aura requerida no está autorizada"
 --[[Translation missing --]]
@@ -929,6 +935,8 @@ L["Slider"] = "Slider"
 --[[Translation missing --]]
 L["Small"] = "Small"
 --[[Translation missing --]]
+L["Smart Group"] = "Smart Group"
+--[[Translation missing --]]
 L["Sound"] = "Sound"
 L["Sound by Kit ID"] = "Sonido según el ID del kit"
 --[[Translation missing --]]
@@ -985,13 +993,13 @@ L["Stagger Scale"] = "Stagger Scale"
 L["Stamina"] = "Stamina"
 L["Stance/Form/Aura"] = "Postura/Forma/Aura"
 --[[Translation missing --]]
-L["Start Profiling"] = "Start Profiling"
+L["Star Shake"] = "Star Shake"
+--[[Translation missing --]]
+L["Start"] = "Start"
 L["Status"] = "Estado"
 L["Stolen"] = "Robado"
 --[[Translation missing --]]
 L["Stop"] = "Stop"
---[[Translation missing --]]
-L["Stop Profiling"] = "Stop Profiling"
 --[[Translation missing --]]
 L["Strength"] = "Strength"
 --[[Translation missing --]]
@@ -1057,6 +1065,8 @@ L["Toggle"] = "Toggle"
 L["Toggle List"] = "Toggle List"
 --[[Translation missing --]]
 L["Toggle Options Window"] = "Toggle Options Window"
+--[[Translation missing --]]
+L["Toggle Performance Profiling Window"] = "Toggle Performance Profiling Window"
 --[[Translation missing --]]
 L["Tooltip"] = "Tooltip"
 --[[Translation missing --]]
@@ -1153,6 +1163,8 @@ L["Warning: Name info is now available via %affected, %unaffected. Number of aff
 L["Warning: Tooltip values are now available via %tooltip1, %tooltip2, %tooltip3 instead of %s. This is not automatically adjusted."] = "Warning: Tooltip values are now available via %tooltip1, %tooltip2, %tooltip3 instead of %s. This is not automatically adjusted."
 --[[Translation missing --]]
 L["WeakAuras has encountered an error during the login process. Please report this issue at https://github.com/WeakAuras/Weakauras2/issues/new."] = "WeakAuras has encountered an error during the login process. Please report this issue at https://github.com/WeakAuras/Weakauras2/issues/new."
+--[[Translation missing --]]
+L["WeakAuras Profiling"] = "WeakAuras Profiling"
 --[[Translation missing --]]
 L["WeakAuras Profiling Data"] = "WeakAuras Profiling Data"
 L["Weapon"] = "Arma"

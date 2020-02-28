@@ -158,7 +158,9 @@ WeakAuras.actual_unit_types_cast = {
   player = L["Player"],
   target = L["Target"],
   focus = L["Focus"],
-  group = L["Group"],
+  group = L["Smart Group"],
+  party = L["Party"],
+  raid = L["Raid"],
   boss = L["Boss"],
   arena = L["Arena"],
   nameplate = L["Nameplate"],
@@ -337,16 +339,16 @@ WeakAuras.anchor_frame_types = {
   PRD = L["Personal Resource Display"],
   MOUSE = L["Mouse Cursor"],
   SELECTFRAME = L["Select Frame"],
+  NAMEPLATE = WeakAuras.newFeatureString..L["Nameplates"],
+  UNITFRAME = WeakAuras.newFeatureString..L["Unit Frames"],
   CUSTOM = WeakAuras.newFeatureString..L["Custom"]
 }
 
-WeakAuras.anchor_frame_types_dynamicgroup = {
+WeakAuras.anchor_frame_types_group = {
   SCREEN = L["Screen/Parent Group"],
   PRD = L["Personal Resource Display"],
   MOUSE = L["Mouse Cursor"],
   SELECTFRAME = L["Select Frame"],
-  NAMEPLATE = WeakAuras.newFeatureString..L["Nameplates"],
-  UNITFRAME = WeakAuras.newFeatureString..L["Unit Frames"],
   CUSTOM = WeakAuras.newFeatureString..L["Custom"]
 }
 
@@ -1394,7 +1396,8 @@ WeakAuras.anim_start_preset_types = {
   shrink = L["Grow"],
   grow = L["Shrink"],
   spiral = L["Spiral"],
-  bounceDecay = L["Bounce"]
+  bounceDecay = L["Bounce"],
+  starShakeDecay = L["Star Shake"],
 }
 
 WeakAuras.anim_main_preset_types = {
@@ -1420,7 +1423,8 @@ WeakAuras.anim_finish_preset_types = {
   shrink = L["Shrink"],
   grow =L["Grow"],
   spiral = L["Spiral"],
-  bounceDecay = L["Bounce"]
+  bounceDecay = L["Bounce"],
+  starShakeDecay = L["Star Shake"],
 };
 
 WeakAuras.chat_message_types = {
@@ -1709,6 +1713,8 @@ WeakAuras.item_slot_types = {
   [13] = TRINKET0SLOT_UNIQUE,
   [14] = TRINKET1SLOT_UNIQUE,
   [15] = BACKSLOT,
+  [16] = MAINHANDSLOT,
+  [17] = SECONDARYHANDSLOT,
   [19] = TABARDSLOT
 }
 
@@ -1738,27 +1744,19 @@ WeakAuras.absorb_modes = {
   OVERLAY_FROM_END = L["Attach to End"]
 }
 
-WeakAuras.mythic_plus_affixes = {
-  [2] = true,
-  [3] = true,
-  [4] = true,
-  [5] = true,
-  [6] = true,
-  [7] = true,
-  [8] = true,
-  [9] = true,
-  [10] = true,
-  [11] = true,
-  [12] = true,
-  [13] = true,
-  [14] = true,
-  [16] = true,
-  [117] = true -- Reaping
+WeakAuras.mythic_plus_affixes = {}
+
+local mythic_plus_blacklist = {
+  [1] = true,
+  [15] = true
 }
 
 if not WeakAuras.IsClassic() then
-  for k in pairs(WeakAuras.mythic_plus_affixes) do
-    WeakAuras.mythic_plus_affixes[k] = C_ChallengeMode.GetAffixInfo(k);
+  for i = 1, 255 do
+    local r = not mythic_plus_blacklist[i] and C_ChallengeMode.GetAffixInfo(i)
+    if r then
+      WeakAuras.mythic_plus_affixes[i] = r
+    end
   end
 end
 
@@ -2170,17 +2168,35 @@ WeakAuras.multiUnitId = {
   ["boss"] = true,
   ["arena"] = true,
   ["group"] = true,
+  ["party"] = true,
+  ["raid"] = true,
 }
+
+WeakAuras.multiUnitUnits = {
+  ["nameplate"] = {},
+  ["boss"] = {},
+  ["arena"] = {},
+  ["group"] = {},
+  ["party"] = {},
+  ["raid"] = {}
+}
+
+WeakAuras.multiUnitUnits.group["player"] = true
+WeakAuras.multiUnitUnits.party["player"] = true
 
 for i = 1, 4 do
   WeakAuras.baseUnitId["party"..i] = true
   WeakAuras.baseUnitId["partypet"..i] = true
+  WeakAuras.multiUnitUnits.group["party"..i] = true
+  WeakAuras.multiUnitUnits.party["party"..i] = true
 end
 
 if not WeakAuras.IsClassic() then
   for i = 1, 5 do
     WeakAuras.baseUnitId["arena"..i] = true
     WeakAuras.baseUnitId["boss"..i] = true
+    WeakAuras.multiUnitUnits.arena["arena"..i] = true
+    WeakAuras.multiUnitUnits.boss["boss"..i] = true
   end
 end
 
@@ -2188,6 +2204,9 @@ for i = 1, 40 do
   WeakAuras.baseUnitId["raid"..i] = true
   WeakAuras.baseUnitId["raidpet"..i] = true
   WeakAuras.baseUnitId["nameplate"..i] = true
+  WeakAuras.multiUnitUnits.nameplate["nameplate"..i] = true
+  WeakAuras.multiUnitUnits.group["raid"..i] = true
+  WeakAuras.multiUnitUnits.raid["raid"..i] = true
 end
 
 WeakAuras.dbm_types = {
@@ -2241,8 +2260,6 @@ if WeakAuras.IsClassic() then
   WeakAuras.actual_unit_types.focus = nil
   WeakAuras.unit_types_range_check.focus = nil
   WeakAuras.item_slot_types[0] = AMMOSLOT
-  WeakAuras.item_slot_types[16] = MAINHANDSLOT
-  WeakAuras.item_slot_types[17] = SECONDARYHANDSLOT
   WeakAuras.item_slot_types[18] = RANGEDSLOT
 
   local reset_swing_spell_list = {

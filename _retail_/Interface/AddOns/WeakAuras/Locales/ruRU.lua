@@ -42,9 +42,9 @@ L["/wa pstop - Finish profiling"] = "/wa pstop - Завершить профил
 L["/wa repair - Repair tool"] = "/wa repair - Инструмент для ремонта"
 L["|cffeda55fLeft-Click|r to toggle showing the main window."] = "|cffeda55fЛКМ|r переключать показ главного окна."
 L["|cffeda55fMiddle-Click|r to toggle the minimap icon on or off."] = "|cffeda55fСКМ|r включить или выключить значок на мини-карте."
-L["|cffeda55fRight-Click|r to toggle performance profiling on or off."] = "|cffeda55fПКМ|r включить или выключить профилирование."
+--[[Translation missing --]]
+L["|cffeda55fRight-Click|r to toggle performance profiling window."] = "|cffeda55fRight-Click|r to toggle performance profiling window."
 L["|cffeda55fShift-Click|r to pause addon execution."] = "|cffeda55fShift-ЛКМ|r приостановить выполнение аддона."
-L["|cffeda55fShift-Right-Click|r to show profiling results."] = "|cffeda55fShift-ПКМ|r показать результаты профилирования."
 --[[Translation missing --]]
 L["|cFFffcc00Extra Options:|r %s"] = "|cFFffcc00Extra Options:|r %s"
 --[[Translation missing --]]
@@ -93,6 +93,8 @@ L["Armor against Target (%)"] = "Броня против Цели (%)"
 L["Armor Rating"] = "Рейтинг брони"
 L["Array"] = "Массив"
 L["Ascending"] = "По возрастанию"
+--[[Translation missing --]]
+L["Assigned Role"] = "Assigned Role"
 L["At Least One Enemy"] = "Хотя бы один противник"
 L["Attach to End"] = "Прикрепить к концу"
 L["Attach to Start"] = "Прикрепить к началу"
@@ -118,7 +120,6 @@ L["Auras:"] = "Эффекты:"
 L["Author Options"] = "Параметры Автора"
 L["Auto"] = "Автоматически"
 L["Autocast Shine"] = "Сияние автоматического применения"
-L["Auto-Clone (Show all Matches)"] = "Авто-клонирование (Показать все совпадения)"
 L["Automatic"] = "Автоматически"
 L["Automatic Repair Confirmation Dialog"] = "Диалог подтверждения автоматической починки"
 L["Automatic Rotation"] = "Автоматический поворот"
@@ -201,6 +202,8 @@ L["Combat Log"] = "Журнал боя"
 L["Combine all matches"] = "Объединить все совпадения"
 L["Conditions"] = "Условия"
 L["Contains"] = "Содержит"
+--[[Translation missing --]]
+L["Continously update Movement Speed"] = "Continously update Movement Speed"
 L["Cooldown"] = "Перезарядка"
 L["Cooldown Progress (Equipment Slot)"] = "Восстановление (ячейка экипировки)"
 L["Cooldown Progress (Item)"] = "Восстановление (предмет)"
@@ -550,6 +553,8 @@ L["Name of Caster's Target"] = "Name of Caster's Target"
 --[[Translation missing --]]
 L["Nameplate"] = "Nameplate"
 --[[Translation missing --]]
+L["Nameplate Type"] = "Nameplate Type"
+--[[Translation missing --]]
 L["Nameplates"] = "Nameplates"
 --[[Translation missing --]]
 L["Names of affected Players"] = "Names of affected Players"
@@ -579,6 +584,8 @@ L["Note: The available text replacements for multi triggers match the normal tri
 L["Note: This trigger type estimates the range to the hitbox of a unit. The actual range of friendly players is usually 3 yards more than the estimate. Range checking capabilities depend on your current class and known abilities as well as the type of unit being checked. Some of the ranges may also not work with certain NPCs.|n|n|cFFAAFFAAFriendly Units:|r %s|n|cFFFFAAAAHarmful Units:|r %s|n|cFFAAAAFFMiscellanous Units:|r %s"] = "Note: This trigger type estimates the range to the hitbox of a unit. The actual range of friendly players is usually 3 yards more than the estimate. Range checking capabilities depend on your current class and known abilities as well as the type of unit being checked. Some of the ranges may also not work with certain NPCs.|n|n|cFFAAFFAAFriendly Units:|r %s|n|cFFFFAAAAHarmful Units:|r %s|n|cFFAAAAFFMiscellanous Units:|r %s"
 --[[Translation missing --]]
 L["NPC"] = "NPC"
+--[[Translation missing --]]
+L["Npc ID"] = "Npc ID"
 L["Number"] = "Количество"
 L["Number Affected"] = "Кол-во задействованных"
 --[[Translation missing --]]
@@ -645,7 +652,8 @@ L["Power (%)"] = "Энергия (%)"
 L["Power Type"] = "Тип энергии"
 L["Preset"] = "Предустановка"
 L["Press Ctrl+C to copy"] = "Нажмите Ctrl+C, чтобы скопировать"
-L["Print Profiling Results"] = "Вывести результаты профилирования"
+--[[Translation missing --]]
+L["Print Profiling Results"] = "Print Profiling Results"
 L["Profiling already started."] = "Профилирование уже запущено."
 L["Profiling not running."] = "Профилирование не выполняется."
 L["Profiling started."] = "Профилирование начато."
@@ -682,6 +690,8 @@ L["Remove Obsolete Auras"] = "Удалить устаревшие индикац
 --[[Translation missing --]]
 L["Repair"] = "Repair"
 L["Repeat"] = "Повторить (замостить)"
+--[[Translation missing --]]
+L["Report"] = "Report"
 L["Requested display does not exist"] = "Запрошенная индикация не существует"
 L["Requested display not authorized"] = "Запрошенная индикация не разрешена"
 L["Requesting display information from %s ..."] = "Запрос информации об индикации от %s ..."
@@ -796,6 +806,8 @@ L["Slide to Top"] = "Сдвиг вверх"
 L["Slider"] = "Slider"
 --[[Translation missing --]]
 L["Small"] = "Small"
+--[[Translation missing --]]
+L["Smart Group"] = "Smart Group"
 L["Sound"] = "Звук"
 L["Sound by Kit ID"] = "Звук по ID"
 L["Source In Group"] = "Источник в группе"
@@ -844,11 +856,13 @@ L["Stagger Scale"] = "Stagger Scale"
 --[[Translation missing --]]
 L["Stamina"] = "Stamina"
 L["Stance/Form/Aura"] = "Стойка / Форма / Аура"
-L["Start Profiling"] = "Запустить профилирование"
+--[[Translation missing --]]
+L["Star Shake"] = "Star Shake"
+--[[Translation missing --]]
+L["Start"] = "Start"
 L["Status"] = "Статус"
 L["Stolen"] = "Кража"
 L["Stop"] = "Остановить"
-L["Stop Profiling"] = "Остановить профилирование"
 --[[Translation missing --]]
 L["Strength"] = "Strength"
 --[[Translation missing --]]
@@ -910,6 +924,8 @@ L["Toggle"] = "Toggle"
 --[[Translation missing --]]
 L["Toggle List"] = "Toggle List"
 L["Toggle Options Window"] = "Переключение окна параметров"
+--[[Translation missing --]]
+L["Toggle Performance Profiling Window"] = "Toggle Performance Profiling Window"
 --[[Translation missing --]]
 L["Tooltip"] = "Tooltip"
 --[[Translation missing --]]
@@ -987,6 +1003,8 @@ L["Warning: Full Scan auras checking for both name and spell id can't be convert
 L["Warning: Name info is now available via %affected, %unaffected. Number of affected group members via %unitCount. Some options behave differently now. This is not automatically adjusted."] = "Предупреждение: информация об имени теперь доступна через %affected, %unaffected. Количество затронутых членов группы через %unitCount. Некоторые параметры ведут себя по-другому. Это не настраивается автоматически."
 L["Warning: Tooltip values are now available via %tooltip1, %tooltip2, %tooltip3 instead of %s. This is not automatically adjusted."] = "Предупреждение: значения всплывающей подсказки теперь доступны через %tooltip1, %tooltip2, %tooltip3 вместо %s. Это не настраивается автоматически."
 L["WeakAuras has encountered an error during the login process. Please report this issue at https://github.com/WeakAuras/Weakauras2/issues/new."] = "WeakAuras обнаружил ошибку во время входа в систему. Пожалуйста, сообщите об этой проблеме https://github.com/WeakAuras/Weakauras2/issues/new ."
+--[[Translation missing --]]
+L["WeakAuras Profiling"] = "WeakAuras Profiling"
 L["WeakAuras Profiling Data"] = "Данные профилирования WeakAuras"
 L["Weapon"] = "Оружие"
 L["Weapon Enchant"] = "Чары оружия"

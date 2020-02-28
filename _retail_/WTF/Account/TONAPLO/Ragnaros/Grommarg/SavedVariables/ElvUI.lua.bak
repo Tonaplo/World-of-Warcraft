@@ -1,0 +1,294 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"/elvui", -- [1]
+	},
+	["ChatHistoryLog"] = {
+		{
+			"WTS Secret Mount |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r Also Selling Pvp Achievment : The Alliance Slayer /w me and let me know which one you want ", -- [1]
+			"Ashidenn-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ashidenn-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			46, -- [11]
+			"Player-3682-09016D41", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cAshidenn|r",
+			[51] = 1582839425,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [1]
+		{
+			"WTS Pvp Achiev |cffffff00|Hachievement:14191:Player-1084-08DF3EF0:1:1:16:20:0:0:0:0|h[Servant of N'Zoth]|h|r Reward is Title +Toy and Also selling Alliance Slayer , Fair price for gold and quick service.", -- [1]
+			"Ashidenn-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ashidenn-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			47, -- [11]
+			"Player-3682-09016D41", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cAshidenn|r",
+			[51] = 1582839425,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [2]
+		{
+			"<The Last Crusaders>  Felvételt hírdet: Hunter, Warlock, Holy pala és magek számára. Raid napok Csüt-Vas 19:00-22:00, Jelenleg 12/12 Hc 1/12 Mythic progress. Min követelmény 440+ 75+ neck ", -- [1]
+			"Hikäge-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hikäge-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			48, -- [11]
+			"Player-3682-07B00708", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeHikäge|r",
+			[51] = 1582839425,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [3]
+		{
+			"<Mistake> nemrég alakult guild keresi progresselni vágyó és arra képes tagjait. Karakter ism., használat és kultúráltság elvárt! :)  Raidek: Sze. Csü. Vas. 19:30-22:30", -- [1]
+			"Reyue-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Reyue-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			49, -- [11]
+			"Player-3682-09B1DA99", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Reyue|r",
+			[51] = 1582839427,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [4]
+		{
+			"WTS Full Clear NWC Heroic Come Get your 460 Gear!Mount from|cffffff00|Hachievement:14146:Player-3682-09AA6AB9:0:0:0:-1:0:0:0:0|h[Glory of the Ny'alotha Raider]|h|r||Best Prices||PST", -- [1]
+			"Arashori-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Arashori-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			50, -- [11]
+			"Player-3682-09AA6AB9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Arashori|r",
+			[51] = 1582839428,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [5]
+		{
+			"MYTHIC [+10=190K] [+12=235K][+14=360K] [+15=470K intime 650K] and +16-20 keys. Discount for multiple runs !  Get your 465-475 ilvl corrupted item from weekly chest ! Armor stack and specific key options. Also selling S4 KEYSTONE MASTER ACHI", -- [1]
+			"Raisand-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Raisand-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			51, -- [11]
+			"Player-3682-0994CE31", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Raisand|r",
+			[51] = 1582839428,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [6]
+		{
+			"<Sylvanas Community> || M+ 6-17 || +10 for 250k || +15 for 500k||  || +12 for 315k|| HC raid with VIP slots || Mecha NM/HM with mount || FH leveling ||EP Mythic|| Jaina Mount! and now visions! Taking gold on every realm! /w for more info!", -- [1]
+			"Sylvbis-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sylvbis-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			53, -- [11]
+			"Player-3682-09B1A52A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcSylvbis|r",
+			[51] = 1582839440,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [7]
+		{
+			"<Taverna> Selling Mythic +10/+15 Boost. [+12 300k][+14 425k][+15 500k] Also Mechagon Mount Run 250k. /w for inv get your item now", -- [1]
+			"Tavernay-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tavernay-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			54, -- [11]
+			"Player-3682-09497FB6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cTavernay|r",
+			[51] = 1582839442,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [8]
+		{
+			"<SYLVANAS> SELLING keystone mythic +10 with loot at 250k (2key = free armor stack )  || 5x8 = 750k || +12 310k || +15 only at 550k || |cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r||lvling and more .. pvp boost /w me for info.", -- [1]
+			"Samurana-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Samurana-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			55, -- [11]
+			"Player-3682-09A22357", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Samurana|r",
+			[51] = 1582839443,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [9]
+		{
+			"WTS Secret Mount |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r Also Selling Pvp Achievment : The Alliance Slayer /w me and let me know which one you want ", -- [1]
+			"Ashidenn-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ashidenn-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			56, -- [11]
+			"Player-3682-09016D41", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cAshidenn|r",
+			[51] = 1582839461,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [10]
+		{
+			"WTS Pvp Achiev |cffffff00|Hachievement:14191:Player-1084-08DF3EF0:1:1:16:20:0:0:0:0|h[Servant of N'Zoth]|h|r Reward is Title +Toy and Also selling Alliance Slayer , Fair price for gold and quick service.", -- [1]
+			"Ashidenn-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ashidenn-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			57, -- [11]
+			"Player-3682-09016D41", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cAshidenn|r",
+			[51] = 1582839461,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [11]
+		{
+			"WTS Full Clear NWC Heroic Come Get your 460 Gear!Mount from|cffffff00|Hachievement:14146:Player-3682-09AA6AB9:0:0:0:-1:0:0:0:0|h[Glory of the Ny'alotha Raider]|h|r||Best Prices||PST", -- [1]
+			"Arashori-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Arashori-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			58, -- [11]
+			"Player-3682-09AA6AB9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Arashori|r",
+			[51] = 1582839467,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [12]
+		{
+			"<Taverna> Selling Mythic +10/+15 Boost. [+12 300k][+14 425k][+15 500k] Also Mechagon Mount Run 250k. /w for inv get your item now", -- [1]
+			"Tavernay-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tavernay-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			61, -- [11]
+			"Player-3682-09497FB6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cTavernay|r",
+			[51] = 1582839487,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [13]
+	},
+}

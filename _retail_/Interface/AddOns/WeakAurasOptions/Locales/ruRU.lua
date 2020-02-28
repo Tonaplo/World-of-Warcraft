@@ -767,7 +767,8 @@ UNIT_POWER  UNIT_AURA, PLAYER_TARGET_CHANGED]=]
 	L["Time in"] = "Время"
 	L["Tiny Icon"] = "Крошечная иконка"
 	L["To Frame's"] = "Относительно кадра"
-	L["to group's"] = "Относительно группы"
+	--[[Translation missing --]]
+	L["To Group's"] = "To Group's"
 	L["To Personal Ressource Display's"] = "На индикаторе личного ресурса"
 	L["To Screen's"] = "Относительно экрана"
 	L["Toggle the visibility of all loaded displays"] = "Переключить видимость всех загруженных индикаций"

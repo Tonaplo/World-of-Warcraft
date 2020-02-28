@@ -10,21 +10,21 @@ SimulationCraftDB = {
 		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
 		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
 		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
-		["Praerend - Icecrown"] = "DPS",
+		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
 		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
 		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
 		["Weston - Icecrown"] = "Weston - Icecrown",
 		["Farahn - Icecrown"] = "Farahn - Icecrown",
-		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
+		["Praerend - Icecrown"] = "DPS",
 		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
 		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
-		["Alianalen - Frostwolf"] = "Alianalen - Frostwolf",
+		["Kaldorath - Icecrown"] = "Tank",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
 		["Greybone - Icecrown"] = "Greybone - Icecrown",
 		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
 		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
 		["Beathe - Frostwolf"] = "Beathe - Frostwolf",
-		["Kaldorath - Icecrown"] = "Tank",
+		["Alianalen - Frostwolf"] = "Alianalen - Frostwolf",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
 		["Mallusof - Icecrown"] = "DPS",
 	},
@@ -48,7 +48,7 @@ SimulationCraftDB = {
 		},
 		["Amranar - Silvermoon"] = {
 		},
-		["Praerend - Silvermoon"] = {
+		["Praerend - Icecrown"] = {
 		},
 		["Fandagny - Frostwolf"] = {
 		},
@@ -72,16 +72,13 @@ SimulationCraftDB = {
 		},
 		["Farahn - Icecrown"] = {
 		},
-		["Praerend - Icecrown"] = {
+		["Praerend - Silvermoon"] = {
 		},
 		["Zearthan - Icecrown"] = {
 		},
 		["Tyindel - Frostwolf"] = {
 		},
-		["Greybone - Icecrown"] = {
-			["minimap"] = {
-				["hide"] = true,
-			},
+		["Alianalen - Frostwolf"] = {
 		},
 		["Thedodrouk - Icecrown"] = {
 		},
@@ -96,7 +93,10 @@ SimulationCraftDB = {
 		},
 		["Beathe - Frostwolf"] = {
 		},
-		["Alianalen - Frostwolf"] = {
+		["Greybone - Icecrown"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
 		},
 		["Alura - Tichondrius"] = {
 			["minimap"] = {

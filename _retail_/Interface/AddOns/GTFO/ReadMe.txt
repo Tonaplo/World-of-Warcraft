@@ -1493,3 +1493,8 @@ Change Log:
 * Updated WoD spells for Highmaul (trival alert classifications)
 * Updated WoD spells for Blackrock Foundry (trival alert classifications)
 * Updated WoD spells for Hellfire Citadel (trival alert classifications)
+
+4.55
+* Added split update notifications between Classic & Retail
+* Added Battle for Azeroth spells (world)
+

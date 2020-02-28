@@ -615,7 +615,8 @@ UNIT_POWER, UNIT_AURA PLAYER_TARGET_CHANGED]=]
 	L["Time in"] = "时间"
 	L["Tiny Icon"] = "微型图标"
 	L["To Frame's"] = "到框架的"
-	L["to group's"] = "到群组"
+	--[[Translation missing --]]
+	L["To Group's"] = "To Group's"
 	L["To Personal Ressource Display's"] = "到个人资源显示的"
 	L["To Screen's"] = "到屏幕的"
 	L["Toggle the visibility of all loaded displays"] = "切换当前已载入图示的可见状态"

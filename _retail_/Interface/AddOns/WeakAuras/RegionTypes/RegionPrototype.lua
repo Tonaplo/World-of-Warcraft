@@ -380,6 +380,7 @@ local function SetRegionAlpha(self, alpha)
 
   self.alpha = alpha;
   self:SetAlpha(self.animAlpha or self.alpha or 1);
+  self.subRegionEvents:Notify("AlphaChanged")
 end
 
 local function GetRegionAlpha(self)
@@ -392,6 +393,7 @@ local function SetAnimAlpha(self, alpha)
   end
   self.animAlpha = alpha;
   self:SetAlpha(self.animAlpha or self.alpha or 1);
+  self.subRegionEvents:Notify("AlphaChanged")
 end
 
 local function SetTriggerProvidesTimer(self, timerTick)
@@ -517,7 +519,13 @@ function WeakAuras.regionPrototype.modify(parent, region, data)
   end
 
   if not parent or parent.regionType ~= "dynamicgroup" then
-    WeakAuras.AnchorFrame(data, region, parent);
+    if not (
+      data.anchorFrameType == "CUSTOM"
+      or data.anchorFrameType == "UNITFRAME"
+      or data.anchorFrameType == "NAMEPLATE"
+    ) then
+      WeakAuras.AnchorFrame(data, region, parent);
+    end
   end
 end
 
@@ -794,14 +802,18 @@ function WeakAuras.regionPrototype.AddExpandFunction(data, region, cloneId, pare
       WeakAuras.UnRegisterForFrameTick(region)
     end
     function region:Expand()
+      if data.anchorFrameType == "SELECTFRAME"
+      or data.anchorFrameType == "CUSTOM"
+      or data.anchorFrameType == "UNITFRAME"
+      or data.anchorFrameType == "NAMEPLATE"
+      then
+        WeakAuras.AnchorFrame(data, region, parent);
+      end
+
       if (region.toShow) then
         return;
       end
       region.toShow = true;
-
-      if (data.anchorFrameType == "SELECTFRAME" or data.anchorFrameType == "CUSTOM") then
-        WeakAuras.AnchorFrame(data, region, parent);
-      end
 
       region.justCreated = nil;
       if(region.PreShow) then

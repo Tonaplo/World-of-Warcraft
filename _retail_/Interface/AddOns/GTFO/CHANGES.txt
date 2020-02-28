@@ -1,21 +1,13 @@
 ------------------------------------------------------------------------
-r509 | Zensunim | 2020-02-17 03:04:47 +0000 (Mon, 17 Feb 2020) | 7 lines
+r511 | Zensunim | 2020-02-25 03:28:41 +0000 (Tue, 25 Feb 2020) | 3 lines
 Changed paths:
    M /trunk/GTFO.lua
    M /trunk/GTFO.toc
-   M /trunk/GTFO_Fail_Vanilla.lua
-   M /trunk/GTFO_Fail_WOD.lua
-   M /trunk/GTFO_Spells_GenericClassic.lua
-   M /trunk/GTFO_Spells_Vanilla.lua
-   M /trunk/GTFO_Spells_WOD.lua
+   M /trunk/GTFO_Spells_BFA.lua
    M /trunk/ReadMe.txt
 
-4.54
-* Added support to ignore application alerts based on trivial level
-* Added Vanilla spells for Blackfathom Deep
-* Added WoD spells for Blackrock Foundry
-* Updated WoD spells for Highmaul (trival alert classifications)
-* Updated WoD spells for Blackrock Foundry (trival alert classifications)
-* Updated WoD spells for Hellfire Citadel (trival alert classifications)
+4.55
+* Added split update notifications between Classic & Retail
+* Added Battle for Azeroth spells (world)
 ------------------------------------------------------------------------
 

@@ -986,7 +986,8 @@ Sólo un valor coincidente puede ser escogido.]=]
 	L["Time in"] = "Contar En"
 	L["Tiny Icon"] = "Icono miniatura"
 	L["To Frame's"] = "Al macro"
-	L["to group's"] = "Al grupo"
+	--[[Translation missing --]]
+	L["To Group's"] = "To Group's"
 	L["To Personal Ressource Display's"] = "A los recursos del aura personal"
 	L["To Screen's"] = "A la pantalla"
 	L["Toggle the visibility of all loaded displays"] = "Alterar la visibilidad de todas las auras cargadas"

@@ -43,9 +43,9 @@ L["/wa pstop - Finish profiling"] = "/wa pstop - 프로필 종료"
 L["/wa repair - Repair tool"] = "/wa repair - Repair tool"
 L["|cffeda55fLeft-Click|r to toggle showing the main window."] = "|cffeda55f좌-클릭|r 으로 메인 창을 표시하거나 숨깁니다."
 L["|cffeda55fMiddle-Click|r to toggle the minimap icon on or off."] = "|cffeda55f중간-클릭|r 으로 미니맵 아이콘을 켜거나 끕니다."
-L["|cffeda55fRight-Click|r to toggle performance profiling on or off."] = "|cffeda55f우-클릭|r 으로 성능(선행) 프로필을 켜거나 끕니다."
+--[[Translation missing --]]
+L["|cffeda55fRight-Click|r to toggle performance profiling window."] = "|cffeda55fRight-Click|r to toggle performance profiling window."
 L["|cffeda55fShift-Click|r to pause addon execution."] = "|cffeda55f쉬프트-클릭|r 으로 애드온 실행을 일시 중지합니다."
-L["|cffeda55fShift-Right-Click|r to show profiling results."] = "|cffeda55f쉬프트-우-클릭|r 프로필 결과를 표시합니다."
 L["|cFFffcc00Extra Options:|r %s"] = "|cFFffcc00추가 옵션:|r %s"
 L["|cFFffcc00Extra Options:|r None"] = "|cFFffcc00추가 옵션:|r 없음"
 L["10 Man Raid"] = "10인 공격대"
@@ -95,6 +95,8 @@ L["Armor Rating"] = "방어도 등급"
 --[[Translation missing --]]
 L["Array"] = "Array"
 L["Ascending"] = "오름차순"
+--[[Translation missing --]]
+L["Assigned Role"] = "Assigned Role"
 L["At Least One Enemy"] = "최소 1명의 적 대상"
 L["Attach to End"] = "공격 종료"
 L["Attach to Start"] = "공격 시작"
@@ -119,7 +121,6 @@ L["Auras:"] = "효과들:"
 L["Author Options"] = "작성자 옵션"
 L["Auto"] = "자동"
 L["Autocast Shine"] = "자동시전 빛남"
-L["Auto-Clone (Show all Matches)"] = "자동-복제(모든 부분 표시)"
 L["Automatic"] = "자동"
 --[[Translation missing --]]
 L["Automatic Repair Confirmation Dialog"] = "Automatic Repair Confirmation Dialog"
@@ -200,6 +201,8 @@ L["Combat Log"] = "전투 기록"
 L["Combine all matches"] = "모든 경기 결합"
 L["Conditions"] = "조건"
 L["Contains"] = "포함"
+--[[Translation missing --]]
+L["Continously update Movement Speed"] = "Continously update Movement Speed"
 L["Cooldown"] = "재사용 대기시간"
 L["Cooldown Progress (Equipment Slot)"] = "재사용 대기시간 진행 (장비 칸)"
 L["Cooldown Progress (Item)"] = "재사용 대기시간 진행 (아이템)"
@@ -530,6 +533,8 @@ L["Name"] = "이름"
 --[[Translation missing --]]
 L["Name of Caster's Target"] = "Name of Caster's Target"
 L["Nameplate"] = "이름표"
+--[[Translation missing --]]
+L["Nameplate Type"] = "Nameplate Type"
 L["Nameplates"] = "이름표"
 L["Names of affected Players"] = "영향을 받는 플레이어의 이름"
 L["Names of unaffected Players"] = "영향을 받지 않는 플레이어의 이름"
@@ -556,6 +561,8 @@ L["Note: The available text replacements for multi triggers match the normal tri
 L["Note: This trigger type estimates the range to the hitbox of a unit. The actual range of friendly players is usually 3 yards more than the estimate. Range checking capabilities depend on your current class and known abilities as well as the type of unit being checked. Some of the ranges may also not work with certain NPCs.|n|n|cFFAAFFAAFriendly Units:|r %s|n|cFFFFAAAAHarmful Units:|r %s|n|cFFAAAAFFMiscellanous Units:|r %s"] = "Note: This trigger type estimates the range to the hitbox of a unit. The actual range of friendly players is usually 3 yards more than the estimate. Range checking capabilities depend on your current class and known abilities as well as the type of unit being checked. Some of the ranges may also not work with certain NPCs.|n|n|cFFAAFFAAFriendly Units:|r %s|n|cFFFFAAAAHarmful Units:|r %s|n|cFFAAAAFFMiscellanous Units:|r %s"
 --[[Translation missing --]]
 L["NPC"] = "NPC"
+--[[Translation missing --]]
+L["Npc ID"] = "Npc ID"
 L["Number"] = "횟수"
 L["Number Affected"] = "영향 받은 횟수"
 --[[Translation missing --]]
@@ -620,7 +627,8 @@ L["Power (%)"] = "자원 (%)"
 L["Power Type"] = "자원 유형"
 L["Preset"] = "프리셋"
 L["Press Ctrl+C to copy"] = "복사하려면 Ctrl+C를 누르세요"
-L["Print Profiling Results"] = "프로필 결과 출력"
+--[[Translation missing --]]
+L["Print Profiling Results"] = "Print Profiling Results"
 L["Profiling already started."] = "프로필이 이미 시작되었습니다."
 L["Profiling not running."] = "프로필이 실행되지 않습니다."
 L["Profiling started."] = "프로필이 시작되었습니다."
@@ -656,6 +664,8 @@ L["Remove Obsolete Auras"] = "쓸모없는 효과를 제거"
 --[[Translation missing --]]
 L["Repair"] = "Repair"
 L["Repeat"] = "반복"
+--[[Translation missing --]]
+L["Report"] = "Report"
 L["Requested display does not exist"] = "요청한 디스플레이가 존재하지 않습니다"
 L["Requested display not authorized"] = "요청한 디스플레이가 올바르지 않습니다"
 L["Requesting display information from %s ..."] = "%s의 디스플레이 정보 요청 중 ..."
@@ -760,6 +770,8 @@ L["Slide to Top"] = "위로 슬라이드"
 L["Slider"] = "Slider"
 --[[Translation missing --]]
 L["Small"] = "Small"
+--[[Translation missing --]]
+L["Smart Group"] = "Smart Group"
 L["Sound"] = "소리"
 L["Sound by Kit ID"] = "Kit ID로 소리 재생"
 L["Source In Group"] = "행위자가 속한 파티"
@@ -804,11 +816,13 @@ L["Stagger Scale"] = "Stagger Scale"
 --[[Translation missing --]]
 L["Stamina"] = "Stamina"
 L["Stance/Form/Aura"] = "태세/형상/효과"
-L["Start Profiling"] = "프로필 시작"
+--[[Translation missing --]]
+L["Star Shake"] = "Star Shake"
+--[[Translation missing --]]
+L["Start"] = "Start"
 L["Status"] = "상태"
 L["Stolen"] = "훔침"
 L["Stop"] = "중지"
-L["Stop Profiling"] = "프로필 중지"
 --[[Translation missing --]]
 L["Strength"] = "Strength"
 L["String"] = "문자열"
@@ -861,6 +875,8 @@ L["Toggle"] = "토글"
 --[[Translation missing --]]
 L["Toggle List"] = "Toggle List"
 L["Toggle Options Window"] = "옵션창 토글"
+--[[Translation missing --]]
+L["Toggle Performance Profiling Window"] = "Toggle Performance Profiling Window"
 L["Tooltip"] = "툴팁"
 L["Tooltip Value 1"] = "툴팁 값 1"
 L["Tooltip Value 2"] = "툴팁 값 2"
@@ -931,6 +947,8 @@ L["Warning: Name info is now available via %affected, %unaffected. Number of aff
 L["Warning: Tooltip values are now available via %tooltip1, %tooltip2, %tooltip3 instead of %s. This is not automatically adjusted."] = "경고: 툴팁 값은 이제 %tooltip1, %tooltip2, %tooltip3, %s 대신 사용할 수 있습니다. 이것은 자동으로 조정되지 않습니다.\""
 --[[Translation missing --]]
 L["WeakAuras has encountered an error during the login process. Please report this issue at https://github.com/WeakAuras/Weakauras2/issues/new."] = "WeakAuras has encountered an error during the login process. Please report this issue at https://github.com/WeakAuras/Weakauras2/issues/new."
+--[[Translation missing --]]
+L["WeakAuras Profiling"] = "WeakAuras Profiling"
 --[[Translation missing --]]
 L["WeakAuras Profiling Data"] = "WeakAuras Profiling Data"
 L["Weapon"] = "무기"

@@ -142,8 +142,7 @@ end
 
 BINDING_HEADER_WEAKAURAS = ADDON_NAME
 BINDING_NAME_WEAKAURASTOGGLE = L["Toggle Options Window"]
-BINDING_NAME_WEAKAURASSTARTPROFILING = L["Start Profiling"]
-BINDING_NAME_WEAKAURASSTOPPROFILING = L["Stop Profiling"]
+BINDING_NAME_WEAKAURASPROFILINGTOGGLE = L["Toggle Performance Profiling Window"]
 BINDING_NAME_WEAKAURASPRINTPROFILING = L["Print Profiling Results"]
 
 -- An alias for WeakAurasSaved, the SavedVariables
@@ -289,8 +288,6 @@ WeakAuras.animations = {};
 local animations = WeakAuras.animations;
 WeakAuras.pending_controls = {};
 local pending_controls = WeakAuras.pending_controls;
-
-WeakAuras.frames = {};
 
 WeakAuras.raidUnits = {};
 WeakAuras.partyUnits = {};
@@ -1454,8 +1451,7 @@ local function tooltip_draw()
       tooltip:AddLine(L["|cffeda55fShift-Click|r to pause addon execution."], 0.2, 1, 0.2);
     end
   end
-  tooltip:AddLine(L["|cffeda55fRight-Click|r to toggle performance profiling on or off."], 0.2, 1, 0.2);
-  tooltip:AddLine(L["|cffeda55fShift-Right-Click|r to show profiling results."], 0.2, 1, 0.2);
+  tooltip:AddLine(L["|cffeda55fRight-Click|r to toggle performance profiling window."], 0.2, 1, 0.2);
   tooltip:AddLine(L["|cffeda55fMiddle-Click|r to toggle the minimap icon on or off."], 0.2, 1, 0.2);
   tooltip:Show();
 end
@@ -1497,11 +1493,7 @@ Broker_WeakAuras = LDB:NewDataObject("WeakAuras", {
     elseif(button == 'MiddleButton') then
       WeakAuras.ToggleMinimap();
     else
-      if(IsShiftKeyDown()) then
-        WeakAuras.PrintProfile();
-      else
-        WeakAuras.ToggleProfile();
-      end
+      WeakAuras.RealTimeProfilingWindow:Toggle()
     end
     tooltip_draw()
   end,
@@ -2204,6 +2196,16 @@ function WeakAuras.RegisterLoadEvents()
     WeakAuras.ScanForLoads(nil, ...)
     WeakAuras.StopProfileSystem("load");
   end);
+
+  C_Timer.NewTicker(0.5, function()
+    WeakAuras.StartProfileSystem("load");
+    local zoneId = C_Map.GetBestMapForUnit("player");
+    if loadFrame.zoneId ~= zoneId then
+      WeakAuras.ScanForLoads(nil, "ZONE_CHANGED")
+      loadFrame.zoneId = zoneId;
+    end
+    WeakAuras.StopProfileSystem("load");
+  end)
 
   unitLoadFrame:SetScript("OnEvent", function(frame, e, arg1, ...)
     WeakAuras.StartProfileSystem("load");
@@ -6759,6 +6761,16 @@ local function GetAnchorFrame(region, anchorFrameType, parent, anchorFrameFrame)
     ensureMouseFrame();
     mouseFrame:anchorFrame(id, anchorFrameType);
     return mouseFrame;
+  end
+
+  if (anchorFrameType == "NAMEPLATE") then
+    local unit = region.state.unit
+    return unit and C_NamePlate.GetNamePlateForUnit(unit)
+  end
+
+  if (anchorFrameType == "UNITFRAME") then
+    local unit = region.state.unit
+    return unit and WeakAuras.GetUnitFrame(unit)
   end
 
   if (anchorFrameType == "SELECTFRAME" and anchorFrameFrame) then

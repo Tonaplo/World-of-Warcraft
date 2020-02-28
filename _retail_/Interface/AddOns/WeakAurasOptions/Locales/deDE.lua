@@ -876,7 +876,8 @@ Nur ein Wert kann ausgewählt werden.]=]
 	L["Tiny Icon"] = "Winziges Symbol"
 	--[[Translation missing --]]
 	L["To Frame's"] = "To Frame's"
-	L["to group's"] = "an Gruppe"
+	--[[Translation missing --]]
+	L["To Group's"] = "To Group's"
 	--[[Translation missing --]]
 	L["To Personal Ressource Display's"] = "To Personal Ressource Display's"
 	--[[Translation missing --]]

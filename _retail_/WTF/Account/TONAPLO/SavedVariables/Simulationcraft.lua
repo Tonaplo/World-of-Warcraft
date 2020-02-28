@@ -10,21 +10,21 @@ SimulationCraftDB = {
 		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
 		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Kaldorath - Icecrown"] = "Tank",
+		["Alianalen - Frostwolf"] = "Alianalen - Frostwolf",
 		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
 		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
 		["Weston - Icecrown"] = "Weston - Icecrown",
 		["Farahn - Icecrown"] = "Farahn - Icecrown",
-		["Praerend - Icecrown"] = "DPS",
+		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
 		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
 		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
-		["Alianalen - Frostwolf"] = "Alianalen - Frostwolf",
+		["Kaldorath - Icecrown"] = "Tank",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
 		["Greybone - Icecrown"] = "Greybone - Icecrown",
 		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
 		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
 		["Beathe - Frostwolf"] = "Beathe - Frostwolf",
-		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
+		["Praerend - Icecrown"] = "DPS",
 		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Mallusof - Icecrown"] = "DPS",
 	},
@@ -51,16 +51,16 @@ SimulationCraftDB = {
 		},
 		["Amranar - Silvermoon"] = {
 		},
-		["Alianalen - Frostwolf"] = {
+		["Greybone - Icecrown"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
 		},
 		["Fandagny - Frostwolf"] = {
 		},
 		["Greyblood - Silvermoon"] = {
 		},
-		["Greybone - Icecrown"] = {
-			["minimap"] = {
-				["hide"] = true,
-			},
+		["Alianalen - Frostwolf"] = {
 		},
 		["Rahran - Silvermoon"] = {
 		},
@@ -75,7 +75,7 @@ SimulationCraftDB = {
 		},
 		["Farahn - Icecrown"] = {
 		},
-		["Praerend - Silvermoon"] = {
+		["Praerend - Icecrown"] = {
 		},
 		["Zearthan - Icecrown"] = {
 		},
@@ -99,7 +99,7 @@ SimulationCraftDB = {
 		},
 		["Beathe - Frostwolf"] = {
 		},
-		["Praerend - Icecrown"] = {
+		["Praerend - Silvermoon"] = {
 		},
 		["Mallusof - Silvermoon"] = {
 		},

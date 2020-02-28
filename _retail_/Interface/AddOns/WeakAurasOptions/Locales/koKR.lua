@@ -652,8 +652,7 @@ UNIT_POWER, UNIT_AURA PLAYER_TARGET_CHANGED]=]
 	L["Show model of unit "] = "유닛의 모델 표시"
 	--[[Translation missing --]]
 	L["Show On"] = "Show On"
-	--[[Translation missing --]]
-	L["Show Spark"] = "Show Spark"
+	L["Show Spark"] = "섬광 표시"
 	L["Show Text"] = "문자 표시"
 	L["Show this group's children"] = "이 그룹의 자식 표시"
 	L["Shows a 3D model from the game files"] = "게임 데이터의 3D 모델을 표시합니다"
@@ -746,7 +745,8 @@ UNIT_POWER, UNIT_AURA PLAYER_TARGET_CHANGED]=]
 	L["Time in"] = "시간 단위"
 	L["Tiny Icon"] = "더 작은 아이콘"
 	L["To Frame's"] = "프레임의 다음 지점:"
-	L["to group's"] = "그룹 기준"
+	--[[Translation missing --]]
+	L["To Group's"] = "To Group's"
 	L["To Personal Ressource Display's"] = "개인 자원 표시의 다음 지점:"
 	L["To Screen's"] = "화면의 다음 지점:"
 	L["Toggle the visibility of all loaded displays"] = "불러온 모든 디스플레이 표시 전환"
@@ -763,8 +763,7 @@ UNIT_POWER, UNIT_AURA PLAYER_TARGET_CHANGED]=]
 	L["Top HUD position"] = "상단 HUD 위치"
 	L["Top Left"] = "왼쪽 위"
 	L["Top Right"] = "오른쪽 위"
-	--[[Translation missing --]]
-	L["Total Time"] = "Total Time"
+	L["Total Time"] = "전체 시간"
 	L["Total Time Precision"] = "전체 시간 정밀도"
 	L["Trigger"] = "활성 조건"
 	L["Trigger %d"] = "%d 활성 조건"
