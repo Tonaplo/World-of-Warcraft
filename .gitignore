@@ -1,12 +1,12 @@
 _ptr_/*
 _classic_/*
 Data/*
-Screenshots/*
+_retail_/Screenshots/*
 _retail_/Utils/*
-_retail_/.flavor.info
-_retail_/BlizzardError.exe
 _retail_/Cache/*
 _retail_/Logs/*
+_retail_/.flavor.info
+_retail_/BlizzardError.exe
 _retail_/dbghelp.dll
 _retail_/GFSDK_Aftermath_Lib.x64.dll
 _retail_/Wow.exe
@@ -20,3 +20,5 @@ Launcher.db
 .build.info
 .product.db
 .patch.result
+.build.info
+.product.db
