@@ -1,8 +1,12 @@
 VER 3 0000000000000081 "1 guild recrit" "INV_MISC_QUESTIONMARK"
-/3 <Mechanics> is a 1 raid a week community of experienced players, achieving AOTC and the meta every tier. Currently 12/12 Normal and 4/12 HC. Recruiting some extra DPS and a healer. /w for more info.
+/3 <Mechanics> is a 1 raid a week community of experienced players, achieving AOTC and the meta every tier. Currently 12/12 HC working on the meta. Recruiting some extra DPS, especially a warlock. /w for more info.
 END
 VER 3 000000000000003A "Focus" "132222"
 /focus
+END
+VER 3 0000000000000083 "Hero and Pot" "INV_MISC_QUESTIONMARK"
+/use Drums of Fury
+/use Battle Potion of Intellect
 END
 VER 3 000000000000005A "logout" "INV_MISC_QUESTIONMARK"
 /logout
@@ -161,4 +165,7 @@ VER 3 000000000000007F "Vuhdo" "571555"
 END
 VER 3 000000000000004C "WeakAuras" "134328"
 /wa
+END
+VER 3 0000000000000084 "ZZZ - Achievemen" "INV_MISC_QUESTIONMARK"
+/Target Captive Sha'tari Peacekeeper
 END

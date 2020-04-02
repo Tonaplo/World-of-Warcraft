@@ -183,6 +183,11 @@ function WeakAuras.regionPrototype.AddProperties(properties, defaultsForRegion)
     softMax = screenHeight,
     bigStep = 1
   }
+  properties["glowexternal"] = {
+    display = L["Glow External Element"],
+    action = "GlowExternal",
+    type = "glowexternal"
+  }
 
   if (defaultsForRegion and defaultsForRegion.alpha) then
     properties["alpha"] = {
@@ -284,6 +289,13 @@ local function RunCode(self, func)
   end
 end
 
+local function GlowExternal(self, options)
+  if (not options or WeakAuras.IsOptionsOpen()) then
+    return
+  end
+  WeakAuras.HandleGlowAction(options, self)
+end
+
 local function UpdatePosition(self)
   if (not self.anchorPoint or not self.relativeTo or not self.relativePoint) then
     return;
@@ -379,7 +391,11 @@ local function SetRegionAlpha(self, alpha)
   end
 
   self.alpha = alpha;
-  self:SetAlpha(self.animAlpha or self.alpha or 1);
+  if (WeakAuras.IsOptionsOpen()) then
+    self:SetAlpha(max(self.animAlpha or self.alpha or 1, 0.5));
+  else
+    self:SetAlpha(self.animAlpha or self.alpha or 1);
+  end
   self.subRegionEvents:Notify("AlphaChanged")
 end
 
@@ -392,7 +408,11 @@ local function SetAnimAlpha(self, alpha)
     return;
   end
   self.animAlpha = alpha;
-  self:SetAlpha(self.animAlpha or self.alpha or 1);
+  if (WeakAuras.IsOptionsOpen()) then
+    self:SetAlpha(max(self.animAlpha or self.alpha or 1, 0.5));
+  else
+    self:SetAlpha(self.animAlpha or self.alpha or 1);
+  end
   self.subRegionEvents:Notify("AlphaChanged")
 end
 
@@ -438,6 +458,7 @@ function WeakAuras.regionPrototype.create(region)
   region.SoundRepeatStop = SoundRepeatStop;
   region.SendChat = SendChat;
   region.RunCode = RunCode;
+  region.GlowExternal = GlowExternal;
 
   region.SetAnchor = SetAnchor;
   region.SetOffset = SetOffset;

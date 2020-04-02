@@ -13,3 +13,7 @@ WeakAurasArchive: enabled
 WeakAuras: enabled
 VuhDo: disabled
 VuhDoOptions: disabled
+LittleWigs: enabled
+ElvUI_OptionsUI: enabled
+HandyNotes: enabled
+HandyNotes_DraenorTreasures: enabled

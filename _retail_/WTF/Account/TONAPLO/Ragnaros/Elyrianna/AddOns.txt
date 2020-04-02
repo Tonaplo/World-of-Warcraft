@@ -40,3 +40,5 @@ ParagonReputation: enabled
 ElvUI_OptionsUI: enabled
 ElvUI: enabled
 OPie_Classic: disabled
+HandyNotes: enabled
+HandyNotes_DraenorTreasures: enabled

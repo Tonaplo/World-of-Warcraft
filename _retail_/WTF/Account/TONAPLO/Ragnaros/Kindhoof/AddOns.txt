@@ -48,3 +48,5 @@ ElvUI_EverySecondCounts: disabled
 ElvUI_AuraBarsMovers: disabled
 ElvUI_CustomTweaks: disabled
 WeakAurasArchive: enabled
+HandyNotes: enabled
+HandyNotes_DraenorTreasures: enabled

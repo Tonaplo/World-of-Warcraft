@@ -191,9 +191,9 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [15]
 				{
+					["caption"] = "Fishing",
 					["sliceToken"] = "ABuepxI/Peu",
 					["id"] = "/equip Underlight Angler\n/use {{spell:131474}}",
-					["caption"] = "Fishing",
 				}, -- [16]
 				{
 					["sliceToken"] = "ABuesXHE2Xe",
@@ -227,8 +227,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuea4sWRNe",
 				}, -- [4]
 				{
-					["id"] = 229388,
 					["sliceToken"] = "ABuea4/4zZe",
+					["id"] = 229388,
 				}, -- [5]
 				{
 					["id"] = 229387,
@@ -263,8 +263,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueacciiTe",
 				}, -- [13]
 				{
-					["sliceToken"] = "ABueaX/fZYr",
 					["id"] = 783,
+					["sliceToken"] = "ABueaX/fZYr",
 				}, -- [14]
 				{
 					["sliceToken"] = "ABue3CmU2ge",
@@ -348,13 +348,13 @@ OneRing_Config = {
 				}, -- [4]
 				{
 					"item", -- [1]
-					160053, -- [2]
-					["sliceToken"] = "ABue3MAkaQ1",
+					154884, -- [2]
+					["sliceToken"] = "ABuedyXtWwe",
 				}, -- [5]
 				{
 					"item", -- [1]
-					154884, -- [2]
-					["sliceToken"] = "ABuedyXtWwe",
+					174906, -- [2]
+					["sliceToken"] = "ABue46fhhRe",
 				}, -- [6]
 				["name"] = "Consumables",
 				["save"] = true,
@@ -449,32 +449,32 @@ OneRing_Config = {
 				{
 					["sliceToken"] = "ABuep4Bpwxd",
 					["caption"] = "Travel",
-					["id"] = "/click ORLOpen SpecMenu",
 					["icon"] = 134414,
+					["id"] = "/click ORLOpen SpecMenu",
 				}, -- [1]
 				{
 					["sliceToken"] = "ABuep4BpwxS",
 					["caption"] = "Trade Skills",
-					["id"] = "/click ORLOpen CommonTrades",
 					["icon"] = 134707,
+					["id"] = "/click ORLOpen CommonTrades",
 				}, -- [2]
 				{
 					["sliceToken"] = "ABuep4Bpwxeb",
 					["caption"] = "Macros",
-					["id"] = "/click ORLOpen Macros",
 					["icon"] = 1505928,
+					["id"] = "/click ORLOpen Macros",
 				}, -- [3]
 				{
 					["sliceToken"] = "ABuepjqUmtV",
 					["caption"] = "Consumables",
-					["id"] = "/click ORLOpen onsumables",
 					["icon"] = 134055,
+					["id"] = "/click ORLOpen onsumables",
 				}, -- [4]
 				{
 					["sliceToken"] = "ABuepjqUmtwq",
 					["caption"] = "Class Abilities",
-					["id"] = "/click ORLOpen tAbilities",
 					["icon"] = 132147,
+					["id"] = "/click ORLOpen tAbilities",
 				}, -- [5]
 				{
 					["sliceToken"] = "ABuep5oDlq5",
@@ -599,8 +599,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABue3OWbYce",
 				}, -- [27]
 				{
-					["id"] = 6673,
 					["sliceToken"] = "ABue3OSS36e",
+					["id"] = 6673,
 				}, -- [28]
 				{
 					["id"] = 1459,

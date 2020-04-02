@@ -1,7 +1,7 @@
 
 ConditionerAddOn_SavedVariables = {
 	["CurrentLoadouts"] = {
-		[71] = 0,
+		[71] = 31,
 		[72] = 25,
 	},
 	["Options"] = {
@@ -19,5 +19,6 @@ ConditionerAddOn_SavedVariables = {
 		["NumTrackedFrames"] = 5,
 	},
 	["TalentsPerLoadout"] = {
+		[31] = "3122000",
 	},
 }

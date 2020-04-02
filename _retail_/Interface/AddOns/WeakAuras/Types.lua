@@ -137,7 +137,9 @@ WeakAuras.unit_types_bufftrigger_2 = {
   player = L["Player"],
   target = L["Target"],
   focus = L["Focus"],
-  group = L["Group"],
+  group = L["Smart Group"],
+  raid = L["Raid"],
+  party = L["Party"],
   boss = L["Boss"],
   arena = L["Arena"],
   nameplate = L["Nameplate"],
@@ -1677,25 +1679,10 @@ WeakAuras.bufftrigger_2_preferred_match_types =
   showHighest = L["Most remaining time"]
 }
 
-WeakAuras.bufftrigger_2_combine_types = {
-  showLowest = L["Show lowest time left"],
-  showHighest = L["Show longest time left"],
-  showClones = L["Show all Matches"]
-}
-
 WeakAuras.bufftrigger_2_per_unit_mode = {
   affected = L["Affected"],
   unaffected = L["Unaffected"],
   all = L["All"]
-}
-
-WeakAuras.bufftrigger_2_combine_group_types = {
-  showLowest = L["Show lowest time left over all units"],
-  showHighest = L["Show longest time left over all units"],
-  showClones = L["Show all Matches from all Units"],
-  showLowestPerUnit = L["Show lowest time left per unit"],
-  showHighestPerUnit = L["Show longest time left per unit"],
-  showCombineAll = L["Combine all matches"],
 }
 
 WeakAuras.item_slot_types = {
@@ -2028,6 +2015,7 @@ WeakAuras.author_option_fields = {
   header = {
     useName = false,
     text = "",
+    noMerge = false
   },
   group = {
     groupType = "simple",

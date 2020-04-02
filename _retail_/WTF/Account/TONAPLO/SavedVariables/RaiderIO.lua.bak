@@ -1,7 +1,7 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Puukaa-ragnaros"
+RaiderIO_LastCharacter = "eu-Grommarg-ragnaros"
 RaiderIO_MissingCharacters = {
-	["eu-Télhozó-ragnaros"] = true,
+	["eu-Traziz-chamber-of-aspects"] = true,
 }

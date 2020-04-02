@@ -227,8 +227,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuea4sWRNe",
 				}, -- [4]
 				{
-					["id"] = 229388,
 					["sliceToken"] = "ABuea4/4zZe",
+					["id"] = 229388,
 				}, -- [5]
 				{
 					["id"] = 229387,
@@ -263,8 +263,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueacciiTe",
 				}, -- [13]
 				{
-					["sliceToken"] = "ABueaX/fZYr",
 					["id"] = 783,
+					["sliceToken"] = "ABueaX/fZYr",
 				}, -- [14]
 				{
 					["sliceToken"] = "ABue3CmU2ge",
@@ -296,13 +296,13 @@ OneRing_Config = {
 				}, -- [4]
 				{
 					"item", -- [1]
-					160053, -- [2]
-					["sliceToken"] = "ABue3MAkaQ1",
+					154884, -- [2]
+					["sliceToken"] = "ABuedyXtWwe",
 				}, -- [5]
 				{
 					"item", -- [1]
-					154884, -- [2]
-					["sliceToken"] = "ABuedyXtWwe",
+					174906, -- [2]
+					["sliceToken"] = "ABue46fhhRe",
 				}, -- [6]
 				["name"] = "Consumables",
 				["save"] = true,
@@ -473,8 +473,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABue3OWbYce",
 				}, -- [27]
 				{
-					["id"] = 6673,
 					["sliceToken"] = "ABue3OSS36e",
+					["id"] = 6673,
 				}, -- [28]
 				{
 					["id"] = 1459,
@@ -545,32 +545,32 @@ OneRing_Config = {
 			["Base"] = {
 				{
 					["sliceToken"] = "ABuep4Bpwxd",
-					["caption"] = "Travel",
 					["id"] = "/click ORLOpen SpecMenu",
+					["caption"] = "Travel",
 					["icon"] = 134414,
 				}, -- [1]
 				{
 					["sliceToken"] = "ABuep4BpwxS",
-					["caption"] = "Trade Skills",
 					["id"] = "/click ORLOpen CommonTrades",
+					["caption"] = "Trade Skills",
 					["icon"] = 134707,
 				}, -- [2]
 				{
 					["sliceToken"] = "ABuep4Bpwxeb",
-					["caption"] = "Macros",
 					["id"] = "/click ORLOpen Macros",
+					["caption"] = "Macros",
 					["icon"] = 1505928,
 				}, -- [3]
 				{
 					["sliceToken"] = "ABuepjqUmtV",
-					["caption"] = "Consumables",
 					["id"] = "/click ORLOpen onsumables",
+					["caption"] = "Consumables",
 					["icon"] = 134055,
 				}, -- [4]
 				{
 					["sliceToken"] = "ABuepjqUmtwq",
-					["caption"] = "Class Abilities",
 					["id"] = "/click ORLOpen tAbilities",
+					["caption"] = "Class Abilities",
 					["icon"] = 132147,
 				}, -- [5]
 				{

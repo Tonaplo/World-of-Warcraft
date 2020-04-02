@@ -218,7 +218,7 @@ function ConstructTest(trigger, arg)
       test = "("..arg.test:format(trigger[name])..")";
     elseif(arg.type == "longstring" and trigger[name.."_operator"]) then
       test = TestForLongString(trigger, arg);
-    elseif (arg.type == "string" or type == "select" or type == "spell" or type == "item") then
+    elseif (arg.type == "string" or arg.type == "select" or arg.type == "spell" or arg.type == "item") then
       test = "(".. name .." and "..name.."==" ..(number or "\""..(trigger[name] or "").."\"")..")";
     else
       if(type(trigger[name]) == "table") then
@@ -555,8 +555,9 @@ local function RunTriggerFunc(allStates, data, id, triggernum, event, arg1, arg2
       end
     elseif (data.statesParameter == "unit") then
       if arg1 then
-        allStates[arg1] = allStates[arg1] or {};
-        local state = allStates[arg1];
+        local cloneId = WeakAuras.multiUnitUnits[data.trigger.unit] and arg1 or ""
+        allStates[cloneId] = allStates[cloneId] or {};
+        local state = allStates[cloneId];
         local ok, returnValue = xpcall(data.triggerFunc, errorHandler, state, event, arg1, arg2, ...);
         if (ok and returnValue) or optionsEvent then
           if(WeakAuras.ActivateEvent(id, triggernum, data, state, errorHandler)) then
@@ -606,10 +607,12 @@ local function RunTriggerFunc(allStates, data, id, triggernum, event, arg1, arg2
       elseif data.statesParameter == "unit" then
         if data.untriggerFunc then
           if arg1 then
-            local ok, returnValue =  xpcall(data.untriggerFunc, errorHandler, allStates[arg1], event, arg1, arg2, ...);
-            if ok and returnValue then
-              if allStates[arg1] then
-                if (WeakAuras.EndEvent(id, triggernum, nil, allStates[arg1])) then
+            local cloneId = WeakAuras.multiUnitUnits[data.trigger.unit] and arg1 or ""
+            local state = allStates[cloneId]
+            if state then
+              local ok, returnValue =  xpcall(data.untriggerFunc, errorHandler, state, event, arg1, arg2, ...);
+              if ok and returnValue then
+                if (WeakAuras.EndEvent(id, triggernum, nil, state)) then
                   updateTriggerState = true;
                 end
               end
@@ -3288,15 +3291,17 @@ end
 do
   local scheduled_scans = {};
 
-  local function doCooldownScan(fireTime)
-    WeakAuras.debug("Performing cooldown scan at "..fireTime.." ("..GetTime()..")");
-    scheduled_scans[fireTime] = nil;
-    WeakAuras.ScanEvents("COOLDOWN_REMAINING_CHECK");
+  local function doScan(fireTime, event)
+    WeakAuras.debug("Performing scan at "..fireTime.." ("..GetTime()..") " .. event);
+    scheduled_scans[event][fireTime] = nil;
+    WeakAuras.ScanEvents(event);
   end
-  function WeakAuras.ScheduleCooldownScan(fireTime)
-    if not(scheduled_scans[fireTime]) then
-      WeakAuras.debug("Scheduled cooldown scan at "..fireTime);
-      scheduled_scans[fireTime] = timer:ScheduleTimerFixed(doCooldownScan, fireTime - GetTime() + 0.1, fireTime);
+  function WeakAuras.ScheduleScan(fireTime, event)
+    event = event or "COOLDOWN_REMAINING_CHECK"
+    scheduled_scans[event] = scheduled_scans[event] or {}
+    if not(scheduled_scans[event][fireTime]) then
+      WeakAuras.debug("Scheduled scan at " .. fireTime .. " for event " .. event);
+      scheduled_scans[event][fireTime] = timer:ScheduleTimerFixed(doScan, fireTime - GetTime() + 0.1, fireTime, event);
     end
   end
 end
@@ -3306,13 +3311,14 @@ do
 
   local function doCastScan(firetime, unit)
     WeakAuras.debug("Performing cast scan at "..firetime.." ("..GetTime()..")");
-    scheduled_scans[firetime] = nil;
+    scheduled_scans[unit][firetime] = nil;
     WeakAuras.ScanEvents("CAST_REMAINING_CHECK", unit);
   end
   function WeakAuras.ScheduleCastCheck(fireTime, unit)
-    if not(scheduled_scans[fireTime]) then
+    scheduled_scans[unit] = scheduled_scans[unit] or {}
+    if not(scheduled_scans[unit][fireTime]) then
       WeakAuras.debug("Scheduled cast scan at "..fireTime);
-      scheduled_scans[fireTime] = timer:ScheduleTimerFixed(doCastScan, fireTime - GetTime() + 0.1, fireTime, unit);
+      scheduled_scans[unit][fireTime] = timer:ScheduleTimerFixed(doCastScan, fireTime - GetTime() + 0.1, fireTime, unit);
     end
   end
 end
@@ -3502,7 +3508,14 @@ end
 
 function GenericTrigger.SetToolTip(trigger, state)
   if (trigger.type == "custom" and trigger.custom_type == "stateupdate") then
-    if (state.spellId) then
+    if (state.tooltip) then
+      local lines = { strsplit("\n", state.tooltip) };
+      GameTooltip:ClearLines();
+      for i, line in ipairs(lines) do
+        GameTooltip:AddLine(line);
+      end
+      return true
+    elseif (state.spellId) then
       GameTooltip:SetSpellByID(state.spellId);
       return true
     elseif (state.link) then

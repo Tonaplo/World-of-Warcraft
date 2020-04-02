@@ -37,9 +37,9 @@ Details_TinyThreat: enabled
 Details_Vanguard: enabled
 ExRT: enabled
 GTFO: enabled
-HandyNotes: disabled
+HandyNotes: enabled
 HandyNotes_BattleForAzerothTreasures: disabled
-HandyNotes_DraenorTreasures: disabled
+HandyNotes_DraenorTreasures: enabled
 HandyNotes_LegionTreasures: disabled
 idTip: enabled
 InstanceAchievementTracker: disabled

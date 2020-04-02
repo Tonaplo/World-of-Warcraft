@@ -1,9 +1,7 @@
 # BigWigs
 
-## [v184](https://github.com/BigWigsMods/BigWigs/tree/v184) (2020-02-28)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v183.2...v184)
+## [v184.2](https://github.com/BigWigsMods/BigWigs/tree/v184.2) (2020-03-08)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v184.1...v184.2)
 
-- bump version  
-- Nyalotha/Raden: Add Unstable Void counter  
-- Nyalotha/Drestagath: Add Volatile Seed counter  
-- Loader: Add warning for people trying to use this version of BigWigs on classic WoW.  
+- Nyalotha/Skitra: Fix 2nd project pre-warning.  
+- Nyalotha/Skitra: Adjust stage warnings to reflect hotfixes Feb 24th  

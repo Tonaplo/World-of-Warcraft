@@ -105,7 +105,11 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["spec"] = 64,
 		["name"] = "Frost AoE",
 	}, -- [21]
-	false, -- [22]
+	{
+		["value"] = "[+o0___194223_0_0]\n[01+502+603+90_Moonfire__8921_0_0]\n[01+502+603+90_Sunfire__93402_0_0]\n[+701+g0_Solar Empowerment__190984_0_0]\n[+701+g0_Lunar Empowerment__194153_0_0]\n[00w+l0___78674_0_0]\n[+o0___190984_0_0]",
+		["spec"] = 102,
+		["name"] = "Balance DPS",
+	}, -- [22]
 	{
 		["value"] = "[02+m0__ShiftE_2139_0_0]\n[+902+a02000__ShiftT_116011_0_0]\n[000h2+b03+70__F_5143_0_0]\n[04015h2+801A04+50__F_5143_0_0]\n[04015+b0p+70__3_44425_0_0]\n[000h5+b04+70___30451_0_0]",
 		["spec"] = 62,
@@ -146,7 +150,11 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["spec"] = 102,
 		["name"] = "Balance M+",
 	}, -- [30]
-	false, -- [31]
+	{
+		["value"] = "[02+m0__ShiftE_6552_0_0]",
+		["spec"] = 71,
+		["name"] = "Interrupt",
+	}, -- [31]
 	{
 		["value"] = "[02+m0__Shift E_15487_0_0]\n[00w+402+g0__Shift F_228260_0_0]\n[00w+40202+a02032__2_32379_0_8092]\n[+903+a01032__2_32379_0_8092]\n[+7012000k+b0_Voidform_X_200174_0_0]\n[01+502+603+90_Shadow Word: Pain_F_589_0_0]\n[01+502+603+90_Vampiric Touch_C_34914_0_0]\n[+702+g0__3_8092_0_0]\n[+702+g0__E_15407_0_0]",
 		["spec"] = 258,
