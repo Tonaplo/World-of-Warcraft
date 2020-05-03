@@ -1080,14 +1080,13 @@ WeakAuras.load_prototype = {
     },
     {
       name = "vehicle",
-      display = L["In Vehicle"],
+      display = WeakAuras.IsClassic() and L["On Taxi"] or L["In Vehicle"],
       type = "tristate",
       init = "arg",
       width = WeakAuras.normalWidth,
       optional = true,
-      enable = not WeakAuras.IsClassic(),
-      hidden = WeakAuras.IsClassic(),
-      events = {"VEHICLE_UPDATE", "UNIT_ENTERED_VEHICLE", "UNIT_EXITED_VEHICLE", "UPDATE_OVERRIDE_ACTIONBAR", "UNIT_FLAGS"}
+      events = WeakAuras.IsClassic() and {"UNIT_FLAGS"}
+               or {"VEHICLE_UPDATE", "UNIT_ENTERED_VEHICLE", "UNIT_EXITED_VEHICLE", "UPDATE_OVERRIDE_ACTIONBAR", "UNIT_FLAGS"}
     },
     {
       name = "vehicleUi",
@@ -1630,6 +1629,7 @@ WeakAuras.event_prototypes = {
   },
   ["Health"] = {
     type = "status",
+    canHaveDuration = true,
     events = function(trigger)
       local unit = trigger.unit
       local result = {}
@@ -1853,6 +1853,7 @@ WeakAuras.event_prototypes = {
   },
   ["Power"] = {
     type = "status",
+    canHaveDuration = true,
     events = function(trigger)
       local unit = trigger.unit
       local result = {}
@@ -2037,6 +2038,13 @@ WeakAuras.event_prototypes = {
         test = "true"
       },
       {
+        name = "stacks",
+        hidden = true,
+        init = "power",
+        store = true,
+        test = "true"
+      },
+      {
         name = "progressType",
         hidden = true,
         init = "'static'",
@@ -2120,6 +2128,7 @@ WeakAuras.event_prototypes = {
   },
   ["Alternate Power"] = {
     type = "status",
+    canHaveDuration = true,
     events = function(trigger)
       local unit = trigger.unit
       local result = {}
@@ -4866,25 +4875,14 @@ WeakAuras.event_prototypes = {
     init = function(trigger)
       local inverse = trigger.use_inverse;
       local ret = [[
-        local form
+        local form = GetShapeshiftForm()
         local active = false
       ]]
       if trigger.use_form and trigger.form and trigger.form.single then
         -- Single selection
         ret = ret .. [[
           local trigger_form = %d
-          if WeakAuras.IsClassic() then
-            for i=1, GetNumShapeshiftForms() do
-              local _, isActive = GetShapeshiftFormInfo(i)
-              if isActive then
-                form = i
-                active = i == trigger_form
-              end
-            end
-          else
-            form = GetShapeshiftForm()
-            active = form == trigger_form
-          end
+          active = form == trigger_form
         ]]
         if inverse then
           ret = ret .. [[
@@ -4897,18 +4895,7 @@ WeakAuras.event_prototypes = {
           local ret2 = [[
             if not active then
               local index = %d
-              if WeakAuras.IsClassic() then
-                local _, isActive = GetShapeshiftFormInfo(index)
-                if isActive then
-                  form = index
-                  active = true
-                end
-              else
-                if GetShapeshiftForm() == index then
-                  form = index
-                  active = true
-                end
-              end
+              active = form == index
             end
           ]]
           ret = ret .. ret2:format(index)
@@ -4921,17 +4908,6 @@ WeakAuras.event_prototypes = {
         return ret
       elseif trigger.use_form == nil then
         ret = ret .. [[
-          if WeakAuras.IsClassic() then
-            for i=1, GetNumShapeshiftForms() do
-              local _, isActive = GetShapeshiftFormInfo(i)
-              if isActive then
-                form = i
-                break
-              end
-            end
-          else
-            form = GetShapeshiftForm()
-          end
           active = true
         ]]
         return ret
@@ -4976,18 +4952,9 @@ WeakAuras.event_prototypes = {
     end,
     iconFunc = function(trigger)
       local icon = "136116"
-      if WeakAuras.IsClassic() then
-        for i=1, GetNumShapeshiftForms() do
-          local texture, isActive = GetShapeshiftFormInfo(i)
-          if isActive then
-            icon = texture
-          end
-        end
-      else
-        local form = GetShapeshiftForm()
-        if form and form > 0 then
-          icon = GetShapeshiftFormInfo(form);
-        end
+      local form = GetShapeshiftForm()
+      if form and form > 0 then
+        icon = GetShapeshiftFormInfo(form);
       end
       return icon or "136116"
     end,
@@ -6339,9 +6306,13 @@ WeakAuras.event_prototypes = {
       end
       local unit_events = {}
       local pet_unit_events = {}
-      if not WeakAuras.IsClassic() and trigger.use_vehicle ~= nil then
-        tinsert(unit_events, "UNIT_ENTERED_VEHICLE")
-        tinsert(unit_events, "UNIT_EXITED_VEHICLE")
+      if trigger.use_vehicle ~= nil then
+        if WeakAuras.IsClassic() then
+          tinsert(unit_events, "UNIT_FLAGS")
+        else
+          tinsert(unit_events, "UNIT_ENTERED_VEHICLE")
+          tinsert(unit_events, "UNIT_EXITED_VEHICLE")
+        end
         tinsert(events, "PLAYER_ENTERING_WORLD")
       end
       if trigger.use_HasPet ~= nil then
@@ -6424,11 +6395,9 @@ WeakAuras.event_prototypes = {
       },
       {
         name = "vehicle",
-        display = L["In Vehicle"],
+        display = WeakAuras.IsClassic() and L["On Taxi"] or L["In Vehicle"],
         type = "tristate",
-        init = "not WeakAuras.IsClassic() and UnitInVehicle('player')",
-        enable = not WeakAuras.IsClassic(),
-        hidden = WeakAuras.IsClassic()
+        init = WeakAuras.IsClassic() and "UnitOnTaxi('player')" or "UnitInVehicle('player')",
       },
       {
         name = "resting",
@@ -6553,7 +6522,7 @@ WeakAuras.event_prototypes = {
         tinsert(result, "PET_BAR_UPDATE");
       end
       if (trigger.use_petspec) then
-        tinsert(result, "PET_SPECIALIZATION_CHANGED ");
+        tinsert(result, "PET_SPECIALIZATION_CHANGED");
       end
       return {
         ["events"] = result,
@@ -6573,30 +6542,29 @@ WeakAuras.event_prototypes = {
         ret = [[
             local inverse = %s
             local check_behavior = %s
-            local name, i, active
-            local behavior
-            local index = 1
-            repeat
-              name,i, _,active = GetPetActionInfo(index);
-              if (active) then
-                activeIcon = _G[i];
-              end
-              index = index + 1
-              if WeakAuras.IsClassic() then
-                if name == "PET_MODE_AGGRESSIVE" and active == true then
+            local name, i, active, behavior, _
+            for index = 1, NUM_PET_ACTION_SLOTS do
+              name, i, _, active = GetPetActionInfo(index)
+              if active then
+                activeIcon = _G[i]
+                if name == "PET_MODE_AGGRESSIVE" then
                   behavior = "aggressive"
-                end
-              else
-                if name == "PET_MODE_ASSIST" and active == true then
+                  break
+                elseif name == "PET_MODE_ASSIST" then
                   behavior = "assist"
+                  break
+                elseif name == "PET_MODE_DEFENSIVEASSIST" then
+                  behavior = "defensive"
+                  break
+                elseif name == "PET_MODE_DEFENSIVE" then
+                  behavior = "defensive"
+                  break
+                elseif name == "PET_MODE_PASSIVE" then
+                  behavior = "passive"
+                  break
                 end
               end
-              if name == "PET_MODE_DEFENSIVE" and active == true then
-                behavior = "defensive"
-              elseif name == "PET_MODE_PASSIVE" and active == true then
-                behavior = "passive"
-              end
-            until index == 12
+            end
         ]]
         ret = ret:format(trigger.use_inverse and "true" or "false", trigger.use_behavior and ('"' .. (trigger.behavior or "") .. '"') or "nil");
       end

@@ -285,6 +285,12 @@ L["Dungeons"] = "地下城"
 L["Durability Damage"] = "耐久度下降"
 L["Durability Damage All"] = "耐久度上限下降"
 --[[Translation missing --]]
+L["Ease In"] = "Ease In"
+--[[Translation missing --]]
+L["Ease In and Out"] = "Ease In and Out"
+--[[Translation missing --]]
+L["Ease Out"] = "Ease Out"
+--[[Translation missing --]]
 L["Ebonroc"] = "Ebonroc"
 L["Edge"] = "边缘"
 --[[Translation missing --]]
@@ -347,6 +353,8 @@ L["Font Size"] = "字体尺寸"
 L["Foreground"] = "前景"
 L["Foreground Color"] = "前景颜色"
 L["Form"] = "形态"
+--[[Translation missing --]]
+L["Frame Selector"] = "Frame Selector"
 L["Frequency"] = "频率"
 L["Friendly"] = "友善"
 L["Friendly Fire"] = "友方伤害"
@@ -601,6 +609,8 @@ L["Officer"] = "官员"
 L["Offset Timer"] = "位移计时器"
 L["Older set IDs can be found on websites such as wowhead.com/item-sets"] = "旧的套装 ID 可以在一些类似于wowhead.com/item-sets 的网站上找到"
 L["On Cooldown"] = "冷却中"
+--[[Translation missing --]]
+L["On Taxi"] = "On Taxi"
 L["Only if BigWigs shows it on it's bar"] = "仅当其在 BigWigs 条上出现时"
 L["Only if DBM shows it on it's bar"] = "仅当其在 DBM 条上出现时"
 L["Only if Primary"] = "只有当是首要时"
@@ -926,6 +936,8 @@ L["Unit"] = "单位"
 L["Unit Characteristics"] = "单位特性"
 L["Unit Destroyed"] = "单位被摧毁(如:图腾,治疗结界)"
 L["Unit Died"] = "单位死亡"
+--[[Translation missing --]]
+L["Unit Frame"] = "Unit Frame"
 L["Unit Frames"] = "单位框架"
 L["Unit is Unit"] = "同一单位"
 L["Unit Name"] = "单位名称"

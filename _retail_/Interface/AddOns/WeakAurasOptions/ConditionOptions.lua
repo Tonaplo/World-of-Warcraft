@@ -867,17 +867,32 @@ local function addControlsForChange(args, order, data, conditionVariable, condit
     local function anyGlowExternal(property, needle)
       local ref = type(conditions[i].changes[j].value) == "table" and conditions[i].changes[j].value[property]
       if ref then
-        return ref == needle
+        if type(needle) == "table" then
+          return needle[ref]
+        else
+          return ref == needle
+        end
       end
       if conditions[i].changes[j].references then
         for id, reference in pairs(conditions[i].changes[j].references) do
-          if type(reference.value) == "table" and reference.value[property] == needle then
-            return true
+          if type(reference.value) == "table" then
+            if type(needle) == "table" then
+              if needle[reference.value[property]] then
+                return true
+              end
+            else
+              if reference.value[property] == needle then
+                return true
+              end
+            end
           end
         end
       end
       return false
     end
+
+    local glowTypesExcepButtonOverlay = CopyTable(WeakAuras.glow_types)
+    glowTypesExcepButtonOverlay["buttonOverlay"] = nil
 
     args["condition" .. i .. "value" .. j .. "glow_action"] = {
       type = "select",
@@ -894,32 +909,22 @@ local function addControlsForChange(args, order, data, conditionVariable, condit
     order = order + 1
     args["condition" .. i .. "value" .. j .. "glow_frame_type"] = {
       type = "select",
-      values = {
-        UNITFRAME = L["Unit Frame"],
-        NAMEPLATE = L["Name Plate"],
-        FRAMESELECTOR = L["Frame Selector"]
-      },
+      values = WeakAuras.glow_frame_types,
       width = WeakAuras.normalWidth,
       name = blueIfNoValue2(data, conditions[i].changes[j], "value", "glow_frame_type", L["Glow Frame Type"], L["Glow Frame Type"]),
       desc = descIfNoValue2(data, conditions[i].changes[j], "value", "glow_frame_type", propertyType, {
         UNITFRAME = L["Unit Frame"],
-        NAMEPLATE = L["Name Plate"],
+        NAMEPLATE = L["Nameplate"],
         FRAMESELECTOR = L["Frame Selector"]
       }),
       order = order,
       get = function()
         return type(conditions[i].changes[j].value) == "table" and conditions[i].changes[j].value.glow_frame_type;
       end,
+      hidden = function() return not anyGlowExternal("glow_action", WeakAuras.glow_action_types) end,
       set = setValueComplex("glow_frame_type")
     }
     order = order + 1
-    args["condition" .. i .. "value" .. j .. "glow_type_spacer"] = {
-      type = "description",
-      width = WeakAuras.normalWidth,
-      name = "",
-      order = order,
-      hidden = function() return anyGlowExternal("glow_action", "show") end,
-    }
     args["condition" .. i .. "value" .. j .. "glow_type"] = {
       type = "select",
       values = WeakAuras.glow_types,
@@ -931,7 +936,9 @@ local function addControlsForChange(args, order, data, conditionVariable, condit
         return type(conditions[i].changes[j].value) == "table" and conditions[i].changes[j].value.glow_type;
       end,
       set = setValueComplex("glow_type"),
-      hidden = function() return not anyGlowExternal("glow_action", "show") end
+      hidden = function()
+        return not (anyGlowExternal("glow_action", "show") and anyGlowExternal("glow_frame_type", WeakAuras.glow_frame_types))
+      end
     }
     order = order + 1
     args["condition" .. i .. "value" .. j .. "glow_frame"] = {
@@ -944,7 +951,9 @@ local function addControlsForChange(args, order, data, conditionVariable, condit
         return type(conditions[i].changes[j].value) == "table" and conditions[i].changes[j].value.glow_frame;
       end,
       set = setValueComplex("glow_frame"),
-      hidden = function() return not anyGlowExternal("glow_frame_type", "FRAMESELECTOR") end
+      hidden = function()
+        return not anyGlowExternal("glow_frame_type", "FRAMESELECTOR")
+      end
     }
     order = order + 1
     args["condition" .. i .. "value" .. j .. "choose_glow_frame"] = {
@@ -956,7 +965,9 @@ local function addControlsForChange(args, order, data, conditionVariable, condit
       func = function()
         WeakAuras.finishFrameChooser(conditions[i].changes[j].value, {"glow_frame"});
       end,
-      hidden = function() return not anyGlowExternal("glow_frame_type", "FRAMESELECTOR") end
+      hidden = function()
+        return not anyGlowExternal("glow_frame_type", "FRAMESELECTOR")
+      end
     }
     order = order + 1
     args["condition" .. i .. "value" .. j .. "use_glow_color"] = {
@@ -969,7 +980,9 @@ local function addControlsForChange(args, order, data, conditionVariable, condit
         return type(conditions[i].changes[j].value) == "table" and conditions[i].changes[j].value.use_glow_color;
       end,
       set = setValueComplex("use_glow_color"),
-      hidden = function() return not anyGlowExternal("glow_action", "show") end
+      hidden = function()
+        return not (anyGlowExternal("glow_action", "show") and anyGlowExternal("glow_type", WeakAuras.glow_types))
+      end
     }
     order = order + 1
     args["condition" .. i .. "value" .. j .. "glow_color"] = {
@@ -985,7 +998,11 @@ local function addControlsForChange(args, order, data, conditionVariable, condit
         return 1, 1, 1, 1;
       end,
       set = setValueColorComplex("glow_color"),
-      hidden = function() return not anyGlowExternal("glow_action", "show") end,
+      hidden = function()
+        return not (anyGlowExternal("glow_action", "show")
+                    and anyGlowExternal("glow_frame_type", WeakAuras.glow_frame_types)
+                    and anyGlowExternal("glow_type", WeakAuras.glow_types))
+      end,
       disabled = function() return not anyGlowExternal("use_glow_color", true) end
     }
     order = order + 1
@@ -1002,7 +1019,9 @@ local function addControlsForChange(args, order, data, conditionVariable, condit
         return type(conditions[i].changes[j].value) == "table" and conditions[i].changes[j].value.glow_lines or 8;
       end,
       set = setValueComplex("glow_lines"),
-      hidden = function() return not anyGlowExternal("glow_action", "show") or anyGlowExternal("glow_type", "buttonOverlay") end,
+      hidden = function()
+        return not (anyGlowExternal("glow_action", "show") and anyGlowExternal("glow_type", glowTypesExcepButtonOverlay))
+      end,
     }
     order = order + 1
     args["condition" .. i .. "value" .. j .. "glow_frequency"] = {
@@ -1018,7 +1037,9 @@ local function addControlsForChange(args, order, data, conditionVariable, condit
         return type(conditions[i].changes[j].value) == "table" and conditions[i].changes[j].value.glow_frequency or 0.25;
       end,
       set = setValueComplex("glow_frequency"),
-      hidden = function() return not anyGlowExternal("glow_action", "show") or anyGlowExternal("glow_type", "buttonOverlay") end,
+      hidden = function()
+        return not (anyGlowExternal("glow_action", "show") and anyGlowExternal("glow_type", glowTypesExcepButtonOverlay))
+      end,
     }
     order = order + 1
     args["condition" .. i .. "value" .. j .. "glow_length"] = {
@@ -1034,7 +1055,9 @@ local function addControlsForChange(args, order, data, conditionVariable, condit
         return type(conditions[i].changes[j].value) == "table" and conditions[i].changes[j].value.glow_length or 10;
       end,
       set = setValueComplex("glow_length"),
-      hidden = function() return not anyGlowExternal("glow_action", "show") or not anyGlowExternal("glow_type", "Pixel") end,
+      hidden = function()
+        return not (anyGlowExternal("glow_action", "show") and anyGlowExternal("glow_type", "Pixel"))
+      end,
     }
     order = order + 1
     args["condition" .. i .. "value" .. j .. "glow_thickness"] = {
@@ -1050,7 +1073,9 @@ local function addControlsForChange(args, order, data, conditionVariable, condit
         return type(conditions[i].changes[j].value) == "table" and conditions[i].changes[j].value.glow_thickness or 1;
       end,
       set = setValueComplex("glow_thickness"),
-      hidden = function() return not anyGlowExternal("glow_action", "show") or not anyGlowExternal("glow_type", "Pixel") end,
+      hidden = function()
+        return not (anyGlowExternal("glow_action", "show") and anyGlowExternal("glow_type", "Pixel"))
+      end,
     }
     order = order + 1
     args["condition" .. i .. "value" .. j .. "glow_XOffset"] = {
@@ -1066,7 +1091,9 @@ local function addControlsForChange(args, order, data, conditionVariable, condit
         return type(conditions[i].changes[j].value) == "table" and conditions[i].changes[j].value.glow_XOffset or 0;
       end,
       set = setValueComplex("glow_XOffset"),
-      hidden = function() return not anyGlowExternal("glow_action", "show") or anyGlowExternal("glow_type", "buttonOverlay") end,
+      hidden = function()
+        return not (anyGlowExternal("glow_action", "show") and anyGlowExternal("glow_type", glowTypesExcepButtonOverlay))
+      end,
     }
     order = order + 1
     args["condition" .. i .. "value" .. j .. "glow_YOffset"] = {
@@ -1082,7 +1109,9 @@ local function addControlsForChange(args, order, data, conditionVariable, condit
         return type(conditions[i].changes[j].value) == "table" and conditions[i].changes[j].value.glow_YOffset or 0;
       end,
       set = setValueComplex("glow_YOffset"),
-      hidden = function() return not anyGlowExternal("glow_action", "show") or anyGlowExternal("glow_type", "buttonOverlay") end,
+      hidden = function()
+        return not (anyGlowExternal("glow_action", "show") and anyGlowExternal("glow_type", "Pixel"))
+      end,
     }
     order = order + 1
     args["condition" .. i .. "value" .. j .. "glow_scale"] = {
@@ -1099,7 +1128,9 @@ local function addControlsForChange(args, order, data, conditionVariable, condit
         return type(conditions[i].changes[j].value) == "table" and conditions[i].changes[j].value.glow_scale or 1;
       end,
       set = setValueComplex("glow_scale"),
-      hidden = function() return not anyGlowExternal("glow_action", "show") or not anyGlowExternal("glow_type", "ACShine") end,
+      hidden = function()
+        return not (anyGlowExternal("glow_action", "show") and anyGlowExternal("glow_type", "ACShine"))
+      end,
     }
     order = order + 1
     args["condition" .. i .. "value" .. j .. "glow_border"] = {
@@ -1112,15 +1143,17 @@ local function addControlsForChange(args, order, data, conditionVariable, condit
         return type(conditions[i].changes[j].value) == "table" and conditions[i].changes[j].value.glow_border;
       end,
       set = setValueComplex("glow_border"),
-      hidden = function() return not anyGlowExternal("glow_action", "show") or not anyGlowExternal("glow_type", "Pixel") end,
+      hidden = function() return
+        not (anyGlowExternal("glow_action", "show") and anyGlowExternal("glow_type", "Pixel"))
+      end,
     }
     order = order + 1
     args["condition" .. i .. "value" .. j .. "glow_spacer"] = {
       type = "description",
-      width = WeakAuras.normalWidth,
+      width = WeakAuras.doubleWidth,
       name = "",
       order = order,
-      hidden = function() return not anyGlowExternal("glow_action", "show") or anyGlowExternal("glow_type", "buttonOverlay") end,
+      hidden = false,
     }
     order = order + 1
   else -- Unknown property type

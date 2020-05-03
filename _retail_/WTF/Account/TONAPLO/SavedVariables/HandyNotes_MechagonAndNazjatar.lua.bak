@@ -1,0 +1,45 @@
+
+HandyNotes_MechagonAndNazjatarDB = {
+	["char"] = {
+		["Mallusof - Silvermoon"] = {
+			["1355_coord_9452800"] = true,
+			["1355_coord_11952400"] = true,
+			["1355_coord_45715170"] = true,
+			["1355_coord_14452800"] = true,
+			["1355_coord_66964817"] = true,
+			["1355_coord_71365456"] = true,
+			["1355_coord_73985395"] = true,
+			["1355_coord_66443875"] = true,
+			["1355_coord_42728740"] = true,
+			["1355_coord_36044496"] = true,
+		},
+	},
+	["profileKeys"] = {
+		["Thedodrouk - Silvermoon"] = "Default",
+		["Miriyam - Silvermoon"] = "Default",
+		["Grommarg - Ragnaros"] = "Default",
+		["Praerend - Silvermoon"] = "Default",
+		["Faerand - Silvermoon"] = "Default",
+		["Burdett - Silvermoon"] = "Default",
+		["Korugen - Silvermoon"] = "Default",
+		["Kindhoof - Ragnaros"] = "Default",
+		["Thorlan - Silvermoon"] = "Default",
+		["Amranar - Silvermoon"] = "Default",
+		["Rahran - Silvermoon"] = "Default",
+		["Zearthan - Silvermoon"] = "Default",
+		["Greyblood - Silvermoon"] = "Default",
+		["Mallusof - Silvermoon"] = "Default",
+		["Kaldowrath - Silvermoon"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["slime_nazjatar"] = false,
+			["supply_nazjatar"] = false,
+			["treasure_nazjatar"] = false,
+			["cats_nazjatar"] = false,
+			["cave_nazjatar"] = false,
+			["misc_nazjatar"] = false,
+			["pet_nazjatar"] = false,
+		},
+	},
+}

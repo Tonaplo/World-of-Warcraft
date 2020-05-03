@@ -15,6 +15,12 @@ WeakAuras.glow_action_types = {
   hide = L["Hide"]
 }
 
+WeakAuras.glow_frame_types = {
+  UNITFRAME = L["Unit Frame"],
+  NAMEPLATE = L["Nameplate"],
+  FRAMESELECTOR = L["Frame Selector"]
+}
+
 WeakAuras.circular_group_constant_factor_types = {
   RADIUS = L["Radius"],
   SPACING = L["Spacing"]
@@ -1313,6 +1319,29 @@ WeakAuras.anim_types = {
   custom = L["Custom"]
 }
 
+WeakAuras.anim_ease_types = {
+  none = L["None"],
+  easeIn = L["Ease In"],
+  easeOut = L["Ease Out"],
+  easeOutIn = L["Ease In and Out"]
+}
+
+WeakAuras.anim_ease_functions = {
+  none = function(percent) return percent end,
+  easeIn = function(percent, power)
+    return percent ^ power;
+  end,
+  easeOut = function(percent, power)
+    return 1.0 - (1.0 - percent) ^ power;
+  end,
+  easeOutIn = function(percent, power)
+    if percent < .5 then
+        return (percent * 2.0) ^ power * .5;
+    end
+    return 1.0 - ((1.0 - percent) * 2.0) ^ power * .5;
+  end
+}
+
 WeakAuras.anim_translate_types = {
   straightTranslate = L["Normal"],
   circle = L["Circle"],
@@ -1919,14 +1948,20 @@ WeakAuras.data_stub = {
     start = {
       type = "none",
       duration_type = "seconds",
+      easeType = "none",
+      easeStrength = 3,
     },
     main = {
       type = "none",
       duration_type = "seconds",
+      easeType = "none",
+      easeStrength = 3,
     },
     finish = {
       type = "none",
       duration_type = "seconds",
+      easeType = "none",
+      easeStrength = 3,
     },
   },
   conditions = {},
@@ -2128,6 +2163,10 @@ WeakAuras.difficulty_info = {
     size = "flexible",
     difficulty = "timewalking",
   },
+  [148] = {
+    size = "twenty",
+    difficulty = "normal",
+  },
 }
 
 WeakAuras.glow_types = {
@@ -2241,9 +2280,15 @@ WeakAuras.reset_ranged_swing_spells = {
 if WeakAuras.IsClassic() then
   WeakAuras.baseUnitId.focus = nil
   WeakAuras.baseUnitId.vehicle = nil
+  WeakAuras.multiUnitId.boss = nil
+  WeakAuras.multiUnitUnits.boss = nil
   WeakAuras.unit_types.focus = nil
   WeakAuras.unit_types_bufftrigger_2.focus = nil
+  WeakAuras.unit_types_bufftrigger_2.boss = nil
+  WeakAuras.unit_types_bufftrigger_2.arena = nil
   WeakAuras.actual_unit_types_with_specific.focus = nil
+  WeakAuras.actual_unit_types_cast.boss = nil
+  WeakAuras.actual_unit_types_cast.arena = nil
   WeakAuras.actual_unit_types_cast.focus = nil
   WeakAuras.actual_unit_types.focus = nil
   WeakAuras.unit_types_range_check.focus = nil

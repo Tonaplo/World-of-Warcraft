@@ -1,0 +1,31 @@
+4/28 11:01:21.826  LogOpen
+4/28 11:01:21.826  Windows 10 (10.0.18363)
+4/28 11:01:22.032  Adapter 0: "NVIDIA GeForce GTX 1660 Ti" family:Turing vendor:0x10de device:0x2182 driver(0x1a0015000e109a) 1 1 0
+4/28 11:01:22.032  	Monitor 0 "Generic PnP Monitor" Size(1920x1080) Pos(0x0)
+4/28 11:01:22.032  	Monitor 1 "Generic PnP Monitor" Size(1920x1080) Pos(1920x0)
+4/28 11:01:22.032  Nvidia driver version: r442_47
+4/28 11:01:22.032  D3d12 Device Create
+4/28 11:01:22.103  Choosing adapter 0
+4/28 11:01:22.186  Ray Tracing Support: DXR 1.0
+4/28 11:01:22.186  Variable Rate Shading Supported: true
+4/28 11:01:22.186  AFR Groups: 1/1
+4/28 11:01:22.186  Feature Level: DX=6, MTL=0
+4/28 11:01:22.519  NotifyOnDeviceCreate
+4/28 11:01:22.519  D3d12 Device Create Successful
+4/28 11:01:22.519  Nvidia driver version: r442_47 (44250)
+4/28 11:01:22.519  <IsGPUDriverOutOfDate> No
+4/28 11:01:22.535  CPU Processor Detection: 8 H/W threads
+4/28 11:01:22.535  Memory Detection: 17124909056 bytes of physical memory available
+4/28 11:01:22.535  Detected Graphics Defaults: 6 (CPU = 6, GPU = 6, MEM = 6)
+4/28 11:01:22.619  RenderSettings::NotifyChanged
+4/28 11:01:23.082  Nvidia driver version: r442_47 (44250)
+4/28 11:01:33.172  Nvidia driver version: r442_47 (44250)
+4/28 11:01:33.172  Nvidia driver version: r442_47 (44250)
+4/28 11:02:05.293  CharacterComponent Texture Level change
+4/28 11:02:05.856  Running Texture Defragmenter
+4/28 11:02:05.873  	Defragmented 97 textures.
+4/28 11:02:05.873  RenderSettings::NotifyChanged
+4/28 11:02:28.322  Nvidia driver version: r442_47 (44250)
+4/28 11:14:21.722  D3d12 Device Destroy
+4/28 11:14:21.722  NotifyOnDeviceDestroy
+4/28 11:14:21.928  GxShutdown

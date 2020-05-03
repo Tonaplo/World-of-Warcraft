@@ -297,6 +297,12 @@ L["Dungeons"] = "던전"
 L["Durability Damage"] = "내구도 손상"
 L["Durability Damage All"] = "모든 내구도 손상"
 --[[Translation missing --]]
+L["Ease In"] = "Ease In"
+--[[Translation missing --]]
+L["Ease In and Out"] = "Ease In and Out"
+--[[Translation missing --]]
+L["Ease Out"] = "Ease Out"
+--[[Translation missing --]]
 L["Ebonroc"] = "Ebonroc"
 --[[Translation missing --]]
 L["Edge"] = "Edge"
@@ -375,6 +381,8 @@ L["Font Size"] = "글꼴 크기"
 L["Foreground"] = "Foreground"
 L["Foreground Color"] = "전경 색상"
 L["Form"] = "형상"
+--[[Translation missing --]]
+L["Frame Selector"] = "Frame Selector"
 --[[Translation missing --]]
 L["Frequency"] = "Frequency"
 L["Friendly"] = "우호적"
@@ -665,6 +673,8 @@ L["Officer"] = "길드관리자"
 L["Offset Timer"] = "Offset Timer"
 L["Older set IDs can be found on websites such as wowhead.com/item-sets"] = "이전 세트 ID는 wowhead.com/item-sets 와 같은 웹 사이트에서 찾을 수 있습니다."
 L["On Cooldown"] = "재사용 대기 중일 때"
+--[[Translation missing --]]
+L["On Taxi"] = "On Taxi"
 --[[Translation missing --]]
 L["Only if BigWigs shows it on it's bar"] = "Only if BigWigs shows it on it's bar"
 --[[Translation missing --]]
@@ -1039,6 +1049,8 @@ L["Unit"] = "유닛"
 L["Unit Characteristics"] = "유닛 특징"
 L["Unit Destroyed"] = "유닛 파괴됨"
 L["Unit Died"] = "유닛 죽음"
+--[[Translation missing --]]
+L["Unit Frame"] = "Unit Frame"
 --[[Translation missing --]]
 L["Unit Frames"] = "Unit Frames"
 L["Unit is Unit"] = "유닛 유닛"

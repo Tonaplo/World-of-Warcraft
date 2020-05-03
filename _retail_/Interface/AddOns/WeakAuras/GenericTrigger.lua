@@ -2181,6 +2181,12 @@ do
       startTimeCooldown = 0;
     end
 
+    if (startTimeCooldown > GetTime() + 2^31 / 1000) then
+      -- WORKAROUND WoW wraps around negative values with 2^32/1000
+      -- So if we find a cooldown in the far future, then undo the wrapping
+      startTimeCooldown = startTimeCooldown - 2^32 / 1000
+    end
+
     -- Default to GetSpellCharges
     local unifiedCooldownBecauseRune, cooldownBecauseRune = false, false;
     if (enabled == 0) then

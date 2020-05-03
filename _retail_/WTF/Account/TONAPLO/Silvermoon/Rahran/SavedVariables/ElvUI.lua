@@ -20,336 +20,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"< ReaperCrew > 7/8 HC ; 4/9 M, is LF loyal and exceptional players for our Main Core team. We raid Tue and Thur from 7:30 to 10:30 PM, ST. We're doing daily M+ and ocasionally BG's/PvP, make sure you have a Mic, we also accept socials, for details /w me.", -- [1]
-			"Repsifu-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Repsifu-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3280, -- [11]
-			"Player-3391-09A5E557", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Repsifu|r",
-			[51] = 1565730050,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [1]
-		{
-			"who the hell is rahran", -- [1]
-			"|Kq17|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3348, -- [11]
-			false, -- [12]
-			11, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Shawkz|r",
-			[51] = 1565730427,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [2]
-		{
-			"My Rogue", -- [1]
-			"|Kq17|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3354, -- [11]
-			false, -- [12]
-			11, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Shawkz|r",
-			[51] = 1565730427,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [3]
-		{
-			"Weapon Emissary", -- [1]
-			"|Kq17|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3364, -- [11]
-			false, -- [12]
-			11, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Shawkz|r",
-			[51] = 1565730473,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [4]
-		{
-			"might as well take advantage", -- [1]
-			"|Kq17|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3365, -- [11]
-			false, -- [12]
-			11, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Shawkz|r",
-			[51] = 1565730478,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [5]
-		{
-			"wut", -- [1]
-			"|Kq17|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3366, -- [11]
-			false, -- [12]
-			11, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Shawkz|r",
-			[51] = 1565730479,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [6]
-		{
-			"415?", -- [1]
-			"|Kq17|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3367, -- [11]
-			false, -- [12]
-			11, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Shawkz|r",
-			[51] = 1565730484,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [7]
-		{
-			"already wasted like 2 hours trying to kill !@#$ing Heroic Shivarra", -- [1]
-			"|Kq17|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3368, -- [11]
-			false, -- [12]
-			11, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Shawkz|r",
-			[51] = 1565730495,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [8]
-		{
-			"wat", -- [1]
-			"|Kq17|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3369, -- [11]
-			false, -- [12]
-			11, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Shawkz|r",
-			[51] = 1565730502,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [9]
-		{
-			"thought you killed it?", -- [1]
-			"|Kq17|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3370, -- [11]
-			false, -- [12]
-			11, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Shawkz|r",
-			[51] = 1565730506,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [10]
-		{
-			"Nope", -- [1]
-			"|Kq17|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3371, -- [11]
-			false, -- [12]
-			11, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Shawkz|r",
-			[51] = 1565730509,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [11]
-		{
-			"priest tho right?>", -- [1]
-			"|Kq17|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3372, -- [11]
-			false, -- [12]
-			11, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Shawkz|r",
-			[51] = 1565730510,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [12]
-		{
-			"not a single kill", -- [1]
-			"|Kq17|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3373, -- [11]
-			false, -- [12]
-			11, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Shawkz|r",
-			[51] = 1565730511,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [13]
-		{
-			"ye", -- [1]
-			"|Kq17|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3374, -- [11]
-			false, -- [12]
-			11, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Shawkz|r",
-			[51] = 1565730514,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [14]
-		{
-			"cleared on that?", -- [1]
-			"|Kq17|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3375, -- [11]
-			false, -- [12]
-			11, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Shawkz|r",
-			[51] = 1565730519,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [15]
-		{
 			"Tried a kill for like 2 hours", -- [1]
 			"|Kq17|k", -- [2]
 			"", -- [3]
@@ -370,7 +40,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730519,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [16]
+		}, -- [1]
 		{
 			"how many on priest", -- [1]
 			"|Kq17|k", -- [2]
@@ -392,7 +62,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730529,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [17]
+		}, -- [2]
 		{
 			"I cleared normal ye", -- [1]
 			"|Kq17|k", -- [2]
@@ -414,7 +84,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730532,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [18]
+		}, -- [3]
 		{
 			"wowoow", -- [1]
 			"|Kq17|k", -- [2]
@@ -436,7 +106,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730535,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [19]
+		}, -- [4]
 		{
 			"thought it was hc haha", -- [1]
 			"|Kq17|k", -- [2]
@@ -458,7 +128,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730539,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [20]
+		}, -- [5]
 		{
 			"Well", -- [1]
 			"|Kq17|k", -- [2]
@@ -480,7 +150,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730545,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [21]
+		}, -- [6]
 		{
 			"anyway", -- [1]
 			"|Kq17|k", -- [2]
@@ -502,7 +172,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730547,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [22]
+		}, -- [7]
 		{
 			"I did clear Normal this week", -- [1]
 			"|Kq17|k", -- [2]
@@ -524,7 +194,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730550,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [23]
+		}, -- [8]
 		{
 			"at all", -- [1]
 			"|Kq17|k", -- [2]
@@ -546,7 +216,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730552,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [24]
+		}, -- [9]
 		{
 			"didnt", -- [1]
 			"|Kq17|k", -- [2]
@@ -568,7 +238,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730554,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [25]
+		}, -- [10]
 		{
 			"it's low loot tho", -- [1]
 			"|Kq17|k", -- [2]
@@ -590,7 +260,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730558,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [26]
+		}, -- [11]
 		{
 			"ye", -- [1]
 			"|Kq17|k", -- [2]
@@ -612,7 +282,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730561,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [27]
+		}, -- [12]
 		{
 			"and the prof stuff is also pointless", -- [1]
 			"|Kq17|k", -- [2]
@@ -634,7 +304,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730567,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [28]
+		}, -- [13]
 		{
 			"And i've only killed up to Ashvane on Heroic", -- [1]
 			"|Kq17|k", -- [2]
@@ -656,7 +326,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730571,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [29]
+		}, -- [14]
 		{
 			"ah", -- [1]
 			"|Kq17|k", -- [2]
@@ -678,7 +348,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730579,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [30]
+		}, -- [15]
 		{
 			"i can probs get you in our guild hc runs next reset", -- [1]
 			"|Kq17|k", -- [2]
@@ -700,7 +370,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730599,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [31]
+		}, -- [16]
 		{
 			"kill 7 bosses then go mythic normally", -- [1]
 			"|Kq17|k", -- [2]
@@ -722,7 +392,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730613,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [32]
+		}, -- [17]
 		{
 			"7?", -- [1]
 			"|Kq17|k", -- [2]
@@ -744,7 +414,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730651,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [33]
+		}, -- [18]
 		{
 			"ya", -- [1]
 			"|Kq17|k", -- [2]
@@ -766,7 +436,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730663,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [34]
+		}, -- [19]
 		{
 			"Not killing Aszhara?", -- [1]
 			"|Kq17|k", -- [2]
@@ -788,7 +458,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730665,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [35]
+		}, -- [20]
 		{
 			"not on wed", -- [1]
 			"|Kq17|k", -- [2]
@@ -810,7 +480,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730671,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [36]
+		}, -- [21]
 		{
 			"just a fast clear to get people stuff and then mythic after", -- [1]
 			"|Kq17|k", -- [2]
@@ -832,7 +502,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730694,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [37]
+		}, -- [22]
 		{
 			"maybe just into mythic this week since we did 3 last time", -- [1]
 			"|Kq17|k", -- [2]
@@ -854,7 +524,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shawkz|r",
 			[51] = 1565730714,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [38]
+		}, -- [23]
 		{
 			"|cffff8000|Hitem:19019:3225:::::::120:251::11::::|h[Thunderfury, Blessed Blade of the Windseeker]|h|r transmog tomorrow boys", -- [1]
 			"Mipsen-Silvermoon", -- [2]
@@ -876,7 +546,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Mipsen|r",
 			[51] = 1579040063,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [24]
 		{
 			"[WTS] Mythic+ runs, +10/+15/+20 key CARRY. You will get ilvl 430-455+ Gear, Titan Residuum, RIO score, Essences & tons of Azerite. Start right now! We have over 8169 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
 			"Igehotino-Silvermoon", -- [2]
@@ -898,7 +568,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIgehotino|r",
 			[51] = 1579040065,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [25]
 		{
 			"<Oblivion Boost Community> is opening Prebookings for the Ny'alotha HEROIC raid on personal loot. Get your curve first week! Interested? /w me for more information or prices!", -- [1]
 			"Ghankdmog-Silvermoon", -- [2]
@@ -920,7 +590,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGhankdmog|r",
 			[51] = 1579040080,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [26]
 		{
 			"stop it guys it's too much for Elénoob", -- [1]
 			"Roard-Silvermoon", -- [2]
@@ -942,7 +612,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRoard|r",
 			[51] = 1579040088,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [27]
 		{
 			"Wts Mythic Keystone (10-21) Gurantee in Time+|cff66bbff|Hjournal:0:1178:23|h[Operation: Mechagon]|h|r Normal Mode+Hardmode=>|cffa335ee|Hitem:168830::::::::120:105::23::::|h[Aerial Unit R-21/X]|h|rGet Ur Weekly Chest.Items+440-455 Wis me for more info..", -- [1]
 			"Imtis-Silvermoon", -- [2]
@@ -964,7 +634,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Imtis|r",
 			[51] = 1579040089,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [28]
 		{
 			"not christian enough", -- [1]
 			"Roard-Silvermoon", -- [2]
@@ -986,7 +656,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRoard|r",
 			[51] = 1579040099,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [29]
 		{
 			"Oi, ill tell when its enuf homie", -- [1]
 			"Elénoob-Silvermoon", -- [2]
@@ -1008,7 +678,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Elénoob|r",
 			[51] = 1579040101,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [30]
 		{
 			"is fire garbage at low gear (365) or i'm doing it wrong, doing more dps as arcane", -- [1]
 			"Turbowizard-Silvermoon", -- [2]
@@ -1030,7 +700,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Turbowizard|r",
 			[51] = 1579040102,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [31]
 		{
 			"guys I know the tactic of doing the tactic, pm me for the tactic its a great tactic", -- [1]
 			"Pegadin-Silvermoon", -- [2]
@@ -1052,7 +722,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pegadin|r",
 			[51] = 1579040103,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [32]
 		{
 			"||NBC|| Selling M+10 90k ONLY! & +15 200k.also +16-20 ( IN TIME ).! Buy at least 2x M+10 180k + Armor Stack Free.!take advantage of the offer.! Mechagon HM&NM+MOUNT.!The Eternal Palace Mythic & HC 8/8 / Jaina Mount.For Gold Only.! /w For Info!", -- [1]
 			"Killêr-Silvermoon", -- [2]
@@ -1074,7 +744,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Killêr|r",
 			[51] = 1579040110,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [33]
 		{
 			"ur playing it wrong", -- [1]
 			"Littlepeep-Silvermoon", -- [2]
@@ -1096,7 +766,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Littlepeep|r",
 			[51] = 1579040113,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [34]
 		{
 			"<Darkside Of Elune> We are looking for DPS to bolster our raid team. Our raid days are Wed/Sun 20:15-23:00. Feel free to whisper for any more information.", -- [1]
 			"Káguyah-Silvermoon", -- [2]
@@ -1118,7 +788,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Káguyah|r",
 			[51] = 1579040117,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [35]
 		{
 			"[WTS] Fast lvling to 120 in 4 hours, Pathfinder, Essences, Allied races, Glories, Mounts, Reputations, World Quests, Expeditions & other BOOSTS! We have over 8169 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
 			"Igehotino-Silvermoon", -- [2]
@@ -1140,7 +810,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIgehotino|r",
 			[51] = 1579040126,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [36]
 		{
 			"littlepeep, more like littlesleep PepeLaugh", -- [1]
 			"Elénoob-Silvermoon", -- [2]
@@ -1162,7 +832,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Elénoob|r",
 			[51] = 1579040129,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [37]
 		{
 			"Selling Mythic +10 only 95k! Armor Stack only 10k or buy 2 +10s and get it for FREE! +15 only 200k! Also selling Mechagon Normal mode and Hardmode! Heroic and Mythic Eternal Palace! MYTHIC JAINA MOUNT! Freehold levelling and more! Gold only /w me", -- [1]
 			"Nadren-Silvermoon", -- [2]
@@ -1184,7 +854,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Nadren|r",
 			[51] = 1579040132,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [38]
 		{
 			"Wow, that was the funniest joke ever", -- [1]
 			"Littlepeep-Silvermoon", -- [2]
@@ -1206,7 +876,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Littlepeep|r",
 			[51] = 1579040152,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [39]
 		{
 			"Do you get it ", -- [1]
 			"Elénoob-Silvermoon", -- [2]
@@ -1228,7 +898,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Elénoob|r",
 			[51] = 1579040159,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [40]
 		{
 			"10/10 joke", -- [1]
 			"Tamrie-Silvermoon", -- [2]
@@ -1250,7 +920,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTamrie|r",
 			[51] = 1579040160,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [41]
 		{
 			"more like littletryindeep", -- [1]
 			"Roard-Silvermoon", -- [2]
@@ -1272,7 +942,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRoard|r",
 			[51] = 1579040162,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [42]
 		{
 			"Cus the %^&* is dead", -- [1]
 			"Elénoob-Silvermoon", -- [2]
@@ -1294,7 +964,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Elénoob|r",
 			[51] = 1579040164,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [43]
 		{
 			"its not so funny after you explain the joke", -- [1]
 			"Jaxolton-Silvermoon", -- [2]
@@ -1316,7 +986,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cJaxolton|r",
 			[51] = 1579040179,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [44]
 		{
 			"orly", -- [1]
 			"Littlepeep-Silvermoon", -- [2]
@@ -1338,7 +1008,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Littlepeep|r",
 			[51] = 1579040180,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [45]
 		{
 			"rip mate", -- [1]
 			"Jaxolton-Silvermoon", -- [2]
@@ -1360,7 +1030,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cJaxolton|r",
 			[51] = 1579040180,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [46]
 		{
 			"Selling Mythic BoD transmog runs. Jaina mount + Also selling TLPD, Void Talon, Aoenaxx, Grey Riding Camel, Frightened Kodo and the Long forgotten Hippogryph. Spirit beasts also available. /w for more info on our M+ and Mechagon runs too!we", -- [1]
 			"Ghankdmog-Silvermoon", -- [2]
@@ -1382,7 +1052,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGhankdmog|r",
 			[51] = 1579040182,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [47]
 		{
 			"hahahaha", -- [1]
 			"Littlepeep-Silvermoon", -- [2]
@@ -1404,7 +1074,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Littlepeep|r",
 			[51] = 1579040183,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [48]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-56-3391-45738460|h[Guild: Hawaiien Punch]|h|r Is looking for DPS and Healer for our main team(8/8HC), as well for Ny'alotha !! Our schedule is Wednesday, Sunday, Monday 20:15 -23:00, Socials welcome!", -- [1]
 			"Tezcacoatl-Silvermoon", -- [2]
@@ -1426,7 +1096,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTezcacoatl|r",
 			[51] = 1579040185,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [49]
 		{
 			"[WTS] Eternal Palace Heroic BOOST Tonight. Get NEW ilvl 430+ gear, Curve Achieve & Essences. Choose from up to 10 Guild runs every day. We have over 8169 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
 			"Igehotino-Silvermoon", -- [2]
@@ -1448,7 +1118,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIgehotino|r",
 			[51] = 1579040187,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [50]
 		{
 			"WTB 2|cffa335ee|Hitem:36922::::::::120:253::::::|h[King's Amber]|h|r for 5k", -- [1]
 			"Huntrez-Silvermoon", -- [2]
@@ -1470,7 +1140,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Huntrez|r",
 			[51] = 1579040188,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [51]
 		{
 			"You just dont understand it ", -- [1]
 			"Elénoob-Silvermoon", -- [2]
@@ -1492,7 +1162,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Elénoob|r",
 			[51] = 1579040195,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [52]
 		{
 			"Ok why the !@#$ are there only |cff1eff00|Hitem:154167::::::::120:262::::::|h[Drums of the Maelstrom]|h|r x8 on the AH and they cost 209K each", -- [1]
 			"Khrovar-Silvermoon", -- [2]
@@ -1514,7 +1184,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcKhrovar|r",
 			[51] = 1579040205,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [53]
 		{
 			"Which one of you did it", -- [1]
 			"Khrovar-Silvermoon", -- [2]
@@ -1536,7 +1206,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcKhrovar|r",
 			[51] = 1579040210,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [54]
 		{
 			"Not sure tho if you do", -- [1]
 			"Littlepeep-Silvermoon", -- [2]
@@ -1558,7 +1228,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Littlepeep|r",
 			[51] = 1579040213,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [55]
 		{
 			"it was the dead one ", -- [1]
 			"Elénoob-Silvermoon", -- [2]
@@ -1580,7 +1250,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Elénoob|r",
 			[51] = 1579040217,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [56]
 		{
 			"it was Joe", -- [1]
 			"Zaltara-Silvermoon", -- [2]
@@ -1602,7 +1272,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Zaltara|r",
 			[51] = 1579040217,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [57]
 		{
 			"*badum tss*", -- [1]
 			"Jaxolton-Silvermoon", -- [2]
@@ -1624,7 +1294,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cJaxolton|r",
 			[51] = 1579040226,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [58]
 		{
 			"maybe buy |cff1eff00|Hitem:120257::::::::120:66::::::|h[Drums of Fury]|h|r instead then", -- [1]
 			"Abradin-Silvermoon", -- [2]
@@ -1646,7 +1316,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Abradin|r",
 			[51] = 1579040229,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [59]
 		{
 			"<Grind> 8/8 HC is a newly formed casual guild looking to recruit players for 8.3 and beyond! We are currently most in need of Ranged DPS and Healers, but are interested in any exceptional applicants.", -- [1]
 			"Dominô-Silvermoon", -- [2]
@@ -1668,7 +1338,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dominô|r",
 			[51] = 1579040231,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [60]
 		{
 			"||NBC|| Selling M+10 90k ONLY! & +15 200k.also +16-20 ( IN TIME ).! Buy at least 2x M+10 180k + Armor Stack Free.!take advantage of the offer.! Mechagon HM&NM+MOUNT.!The Eternal Palace Mythic & HC 8/8 / Jaina Mount.For Gold Only.! /w For Info!", -- [1]
 			"Killêr-Silvermoon", -- [2]
@@ -1690,7 +1360,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Killêr|r",
 			[51] = 1579040238,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [61]
 		{
 			"<Darkside Of Elune> We are looking for DPS to bolster our raid team. Our raid days are Wed/Sun 20:15-23:00. Feel free to whisper for any more information.", -- [1]
 			"Káguyah-Silvermoon", -- [2]
@@ -1712,7 +1382,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Káguyah|r",
 			[51] = 1579040241,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [62]
 		{
 			"WTB 2|cffa335ee|Hitem:36922::::::::120:253::::::|h[King's Amber]|h|r for 5k", -- [1]
 			"Huntrez-Silvermoon", -- [2]
@@ -1734,7 +1404,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Huntrez|r",
 			[51] = 1579040242,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [63]
 		{
 			"WTB new jokes for Elenoob, paying 10k gold", -- [1]
 			"Littlepeep-Silvermoon", -- [2]
@@ -1756,7 +1426,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Littlepeep|r",
 			[51] = 1579040243,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [64]
 		{
 			"[WTS] Mythic+ runs, +10/+15/+20 key CARRY. You will get ilvl 430-455+ Gear, Titan Residuum, RIO score, Essences & tons of Azerite. Start right now! We have over 8169 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
 			"Igehotino-Silvermoon", -- [2]
@@ -1778,7 +1448,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIgehotino|r",
 			[51] = 1579040247,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [65]
 		{
 			"<Judge> 6/8M, selling first 4 bosses on mythic! Tomorrow at 20:00 server time! 1 available spot! /w for more info :)", -- [1]
 			"Cyuz-Silvermoon", -- [2]
@@ -1800,7 +1470,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Cyuz|r",
 			[51] = 1579040250,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [66]
 		{
 			"|cff1eff00|Hitem:154167::::::::120:262::::::|h[Drums of the Maelstrom]|h|r Is the turn in on the docks", -- [1]
 			"Khrovar-Silvermoon", -- [2]
@@ -1822,7 +1492,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcKhrovar|r",
 			[51] = 1579040250,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [67]
 		{
 			"now thats a good joke", -- [1]
 			"Jaxolton-Silvermoon", -- [2]
@@ -1844,7 +1514,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cJaxolton|r",
 			[51] = 1579040258,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [68]
 		{
 			"<NBC> Selling M+10 for 90k / 2 Run +10 =180k with stack armor free +15 for 200k, also +16/17(IN TIME)! Raid EP hc Personal loot 150k , take advantage of the offer! Mechagon NM/HM+Mount 100%! 110-120 Boost! Jaina Mount! Gold Only. /w for info", -- [1]
 			"Novaboosters-Silvermoon", -- [2]
@@ -1866,7 +1536,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Novaboosters|r",
 			[51] = 1579040262,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [69]
 		{
 			":D", -- [1]
 			"Roard-Silvermoon", -- [2]
@@ -1888,7 +1558,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRoard|r",
 			[51] = 1579040264,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [70]
 		{
 			"Yo ill tell you a joke for 10k mate", -- [1]
 			"Elénoob-Silvermoon", -- [2]
@@ -1910,7 +1580,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Elénoob|r",
 			[51] = 1579040265,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [71]
 		{
 			"xD", -- [1]
 			"Jaxolton-Silvermoon", -- [2]
@@ -1932,7 +1602,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cJaxolton|r",
 			[51] = 1579040271,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [72]
 		{
 			"got some good ones", -- [1]
 			"Elénoob-Silvermoon", -- [2]
@@ -1954,7 +1624,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Elénoob|r",
 			[51] = 1579040271,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [73]
 		{
 			"Wont buy them, sorry", -- [1]
 			"Littlepeep-Silvermoon", -- [2]
@@ -1976,7 +1646,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Littlepeep|r",
 			[51] = 1579040277,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [74]
 		{
 			"move on", -- [1]
 			"Littlepeep-Silvermoon", -- [2]
@@ -1998,7 +1668,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Littlepeep|r",
 			[51] = 1579040279,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [75]
 		{
 			"<The Final Verdict> (EP 8/8HC, 4/8 M) is opzoek naar skilled casual raiders voor mythic progression. Raiddagen: Woensdag en Zondag (19:45-23:00). Geinteresseerd in raiden met een hechte groep die ontstaan is in TBC? Add TFVrecruit#2970 voor meer info", -- [1]
 			"Troelatje-Silvermoon", -- [2]
@@ -2020,7 +1690,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Troelatje|r",
 			[51] = 1579040290,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [76]
 		{
 			"wts jokes 9k", -- [1]
 			"Blåne-Silvermoon", -- [2]
@@ -2042,7 +1712,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Blåne|r",
 			[51] = 1579040295,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [77]
 		{
 			"move on, be strong", -- [1]
 			"Arkanthios-Silvermoon", -- [2]
@@ -2064,7 +1734,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Arkanthios|r",
 			[51] = 1579040297,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [78]
 		{
 			"You said WTB, are you lying in tradechat", -- [1]
 			"Elénoob-Silvermoon", -- [2]
@@ -2086,7 +1756,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Elénoob|r",
 			[51] = 1579040298,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [79]
 		{
 			"<Retro> (8/8M) is looking for exceptional raiders (Ele. Shaman / Balance Druid / Shadow Priest) for Cutting Edge raiding. Other applicants are considered. We raid Wed-Thur 22:00-01:00 Server Time. Whisper me for more information!", -- [1]
 			"Zaltara-Silvermoon", -- [2]
@@ -2108,7 +1778,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Zaltara|r",
 			[51] = 1579040303,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [80]
 		{
 			"wts jokes 8.5k", -- [1]
 			"Roard-Silvermoon", -- [2]
@@ -2130,7 +1800,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRoard|r",
 			[51] = 1579040304,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [81]
 		{
 			"[WTS] Fast lvling to 120 in 4 hours, Pathfinder, Essences, Allied races, Glories, Mounts, Reputations, World Quests, Expeditions & other BOOSTS! We have over 8169 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
 			"Igehotino-Silvermoon", -- [2]
@@ -2152,7 +1822,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIgehotino|r",
 			[51] = 1579040307,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [82]
 		{
 			"<Grind> 8/8 HC is a newly formed casual guild looking to recruit players for 8.3 and beyond! We are currently most in need of Ranged DPS and Healers, but are interested in any exceptional applicants.", -- [1]
 			"Dominô-Silvermoon", -- [2]
@@ -2174,7 +1844,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dominô|r",
 			[51] = 1579041234,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [83]
 		{
 			"< Night Vision >LATE NIGHT RECRUITING  few more DPS for our roster. Palace 8/8HC, 6/8M  Chilled atmosphere, no drama. Raiding Wed-Thur-Sun 23:30-02:00.  Ranged dps highly in need.  Contact me for more info", -- [1]
 			"Bruhor-Silvermoon", -- [2]
@@ -2196,7 +1866,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bruhor|r",
 			[51] = 1579041249,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [99]
+		}, -- [84]
 		{
 			" |cffffd100|HclubFinder:ClubFinder-1-7260-3391-46381465|h[Guild: Knights Legion]|h|r Recruiting for 8.3 heroic raiding! LFM DPS to expand our current team! Socials and mythic+ runners also welcome! Check the link or pm for more info! Bring ur own cookies", -- [1]
 			"Razorstorm-Silvermoon", -- [2]
@@ -2218,7 +1888,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Razorstorm|r",
 			[51] = 1579041253,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [100]
+		}, -- [85]
 		{
 			"||NBC||  Selling M+10 90k ONLY! & +15 220k.also +16-20 ( IN TIME ).! Buy at least 2x M+10 190k + Armor Stack Free.!take advantageoftheoffer.!MechagonNm&Hm+MOUNT.!The Eternal Palace HC &MYTHIC 8/8 /w For Info!", -- [1]
 			"Unmercyy-Silvermoon", -- [2]
@@ -2240,7 +1910,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Unmercyy|r",
 			[51] = 1579041255,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [101]
+		}, -- [86]
 		{
 			"(Nova Community)Selling +10=90k/+15=200k, armor stack,specific key (FREE armor stack if you buy 2 runs) || Mechagon NM/HM + MOUNT {prices reduced} || EP HC || Jaina MOUNT 100%|| 110-120 boost || Island cap ||GOLD ONLY!", -- [1]
 			"Nightros-Silvermoon", -- [2]
@@ -2262,7 +1932,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Nightros|r",
 			[51] = 1579041260,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [87]
 		{
 			"Selling Mythic BoD transmog runs. Jaina mount + Also selling TLPD, Void Talon, Aoenaxx, Grey Riding Camel, Frightened Kodo and the Long forgotten Hippogryph. Spirit beasts also available. /w for more info on our M+ and Mechagon runs too!we", -- [1]
 			"Ghankdmog-Silvermoon", -- [2]
@@ -2284,7 +1954,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGhankdmog|r",
 			[51] = 1579041264,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [103]
+		}, -- [88]
 		{
 			"[WTS] Eternal Palace Heroic BOOST Tonight. Get NEW ilvl 430+ gear, Curve Achieve & Essences. Choose from up to 10 Guild runs every day. We have over 8169 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
 			"Igehotino-Silvermoon", -- [2]
@@ -2306,7 +1976,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIgehotino|r",
 			[51] = 1579041277,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [104]
+		}, -- [89]
 		{
 			" Wts |cff66bbff|Hjournal:0:1001:23|h[Freehold]|h|r boosting 110to120/ accept all gold on all realm/each run take 5mins/if u have heirlooms itm it take under 2hour /cheap price", -- [1]
 			"Maxigodx-Silvermoon", -- [2]
@@ -2328,7 +1998,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Maxigodx|r",
 			[51] = 1579041299,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [90]
 		{
 			"WTS Any Type Of Boost ( Keystone / Raid / Lvlup / Island / pvp and ... ) You Can Also Pay Any Realm You Want  With Best Price And Best Teams . We Gurantee all Keystone 10-21 For Time + Loot With Best Score Players /w me For More Info", -- [1]
 			"Amirvirus-Silvermoon", -- [2]
@@ -2350,7 +2020,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Amirvirus|r",
 			[51] = 1579041309,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [91]
 		{
 			"<AoA> Angles of Absolution is looking for more motivated raiders to bolster our roster! We are currently 8/12HC, and have the intention of going mythic asap. Currently looking for 1-2 healers. We raid Tuesdays and Thursdays from 20:00-22:30. /w for inf", -- [1]
 			"Wsic-Silvermoon", -- [2]
@@ -2372,7 +2042,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Wsic|r",
 			[51] = 1581344797,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [92]
 		{
 			"<Under The Thumb> recruiting for 450+ dps/heals to join our hc/mythic raid team! We are 5/12hc currently raiding on wed/sun 20:30-23:00st! High attendance is a must as we are pushing for mythic! We run keys also!", -- [1]
 			"Flyzapper-Silvermoon", -- [2]
@@ -2394,7 +2064,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcFlyzapper|r",
 			[51] = 1581344798,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [93]
 		{
 			"{selling} mythic key offer and cheap +6/+10 get your(titan ressidum+share loot+weekly chest+armor stack)& (mechagon harde mode + normal mode)wis for more info!!!", -- [1]
 			"Winterghost-Silvermoon", -- [2]
@@ -2416,7 +2086,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Winterghost|r",
 			[51] = 1581344800,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [109]
+		}, -- [94]
 		{
 			"The Gallywix Community || Selling Full Clear 12/12 HC [Ny'alotha the Wakening City] - Get yourself Ahead of the Curve & the Uncorrupted Wing Mount! M+10-15 - Armor Stack & Specific keys! /w me! GOLD ONLY", -- [1]
 			"Furiouspeter-Silvermoon", -- [2]
@@ -2438,7 +2108,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeFuriouspeter|r",
 			[51] = 1581344804,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [110]
+		}, -- [95]
 		{
 			"LF a healer for |cffa335ee|Hkeystone:158923:244:2:10:0:0:0|h[Keystone: Atal'Dazar (2)]|h|r", -- [1]
 			"Dedutchman-Silvermoon", -- [2]
@@ -2460,7 +2130,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDedutchman|r",
 			[51] = 1581344818,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [96]
 		{
 			"WTB ALL ZIN 16G EACH PM ME  / FELWORT 160G EACH C.O.D me any amount!", -- [1]
 			"Natraeth-Silvermoon", -- [2]
@@ -2482,7 +2152,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Natraeth|r",
 			[51] = 1581344825,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [97]
 		{
 			"WTS BOOST KEY +M +[6-15] &  LVL UP  BOOST 110-120  Per lvl 10Min   Good Offer & Mechagon HM Mount run & Share LOOT & You Can AFk in Dungeon +M &Armor Stack  * /w me For more Info ", -- [1]
 			"Païnful-Silvermoon", -- [2]
@@ -2504,7 +2174,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Païnful|r",
 			[51] = 1581344828,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [113]
+		}, -- [98]
 		{
 			"WTS |cffa335ee|Hitem:90655::::::::120:72::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r", -- [1]
 			"Biloba-Silvermoon", -- [2]
@@ -2526,7 +2196,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBiloba|r",
 			[51] = 1581344830,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [99]
 		{
 			"<Just Some Muppets> is a fairly new guild formed from experienced and long term friends, 7/12 HC. Currently considering well performing Havoc DH and Ranged DPS to push further in to Ny'alotha. Raid days; Sun + Mon 20:30-23:00 ST.", -- [1]
 			"Sevgrim-Silvermoon", -- [2]
@@ -2548,7 +2218,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSevgrim|r",
 			[51] = 1581344831,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [100]
 		{
 			"Selling N'Zoth Heroic Now! Get your|cffffff00|Hachievement:14068:Player-3391-0AE07295:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r + Uncorrupted Voidwing mount for 500k and 470+ items, we have run every 30 mins. /w for more info!", -- [1]
 			"Annè-Silvermoon", -- [2]
@@ -2570,7 +2240,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Annè|r",
 			[51] = 1581344831,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [101]
 		{
 			"Selling Cheap (6.15) Gurantee un Time + |cff66bbff|Hjournal:0:1178:23|h[Operation: Mechagon]|h|r Hardmode + Normalmode >|cffa335ee|Hitem:168830::::::::120:105::23::::|h[Aerial Unit R-21/X]|h|rGet Ur Weekly Chest . items + 465-475 Wis me For more info ..", -- [1]
 			"Amåzing-Silvermoon", -- [2]
@@ -2592,7 +2262,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Amåzing|r",
 			[51] = 1581344833,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [102]
 		{
 			"<Outbreakers - 100% Dansk > Står og mangler 1x Tank - 2x Ranged DPS - 1x Healer til at forme vores Raid Team. Forventning: 8/12M.  Dog kan andre classes også have interesse. Raiddage: Torsdag og mandag 20:00-22:30. /w mig for en snak :-).", -- [1]
 			"Nariith-Silvermoon", -- [2]
@@ -2614,7 +2284,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Nariith|r",
 			[51] = 1581344836,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [103]
 		{
 			"WTS mythic 6 -15+ keys with 465+ guild group, u Can have all tradeable loots with 455-470 + on weeklychest /w me for info", -- [1]
 			"Sheldone-Silvermoon", -- [2]
@@ -2636,7 +2306,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Sheldone|r",
 			[51] = 1581344840,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [104]
 		{
 			"<<  NOVA  BOOSTING  COMMUNITY >> SELLING M+ WITH FREE SHARE LOOT M+6 =140K . M+15 = 600K , M+7 , M+8 , ... , 16  RAID Ny'alotha 12/12 =  1.7M . N'ZOTH ONLY = 500K . GOLD ONLY. WE ACCEPT GOLD IN ALL REALME  /W FOR INFO", -- [1]
 			"Miladtaker-Silvermoon", -- [2]
@@ -2658,7 +2328,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Miladtaker|r",
 			[51] = 1581344841,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [105]
 		{
 			"Black Flag Team Started Boosting  Mythic Keystones 10-15 so cheap + |cff66bbff|Hjournal:0:1178:23|h[Operation: Mechagon]|h|r gives all the loot and bring same class for client to get all of the items + 475 Weekly Whisper for more info ", -- [1]
 			"Twinkyjaus-Silvermoon", -- [2]
@@ -2680,7 +2350,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Twinkyjaus|r",
 			[51] = 1581344842,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [106]
 		{
 			"WTS Island Boost Leveling boost (dh Maximum ilvl 472.5)  110-120 whisper for more info + Freehold ", -- [1]
 			"Twinkyjaus-Silvermoon", -- [2]
@@ -2702,7 +2372,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Twinkyjaus|r",
 			[51] = 1581344842,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [107]
 		{
 			"<NBC> SEASON 4 Selling NEW RAID Ny'alotha the waking! M+6 for 140k share loot (20k with full armor)  also +10 280k SHare loot (100% In Time)! and +15 for 890k time (600k out of time... SHare loot)  Mechagon NM/HM+Mount 100%!! /w me", -- [1]
 			"Amatratsu-Silvermoon", -- [2]
@@ -2724,7 +2394,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Amatratsu|r",
 			[51] = 1581344852,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [108]
 		{
 			"{selling} mythic key offer and cheap +6/+10 get your(titan ressidum+share loot+weekly chest+armor stack)& (mechagon harde mode + normal mode)wis for more info!!!", -- [1]
 			"Winterghost-Silvermoon", -- [2]
@@ -2746,7 +2416,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Winterghost|r",
 			[51] = 1581344852,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [109]
 		{
 			"<Oblivion Boosting Community> Selling M+10 up to M+15 in time, specific keys possible! -- PvP up to 2.1k -- N'zoth HC for curve, runs every 15 minutes for 500k! ", -- [1]
 			"Choclatekoek-Silvermoon", -- [2]
@@ -2768,7 +2438,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Choclatekoek|r",
 			[51] = 1581344853,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [110]
 		{
 			"<AoA> Angles of Absolution is looking for more motivated raiders to bolster our roster! We are currently 8/12HC, and have the intention of going mythic asap. Currently looking for 1-2 healers. We raid Tuesdays and Thursdays from 20:00-22:30. /w for inf", -- [1]
 			"Wsic-Silvermoon", -- [2]
@@ -2790,7 +2460,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Wsic|r",
 			[51] = 1581344855,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [111]
 		{
 			"WTS |cffa335ee|Hitem:175007::::::::120:102::6:8:4824:6578:6579:6437:6455:6513:1517:4786:::|h[Footpads of Terrible Delusions]|h|r and |cffa335ee|Hitem:175007::::::::120:102::6:7:4824:6578:6579:6550:6515:1517:4786:::|h[Footpads of Terrible Delusions]|h|r", -- [1]
 			"Legosii-Silvermoon", -- [2]
@@ -2811,6 +2481,336 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cfffe7b09Legosii|r",
 			[51] = 1581344858,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			"Selling M+ boosts, with perfect group and perfect prices (we'll get along with price) whisper for more information.", -- [1]
+			"Tíntin-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tíntin-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			78, -- [11]
+			"Player-3391-0A416112", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcTíntin|r",
+			[51] = 1586759725,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"[WТS] WTS Mythic+ runs Tonight! +10/+11/+12/+13/+14/+15 key CARRY. You will get ilvl 430-475+ Gear, RIO score & Essences. Fast Mechagon Mount runs. We have over 8349 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
+			"Emaquwozi-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Emaquwozi-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			79, -- [11]
+			"Player-3391-0B03CD83", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cEmaquwozi|r",
+			[51] = 1586759728,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"Gallywix Community WTS |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r 12/12 HC Full Run Loot Shared!       ||M+ Key 10-21 In Time, Free Armor Stack||      PVP Arenas,    Visions,     Jaina Mount. ", -- [1]
+			"Nteriua-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nteriua-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			81, -- [11]
+			"Player-3391-0B05794D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cNteriua|r",
+			[51] = 1586759747,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"LFM 1 TANK 1 HEAL FOR SOS +13", -- [1]
+			"Schorthus-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Schorthus-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			810, -- [11]
+			"Player-3391-0AFB39B3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Schorthus|r",
+			[51] = 1588019272,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"WTS Dungeon Mythic 14+ My key for weekly chest, really cheep, . Take your 465 item lvl", -- [1]
+			"Swetnes-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Swetnes-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			811, -- [11]
+			"Player-3391-0AE9AE2B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Swetnes|r",
+			[51] = 1588019272,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"WTS boost leveling 110-120 |cff66bbff|Hjournal:0:1001:23|h[Freehold]|h|r", -- [1]
+			"Crkosh-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Crkosh-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			815, -- [11]
+			"Player-3391-0AF4F44F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Crkosh|r",
+			[51] = 1588019285,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"WTS |cffffffff|Hitem:152497::::::::120:250::::::|h[Lightfoot Potion]|h|r only 30 gold each! /w me.", -- [1]
+			"Solareclipse-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Solareclipse-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			816, -- [11]
+			"Player-3391-0A11248D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Solareclipse|r",
+			[51] = 1588019286,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"The Gallywix Community WTS Tuesday Deal in Gallywix Key +15(275k Weekly)|cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|rHeroic Every Day Specific Bosses Avaliable (Carapace + N'Zoth 250k) Key (10-21)  (Vision WITH 5 mask)", -- [1]
+			"Feryymate-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Feryymate-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			817, -- [11]
+			"Player-3391-0B13B750", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Feryymate|r",
+			[51] = 1588019287,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"LF an active guild for m+ and raiding!", -- [1]
+			"Ángélinaholy-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ángélinaholy-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			818, -- [11]
+			"Player-3391-0A9021CC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeÁngélinaholy|r",
+			[51] = 1588019291,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"WTS|cffa335ee|Hitem:175007::::::::120:577::5:8:4823:41:6578:6579:6559:6513:1502:4786:::|h[Footpads of Terrible Delusions]|h|r/w me", -- [1]
+			"Kràken-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kràken-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			819, -- [11]
+			"Player-3391-0AA38974", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Kràken|r",
+			[51] = 1588019292,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"<NBC> Full Nyalotha  HC Clear PL-VIP SPOTS -Mythic-Curve !/M+10-15FREE ARMORSTACK +10=110k+15=260k-20 In time- DISCOUNT AVAILABLE UP TO 15%/ExpBoost/PvPBoost/Vision(0-5 masks)/IslandExp/Mechagon(N/H)/Jaina MOUNT! ONLY  GOLD /w ", -- [1]
+			"Novaboostex-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Novaboostex-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			820, -- [11]
+			"Player-3391-0B05199B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeNovaboostex|r",
+			[51] = 1588019293,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"<TFH> 12/12HC 6/12M is looking for all classes  (470+) to fill our roster for mythic Ny'alotha progress. We are an active semi-hardcore guild, /w me for more info", -- [1]
+			"Alayax-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alayax-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			890, -- [11]
+			"Player-3391-0A31EA00", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Alayax|r",
+			[51] = 1588019516,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"WTS boost <Carapace of Nzoth> and <Nzoth The Corruptor> Heroic . Every 30 min ! Gold Only ! Get mount curve and chance on 470 loot / We have traders for all of loots / Fast Smooth and Cherry", -- [1]
+			"Criipto-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Criipto-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			894, -- [11]
+			"Player-3391-0B041587", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecCriipto|r",
+			[51] = 1588019518,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"WTS boost leveling 110-120 |cff66bbff|Hjournal:0:1001:23|h[Freehold]|h|r ", -- [1]
+			"Crkosh-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Crkosh-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			895, -- [11]
+			"Player-3391-0AF4F44F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Crkosh|r",
+			[51] = 1588019519,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"<Claw Boosts> CHEAPEST ON MARKET // +10 100K // +11 120K // +12 130K // +13 160K // +14 180K // +15 240K //Also Selling FH boost & vision boost available! /w info!", -- [1]
+			"Crinell-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Crinell-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			896, -- [11]
+			"Player-3391-0ACC6EE8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Crinell|r",
+			[51] = 1588019519,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},

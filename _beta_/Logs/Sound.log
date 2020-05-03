@@ -1,0 +1,68 @@
+4/28 11:01:23.000   - SE3 Init...
+4/28 11:01:23.000  => SI3 Init
+4/28 11:01:23.000  => WoW Version 9.0.1 (34137) Apr 21 2020
+4/28 11:01:23.000   
+4/28 11:01:23.000  => User Settings Report:
+4/28 11:01:23.000   - ========= PLAYBACK =========
+4/28 11:01:23.000   - Enable All Sound         [1]
+4/28 11:01:23.000   - Enable SFX               [1]
+4/28 11:01:23.000   --- Enable Emote Sounds    [1]
+4/28 11:01:23.000   - Enable Music             [1]
+4/28 11:01:23.000   --- Loop Music             [0]
+4/28 11:01:23.000   --- Pet Battle Music       [1]
+4/28 11:01:23.000   - Enable Ambient Sounds    [1]
+4/28 11:01:23.000   - Enable Dialog            [1]
+4/28 11:01:23.000   --- Enable Error Speech    [1]
+4/28 11:01:23.000   - Sound at Character       [1]
+4/28 11:01:23.000   - Sound in Background      [0]
+4/28 11:01:23.000   - Enable Reverb            [1]
+4/28 11:01:23.000   -
+4/28 11:01:23.000   - ========== VOLUME ==========
+4/28 11:01:23.000   - Master Volume         [1.00]
+4/28 11:01:23.000   - SFX Volume            [1.00]
+4/28 11:01:23.000   - Music Volume          [0.60]
+4/28 11:01:23.000   - Ambience Volume       [0.60]
+4/28 11:01:23.000   - Dialog Volume         [1.00]
+4/28 11:01:23.000   -
+4/28 11:01:23.000   - =========== MISC ===========
+4/28 11:01:23.000   - Sound Channels          [64]
+4/28 11:01:23.000   - Sound Cache           [128MB]
+4/28 11:01:23.000   - Mix Mode 2               [0]
+4/28 11:01:23.000   - DSP Buffer Size       [AUTO]
+4/28 11:01:23.000   - Armor Foley SFX (Self)   [1]
+4/28 11:01:23.000   - Armor Foley SFX (Others) [1]
+4/28 11:01:23.000  => End of User Settings Report
+4/28 11:01:23.000   
+4/28 11:01:23.000   - FMOD Memory Init
+4/28 11:01:23.000   - FMOD System Create
+4/28 11:01:23.000   - Setting Output Type
+4/28 11:01:23.032   - 4 Output drivers detected
+4/28 11:01:23.032   --- [0] System Default
+4/28 11:01:23.032   --- [1] S27D590 (2- NVIDIA High Definition Audio)
+4/28 11:01:23.032   --- [2] Speakers (SteelSeries Siberia Elite)
+4/28 11:01:23.032   --- [3] S27D590C (2- NVIDIA High Definition Audio)
+4/28 11:01:23.032  ** Using Driver [0] System Default (S27D590 (2- NVIDIA High Definition Audio))
+4/28 11:01:23.032   - DSPBufferSize = AUTO DETECT
+4/28 11:01:23.032   - Setting DSP Buffer Size
+4/28 11:01:23.032   - Using Control Panel Speaker Mode STEREO
+4/28 11:01:23.032   - Setting Software Format (44100, 2, 1).
+4/28 11:01:23.032   - Requested 64 channels.
+4/28 11:01:23.032   - Initializing Software Channels
+4/28 11:01:23.054   - Init FMOD Game System
+4/28 11:01:23.054   - Ok
+4/28 11:01:23.054   - Setting Rolloff Scale
+4/28 11:01:23.054   - Setting Rolloff Callback
+4/28 11:01:23.054   - SE3 EmitterManagerInit Success
+4/28 11:01:23.054   - Setting device callback
+4/28 11:01:23.054   - Sound Bus Init
+4/28 11:01:23.054   - Init Suppressors
+4/28 11:01:23.054   - SE3 Init Success.
+4/28 11:01:23.061  => SI3 Init Complete.
+4/28 11:01:23.061   
+4/28 11:14:21.562   
+4/28 11:14:21.562  => Shutting Down SI3
+4/28 11:14:21.577  => Shutting Down SI3 COMPLETE.
+4/28 11:14:21.577   
+4/28 11:14:21.577   - Shutting Down SE3
+4/28 11:14:21.626   - SE3 EmitterManagerShutdown Success
+4/28 11:14:21.626   - Shutting Down SE3 COMPLETE.

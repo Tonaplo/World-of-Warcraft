@@ -1,22 +1,16 @@
-# [2.17.0-beta1-9-g608ec45](https://github.com/WeakAuras/WeakAuras2/tree/608ec450041def0f556377660044b14ed20651e0) (2020-04-01)
+# [2.17.4](https://github.com/WeakAuras/WeakAuras2/tree/2.17.4) (2020-04-22)
 
-[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.17.0-beta1...608ec450041def0f556377660044b14ed20651e0)
+[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.17.3...2.17.4)
 
-ForsakenNGS (1):
+## Highlights
 
-- Added option to supply pure text tooltips (#2076)
+ - fix a buff tracking and nameplates regression 
 
-Grim (1):
+## Commits
 
-- Allow WA Updates from chat links. (#2085)
+InfusOnWoW (3):
 
-InfusOnWoW (7):
-
-- BuffTrigger2: Fix small issues
-- Fix Model on AuraBars
-- Model: Fix bug where a released model was not properly released
-- Fix typo
-- Fix totalStacks calculation for multi bufftriggers
-- BuffTrigger2: Remove unused strings
-- Prevent auras from being hidden while the options are open
+- BT2 Fix Multi by adjusting it to recent changes (#2139)
+- Clean up match data if a unit ceases to exists
+- Fix nameplates auras sometimes not being applied if in a raid group
 

@@ -1,0 +1,44 @@
+VER 3 0000000000000001 "Circle of Healin" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, nodead] Circle of Healing
+END
+VER 3 000000000000000B "Dispell" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, nodead] Purify
+END
+VER 3 0000000000000002 "Flash Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, nodead] Flash Heal
+END
+VER 3 000000000000000A "GS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, nodead] Guardian Spirit
+END
+VER 3 0000000000000009 "Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, nodead] Heal
+END
+VER 3 0000000000000004 "HW: Serenity" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, nodead] Holy Word: Serenity
+END
+VER 3 0000000000000006 "Leap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, nodead] Leap of Faith
+END
+VER 3 0000000000000005 "PoH" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, nodead] Prayer of Healing
+END
+VER 3 0000000000000008 "PoM" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, nodead] Prayer of Mending
+END
+VER 3 0000000000000003 "Power Word: Shie" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, nodead] Power Word: Shield
+END
+VER 3 0000000000000007 "Renew" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, nodead] Renew
+END

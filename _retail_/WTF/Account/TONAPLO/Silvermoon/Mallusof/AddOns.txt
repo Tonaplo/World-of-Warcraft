@@ -1,4 +1,4 @@
-AllTheThings: disabled
+AllTheThings: enabled
 AngryKeystones: enabled
 AngryWorldQuests: enabled
 Arh: disabled
@@ -75,3 +75,5 @@ ElvUI_AuraBarsMovers: disabled
 BigWigs_Nyalotha: enabled
 ElvUI_CustomTweaks: disabled
 WeakAurasArchive: enabled
+TomTom: enabled
+DailyToDo: enabled

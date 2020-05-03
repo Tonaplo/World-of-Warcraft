@@ -1,0 +1,6 @@
+4/28 11:01:19.647  vendor: GenuineIntel
+4/28 11:01:19.647  branding: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
+4/28 11:01:19.647  features: lahf64 cmpxchg16b sse sse2 sse3 ssse3 sse41 sse42 avx avx2 aesni clmul rdrand 
+4/28 11:01:19.647  sockets: 1
+4/28 11:01:19.647  cores: 4
+4/28 11:01:19.647  threads: 8

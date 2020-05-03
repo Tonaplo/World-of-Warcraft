@@ -32,7 +32,8 @@ local L = WeakAuras.L
 	L["|cFFffcc00Anchors:|r Anchored to frame's |cFFFF0000%s|r"] = "|cFFffcc00锚点：|r对齐至框架的|cFFFF0000%s|r"
 	L["|cFFffcc00Anchors:|r Anchored to frame's |cFFFF0000%s|r with offset |cFFFF0000%s/%s|r"] = "|cFFffcc00锚点：|r对齐至框架的|cFFFF0000%s|r，偏移|cFFFF0000%s/%s|r"
 	L["|cFFffcc00Extra Options:|r"] = "|cFFffcc00额外选项：|r"
-	L["|cFFffcc00Font Flags:|r |cFFFF0000%s|r and shadow |c%sColor|r with offset |cFFFF0000%s/%s|r%s%s"] = "|cFFffcc00字体：|r|cFFFF0000%s|r，阴影|c%s颜色|r，偏移|cFFFF0000%s/%s|r%s%s"
+	--[[Translation missing --]]
+	L["|cFFffcc00Font Flags:|r |cFFFF0000%s|r and shadow |c%sColor|r with offset |cFFFF0000%s/%s|r%s%s%s"] = "|cFFffcc00Font Flags:|r |cFFFF0000%s|r and shadow |c%sColor|r with offset |cFFFF0000%s/%s|r%s%s%s"
 	L["1 Match"] = "1个符合"
 	L["A 20x20 pixels icon"] = "20x20像素图标"
 	L["A 32x32 pixels icon"] = "32x32像素图标"
@@ -72,6 +73,8 @@ local L = WeakAuras.L
 	L["and rotated left"] = "并且向左旋转"
 	L["and rotated right"] = "并且向右旋转"
 	L["and Trigger %s"] = "和触发器 %s"
+	--[[Translation missing --]]
+	L["and with width |cFFFF0000%s|r and %s"] = "and with width |cFFFF0000%s|r and %s"
 	L["Angle"] = "角度"
 	L["Animate"] = "动画"
 	L["Animated Expand and Collapse"] = "展开折叠动画"
@@ -262,7 +265,13 @@ UNIT_POWER, UNIT_AURA PLAYER_TARGET_CHANGED]=]
 |cFFFF0000%i|r - 图标 - 图示关连的显标
 |cFFFF0000%s|r - 堆叠 - 光环堆叠数量(通常)
 |cFFFF0000%c|r - 自定义 - 允许你自定义一个Lua函数并返回一个用于显示的字符串]=]
+	--[[Translation missing --]]
+	L["Ease Strength"] = "Ease Strength"
+	--[[Translation missing --]]
+	L["Ease type"] = "Ease type"
 	L["Edge"] = "边缘"
+	--[[Translation missing --]]
+	L["eliding"] = "eliding"
 	L["Enabled"] = "启用"
 	L["End Angle"] = "结束角度"
 	L["End of %s"] = "%s 的结尾"
@@ -351,7 +360,6 @@ UNIT_POWER, UNIT_AURA PLAYER_TARGET_CHANGED]=]
 	L["Help"] = "帮助"
 	L["Hide"] = "隐藏"
 	L["Hide Cooldown Text"] = "隐藏冷却文本"
-	L["Hide Extra Options"] = "隐藏额外选项"
 	--[[Translation missing --]]
 	L["Hide Glows applied by this aura"] = "Hide Glows applied by this aura"
 	L["Hide on"] = "隐藏于"
@@ -443,9 +451,9 @@ UNIT_POWER, UNIT_AURA PLAYER_TARGET_CHANGED]=]
 只有一个单一的匹配值可以提取]=]
 	L["Name Info"] = "名称讯息"
 	L["Name Pattern Match"] = "名称规则匹配"
-	--[[Translation missing --]]
-	L["Name Plate"] = "Name Plate"
 	L["Name(s)"] = "名称"
+	--[[Translation missing --]]
+	L["Nameplate"] = "Nameplate"
 	L["Nameplates"] = "姓名板"
 	L["Negator"] = "不"
 	L["Never"] = "从不"
@@ -558,7 +566,6 @@ UNIT_POWER, UNIT_AURA PLAYER_TARGET_CHANGED]=]
 	L["Show all matches (Auto-clone)"] = "列出所有符合的(自动复制)"
 	L["Show Border"] = "显示边框"
 	L["Show Cooldown"] = "显示冷却"
-	L["Show Extra Options"] = "显示额外选项"
 	L["Show Glow"] = "显示发光效果"
 	L["Show Icon"] = "显示图标"
 	L["Show If Unit Does Not Exist"] = "如果单位不存在时显示"
@@ -703,6 +710,8 @@ UNIT_POWER, UNIT_AURA PLAYER_TARGET_CHANGED]=]
 	L["Wago Update"] = "Wago.io 更新"
 	L["Whole Area"] = "整个区域"
 	L["Width"] = "宽度"
+	--[[Translation missing --]]
+	L["wrapping"] = "wrapping"
 	L["X Offset"] = "X 偏移"
 	L["X Rotation"] = "X旋转"
 	L["X Scale"] = "宽度比例"

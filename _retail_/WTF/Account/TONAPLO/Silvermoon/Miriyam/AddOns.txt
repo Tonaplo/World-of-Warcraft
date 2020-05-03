@@ -18,3 +18,9 @@ ElvUI_CastBarOverlay: disabled
 ElvUI_EverySecondCounts: disabled
 ElvUI_AuraBarsMovers: disabled
 Simulationcraft: enabled
+ElvUI_CustomTweaks: disabled
+WeakAurasArchive: enabled
+AllTheThings: enabled
+BigWigs_Azeroth: enabled
+TomTom: enabled
+DailyToDo: disabled

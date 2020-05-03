@@ -24,578 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"can you cough on me please?", -- [1]
-			"Hexadrake-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hexadrake-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			287, -- [11]
-			"Player-3391-08CEFFAD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe95Hexadrake|r",
-			[51] = 1583537317,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"we  will", -- [1]
-			"Molskis-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Molskis-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			288, -- [11]
-			"Player-3391-0A54F936", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cMolskis|r",
-			[51] = 1583537319,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"UHHHHHHHHHHHHHHHH HE'S GONNA REPORT US FOR WRITING IN TRADECHAT", -- [1]
-			"Whimp-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Whimp-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			289, -- [11]
-			"Player-3391-09B32A5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Whimp|r",
-			[51] = 1583537322,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"REEEEEEEEEEEEEEE", -- [1]
-			"Whimp-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Whimp-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			290, -- [11]
-			"Player-3391-09B32A5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Whimp|r",
-			[51] = 1583537324,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"[WTS] WTS Mythic+ runs Tonight! +10/+11/+12/+13/+14/+15 key CARRY. You will get ilvl 430-475+ Gear, RIO score & Essences. Fast Mechagon Mount runs. We have over 8349 Trustpilot reviews. Visit WowVendor.org for more info!", -- [1]
-			"Fipokogac-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Fipokogac-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			291, -- [11]
-			"Player-3391-0AF04293", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cFipokogac|r",
-			[51] = 1583537325,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"Tastes like its made out of chinese fetuses and bats", -- [1]
-			"Ferayna-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ferayna-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			292, -- [11]
-			"Player-3391-0A46ECB0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Ferayna|r",
-			[51] = 1583537325,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"good thing you are locked up in your mancave then :3", -- [1]
-			"Tweekaz-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tweekaz-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			293, -- [11]
-			"Player-3391-0A75614D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Tweekaz|r",
-			[51] = 1583537343,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			";) kidds :D haha", -- [1]
-			"Molskis-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Molskis-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			294, -- [11]
-			"Player-3391-0A54F936", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cMolskis|r",
-			[51] = 1583537344,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"what do you expect of beer not from europe", -- [1]
-			"Sylwynda-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sylwynda-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			295, -- [11]
-			"Player-3391-07A01813", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Sylwynda|r",
-			[51] = 1583537346,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"GUYS, RANK 2 INFINITE STARS VS RANK 3 MINDFLAY (RAID) GIVE ME UR OPINIONS PLEASE!", -- [1]
-			"Wertyo-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Wertyo-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			296, -- [11]
-			"Player-3391-07DA1535", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Wertyo|r",
-			[51] = 1583537347,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"rip avicii", -- [1]
-			"Melcane-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Melcane-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			297, -- [11]
-			"Player-3391-0ADB54CF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cMelcane|r",
-			[51] = 1583537351,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"<Judge> 6/12M selling 12/12HC and curve tomorrow at 20:00 server time! Come get your mount and a chance at 460 loot and maybe some corruption /w for more info!", -- [1]
-			"Cyuz-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Cyuz-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			298, -- [11]
-			"Player-3391-0701AE3D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Cyuz|r",
-			[51] = 1583537353,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"Selling Cheap (6.15) Gurantee un Time + |cff66bbff|Hjournal:0:1178:23|h[Operation: Mechagon]|h|r Hardmode + Normalmode >|cffa335ee|Hitem:168830::::::::120:105::23::::|h[Aerial Unit R-21/X]|h|rGet Ur Weekly Chest . items + 465-475 Wis me For more info ..", -- [1]
-			"Amåzing-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Amåzing-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			299, -- [11]
-			"Player-3391-0AA638F5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe95Amåzing|r",
-			[51] = 1583537354,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"KORONA!", -- [1]
-			"Molskis-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Molskis-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			303, -- [11]
-			"Player-3391-0A54F936", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cMolskis|r",
-			[51] = 1583537363,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"Wts Mythic+ keystones 6 - 10 - 15  ( Cheap And Best Offer  ) Boost . +465  GP + Boosters / Share Loot ( All loot Drop is yours ) . Specitic Keys & Armor Stacking Avail & Titan Residuum  //  Whisper Me FOr More Info....", -- [1]
-			"Rèstoration-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Rèstoration-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			304, -- [11]
-			"Player-3391-0AA99462", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Rèstoration|r",
-			[51] = 1583537370,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"WTS |cffa335ee|Hitem:175005::::::::1:269::5:7:4823:6578:6579:6548:6513:1502:4786:::|h[Belt of Concealed Intent]|h|r and |cffa335ee|Hitem:175009::::::::1:269::5:7:4823:6578:6579:6542:6513:1502:4786:::|h[Zealous Ritualist's Reverie]|h|r", -- [1]
-			"Darebank-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Darebank-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			305, -- [11]
-			"Player-3391-09770FF4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe95Darebank|r",
-			[51] = 1583537373,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"Simple Boost Services (SBS) WTS M+boost M+5/15 share boost... Get your weekly 475 item ! Horrific vision boost full clear ! LVL boost quick and cheap. Whisper for more details...", -- [1]
-			"Killafella-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Killafella-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1029, -- [11]
-			"Player-3391-08AB9825", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Killafella|r",
-			[51] = 1584226825,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"<Eminance> 12/12HC 4/12M NYA is Looking for Raiders. Great Community while Raiding on a Mythic Level is what we stand for! Raiddays: Wed & Thursday 19.30-22.30 ST. Recruiting Paladins, Warlock, Mage, Healers or any other exceptional dps. /w me anytime", -- [1]
-			"Shenghuó-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Shenghuó-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1030, -- [11]
-			"Player-3391-0A95A37D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe95Shenghuó|r",
-			[51] = 1584226825,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"WTS Keystone Boost 6-15 fair price ((All Option are available ))in time loot share Guild RUN Also selling (free leather stack )) mechagon hard  mode with  loot share also selling lvlup boost 110-120 [freehold] Ez lvl up  wis  for more info  ", -- [1]
-			"Sepctorr-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sepctorr-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1043, -- [11]
-			"Player-3391-0ADF6828", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Sepctorr|r",
-			[51] = 1584226833,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"Selling Mythics +6/+10/+12/+15 ...FREE ARMOR STACK...get your +475 weekly chest drop with titan residuum fast & easy...here all experienced ppl...ONLY GOLD...VISION Boost.../w for more info!", -- [1]
-			"Màshty-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Màshty-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1055, -- [11]
-			"Player-3391-085B3D9E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cMàshty|r",
-			[51] = 1584226841,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"<<NovaBoostingCommunity>> WTS -- Ny'alotha HC Full Run 12/12 only 550k PL -- 1x Trader 900k / Curve 200k! M+ [+10=170k / +15=420k ] Free armor stack when you buy 2 or more  /w me for more info", -- [1]
-			"Burpie-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Burpie-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1057, -- [11]
-			"Player-3391-0AF2AFDF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeBurpie|r",
-			[51] = 1584226842,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"WTS Full Clear NWC Heroic Come Get your 460 Gear! Mount|cffa335ee|Hitem:174861::::::::1:269::::::|h[Wriggling Parasite]|h|r||Best Prices||PST", -- [1]
-			"Aviv-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aviv-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1067, -- [11]
-			"Player-3391-0AEF8646", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe95Aviv|r",
-			[51] = 1584226851,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"Simple Boost Services (SBS) WTS M+boost M+5/15 share loot.. Get your weekly 475 item ! Horrific vision boost full clear ! LVL boost quick and cheap. Whisper for more details ...", -- [1]
-			"Battalgaazi-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Battalgaazi-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1069, -- [11]
-			"Player-3391-097AC52B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cBattalgaazi|r",
-			[51] = 1584226854,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"[WTS] Horrific Visions Challenge Boost, Legendary cloak upgrade, Essences, Allied races, Reputations, Glories, Mounts & other 8.3 BOOSTS! We have over 8349 Trustpilot reviews. Visit WowVendor.org for more info!", -- [1]
-			"Hecoxozez-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hecoxozez-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1106, -- [11]
-			"Player-3391-0AF25064", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cHecoxozez|r",
-			[51] = 1584226874,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"The Gallywix Communit /// To celebrate essences being ACCOUNT BOUND all of our services have reduced in price! buy m+ 8-15 450k +15 195k + 10 and get armor stacks for free! /w me for more information", -- [1]
-			"Garrs-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Garrs-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1122, -- [11]
-			"Player-3391-0AEFBD9B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Garrs|r",
-			[51] = 1584226881,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"wts |cffa335ee|Hitem:175008::::::::120:72::6:5:4824:6516:6515:1517:4786:::|h[Lurking Schemer's Band]|h|r cheap", -- [1]
-			"Garthall-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Garthall-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1124, -- [11]
-			"Player-3391-0A4BE860", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cGarthall|r",
-			[51] = 1584226882,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
 			"wts |cffa335ee|Hitem:175008::::::::120:72::6:5:4824:6516:6515:1517:4786:::|h[Lurking Schemer's Band]|h|rcheaper than ah", -- [1]
 			"Garthall-Silvermoon", -- [2]
 			"", -- [3]
@@ -616,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGarthall|r",
 			[51] = 1584226886,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [1]
 		{
 			"Selling +M 6-19 Guarantee in Time [SharelootFree] Buy 2x Dung Get Free armostack *For 5x Dung 20% Discount With Free ArmorStack.!Also Selling ||Vision for up back 5/5 || ||Raids|| ( Just Only Gold )||And ...You Can Pay Gold in All Realms [BothFaction]", -- [1]
 			"Superoutlaw-Silvermoon", -- [2]
@@ -638,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Superoutlaw|r",
 			[51] = 1584226891,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [2]
 		{
 			"WTS M+ dungs(10-18) Gurantee in time with good offers&High Score team. (Share Loot is free alltime&Full Armor stack is Free for leathers.&also 2xplate amor stack is free )We Also do levelup and vision boost./w for info.(gold accept any realm)", -- [1]
 			"Oraman-Silvermoon", -- [2]
@@ -660,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Oraman|r",
 			[51] = 1584226907,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [3]
 		{
 			"wts |cffa335ee|Hitem:175006::::::::120:72::6:7:4824:6578:6579:6558:6513:1517:4786:::|h[Gauntlets of Nightmare Manifest]|h|r cheap", -- [1]
 			"Garthall-Silvermoon", -- [2]
@@ -682,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGarthall|r",
 			[51] = 1584227979,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [4]
 		{
 			"WTS |cffa335ee|Hitem:161134::::::::120:73::13::::|h[Mecha-Mogul Mk2]|h|r|cffa335ee|Hitem:175010::::::::120:73::5:7:4823:6578:6579:6553:6515:1502:4786:::|h[Maddened Adherent's Bulwark]|h|rWHISP OFFERS", -- [1]
 			"Jtrahcision-Silvermoon", -- [2]
@@ -704,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cJtrahcision|r",
 			[51] = 1584227981,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [5]
 		{
 			"<Eminance> 12/12HC 4/12M NYA is Looking for Raiders. Great Community while Raiding on a Mythic Level is what we stand for! Raiddays: Wed & Thursday 19.30-22.30 ST.  Feel free to whisper me!", -- [1]
 			"Shenghuó-Silvermoon", -- [2]
@@ -726,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Shenghuó|r",
 			[51] = 1584227986,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [6]
 		{
 			"|| Nova Boosting || Selling+M 8-20 Guarantee in Time   [Shareloot Free]  ||+10=170k|| ||+12=220k|| ||+15=420k|| if you Buy 2x Run you Get ArmorStack Free! Also We Selling ||RAIDS||+jAINA MOUNT+||lvl booster 110-120||||PvP||And ...OnlyGold/AnyRealm    ", -- [1]
 			"Unmercyy-Silvermoon", -- [2]
@@ -748,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Unmercyy|r",
 			[51] = 1584227995,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [7]
 		{
 			"[WTS] Horrific Visions Challenge Boost, Legendary cloak upgrade, Essences, Allied races, Reputations, Glories, Mounts & other 8.3 BOOSTS! We have over 8349 Trustpilot reviews. Visit WowVendor.org for more info!", -- [1]
 			"Hecoxozez-Silvermoon", -- [2]
@@ -770,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHecoxozez|r",
 			[51] = 1584228023,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [8]
 		{
 			"wts |cffa335ee|Hitem:175004::::::::120:63::5:8:4823:42:6578:6579:6541:6513:1502:4786:::|h[Legwraps of Horrifying Figments]|h|r  100k absolute steal!", -- [1]
 			"Vitul-Silvermoon", -- [2]
@@ -792,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Vitul|r",
 			[51] = 1584228034,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [9]
 		{
 			"WTS |cffa335ee|Hitem:161134::::::::120:73::13::::|h[Mecha-Mogul Mk2]|h|r|cffa335ee|Hitem:175010::::::::120:73::5:7:4823:6578:6579:6553:6515:1502:4786:::|h[Maddened Adherent's Bulwark]|h|rWHISP OFFERS", -- [1]
 			"Jtrahcision-Silvermoon", -- [2]
@@ -814,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cJtrahcision|r",
 			[51] = 1584228037,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [10]
 		{
 			"Selling +M 6-19 Guarantee in Time [SharelootFree] Buy 2x Dung Get Free armostack *For 5x Dung 20% Discount With Free ArmorStack.!Also Selling ||Vision for up back 5/5 || ||Raids|| ( Just Only Gold )||And ...You Can Pay Gold in All Realms [BothFaction]", -- [1]
 			"Superoutlaw-Silvermoon", -- [2]
@@ -836,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Superoutlaw|r",
 			[51] = 1584228039,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [11]
 		{
 			"WTS |cffa335ee|Hitem:175005::::::::115:63:::8:1502:4786:4823:6455:6471:6515:6578:6579:::|h[Belt of Concealed Intent]|h|r 120k // |cffa335ee|Hitem:175004::::::::115:63:::7:1502:4786:4823:6513:6561:6578:6579:::|h[Legwraps of Horrifying Figments]|h|r 130k..", -- [1]
 			"Chromîe-Silvermoon", -- [2]
@@ -858,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Chromîe|r",
 			[51] = 1584228189,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [12]
 		{
 			"WTS |cffa335ee|Hitem:175006::::::::115:63:::7:1502:4786:4823:6515:6544:6578:6579:::|h[Gauntlets of Nightmare Manifest]|h|r 240k // |cffa335ee|Hitem:175006::::::::115:63:::8:1502:4786:4823:6470:6473:6515:6578:6579:::|h[Gauntlets of Nightmare Manifest]|h|r 200k...", -- [1]
 			"Chromîe-Silvermoon", -- [2]
@@ -880,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Chromîe|r",
 			[51] = 1584228191,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [13]
 		{
 			"Selling Cheap (6...10....15) +10=160k armor stack / Share loot / Loot Avalible Too And Fair Specefic Keys / +475 Gp is ready for service , /  And |cff66bbff|Hjournal:0:1178:23|h[Operation: Mechagon]|h|r Hardmode + Normalmode . Whisper Me For More Info..", -- [1]
 			"Amåzing-Silvermoon", -- [2]
@@ -902,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Amåzing|r",
 			[51] = 1584228195,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [14]
 		{
 			"Brother Meller up", -- [1]
 			"Nickrot-Silvermoon", -- [2]
@@ -924,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNickrot|r",
 			[51] = 1584228461,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [15]
 		{
 			"run with it", -- [1]
 			"Praerend-Silvermoon", -- [2]
@@ -946,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1584228473,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [16]
 		{
 			"away from the place", -- [1]
 			"Praerend-Silvermoon", -- [2]
@@ -968,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1584228478,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [17]
 		{
 			"there", -- [1]
 			"Praerend-Silvermoon", -- [2]
@@ -990,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1584228482,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [18]
 		{
 			"ty", -- [1]
 			"Mashiaraxl-Silvermoon", -- [2]
@@ -1012,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMashiaraxl|r",
 			[51] = 1584228484,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
+		}, -- [19]
 		{
 			"Escaped Mutation 100.00% ~(44.53, 48.73)", -- [1]
 			"Desivon-Silvermoon", -- [2]
@@ -1034,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDesivon|r",
 			[51] = 1584228972,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [20]
 		{
 			"stormhowl up", -- [1]
 			"Karvapalli-Silvermoon", -- [2]
@@ -1056,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Karvapalli|r",
 			[51] = 1584538653,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [21]
 		{
 			"<<NBC>> (Special Offer) M+15=330k (INTIME) Buy 2x and get Free amor stack (Specific Key and Armor Stack Available) .Ny'alotha Hc Raid Full Clear And Curve -Mecha Hm + Mount - FH leveling (Only Gold) Wis Me For Info!!", -- [1]
 			"Novabow-Silvermoon", -- [2]
@@ -1078,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Novabow|r",
 			[51] = 1584538997,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [22]
 		{
 			"<Twilight Community> Selling +10 155k +11 165k +12 200k...+15 365k/PVP single wins & 100 rating/NYA from 550k/levelling to 120/PVP Islands/Rare & Raid mounts. /w now for more info.", -- [1]
 			"Needleadd-Silvermoon", -- [2]
@@ -1100,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Needleadd|r",
 			[51] = 1584538998,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [23]
 		{
 			"> WM Community < WTS Pvp Achiev |cffffff00|Hachievement:14191:Player-1084-08DF3EF0:1:1:16:20:0:0:0:0|h[Servant of N'Zoth]|h|r Reward is Title +Toy and Also selling |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r , Fair price for gold and quick service.", -- [1]
 			"Ashidens-Silvermoon", -- [2]
@@ -1122,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAshidens|r",
 			[51] = 1584539004,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [24]
 		{
 			"<The Gallywix Community> |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r 12/12 HEROIC TONIGHT -- loot sharing and VIP traders available for THE BEST PRICE! Arenas 2v2 and 3v3 / Mythic+ / FH Leveling / GOLD ONLY!", -- [1]
 			"Proxgallya-Silvermoon", -- [2]
@@ -1144,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Proxgallya|r",
 			[51] = 1584539006,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [25]
 		{
 			"WTS Cheapest M+10-16 Free Armor Stack!!! Also Selling Mechagon HM/NM Get Your Weekly Chest All Loot Yours 460+ Team Wisp for more info!", -- [1]
 			"Soniy-Silvermoon", -- [2]
@@ -1166,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Soniy|r",
 			[51] = 1584539007,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [26]
 		{
 			"WTS Mythic +10(170k)-+15(400k) Armor Stack Available All Loot your's if you buy 3x Run 1x run FREE from us 465 End Dungeon items and corrupted item chance we going now  w/for info  ", -- [1]
 			"Yucetokat-Silvermoon", -- [2]
@@ -1188,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cYucetokat|r",
 			[51] = 1584539007,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [27]
 		{
 			"experienced 2.2k R.IO [WTS] lvling boost [110-120] 2 hours from 110 to 120 !! mythic keys runs +5 +10 +15 !", -- [1]
 			"Kahul-Silvermoon", -- [2]
@@ -1210,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kahul|r",
 			[51] = 1584539009,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [28]
 		{
 			"|| Nova Boosting || Selling M+ Boost 10-19  /M+ 10=150k/ M+15 330k ! [Ny'alotha, the Waking City] 12/12=520k + Curve Nzoth 200k And Armor Stack Availble.!! /Also if you Buy +2 M+ Run You Get Free Armor Stack.! / Accept Gold Any Server.! /w for Info", -- [1]
 			"Killêr-Silvermoon", -- [2]
@@ -1232,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Killêr|r",
 			[51] = 1584539010,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [29]
 		{
 			"(NBC) Offering M+ Boost / M+6=100k, M+ 10=150k/ M+15=330k in Time / stack armor / shared loot  /if you buy 2 run=Free armor stack / 5 run 10% + armor ! / Selling NY'ALOTHA Full clear 520k  /  Curve 200k  /Mechagon NM/ 110-120 Boost /w for info", -- [1]
 			"Nbcfox-Silvermoon", -- [2]
@@ -1254,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Nbcfox|r",
 			[51] = 1584545580,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [30]
 		{
 			"<NBC> M+ Boost/M+15=330k intime /M+10=150k /M+||6-19|| Free share Loot/buy 2 run get Free Stack Armor/buy 5 run Get 20% Off /|cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r Full Run = 520k /Curve 200k/110-120 Boost/Gold Only/W For Info", -- [1]
 			"Miladtaker-Silvermoon", -- [2]
@@ -1276,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Miladtaker|r",
 			[51] = 1584545581,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [31]
 		{
 			"<<NBC>> (Special Offer) M+15=330k (INTIME) Buy 2x and get Free amor stack (Specific Key and Armor Stack Available) .Ny'alotha Hc Raid Full Clear And Curve -Mecha Hm + Mount - FH leveling (Only Gold) Wis Me For Info!!", -- [1]
 			"Novabow-Silvermoon", -- [2]
@@ -1298,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Novabow|r",
 			[51] = 1584545591,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [32]
 		{
 			"Selling Keystone Boost [(  15+ = 330k )] -[( 14+ = 240 )] -  [( 13+ 200k )] - [( 12+ 180k )] - [( 10+ & 11+ = 160k)] -(( Armor stack Only leather -Plate - Mail are Available )) ((in Time Guarantee and Share Loot )) whisper me for More info+", -- [1]
 			"Sepctorr-Silvermoon", -- [2]
@@ -1320,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Sepctorr|r",
 			[51] = 1584545591,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [33]
 		{
 			"<Ataraxia> 12/12HC 3/12 M is looking for a skilled disc priest and ranged dps to bolster our raid team for Ny'alotha mythic. Raid days Thur/Tue 19-22:30. Socials are also always welcome! /w for more info!", -- [1]
 			"Melandrú-Silvermoon", -- [2]
@@ -1342,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Melandrú|r",
 			[51] = 1584545594,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [34]
 		{
 			"<The Gallywix Community> |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r 12/12 HEROIC TONIGHT -- loot sharing and VIP traders available for THE BEST PRICE! Arenas 2v2 and 3v3 / Mythic+ / FH Leveling / GOLD ONLY!", -- [1]
 			"Proxgallya-Silvermoon", -- [2]
@@ -1364,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Proxgallya|r",
 			[51] = 1584545595,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [35]
 		{
 			"Selling Full Ny'Alotha TONIGHT!20:00 ST! Get your Curve / loot and your mount with our smooth and fast runs! /w for more info or to book a spot! Final spots available, book one before they run out!", -- [1]
 			"Naiyiie-Silvermoon", -- [2]
@@ -1386,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNaiyiie|r",
 			[51] = 1584545596,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [36]
 		{
 			"|cffa335ee|Hitem:169932::::::::120:105::5:3:4799:1502:4786:::|h[Brineweaver Guardian's Gloves]|h|r 120k on AH. Cheapest there!", -- [1]
 			"Shiomi-Silvermoon", -- [2]
@@ -1408,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shiomi|r",
 			[51] = 1584545597,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [37]
 		{
 			"[WTS] 110-120  Leveling  boost  |cff66bbff|Hjournal:0:1001:1|h[Freehold]|h|r   [9 Min Per Level] (only gold)  Whisper Me For More Info  !!! ", -- [1]
 			"Animador-Silvermoon", -- [2]
@@ -1430,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Animador|r",
 			[51] = 1584545598,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [38]
 		{
 			"WTS |cffffff00|Hachievement:12605:Player-3391-0ADDDFA6:1:9:2:18:4294967295:4294967295:4294967295:4294967295|h[Conqueror of Azeroth]|h|r+|cffa335ee|Hitem:163577::::::::20:259::::::|h[Conqueror's Scythemaw]|h|r=550k, reputation for |cffa335ee|Hitem:142369::::::::20:259::::::|h[Ivory Hawkstrider]|h|r=500k. Only for gold, accept any server!", -- [1]
 			"Gogalik-Silvermoon", -- [2]
@@ -1452,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gogalik|r",
 			[51] = 1584545608,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [39]
 		{
 			"WTS |cffffff00|Hachievement:14191:Player-3391-0ADDDFA6:1:1:15:20:4294967295:4294967295:4294967295:4294967295|h[Servant of N'Zoth]|h|r=90k |cffffff00|Hachievement:12567:Player-3391-0ADDDFA6:1:8:26:18:4294967295:4294967295:4294967295:4294967295|h[The Horde Slayer]|h|r=70k or for both achievements 140k and victory in PvP-Expeditions.", -- [1]
 			"Gogalik-Silvermoon", -- [2]
@@ -1474,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gogalik|r",
 			[51] = 1584545608,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [40]
 		{
 			"Wts Boost LvlUp 110-120  Only for Gold (best Price)  5 min per run", -- [1]
 			"Samúrai-Silvermoon", -- [2]
@@ -1496,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Samúrai|r",
 			[51] = 1584545648,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [41]
 		{
 			"Simple Boost Services (SBS) WTS M+boost M+5/15 share loot.. Get your weekly 475 item ! Horrific full clear !Freehold LVL boost QUICK & CHEAP . Whisper for more details ...", -- [1]
 			"Sbsboost-Silvermoon", -- [2]
@@ -1518,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSbsboost|r",
 			[51] = 1584545650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [42]
 		{
 			"Selling Full Ny'Alotha TONIGHT!20:00 ST! Get your Curve / loot and your mount with our smooth and fast runs! /w for more info or to book a spot! Final spots available, book one before they run out!", -- [1]
 			"Naiyiie-Silvermoon", -- [2]
@@ -1540,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNaiyiie|r",
 			[51] = 1584545651,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [43]
 		{
 			"WTS |cff1eff00|Hitem:7421::::::::32:256::1:1:1709:::|h[Phalanx Gauntlets of the Aurora]|h|r the legendary hand with 0.5% chance to drop. it adds holy light when used as transmog", -- [1]
 			"Yh-Silvermoon", -- [2]
@@ -1562,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeYh|r",
 			[51] = 1584545668,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [44]
 		{
 			"<<NBC>> SPECIAL OFFERS   M+15= 330K / +10 in time=150K /  M +6 to M +15 keys! - Buy 2 keys and you get FREE ARMOR STACK/   Get your weekly 475 item /Free share loot/ 110-120 boost lvl / Horrific Visions boost/ ONLY GOLD    -  PM me ", -- [1]
 			"Nbcboostr-Silvermoon", -- [2]
@@ -1584,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNbcboostr|r",
 			[51] = 1584545675,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [45]
 		{
 			"WTS  Mythic keystone (M6-M15)(share loot)(grp ready)(can be afk) WTS |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r 12/12 hc full run  ..Boost LVLup Freehold(110-120) 5min per run (fast.cheap) /w for more info.", -- [1]
 			"Ltigon-Silvermoon", -- [2]
@@ -1606,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ltigon|r",
 			[51] = 1584545677,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [46]
 		{
 			"<NBC> M+ Boost/M+15=330k intime /M+10=150k /M+||6-19|| Free share Loot/buy 2 run get Free Stack Armor/buy 5 run Get 20% Off /|cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r Full Run = 520k /Curve 200k/110-120 Boost/Gold Only/W For Info", -- [1]
 			"Miladtaker-Silvermoon", -- [2]
@@ -1628,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Miladtaker|r",
 			[51] = 1584545677,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [47]
 		{
 			"Selling Keystone Boost [(  15+ = 330k )] -[( 14+ = 240 )] -  [( 13+ 200k )] - [( 12+ 180k )] - [( 10+ & 11+ = 160k)] -(( Armor stack Only leather -Plate - Mail are Available )) ((in Time Guarantee and Share Loot )) whisper me for More info+", -- [1]
 			"Sepctorr-Silvermoon", -- [2]
@@ -1650,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Sepctorr|r",
 			[51] = 1584545681,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [48]
 		{
 			"<NOVA> BiGG Discount +15 [330k] || +14 [250k] || +13 [210k] || +12 [190k] || +11 [170k] || +10 [150k] || [BUY 2 for FREE armorstac k // 5+ RUNS 10% OFF ] || Freehold 110-120 Boost || Whisper for more info", -- [1]
 			"Archimond-Silvermoon", -- [2]
@@ -1672,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cArchimond|r",
 			[51] = 1584545684,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [49]
 		{
 			"WTS |cffffff00|Hachievement:12605:Player-3391-0ADDDFA6:1:9:2:18:4294967295:4294967295:4294967295:4294967295|h[Conqueror of Azeroth]|h|r=550k |cffffff00|Hachievement:12861:Player-3391-0ADDDFA6:1:6:5:19:4294967295:4294967295:4294967295:4294967295|h[Master of Duels]|h|r=120k. Only for gold, accept any server!", -- [1]
 			"Gogalik-Silvermoon", -- [2]
@@ -1694,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gogalik|r",
 			[51] = 1584545686,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [50]
 		{
 			"WTS |cffffff00|Hachievement:14191:Player-3391-0ADDDFA6:1:1:15:20:4294967295:4294967295:4294967295:4294967295|h[Servant of N'Zoth]|h|r=90k |cffffff00|Hachievement:12567:Player-3391-0ADDDFA6:1:8:26:18:4294967295:4294967295:4294967295:4294967295|h[The Horde Slayer]|h|r=70k or for both achievements 140k and victory in PvP-Expeditions.", -- [1]
 			"Gogalik-Silvermoon", -- [2]
@@ -1716,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gogalik|r",
 			[51] = 1584545686,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [51]
 		{
 			"WTB 100-110 boost", -- [1]
 			"Mobby-Silvermoon", -- [2]
@@ -1738,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMobby|r",
 			[51] = 1584545691,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [52]
 		{
 			"WTS Mythic +10(170k)-+15(400k) Armor Stack Available All Loot your's if you buy 3x Run 1x run FREE from us 465 End Dungeon items and corrupted item chance we going now  w/for info  ", -- [1]
 			"Yucetokat-Silvermoon", -- [2]
@@ -1760,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cYucetokat|r",
 			[51] = 1584545699,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [53]
 		{
 			"WTS Ny'alotha HEROIC І Start in 17 00 CET  І  FULL RUN 12/12 І  Guild run  І  Fast And smooth  І  Get you 460+ iLvl gear and Epic achievment TONIGHT  І  DISCOUNTED SPOTS LEFT  І  PST for info!", -- [1]
 			"Ktifgold-Silvermoon", -- [2]
@@ -1782,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKtifgold|r",
 			[51] = 1584545706,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [54]
 		{
 			"Selling Boost +6 +10 +12 +15 Mythic+ For Gold /Get Your Item 465 - 475 /Loot Share / Group +2k Rio /W For More Info", -- [1]
 			"Silverbullet-Silvermoon", -- [2]
@@ -1804,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silverbullet|r",
 			[51] = 1584545709,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [55]
 		{
 			"<The Gallywix Community> |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r 12/12 HEROIC TONIGHT -- loot sharing and VIP traders available for THE BEST PRICE! Arenas 2v2 and 3v3 / Mythic+ / FH Leveling / GOLD ONLY!", -- [1]
 			"Proxgallya-Silvermoon", -- [2]
@@ -1826,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Proxgallya|r",
 			[51] = 1584545729,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [56]
 		{
 			"[WTS] Nyalotha Normal & Heroic Boosts: get ilvl 445-470+ corrupted gear, NEW MOUNT, Essences & Curve Achieve. Fast runs with TOP Guilds every day. We have over 8349 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
 			"Ehipirazo-Silvermoon", -- [2]
@@ -1848,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEhipirazo|r",
 			[51] = 1584545729,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [57]
 		{
 			"WTS Ny’alotha Heroic; M10-15+ dungeons – get your 475 item and Titan Residuum; Arena 3x3 , 2x2– we can help to farm new pvp mounts", -- [1]
 			"Dafgokal-Silvermoon", -- [2]
@@ -1870,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDafgokal|r",
 			[51] = 1584545751,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [58]
 		{
 			"experienced 2.2k R.IO [WTS] lvling boost [110-120] 2 hours from 110 to 120 !! mythic keys runs +5 +10 +15 !", -- [1]
 			"Kahul-Silvermoon", -- [2]
@@ -1892,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kahul|r",
 			[51] = 1584545753,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [59]
 		{
 			"Gallywix Community WTS |cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r  12/12 HC Loot shared,     M+(10-20) Any armor/dungeon Available,      Horrific Visions,      Jaina Mount", -- [1]
 			"Nteria-Silvermoon", -- [2]
@@ -1914,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNteria|r",
 			[51] = 1584545755,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [60]
 		{
 			"Simple Boost Services (SBS) WTS M+boost M+5/15 share loot.. Get your weekly 475 item ! Horrific full clear !Freehold LVL boost QUICK & CHEAP . Whisper for more details ...", -- [1]
 			"Sbsboost-Silvermoon", -- [2]
@@ -1936,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSbsboost|r",
 			[51] = 1584545758,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [61]
 		{
 			"<<NBC>> (Special Offer) M+15=330k (INTIME) Buy 2x and get Free amor stack (Specific Key and Armor Stack Available) .Ny'alotha Hc Raid Full Clear And Curve -Mecha Hm + Mount - FH leveling (Only Gold) Wis Me For Info!!", -- [1]
 			"Novabow-Silvermoon", -- [2]
@@ -1958,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Novabow|r",
 			[51] = 1584545759,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [62]
 		{
 			"(NBC) Offering M+ Boost / M+6=100k, M+ 10=150k/ M+15=330k in Time / stack armor / shared loot  /if you buy 2 run=Free armor stack / 5 run 10% + armor ! / Selling NY'ALOTHA Full clear 520k  /  Curve 200k  /Mechagon NM/ 110-120 Boost /w for info", -- [1]
 			"Nbcfox-Silvermoon", -- [2]
@@ -1980,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Nbcfox|r",
 			[51] = 1584545761,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [63]
 		{
 			"WTS Mythic +10(160k)-+15(330k) Armor Stack Available All Loot your's if you buy 3x Run 1x run FREE from us 465 End Dungeon items and corrupted item chance we going now  w/for info  ", -- [1]
 			"Yucetokat-Silvermoon", -- [2]
@@ -2002,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cYucetokat|r",
 			[51] = 1584545761,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [64]
 		{
 			"Selling Keystone Boost [(  15+ = 330k )] -[( 14+ = 240 )] -  [( 13+ 200k )] - [( 12+ 180k )] - [( 10+ & 11+ = 160k)] -(( Armor stack Only leather -Plate - Mail are Available )) ((in Time Guarantee and Share Loot )) whisper me for More info+", -- [1]
 			"Sepctorr-Silvermoon", -- [2]
@@ -2024,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Sepctorr|r",
 			[51] = 1584545771,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [65]
 		{
 			"WTS 110-120|cff66bbff|Hjournal:0:1001:1|h[Freehold]|h|r Boost, 1 LvL in 8min. 20k each LvL with Looms, 25k if none (any realm A/H)", -- [1]
 			"Dkv-Silvermoon", -- [2]
@@ -2046,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dkv|r",
 			[51] = 1584545776,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [66]
 		{
 			"[WTS] 110-120  Leveling  boost  |cff66bbff|Hjournal:0:1001:1|h[Freehold]|h|r   [9 Min Per Level] (only gold)  Whisper Me For More Info  !!! ", -- [1]
 			"Animador-Silvermoon", -- [2]
@@ -2068,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Animador|r",
 			[51] = 1584545778,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [67]
 		{
 			"LFM 3 FIRS BOSSES MYTHIC NYALOTHA RUN !  SILVERMOON ONLY ! ", -- [1]
 			"Greatestwarr-Silvermoon", -- [2]
@@ -2090,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGreatestwarr|r",
 			[51] = 1584545779,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [68]
 		{
 			"<NBC> M+ Boost/M+15=330k intime /M+10=150k /M+||6-19|| Free share Loot/buy 2 run get Free Stack Armor/buy 5 run Get 20% Off /|cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r Full Run = 520k /Curve 200k/110-120 Boost/Gold Only/W For Info", -- [1]
 			"Miladtaker-Silvermoon", -- [2]
@@ -2112,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Miladtaker|r",
 			[51] = 1584545780,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [69]
 		{
 			"WTS |cffffff00|Hachievement:12605:Player-3391-0ADDDFA6:1:9:2:18:4294967295:4294967295:4294967295:4294967295|h[Conqueror of Azeroth]|h|r+|cffa335ee|Hitem:163577::::::::20:259::::::|h[Conqueror's Scythemaw]|h|r=550k, reputation for |cffa335ee|Hitem:142369::::::::20:259::::::|h[Ivory Hawkstrider]|h|r=500k. Only for gold, accept any server!", -- [1]
 			"Gogalik-Silvermoon", -- [2]
@@ -2134,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gogalik|r",
 			[51] = 1584545788,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [70]
 		{
 			"WTS |cffffff00|Hachievement:14191:Player-3391-0ADDDFA6:1:1:15:20:4294967295:4294967295:4294967295:4294967295|h[Servant of N'Zoth]|h|r=90k |cffffff00|Hachievement:12567:Player-3391-0ADDDFA6:1:8:26:18:4294967295:4294967295:4294967295:4294967295|h[The Horde Slayer]|h|r=70k or for both achievements 140k and victory in PvP-Expeditions.", -- [1]
 			"Gogalik-Silvermoon", -- [2]
@@ -2156,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gogalik|r",
 			[51] = 1584545788,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [71]
 		{
 			"Selling Mythics +6/+10/+12/+15 ...FREE ARMOR STACK...get your +475 weekly chest drop with titan residuum fast & easy...here all experienced ppl...ONLY GOLD...VISION Boost.../w for more info!", -- [1]
 			"Rèstoration-Silvermoon", -- [2]
@@ -2178,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rèstoration|r",
 			[51] = 1584545788,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [72]
 		{
 			"WTS Any Type Of Boost ( Keystone / Raid / Lvlup / Island / pvp and ... ) You Can Also Pay Any Realm You Want  With Best Price And Best Teams . We Gurantee all Keystone 6-16 For Time + Loot With Best Score Players /w me For More Info", -- [1]
 			"Amirvirus-Silvermoon", -- [2]
@@ -2200,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Amirvirus|r",
 			[51] = 1584545791,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [99]
+		}, -- [73]
 		{
 			"WTS Ny'alotha HEROIC І Start in 17 00 CET  І  FULL RUN 12/12 І  Guild run  І  Fast And smooth  І  Get you 460+ iLvl gear and Epic achievment TONIGHT  І  DISCOUNTED SPOTS LEFT  І  PST for info!", -- [1]
 			"Ktifgold-Silvermoon", -- [2]
@@ -2222,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKtifgold|r",
 			[51] = 1584545795,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [100]
+		}, -- [74]
 		{
 			"Selling Full Ny'Alotha TONIGHT!20:00 ST! Get your Curve / loot and your mount with our smooth and fast runs! /w for more info or to book a spot! Final spots available, book one before they run out!", -- [1]
 			"Naiyiie-Silvermoon", -- [2]
@@ -2244,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNaiyiie|r",
 			[51] = 1584545814,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [101]
+		}, -- [75]
 		{
 			"Simple Boost Services (SBS) WTS M+boost M+5/15 share loot.. Get your weekly 475 item ! Horrific full clear !Freehold LVL boost QUICK & CHEAP . Whisper for more details ...", -- [1]
 			"Sbsboost-Silvermoon", -- [2]
@@ -2266,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSbsboost|r",
 			[51] = 1584545815,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [76]
 		{
 			"<<NBC>> (Special Offer) M+15=330k (INTIME) Buy 2x and get Free amor stack (Specific Key and Armor Stack Available) .Ny'alotha Hc Raid Full Clear And Curve -Mecha Hm + Mount - FH leveling (Only Gold) Wis Me For Info!!", -- [1]
 			"Novabow-Silvermoon", -- [2]
@@ -2288,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Novabow|r",
 			[51] = 1584545821,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [103]
+		}, -- [77]
 		{
 			"spirit drinker", -- [1]
 			"Ezpzlemonsqz-Silvermoon", -- [2]
@@ -2310,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ezpzlemonsqz|r",
 			[51] = 1584545830,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [104]
+		}, -- [78]
 		{
 			"mid left", -- [1]
 			"Ezpzlemonsqz-Silvermoon", -- [2]
@@ -2332,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ezpzlemonsqz|r",
 			[51] = 1584545835,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [79]
 		{
 			"dyde", -- [1]
 			"Praerend-Silvermoon", -- [2]
@@ -2354,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPraerend|r",
 			[51] = 1584546064,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [106]
+		}, -- [80]
 		{
 			"doomsaye vathiris 49, 38", -- [1]
 			"Etendallia-Silvermoon", -- [2]
@@ -2376,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Etendallia|r",
 			[51] = 1584546231,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [81]
 		{
 			"quite a lot do have stealth detection", -- [1]
 			"Demonluuko-Silvermoon", -- [2]
@@ -2398,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonluuko|r",
 			[51] = 1584547196,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [82]
 		{
 			"not enough for it not to help", -- [1]
 			"Léiáh-Silvermoon", -- [2]
@@ -2420,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Léiáh|r",
 			[51] = 1584547208,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [109]
+		}, -- [83]
 		{
 			"having stealth I mean", -- [1]
 			"Léiáh-Silvermoon", -- [2]
@@ -2442,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Léiáh|r",
 			[51] = 1584547213,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [110]
+		}, -- [84]
 		{
 			"ofc it helps", -- [1]
 			"Demonluuko-Silvermoon", -- [2]
@@ -2464,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonluuko|r",
 			[51] = 1584547219,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [85]
 		{
 			"but its not big at all", -- [1]
 			"Demonluuko-Silvermoon", -- [2]
@@ -2486,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonluuko|r",
 			[51] = 1584547224,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [86]
 		{
 			"I mean my handicap is having a pet to tank it all for me so :shrug:", -- [1]
 			"Léiáh-Silvermoon", -- [2]
@@ -2508,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Léiáh|r",
 			[51] = 1584547240,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [113]
+		}, -- [87]
 		{
 			"WHAT THE !@#$ VISION LAG", -- [1]
 			"Tanculnostru-Silvermoon", -- [2]
@@ -2530,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Tanculnostru|r",
 			[51] = 1584547249,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [88]
 		{
 			"dismiss pet, use mount to next zone. feign death skip everything lel", -- [1]
 			"Mesara-Silvermoon", -- [2]
@@ -2552,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Mesara|r",
 			[51] = 1584547251,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [89]
 		{
 			"just use camouflage", -- [1]
 			"Demonluuko-Silvermoon", -- [2]
@@ -2574,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonluuko|r",
 			[51] = 1584547264,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [90]
 		{
 			"Lol true but I don't struggle anyways", -- [1]
 			"Léiáh-Silvermoon", -- [2]
@@ -2596,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Léiáh|r",
 			[51] = 1584547283,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [91]
 		{
 			"I kill everything for extra memento", -- [1]
 			"Léiáh-Silvermoon", -- [2]
@@ -2618,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Léiáh|r",
 			[51] = 1584547302,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [92]
 		{
 			"memento kek", -- [1]
 			"Remany-Silvermoon", -- [2]
@@ -2640,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Remany|r",
 			[51] = 1584547314,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [93]
 		{
 			"not worth once you fully upgraded the console though", -- [1]
 			"Anzyll-Silvermoon", -- [2]
@@ -2662,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecAnzyll|r",
 			[51] = 1584547327,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [94]
 		{
 			"izi sockets", -- [1]
 			"Léiáh-Silvermoon", -- [2]
@@ -2684,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Léiáh|r",
 			[51] = 1584547330,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [95]
 		{
 			"for sockets", -- [1]
 			"Demonluuko-Silvermoon", -- [2]
@@ -2706,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Demonluuko|r",
 			[51] = 1584547331,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [96]
 		{
 			"the combination of haunting shadows and split personality actually tilts me", -- [1]
 			"Flerdi-Silvermoon", -- [2]
@@ -2728,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Flerdi|r",
 			[51] = 1584547338,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [97]
 		{
 			"i always get them at the same time", -- [1]
 			"Flerdi-Silvermoon", -- [2]
@@ -2750,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Flerdi|r",
 			[51] = 1584547358,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [98]
 		{
 			"|cffa335ee|Hitem:173462::::::::120:72::54:7:6412:6513:6578:6579:6550:1522:4786:::|h[Malignant Leviathan's Armguards]|h|r %^&*", -- [1]
 			"Ewynax-Silvermoon", -- [2]
@@ -2772,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cEwynax|r",
 			[51] = 1584547364,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [99]
 		{
 			"yea flerdi", -- [1]
 			"Léiáh-Silvermoon", -- [2]
@@ -2794,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Léiáh|r",
 			[51] = 1584547389,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [100]
 		{
 			"made to be tilting", -- [1]
 			"Léiáh-Silvermoon", -- [2]
@@ -2815,6 +2243,578 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cffa9d271Léiáh|r",
 			[51] = 1584547404,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [101]
+		{
+			"Gallywix Community WTS |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r 12/12 HC Full Run Loot Shared!       ||M+ Key 10-21 In Time, Free Armor Stack||      PVP Arenas,    Visions,     Jaina Mount. ", -- [1]
+			"Nteriua-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nteriua-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			37, -- [11]
+			"Player-3391-0B05794D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cNteriua|r",
+			[51] = 1586759558,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [102]
+		{
+			"WTS |cffa335ee|Hitem:175004::::::::120:267::5:8:4823:1808:6578:6579:6566:6513:1502:4786:::|h[Legwraps of Horrifying Figments]|h|r", -- [1]
+			"Elanaaw-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Elanaaw-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			59, -- [11]
+			"Player-3391-068B57C4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecElanaaw|r",
+			[51] = 1586759579,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [103]
+		{
+			"selling M+ (10-19) Grouped Guaranted In time /[Ny'alotha, the Waking City] Full HC/Mechangon Mount [Aerial Unit R-21/X] / Vision Full Clear /Boost 110-120 [Freehold]/KeySton Master /Gold any Server", -- [1]
+			"Tokhmemush-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tokhmemush-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			439, -- [11]
+			"Player-3391-0A7C69E2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cTokhmemush|r",
+			[51] = 1588018352,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [104]
+		{
+			"WTB |cffa335ee|Hitem:175004::::::::120:267::5:8:4823:6578:6579:6476:6470:6513:1502:4786:::|h[Legwraps of Horrifying Figments]|h|r", -- [1]
+			"Daeken-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Daeken-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			440, -- [11]
+			"Player-3391-0B0A155E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecDaeken|r",
+			[51] = 1588018352,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [105]
+		{
+			"WTS Freehold LVL Boost 4k for PER LVL! ALL LOOT S YOURS FAST AND EASY LVL UP EXPERİENCE ,JUST /W ME ;)", -- [1]
+			"Ketoq-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ketoq-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			441, -- [11]
+			"Player-3391-0B0A4755", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Ketoq|r",
+			[51] = 1588018356,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [106]
+		{
+			"<Rising> Need a guild? Join Rising! We are new guild looking for members for our core raid team (12/12n 9/12hc)  but also social players to build a fun and friendly community ^^ pst me for more info.", -- [1]
+			"Ithîen-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ithîen-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			442, -- [11]
+			"Player-3391-0AC4AA36", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Ithîen|r",
+			[51] = 1588018356,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [107]
+		{
+			"<Wham Bam> is a newly founded guild looking for raiders to join our upcoming mythic progression team (Wed/Sun 8PM ST). We also welcome those wishing to raid heroic, as well as socials and M+.", -- [1]
+			"Carníe-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Carníe-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			443, -- [11]
+			"Player-3391-0AF32450", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Carníe|r",
+			[51] = 1588018361,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [108]
+		{
+			"<The Masked Ones> are recruiting to expand our team for social raiding & mythic+ while preparing for shadowlands. Also offering a new home for friendly socials. Discord Server available /w for more info or inv.", -- [1]
+			"Alloribelle-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alloribelle-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			444, -- [11]
+			"Player-3391-068B40F0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cAlloribelle|r",
+			[51] = 1588018361,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [109]
+		{
+			"WTS|cffa335ee|Hitem:175009::::::::120:102::6:8:4824:1808:6578:6579:6565:6513:1517:4786:::|h[Zealous Ritualist's Reverie]|h|r", -- [1]
+			"Nibblér-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nibblér-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			445, -- [11]
+			"Player-3391-0AC2421E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Nibblér|r",
+			[51] = 1588018363,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [110]
+		{
+			"[Gino's Mercenaries] WTS M+10-110k and M+15-260k! HC AND Mythic Ny'alotha full clear or only Curve + Mount! Horrific Visions. Jaina Mount, Legacy Raids. PvP boosts, FH boosts and much more! Throw in a quick whisper for more information and offers!", -- [1]
+			"Gorfells-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gorfells-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			446, -- [11]
+			"Player-3391-0A9962E5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcGorfells|r",
+			[51] = 1588018363,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [111]
+		{
+			"WTS boost <Carapace of Nzoth> and <Nzoth The Corruptor> Heroic . Every 30 min ! Gold Only ! Get mount curve and chance on 470 loot / We have traders for all of loots / Fast Smooth and Cherry", -- [1]
+			"Criipto-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Criipto-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			448, -- [11]
+			"Player-3391-0B041587", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecCriipto|r",
+			[51] = 1588018367,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			"The gallywix community ---- Mythic + DEAL UNTIL RESET {+11 = 130k} {+14 =195k} {+15 = 275k} We also sell all other level keys /w me for more info", -- [1]
+			"Gwixgarrs-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gwixgarrs-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			449, -- [11]
+			"Player-3391-0B05323D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Gwixgarrs|r",
+			[51] = 1588018367,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"Hello person! Look at your guild. Now look at mine. Back to yours. Now back to mine.Sadly you're not in mine. But if you stopped joining inactive or toxic guilds and switched to FTC, you could be! - I'm on a mount :D", -- [1]
+			"Punzilla-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Punzilla-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			450, -- [11]
+			"Player-3391-098834FD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefePunzilla|r",
+			[51] = 1588018367,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"WTS R2 Infinite Star + Socket |cffa335ee|Hitem:175007::::::::115:63:::9:40:1502:1808:4786:4823:6513:6553:6578:6579:::|h[Footpads of Terrible Delusions]|h|r 650k // |cffa335ee|Hitem:175005::::::::115:63:::8:1502:4786:4823:6462:6475:6515:6578:6579:::|h[Belt of Concealed Intent]|h|r 240k", -- [1]
+			"Chromîe-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Chromîe-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			454, -- [11]
+			"Player-3391-0982DC86", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Chromîe|r",
+			[51] = 1588018367,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"[WTS] 110-120  Leveling  boost  |cff66bbff|Hjournal:0:1001:1|h[Freehold]|h|r   [5 Min Per Level]   /  horrific vision 1-5 mask   (only gold)  Whisper Me For More Info  !!! ", -- [1]
+			"Animador-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Animador-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			548, -- [11]
+			"Player-3391-0A637FF1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Animador|r",
+			[51] = 1588018550,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"<Final Revelations> is seeking Healers for Mythic progression (Hpala, Monk, Priest)  || 12/12H || 3/12M || Join a fun, but competitive, atmosphere! || Wed (20-22) & Fri (20-23) (servertime) || Whisper for more information!", -- [1]
+			"Xîva-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xîva-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			556, -- [11]
+			"Player-3391-0AD4473B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Xîva|r",
+			[51] = 1588018556,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"WTS Arena boost /w me ", -- [1]
+			"Vasirion-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vasirion-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			557, -- [11]
+			"Player-3391-08C363C4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Vasirion|r",
+			[51] = 1588018556,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"(SBS) Selling>>||+10/100k +12/140K ,+15/250k with FREE ARMOR STACK Get your weekly 475 item!  || Horrific Vision's FULL CLEAR 90k ONLY || Freehold lvl boost only 8k per lvl... ||", -- [1]
+			"Xêrneas-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xêrneas-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			561, -- [11]
+			"Player-3391-0ACA41F6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Xêrneas|r",
+			[51] = 1588018557,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"-->  WTS M+10 key BOOST, CHEAP DEAL~ALL LOOT YOURS~!! Team ready to go,  /W", -- [1]
+			"Boschetuman-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Boschetuman-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			563, -- [11]
+			"Player-3391-07D0C60C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeBoschetuman|r",
+			[51] = 1588018559,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"WTS Freehold LVL Boost 4k for PER LVL! ALL LOOT S YOURS FAST AND EASY LVL UP EXPERİENCE ,JUST /W ME ;)(FASTEST BOOST)", -- [1]
+			"Ketoq-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ketoq-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			566, -- [11]
+			"Player-3391-0B0A4755", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Ketoq|r",
+			[51] = 1588018560,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"WTS Dungeon Mythic 14+ My key for weekly chest, really cheep, only 80k gold. Take your 465 item lvl |cffa335ee|Hkeystone:158923:252:14:9:11:4:120|h[Keystone: Shrine of the Storm (14)]|h|r", -- [1]
+			"Swetnes-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Swetnes-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			570, -- [11]
+			"Player-3391-0AE9AE2B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Swetnes|r",
+			[51] = 1588018564,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"WTS boost <Carapace of Nzoth> and <Nzoth The Corruptor> Heroic . Every 30 min ! Gold Only ! Get mount curve and chance on 470 loot / We have traders for all of loots / Fast Smooth and Cherry", -- [1]
+			"Criipto-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Criipto-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			571, -- [11]
+			"Player-3391-0B041587", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecCriipto|r",
+			[51] = 1588018564,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"WTS Freehold boost , 10-15 intime all tradable loot is yours) Boosting team is ready /w me", -- [1]
+			"Crinell-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Crinell-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			575, -- [11]
+			"Player-3391-0ACC6EE8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Crinell|r",
+			[51] = 1588018567,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"Sylvanas Community|| Selling boost Mythic+10-20 ||M+10 115k||M+15 260k|| armor stack , specific keys available at your request guaranteed in time and all loot yours also selling lvling , visions(recruiting boosters) /w me for more info", -- [1]
+			"Emator-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Emator-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			576, -- [11]
+			"Player-3391-0B115C34", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcEmator|r",
+			[51] = 1588018568,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"WTS |cff0070dd|Hitem:9385::::::::1:259::::::|h[Archaic Defender]|h|r/W ME! 20k ", -- [1]
+			"Schuldtbank-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Schuldtbank-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			579, -- [11]
+			"Player-3391-09AD6F7C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Schuldtbank|r",
+			[51] = 1588018570,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"Wts Cheap M8-15+ Get your 465+ gear and 475+ in weekly! :) Shared loot! Free stack leather/plate", -- [1]
+			"Aphelíos-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aphelíos-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			580, -- [11]
+			"Player-3391-0AC5C785", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Aphelíos|r",
+			[51] = 1588018570,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},

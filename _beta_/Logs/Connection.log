@@ -1,0 +1,36 @@
+4/28 11:01:19.795  Connection Initialize
+4/28 11:01:25.152  Glue Start Login
+4/28 11:01:25.153  BattleNet Attempt Logon
+4/28 11:01:25.911  BattleNet Front Connected
+4/28 11:01:26.371  BattleNet Logon Queue Update
+4/28 11:01:27.151  BattleNet Logon Complete
+4/28 11:01:27.362  BattleNet Game Account Name
+4/28 11:01:27.741  BattleNet Game Account Name
+4/28 11:01:27.741  BattleNet Game Account Name
+4/28 11:01:27.741  BattleNet Attempt Complete Login
+4/28 11:01:28.161  BattleNet Realm List Ticket
+4/28 11:01:28.371  BattleNet Sub Region List
+4/28 11:01:28.822  BattleNet Last Played Char
+4/28 11:01:28.881  BattleNet Last Played Char
+4/28 11:01:28.881  BattleNet Last Played Char
+4/28 11:01:28.881  BattleNet Last Played Char
+4/28 11:01:28.881  BattleNet Last Played Char
+4/28 11:01:28.931  BattleNet Last Played Char
+4/28 11:01:28.931  BattleNet Join Realm
+4/28 11:01:29.242  BattleNet Realm Join
+4/28 11:01:29.242  Change Connection
+4/28 11:01:29.242  Connect
+4/28 11:01:29.411  Handle Connect
+4/28 11:01:32.675  Handle Auth Response: 0
+4/28 11:01:32.675  Glue Authed To WoW: 0
+4/28 11:01:33.172  BattleNet Connected To Realm
+4/28 11:01:33.172  BattleNet Front Disconnecting
+4/28 11:01:33.210  Handle Char Enum
+4/28 11:01:33.575  Handle Char Enum
+4/28 11:01:33.575  BattleNet Front Disconnected
+4/28 11:02:07.676  Handle Logout Response: 0
+4/28 11:02:27.918  Handle Logout Complete
+4/28 11:02:28.764  Handle Char Enum
+4/28 11:14:20.573  Handle Logout Response: 0
+4/28 11:14:21.959  Disconnect: 13
+4/28 11:14:21.959  Connection Destroy

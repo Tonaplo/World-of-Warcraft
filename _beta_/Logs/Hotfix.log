@@ -1,0 +1,376 @@
+4/28 11:01:21.658  ---- Startup ----
+4/28 11:01:33.172  ---- ClientAvailableHotfixes ----
+4/28 11:01:33.172      56470, ModifierTree
+4/28 11:01:33.172      56470, ModifierTree
+4/28 11:01:33.172      56470, SpellEffect
+4/28 11:01:33.172      56470, ModifierTree
+4/28 11:01:33.172      56470, PlayerCondition
+4/28 11:01:33.172      56470, BroadcastText
+4/28 11:01:33.172      56480, LFGDungeons
+4/28 11:01:33.172      56481, SpellCastingRequirements
+4/28 11:01:33.172      56481, PlayerCondition
+4/28 11:01:33.172      56481, Spell
+4/28 11:01:33.172      56481, SpellName
+4/28 11:01:33.172      56481, Phase
+4/28 11:01:33.172      56482, ModifierTree
+4/28 11:01:33.172      56486, SpellEffect
+4/28 11:01:33.172      56486, SpellScript
+4/28 11:01:33.172      56486, AreaTriggerCreateProperties
+4/28 11:01:33.172      56486, SpellEffect
+4/28 11:01:33.172      56486, Spell
+4/28 11:01:33.172      56486, SpellName
+4/28 11:01:33.172      56486, PlayerCondition
+4/28 11:01:33.172      56486, SpellScript
+4/28 11:01:33.172      56486, SpellEffect
+4/28 11:01:33.172      56486, AreaTriggerBox
+4/28 11:01:33.172      56486, WorldStateExpression
+4/28 11:01:33.172      56486, AreaTriggerActionSet
+4/28 11:01:33.172      56486, SpellMisc
+4/28 11:01:33.172      56486, SpellEffect
+4/28 11:01:33.172      56486, SpellEffect
+4/28 11:01:33.172  ---- UserClientHotfixRequest ----
+4/28 11:01:33.172      56470, PlayerCondition
+4/28 11:01:33.172      56470, BroadcastText
+4/28 11:01:33.172      56481, PlayerCondition
+4/28 11:01:33.172      56486, SpellEffect
+4/28 11:01:33.172      56486, SpellScript
+4/28 11:01:33.172      56486, AreaTriggerCreateProperties
+4/28 11:01:33.172      56486, SpellEffect
+4/28 11:01:33.172      56486, SpellScript
+4/28 11:01:33.172      56486, SpellEffect
+4/28 11:01:33.172      56486, AreaTriggerBox
+4/28 11:01:33.172      56486, SpellEffect
+4/28 11:01:33.570  ---- ApplyingHotfixes from Cache ----
+4/28 11:01:33.570  	56470 Table SpellEffect RecID 822305 valid
+4/28 11:01:33.570  	56470 Table ModifierTree RecID 137680 valid
+4/28 11:01:33.570  	56470 Table ModifierTree RecID 137678 valid
+4/28 11:01:33.570  	56470 Table ModifierTree RecID 137679 valid
+4/28 11:01:33.570  	56480 Table LFGDungeons RecID 2074 valid
+4/28 11:01:33.570  	56481 Table Spell RecID 323340 valid
+4/28 11:01:33.570  	56481 Table SpellName RecID 323340 valid
+4/28 11:01:33.570  	56481 Table SpellCastingRequirements RecID 139016 valid
+4/28 11:01:33.570  	56481 Table Phase RecID 15793 valid
+4/28 11:01:33.570  	56482 Table ModifierTree RecID 135702 valid
+4/28 11:01:33.570  	56486 Table Spell RecID 330262 valid
+4/28 11:01:33.570  	56486 Table SpellName RecID 330262 valid
+4/28 11:01:33.570  	56486 Table PlayerCondition RecID 80879 valid
+4/28 11:01:33.570  	56486 Table WorldStateExpression RecID 31968 valid
+4/28 11:01:33.570  	56486 Table AreaTriggerActionSet RecID 24430 valid
+4/28 11:01:33.570  	56486 Table SpellMisc RecID 404907 valid
+4/28 11:01:33.570  	56486 Table SpellEffect RecID 823841 valid
+4/28 11:01:33.570  ---- ApplyingHotfixes from Server ----
+4/28 11:01:33.570  	56470 Table PlayerCondition RecID 80780 invalid
+4/28 11:01:33.570  	56470 Table BroadcastText RecID 198783 invalid
+4/28 11:01:33.570  	56481 Table PlayerCondition RecID 80828 invalid
+4/28 11:01:33.570  	56486 Table SpellEffect RecID 823842 invalid
+4/28 11:01:33.570  	56486 Table SpellScript RecID 61408 invalid
+4/28 11:01:33.570  	56486 Table AreaTriggerCreateProperties RecID 20548 invalid
+4/28 11:01:33.570  	56486 Table SpellEffect RecID 823860 invalid
+4/28 11:01:33.570  	56486 Table SpellScript RecID 61410 invalid
+4/28 11:01:33.570  	56486 Table SpellEffect RecID 823861 invalid
+4/28 11:01:33.570  	56486 Table AreaTriggerBox RecID 2338 invalid
+4/28 11:01:33.570  	56486 Table SpellEffect RecID 823859 invalid
+4/28 11:01:33.575  ---- Done applying initial hotfixes ----
+4/28 11:01:34.241  	DBReply Table TactKey RecID 303 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 229 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 272 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 295 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 73 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 260 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 300 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 286 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 298 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 113 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 304 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 251 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 112 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 232 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 95 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 109 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 243 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 301 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 230 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 259 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 261 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 297 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 234 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 302 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 111 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 287 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 285 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 110 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 249 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 108 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 296 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 107 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 104 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 231 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 299 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 290 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 288 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 278 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 68 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 284 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 246 invalid
+4/28 11:01:34.241  	DBReply Table TactKey RecID 237 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 303 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 272 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 300 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 286 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 298 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 113 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 304 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 251 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 112 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 109 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 301 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 259 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 297 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 234 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 302 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 111 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 285 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 110 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 249 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 108 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 107 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 299 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 290 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 288 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 278 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 284 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 246 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 229 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 237 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 72222 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 72230 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 163206 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 72231 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 72220 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 142360 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 72233 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 130194 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 72229 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 168836 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 72224 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 72227 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 72226 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 163565 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 72223 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 151377 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 163566 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 129045 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 72221 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 72225 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 72232 invalid
+4/28 11:01:44.890  	DBReply Table ItemSparse RecID 72228 invalid
+4/28 11:01:44.890  	DBReply Table Creature RecID 61708 invalid
+4/28 11:01:44.890  	DBReply Table Creature RecID 145133 invalid
+4/28 11:01:44.890  	DBReply Table Creature RecID 59216 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 295 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 73 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 260 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 232 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 95 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 243 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 230 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 261 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 287 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 296 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 104 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 231 invalid
+4/28 11:01:44.890  	DBReply Table TactKey RecID 68 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 303 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 272 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 300 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 286 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 298 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 113 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 304 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 251 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 112 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 109 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 229 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 295 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 73 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 260 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 232 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 95 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 72222 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 72230 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 163206 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 72231 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 72220 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 142360 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 72233 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 130194 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 72229 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 168836 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 72224 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 72227 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 72226 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 163565 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 72223 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 151377 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 163566 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 129045 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 72221 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 72225 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 72232 invalid
+4/28 11:02:40.474  	DBReply Table ItemSparse RecID 72228 invalid
+4/28 11:02:40.474  	DBReply Table Creature RecID 61708 invalid
+4/28 11:02:40.474  	DBReply Table Creature RecID 145133 invalid
+4/28 11:02:40.474  	DBReply Table Creature RecID 59216 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 301 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 259 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 297 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 234 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 302 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 111 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 285 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 110 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 249 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 108 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 107 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 299 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 290 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 288 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 278 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 284 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 246 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 237 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 243 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 230 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 261 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 287 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 296 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 104 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 231 invalid
+4/28 11:02:40.474  	DBReply Table TactKey RecID 68 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 303 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 272 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 300 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 286 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 298 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 113 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 304 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 251 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 112 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 109 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 301 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 259 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 297 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 234 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 302 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 111 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 285 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 110 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 249 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 108 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 107 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 299 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 290 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 288 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 278 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 284 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 246 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 237 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 229 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 295 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 73 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 260 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 232 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 95 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 243 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 230 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 261 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 287 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 296 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 104 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 231 invalid
+4/28 11:02:46.294  	DBReply Table TactKey RecID 68 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 303 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 272 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 300 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 286 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 298 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 113 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 304 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 251 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 112 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 109 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 301 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 259 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 297 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 234 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 302 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 111 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 285 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 110 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 249 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 108 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 107 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 299 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 290 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 288 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 278 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 284 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 246 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 229 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 295 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 73 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 260 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 232 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 95 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 243 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 230 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 261 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 287 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 296 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 104 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 231 invalid
+4/28 11:03:51.631  	DBReply Table TactKey RecID 68 invalid
+4/28 11:03:51.838  	DBReply Table TactKey RecID 237 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 303 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 272 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 300 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 286 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 298 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 113 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 304 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 251 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 112 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 109 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 301 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 259 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 297 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 234 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 302 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 111 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 285 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 110 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 249 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 108 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 107 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 299 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 290 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 288 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 278 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 284 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 246 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 237 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 229 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 295 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 73 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 260 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 232 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 95 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 243 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 230 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 261 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 287 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 296 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 104 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 231 invalid
+4/28 11:09:13.457  	DBReply Table TactKey RecID 68 invalid
+4/28 11:14:21.626  ---- Shutdown ----

@@ -303,6 +303,12 @@ L["Dungeons"] = "Donjons"
 L["Durability Damage"] = "Perte de durabilité"
 L["Durability Damage All"] = "Perte de durabilité sur tout"
 --[[Translation missing --]]
+L["Ease In"] = "Ease In"
+--[[Translation missing --]]
+L["Ease In and Out"] = "Ease In and Out"
+--[[Translation missing --]]
+L["Ease Out"] = "Ease Out"
+--[[Translation missing --]]
 L["Ebonroc"] = "Ebonroc"
 L["Edge"] = "Marge"
 --[[Translation missing --]]
@@ -377,6 +383,8 @@ L["Font Size"] = "Taille de Police"
 L["Foreground"] = "Premier plan"
 L["Foreground Color"] = "Couleur de Premier Plan"
 L["Form"] = "Forme"
+--[[Translation missing --]]
+L["Frame Selector"] = "Frame Selector"
 L["Frequency"] = "Fréquence"
 L["Friendly"] = "Amical"
 L["Friendly Fire"] = "Tir ami"
@@ -643,6 +651,8 @@ L["Officer"] = "Officier"
 L["Offset Timer"] = "Décalage de la durée"
 L["Older set IDs can be found on websites such as wowhead.com/item-sets"] = "Des ID de jeu plus anciennes peuvent être trouvés sur des sites Web tels que wowhead.com/item-sets"
 L["On Cooldown"] = "En recharge"
+--[[Translation missing --]]
+L["On Taxi"] = "On Taxi"
 --[[Translation missing --]]
 L["Only if BigWigs shows it on it's bar"] = "Only if BigWigs shows it on it's bar"
 --[[Translation missing --]]
@@ -1004,6 +1014,8 @@ L["Unit"] = "Unité"
 L["Unit Characteristics"] = "Caractéristique d'unité"
 L["Unit Destroyed"] = "Unité détruite"
 L["Unit Died"] = "Unité morte"
+--[[Translation missing --]]
+L["Unit Frame"] = "Unit Frame"
 L["Unit Frames"] = "Cadre d'unité"
 L["Unit is Unit"] = "L'unité est l'unité"
 L["Unit Name"] = "Nom de l'Unité"

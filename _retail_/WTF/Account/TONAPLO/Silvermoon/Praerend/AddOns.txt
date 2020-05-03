@@ -1,4 +1,4 @@
-AllTheThings: disabled
+AllTheThings: enabled
 AngryKeystones: enabled
 AngryWorldQuests: enabled
 Arh: disabled
@@ -74,3 +74,5 @@ ElvUI_EverySecondCounts: disabled
 ElvUI_AuraBarsMovers: disabled
 ElvUI_CustomTweaks: disabled
 WeakAurasArchive: enabled
+TomTom: enabled
+DailyToDo: disabled

@@ -17,3 +17,4 @@ LittleWigs: enabled
 ElvUI_OptionsUI: enabled
 HandyNotes: enabled
 HandyNotes_DraenorTreasures: enabled
+BigWigs_Azeroth: enabled
