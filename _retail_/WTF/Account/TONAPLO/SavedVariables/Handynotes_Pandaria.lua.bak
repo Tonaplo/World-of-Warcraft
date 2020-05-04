@@ -10,8 +10,8 @@ storedData = {
 		["always_show_rares"] = false,
 		["show_treasures"] = true,
 		["minimap_icons"] = true,
-		["show_special_rares"] = true,
-		["show_rares"] = false,
 		["icon_alpha"] = 1,
+		["show_rares"] = false,
+		["show_special_rares"] = true,
 	},
 }

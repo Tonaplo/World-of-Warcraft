@@ -1,8 +1,8 @@
 
 FI_SV_CONFIG = {
 	["Alerts"] = {
-		["sound"] = true,
 		["screen"] = true,
+		["sound"] = true,
 		["chat"] = true,
 	},
 	["Colors"] = {
@@ -24,26 +24,26 @@ FI_SV_CONFIG = {
 			0.8, -- [3]
 			"CCCCCC", -- [4]
 		},
-		["success"] = {
-			0, -- [1]
-			0.9, -- [2]
-			0, -- [3]
-			"00EE00", -- [4]
-		},
 		["progress"] = {
 			1, -- [1]
 			1, -- [2]
 			1, -- [3]
 			"FFFFFF", -- [4]
 		},
+		["success"] = {
+			0, -- [1]
+			0.9, -- [2]
+			0, -- [3]
+			"00EE00", -- [4]
+		},
 	},
-	["debug"] = false,
+	["version"] = 2.38,
 	["Tooltips"] = {
 		["button"] = true,
 		["currency"] = true,
 		["bar"] = true,
 	},
-	["version"] = 2.38,
+	["debug"] = false,
 }
 FI_SV_DATA = {
 	["Money"] = {

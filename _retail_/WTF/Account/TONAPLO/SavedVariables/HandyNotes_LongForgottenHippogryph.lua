@@ -1,37 +1,37 @@
 
 HandyNotes_LongForgottenHippogryphDB = {
 	["profileKeys"] = {
-		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
+		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
 		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
-		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
+		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Grommarg - Ragnaros"] = "Grommarg - Ragnaros",
-		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
+		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
-		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
+		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
 		["Thorlan - Silvermoon"] = "Thorlan - Silvermoon",
 		["Amranar - Silvermoon"] = "Amranar - Silvermoon",
-		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
+		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
 		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
 		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
-		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
-		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
+		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
+		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
 	},
 	["profiles"] = {
-		["Praerend - Silvermoon"] = {
+		["Kaldowrath - Silvermoon"] = {
 		},
 		["Thedodrouk - Silvermoon"] = {
 		},
-		["Burdett - Silvermoon"] = {
+		["Mallusof - Silvermoon"] = {
 		},
 		["Grommarg - Ragnaros"] = {
 		},
-		["Miriyam - Silvermoon"] = {
+		["Praerend - Silvermoon"] = {
 		},
 		["Faerand - Silvermoon"] = {
 		},
-		["Rahran - Silvermoon"] = {
+		["Korugen - Silvermoon"] = {
 		},
 		["Mallusof - Tichondrius"] = {
 		},
@@ -41,15 +41,15 @@ HandyNotes_LongForgottenHippogryphDB = {
 		},
 		["Amranar - Silvermoon"] = {
 		},
-		["Korugen - Silvermoon"] = {
+		["Rahran - Silvermoon"] = {
 		},
 		["Zearthan - Silvermoon"] = {
 		},
 		["Greyblood - Silvermoon"] = {
 		},
-		["Mallusof - Silvermoon"] = {
+		["Burdett - Silvermoon"] = {
 		},
-		["Kaldowrath - Silvermoon"] = {
+		["Miriyam - Silvermoon"] = {
 		},
 	},
 }

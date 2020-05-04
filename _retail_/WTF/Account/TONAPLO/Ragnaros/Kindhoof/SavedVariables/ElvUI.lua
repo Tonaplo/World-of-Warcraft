@@ -6,754 +6,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"|cffffd100|HclubFinder:ClubFinder-1-4166-3682-77645605|h[Guild: Pepes Liberation Front]|h|r is looking to expand to a 20m team. We're a casual raiding guild that aims at chill and banter filled raids 11/12HC. Mon-Thu, 19:45-22:30. PM for more info :)!", -- [1]
-			"Kwiggle-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kwiggle-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3601, -- [11]
-			"Player-3682-098D88F0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeKwiggle|r",
-			[51] = 1582494488,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"WTS |cffa335ee|Hitem:175004::::::::120:267::3:7:4822:6578:6579:6562:6515:1487:4786:::|h[Legwraps of Horrifying Figments]|h|r /W ME ", -- [1]
-			"Illegalx-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Illegalx-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3602, -- [11]
-			"Player-3682-09A29189", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8686ecIllegalx|r",
-			[51] = 1582494488,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"WTS |cffa335ee|Hitem:175007::::::::120:102::5:8:4823:41:6578:6579:6554:6513:1502:4786:::|h[Footpads of Terrible Delusions]|h|r", -- [1]
-			"Ratquille-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ratquille-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3626, -- [11]
-			"Player-3682-07201ADD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Ratquille|r",
-			[51] = 1582494876,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"<WTS> Mythic Keystone ||+6 =150k|| ||+10 =225k|| ||+12 275k|| ||+14 390k||  ||+15 =550k|| The Team is Ready to \"GO\"!! Tradeable items Yours.. If you want more Runs Good Priced with Discounted.. ", -- [1]
-			"Assasublaw-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Assasublaw-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3627, -- [11]
-			"Player-3682-099B3FA4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Assasublaw|r",
-			[51] = 1582494878,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"<The Analogic> is a social guild looking for more active  people to build up the ranks for M+ and later raid.All is welcome", -- [1]
-			"Anechí-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Anechí-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3628, -- [11]
-			"Player-3682-076D40F7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Anechí|r",
-			[51] = 1582494879,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"A Void Empire(12/12, 7/12H) újonnal alakult guild TGF-et hirdet Ranged DPS, heal, tank spotra. HC content fullclear után mythic raidre.Raidek: hétfő, szerda 20:00-23:00. Amit elvárunk: 440 ilvl, karaktered ismerete, 75 neck.", -- [1]
-			"Csuszi-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Csuszi-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3629, -- [11]
-			"Player-3682-07A0BA3D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcCsuszi|r",
-			[51] = 1582494887,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"WTS Secret Mount |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r Also Selling Pvp Achievment : |cffffff00|Hachievement:14191:Player-3682-09AF65F3:1:1:16:20:0:0:0:0|h[Servant of N'Zoth]|h|r /w me and let me know which one you want", -- [1]
-			"Wmsecrett-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Wmsecrett-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3630, -- [11]
-			"Player-3682-09B062F9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cWmsecrett|r",
-			[51] = 1582494891,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"WTS Mythic +6 - +15 carry for gold only. Full guild group with various keys! LOW PRICE! ARMOR STACK!", -- [1]
-			"Keykong-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Keykong-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3637, -- [11]
-			"Player-3682-091995E3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cKeykong|r",
-			[51] = 1582494915,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"<SYLVANAS> SELLING keystone mythic +10 with loot at 240k (2key = free armor stack )  || 5x8 = 750k || +12 360k || +15 only at 550k || |cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r||lvling and more .. pvp boost /w me for info.", -- [1]
-			"Samurana-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Samurana-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3645, -- [11]
-			"Player-3682-09A22357", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe95Samurana|r",
-			[51] = 1582494942,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"Cloud Boosting Community WTS// +10 250kTimed // +14 390kTimed//+15 530k Weekly Can be timed for higer price.", -- [1]
-			"Dornwarr-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dornwarr-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3654, -- [11]
-			"Player-3682-093B4BE8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cDornwarr|r",
-			[51] = 1582494944,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"<Oblivion Boost> Selling HC Carpace 125k Nzoth 275k (375k both) Get|cffffff00|Hachievement:14068:Player-3682-09B0C382:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r achievement  and have the chance at 470 personal loot+Uncorrupted Voidwing! /w  ", -- [1]
-			"Oblijessica-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Oblijessica-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3657, -- [11]
-			"Player-3682-09B0C382", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Oblijessica|r",
-			[51] = 1582494944,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"WTS |cffa335ee|Hitem:175004::::::::120:63::6:7:4824:6578:6579:6561:6515:1517:4786:::|h[Legwraps of Horrifying Figments]|h|r 340k", -- [1]
-			"Nelya-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nelya-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3658, -- [11]
-			"Player-3682-09818E89", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Nelya|r",
-			[51] = 1582494945,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"<Dark Omen> are looking players for HC progression All welcome ( 9/12 HC) Ny'alotha |cffffd100|HclubFinder:ClubFinder-1-7893-3682-44582608|h[Guild: Dark Omen]|h|r. Raid days are Thur/Sun/Tue 20:00-23:00. /w for more info!", -- [1]
-			"Tashigi-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tashigi-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3659, -- [11]
-			"Player-3682-05C4EFB8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Tashigi|r",
-			[51] = 1582494953,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"<WTS> Mythic Keystone ||+6 =150k|| ||+10 =225k|| ||+12 275k|| ||+14 390k||  ||+15 =550k|| The Team is Ready to \"GO\"!! Tradeable items Yours.. If you want more Runs Good Priced with Discounted.. ", -- [1]
-			"Assasublaw-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Assasublaw-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3662, -- [11]
-			"Player-3682-099B3FA4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Assasublaw|r",
-			[51] = 1582494968,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"WTS Secret Mount |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r Also Selling Pvp Achievment : |cffffff00|Hachievement:14191:Player-3682-09AF65F3:1:1:16:20:0:0:0:0|h[Servant of N'Zoth]|h|r /w me and let me know which one you want", -- [1]
-			"Wmsecrett-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Wmsecrett-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3689, -- [11]
-			"Player-3682-09B062F9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cWmsecrett|r",
-			[51] = 1582495192,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"WTS |cffa335ee|Hitem:175007::::::::120:102::5:8:4823:41:6578:6579:6554:6513:1502:4786:::|h[Footpads of Terrible Delusions]|h|r", -- [1]
-			"Ratquille-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ratquille-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3690, -- [11]
-			"Player-3682-07201ADD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Ratquille|r",
-			[51] = 1582495192,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"<Sylvanas Community> Selling /M+  6-17 / (x2 runs and get free armor stack) || +10 for 250k|| Buy +10 4x runs for 900k+ &Free armor stack|| /w for more info", -- [1]
-			"Yb-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Yb-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3691, -- [11]
-			"Player-3682-07513FE8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeYb|r",
-			[51] = 1582495192,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"Cloud Boosting Community WTS// +10 250kTimed // +14 390kTimed//+15 530k Weekly Can be timed for higer price.", -- [1]
-			"Dornwarr-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dornwarr-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3692, -- [11]
-			"Player-3682-093B4BE8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cDornwarr|r",
-			[51] = 1582495199,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"<SYLVANAS> SELLING keystone mythic +10 with loot at 240k (2key = free armor stack )  || 5x8 = 750k || +12 360k || +15 only at 550k || |cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r||lvling and more .. pvp boost /w me for info.", -- [1]
-			"Samurana-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Samurana-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3693, -- [11]
-			"Player-3682-09A22357", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe95Samurana|r",
-			[51] = 1582495214,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"<The Dark Phoenix> klán (NYA 12/12Hc, 2/12M) TGF-et hirdet,BM monk, Prot pala és SH priest számára, viszont minden jó DPS-t meghallgatunk. A klán célja főként Ny'alotha mythic progress. További infóért írj, vagy: https://thedarkphoenix.hu/", -- [1]
-			"Éra-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Éra-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3695, -- [11]
-			"Player-3682-06ED79ED", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeÉra|r",
-			[51] = 1582495224,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"WTS Mythic +6 - +15 carry for gold only. Full guild group with various keys! LOW PRICE! ARMOR STACK!", -- [1]
-			"Keykong-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Keykong-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3697, -- [11]
-			"Player-3682-091995E3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cKeykong|r",
-			[51] = 1582495230,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"<Sylvanas Community> Selling /M+  6-17 / (x2 runs and get free armor stack) || +10 for 250k|| Buy +10 4x runs for 900k+ &Free armor stack|| /w for more info", -- [1]
-			"Yb-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Yb-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3699, -- [11]
-			"Player-3682-07513FE8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeYb|r",
-			[51] = 1582495248,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"<Oblivion Boost> Selling HC Carpace 125k Nzoth 275k (375k both) Get|cffffff00|Hachievement:14068:Player-3682-09B0C382:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r achievement  and have the chance at 470 personal loot+Uncorrupted Voidwing! /w  ", -- [1]
-			"Oblijessica-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Oblijessica-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3712, -- [11]
-			"Player-3682-09B0C382", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Oblijessica|r",
-			[51] = 1582495421,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"<The Analogic> is a social guild looking for more active  people to build up the ranks for M+ and later raid.All is welcome", -- [1]
-			"Anechí-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Anechí-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3713, -- [11]
-			"Player-3682-076D40F7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Anechí|r",
-			[51] = 1582495421,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"<Dark Omen> are looking players for HC progression All welcome ( 9/12 HC) Ny'alotha |cffffd100|HclubFinder:ClubFinder-1-7893-3682-44582608|h[Guild: Dark Omen]|h|r. Raid days are Thur/Sun/Tue 20:00-23:00. /w for more info!", -- [1]
-			"Moosted-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Moosted-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3714, -- [11]
-			"Player-3682-08812773", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe95Moosted|r",
-			[51] = 1582495432,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"WTS |cffa335ee|Hitem:175007::::::::120:102::5:8:4823:41:6578:6579:6554:6513:1502:4786:::|h[Footpads of Terrible Delusions]|h|r", -- [1]
-			"Ratquille-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ratquille-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3715, -- [11]
-			"Player-3682-07201ADD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Ratquille|r",
-			[51] = 1582495440,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"<SYLVANAS> SELLING keystone mythic +10 with loot at 240k (2key = free armor stack )  || 5x8 = 750k || +12 360k || +15 only at 550k || |cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r||lvling and more .. pvp boost /w me for info.", -- [1]
-			"Samurana-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Samurana-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3717, -- [11]
-			"Player-3682-09A22357", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe95Samurana|r",
-			[51] = 1582495454,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"WTS Mythic +6 - +15 carry for gold only. Full guild group with various keys! LOW PRICE! ARMOR STACK!", -- [1]
-			"Keykong-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Keykong-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3718, -- [11]
-			"Player-3682-091995E3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cKeykong|r",
-			[51] = 1582495456,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"<The Analogic> is a social guild looking for more active  people to build up the ranks for M+ and later raid.All is welcome", -- [1]
-			"Anechí-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Anechí-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3727, -- [11]
-			"Player-3682-076D40F7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Anechí|r",
-			[51] = 1582495511,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			"WTB |cffa335ee|Hitem:175006::::::::120:251::5:7:4823:6578:6579:6538:6513:1502:4786:::|h[Gauntlets of Nightmare Manifest]|h|r or higher /w me ", -- [1]
-			"Azazazdk-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Azazazdk-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3729, -- [11]
-			"Player-3682-0845B89F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Azazazdk|r",
-			[51] = 1582495515,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
-		{
-			"<Sylvanas Community> Selling /M+  6-17 / (x2 runs and get free armor stack) || +10 for 250k|| Buy +10 4x runs for 900k+ &Free armor stack|| /w for more info", -- [1]
-			"Yb-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Yb-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3730, -- [11]
-			"Player-3682-07513FE8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeYb|r",
-			[51] = 1582495515,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
-		{
-			"<SYLVANAS> SELLING keystone mythic +10 with loot at 240k (2key = free armor stack )  || 5x8 = 750k || +12 360k || +15 only at 550k || |cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r||lvling and more .. pvp boost /w me for info.", -- [1]
-			"Samurana-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Samurana-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3731, -- [11]
-			"Player-3682-09A22357", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe95Samurana|r",
-			[51] = 1582495517,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
-		{
-			"WTS Mythic +6 - +15 carry for gold only. Full guild group with various keys! LOW PRICE! ARMOR STACK!", -- [1]
-			"Keykong-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Keykong-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3732, -- [11]
-			"Player-3682-091995E3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cKeykong|r",
-			[51] = 1582495546,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
-		{
-			"WTS |cffa335ee|Hitem:175004::::::::120:63::6:7:4824:6578:6579:6561:6515:1517:4786:::|h[Legwraps of Horrifying Figments]|h|r 340k", -- [1]
-			"Vatreni-Ragnaros", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vatreni-Ragnaros", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3734, -- [11]
-			"Player-3682-09656701", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Vatreni|r",
-			[51] = 1582495551,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
-		{
 			"WTS |cffa335ee|Hitem:175007::::::::120:102::5:8:4823:41:6578:6579:6554:6513:1502:4786:::|h[Footpads of Terrible Delusions]|h|r", -- [1]
 			"Ratquille-Ragnaros", -- [2]
 			"", -- [3]
@@ -774,7 +26,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ratquille|r",
 			[51] = 1582495557,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [1]
 		{
 			"<Oblivion Boost> Selling HC Carpace 125k Nzoth 275k (375k both) Get|cffffff00|Hachievement:14068:Player-3682-09B0C382:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r achievement  and have the chance at 470 personal loot+Uncorrupted Voidwing! /w  ", -- [1]
 			"Oblijessica-Ragnaros", -- [2]
@@ -796,7 +48,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Oblijessica|r",
 			[51] = 1582495579,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [2]
 		{
 			"<The Analogic> a social guild looking for more active people to build up the ranks for M+ and Raids (1st this Wednesday-Normal). All is welcome", -- [1]
 			"Florax-Ragnaros", -- [2]
@@ -818,7 +70,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeFlorax|r",
 			[51] = 1582495585,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [3]
 		{
 			"WTS Secret Mount |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r Also Selling Pvp Achievment : |cffffff00|Hachievement:14191:Player-3682-09AF65F3:1:1:16:20:0:0:0:0|h[Servant of N'Zoth]|h|r /w me and let me know which one you want", -- [1]
 			"Wmsecrett-Ragnaros", -- [2]
@@ -840,7 +92,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWmsecrett|r",
 			[51] = 1582495592,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [4]
 		{
 			"WTS Mythic +6 - +15 carry for gold only. Full guild group with various keys! LOW PRICE! ARMOR STACK!", -- [1]
 			"Keykong-Ragnaros", -- [2]
@@ -862,7 +114,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKeykong|r",
 			[51] = 1582495637,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [5]
 		{
 			"<SYLVANAS> SELLING keystone mythic +10 with loot at 240k (2key = free armor stack )  || 5x8 = 750k || +12 360k || +15 only at 550k || |cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r||lvling and more .. pvp boost /w me for info.", -- [1]
 			"Samurana-Ragnaros", -- [2]
@@ -884,7 +136,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Samurana|r",
 			[51] = 1582495637,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [6]
 		{
 			"WTS |cffa335ee|Hitem:175004::::::::120:63::6:7:4824:6578:6579:6561:6515:1517:4786:::|h[Legwraps of Horrifying Figments]|h|r 340k", -- [1]
 			"Vatreni-Ragnaros", -- [2]
@@ -906,7 +158,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Vatreni|r",
 			[51] = 1582495648,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [7]
 		{
 			"<Oblivion Boost> Selling HC Carpace 125k Nzoth 275k (375k both) Get|cffffff00|Hachievement:14068:Player-3682-09B0C382:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r achievement  and have the chance at 470 personal loot+Uncorrupted Voidwing! /w  ", -- [1]
 			"Oblijessica-Ragnaros", -- [2]
@@ -928,7 +180,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Oblijessica|r",
 			[51] = 1582495671,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [8]
 		{
 			"<The Analogic> is a social guild looking for more active  people to build up the ranks for M+ and later raid.All is welcome", -- [1]
 			"Anechí-Ragnaros", -- [2]
@@ -950,7 +202,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Anechí|r",
 			[51] = 1582495671,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [9]
 		{
 			"WTS Secret Mount |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r Also Selling Pvp Achievment : |cffffff00|Hachievement:14191:Player-3682-09AF65F3:1:1:16:20:0:0:0:0|h[Servant of N'Zoth]|h|r /w me and let me know which one you want", -- [1]
 			"Wmsecrett-Ragnaros", -- [2]
@@ -972,7 +224,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWmsecrett|r",
 			[51] = 1582495671,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [10]
 		{
 			"<SYLVANAS> SELLING keystone mythic +10 with loot at 240k (2key = free armor stack )  || 5x8 = 750k || +12 360k || +15 only at 550k || |cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r||lvling and more .. pvp boost /w me for info.", -- [1]
 			"Samurana-Ragnaros", -- [2]
@@ -994,7 +246,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Samurana|r",
 			[51] = 1582495696,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [11]
 		{
 			"WTS |cffa335ee|Hitem:175007::::::::120:102::5:8:4823:41:6578:6579:6554:6513:1502:4786:::|h[Footpads of Terrible Delusions]|h|r", -- [1]
 			"Ratquille-Ragnaros", -- [2]
@@ -1016,7 +268,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ratquille|r",
 			[51] = 1582495706,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [12]
 		{
 			"WTS |cffa335ee|Hitem:175004::::::::120:63::6:7:4824:6578:6579:6561:6515:1517:4786:::|h[Legwraps of Horrifying Figments]|h|r 340k", -- [1]
 			"Vatreni-Ragnaros", -- [2]
@@ -1038,7 +290,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Vatreni|r",
 			[51] = 1582495717,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [13]
 		{
 			"WTS Mythic +6 - +15 carry for gold only. Full guild group with various keys! LOW PRICE! ARMOR STACK!", -- [1]
 			"Keykong-Ragnaros", -- [2]
@@ -1060,7 +312,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKeykong|r",
 			[51] = 1582495727,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [14]
 		{
 			"<Oblivion Boost> Selling HC Carpace 125k Nzoth 275k (375k both) Get|cffffff00|Hachievement:14068:Player-3682-09B0C382:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r achievement  and have the chance at 470 personal loot+Uncorrupted Voidwing! /w  ", -- [1]
 			"Oblijessica-Ragnaros", -- [2]
@@ -1082,7 +334,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Oblijessica|r",
 			[51] = 1582495738,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [15]
 		{
 			"<Sylvanas Community> Selling /M+  6-17 / (x2 runs and get free armor stack) || +10 for 250k|| Buy +10 4x runs for 900k+ &Free armor stack|| /w for more info", -- [1]
 			"Yb-Ragnaros", -- [2]
@@ -1104,7 +356,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeYb|r",
 			[51] = 1582495741,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [16]
 		{
 			"WTS Secret Mount |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r Also Selling Pvp Achievment : |cffffff00|Hachievement:14191:Player-3682-09AF65F3:1:1:16:20:0:0:0:0|h[Servant of N'Zoth]|h|r /w me and let me know which one you want", -- [1]
 			"Wmsecrett-Ragnaros", -- [2]
@@ -1126,7 +378,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWmsecrett|r",
 			[51] = 1582495742,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [17]
 		{
 			"<SYLVANAS> SELLING keystone mythic +10 with loot at 240k (2key = free armor stack )  || 5x8 = 750k || +12 360k || +15 only at 550k || |cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r||lvling and more .. pvp boost /w me for info.", -- [1]
 			"Samurana-Ragnaros", -- [2]
@@ -1148,7 +400,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Samurana|r",
 			[51] = 1582495765,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [18]
 		{
 			"WTS |cffa335ee|Hitem:175004::::::::120:63::6:7:4824:6578:6579:6561:6515:1517:4786:::|h[Legwraps of Horrifying Figments]|h|r 340k", -- [1]
 			"Vatreni-Ragnaros", -- [2]
@@ -1170,7 +422,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Vatreni|r",
 			[51] = 1582495794,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [19]
 		{
 			"<NOVA> SUNDAY DEALS - M+5 up to M+19 [M+15 450k! / 700k INTIME!] Armor stacking and specific key possible! ALL LOOT IS YOURS! - 12/12 HC Ny'alotha [700k!] Personal Loot / Shared Loot / VIP spots! / Curve only [300k] /w me!", -- [1]
 			"Pépénova-Ragnaros", -- [2]
@@ -1192,7 +444,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPépénova|r",
 			[51] = 1582495796,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [20]
 		{
 			"WTS Secret Mount |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r Also Selling Pvp Achievment : |cffffff00|Hachievement:14191:Player-3682-09AF65F3:1:1:16:20:0:0:0:0|h[Servant of N'Zoth]|h|r /w me and let me know which one you want", -- [1]
 			"Wmsecrett-Ragnaros", -- [2]
@@ -1214,7 +466,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWmsecrett|r",
 			[51] = 1582495817,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [21]
 		{
 			"WTS Mythic +6 - +15 carry for gold only. Full guild group with various keys! LOW PRICE! ARMOR STACK!", -- [1]
 			"Keykong-Ragnaros", -- [2]
@@ -1236,7 +488,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKeykong|r",
 			[51] = 1582495817,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [22]
 		{
 			"<Oblivion Boost> Selling HC Carpace 125k Nzoth 275k (375k both) Get|cffffff00|Hachievement:14068:Player-3682-09B0C382:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r achievement  and have the chance at 470 personal loot+Uncorrupted Voidwing! /w  ", -- [1]
 			"Oblijessica-Ragnaros", -- [2]
@@ -1258,7 +510,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Oblijessica|r",
 			[51] = 1582495817,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [23]
 		{
 			"WTS Full Clear NWC Heroic Come Get your 460 Gear!Mount from|cffffff00|Hachievement:14146:Player-3682-09AA6AB9:0:0:0:-1:0:0:0:0|h[Glory of the Ny'alotha Raider]|h|r||Best Prices||PST", -- [1]
 			"Arashori-Ragnaros", -- [2]
@@ -1280,7 +532,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Arashori|r",
 			[51] = 1582495833,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [24]
 		{
 			"<The Analogic> a social guild looking for more active people to build up the ranks for M+ and Raids (1st this Wednesday-Normal). All is welcome", -- [1]
 			"Florax-Ragnaros", -- [2]
@@ -1302,7 +554,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeFlorax|r",
 			[51] = 1582495836,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [25]
 		{
 			"WTB |cff1eff00|Hitem:152510::::::::120:66::::::|h[Anchor Weed]|h|r|cffffffff|Hitem:152508::::::::120:66::::::|h[Winter's Kiss]|h|r", -- [1]
 			"Jillkan-Ragnaros", -- [2]
@@ -1324,7 +576,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Jillkan|r",
 			[51] = 1582495852,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [26]
 		{
 			"<Sylvanas Community> Selling /M+  6-17 / (x2 runs and get free armor stack) || +10 for 250k|| Buy +10 4x runs for 900k+ &Free armor stack|| /w for more info", -- [1]
 			"Yb-Ragnaros", -- [2]
@@ -1346,7 +598,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeYb|r",
 			[51] = 1582495852,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [27]
 		{
 			"WTS |cffa335ee|Hitem:175007::::::::120:102::5:8:4823:41:6578:6579:6554:6513:1502:4786:::|h[Footpads of Terrible Delusions]|h|r", -- [1]
 			"Ratquille-Ragnaros", -- [2]
@@ -1368,7 +620,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ratquille|r",
 			[51] = 1582497084,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [28]
 		{
 			"<Oblivion Boost> Selling HC Carpace 125k Nzoth 275k (375k both) Get|cffffff00|Hachievement:14068:Player-3682-09B0C382:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r achievement  and have the chance at 470 personal loot+Uncorrupted Voidwing! /w  ", -- [1]
 			"Oblijessica-Ragnaros", -- [2]
@@ -1390,7 +642,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Oblijessica|r",
 			[51] = 1582497089,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [29]
 		{
 			"<The Dark Phoenix> klán (NYA 12/12Hc, 2/12M) TGF-et hirdet,BM monk, Prot pala és SH priest számára, viszont minden jó DPS-t meghallgatunk. A klán célja főként Ny'alotha mythic progress. További infóért írj, vagy: https://thedarkphoenix.hu/", -- [1]
 			"Äleera-Ragnaros", -- [2]
@@ -1412,7 +664,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Äleera|r",
 			[51] = 1582497096,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [30]
 		{
 			"<SYLVANAS> SELLING keystone mythic +10 with loot at 240k (2key = free armor stack )  || 5x8 = 750k || +12 360k || +15 only at 550k || |cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r||lvling and more .. pvp boost /w me for info.", -- [1]
 			"Samurana-Ragnaros", -- [2]
@@ -1434,7 +686,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Samurana|r",
 			[51] = 1582497102,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [31]
 		{
 			"fury warrior 547 LF raid guild", -- [1]
 			"Mokrosh-Ragnaros", -- [2]
@@ -1456,7 +708,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMokrosh|r",
 			[51] = 1582839164,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [32]
 		{
 			"<Taverna> Selling Mythic +10/+15 Boost. [+12 300k][+14 425k][+15 500k] Also Mechagon Mount Run 250k. /w for inv get your item now", -- [1]
 			"Tavernay-Ragnaros", -- [2]
@@ -1478,7 +730,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTavernay|r",
 			[51] = 1582839172,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [33]
 		{
 			"WTS Freehold level boost 8k/lvl (15 min/level without rested and heirlooms)", -- [1]
 			"Jamarz-Ragnaros", -- [2]
@@ -1500,7 +752,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cJamarz|r",
 			[51] = 1582839175,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [34]
 		{
 			"<PRO BOOSTING - WTS +6-+19 Keys! +10 Only 250K! Buy 2x = FREE ARMOR STACKING! +15 (Weekly) = 550k. Jaina Mount/Nyalotha/Horific Visions and more! GOLD ONLY! >", -- [1]
 			"Seskasragn-Ragnaros", -- [2]
@@ -1522,7 +774,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Seskasragn|r",
 			[51] = 1582839176,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [35]
 		{
 			"WTS Mythic +10-15 dungeon boost for gold, 2.6k+ score 465+ team is waiting for you, we provide key, and we are ready now!", -- [1]
 			"Cukitree-Ragnaros", -- [2]
@@ -1544,7 +796,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Cukitree|r",
 			[51] = 1582839177,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [36]
 		{
 			"MYTHIC [+10=190K] [+12=235K][+14=360K] [+15=470K intime 650K] and +16-20 keys. Discount for multiple runs !  Get your 465-475 ilvl corrupted item from weekly chest ! Armor stack and specific key options. Also selling S4 KEYSTONE MASTER ACHI", -- [1]
 			"Raisand-Ragnaros", -- [2]
@@ -1566,7 +818,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Raisand|r",
 			[51] = 1582839179,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [37]
 		{
 			"WTS Secret Mount |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r Also Selling Pvp Achievment : The Alliance Slayer /w me and let me know which one you want ", -- [1]
 			"Ashidenn-Ragnaros", -- [2]
@@ -1588,7 +840,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAshidenn|r",
 			[51] = 1582839183,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [38]
 		{
 			"WTS Pvp Achiev |cffffff00|Hachievement:14191:Player-1084-08DF3EF0:1:1:16:20:0:0:0:0|h[Servant of N'Zoth]|h|r Reward is Title +Toy and Also selling Alliance Slayer , Fair price for gold and quick service.", -- [1]
 			"Ashidenn-Ragnaros", -- [2]
@@ -1610,7 +862,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAshidenn|r",
 			[51] = 1582839185,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [39]
 		{
 			"WTS Full Clear NWC Heroic Come Get your 460 Gear!Mount from|cffffff00|Hachievement:14146:Player-3682-09AA6AB9:0:0:0:-1:0:0:0:0|h[Glory of the Ny'alotha Raider]|h|r||Best Prices||PST", -- [1]
 			"Arashori-Ragnaros", -- [2]
@@ -1632,7 +884,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Arashori|r",
 			[51] = 1582839195,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [40]
 		{
 			"WTS Pvp Achiev |cffffff00|Hachievement:14191:Player-1084-08DF3EF0:1:1:16:20:0:0:0:0|h[Servant of N'Zoth]|h|r Reward is Title +Toy and Also selling Alliance Slayer , Fair price for gold and quick service.", -- [1]
 			"Ashidenn-Ragnaros", -- [2]
@@ -1654,7 +906,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAshidenn|r",
 			[51] = 1582839237,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [41]
 		{
 			"<SYLVANAS> SELLING keystone mythic +10 with loot at 250k (2key = free armor stack )  || 5x8 = 750k || +12 310k || +15 only at 550k || |cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r||lvling and more .. pvp boost /w me for info.", -- [1]
 			"Samurana-Ragnaros", -- [2]
@@ -1676,7 +928,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Samurana|r",
 			[51] = 1582839237,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [42]
 		{
 			"WTS Freehold level boost 8k/lvl (15 min/level without rested and heirlooms)", -- [1]
 			"Jamarz-Ragnaros", -- [2]
@@ -1698,7 +950,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cJamarz|r",
 			[51] = 1582839237,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [43]
 		{
 			"MYTHIC [+10=190K] [+12=235K][+14=360K] [+15=470K intime 650K] and +16-20 keys. Discount for multiple runs !  Get your 465-475 ilvl corrupted item from weekly chest ! Armor stack and specific key options. Also selling S4 KEYSTONE MASTER ACHI", -- [1]
 			"Raisand-Ragnaros", -- [2]
@@ -1720,7 +972,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Raisand|r",
 			[51] = 1582839237,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [44]
 		{
 			"<Taverna> Selling Mythic +10/+15 Boost. [+12 300k][+14 425k][+15 500k] Also Mechagon Mount Run 250k. /w for inv get your item now", -- [1]
 			"Tavernay-Ragnaros", -- [2]
@@ -1742,7 +994,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTavernay|r",
 			[51] = 1582839237,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [45]
 		{
 			"<Sylvanas Community> || M+ 6-17 || +10 for 250k || +15 for 500k||  || +12 for 315k|| HC raid with VIP slots || Mecha NM/HM with mount || FH leveling ||EP Mythic|| Jaina Mount! and now visions! Taking gold on every realm! /w for more info!", -- [1]
 			"Sylvbis-Ragnaros", -- [2]
@@ -1764,7 +1016,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSylvbis|r",
 			[51] = 1582839292,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [46]
 		{
 			"WTS Secret Mount |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r Also Selling Pvp Achievment : The Alliance Slayer /w me and let me know which one you want ", -- [1]
 			"Ashidenn-Ragnaros", -- [2]
@@ -1786,7 +1038,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAshidenn|r",
 			[51] = 1582839303,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [47]
 		{
 			"WTS Pvp Achiev |cffffff00|Hachievement:14191:Player-1084-08DF3EF0:1:1:16:20:0:0:0:0|h[Servant of N'Zoth]|h|r Reward is Title +Toy and Also selling Alliance Slayer , Fair price for gold and quick service.", -- [1]
 			"Ashidenn-Ragnaros", -- [2]
@@ -1808,7 +1060,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAshidenn|r",
 			[51] = 1582839305,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [48]
 		{
 			"<Taverna> Selling Mythic +10/+15 Boost. [+12 300k][+14 425k][+15 500k] Also Mechagon Mount Run 250k. /w for inv get your item now", -- [1]
 			"Tavernay-Ragnaros", -- [2]
@@ -1830,7 +1082,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTavernay|r",
 			[51] = 1582839307,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [49]
 		{
 			"WTS |cffa335ee|Hitem:175005::::::::120:63::5:9:4823:1808:6578:6579:6478:6462:6515:1502:4786:::|h[Belt of Concealed Intent]|h|r|cffa335ee|Hitem:175007::::::::120:63::5:7:4823:6578:6579:6552:6513:1502:4786:::|h[Footpads of Terrible Delusions]|h|r", -- [1]
 			"ßeronz-Ragnaros", -- [2]
@@ -1852,7 +1104,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9ßeronz|r",
 			[51] = 1582839311,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [50]
 		{
 			"WTS Full Clear NWC Heroic Come Get your 460 Gear!Mount from|cffffff00|Hachievement:14146:Player-3682-09AA6AB9:0:0:0:-1:0:0:0:0|h[Glory of the Ny'alotha Raider]|h|r||Best Prices||PST", -- [1]
 			"Arashori-Ragnaros", -- [2]
@@ -1874,7 +1126,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Arashori|r",
 			[51] = 1582839311,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [51]
 		{
 			"A  < Whelp Layed > PVE Guild általános TGF-et hírdet. N 11/12 HC 5/12. Elsősorban R. DPS-eket és Healt keresünk, de mindenkit meghallgatunk.Ha szeretnél jó hangulatban raidelni, írj bátran! ( Raidek: Szerda 20:00-23:00, Vasárnap: 19:00-22:00 )", -- [1]
 			"Unwaith-Ragnaros", -- [2]
@@ -1896,7 +1148,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Unwaith|r",
 			[51] = 1582839314,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [52]
 		{
 			"> Wm Community < WTS Glory|cffffff00|Hachievement:11180:Player-1084-08DF3EF0:1:10:12:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Legion Raider]|h|r Mount |cff71d5ff|Hspell:193007:0|h[Grove Defiler]|h|r Going 20:00 Realm Time /W me :)", -- [1]
 			"Ashidenn-Ragnaros", -- [2]
@@ -1918,7 +1170,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAshidenn|r",
 			[51] = 1585495734,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [53]
 		{
 			"|| <<W T S>> ||  [+15=295K INTIME]  [+14=205K INTIME]  [+12=155K INTIME]  and +16-20 keys. Discount for multiple runs !! Armor stack and specific key options. 5x15=1400K ! 5x14=950K ! 5x12=700K - - -Horrific Visions Normal or Masked..", -- [1]
 			"Assasublaw-Ragnaros", -- [2]
@@ -1940,7 +1192,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Assasublaw|r",
 			[51] = 1585495734,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [54]
 		{
 			"<iBoost Community> wts today 19:30 Full Heroic Nyalotha (Perso=500k/lootshare=650k) Also selling Mythic +10-20 intime || +10 = 120k || +12 = 160k || +15 = 300k /w me", -- [1]
 			"Voltboost-Ragnaros", -- [2]
@@ -1962,7 +1214,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVoltboost|r",
 			[51] = 1585495735,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [55]
 		{
 			"WTS fast lvling boost 110-120", -- [1]
 			"Beregond-Ragnaros", -- [2]
@@ -1984,7 +1236,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Beregond|r",
 			[51] = 1585495741,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [56]
 		{
 			"WTS M+ 10-18  FOR Cheap Price also selling  Level Up Boost [Freehold] (110-120) 4 min per run wis me for more info", -- [1]
 			"Loktharoghar-Ragnaros", -- [2]
@@ -2006,7 +1258,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLoktharoghar|r",
 			[51] = 1585495747,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [57]
 		{
 			"WTS Vision of Orgirmmar    Full Clear and with mask get your achive and 100% you get corrupted item wis me for more info", -- [1]
 			"Loktharoghar-Ragnaros", -- [2]
@@ -2028,7 +1280,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLoktharoghar|r",
 			[51] = 1585495747,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [58]
 		{
 			"Oblívion sells Nya'lotha the Waking City on Heroic for 650k with Lootshare. Next Run at 18:00! We also sell M+ 10-15 Runs with several Loot options and with intime guarantee! /w me for Pricing or to book a spot! =)", -- [1]
 			"Psykin-Ragnaros", -- [2]
@@ -2050,7 +1302,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecPsykin|r",
 			[51] = 1585495750,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [59]
 		{
 			"<Horrific Visions 5 MASK> - get your achievement and <GUARANTEED 470 CORRUPTION> whilst you AFK, best price in EU. 100% success rate. ZERO REQUIREMENTS to join! Gold only.", -- [1]
 			"Fivemaskgg-Ragnaros", -- [2]
@@ -2072,7 +1324,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cFivemaskgg|r",
 			[51] = 1585495750,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [60]
 		{
 			"The Gallywix Community WTS |cffffff00|Hachievement:14145:Player-3682-09BA1713:0:0:0:-1:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|r |cffffff00|Hachievement:14068:Player-3682-09BA1713:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r+Carapace |cffffff00|Hachievement:2092:Player-3682-09BA1713:0:0:0:-1:0:0:0:0|h[Duelist]|h|r  12/12 HC & Mythic clear by top 10 guilds & VIP spots || M+ lvl 10-21 in time || Jaina/Azshara/Vision/Coaching ", -- [1]
 			"Ayakiza-Ragnaros", -- [2]
@@ -2094,7 +1346,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAyakiza|r",
 			[51] = 1585495752,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [61]
 		{
 			"Gallywix Community || WTS >>|cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r << 12/12hc=600k PL || Going 19:00 ST || VIP SLOTS AVAILABLE!l  ||  CARAPACE+N'ZOTH= 270K! Every 45 min! || /w me for questions or to book.", -- [1]
 			"Nimabiie-Ragnaros", -- [2]
@@ -2116,7 +1368,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Nimabiie|r",
 			[51] = 1585495759,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [62]
 		{
 			"<NOVA> ONLY 150K! [Ahead of the Curve: N'Zoth the Corruptor] Going from 17:30 to 19:00! Book a spot for 150k! Also M+ Selling [+10 - 120k || +15 - 300k!] Armor Stacks are FREE /w me!", -- [1]
 			"Novaboy-Ragnaros", -- [2]
@@ -2138,7 +1390,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Novaboy|r",
 			[51] = 1585495763,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [63]
 		{
 			"WTS |cffa335ee|Hitem:175007::::::::120:63::6:9:4824:42:6578:6579:6439:6470:6515:1517:4786:::|h[Footpads of Terrible Delusions]|h|r 380K!", -- [1]
 			"Lylah-Ragnaros", -- [2]
@@ -2160,7 +1412,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Lylah|r",
 			[51] = 1588021789,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [64]
 		{
 			"<SYLVANAS COMMUNITY> (FREE ARMOR STACK FOR ALL KEYS) WTS m+15 intime for only 260k ||m+10 at 115k  || m+11=130k ||+12=150k || +14= 200k||   ||5x10=500  5x11=570k  5x14=900k   3x15=740k // discount if you take 3x or 5x runs / KEYSTONE MASTER S4 2.8M", -- [1]
 			"Alphat-Ragnaros", -- [2]
@@ -2182,7 +1434,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Alphat|r",
 			[51] = 1588021789,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [99]
+		}, -- [65]
 		{
 			"<Deal With It-Twisting Nether> 12/12M  WR:54 selling HC N'Zoth. Get|cffffff00|Hachievement:14068:Player-1305-0A3CBDCE:1:1:26:20:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r now! We accept gold all realms.", -- [1]
 			"Ludwboost-Ragnaros", -- [2]
@@ -2204,7 +1456,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcLudwboost|r",
 			[51] = 1588021790,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [100]
+		}, -- [66]
 		{
 			"<NOVA Community> Free Armor Stack! Intime Guaranteed Dungeons! ||+15=260k|| ||+14=170k|| ||5x11=495k|| ||5x14=760k|| <Visions> /w for more", -- [1]
 			"Jeffnova-Ragnaros", -- [2]
@@ -2226,7 +1478,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Jeffnova|r",
 			[51] = 1588021790,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [101]
+		}, -- [67]
 		{
 			"WTS Mythic +10 - +16 carry for gold only. Full guild group with various keys! LOW PRICE! ARMOR STACK!", -- [1]
 			"Keykongtwo-Ragnaros", -- [2]
@@ -2248,7 +1500,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Keykongtwo|r",
 			[51] = 1588021791,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [68]
 		{
 			"WTS |cffa335ee|Hitem:175008::::::::120:73::3:5:4822:6516:6513:1487:4786:::|h[Lurking Schemer's Band]|h|r", -- [1]
 			"Dinamitara-Ragnaros", -- [2]
@@ -2270,7 +1522,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDinamitara|r",
 			[51] = 1588021792,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [103]
+		}, -- [69]
 		{
 			"WTS |cffa335ee|Hitem:175005::::::::120:102::5:7:4823:6578:6579:6554:6515:1502:4786:::|h[Belt of Concealed Intent]|h|r 460 mail belt with rank 3 Infinite Star!", -- [1]
 			"Pivott-Ragnaros", -- [2]
@@ -2292,7 +1544,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Pivott|r",
 			[51] = 1588021792,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [104]
+		}, -- [70]
 		{
 			"<Oblivion Community> Selling  Nyalotha, the Waking City HEROIC right now at 23:30 ST. All boosters are unsaved and their items are rolled out,! 11/12 or 10/12 possible too.  Interested? /w me - gold only", -- [1]
 			"Angelicka-Ragnaros", -- [2]
@@ -2314,7 +1566,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Angelicka|r",
 			[51] = 1588021792,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [71]
 		{
 			"FREE ARMOR STACK <SYLVANAS> SELLING  M+10  120k ||12=160k|| 5x12=780k||14=210 ||5x14 900k || +15  275K || 3x15= 740k  |cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r  shared loot / vip and Mythic||jaina  ||H visions 1 /w me for info.", -- [1]
 			"Samuranaa-Ragnaros", -- [2]
@@ -2336,7 +1588,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSamuranaa|r",
 			[51] = 1588021796,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [72]
 		{
 			"<SYLVANAS COMMUNITY> WTS m+15 intime for only 275k ||m+10 at 120k  || m+11=140k ||+12=160k || +14= 210k||   ||5x10=500  5x11=585k 5x12=680k KEYSTONE MASTER S4 =2.8M only (PL-share-VIP)|| [Ny'alotha, the Waking City] hc /mythic (12/12M)+mount|| /w me ", -- [1]
 			"Bringa-Ragnaros", -- [2]
@@ -2358,7 +1610,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bringa|r",
 			[51] = 1588021798,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [73]
 		{
 			"FREE ARMOR OR STACK CHOOSE UR KEY *SylvanasBC* M+10= 115k 12=150k|||| 5x12=650k||14=200k|| 5x14=900k || +15  260K || 3x15= 740k |||cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r]   shared loot / vip and Mythic||H visions 1 /w me.", -- [1]
 			"Sylvyna-Ragnaros", -- [2]
@@ -2380,7 +1632,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sylvyna|r",
 			[51] = 1588021798,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [74]
 		{
 			"<Gallywix> |cffffff00|Hachievement:14068:Player-3682-09CBD446:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r+Carapace|| |cffffff00|Hachievement:14069:Player-3682-09C88F19:0:0:0:-1:0:0:0:0|h[Cutting Edge: N'Zoth the Corruptor]|h|r <12/12 FULL HC MYTHIC> ||Mechagon HM Mount ||Island CAP ||Freehold EXP ||PvP /w me for info ^_^", -- [1]
 			"Depressawix-Ragnaros", -- [2]
@@ -2402,7 +1654,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDepressawix|r",
 			[51] = 1588021803,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [109]
+		}, -- [75]
 		{
 			"FREE ARMOR STACK <Sylvanas Boost Community ) +10 for [115k]  ONLY   / 5 M+ 10 [500k] / + 12  [150k] / +14 [200k] / +15 [260k] IN TIME / x5 M+ 15[ 1150k] M  /+16 [450k] IN TIME/ +17 [650k] IN TIME   / Nylotha Hc and Mythic / Jaina Mount", -- [1]
 			"Sylvabaank-Ragnaros", -- [2]
@@ -2424,7 +1676,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSylvabaank|r",
 			[51] = 1588021809,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [110]
+		}, -- [76]
 		{
 			"WTS Mythic +15-20 keys ! 3k+ experienced group. Armor stack and specific key options. Intime guarantee ! 12/12 HC full clear every week ! Share loot, VIP trader spots available.", -- [1]
 			"Paradisee-Ragnaros", -- [2]
@@ -2446,7 +1698,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcParadisee|r",
 			[51] = 1588021815,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [77]
 		{
 			"Raid DISCOUNT Oblivion Community sells Nya'lotha the Waking City on Heroic!  Next Run at 23:30/ 450k  Server Time LootShare ! We also sell M+ 14-21 Runs with several Loot options and with intime guarantee! /w me for Pricing! =)", -- [1]
 			"Bawder-Ragnaros", -- [2]
@@ -2468,7 +1720,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBawder|r",
 			[51] = 1588021818,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [78]
 		{
 			"ObIivion sells Nya'lotha the Waking City on Heroic with Lootshare for 450k! Next Run at 23:30! all boosters are unsaved! We also sell M+ 14-19 Runs with several Loot options and with intime guarantee! /w me for Pricing or to book a spot! =)", -- [1]
 			"Psykin-Ragnaros", -- [2]
@@ -2490,7 +1742,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecPsykin|r",
 			[51] = 1588021823,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [113]
+		}, -- [79]
 		{
 			"[PERPLEXED] Get your Mythic+ boosts with armor stacking and specific key available. +12 for 140k, +14 for 200k and +15 INTIME for just 240k. Horrific visions 0-5 mask vision from 70k to 350k! Jaina mount 995k! Ny'alotha HC PL 375k and 180k per trader!", -- [1]
 			"Snurrekanin-Ragnaros", -- [2]
@@ -2512,7 +1764,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSnurrekanin|r",
 			[51] = 1588023246,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [80]
 		{
 			"<SYLVANAS COMMUNITY> (FREE ARMOR STACK FOR ALL KEYS) WTS m+15 intime for only 260k ||m+10 at 115k  || m+11=130k ||+12=150k || +14= 200k||   ||5x10=500  5x11=570k  5x14=900k   3x15=740k // discount if you take 3x or 5x runs / KEYSTONE MASTER S4 2.8M", -- [1]
 			"Alphat-Ragnaros", -- [2]
@@ -2534,7 +1786,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Alphat|r",
 			[51] = 1588023249,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [81]
 		{
 			"<NOVA Community> Free Armor Stack! Intime Guaranteed Dungeons! ||+15=260k|| ||+14=170k|| ||5x11=495k|| ||5x14=760k|| <Visions> /w for more", -- [1]
 			"Jeffnova-Ragnaros", -- [2]
@@ -2556,7 +1808,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Jeffnova|r",
 			[51] = 1588023249,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [82]
 		{
 			"WTS Mythic +10 - +16 carry for gold only. Full guild group with various keys! LOW PRICE! ARMOR STACK!", -- [1]
 			"Keykongtwo-Ragnaros", -- [2]
@@ -2578,7 +1830,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Keykongtwo|r",
 			[51] = 1588023255,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [83]
 		{
 			"<Gallywix> |cffffff00|Hachievement:14068:Player-3682-09CBD446:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r+Carapace|| |cffffff00|Hachievement:14069:Player-3682-09C88F19:0:0:0:-1:0:0:0:0|h[Cutting Edge: N'Zoth the Corruptor]|h|r <12/12 FULL HC MYTHIC> ||Mechagon HM Mount ||Island CAP ||Freehold EXP ||PvP /w me for info ^_^", -- [1]
 			"Depressawix-Ragnaros", -- [2]
@@ -2600,7 +1852,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDepressawix|r",
 			[51] = 1588023257,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [84]
 		{
 			"WTS Mythic +15-20 keys ! 3k+ experienced group. Armor stack and specific key options. Intime guarantee ! 12/12 HC full clear every week ! Share loot, VIP trader spots available.", -- [1]
 			"Paradisee-Ragnaros", -- [2]
@@ -2622,7 +1874,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcParadisee|r",
 			[51] = 1588023257,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [85]
 		{
 			"WTS BIS 475 HANDS WITH TWILIGHT DEVASTATION RANK 2 |cffa335ee|Hitem:175006::::::::120:72::6:7:4824:6578:6579:6538:6515:1517:4786:::|h[Gauntlets of Nightmare Manifest]|h|r", -- [1]
 			"Timeschange-Ragnaros", -- [2]
@@ -2644,7 +1896,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTimeschange|r",
 			[51] = 1588023259,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [86]
 		{
 			"FREE ARMOR STACK <Sylvanas Boost Community ) +10 for [115k]  ONLY   / 5 M+ 10 [500k] / + 12  [150k] / +14 [200k] / +15 [260k] IN TIME / x5 M+ 15[ 1150k] M  /+16 [450k] IN TIME/ +17 [650k] IN TIME   / Nylotha Hc and Mythic / Jaina Mount", -- [1]
 			"Sylvabaank-Ragnaros", -- [2]
@@ -2666,7 +1918,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSylvabaank|r",
 			[51] = 1588023259,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [87]
 		{
 			"WTS |cffa335ee|Hitem:175007::::::::120:63::6:9:4824:42:6578:6579:6439:6470:6515:1517:4786:::|h[Footpads of Terrible Delusions]|h|r", -- [1]
 			"Lylah-Ragnaros", -- [2]
@@ -2688,7 +1940,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Lylah|r",
 			[51] = 1588023259,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [88]
 		{
 			"FREE ARMOR STACK <SYLVANAS> SELLING  M+10  120k ||12=160k|| 5x12=780k||14=210 ||5x14 900k || +15  275K || 3x15= 740k  |cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r  shared loot / vip and Mythic||jaina  ||H visions 1 /w me for info.", -- [1]
 			"Samuranaa-Ragnaros", -- [2]
@@ -2710,7 +1962,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSamuranaa|r",
 			[51] = 1588023260,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [89]
 		{
 			"ObIivion is selling N'Zoth Heroic! Carapace possible too! - You can buy both for discounted price Receive|cffffff00|Hachievement:14068:Player-3682-09B54FF5:1:2:17:20:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r achievement  and get the Uncorrupted Voidwing /w me to book ", -- [1]
 			"Psykin-Ragnaros", -- [2]
@@ -2732,7 +1984,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecPsykin|r",
 			[51] = 1588023273,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [90]
 		{
 			"FREE ARMOR OR STACK CHOOSE UR KEY *SylvanasBC* M+10= 115k 12=150k|||| 5x12=650k||14=200k|| 5x14=900k || +15  260K || 3x15= 740k |||cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r]   shared loot / vip and Mythic||H visions 1 /w me.", -- [1]
 			"Sylvyna-Ragnaros", -- [2]
@@ -2754,7 +2006,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sylvyna|r",
 			[51] = 1588023275,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [91]
 		{
 			"<SYLVANAS COMMUNITY> WTS m+15 intime for only 275k ||m+10 at 120k  || m+11=140k ||+12=160k || +14= 210k||   ||5x10=500  5x11=585k 5x12=680k KEYSTONE MASTER S4 =2.8M only (PL-share-VIP)|| [Ny'alotha, the Waking City] hc /mythic (12/12M)+mount|| /w me ", -- [1]
 			"Bringa-Ragnaros", -- [2]
@@ -2776,7 +2028,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bringa|r",
 			[51] = 1588023275,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [92]
 		{
 			"DEALS <Sylvanas Community>10-20 keys/+15 FOR ONLY 260K /+10 for 115k , FREE ARMOR STACK/Discounts on 3runs or more /+12 150k/+14 200k/Keystone Master 2.8M/Leveling/Jaina Mount/Visions 0-5 masks/PVP/TONIGT HC (PL/LOOT Share/VIP) Nylotha&Mythic", -- [1]
 			"Làna-Ragnaros", -- [2]
@@ -2797,6 +2049,754 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cff3ec5e9Làna|r",
 			[51] = 1588023283,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"Raid DISCOUNT Oblivion Community sells Nya'lotha the Waking City on Heroic!  Next Run at 15:00 / 450K  Server Time LootShare ! We also sell M+ 14-21 Runs with several Loot options and with intime guarantee! /w me for Pricing! =) Only 450K", -- [1]
+			"Bawder-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bawder-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4775, -- [11]
+			"Player-3682-09C96A66", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcBawder|r",
+			[51] = 1588592745,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"The Gallywix Community || Selling >>N'ZOTH + CARAPACE<< Get CURVE + |cffa335ee|Hitem:174862::::::::1:259::3:2:1422:1422:::|h[Uncorrupted Voidwing]|h|r || |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r 12/12 HC with lootshare & TRADERS || Mythic keystone >>+10-23<< TIMED || Visions || Raid Glory Achievement || Azshara & Lady Ashvane", -- [1]
+			"Gallyagent-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gallyagent-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4776, -- [11]
+			"Player-3682-09D02FDC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Gallyagent|r",
+			[51] = 1588592745,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"WTS m+15 boost get your weekly TIMED 200k /w me", -- [1]
+			"Freexze-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Freexze-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4777, -- [11]
+			"Player-3682-09502EFA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Freexze|r",
+			[51] = 1588592749,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"WTS Mythic +15 >>>199k ONLY! <<< IN TIME GUARANTEED ! ", -- [1]
+			"Retboostfour-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Retboostfour-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4778, -- [11]
+			"Player-3682-09AA2C09", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cRetboostfour|r",
+			[51] = 1588592750,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"WTS m+15 boost get your weekly 200k /w me", -- [1]
+			"Óbb-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Óbb-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4779, -- [11]
+			"Player-3682-09CD2383", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Óbb|r",
+			[51] = 1588592751,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"<Cloud Boosting Community>  Mythic + Boost -  m10=110k,  11=130k  12=150k  13=170k  14=190k +15=260 free amror stack", -- [1]
+			"Mirrànda-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mirrànda-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4782, -- [11]
+			"Player-3682-05CFDE3A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Mirrànda|r",
+			[51] = 1588592753,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [99]
+		{
+			"GALLYWIX WTS |cffffff00|Hachievement:14145:Player-3682-09CA5BB6:0:0:0:-1:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|r |cffffff00|Hachievement:14068:Player-3682-09CA5BB6:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r+ Carapace |cffffff00|Hachievement:14069:Player-3682-09CA5BB6:0:0:0:-1:0:0:0:0|h[Cutting Edge: N'Zoth the Corruptor]|h|r  12/12 HC & Mythic  M+ lvl 10-22  PVP- 0-2400 & Gladiator / Jaina/Azshara/Vision/Glory Run/Islands", -- [1]
+			"Gallywixykiz-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gallywixykiz-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4783, -- [11]
+			"Player-3682-09CA5BB6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcGallywixykiz|r",
+			[51] = 1588592754,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [100]
+		{
+			"<Pro Boost>MEGA DEAL!Offering m+ boost +10 for +120k,+12 for 160k, +15 for 275k/ALL tradeable loot is YOURS/Buy x2 Runs and get FREE ARMOR STACK/|cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|rHeroic 500k with lootshare/GOLD ONLY/w info", -- [1]
+			"Thalragnar-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Thalragnar-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4784, -- [11]
+			"Player-3682-09BC9307", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Thalragnar|r",
+			[51] = 1588592758,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [101]
+		{
+			"<SBC> SELLING keystone mythic +10 with loot at 110k (2keys = free armor stack )  ||+12 at 160k 5x10 =500k || +15 only 250k [Ny'alotha, the Waking City]] hc ||lvling ||PvP .. /w me for info.", -- [1]
+			"Khatgaraa-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Khatgaraa-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4785, -- [11]
+			"Player-3682-09BE5246", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Khatgaraa|r",
+			[51] = 1588592765,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [102]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-49774-3682-69055604|h[Guild: The Crimson Tide]|h|r", -- [1]
+			"Zatelite-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zatelite-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4786, -- [11]
+			"Player-3682-08C7EAD9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Zatelite|r",
+			[51] = 1588592766,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [103]
+		{
+			"BIG DISCOUNT <Sylvanas Boost Community ) +10 for [110k]  ONLY   / 5 M+ 10 [500k] / + 12  [150k] / +14 [200k] / +15 [250k] IN TIME / x5 M+ [1125k]   /x5 + 14 [900k] / x5 +12 [675k]  / 18 [850k] IN TIME / Nylotha Hc and Mythic / Jaina Mount", -- [1]
+			"Sylvabaank-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sylvabaank-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4787, -- [11]
+			"Player-3682-09C942A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cSylvabaank|r",
+			[51] = 1588592768,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [104]
+		{
+			"Gallywix Community WTS |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r 12/12 HC Loot Shared Today!     HC N'ZOTH and CARAPACE 210K ALL DAY,     ||M+ Key 10-23 In Time, All Armor/Dungeons||   PVP Arenas,  Mythic 12/12,      Jaina Mount", -- [1]
+			"Denteri-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Denteri-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4789, -- [11]
+			"Player-3682-09AEE529", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cDenteri|r",
+			[51] = 1588592768,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [105]
+		{
+			"WTS  |cffa335ee|Hitem:175007::::::::120:253:::7:1517:4786:4824:6513:6560:6578:6579:::|h[Footpads of Terrible Delusions]|h|r 475 leather boots with haste proc!", -- [1]
+			"Pivott-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Pivott-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4790, -- [11]
+			"Player-3682-0825D40D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Pivott|r",
+			[51] = 1588592772,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [106]
+		{
+			"WTS Mythic +10 - +16 carry for gold only. Full guild group with various keys! LOW PRICE! ARMOR STACK!", -- [1]
+			"Keykongtwo-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Keykongtwo-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4791, -- [11]
+			"Player-3682-09CCBBA6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Keykongtwo|r",
+			[51] = 1588592772,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [107]
+		{
+			"LAST boss Discount Oblivion Community is selling heroic Carapace of Nzoth 90k and Nzoth the Corruptor 130k every 30 minutes. get your curve achievement, uncorrupted voidwing mount and the chance on 470 items. price =both 190k", -- [1]
+			"Bawder-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bawder-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4794, -- [11]
+			"Player-3682-09C96A66", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcBawder|r",
+			[51] = 1588592777,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [108]
+		{
+			"BIG DISCOUNT || SYLVANAS COMMUNITY ||M+10=110k ||+12 150k || Get 2xRun n Get FREE Armor Stack +14=200k || +15=250K || 3x15=700k Get 15% OFF for 5 Runs! 5x12=640k[Ny'alotha, the Waking City] Jaina Mount ||H.Visions /w", -- [1]
+			"Bringa-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bringa-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4795, -- [11]
+			"Player-3682-09CA1F6F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Bringa|r",
+			[51] = 1588592782,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [109]
+		{
+			"DISCOUNTS <Sylvanas Community>10-20 keys/+15 FOR ONLY 250K /+10 for 110k , FREE ARMOR STACK/Discounts on 3runs or more /+12 150k/+14 200k/Keystone Master 2.45M/Leveling/Jaina Mount/Visions 0-5 masks/PVP/TONIGT HC (PL/LOOT Share/VIP) Nylotha&Mythic", -- [1]
+			"Làna-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Làna-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4796, -- [11]
+			"Player-3682-09A93281", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Làna|r",
+			[51] = 1588592787,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [110]
+		{
+			"WTS m+15 boost get your weekly TIMED 200k /w me", -- [1]
+			"Freexze-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Freexze-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4799, -- [11]
+			"Player-3682-09502EFA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Freexze|r",
+			[51] = 1588592797,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [111]
+		{
+			"<Oblivion Boost Community> sells, full Nya'lotha Heroic also with VIP Spots ; N'zoth and carapace run, every 30mins ; Jaina Mythic + Mount ; M+ 10-22 with several Loot Options and with specific Key/Armorstack!... feel free to /w me :)", -- [1]
+			"Roisikragnar-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Roisikragnar-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4803, -- [11]
+			"Player-3682-09D1D2B3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Roisikragnar|r",
+			[51] = 1588592801,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			"<Cloud Boosting Community>  Mythic + Boost -  m10=110k,  11=130k  12=150k  13=170k  14=190k +15=260 free amror stack", -- [1]
+			"Mirrànda-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mirrànda-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4807, -- [11]
+			"Player-3682-05CFDE3A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Mirrànda|r",
+			[51] = 1588592810,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"WTS m+15 boost get your weekly 200k /w me", -- [1]
+			"Óbb-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Óbb-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4808, -- [11]
+			"Player-3682-09CD2383", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Óbb|r",
+			[51] = 1588592811,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"Raid DISCOUNT Oblivion Community sells Nya'lotha the Waking City on Heroic!  Next Run at 15:00 / 450K  Server Time LootShare ! We also sell M+ 14-21 Runs with several Loot options and with intime guarantee! /w me for Pricing! =) Only 450K", -- [1]
+			"Bawder-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bawder-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4812, -- [11]
+			"Player-3682-09C96A66", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcBawder|r",
+			[51] = 1588592817,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"WTS |cffffffff|Hitem:168216::::::::120:63::::::|h[Tempered Plating]|h|r 10.8k pcs 3g each! PM ME", -- [1]
+			"Mullercilike-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mullercilike-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4814, -- [11]
+			"Player-3682-09C51B29", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Mullercilike|r",
+			[51] = 1588592818,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"<SBC> SELLING keystone mythic +10 with loot at 110k (2keys = free armor stack )  ||+12 at 160k 5x10 =500k || +15 only 250k [Ny'alotha, the Waking City]] hc ||lvling ||PvP .. /w me for info.", -- [1]
+			"Khatgaraa-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Khatgaraa-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4815, -- [11]
+			"Player-3682-09BE5246", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Khatgaraa|r",
+			[51] = 1588592824,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-49774-3682-69055604|h[Guild: The Crimson Tide]|h|r", -- [1]
+			"Zatelite-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zatelite-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4819, -- [11]
+			"Player-3682-08C7EAD9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Zatelite|r",
+			[51] = 1588592835,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"GALLYWIX WTS |cffffff00|Hachievement:14145:Player-3682-09CA5BB6:0:0:0:-1:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|r |cffffff00|Hachievement:14068:Player-3682-09CA5BB6:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r+ Carapace |cffffff00|Hachievement:14069:Player-3682-09CA5BB6:0:0:0:-1:0:0:0:0|h[Cutting Edge: N'Zoth the Corruptor]|h|r  12/12 HC & Mythic  M+ lvl 10-22  PVP- 0-2400 & Gladiator / Jaina/Azshara/Vision/Glory Run/Islands", -- [1]
+			"Gallywixykiz-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gallywixykiz-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4820, -- [11]
+			"Player-3682-09CA5BB6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcGallywixykiz|r",
+			[51] = 1588592836,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"The Gallywix Community || Selling >>N'ZOTH + CARAPACE<< Get CURVE + |cffa335ee|Hitem:174862::::::::1:259::3:2:1422:1422:::|h[Uncorrupted Voidwing]|h|r || |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r 12/12 HC with lootshare & TRADERS || Mythic keystone >>+10-23<< TIMED || Visions || Raid Glory Achievement || Azshara & Lady Ashvane", -- [1]
+			"Gallyagent-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gallyagent-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4821, -- [11]
+			"Player-3682-09D02FDC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Gallyagent|r",
+			[51] = 1588592837,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"BIG DISCOUNT || SYLVANAS COMMUNITY ||M+10=110k ||+12 150k || Get 2xRun n Get FREE Armor Stack +14=200k || +15=250K || 3x15=700k Get 15% OFF for 5 Runs! 5x12=640k[Ny'alotha, the Waking City] Jaina Mount ||H.Visions /w", -- [1]
+			"Bringa-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bringa-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4822, -- [11]
+			"Player-3682-09CA1F6F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Bringa|r",
+			[51] = 1588592837,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"BIG DISCOUNT || SYLVANAS COMMUNITY ||M+10=110k ||+12 150k || Get 2xRun n Get FREE Armor Stack +14=200k || +15=250K || 3x15=700k Get 15% OFF for 5 Runs! 5x12=640k|cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r Jaina Mount ||H.Visions /w", -- [1]
+			"Sylvyna-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sylvyna-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4823, -- [11]
+			"Player-3682-09CD383B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Sylvyna|r",
+			[51] = 1588592839,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"WTS Mythic +15 >>>199k ONLY! <<< IN TIME GUARANTEED ! ", -- [1]
+			"Retboostfour-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Retboostfour-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4824, -- [11]
+			"Player-3682-09AA2C09", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cRetboostfour|r",
+			[51] = 1588592841,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"< Sylvanas Community Dungeon Offers > +15 250k +10 110K Only Buy X2 Free Stack 2X+10 [230k] 2X+15 [515k] 3X+10[325k] 3X+15[730k] 5X+10[510k] 5X+15[1150k] On Time < Raid Offers > Personal Loot – Loot Share – Mythic - Jaina Mount Daily Runs /W", -- [1]
+			"Oliviaâ-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Oliviaâ-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4825, -- [11]
+			"Player-3682-09C81E23", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Oliviaâ|r",
+			[51] = 1588592846,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"WTS [Tempered Plating] 10.8k pcs 3g each! PM ME", -- [1]
+			"Mullercilike-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mullercilike-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4826, -- [11]
+			"Player-3682-09C51B29", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Mullercilike|r",
+			[51] = 1588592846,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"<Pro Boost>MEGA DEAL!Offering m+ boost +10 for +120k,+12 for 160k, +15 for 275k/ALL tradeable loot is YOURS/Buy x2 Runs and get FREE ARMOR STACK/|cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|rHeroic 500k with lootshare/GOLD ONLY/w info", -- [1]
+			"Thalragnar-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Thalragnar-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4827, -- [11]
+			"Player-3682-09BC9307", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Thalragnar|r",
+			[51] = 1588592848,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"WTS m+15 boost get your weekly TIMED 200k /w me", -- [1]
+			"Freexze-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Freexze-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4829, -- [11]
+			"Player-3682-09502EFA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Freexze|r",
+			[51] = 1588592851,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
