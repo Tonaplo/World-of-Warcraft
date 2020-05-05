@@ -191,9 +191,9 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [15]
 				{
+					["caption"] = "Fishing",
 					["sliceToken"] = "ABuepxI/Peu",
 					["id"] = "/equip Underlight Angler\n/use {{spell:131474}}",
-					["caption"] = "Fishing",
 				}, -- [16]
 				{
 					["sliceToken"] = "ABuesXHE2Xe",
@@ -502,8 +502,8 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [3]
 				{
-					["sliceToken"] = "ABuepjqUmtwp",
 					["id"] = 232698,
+					["sliceToken"] = "ABuepjqUmtwp",
 				}, -- [4]
 				{
 					["id"] = 31687,
@@ -582,8 +582,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuesm1/8Lt",
 				}, -- [23]
 				{
-					["id"] = 212036,
 					["sliceToken"] = "ABue3cjatfe",
+					["id"] = 212036,
 				}, -- [24]
 				{
 					["id"] = 20577,

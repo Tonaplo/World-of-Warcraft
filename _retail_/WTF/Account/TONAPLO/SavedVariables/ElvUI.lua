@@ -134,7 +134,7 @@ ElvDB = {
 			["Zearthan"] = 152060554,
 			["Kaldowrath"] = 73953614,
 			["Praerend"] = 135372080,
-			["Mallusof"] = 886433622,
+			["Mallusof"] = 921446016,
 			["Amranar"] = 37819746,
 			["Thedodrouk"] = 19265389,
 			["Burdett"] = 134460462,
@@ -333,46 +333,6 @@ ElvDB = {
 						["height"] = 50,
 						["width"] = 122,
 					},
-					["party"] = {
-						["horizontalSpacing"] = 3,
-						["debuffs"] = {
-							["anchorPoint"] = "BOTTOM",
-							["numrows"] = 4,
-							["perrow"] = 1,
-						},
-						["power"] = {
-							["text_format"] = "",
-							["height"] = 5,
-						},
-						["enable"] = false,
-						["healPrediction"] = {
-							["enable"] = true,
-						},
-						["growthDirection"] = "RIGHT_DOWN",
-						["infoPanel"] = {
-							["enable"] = true,
-						},
-						["rdebuffs"] = {
-							["font"] = "Expressway",
-						},
-						["name"] = {
-							["attachTextTo"] = "InfoPanel",
-							["text_format"] = "[namecolor][name:short]",
-							["position"] = "LEFT",
-						},
-						["roleIcon"] = {
-							["position"] = "TOPRIGHT",
-						},
-						["height"] = 59,
-						["verticalSpacing"] = 0,
-						["width"] = 110,
-						["health"] = {
-							["attachTextTo"] = "InfoPanel",
-							["orientation"] = "VERTICAL",
-							["text_format"] = "[healthcolor][health:current]",
-							["position"] = "RIGHT",
-						},
-					},
 					["player"] = {
 						["infoPanel"] = {
 							["enable"] = true,
@@ -405,6 +365,46 @@ ElvDB = {
 							["text_format"] = "[namecolor][name]",
 						},
 					},
+					["party"] = {
+						["horizontalSpacing"] = 3,
+						["debuffs"] = {
+							["anchorPoint"] = "BOTTOM",
+							["numrows"] = 4,
+							["perrow"] = 1,
+						},
+						["power"] = {
+							["text_format"] = "",
+							["height"] = 5,
+						},
+						["enable"] = false,
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["growthDirection"] = "RIGHT_DOWN",
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+						["rdebuffs"] = {
+							["font"] = "Expressway",
+						},
+						["health"] = {
+							["attachTextTo"] = "InfoPanel",
+							["orientation"] = "VERTICAL",
+							["text_format"] = "[healthcolor][health:current]",
+							["position"] = "RIGHT",
+						},
+						["roleIcon"] = {
+							["position"] = "TOPRIGHT",
+						},
+						["height"] = 59,
+						["verticalSpacing"] = 0,
+						["width"] = 110,
+						["name"] = {
+							["attachTextTo"] = "InfoPanel",
+							["text_format"] = "[namecolor][name:short]",
+							["position"] = "LEFT",
+						},
+					},
 					["raid40"] = {
 						["enable"] = false,
 						["rdebuffs"] = {
@@ -431,6 +431,40 @@ ElvDB = {
 						},
 						["threatStyle"] = "NONE",
 						["width"] = 189,
+					},
+					["assist"] = {
+						["enable"] = false,
+					},
+					["arena"] = {
+						["spacing"] = 26,
+						["castbar"] = {
+							["width"] = 246,
+						},
+					},
+					["raid"] = {
+						["roleIcon"] = {
+							["position"] = "RIGHT",
+						},
+						["debuffs"] = {
+							["enable"] = true,
+							["sizeOverride"] = 27,
+							["perrow"] = 4,
+						},
+						["rdebuffs"] = {
+							["enable"] = false,
+							["font"] = "Expressway",
+						},
+						["growthDirection"] = "UP_RIGHT",
+						["name"] = {
+							["position"] = "LEFT",
+						},
+						["groupsPerRowCol"] = 5,
+						["height"] = 28,
+						["health"] = {
+							["yOffset"] = -6,
+						},
+						["visibility"] = "[nogroup] hide;show",
+						["width"] = 140,
 					},
 					["target"] = {
 						["debuffs"] = {
@@ -461,40 +495,6 @@ ElvDB = {
 							["attachTextTo"] = "InfoPanel",
 							["text_format"] = "[namecolor][name]",
 						},
-					},
-					["raid"] = {
-						["roleIcon"] = {
-							["position"] = "RIGHT",
-						},
-						["debuffs"] = {
-							["enable"] = true,
-							["sizeOverride"] = 27,
-							["perrow"] = 4,
-						},
-						["rdebuffs"] = {
-							["enable"] = false,
-							["font"] = "Expressway",
-						},
-						["growthDirection"] = "UP_RIGHT",
-						["name"] = {
-							["position"] = "LEFT",
-						},
-						["groupsPerRowCol"] = 5,
-						["height"] = 28,
-						["health"] = {
-							["yOffset"] = -6,
-						},
-						["visibility"] = "[nogroup] hide;show",
-						["width"] = 140,
-					},
-					["arena"] = {
-						["spacing"] = 26,
-						["castbar"] = {
-							["width"] = 246,
-						},
-					},
-					["assist"] = {
-						["enable"] = false,
 					},
 				},
 			},
@@ -718,20 +718,20 @@ ElvDB = {
 				["AltPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-308,328",
 				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,-1,139",
 				["ElvAB_5"] = "BOTTOM,ElvUIParent,BOTTOM,-92,57",
-				["ElvNP_PlayerMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,557,-137",
-				["ArenaHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-250,-266",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,5,272",
+				["ElvUF_TargetCastbarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-500,322",
 				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-308,350",
 				["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-51,-274",
 				["BNETMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,272",
 				["VOICECHAT"] = "TOPLEFT,ElvUIParent,TOPLEFT,419,-71",
-				["ElvUF_TargetCastbarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-500,322",
+				["ArenaHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-250,-266",
 				["HonorBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-255",
 				["ElvAB_6"] = "BOTTOM,ElvUIParent,BOTTOM,0,67",
 				["LevelUpBossBannerMover"] = "TOP,ElvUIParent,TOP,0,-308",
 				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,490,4",
 				["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-249,-265",
 				["ElvUF_PetMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,243,348",
-				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,5,272",
+				["ElvNP_PlayerMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,557,-137",
 				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,5,248",
 				["AlertFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-536,-274",
 				["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-226,-195",
@@ -1335,8 +1335,8 @@ ElvPrivateDB = {
 					["hideCalendar"] = false,
 				},
 				["dmgfont"] = "Arial Narrow",
-				["chatBubbleName"] = true,
 				["namefont"] = "Arial Narrow",
+				["chatBubbleName"] = true,
 				["glossTex"] = "Blizzard",
 			},
 			["theme"] = "default",

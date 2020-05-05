@@ -21,13 +21,13 @@ SimulationCraftDB = {
 		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
 		["Weston - Icecrown"] = "Weston - Icecrown",
 		["Farahn - Icecrown"] = "Farahn - Icecrown",
-		["Praerend - Icecrown"] = "DPS",
-		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
+		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
+		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
 		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
 		["Alianalen - Frostwolf"] = "Alianalen - Frostwolf",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
-		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
-		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
+		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
+		["Praerend - Icecrown"] = "DPS",
 		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
 		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
 		["Korugen - Icecrown"] = "Korugen - Icecrown",
@@ -108,12 +108,12 @@ SimulationCraftDB = {
 				["hide"] = true,
 			},
 		},
+		["Rahran - Silvermoon"] = {
+		},
 		["DPS"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
-		},
-		["Rahran - Silvermoon"] = {
 		},
 		["Zearthan - Silvermoon"] = {
 		},
