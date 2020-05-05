@@ -1,22 +1,22 @@
 
 SimulationCraftDB = {
 	["profileKeys"] = {
-		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
-		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
+		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
+		["Alura - Tichondrius"] = "Alura - Tichondrius",
 		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
 		["Faerand - Icecrown"] = "Faerand - Icecrown",
-		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
+		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
 		["Korugen - Icecrown"] = "Korugen - Icecrown",
-		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
-		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
-		["Praerend - Icecrown"] = "DPS",
+		["Beathe - Frostwolf"] = "Beathe - Frostwolf",
+		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
+		["Alianalen - Frostwolf"] = "Alianalen - Frostwolf",
 		["Rahran - Icecrown"] = "Rahran - Icecrown",
 		["Amranar - Silvermoon"] = "Amranar - Silvermoon",
 		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
 		["Fandagny - Frostwolf"] = "Fandagny - Frostwolf",
 		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
 		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
-		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
+		["Kaldorath - Icecrown"] = "Tank",
 		["Luugo - Frostwolf"] = "Luugo - Frostwolf",
 		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
 		["Weston - Icecrown"] = "Weston - Icecrown",
@@ -24,14 +24,14 @@ SimulationCraftDB = {
 		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
 		["Zearthan - Icecrown"] = "Zearthan - Icecrown",
 		["Tyindel - Frostwolf"] = "Tyindel - Frostwolf",
-		["Kaldorath - Icecrown"] = "Tank",
-		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
-		["Alianalen - Frostwolf"] = "Alianalen - Frostwolf",
 		["Greybone - Icecrown"] = "Greybone - Icecrown",
-		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
-		["Beathe - Frostwolf"] = "Beathe - Frostwolf",
+		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
+		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
+		["Praerend - Icecrown"] = "DPS",
+		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
+		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
 		["Thorlan - Silvermoon"] = "Thorlan - Silvermoon",
-		["Alura - Tichondrius"] = "Alura - Tichondrius",
+		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Mallusof - Icecrown"] = "DPS",
 	},
 	["profiles"] = {
@@ -94,12 +94,12 @@ SimulationCraftDB = {
 		},
 		["Faerand - Silvermoon"] = {
 		},
-		["Kaldorath - Icecrown"] = {
-		},
 		["Greybone - Icecrown"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
+		},
+		["Kaldorath - Icecrown"] = {
 		},
 		["Thedodrouk - Icecrown"] = {
 		},
@@ -108,16 +108,16 @@ SimulationCraftDB = {
 				["hide"] = true,
 			},
 		},
-		["Korugen - Icecrown"] = {
-		},
 		["Rahran - Silvermoon"] = {
-		},
-		["Zearthan - Silvermoon"] = {
 		},
 		["DPS"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
+		},
+		["Zearthan - Silvermoon"] = {
+		},
+		["Korugen - Icecrown"] = {
 		},
 		["Mallusof - Silvermoon"] = {
 			["minimap"] = {
