@@ -201,9 +201,9 @@ OneRing_Config = {
 				}, -- [17]
 				["noPersistentCA"] = true,
 				["name"] = "Trade Skills",
+				["noOpportunisticCA"] = true,
 				["save"] = true,
 				["hotkey"] = "ALT-T",
-				["noOpportunisticCA"] = true,
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,
