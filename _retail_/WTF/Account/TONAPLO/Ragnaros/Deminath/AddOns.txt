@@ -42,3 +42,5 @@ ElvUI: enabled
 OPie_Classic: disabled
 HandyNotes: enabled
 HandyNotes_DraenorTreasures: enabled
+DailyToDo: disabled
+FarmIt2: disabled

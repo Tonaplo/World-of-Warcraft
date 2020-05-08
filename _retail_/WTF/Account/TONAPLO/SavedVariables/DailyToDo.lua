@@ -9,15 +9,12 @@ DailyToDoDB = {
 			["hideCompleted"] = true,
 			["lists"] = {
 				{
-					["completed"] = false,
+					["completed"] = true,
 					["name"] = "Kill these once a day",
 					["entries"] = {
 						{
 							["completed"] = true,
 							["checked"] = true,
-							["manual"] = false,
-							["text"] = "Check MacCree for Vigilant Thanos WQ",
-							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -27,12 +24,16 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
+							["text"] = "Check MacCree for Vigilant Thanos WQ",
+							["weekly"] = false,
+							["manual"] = false,
 						}, -- [1]
 						{
 							["completed"] = true,
 							["checked"] = true,
-							["weekly"] = false,
+							["manual"] = false,
 							["text"] = "Check Nazjatar for Easy Green Runelocked Chest WQ",
+							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -42,13 +43,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["manual"] = false,
 						}, -- [2]
 						{
 							["completed"] = true,
 							["checked"] = true,
-							["weekly"] = false,
+							["manual"] = false,
 							["text"] = "Check Stormsong Valley for Sabertron WQ",
+							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -58,13 +59,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["manual"] = false,
 						}, -- [3]
 						{
 							["completed"] = true,
 							["checked"] = true,
-							["weekly"] = false,
+							["manual"] = false,
 							["text"] = "Check Zuldazar for Rare Thunderfoot",
+							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -74,13 +75,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["manual"] = false,
 						}, -- [4]
 						{
 							["completed"] = true,
 							["checked"] = true,
 							["manual"] = false,
-							["text"] = "Check Nazmir for Cleansing Tide WQ",
+							["text"] = "Check Nazmir for invasion and \"Dont Stalk Me, Troll\"",
+							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -90,45 +91,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["weekly"] = false,
 						}, -- [5]
 						{
 							["completed"] = true,
 							["checked"] = true,
-							["weekly"] = false,
-							["text"] = "Check Nazmir for invasion and \"Dont Stalk Me, Troll\"",
-							["days"] = {
-								true, -- [1]
-								true, -- [2]
-								true, -- [3]
-								true, -- [4]
-								true, -- [5]
-								true, -- [6]
-								true, -- [7]
-							},
 							["manual"] = false,
-						}, -- [6]
-						{
-							["completed"] = true,
-							["checked"] = true,
-							["days"] = {
-								true, -- [1]
-								true, -- [2]
-								true, -- [3]
-								true, -- [4]
-								true, -- [5]
-								true, -- [6]
-								true, -- [7]
-							},
-							["text"] = "Check Mechagon for Elize Starseeker",
-							["weekly"] = false,
-							["manual"] = false,
-						}, -- [7]
-						{
-							["completed"] = false,
-							["checked"] = true,
-							["weekly"] = false,
 							["text"] = "Do Jade Forest Dragon dailies",
+							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -138,20 +107,20 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["manual"] = false,
-						}, -- [8]
+						}, -- [6]
 					},
 				}, -- [1]
 				{
 					["completed"] = false,
+					["expanded"] = false,
 					["name"] = "Weekly For Fun",
-					["expanded"] = true,
 					["entries"] = {
 						{
 							["completed"] = true,
 							["checked"] = true,
-							["weekly"] = true,
+							["manual"] = false,
 							["text"] = "Clear Molten Core for Rep",
+							["weekly"] = true,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -161,13 +130,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["manual"] = false,
 						}, -- [1]
 						{
 							["completed"] = true,
 							["checked"] = true,
-							["weekly"] = true,
+							["manual"] = false,
 							["text"] = "Clear Hellfire Citadel for Mount",
+							["weekly"] = true,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -177,13 +146,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["manual"] = false,
 						}, -- [2]
 						{
 							["completed"] = true,
 							["checked"] = true,
-							["weekly"] = true,
+							["manual"] = false,
 							["text"] = "Clear Blackrock Foundry for Mount",
+							["weekly"] = true,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -193,13 +162,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["manual"] = false,
 						}, -- [3]
 						{
 							["completed"] = false,
 							["checked"] = true,
-							["weekly"] = true,
+							["manual"] = false,
 							["text"] = "Clear Ulduar for Mount",
+							["weekly"] = true,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -209,21 +178,17 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["manual"] = false,
 						}, -- [4]
 					},
 				}, -- [2]
 				{
 					["completed"] = false,
-					["expanded"] = false,
 					["name"] = "Grinds",
+					["expanded"] = false,
 					["entries"] = {
 						{
 							["completed"] = false,
 							["checked"] = true,
-							["manual"] = false,
-							["text"] = "The Hivemind Secret",
-							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -233,13 +198,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
+							["text"] = "The Hivemind Secret",
+							["weekly"] = false,
+							["manual"] = false,
 						}, -- [1]
 						{
 							["completed"] = false,
 							["checked"] = true,
-							["manual"] = false,
-							["text"] = "The Waist of Time Secret",
-							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -249,13 +214,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
+							["text"] = "The Waist of Time Secret",
+							["weekly"] = false,
+							["manual"] = false,
 						}, -- [2]
 						{
 							["completed"] = false,
 							["checked"] = true,
-							["manual"] = false,
-							["text"] = "It's Not a Tumor! Achievement",
-							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -265,13 +230,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
+							["text"] = "It's Not a Tumor! Achievement",
+							["weekly"] = false,
+							["manual"] = false,
 						}, -- [3]
 						{
 							["completed"] = false,
 							["checked"] = true,
-							["manual"] = false,
-							["text"] = "And We're All Out of Mana Buns Achievement",
-							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -281,13 +246,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
+							["text"] = "And We're All Out of Mana Buns Achievement",
+							["weekly"] = false,
+							["manual"] = false,
 						}, -- [4]
 						{
 							["completed"] = false,
 							["checked"] = true,
-							["manual"] = false,
-							["text"] = "Nothing To Scry About Achievement",
-							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -297,13 +262,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
+							["text"] = "Nothing To Scry About Achievement",
+							["weekly"] = false,
+							["manual"] = false,
 						}, -- [5]
 						{
 							["completed"] = false,
 							["checked"] = true,
-							["manual"] = false,
-							["text"] = "Finish off Baa'l Secret",
-							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -313,18 +278,21 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
+							["text"] = "Finish off Baa'l Secret",
+							["weekly"] = false,
+							["manual"] = false,
 						}, -- [6]
 					},
 				}, -- [3]
 				{
 					["completed"] = false,
-					["expanded"] = true,
 					["name"] = "The BFA To Do List",
+					["expanded"] = false,
 					["entries"] = {
 						{
 							["completed"] = false,
 							["checked"] = true,
-							["manual"] = false,
+							["weekly"] = false,
 							["text"] = "Islands Achievements, mounts, transmogs and pets",
 							["days"] = {
 								true, -- [1]
@@ -335,12 +303,12 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["weekly"] = false,
+							["manual"] = false,
 						}, -- [1]
 						{
 							["completed"] = false,
 							["checked"] = true,
-							["manual"] = false,
+							["weekly"] = false,
 							["text"] = "Warfront Achievements",
 							["days"] = {
 								true, -- [1]
@@ -351,12 +319,12 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["weekly"] = false,
+							["manual"] = false,
 						}, -- [2]
 						{
 							["completed"] = false,
 							["checked"] = true,
-							["manual"] = false,
+							["weekly"] = false,
 							["text"] = "Mechagon Achievements",
 							["days"] = {
 								true, -- [1]
@@ -367,12 +335,12 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["weekly"] = false,
+							["manual"] = false,
 						}, -- [3]
 						{
 							["completed"] = false,
 							["checked"] = true,
-							["manual"] = false,
+							["weekly"] = false,
 							["text"] = "BFA PvP Achievements",
 							["days"] = {
 								true, -- [1]
@@ -383,12 +351,12 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["weekly"] = false,
+							["manual"] = false,
 						}, -- [4]
 						{
 							["completed"] = false,
 							["checked"] = true,
-							["manual"] = false,
+							["weekly"] = false,
 							["text"] = "Dungeon Master Achievement",
 							["days"] = {
 								true, -- [1]
@@ -399,24 +367,28 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["weekly"] = false,
+							["manual"] = false,
 						}, -- [5]
 					},
 				}, -- [4]
 			},
 			["weeklyResetDay"] = 4,
 			["framePosition"] = {
-				["y"] = -160.0001373291016,
-				["x"] = 395.0003967285156,
-				["anchor"] = "TOP",
+				["y"] = -190.0002593994141,
+				["anchor"] = "RIGHT",
 			},
-			["timestamp"] = 20200506000000,
+			["timestamp"] = 20200507000000,
 			["icon"] = {
 				["minimapPos"] = 243.2654785468459,
 			},
 		},
 		["Kindhoof - Ragnaros"] = {
-			["timestamp"] = 20200504000000,
+			["framePosition"] = {
+				["y"] = -111.0002212524414,
+				["x"] = 303.0005798339844,
+				["anchor"] = "LEFT",
+			},
+			["timestamp"] = 20200506000000,
 		},
 	},
 }

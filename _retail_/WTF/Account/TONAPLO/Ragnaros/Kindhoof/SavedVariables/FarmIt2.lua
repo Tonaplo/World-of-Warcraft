@@ -3,19 +3,29 @@ FI_SVPC_CONFIG = {
 	["show"] = true,
 	["Currency"] = {
 		["show"] = true,
-		["scale"] = 1,
-		["alpha"] = 1,
 		["tracking"] = true,
+		["alpha"] = 1,
+		["scale"] = 1,
 	},
 	["version"] = 2.38,
 	["scale"] = 1,
-	["move"] = true,
-	["alpha"] = 1,
 	["style"] = "default",
+	["alpha"] = 1,
+	["move"] = true,
 }
 FI_SVPC_STYLE = {
 	["anchor"] = {
 		["pad"] = 2,
+		["background"] = {
+			["color"] = {
+			},
+			["size"] = {
+				56, -- [1]
+				56, -- [2]
+			},
+			["alpha"] = 0.75,
+			["texture"] = "Interface/BUTTONS/UI-QuickSlot",
+		},
 		["text"] = {
 			["flags"] = "OUTLINE",
 			["font"] = "Fonts/ARIALN.TTF",
@@ -27,24 +37,14 @@ FI_SVPC_STYLE = {
 			["alpha"] = 1,
 			["size"] = 13,
 		},
-		["background"] = {
-			["color"] = {
-			},
-			["texture"] = "Interface/BUTTONS/UI-QuickSlot",
-			["alpha"] = 0.75,
-			["size"] = {
-				56, -- [1]
-				56, -- [2]
-			},
-		},
 		["border"] = {
 			["offset"] = 2,
 			["tile"] = true,
 			["color"] = {
 			},
-			["texture"] = "",
-			["alpha"] = 1,
 			["size"] = 6,
+			["alpha"] = 1,
+			["texture"] = "",
 		},
 		["size"] = {
 			34, -- [1]
@@ -72,16 +72,6 @@ FI_SVPC_STYLE = {
 			["alpha"] = 0.9,
 		},
 		["pad"] = 5,
-		["background"] = {
-			["color"] = {
-			},
-			["texture"] = "Interface/BUTTONS/UI-EmptySlot.blp",
-			["alpha"] = 0.75,
-			["size"] = {
-				66, -- [1]
-				66, -- [2]
-			},
-		},
 		["text"] = {
 			["flags"] = "OUTLINE",
 			["font"] = "Fonts/FRIZQT__.TTF",
@@ -93,12 +83,22 @@ FI_SVPC_STYLE = {
 			["alpha"] = 0.75,
 			["size"] = 14,
 		},
+		["background"] = {
+			["color"] = {
+			},
+			["size"] = {
+				66, -- [1]
+				66, -- [2]
+			},
+			["alpha"] = 0.75,
+			["texture"] = "Interface/BUTTONS/UI-EmptySlot.blp",
+		},
 		["border"] = {
 			["offset"] = 2,
 			["tile"] = true,
-			["texture"] = "",
-			["alpha"] = 0.9,
 			["size"] = 6,
+			["alpha"] = 0.9,
+			["texture"] = "",
 		},
 		["size"] = {
 			37, -- [1]
@@ -110,37 +110,37 @@ FI_SVPC_DATA = {
 	["Sessions"] = {
 		{
 			["id"] = 1,
-			["stop"] = 0,
+			["stop"] = 1588798702,
 			["start"] = 1588592720,
 		}, -- [1]
 	},
 	["Currencies"] = {
 		{
+			["name"] = "Oil",
 			["count"] = 5,
-			["success"] = true,
 			["objective"] = 0,
 			["id"] = 1,
 			["lastcount"] = 5,
 			["icon"] = 1131085,
-			["name"] = "Oil",
+			["success"] = true,
 		}, -- [1]
 		{
+			["name"] = "Nethershard",
 			["count"] = 19381,
-			["success"] = true,
 			["objective"] = 0,
 			["id"] = 2,
 			["lastcount"] = 19381,
 			["icon"] = 132775,
-			["name"] = "Nethershard",
+			["success"] = true,
 		}, -- [2]
 		{
+			["name"] = "",
 			["count"] = 0,
-			["success"] = true,
 			["objective"] = 0,
 			["id"] = 3,
 			["lastcount"] = 0,
 			["icon"] = "",
-			["name"] = "",
+			["success"] = true,
 		}, -- [3]
 	},
 	["Groups"] = {
@@ -148,8 +148,8 @@ FI_SVPC_DATA = {
 			["show"] = true,
 			["grow"] = "U",
 			["move"] = true,
-			["id"] = 1,
 			["scale"] = 1,
+			["id"] = 1,
 			["pad"] = 5,
 			["alpha"] = 1,
 			["size"] = 4,
@@ -157,123 +157,123 @@ FI_SVPC_DATA = {
 	},
 	["Buttons"] = {
 		{
-			["objective"] = 0,
-			["group"] = 1,
 			["success"] = false,
-			["count"] = 0,
-			["lastcount"] = 0,
-			["id"] = 1,
 			["item"] = false,
+			["objective"] = 0,
+			["id"] = 1,
+			["group"] = 1,
+			["lastcount"] = 0,
+			["count"] = 0,
 			["bank"] = false,
 		}, -- [1]
 		{
-			["objective"] = 0,
-			["group"] = 1,
 			["success"] = false,
-			["count"] = 0,
-			["lastcount"] = 0,
-			["id"] = 2,
 			["item"] = false,
+			["objective"] = 0,
+			["id"] = 2,
+			["group"] = 1,
+			["lastcount"] = 0,
+			["count"] = 0,
 			["bank"] = false,
 		}, -- [2]
 		{
-			["objective"] = 0,
-			["group"] = 1,
 			["success"] = false,
-			["count"] = 0,
-			["lastcount"] = 0,
-			["id"] = 3,
 			["item"] = false,
+			["objective"] = 0,
+			["id"] = 3,
+			["group"] = 1,
+			["lastcount"] = 0,
+			["count"] = 0,
 			["bank"] = false,
 		}, -- [3]
 		{
-			["objective"] = 0,
-			["group"] = 1,
 			["success"] = false,
-			["count"] = 0,
-			["lastcount"] = 0,
-			["id"] = 4,
 			["item"] = false,
+			["objective"] = 0,
+			["id"] = 4,
+			["group"] = 1,
+			["lastcount"] = 0,
+			["count"] = 0,
 			["bank"] = false,
 		}, -- [4]
 		{
-			["objective"] = 0,
-			["group"] = 1,
 			["success"] = false,
-			["count"] = 0,
-			["lastcount"] = 0,
-			["id"] = 5,
 			["item"] = false,
+			["objective"] = 0,
+			["id"] = 5,
+			["group"] = 1,
+			["lastcount"] = 0,
+			["count"] = 0,
 			["bank"] = false,
 		}, -- [5]
 		{
-			["objective"] = 0,
-			["group"] = 1,
 			["success"] = false,
-			["count"] = 0,
-			["lastcount"] = 0,
-			["id"] = 6,
 			["item"] = false,
+			["objective"] = 0,
+			["id"] = 6,
+			["group"] = 1,
+			["lastcount"] = 0,
+			["count"] = 0,
 			["bank"] = false,
 		}, -- [6]
 		{
-			["objective"] = 0,
-			["group"] = 1,
 			["success"] = false,
-			["count"] = 0,
-			["lastcount"] = 0,
-			["id"] = 7,
 			["item"] = false,
+			["objective"] = 0,
+			["id"] = 7,
+			["group"] = 1,
+			["lastcount"] = 0,
+			["count"] = 0,
 			["bank"] = false,
 		}, -- [7]
 		{
-			["objective"] = 0,
-			["group"] = 1,
 			["success"] = false,
-			["count"] = 0,
-			["lastcount"] = 0,
-			["id"] = 8,
 			["item"] = false,
+			["objective"] = 0,
+			["id"] = 8,
+			["group"] = 1,
+			["lastcount"] = 0,
+			["count"] = 0,
 			["bank"] = false,
 		}, -- [8]
 		{
-			["objective"] = 0,
-			["group"] = 1,
 			["success"] = false,
-			["count"] = 0,
-			["lastcount"] = 0,
-			["id"] = 9,
 			["item"] = false,
+			["objective"] = 0,
+			["id"] = 9,
+			["group"] = 1,
+			["lastcount"] = 0,
+			["count"] = 0,
 			["bank"] = false,
 		}, -- [9]
 		{
-			["objective"] = 0,
-			["group"] = 1,
 			["success"] = false,
-			["count"] = 0,
-			["lastcount"] = 0,
-			["id"] = 10,
 			["item"] = false,
+			["objective"] = 0,
+			["id"] = 10,
+			["group"] = 1,
+			["lastcount"] = 0,
+			["count"] = 0,
 			["bank"] = false,
 		}, -- [10]
 		{
-			["objective"] = 0,
-			["group"] = 1,
 			["success"] = false,
-			["count"] = 0,
-			["lastcount"] = 0,
-			["id"] = 11,
 			["item"] = false,
+			["objective"] = 0,
+			["id"] = 11,
+			["group"] = 1,
+			["lastcount"] = 0,
+			["count"] = 0,
 			["bank"] = false,
 		}, -- [11]
 		{
-			["objective"] = 0,
-			["group"] = 1,
 			["success"] = false,
-			["count"] = 0,
-			["lastcount"] = 0,
-			["id"] = 12,
 			["item"] = false,
+			["objective"] = 0,
+			["id"] = 12,
+			["group"] = 1,
+			["lastcount"] = 0,
+			["count"] = 0,
 			["bank"] = false,
 		}, -- [12]
 	},

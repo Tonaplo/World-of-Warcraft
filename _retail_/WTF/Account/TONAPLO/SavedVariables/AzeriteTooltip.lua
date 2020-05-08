@@ -2,9 +2,9 @@
 AzeriteTooltipDB = {
 	["profileKeys"] = {
 		["Thedodrouk - Silvermoon"] = "Default",
-		["Miriyam - Silvermoon"] = "Default",
-		["Grommarg - Ragnaros"] = "Default",
 		["Praerend - Silvermoon"] = "Default",
+		["Grommarg - Ragnaros"] = "Default",
+		["Kaldowrath - Silvermoon"] = "Default",
 		["Faerand - Silvermoon"] = "Default",
 		["Burdett - Silvermoon"] = "Default",
 		["Rahran - Silvermoon"] = "Default",
@@ -15,7 +15,7 @@ AzeriteTooltipDB = {
 		["Zearthan - Silvermoon"] = "Default",
 		["Greyblood - Silvermoon"] = "Default",
 		["Mallusof - Silvermoon"] = "Default",
-		["Kaldowrath - Silvermoon"] = "Default",
+		["Miriyam - Silvermoon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

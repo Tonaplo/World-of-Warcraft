@@ -3163,6 +3163,94 @@ Blizzard_Console_SavedVars = {
 			"Outline mode changed to 0", -- [1]
 			0, -- [2]
 		}, -- [790]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [791]
+		{
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			0, -- [2]
+		}, -- [792]
+		{
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			0, -- [2]
+		}, -- [793]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [794]
+		{
+			"Proficiency in item class 2 set to 0x0000000010", -- [1]
+			0, -- [2]
+		}, -- [795]
+		{
+			"Proficiency in item class 2 set to 0x0000000410", -- [1]
+			0, -- [2]
+		}, -- [796]
+		{
+			"Proficiency in item class 2 set to 0x0000008410", -- [1]
+			0, -- [2]
+		}, -- [797]
+		{
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			0, -- [2]
+		}, -- [798]
+		{
+			"Proficiency in item class 2 set to 0x000000c410", -- [1]
+			0, -- [2]
+		}, -- [799]
+		{
+			"Proficiency in item class 2 set to 0x000008c410", -- [1]
+			0, -- [2]
+		}, -- [800]
+		{
+			"Proficiency in item class 4 set to 0x0000000023", -- [1]
+			0, -- [2]
+		}, -- [801]
+		{
+			"Proficiency in item class 2 set to 0x000008c410", -- [1]
+			0, -- [2]
+		}, -- [802]
+		{
+			"Proficiency in item class 4 set to 0x0000000023", -- [1]
+			0, -- [2]
+		}, -- [803]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [804]
+		{
+			"Time set to 4/28/2020 (Tue) 2:02", -- [1]
+			0, -- [2]
+		}, -- [805]
+		{
+			"Gamespeed set from 0.017 to 0.017", -- [1]
+			0, -- [2]
+		}, -- [806]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [807]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [808]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [809]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [810]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [811]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [812]
 	},
 	["isShown"] = false,
 	["fontHeight"] = 14,

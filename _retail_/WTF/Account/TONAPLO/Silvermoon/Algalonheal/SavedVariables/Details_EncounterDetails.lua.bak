@@ -189,6 +189,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Foe Reaper 5000",
 		},
+		[8599] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Oaf Lackey",
+		},
+		[88521] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Foe Reaper 5000",
+		},
+		[89262] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "\"Captain\" Cookie",
+		},
 		[88321] = {
 			["school"] = 4,
 			["token"] = {
@@ -196,14 +220,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sticky Bomb",
 		},
-		[90680] = {
+		[88484] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "\"Captain\" Cookie",
+			["source"] = "Foe Reaper 5000",
 		},
 		[89652] = {
 			["school"] = 1,
@@ -230,14 +252,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Glubtok",
 		},
-		[88484] = {
+		[90560] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Foe Reaper 5000",
+			["source"] = "\"Captain\" Cookie",
 		},
-		[90560] = {
+		[90680] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
@@ -262,7 +286,7 @@ EncounterDetailsDB = {
 			},
 			["source"] = "\"Captain\" Cookie",
 		},
-		[90602] = {
+		[90605] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
@@ -271,7 +295,7 @@ EncounterDetailsDB = {
 			},
 			["source"] = "\"Captain\" Cookie",
 		},
-		[90605] = {
+		[90602] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
@@ -353,9 +377,11 @@ EncounterDetailsDB = {
 		},
 		[90098] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Oaf Lackey",
 		},

@@ -1,191 +1,37 @@
-4/28 11:01:22.979  Client Initialize.
-4/28 11:01:33.172  Initial Hotfixes: Requested
-4/28 11:01:33.575  Initial Hotfixes: Received
-4/28 11:01:33.702  Initial Hotfixes: Applied
-4/28 11:01:37.282  Loading Screen Enable (1) : 2175 - 1
-4/28 11:01:38.154  Client Object Manager Initialized: 2175
-4/28 11:01:38.786  Succesfully Registered Nameplate
-4/28 11:01:39.378  Loading Screen : Loading : Files Read 1739 : Bytes Read 759874197 : Elapsed MS 2098 : MBytes Per Sec 345.411
-4/28 11:01:39.378  Loading Screen : XML Loaded 47%
-4/28 11:01:40.257  Client : Load Map Begin : 2175
-4/28 11:01:41.461  Loading Screen : Loading : Files Read 2110 : Bytes Read 270668195 : Elapsed MS 2083 : MBytes Per Sec 123.922
-4/28 11:01:41.461  Loading Screen : XML Loaded 100%
-4/28 11:01:41.461  Loading Screen : World Loaded 64%
-4/28 11:01:41.588  Client : Load Map End
-4/28 11:01:41.591  Start waiting for active player
-4/28 11:01:41.591  Character Login SEND
-4/28 11:01:42.861  Stop waiting for active player
-4/28 11:01:43.252  Active Player Created
-4/28 11:01:43.252  Player : Exit Loading Screen : Preload Immediate Begin
-4/28 11:01:43.252  Loading Screen Enable (2) : 2175 - 1
-4/28 11:01:43.462  Loading Screen : Loading : Files Read 567 : Bytes Read 53054550 : Elapsed MS 2000 : MBytes Per Sec 25.298
-4/28 11:01:43.462  Loading Screen : XML Loaded 100%
-4/28 11:01:43.462  Loading Screen : World Loaded 100%
-4/28 11:01:43.462  Loading Screen : Spell Loaded 100%
-4/28 11:01:44.423  Loading Screen Disable (1)
-4/28 11:01:44.423  Loading Screen Disable (0)
-4/28 11:01:44.423  Loading Screen : Streaming 0
-4/28 11:01:44.423  Loading Screen : XML Loaded 100%
-4/28 11:01:44.423  Loading Screen : World Loaded 100%
-4/28 11:01:44.423  Loading Screen : Spell Loaded 100%
-4/28 11:01:44.423  Spellbook : Make Models Local Begin : 97
-4/28 11:01:44.423  Spellbook : Make Models Local End
-4/28 11:01:44.423  Loading Screen Disable (-1)
-4/28 11:01:44.423  Loading Screen Disable (-1)
-4/28 11:01:44.423  Loading Screen Disable (-1)
-4/28 11:01:44.423  Loading Screen Disable (-1)
-4/28 11:01:44.423  Loading Screen Disable (-1)
-4/28 11:01:44.423  Loading Screen Disable (-1)
-4/28 11:01:44.423  Loading Screen Disable (-1)
-4/28 11:01:44.423  Loading Screen Disable (-1)
-4/28 11:01:44.423  Loading Screen Disable (-1)
-4/28 11:01:44.423  Loading Screen Disable (-1)
-4/28 11:01:44.423  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.434  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.449  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.465  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.481  Loading Screen Disable (-1)
-4/28 11:01:44.496  Loading Screen Disable (-1)
-4/28 11:01:44.496  Loading Screen Disable (-1)
-4/28 11:01:44.496  Loading Screen Disable (-1)
-4/28 11:01:44.496  Loading Screen Disable (-1)
-4/28 11:01:44.496  Loading Screen Disable (-1)
-4/28 11:01:44.496  Loading Screen Disable (-1)
-4/28 11:01:44.496  Loading Screen Disable (-1)
-4/28 11:01:44.496  Loading Screen Disable (-1)
-4/28 11:01:44.496  Loading Screen Disable (-1)
-4/28 11:01:44.496  Loading Screen Disable (-1)
-4/28 11:01:44.496  Loading Screen Disable (-1)
-4/28 11:01:44.496  Loading Screen Disable (-1)
-4/28 11:01:44.496  Loading Screen Disable (-1)
-4/28 11:01:44.496  Loading Screen Disable (-1)
-4/28 11:01:44.496  Loading Screen Disable (-1)
-4/28 11:01:44.496  Player : Exit Loading Screen : Preload Immediate End
-4/28 11:01:44.496  Loading Screen Disable (-1)
-4/28 11:02:27.925  Client Object Manager Destroyed
-4/28 11:02:27.925  Nameplate Shutting Down
-4/28 11:02:28.037  Loading Screen Disable (-1)
-4/28 11:02:33.021  Loading Screen Enable (1) : 2222 - 1
-4/28 11:02:33.086  Client Object Manager Initialized: 2222
-4/28 11:02:33.682  Succesfully Registered Nameplate
-4/28 11:02:35.042  Client : Load Map Begin : 2222
-4/28 11:02:35.042  Loading Screen : Loading : Files Read 1438 : Bytes Read 239988238 : Elapsed MS 2022 : MBytes Per Sec 113.190
-4/28 11:02:35.042  Loading Screen : XML Loaded 100%
-4/28 11:02:36.387  Client : Load Map End
-4/28 11:02:36.387  Start waiting for active player
-4/28 11:02:36.428  Character Login SEND
-4/28 11:02:37.895  Stop waiting for active player
-4/28 11:02:37.913  Loading Screen : Loading : Files Read 2192 : Bytes Read 330086960 : Elapsed MS 2870 : MBytes Per Sec 109.685
-4/28 11:02:37.913  Loading Screen : XML Loaded 100%
-4/28 11:02:37.913  Loading Screen : World Loaded 100%
-4/28 11:02:37.913  Loading Screen : Spell Loaded 0%
-4/28 11:02:39.938  Active Player Created
-4/28 11:02:39.938  Loading Screen Disable (0)
-4/28 11:02:39.938  Loading Screen : Loading : Files Read 174 : Bytes Read 1807264 : Elapsed MS 2023 : MBytes Per Sec 0.852
-4/28 11:02:39.938  Loading Screen : XML Loaded 100%
-4/28 11:02:39.938  Loading Screen : World Loaded 100%
-4/28 11:02:39.938  Loading Screen : Spell Loaded 100%
-4/28 11:02:39.938  Spellbook : Make Models Local Begin : 111
-4/28 11:02:39.938  Spellbook : Make Models Local End
-4/28 11:14:21.410  Client Object Manager Destroyed
-4/28 11:14:21.420  Nameplate Shutting Down
-4/28 11:14:21.548  Loading Screen Disable (-1)
-4/28 11:14:21.626  Loading Screen Disable (-1)
-4/28 11:14:21.626  Client Destroy
+5/7 12:54:00.220  Client Initialize.
+5/7 12:54:10.040  Initial Hotfixes: Requested
+5/7 12:54:10.399  Initial Hotfixes: Received
+5/7 12:54:10.523  Initial Hotfixes: Applied
+5/7 12:55:40.833  Loading Screen Enable (1) : 2222 - 1
+5/7 12:55:41.734  Client Object Manager Initialized: 2222
+5/7 12:55:42.311  Succesfully Registered Nameplate
+5/7 12:55:42.878  Loading Screen : Loading : Files Read 2197 : Bytes Read 844337415 : Elapsed MS 2045 : MBytes Per Sec 393.752
+5/7 12:55:42.878  Loading Screen : XML Loaded 47%
+5/7 12:55:43.710  Client : Load Map Begin : 2222
+5/7 12:55:44.957  Loading Screen : Loading : Files Read 1905 : Bytes Read 262925538 : Elapsed MS 2079 : MBytes Per Sec 120.609
+5/7 12:55:44.957  Loading Screen : XML Loaded 100%
+5/7 12:55:44.957  Loading Screen : World Loaded 30%
+5/7 12:55:46.985  Loading Screen : Loading : Files Read 2030 : Bytes Read 336382216 : Elapsed MS 2028 : MBytes Per Sec 158.185
+5/7 12:55:46.985  Loading Screen : XML Loaded 100%
+5/7 12:55:46.985  Loading Screen : World Loaded 60%
+5/7 12:55:47.781  Client : Load Map End
+5/7 12:55:47.784  Start waiting for active player
+5/7 12:55:47.784  Character Login SEND
+5/7 12:55:49.303  Stop waiting for active player
+5/7 12:55:49.324  Loading Screen : Loading : Files Read 1399 : Bytes Read 166442736 : Elapsed MS 2339 : MBytes Per Sec 67.863
+5/7 12:55:49.324  Loading Screen : XML Loaded 100%
+5/7 12:55:49.324  Loading Screen : World Loaded 100%
+5/7 12:55:49.324  Loading Screen : Spell Loaded 0%
+5/7 12:55:51.469  Active Player Created
+5/7 12:55:51.469  Loading Screen Disable (0)
+5/7 12:55:51.469  Loading Screen : Loading : Files Read 397 : Bytes Read 23025436 : Elapsed MS 2142 : MBytes Per Sec 10.252
+5/7 12:55:51.469  Loading Screen : XML Loaded 100%
+5/7 12:55:51.469  Loading Screen : World Loaded 100%
+5/7 12:55:51.469  Loading Screen : Spell Loaded 100%
+5/7 12:55:51.469  Spellbook : Make Models Local Begin : 98
+5/7 12:55:51.471  Spellbook : Make Models Local End
+5/7 12:59:26.587  Client Object Manager Destroyed
+5/7 12:59:26.613  Nameplate Shutting Down
+5/7 12:59:26.729  Loading Screen Disable (-1)
+5/7 12:59:26.794  Loading Screen Disable (-1)
+5/7 12:59:26.794  Client Destroy

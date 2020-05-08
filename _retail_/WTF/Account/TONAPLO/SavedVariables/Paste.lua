@@ -1,14 +1,18 @@
 
 PasteDB = {
 	["profileKeys"] = {
-		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
+		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
+		["Algalonheal - Silvermoon"] = "Algalonheal - Silvermoon",
 	},
 	["profiles"] = {
+		["Kindhoof - Ragnaros"] = {
+			["loaded"] = true,
+		},
 		["Mallusof - Silvermoon"] = {
 			["loaded"] = true,
-			["where"] = "Default",
 			["whispertarget"] = "",
+			["where"] = "Default",
 			["pos"] = {
 				["height"] = 320,
 				["top"] = 320,
@@ -16,7 +20,7 @@ PasteDB = {
 				["width"] = 499.9999084472656,
 			},
 		},
-		["Kindhoof - Ragnaros"] = {
+		["Algalonheal - Silvermoon"] = {
 			["loaded"] = true,
 		},
 	},

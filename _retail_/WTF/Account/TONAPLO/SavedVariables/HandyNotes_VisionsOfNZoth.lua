@@ -2,9 +2,9 @@
 HandyNotes_VisionsOfNZothDB = {
 	["profileKeys"] = {
 		["Thedodrouk - Silvermoon"] = "Default",
-		["Kaldowrath - Silvermoon"] = "Default",
-		["Grommarg - Ragnaros"] = "Default",
 		["Praerend - Silvermoon"] = "Default",
+		["Grommarg - Ragnaros"] = "Default",
+		["Miriyam - Silvermoon"] = "Default",
 		["Faerand - Silvermoon"] = "Default",
 		["Burdett - Silvermoon"] = "Default",
 		["Korugen - Silvermoon"] = "Default",
@@ -15,7 +15,7 @@ HandyNotes_VisionsOfNZothDB = {
 		["Zearthan - Silvermoon"] = "Default",
 		["Greyblood - Silvermoon"] = "Default",
 		["Mallusof - Silvermoon"] = "Default",
-		["Miriyam - Silvermoon"] = "Default",
+		["Kaldowrath - Silvermoon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -1,68 +1,69 @@
-4/28 11:01:23.000   - SE3 Init...
-4/28 11:01:23.000  => SI3 Init
-4/28 11:01:23.000  => WoW Version 9.0.1 (34137) Apr 21 2020
-4/28 11:01:23.000   
-4/28 11:01:23.000  => User Settings Report:
-4/28 11:01:23.000   - ========= PLAYBACK =========
-4/28 11:01:23.000   - Enable All Sound         [1]
-4/28 11:01:23.000   - Enable SFX               [1]
-4/28 11:01:23.000   --- Enable Emote Sounds    [1]
-4/28 11:01:23.000   - Enable Music             [1]
-4/28 11:01:23.000   --- Loop Music             [0]
-4/28 11:01:23.000   --- Pet Battle Music       [1]
-4/28 11:01:23.000   - Enable Ambient Sounds    [1]
-4/28 11:01:23.000   - Enable Dialog            [1]
-4/28 11:01:23.000   --- Enable Error Speech    [1]
-4/28 11:01:23.000   - Sound at Character       [1]
-4/28 11:01:23.000   - Sound in Background      [0]
-4/28 11:01:23.000   - Enable Reverb            [1]
-4/28 11:01:23.000   -
-4/28 11:01:23.000   - ========== VOLUME ==========
-4/28 11:01:23.000   - Master Volume         [1.00]
-4/28 11:01:23.000   - SFX Volume            [1.00]
-4/28 11:01:23.000   - Music Volume          [0.60]
-4/28 11:01:23.000   - Ambience Volume       [0.60]
-4/28 11:01:23.000   - Dialog Volume         [1.00]
-4/28 11:01:23.000   -
-4/28 11:01:23.000   - =========== MISC ===========
-4/28 11:01:23.000   - Sound Channels          [64]
-4/28 11:01:23.000   - Sound Cache           [128MB]
-4/28 11:01:23.000   - Mix Mode 2               [0]
-4/28 11:01:23.000   - DSP Buffer Size       [AUTO]
-4/28 11:01:23.000   - Armor Foley SFX (Self)   [1]
-4/28 11:01:23.000   - Armor Foley SFX (Others) [1]
-4/28 11:01:23.000  => End of User Settings Report
-4/28 11:01:23.000   
-4/28 11:01:23.000   - FMOD Memory Init
-4/28 11:01:23.000   - FMOD System Create
-4/28 11:01:23.000   - Setting Output Type
-4/28 11:01:23.032   - 4 Output drivers detected
-4/28 11:01:23.032   --- [0] System Default
-4/28 11:01:23.032   --- [1] S27D590 (2- NVIDIA High Definition Audio)
-4/28 11:01:23.032   --- [2] Speakers (SteelSeries Siberia Elite)
-4/28 11:01:23.032   --- [3] S27D590C (2- NVIDIA High Definition Audio)
-4/28 11:01:23.032  ** Using Driver [0] System Default (S27D590 (2- NVIDIA High Definition Audio))
-4/28 11:01:23.032   - DSPBufferSize = AUTO DETECT
-4/28 11:01:23.032   - Setting DSP Buffer Size
-4/28 11:01:23.032   - Using Control Panel Speaker Mode STEREO
-4/28 11:01:23.032   - Setting Software Format (44100, 2, 1).
-4/28 11:01:23.032   - Requested 64 channels.
-4/28 11:01:23.032   - Initializing Software Channels
-4/28 11:01:23.054   - Init FMOD Game System
-4/28 11:01:23.054   - Ok
-4/28 11:01:23.054   - Setting Rolloff Scale
-4/28 11:01:23.054   - Setting Rolloff Callback
-4/28 11:01:23.054   - SE3 EmitterManagerInit Success
-4/28 11:01:23.054   - Setting device callback
-4/28 11:01:23.054   - Sound Bus Init
-4/28 11:01:23.054   - Init Suppressors
-4/28 11:01:23.054   - SE3 Init Success.
-4/28 11:01:23.061  => SI3 Init Complete.
-4/28 11:01:23.061   
-4/28 11:14:21.562   
-4/28 11:14:21.562  => Shutting Down SI3
-4/28 11:14:21.577  => Shutting Down SI3 COMPLETE.
-4/28 11:14:21.577   
-4/28 11:14:21.577   - Shutting Down SE3
-4/28 11:14:21.626   - SE3 EmitterManagerShutdown Success
-4/28 11:14:21.626   - Shutting Down SE3 COMPLETE.
+5/7 12:54:00.250   - SE3 Init...
+5/7 12:54:00.250  => SI3 Init
+5/7 12:54:00.250  => WoW Version 9.0.1 (34278) May  4 2020
+5/7 12:54:00.251   
+5/7 12:54:00.251  => User Settings Report:
+5/7 12:54:00.251   - ========= PLAYBACK =========
+5/7 12:54:00.251   - Enable All Sound         [1]
+5/7 12:54:00.251   - Enable SFX               [1]
+5/7 12:54:00.251   --- Enable Emote Sounds    [1]
+5/7 12:54:00.251   - Enable Music             [1]
+5/7 12:54:00.251   --- Loop Music             [0]
+5/7 12:54:00.251   --- Pet Battle Music       [1]
+5/7 12:54:00.251   - Enable Ambient Sounds    [1]
+5/7 12:54:00.251   - Enable Dialog            [1]
+5/7 12:54:00.251   --- Enable Error Speech    [1]
+5/7 12:54:00.251   - Sound at Character       [1]
+5/7 12:54:00.251   - Sound in Background      [0]
+5/7 12:54:00.251   - Enable Reverb            [1]
+5/7 12:54:00.251   -
+5/7 12:54:00.251   - ========== VOLUME ==========
+5/7 12:54:00.251   - Master Volume         [1.00]
+5/7 12:54:00.251   - SFX Volume            [1.00]
+5/7 12:54:00.251   - Music Volume          [0.60]
+5/7 12:54:00.251   - Ambience Volume       [0.60]
+5/7 12:54:00.251   - Dialog Volume         [1.00]
+5/7 12:54:00.251   -
+5/7 12:54:00.251   - =========== MISC ===========
+5/7 12:54:00.251   - Sound Channels          [64]
+5/7 12:54:00.251   - Sound Cache           [128MB]
+5/7 12:54:00.251   - Mix Mode 2               [0]
+5/7 12:54:00.251   - DSP Buffer Size       [AUTO]
+5/7 12:54:00.251   - Armor Foley SFX (Self)   [1]
+5/7 12:54:00.251   - Armor Foley SFX (Others) [1]
+5/7 12:54:00.251  => End of User Settings Report
+5/7 12:54:00.251   
+5/7 12:54:00.251   - FMOD Memory Init
+5/7 12:54:00.251   - FMOD System Create
+5/7 12:54:00.251   - Setting Output Type
+5/7 12:54:00.297   - 4 Output drivers detected
+5/7 12:54:00.297   --- [0] System Default
+5/7 12:54:00.297   --- [1] S27D590 (2- NVIDIA High Definition Audio)
+5/7 12:54:00.297   --- [2] Speakers (SteelSeries Siberia Elite)
+5/7 12:54:00.298   --- [3] S27D590C (2- NVIDIA High Definition Audio)
+5/7 12:54:00.298  ** Using Driver [0] System Default (S27D590 (2- NVIDIA High Definition Audio))
+5/7 12:54:00.298   - DSPBufferSize = AUTO DETECT
+5/7 12:54:00.298   - Setting DSP Buffer Size
+5/7 12:54:00.298   - Using Control Panel Speaker Mode STEREO
+5/7 12:54:00.298   - Setting Software Format (44100, 2, 1).
+5/7 12:54:00.298   - Requested 64 channels.
+5/7 12:54:00.298   - Initializing Software Channels
+5/7 12:54:00.298   - FMOD advanced settings
+5/7 12:54:00.349   - Init FMOD Game System
+5/7 12:54:00.349   - Ok
+5/7 12:54:00.349   - Setting Rolloff Scale
+5/7 12:54:00.349   - Setting Rolloff Callback
+5/7 12:54:00.349   - SE3 EmitterManagerInit Success
+5/7 12:54:00.349   - Setting device callback
+5/7 12:54:00.349   - Sound Bus Init
+5/7 12:54:00.349   - Init Suppressors
+5/7 12:54:00.349   - SE3 Init Success.
+5/7 12:54:00.349  => SI3 Init Complete.
+5/7 12:54:00.349   
+5/7 12:59:26.743   
+5/7 12:59:26.743  => Shutting Down SI3
+5/7 12:59:26.757  => Shutting Down SI3 COMPLETE.
+5/7 12:59:26.757   
+5/7 12:59:26.757   - Shutting Down SE3
+5/7 12:59:26.794   - SE3 EmitterManagerShutdown Success
+5/7 12:59:26.794   - Shutting Down SE3 COMPLETE.

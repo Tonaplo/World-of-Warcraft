@@ -66,3 +66,5 @@ ParagonReputation: enabled
 ElvUI_OptionsUI: enabled
 ElvUI: enabled
 OPie_Classic: disabled
+DailyToDo: disabled
+FarmIt2: disabled

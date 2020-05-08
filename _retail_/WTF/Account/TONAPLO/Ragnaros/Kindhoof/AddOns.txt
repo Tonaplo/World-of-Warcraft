@@ -50,3 +50,5 @@ ElvUI_CustomTweaks: disabled
 WeakAurasArchive: enabled
 HandyNotes: enabled
 HandyNotes_DraenorTreasures: enabled
+DailyToDo: disabled
+FarmIt2: disabled
