@@ -11,6 +11,10 @@ _retail_/BlizzardError.exe
 _retail_/dbghelp.dll
 _retail_/GFSDK_Aftermath_Lib.x64.dll
 _retail_/Wow.exe
+_retail_/.curseclient
+_retail_/GPUCache/
+_retail_/d3d12.dll
+_retail_/dxilconv7.dll
 .agent.db
 WoW.mfil
 Wow.exe
