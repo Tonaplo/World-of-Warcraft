@@ -9,25 +9,9 @@ DailyToDoDB = {
 			["hideCompleted"] = true,
 			["lists"] = {
 				{
-					["completed"] = true,
+					["completed"] = false,
 					["name"] = "Kill these once a day",
 					["entries"] = {
-						{
-							["completed"] = true,
-							["checked"] = true,
-							["manual"] = false,
-							["text"] = "Check MacCree for Vigilant Thanos WQ",
-							["weekly"] = false,
-							["days"] = {
-								true, -- [1]
-								true, -- [2]
-								true, -- [3]
-								true, -- [4]
-								true, -- [5]
-								true, -- [6]
-								true, -- [7]
-							},
-						}, -- [1]
 						{
 							["completed"] = true,
 							["checked"] = true,
@@ -43,7 +27,7 @@ DailyToDoDB = {
 								true, -- [7]
 							},
 							["manual"] = false,
-						}, -- [2]
+						}, -- [1]
 						{
 							["completed"] = true,
 							["checked"] = true,
@@ -59,7 +43,7 @@ DailyToDoDB = {
 								true, -- [7]
 							},
 							["manual"] = false,
-						}, -- [3]
+						}, -- [2]
 						{
 							["completed"] = true,
 							["checked"] = true,
@@ -75,7 +59,7 @@ DailyToDoDB = {
 								true, -- [7]
 							},
 							["manual"] = false,
-						}, -- [4]
+						}, -- [3]
 						{
 							["completed"] = true,
 							["checked"] = true,
@@ -91,9 +75,9 @@ DailyToDoDB = {
 								true, -- [7]
 							},
 							["manual"] = false,
-						}, -- [5]
+						}, -- [4]
 						{
-							["completed"] = true,
+							["completed"] = false,
 							["checked"] = true,
 							["weekly"] = false,
 							["text"] = "Do Jade Forest Dragon dailies",
@@ -107,7 +91,7 @@ DailyToDoDB = {
 								true, -- [7]
 							},
 							["manual"] = false,
-						}, -- [6]
+						}, -- [5]
 					},
 				}, -- [1]
 				{
@@ -286,7 +270,7 @@ DailyToDoDB = {
 				}, -- [3]
 				{
 					["completed"] = false,
-					["expanded"] = true,
+					["expanded"] = false,
 					["name"] = "The BFA To Do List",
 					["entries"] = {
 						{
@@ -374,11 +358,11 @@ DailyToDoDB = {
 			},
 			["weeklyResetDay"] = 4,
 			["framePosition"] = {
-				["y"] = -160.0001373291016,
-				["x"] = 395.0003967285156,
-				["anchor"] = "TOP",
+				["anchor"] = "TOPRIGHT",
+				["x"] = -416.0007934570313,
+				["y"] = -120.0001754760742,
 			},
-			["timestamp"] = 20200507000000,
+			["timestamp"] = 20200511000000,
 			["icon"] = {
 				["minimapPos"] = 243.2654785468459,
 			},

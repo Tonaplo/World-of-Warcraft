@@ -2,3 +2,4 @@ OPie_Classic: disabled
 AllTheThings: enabled
 TomTom: enabled
 DailyToDo: disabled
+TradeSkillMaster: disabled

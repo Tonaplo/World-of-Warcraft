@@ -1,9 +1,0 @@
-5/7 12:53:57.035  WDLogInitialize
-5/7 12:53:57.035  <1> ThreadProc start
-5/7 12:54:00.602  [1] Starting download on mgr 1: http://beta.worldofwarcraft.com/alert
-5/7 12:54:00.602  [1] CleanupDownload 4 0 6
-5/7 12:54:00.644  [1] Done 4
-5/7 12:59:27.092  <1> Shutdown start
-5/7 12:59:27.092  <1> ThreadProc end
-5/7 12:59:27.092  <1> Shutdown end
-5/7 12:59:27.092  WDLogDestroy

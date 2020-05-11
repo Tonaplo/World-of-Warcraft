@@ -9,25 +9,9 @@ DailyToDoDB = {
 			["hideCompleted"] = true,
 			["lists"] = {
 				{
-					["completed"] = true,
+					["completed"] = false,
 					["name"] = "Kill these once a day",
 					["entries"] = {
-						{
-							["completed"] = true,
-							["checked"] = true,
-							["days"] = {
-								true, -- [1]
-								true, -- [2]
-								true, -- [3]
-								true, -- [4]
-								true, -- [5]
-								true, -- [6]
-								true, -- [7]
-							},
-							["text"] = "Check MacCree for Vigilant Thanos WQ",
-							["weekly"] = false,
-							["manual"] = false,
-						}, -- [1]
 						{
 							["completed"] = true,
 							["checked"] = true,
@@ -43,7 +27,7 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-						}, -- [2]
+						}, -- [1]
 						{
 							["completed"] = true,
 							["checked"] = true,
@@ -59,7 +43,7 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-						}, -- [3]
+						}, -- [2]
 						{
 							["completed"] = true,
 							["checked"] = true,
@@ -75,7 +59,7 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-						}, -- [4]
+						}, -- [3]
 						{
 							["completed"] = true,
 							["checked"] = true,
@@ -91,9 +75,9 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-						}, -- [5]
+						}, -- [4]
 						{
-							["completed"] = true,
+							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "Do Jade Forest Dragon dailies",
@@ -107,7 +91,7 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-						}, -- [6]
+						}, -- [5]
 					},
 				}, -- [1]
 				{
@@ -374,10 +358,11 @@ DailyToDoDB = {
 			},
 			["weeklyResetDay"] = 4,
 			["framePosition"] = {
-				["y"] = -190.0002593994141,
-				["anchor"] = "RIGHT",
+				["anchor"] = "TOPRIGHT",
+				["x"] = -416.0007934570313,
+				["y"] = -120.0001754760742,
 			},
-			["timestamp"] = 20200507000000,
+			["timestamp"] = 20200511000000,
 			["icon"] = {
 				["minimapPos"] = 243.2654785468459,
 			},

@@ -2,11 +2,15 @@
 PasteDB = {
 	["profileKeys"] = {
 		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
+		["Amranar - Silvermoon"] = "Amranar - Silvermoon",
 		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Algalonheal - Silvermoon"] = "Algalonheal - Silvermoon",
 	},
 	["profiles"] = {
 		["Kindhoof - Ragnaros"] = {
+			["loaded"] = true,
+		},
+		["Amranar - Silvermoon"] = {
 			["loaded"] = true,
 		},
 		["Mallusof - Silvermoon"] = {

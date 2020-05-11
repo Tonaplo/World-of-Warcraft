@@ -76,3 +76,4 @@ ElvUI_CustomTweaks: disabled
 WeakAurasArchive: enabled
 TomTom: enabled
 DailyToDo: disabled
+TradeSkillMaster: disabled

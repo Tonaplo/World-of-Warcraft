@@ -45,3 +45,4 @@ OPie_Classic: disabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
 ElvUI_OptionsUI: enabled
+TradeSkillMaster: disabled

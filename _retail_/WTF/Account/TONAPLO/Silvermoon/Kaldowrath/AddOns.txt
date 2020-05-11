@@ -24,3 +24,4 @@ AllTheThings: enabled
 BigWigs_Azeroth: enabled
 TomTom: enabled
 DailyToDo: disabled
+TradeSkillMaster: disabled

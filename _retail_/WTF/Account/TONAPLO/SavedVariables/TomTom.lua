@@ -2,6 +2,7 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["Kindhoof - Ragnaros"] = "Default",
+		["Amranar - Silvermoon"] = "Default",
 		["Mallusof - Silvermoon"] = "Default",
 		["Algalonheal - Silvermoon"] = "Default",
 	},
@@ -32,11 +33,14 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
+		["Amranar - Silvermoon"] = "Amranar - Silvermoon",
 		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Algalonheal - Silvermoon"] = "Algalonheal - Silvermoon",
 	},
 	["profiles"] = {
 		["Kindhoof - Ragnaros"] = {
+		},
+		["Amranar - Silvermoon"] = {
 		},
 		["Mallusof - Silvermoon"] = {
 			[108] = {
@@ -55,9 +59,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -78,268 +82,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
 						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[102] = {
-				["102:130000000:410000000:Marticar"] = {
-					102, -- [1]
-					0.13, -- [2]
-					0.41, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Marticar",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Marticar",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
 						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["102:610000000:400000000:Emissary"] = {
-					102, -- [1]
-					0.61, -- [2]
-					0.4, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Emissary",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Emissary",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["102:620000000:640000000:Emissary"] = {
-					102, -- [1]
-					0.62, -- [2]
-					0.64, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Emissary",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Emissary",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["102:250000000:250000000:Bog Lurker"] = {
-					102, -- [1]
-					0.25, -- [2]
-					0.25, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Bog Lurker",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Bog Lurker",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["102:450000000:600000000:Bog Lurker"] = {
-					102, -- [1]
-					0.45, -- [2]
-					0.6, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Bog Lurker",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Bog Lurker",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[627] = {
-				["627:641500000:379000000:The Filthy Animal - Horde Inn (Outside)"] = {
-					627, -- [1]
-					0.6415000000000001, -- [2]
-					0.379, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "The Filthy Animal - Horde Inn (Outside)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "The Filthy Animal - Horde Inn (Outside)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[100] = {
-				["100:420000000:320000000:Vorakem"] = {
-					100, -- [1]
-					0.42, -- [2]
-					0.32, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Vorakem",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Vorakem",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["100:520000000:720000000:Fulgorge"] = {
-					100, -- [1]
-					0.52, -- [2]
-					0.72, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Fulgorge",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Fulgorge",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["100:340000000:600000000:Fulgorge"] = {
-					100, -- [1]
-					0.34, -- [2]
-					0.6, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Fulgorge",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Fulgorge",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["100:540000000:270000000:Vorakem"] = {
-					100, -- [1]
-					0.54, -- [2]
-					0.27, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Vorakem",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Vorakem",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["100:510000000:490000000:Mekthorg"] = {
-					100, -- [1]
-					0.51, -- [2]
-					0.49, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Mekthorg",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Mekthorg",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -362,9 +107,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -385,9 +130,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -408,9 +153,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -431,9 +176,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -454,9 +199,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -477,9 +222,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -500,34 +245,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
 						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[862] = {
-				["862:677700000:288300000:Thunderfoot"] = {
-					862, -- [1]
-					0.6777, -- [2]
-					0.2883, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Thunderfoot",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Thunderfoot",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
 						["minimap"] = {
-						},
-						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -550,9 +270,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -573,9 +293,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -596,9 +316,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -619,9 +339,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -642,9 +362,293 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
+						["world"] = {
+						},
 						["minimap"] = {
 						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[100] = {
+				["100:420000000:320000000:Vorakem"] = {
+					100, -- [1]
+					0.42, -- [2]
+					0.32, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Vorakem",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Vorakem",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
 						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["100:520000000:720000000:Fulgorge"] = {
+					100, -- [1]
+					0.52, -- [2]
+					0.72, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Fulgorge",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Fulgorge",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["100:340000000:600000000:Fulgorge"] = {
+					100, -- [1]
+					0.34, -- [2]
+					0.6, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Fulgorge",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Fulgorge",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["100:540000000:270000000:Vorakem"] = {
+					100, -- [1]
+					0.54, -- [2]
+					0.27, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Vorakem",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Vorakem",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["100:510000000:490000000:Mekthorg"] = {
+					100, -- [1]
+					0.51, -- [2]
+					0.49, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Mekthorg",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Mekthorg",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[102] = {
+				["102:130000000:410000000:Marticar"] = {
+					102, -- [1]
+					0.13, -- [2]
+					0.41, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Marticar",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Marticar",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["102:610000000:400000000:Emissary"] = {
+					102, -- [1]
+					0.61, -- [2]
+					0.4, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Emissary",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Emissary",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["102:620000000:640000000:Emissary"] = {
+					102, -- [1]
+					0.62, -- [2]
+					0.64, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Emissary",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Emissary",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["102:250000000:250000000:Bog Lurker"] = {
+					102, -- [1]
+					0.25, -- [2]
+					0.25, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Bog Lurker",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Bog Lurker",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["102:450000000:600000000:Bog Lurker"] = {
+					102, -- [1]
+					0.45, -- [2]
+					0.6, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Bog Lurker",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Bog Lurker",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[862] = {
+				["862:677700000:288300000:Thunderfoot"] = {
+					862, -- [1]
+					0.6777, -- [2]
+					0.2883, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Thunderfoot",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Thunderfoot",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[627] = {
+				["627:641500000:379000000:The Filthy Animal - Horde Inn (Outside)"] = {
+					627, -- [1]
+					0.6415000000000001, -- [2]
+					0.379, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "The Filthy Animal - Horde Inn (Outside)",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "The Filthy Animal - Horde Inn (Outside)",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
