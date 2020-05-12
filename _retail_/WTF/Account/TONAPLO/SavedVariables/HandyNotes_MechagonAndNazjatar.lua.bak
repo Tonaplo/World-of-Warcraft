@@ -16,9 +16,9 @@ HandyNotes_MechagonAndNazjatarDB = {
 	},
 	["profileKeys"] = {
 		["Thedodrouk - Silvermoon"] = "Default",
-		["Miriyam - Silvermoon"] = "Default",
-		["Grommarg - Ragnaros"] = "Default",
 		["Praerend - Silvermoon"] = "Default",
+		["Grommarg - Ragnaros"] = "Default",
+		["Kaldowrath - Silvermoon"] = "Default",
 		["Faerand - Silvermoon"] = "Default",
 		["Mallusof - Silvermoon"] = "Default",
 		["Rahran - Silvermoon"] = "Default",
@@ -29,7 +29,7 @@ HandyNotes_MechagonAndNazjatarDB = {
 		["Zearthan - Silvermoon"] = "Default",
 		["Greyblood - Silvermoon"] = "Default",
 		["Burdett - Silvermoon"] = "Default",
-		["Kaldowrath - Silvermoon"] = "Default",
+		["Miriyam - Silvermoon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -11,6 +11,14 @@ ElvUI_CustomTweaks: disabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
 HandyNotes: enabled
-HandyNotes_DraenorTreasures: enabled
+HandyNotes_DraenorTreasures: disabled
 DailyToDo: disabled
 FarmIt2: disabled
+TradeSkillMaster: disabled
+TradeSkillMaster_AppHelper: disabled
+RareScanner: disabled
+HandyNotes_LongForgottenHippogryph: disabled
+HandyNotes_VisionsOfNZoth: disabled
+HandyNotes_MechagonAndNazjatar: disabled
+Handynotes_Pandaria: disabled
+AngryWorldQuests: enabled

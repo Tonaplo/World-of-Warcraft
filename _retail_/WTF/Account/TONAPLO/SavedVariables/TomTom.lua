@@ -2,9 +2,9 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["Kindhoof - Ragnaros"] = "Default",
-		["Amranar - Silvermoon"] = "Default",
-		["Mallusof - Silvermoon"] = "Default",
 		["Algalonheal - Silvermoon"] = "Default",
+		["Mallusof - Silvermoon"] = "Default",
+		["Amranar - Silvermoon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -33,40 +33,17 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
-		["Amranar - Silvermoon"] = "Amranar - Silvermoon",
-		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Algalonheal - Silvermoon"] = "Algalonheal - Silvermoon",
+		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
+		["Amranar - Silvermoon"] = "Amranar - Silvermoon",
 	},
 	["profiles"] = {
 		["Kindhoof - Ragnaros"] = {
 		},
-		["Amranar - Silvermoon"] = {
+		["Algalonheal - Silvermoon"] = {
 		},
 		["Mallusof - Silvermoon"] = {
 			[108] = {
-				["108:650000000:400000000:Jurim"] = {
-					108, -- [1]
-					0.65, -- [2]
-					0.4, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Jurim",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Jurim",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
 				["108:550000000:710000000:Okrek"] = {
 					108, -- [1]
 					0.55, -- [2]
@@ -90,157 +67,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-			},
-			[109] = {
-				["109:620000000:400000000:Lorthander"] = {
-					109, -- [1]
-					0.62, -- [2]
+				["108:650000000:400000000:Jurim"] = {
+					108, -- [1]
+					0.65, -- [2]
 					0.4, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Lorthander",
+					["desc"] = "Jurim",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Lorthander",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["109:480000000:320000000:Lorthander"] = {
-					109, -- [1]
-					0.48, -- [2]
-					0.32, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Lorthander",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Lorthander",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["109:670000000:390000000:Ever-Core"] = {
-					109, -- [1]
-					0.67, -- [2]
-					0.39, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Ever-Core",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Ever-Core",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["109:580000000:450000000:Ever-Core"] = {
-					109, -- [1]
-					0.58, -- [2]
-					0.45, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Ever-Core",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Ever-Core",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["109:260000000:400000000:Lorthander"] = {
-					109, -- [1]
-					0.26, -- [2]
-					0.4, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Lorthander",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Lorthander",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["109:620000000:320000000:Ever-Core"] = {
-					109, -- [1]
-					0.62, -- [2]
-					0.32, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Ever-Core",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Ever-Core",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["109:300000000:770000000:Nuramoc"] = {
-					109, -- [1]
-					0.3, -- [2]
-					0.77, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Nuramoc",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Nuramoc",
+					["title"] = "Jurim",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -358,6 +195,31 @@ TomTomWaypointsM = {
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Mar'Grom",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[627] = {
+				["627:641500000:379000000:The Filthy Animal - Horde Inn (Outside)"] = {
+					627, -- [1]
+					0.6415000000000001, -- [2]
+					0.379, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "The Filthy Animal - Horde Inn (Outside)",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "The Filthy Animal - Horde Inn (Outside)",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -605,6 +467,169 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
+			[109] = {
+				["109:620000000:400000000:Lorthander"] = {
+					109, -- [1]
+					0.62, -- [2]
+					0.4, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Lorthander",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Lorthander",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["109:480000000:320000000:Lorthander"] = {
+					109, -- [1]
+					0.48, -- [2]
+					0.32, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Lorthander",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Lorthander",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["109:670000000:390000000:Ever-Core"] = {
+					109, -- [1]
+					0.67, -- [2]
+					0.39, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Ever-Core",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Ever-Core",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["109:620000000:320000000:Ever-Core"] = {
+					109, -- [1]
+					0.62, -- [2]
+					0.32, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Ever-Core",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Ever-Core",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["109:260000000:400000000:Lorthander"] = {
+					109, -- [1]
+					0.26, -- [2]
+					0.4, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Lorthander",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Lorthander",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["109:580000000:450000000:Ever-Core"] = {
+					109, -- [1]
+					0.58, -- [2]
+					0.45, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Ever-Core",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Ever-Core",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["109:300000000:770000000:Nuramoc"] = {
+					109, -- [1]
+					0.3, -- [2]
+					0.77, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Nuramoc",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Nuramoc",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
 			[862] = {
 				["862:677700000:288300000:Thunderfoot"] = {
 					862, -- [1]
@@ -630,33 +655,8 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
-			[627] = {
-				["627:641500000:379000000:The Filthy Animal - Horde Inn (Outside)"] = {
-					627, -- [1]
-					0.6415000000000001, -- [2]
-					0.379, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "The Filthy Animal - Horde Inn (Outside)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "The Filthy Animal - Horde Inn (Outside)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
-		["Algalonheal - Silvermoon"] = {
+		["Amranar - Silvermoon"] = {
 		},
 	},
 }

@@ -1,11 +1,11 @@
 
 HandyNotes_LongForgottenHippogryphDB = {
 	["profileKeys"] = {
-		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
+		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
 		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
 		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Grommarg - Ragnaros"] = "Grommarg - Ragnaros",
-		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
+		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
 		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
@@ -16,10 +16,10 @@ HandyNotes_LongForgottenHippogryphDB = {
 		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
 		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
 		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
-		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
+		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
 	},
 	["profiles"] = {
-		["Praerend - Silvermoon"] = {
+		["Miriyam - Silvermoon"] = {
 		},
 		["Thedodrouk - Silvermoon"] = {
 		},
@@ -27,7 +27,7 @@ HandyNotes_LongForgottenHippogryphDB = {
 		},
 		["Grommarg - Ragnaros"] = {
 		},
-		["Miriyam - Silvermoon"] = {
+		["Kaldowrath - Silvermoon"] = {
 		},
 		["Faerand - Silvermoon"] = {
 		},
@@ -49,7 +49,7 @@ HandyNotes_LongForgottenHippogryphDB = {
 		},
 		["Burdett - Silvermoon"] = {
 		},
-		["Kaldowrath - Silvermoon"] = {
+		["Praerend - Silvermoon"] = {
 		},
 	},
 }

@@ -16,7 +16,15 @@ VuhDoOptions: disabled
 LittleWigs: enabled
 ElvUI_OptionsUI: enabled
 HandyNotes: enabled
-HandyNotes_DraenorTreasures: enabled
+HandyNotes_DraenorTreasures: disabled
 BigWigs_Azeroth: enabled
 DailyToDo: disabled
 FarmIt2: disabled
+TradeSkillMaster: disabled
+TradeSkillMaster_AppHelper: disabled
+RareScanner: disabled
+HandyNotes_LongForgottenHippogryph: disabled
+HandyNotes_VisionsOfNZoth: disabled
+HandyNotes_MechagonAndNazjatar: disabled
+Handynotes_Pandaria: disabled
+AngryWorldQuests: enabled

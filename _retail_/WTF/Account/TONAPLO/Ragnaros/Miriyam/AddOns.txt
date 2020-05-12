@@ -1,6 +1,6 @@
 AllTheThings: disabled
 AngryKeystones: disabled
-AngryWorldQuests: disabled
+AngryWorldQuests: enabled
 Arh: disabled
 BigWigs: enabled
 BigWigs_Azeroth: enabled
@@ -26,7 +26,7 @@ ExRT: enabled
 GTFO: enabled
 HandyNotes: enabled
 HandyNotes_BattleForAzerothTreasures: disabled
-HandyNotes_DraenorTreasures: enabled
+HandyNotes_DraenorTreasures: disabled
 HandyNotes_LegionTreasures: disabled
 idTip: enabled
 InstanceAchievementTracker: disabled
@@ -67,3 +67,10 @@ ElvUI: enabled
 OPie_Classic: disabled
 DailyToDo: disabled
 FarmIt2: disabled
+TradeSkillMaster: disabled
+TradeSkillMaster_AppHelper: disabled
+RareScanner: disabled
+HandyNotes_LongForgottenHippogryph: disabled
+HandyNotes_VisionsOfNZoth: disabled
+HandyNotes_MechagonAndNazjatar: disabled
+Handynotes_Pandaria: disabled
