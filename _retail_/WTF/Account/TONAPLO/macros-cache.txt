@@ -172,3 +172,10 @@ END
 VER 3 0000000000000084 "ZZZ - Achievemen" "INV_MISC_QUESTIONMARK"
 /Target Captive Sha'tari Peacekeeper
 END
+VER 3 0000000000000086 "ZZZ - Ivory Clou" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cleartarget 
+/tar Ivory Cloud Serpent 
+/focus Ivory Cloud Serpent 
+/use [nochanneling]Zan-Tien Lasso
+END

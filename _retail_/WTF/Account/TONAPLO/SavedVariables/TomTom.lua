@@ -43,18 +43,18 @@ TomTomWaypointsM = {
 		["Algalonheal - Silvermoon"] = {
 		},
 		["Mallusof - Silvermoon"] = {
-			[108] = {
-				["108:550000000:710000000:Okrek"] = {
-					108, -- [1]
+			[1527] = {
+				["1527:550000000:690000000:TomTom waypoint"] = {
+					1527, -- [1]
 					0.55, -- [2]
-					0.71, -- [3]
+					0.69, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Okrek",
+					["desc"] = "TomTom waypoint",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Okrek",
+					["title"] = "TomTom waypoint",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -67,17 +67,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["108:650000000:400000000:Jurim"] = {
-					108, -- [1]
-					0.65, -- [2]
-					0.4, -- [3]
+				["1527:420000000:700000000:TomTom waypoint"] = {
+					1527, -- [1]
+					0.42, -- [2]
+					0.7, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Jurim",
+					["desc"] = "TomTom waypoint",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Jurim",
+					["title"] = "TomTom waypoint",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -90,19 +90,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-			},
-			[105] = {
-				["105:450000000:750000000:Mar'Grom"] = {
-					105, -- [1]
-					0.45, -- [2]
-					0.75, -- [3]
+				["1527:530000000:190000000:TomTom waypoint"] = {
+					1527, -- [1]
+					0.53, -- [2]
+					0.19, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Mar'Grom",
+					["desc"] = "TomTom waypoint",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Mar'Grom",
+					["title"] = "TomTom waypoint",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -115,17 +113,178 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["105:300000000:650000000:Hemathion"] = {
-					105, -- [1]
+				["1527:460000000:480000000:TomTom waypoint"] = {
+					1527, -- [1]
+					0.46, -- [2]
+					0.48, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "TomTom waypoint",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "TomTom waypoint",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1527:280000000:490000000:TomTom waypoint"] = {
+					1527, -- [1]
+					0.28, -- [2]
+					0.49, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "TomTom waypoint",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "TomTom waypoint",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1527:150000000:620000000:TomTom waypoint"] = {
+					1527, -- [1]
+					0.15, -- [2]
+					0.62, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "TomTom waypoint",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "TomTom waypoint",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1527:630000000:530000000:TomTom waypoint"] = {
+					1527, -- [1]
+					0.63, -- [2]
+					0.53, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "TomTom waypoint",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "TomTom waypoint",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1527:760000000:680000000:TomTom waypoint"] = {
+					1527, -- [1]
+					0.76, -- [2]
+					0.68, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "TomTom waypoint",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "TomTom waypoint",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1527:700000000:390000000:TomTom waypoint"] = {
+					1527, -- [1]
+					0.7, -- [2]
+					0.39, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "TomTom waypoint",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "TomTom waypoint",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1527:630000000:140000000:TomTom waypoint"] = {
+					1527, -- [1]
+					0.63, -- [2]
+					0.14, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "TomTom waypoint",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "TomTom waypoint",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1527:300000000:290000000:TomTom waypoint"] = {
+					1527, -- [1]
 					0.3, -- [2]
-					0.65, -- [3]
+					0.29, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Hemathion",
+					["desc"] = "TomTom waypoint",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Hemathion",
+					["title"] = "TomTom waypoint",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -138,63 +297,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["105:670000000:720000000:Morcrush"] = {
-					105, -- [1]
-					0.67, -- [2]
-					0.72, -- [3]
+				["1527:240000000:90000000:TomTom waypoint"] = {
+					1527, -- [1]
+					0.24, -- [2]
+					0.09, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Morcrush",
+					["desc"] = "TomTom waypoint",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Morcrush",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["105:400000000:500000000:Mar'Grom"] = {
-					105, -- [1]
-					0.4, -- [2]
-					0.5, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Mar'Grom",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Mar'Grom",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["105:640000000:220000000:Mar'Grom"] = {
-					105, -- [1]
-					0.64, -- [2]
-					0.22, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Mar'Grom",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Mar'Grom",
+					["title"] = "TomTom waypoint",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -350,18 +463,18 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
-			[102] = {
-				["102:130000000:410000000:Marticar"] = {
-					102, -- [1]
-					0.13, -- [2]
-					0.41, -- [3]
+			[108] = {
+				["108:550000000:710000000:Okrek"] = {
+					108, -- [1]
+					0.55, -- [2]
+					0.71, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Marticar",
+					["desc"] = "Okrek",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Marticar",
+					["title"] = "Okrek",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -374,17 +487,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["102:610000000:400000000:Emissary"] = {
-					102, -- [1]
-					0.61, -- [2]
+				["108:650000000:400000000:Jurim"] = {
+					108, -- [1]
+					0.65, -- [2]
 					0.4, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Emissary",
+					["desc"] = "Jurim",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Emissary",
+					["title"] = "Jurim",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -397,17 +510,19 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["102:620000000:640000000:Emissary"] = {
-					102, -- [1]
-					0.62, -- [2]
-					0.64, -- [3]
+			},
+			[862] = {
+				["862:677700000:288300000:Thunderfoot"] = {
+					862, -- [1]
+					0.6777, -- [2]
+					0.2883, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Emissary",
+					["desc"] = "Thunderfoot",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Emissary",
+					["title"] = "Thunderfoot",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -420,40 +535,111 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["102:250000000:250000000:Bog Lurker"] = {
-					102, -- [1]
-					0.25, -- [2]
-					0.25, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Bog Lurker",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Bog Lurker",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["102:450000000:600000000:Bog Lurker"] = {
-					102, -- [1]
+			},
+			[105] = {
+				["105:450000000:750000000:Mar'Grom"] = {
+					105, -- [1]
 					0.45, -- [2]
-					0.6, -- [3]
+					0.75, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Bog Lurker",
+					["desc"] = "Mar'Grom",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Bog Lurker",
+					["title"] = "Mar'Grom",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["105:300000000:650000000:Hemathion"] = {
+					105, -- [1]
+					0.3, -- [2]
+					0.65, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Hemathion",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Hemathion",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["105:670000000:720000000:Morcrush"] = {
+					105, -- [1]
+					0.67, -- [2]
+					0.72, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Morcrush",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Morcrush",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["105:400000000:500000000:Mar'Grom"] = {
+					105, -- [1]
+					0.4, -- [2]
+					0.5, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Mar'Grom",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Mar'Grom",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["105:640000000:220000000:Mar'Grom"] = {
+					105, -- [1]
+					0.64, -- [2]
+					0.22, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Mar'Grom",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Mar'Grom",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -630,18 +816,135 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
-			[862] = {
-				["862:677700000:288300000:Thunderfoot"] = {
-					862, -- [1]
-					0.6777, -- [2]
-					0.2883, -- [3]
+			[102] = {
+				["102:130000000:410000000:Marticar"] = {
+					102, -- [1]
+					0.13, -- [2]
+					0.41, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Thunderfoot",
+					["desc"] = "Marticar",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Thunderfoot",
+					["title"] = "Marticar",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["102:610000000:400000000:Emissary"] = {
+					102, -- [1]
+					0.61, -- [2]
+					0.4, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Emissary",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Emissary",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["102:620000000:640000000:Emissary"] = {
+					102, -- [1]
+					0.62, -- [2]
+					0.64, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Emissary",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Emissary",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["102:250000000:250000000:Bog Lurker"] = {
+					102, -- [1]
+					0.25, -- [2]
+					0.25, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Bog Lurker",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Bog Lurker",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["102:450000000:600000000:Bog Lurker"] = {
+					102, -- [1]
+					0.45, -- [2]
+					0.6, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Bog Lurker",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Bog Lurker",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[1530] = {
+				["1530:290000000:530000000:TomTom waypoint"] = {
+					1530, -- [1]
+					0.29, -- [2]
+					0.53, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "TomTom waypoint",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "TomTom waypoint",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
