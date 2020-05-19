@@ -109,6 +109,18 @@ L["OUT_OF_SYNC_DATABASE_S"] = "|cffFFFFFF%s|r의 데이터가 호드나 얼라�
 L["OUTDATED_DATABASE"] = "%d일 전 기록"
 L["OUTDATED_DATABASE_HOURS"] = "%d시간 전 기록"
 L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r의 자료는 |cffFF6666%d|r일 전 기록입니다. 더 정확한 쐐기 점수를 위해 업데이트를 해주시기 바랍니다."
+--[[Translation missing --]]
+--[[ L["OUTDATED_DOWNLOAD_LINK"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRED_ALERT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRED_TITLE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRES_IN_DAYS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRES_IN_HOURS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_PROFILE_TOOLTIP_MESSAGE"] = ""--]] 
 L["PLAYER_PROFILE_TITLE"] = "파티장 프로필"
 L["PREV_SEASON_SUFFIX"] = "(*)"
 L["PREVIOUS_SCORE"] = "이전 시즌 쐐기 점수 (%s)"

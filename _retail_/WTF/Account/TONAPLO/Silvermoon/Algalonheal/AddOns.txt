@@ -32,7 +32,7 @@ RaiderIO_DB_EU_A: disabled
 RaiderIO_DB_EU_H: disabled
 Rematch: disabled
 Simulationcraft: disabled
-StatPriority: disabled
+StatPriority: enabled
 TomTom: enabled
 ParagonReputation: disabled
 ElvUI_VisualAuraTimers: disabled

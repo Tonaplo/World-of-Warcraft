@@ -184,7 +184,7 @@ function RareScanner:ApplyLootFilters(itemID, itemLink, itemRarity, itemEquipLoc
 	end
 	
 	-- Completed quests
-	if (private.db.loot.filterItemsCompletedQuest and itemClassID == 12) then --quest item
+	if (private.db.loot.filterItemsCompletedQuest and (itemClassID == 12 or (itemClassID == 0 and itemSubClassID == 8))) then --quest item
 		if (not private.LOOT_QUEST_IDS[itemID] or IsQuestFlaggedCompleted(private.LOOT_QUEST_IDS[itemID])) then
 			--RareScanner:PrintDebugMessage("DEBUG: Filtrado el objeto "..itemID.." por ser un objeto de mision que ya esta completada (IsQuestFlaggedCompleted)")
 			return false
@@ -203,6 +203,16 @@ function RareScanner:ApplyLootFilters(itemID, itemLink, itemRarity, itemEquipLoc
 	if (private.db.loot.filterNotMatchingClass and ScanToolTipFor(itemLink, string.gsub(ITEM_CLASSES_ALLOWED, ": %%s", ""))) then
 		local localizedClass, _, _ = UnitClass("player")
 		if (not ScanToolTipFor(itemLink, localizedClass)) then
+			return false;
+		end
+	end
+	
+	-- Character faction filter
+	if (private.db.loot.filterNotMatchingFaction) then
+		local _, localizedFaction = UnitFactionGroup("player")
+		if (ScanToolTipFor(itemLink, ITEM_REQ_ALLIANCE) and localizedFaction ~= FACTION_ALLIANCE) then
+			return false;
+		elseif (ScanToolTipFor(itemLink, ITEM_REQ_HORDE) and localizedFaction ~= FACTION_HORDE) then
 			return false;
 		end
 	end

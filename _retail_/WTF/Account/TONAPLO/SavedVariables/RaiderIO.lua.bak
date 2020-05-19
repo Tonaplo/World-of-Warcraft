@@ -3,5 +3,24 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "eu-Mallusof-silvermoon"
 RaiderIO_MissingCharacters = {
-	["eu-Arturogatti-grim-batol"] = true,
+	["eu-Grimmehrogue-silvermoon"] = true,
+	["eu-ßwèissdèath-silvermoon"] = true,
+	["eu-Synzee-silvermoon"] = true,
+	["eu-Váinyl-silvermoon"] = true,
+	["eu-Thesneakway-silvermoon"] = true,
+	["eu-Nnyann-silvermoon"] = true,
+	["eu-Warrgulf-silvermoon"] = true,
+	["eu-Làdysêntinèl-silvermoon"] = true,
+	["eu-Theeternal-silvermoon"] = true,
+	["eu-Genlina-silvermoon"] = true,
+	["eu-Mystana-silvermoon"] = true,
+	["eu-Bravegnomie-silvermoon"] = true,
+	["eu-Qerbol-silvermoon"] = true,
+	["eu-Braumble-silvermoon"] = true,
+	["eu-Cazlo-silvermoon"] = true,
+	["eu-Arttu-silvermoon"] = true,
+	["eu-Shamßro-silvermoon"] = true,
+	["eu-Unknown-silvermoon"] = true,
+	["eu-Hexsen-silvermoon"] = true,
+	["eu-Felinalore-silvermoon"] = true,
 }

@@ -110,6 +110,18 @@ L["OUT_OF_SYNC_DATABASE_S"] = "|cffFFFFFF%s|r有聯盟/部落陣營的數據尚�
 L["OUTDATED_DATABASE"] = "分數已有%d天之久"
 L["OUTDATED_DATABASE_HOURS"] = "分數已有%d小時之久"
 L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r使用的數據已經有|cffFF6666%d|r天之久了。請更新此插件已呈現更精確的傳奇+分數。"
+--[[Translation missing --]]
+--[[ L["OUTDATED_DOWNLOAD_LINK"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRED_ALERT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRED_TITLE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRES_IN_DAYS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRES_IN_HOURS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_PROFILE_TOOLTIP_MESSAGE"] = ""--]] 
 L["PLAYER_PROFILE_TITLE"] = "玩家M+紀錄"
 L["PREV_SEASON_SUFFIX"] = "(*)"
 L["PREVIOUS_SCORE"] = "上季M+分數 (%s)"

@@ -111,6 +111,18 @@ L["OUT_OF_SYNC_DATABASE_S"] = "| cffFFFFFF% s | r ha dati di fazione di Orda / A
 L["OUTDATED_DATABASE"] = "Punteggi aggiornati a %d Giorni fa."
 L["OUTDATED_DATABASE_HOURS"] = "Punteggi aggiornati a %d Ore fa."
 L["OUTDATED_DATABASE_S"] = "| cffFFFFFF% s | r sta utilizzando dati | cffFF6666% d | r giorni precedenti. Si prega di aggiornare l'addon per risultati più accurati di Mitiche Chiavi del Potere."
+--[[Translation missing --]]
+--[[ L["OUTDATED_DOWNLOAD_LINK"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRED_ALERT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRED_TITLE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRES_IN_DAYS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRES_IN_HOURS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_PROFILE_TOOLTIP_MESSAGE"] = ""--]] 
 L["PLAYER_PROFILE_TITLE"] = "Profilo M+ Giocatore"
 L["PREV_SEASON_SUFFIX"] = "(*)"
 L["PREVIOUS_SCORE"] = "Punteggio M+ precedente"

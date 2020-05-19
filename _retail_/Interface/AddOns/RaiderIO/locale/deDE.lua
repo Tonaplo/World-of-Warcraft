@@ -106,6 +106,18 @@ L["OUT_OF_SYNC_DATABASE_S"] = "|cffFFFFFF%s|r hat keine synchronisierte Fraktion
 L["OUTDATED_DATABASE"] = "Wertungen sind %d Tag(e) alt"
 L["OUTDATED_DATABASE_HOURS"] = "Wertungen sind %d Stunde(n) alt"
 L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r benutzt Daten die |cffFF6666%d|r Tag(e) alt sind. Bitte update das Addon für aktuellere Mythic Plus Wertungen."
+--[[Translation missing --]]
+--[[ L["OUTDATED_DOWNLOAD_LINK"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRED_ALERT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRED_TITLE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRES_IN_DAYS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRES_IN_HOURS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_PROFILE_TOOLTIP_MESSAGE"] = ""--]] 
 L["PLAYER_PROFILE_TITLE"] = "Spieler M+ Profil"
 L["PREV_SEASON_SUFFIX"] = "(*)"
 L["PREVIOUS_SCORE"] = "Vorige M+ Wertung (%s)"

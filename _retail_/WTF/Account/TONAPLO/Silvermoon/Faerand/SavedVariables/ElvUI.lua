@@ -1017,5 +1017,115 @@ ElvCharacterDB = {
 			[51] = 1588020160,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [46]
+		{
+			"<Gallywix Community> Selling M+ 10-24 M+15 Done by 3.1k+ rio players. Selling Visions, Jaina,Nya HC/Mythic W Mythic N’zoth Mount. Traders/share loot! available. Carapace + N’zoth runs going. Gold on all realms./w me for info.", -- [1]
+			"Absolutgwix-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Absolutgwix-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			185, -- [11]
+			"Player-3391-0B0E9BD4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Absolutgwix|r",
+			[51] = 1589789524,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [47]
+		{
+			"Gallywix WTS  |cffffff00|Hachievement:14145:Player-3391-0B21430D:0:0:0:0:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|r 10-22 Keys IN TIME.  |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r 12/12 Mythic and HC. |cffffff00|Hachievement:14068:Player-3391-0B21430D:0:0:0:0:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r / Jaina+Mount / PVP /Leveling/ Glory runs. /w for info :)", -- [1]
+			"Koorraa-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Koorraa-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			186, -- [11]
+			"Player-3391-0B21430D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Koorraa|r",
+			[51] = 1589789530,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [48]
+		{
+			"wts horrific vision boost 0-5 mask", -- [1]
+			"Shrekdh-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Shrekdh-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			187, -- [11]
+			"Player-3391-09AA74C6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Shrekdh|r",
+			[51] = 1589789530,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [49]
+		{
+			"Oblivion Community sells Ny'alotha 12/12 HC. VIP, lootshare and personal spots possible and also we sell  \"Ahead of the Curve: N'zoth\" every 20 Minutes! Get your Achievement and also the <Uncorrupted Voidwing> mount!", -- [1]
+			"Holylucifer-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Holylucifer-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			194, -- [11]
+			"Player-3391-0AF16D43", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcHolylucifer|r",
+			[51] = 1589789534,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [50]
+		{
+			"WTS Boost LVL 110-120 4k per LVL ", -- [1]
+			"Shaithan-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Shaithan-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			201, -- [11]
+			"Player-3391-0890ED5B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Shaithan|r",
+			[51] = 1589789545,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [51]
 	},
 }

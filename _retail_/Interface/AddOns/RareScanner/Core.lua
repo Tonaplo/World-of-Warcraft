@@ -30,8 +30,8 @@ local ETERNAL_COMPLETED = -1
 local DEBUG_MODE = false
 
 -- Config constants
-local CURRENT_DB_VERSION = 18
-local CURRENT_LOOT_DB_VERSION = 32
+local CURRENT_DB_VERSION = 20
+local CURRENT_LOOT_DB_VERSION = 34
 
 -- Hard reset versions
 local CURRENT_ADDON_VERSION = 600
@@ -136,6 +136,7 @@ local PROFILE_DEFAULTS = {
 			filterCollectedItems = true,
 			filterItemsCompletedQuest = true,
 			filterNotMatchingClass = false,
+			filterNotMatchingFaction = true,
 			numItems = 10,
 			numItemsPerRow = 10
 		}
@@ -458,7 +459,7 @@ scanner_button:SetScript("OnEvent", function(self, event, ...)
 			-- check if rare but no viggnette
 			if (npcID and not private.dbglobal.rares_found[npcID] and private.ZONE_IDS[npcID]) then
 				local npcInfo = private.ZONE_IDS[npcID]
-				if (npcInfo.zoneID ~= 0) then
+				if (npcInfo.zoneID ~= 0 and type(npcInfo.zoneID) ~= "table") then
 					RareScanner:PrintDebugMessage("DEBUG: Identificado un NPC raro que no tiene viggnete y que vamos a volcar a rares_found desde nuestra base de datos ZONE_IDS.")
 					private.dbglobal.rares_found[npcID] = { mapID = npcInfo.zoneID, artID = npcInfo.artID or C_Map.GetMapArtID(npcInfo.zoneID), coordX = npcInfo.x, coordY = npcInfo.y, atlasName = RareScanner.NPC_VIGNETTE, foundTime = time() }
 				else
@@ -484,7 +485,27 @@ scanner_button:SetScript("OnEvent", function(self, event, ...)
 				end
 				
 				if (unitClassification ~= "rare" and unitClassification ~= "rareelite") then
-					RareScanner:ProcessKill(npcID)
+					-- In WOD some of the NPCs don't have the silver dragon but they are still rare NPCs
+					-- Check the questID asociated to see if its dead
+					if (private.QUEST_IDS[npcID]) then
+						local completed = false
+						for i, questID in ipairs (private.QUEST_IDS[npcID]) do
+							if (IsQuestFlaggedCompleted(questID)) then
+								completed = true
+								break
+							end
+						end
+						
+						if (completed) then
+							RareScanner:PrintDebugMessage("DEBUG: Detectado NPC sin dragon plateado "..npcID.. " que se ha detectado como muerto gracias a su mision completada.")
+							RareScanner:ProcessKill(npcID)
+						else
+							RareScanner:PrintDebugMessage("DEBUG: Detectado NPC sin dragon plateado "..npcID.. " que sigue siendo rare NPC (por no haber completado su quest).")
+							private.dbglobal.rares_found[npcID].foundTime = time()
+						end
+					else
+						RareScanner:ProcessKill(npcID)
+					end
 				else
 					private.dbglobal.rares_found[npcID].foundTime = time()
 				end
@@ -814,8 +835,11 @@ function RareScanner:ProcessKill(npcID, forzed)
 end
 
 function RareScanner:ProcessKillByZone(npcID, zoneID)
+	-- If we know for sure it resets
+	if (private.ZONE_IDS[npcID] and private.ZONE_IDS[npcID].reset) then
+		RareScanner:PrintDebugMessage("DEBUG: Se ha detectado que el rare matado con ID "..npcID.." continua reapareciendo")
 	-- If its a world quest reseteable rare
-	if ((private.RESETABLE_KILLS_ZONE_IDS[zoneID] and RS_tContains(private.RESETABLE_KILLS_ZONE_IDS[zoneID], "all") or RS_tContains(private.RESETABLE_KILLS_ZONE_IDS[zoneID], C_Map.GetMapArtID(zoneID)))
+	elseif ((private.RESETABLE_KILLS_ZONE_IDS[zoneID] and RS_tContains(private.RESETABLE_KILLS_ZONE_IDS[zoneID], "all") or RS_tContains(private.RESETABLE_KILLS_ZONE_IDS[zoneID], C_Map.GetMapArtID(zoneID)))
 		or (private.RESETABLE_KILLS_ZONE_IDS[private.dbglobal.rares_found[npcID].mapID] and RS_tContains(private.RESETABLE_KILLS_ZONE_IDS[private.dbglobal.rares_found[npcID].mapID], "all") or RS_tContains(private.RESETABLE_KILLS_ZONE_IDS[private.dbglobal.rares_found[npcID].mapID], C_Map.GetMapArtID(private.dbglobal.rares_found[npcID].mapID)))) then
 		RareScanner:PrintDebugMessage("DEBUG: Se ha detectado que el rare matado con ID "..npcID.." pertenece a una zona reseteable con las misiones del mundo")
 		private.dbchar.rares_killed[npcID] = time() + GetQuestResetTime()
@@ -918,10 +942,16 @@ function scanner_button:CheckNotificationCache(self, vignetteInfo, isNavigating)
 	if (zone_id and vignetteInfo.atlasName == RareScanner.NPC_VIGNETTE_ELITE and (zone_id == 1530 or zone_id == 1527)) then
 		vignetteInfo.atlasName = RareScanner.EVENT_VIGNETTE
 	end
-	
-	local iconid = vignetteInfo.atlasName	
-	local name = vignetteInfo.name
+		
 	local _, _, _, _, _, npcID, _ = strsplit("-", vignetteInfo.objectGUID);
+
+	-- In Tanaan jungle the icon for elite EVENT is used for the rare NPCs Deathtalon, Doomroller, Terrorfist, and Vengeance 
+	if (vignetteInfo.atlasName == RareScanner.EVENT_ELITE_VIGNETTE and (npcID == "95056" or npcID == "95053" or npcID == "95044" or npcID == "95054")) then
+		vignetteInfo.atlasName = RareScanner.NPC_VIGNETTE
+	end
+	
+	local iconid = vignetteInfo.atlasName
+	local name = vignetteInfo.name
 	
 	if (npcID) then
 		npcID = tonumber(npcID)
@@ -1448,7 +1478,16 @@ function RareScanner:RefreshRaresFoundList()
 	-- resets killed timer
 	for k, v in pairs (private.dbchar.rares_killed) do
 		if (v and v ~= ETERNAL_DEATH and v < time()) then
-			private.dbchar.rares_killed[k] = nil
+			-- if the associated quest is completed it means that this rare NPC has eternally died but belongs to a place where other NPCs reset every day
+			if (private.QUEST_IDS[k]) then
+				for i, questID in ipairs (private.QUEST_IDS[k]) do
+					if (IsQuestFlaggedCompleted(questID)) then
+						private.dbchar.rares_killed[k] = ETERNAL_DEATH
+					end
+				end
+			else
+				private.dbchar.rares_killed[k] = nil
+			end
 		end
 	end
 	

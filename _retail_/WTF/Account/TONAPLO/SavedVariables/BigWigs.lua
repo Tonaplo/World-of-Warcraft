@@ -109,7 +109,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["LibDualSpec-1.0"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 			["profiles"] = {
@@ -217,7 +217,14 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Bosses_Queen Azshara"] = {
+			["profiles"] = {
+				["Default"] = {
+					[301078] = 1032439,
+					[297937] = 0,
+					[297934] = 0,
+				},
+			},
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 			["profiles"] = {
@@ -235,40 +242,6 @@ BigWigs3DB = {
 			["profiles"] = {
 				["Default"] = {
 					[295444] = 0,
-				},
-			},
-		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["posx"] = 1024.79969483906,
-					["font"] = "Prototype",
-					["height"] = 120.0000076293945,
-					["posy"] = 277.86670830506,
-					["width"] = 139.9995574951172,
-				},
-				["Melee DPS"] = {
-					["posx"] = 1024.79969483906,
-					["posy"] = 277.86670830506,
-					["height"] = 120.0000076293945,
-					["font"] = "Prototype",
-					["width"] = 139.9995574951172,
-				},
-			},
-		},
-		["BigWigs_Bosses_Mythrax the Unraveler"] = {
-			["profiles"] = {
-				["Default"] = {
-					[272404] = 1032951,
-				},
-			},
-		},
-		["BigWigs_Bosses_Queen Azshara"] = {
-			["profiles"] = {
-				["Default"] = {
-					[301078] = 1032439,
-					[297937] = 0,
-					[297934] = 0,
 				},
 			},
 		},
@@ -298,7 +271,34 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["posx"] = 1024.79969483906,
+					["font"] = "Prototype",
+					["height"] = 120.0000076293945,
+					["posy"] = 277.86670830506,
+					["width"] = 139.9995574951172,
+				},
+				["Melee DPS"] = {
+					["posx"] = 1024.79969483906,
+					["posy"] = 277.86670830506,
+					["height"] = 120.0000076293945,
+					["font"] = "Prototype",
+					["width"] = 139.9995574951172,
+				},
+			},
+		},
+		["BigWigs_Plugins_Wipe"] = {
+		},
 		["BigWigs_Plugins_Respawn"] = {
+		},
+		["BigWigs_Bosses_Mythrax the Unraveler"] = {
+			["profiles"] = {
+				["Default"] = {
+					[272404] = 1032951,
+				},
+			},
 		},
 		["BigWigs_Plugins_Pull"] = {
 			["profiles"] = {
@@ -310,7 +310,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
 	},
 	["wipe80"] = true,
@@ -1705,9 +1705,9 @@ BigWigsStatsDB = {
 		},
 		[2375] = {
 			["normal"] = {
-				["kills"] = 2,
+				["kills"] = 3,
 				["wipes"] = 12,
-				["best"] = 571.9089999999997,
+				["best"] = 488.7520000000002,
 			},
 			["heroic"] = {
 				["kills"] = 2,

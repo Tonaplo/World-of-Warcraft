@@ -54,7 +54,7 @@ RareShare: disabled
 RareShareMechagon: disabled
 Rematch: enabled
 Simulationcraft: enabled
-StatPriority: disabled
+StatPriority: enabled
 VuhDo: enabled
 VuhDoOptions: enabled
 WeakAuras: enabled
@@ -77,3 +77,4 @@ WeakAurasArchive: enabled
 TomTom: enabled
 DailyToDo: disabled
 TradeSkillMaster: disabled
+AngryAssignments: disabled

@@ -37,30 +37,30 @@ L["DISABLE_DEBUG_MODE_RELOAD"] = [=[Вы отключаете режим отл�
 Нажмите Подтвердить, чтобы перезагрузить интерфейс.]=]
 L["DPS"] = "Боец"
 L["DPS_SCORE"] = "Очки бойца"
-L["DUNGEON_SHORT_NAME_AD"] = "AD"
-L["DUNGEON_SHORT_NAME_ARC"] = "ARC"
-L["DUNGEON_SHORT_NAME_BRH"] = "BRH"
-L["DUNGEON_SHORT_NAME_COEN"] = "COEN"
-L["DUNGEON_SHORT_NAME_COS"] = "COS"
-L["DUNGEON_SHORT_NAME_DHT"] = "DHT"
-L["DUNGEON_SHORT_NAME_EOA"] = "EOA"
-L["DUNGEON_SHORT_NAME_FH"] = "FH"
-L["DUNGEON_SHORT_NAME_HOV"] = "HOV"
-L["DUNGEON_SHORT_NAME_KR"] = "KR"
+L["DUNGEON_SHORT_NAME_AD"] = "Атал'Дазар"
+L["DUNGEON_SHORT_NAME_ARC"] = "Катакомбы Сурамара"
+L["DUNGEON_SHORT_NAME_BRH"] = "Крепость Черной Ладьи"
+L["DUNGEON_SHORT_NAME_COEN"] = "Собор Вечной Ночи"
+L["DUNGEON_SHORT_NAME_COS"] = "Квартал звёзд"
+L["DUNGEON_SHORT_NAME_DHT"] = "Чаща Темного Сердца"
+L["DUNGEON_SHORT_NAME_EOA"] = "Око Азшары"
+L["DUNGEON_SHORT_NAME_FH"] = "Вольная гавань"
+L["DUNGEON_SHORT_NAME_HOV"] = "Чертоги Доблести"
+L["DUNGEON_SHORT_NAME_KR"] = "Гробница Королей"
 L["DUNGEON_SHORT_NAME_LOWR"] = "LOWR"
-L["DUNGEON_SHORT_NAME_ML"] = "ML"
-L["DUNGEON_SHORT_NAME_MOS"] = "MOS"
-L["DUNGEON_SHORT_NAME_NL"] = "NL"
-L["DUNGEON_SHORT_NAME_SEAT"] = "SEAT"
-L["DUNGEON_SHORT_NAME_SIEGE"] = "SIEGE"
-L["DUNGEON_SHORT_NAME_SOTS"] = "SOTS"
-L["DUNGEON_SHORT_NAME_TD"] = "TD"
-L["DUNGEON_SHORT_NAME_TM"] = "ML"
-L["DUNGEON_SHORT_NAME_TOS"] = "TOS"
-L["DUNGEON_SHORT_NAME_UNDR"] = "UNDR"
+L["DUNGEON_SHORT_NAME_ML"] = "ЗОЛОТАЯ ЖИЛА!!!"
+L["DUNGEON_SHORT_NAME_MOS"] = "Утесы Адской Пасти"
+L["DUNGEON_SHORT_NAME_NL"] = "Логово Нелтариона"
+L["DUNGEON_SHORT_NAME_SEAT"] = "Престол Триумвирата"
+L["DUNGEON_SHORT_NAME_SIEGE"] = "Осада Боралуса"
+L["DUNGEON_SHORT_NAME_SOTS"] = "Святилище Штормов"
+L["DUNGEON_SHORT_NAME_TD"] = "Тол Дагор"
+L["DUNGEON_SHORT_NAME_TM"] = "ЗОЛОТАЯ ЖИЛА!!!"
+L["DUNGEON_SHORT_NAME_TOS"] = "Храм Сетралисс"
+L["DUNGEON_SHORT_NAME_UNDR"] = "Подгнилье"
 L["DUNGEON_SHORT_NAME_UPPR"] = "UPPR"
-L["DUNGEON_SHORT_NAME_VOTW"] = "VOTW"
-L["DUNGEON_SHORT_NAME_WM"] = "WM"
+L["DUNGEON_SHORT_NAME_VOTW"] = "Казематы Стражей"
+L["DUNGEON_SHORT_NAME_WM"] = "Усадьба Уэйкрестов"
 L["DUNGEON_SHORT_NAME_WORK"] = "Операция «Мехагон» — мастерская"
 L["DUNGEON_SHORT_NAME_YARD"] = "Операция «Мехагон» — свалка"
 L["ENABLE_AUTO_FRAME_POSITION"] = "Автоматическая позиция окна профиля RaiderIO"
@@ -110,6 +110,18 @@ L["OUT_OF_SYNC_DATABASE_S"] = "|cffFFFFFF%s|r не имеет данных Ор�
 L["OUTDATED_DATABASE"] = "Данные устарели на %d дня."
 L["OUTDATED_DATABASE_HOURS"] = "Данные обновлены %d часов назад"
 L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r использует данные устаревшие на |cffFF6666%d|r дня(дней). Пожалуйста, обновите аддон для отображения корректных данных."
+--[[Translation missing --]]
+--[[ L["OUTDATED_DOWNLOAD_LINK"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRED_ALERT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRED_TITLE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRES_IN_DAYS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_EXPIRES_IN_HOURS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["OUTDATED_PROFILE_TOOLTIP_MESSAGE"] = ""--]] 
 L["PLAYER_PROFILE_TITLE"] = "Профиль игрока"
 L["PREV_SEASON_SUFFIX"] = "(*)"
 L["PREVIOUS_SCORE"] = "Очки предыдущего сезона (%s):"

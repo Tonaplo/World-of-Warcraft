@@ -79,3 +79,4 @@ TomTom: enabled
 DailyToDo: enabled
 TradeSkillMaster: enabled
 TradeSkillMaster_AppHelper: enabled
+AngryAssignments: enabled

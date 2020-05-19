@@ -1,10 +1,22 @@
 
 TomTomDB = {
 	["profileKeys"] = {
-		["Kindhoof - Ragnaros"] = "Default",
 		["Algalonheal - Silvermoon"] = "Default",
+		["Thedodrouk - Silvermoon"] = "Default",
+		["Kaldowrath - Silvermoon"] = "Default",
 		["Mallusof - Silvermoon"] = "Default",
+		["Miriyam - Silvermoon"] = "Default",
+		["Mogfarmer - Silvermoon"] = "Default",
+		["Faerand - Silvermoon"] = "Default",
+		["Korugen - Silvermoon"] = "Default",
+		["Kindhoof - Ragnaros"] = "Default",
+		["Thorlan - Silvermoon"] = "Default",
 		["Amranar - Silvermoon"] = "Default",
+		["Rahran - Silvermoon"] = "Default",
+		["Zearthan - Silvermoon"] = "Default",
+		["Greyblood - Silvermoon"] = "Default",
+		["Burdett - Silvermoon"] = "Default",
+		["Praerend - Silvermoon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -32,295 +44,31 @@ TomTomDB = {
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
-		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
 		["Algalonheal - Silvermoon"] = "Algalonheal - Silvermoon",
+		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
+		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
 		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
+		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
+		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
+		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
+		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
+		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
+		["Thorlan - Silvermoon"] = "Thorlan - Silvermoon",
 		["Amranar - Silvermoon"] = "Amranar - Silvermoon",
+		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
+		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
+		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
+		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
+		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
 	},
 	["profiles"] = {
-		["Kindhoof - Ragnaros"] = {
-		},
 		["Algalonheal - Silvermoon"] = {
 		},
+		["Thedodrouk - Silvermoon"] = {
+		},
+		["Kaldowrath - Silvermoon"] = {
+		},
 		["Mallusof - Silvermoon"] = {
-			[1527] = {
-				["1527:550000000:690000000:TomTom waypoint"] = {
-					1527, -- [1]
-					0.55, -- [2]
-					0.69, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1527:420000000:700000000:TomTom waypoint"] = {
-					1527, -- [1]
-					0.42, -- [2]
-					0.7, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1527:530000000:190000000:TomTom waypoint"] = {
-					1527, -- [1]
-					0.53, -- [2]
-					0.19, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1527:460000000:480000000:TomTom waypoint"] = {
-					1527, -- [1]
-					0.46, -- [2]
-					0.48, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1527:280000000:490000000:TomTom waypoint"] = {
-					1527, -- [1]
-					0.28, -- [2]
-					0.49, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1527:150000000:620000000:TomTom waypoint"] = {
-					1527, -- [1]
-					0.15, -- [2]
-					0.62, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1527:630000000:530000000:TomTom waypoint"] = {
-					1527, -- [1]
-					0.63, -- [2]
-					0.53, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1527:760000000:680000000:TomTom waypoint"] = {
-					1527, -- [1]
-					0.76, -- [2]
-					0.68, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1527:700000000:390000000:TomTom waypoint"] = {
-					1527, -- [1]
-					0.7, -- [2]
-					0.39, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1527:630000000:140000000:TomTom waypoint"] = {
-					1527, -- [1]
-					0.63, -- [2]
-					0.14, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1527:300000000:290000000:TomTom waypoint"] = {
-					1527, -- [1]
-					0.3, -- [2]
-					0.29, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1527:240000000:90000000:TomTom waypoint"] = {
-					1527, -- [1]
-					0.24, -- [2]
-					0.09, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 			[627] = {
 				["627:641500000:379000000:The Filthy Animal - Horde Inn (Outside)"] = {
 					627, -- [1]
@@ -337,126 +85,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[100] = {
-				["100:420000000:320000000:Vorakem"] = {
-					100, -- [1]
-					0.42, -- [2]
-					0.32, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Vorakem",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Vorakem",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
 						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["100:520000000:720000000:Fulgorge"] = {
-					100, -- [1]
-					0.52, -- [2]
-					0.72, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Fulgorge",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Fulgorge",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["100:340000000:600000000:Fulgorge"] = {
-					100, -- [1]
-					0.34, -- [2]
-					0.6, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Fulgorge",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Fulgorge",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["100:540000000:270000000:Vorakem"] = {
-					100, -- [1]
-					0.54, -- [2]
-					0.27, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Vorakem",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Vorakem",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["100:510000000:490000000:Mekthorg"] = {
-					100, -- [1]
-					0.51, -- [2]
-					0.49, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Mekthorg",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Mekthorg",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -464,29 +95,6 @@ TomTomWaypointsM = {
 				},
 			},
 			[108] = {
-				["108:550000000:710000000:Okrek"] = {
-					108, -- [1]
-					0.55, -- [2]
-					0.71, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Okrek",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Okrek",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
 				["108:650000000:400000000:Jurim"] = {
 					108, -- [1]
 					0.65, -- [2]
@@ -502,9 +110,32 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
+						["minimap"] = {
+						},
 						["world"] = {
 						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["108:550000000:710000000:Okrek"] = {
+					108, -- [1]
+					0.55, -- [2]
+					0.71, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Okrek",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Okrek",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -527,9 +158,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -552,9 +183,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -575,9 +206,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -598,9 +229,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -621,9 +252,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -644,172 +275,126 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
 					["world"] = true,
 				},
 			},
-			[109] = {
-				["109:620000000:400000000:Lorthander"] = {
-					109, -- [1]
-					0.62, -- [2]
-					0.4, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Lorthander",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Lorthander",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["109:480000000:320000000:Lorthander"] = {
-					109, -- [1]
-					0.48, -- [2]
+			[100] = {
+				["100:420000000:320000000:Vorakem"] = {
+					100, -- [1]
+					0.42, -- [2]
 					0.32, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Lorthander",
+					["desc"] = "Vorakem",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Lorthander",
+					["title"] = "Vorakem",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["109:670000000:390000000:Ever-Core"] = {
-					109, -- [1]
-					0.67, -- [2]
-					0.39, -- [3]
+				["100:520000000:720000000:Fulgorge"] = {
+					100, -- [1]
+					0.52, -- [2]
+					0.72, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Ever-Core",
+					["desc"] = "Fulgorge",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Ever-Core",
+					["title"] = "Fulgorge",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["109:620000000:320000000:Ever-Core"] = {
-					109, -- [1]
-					0.62, -- [2]
-					0.32, -- [3]
+				["100:340000000:600000000:Fulgorge"] = {
+					100, -- [1]
+					0.34, -- [2]
+					0.6, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Ever-Core",
+					["desc"] = "Fulgorge",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Ever-Core",
+					["title"] = "Fulgorge",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["109:260000000:400000000:Lorthander"] = {
-					109, -- [1]
-					0.26, -- [2]
-					0.4, -- [3]
+				["100:540000000:270000000:Vorakem"] = {
+					100, -- [1]
+					0.54, -- [2]
+					0.27, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Lorthander",
+					["desc"] = "Vorakem",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Lorthander",
+					["title"] = "Vorakem",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["109:580000000:450000000:Ever-Core"] = {
-					109, -- [1]
-					0.58, -- [2]
-					0.45, -- [3]
+				["100:510000000:490000000:Mekthorg"] = {
+					100, -- [1]
+					0.51, -- [2]
+					0.49, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Ever-Core",
+					["desc"] = "Mekthorg",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Ever-Core",
+					["title"] = "Mekthorg",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["109:300000000:770000000:Nuramoc"] = {
-					109, -- [1]
-					0.3, -- [2]
-					0.77, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Nuramoc",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Nuramoc",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
 						["world"] = {
-						},
-						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -832,9 +417,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -855,9 +440,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -878,9 +463,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -901,9 +486,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -924,9 +509,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -949,9 +534,172 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
+						["minimap"] = {
+						},
 						["world"] = {
 						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[1470] = {
+				["1470:634000000:417000000:Corner by Chest Spawn"] = {
+					1470, -- [1]
+					0.634, -- [2]
+					0.417, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Corner by Chest Spawn",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Corner by Chest Spawn",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
 						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:646000000:309000000:Corner Behind Boxes"] = {
+					1470, -- [1]
+					0.6459999999999999, -- [2]
+					0.309, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Corner Behind Boxes",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Corner Behind Boxes",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:627000000:370000000:Corner by the Middle Forge"] = {
+					1470, -- [1]
+					0.627, -- [2]
+					0.37, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Corner by the Middle Forge",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Corner by the Middle Forge",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:474000000:816000000:In Transition House Behind Counter"] = {
+					1470, -- [1]
+					0.474, -- [2]
+					0.816, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "In Transition House Behind Counter",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "In Transition House Behind Counter",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:620000000:769000000:Behind Mail Muncher Mailbox"] = {
+					1470, -- [1]
+					0.62, -- [2]
+					0.769, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Behind Mail Muncher Mailbox",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Behind Mail Muncher Mailbox",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:746000000:592000000:Middle Area Behind Boxes"] = {
+					1470, -- [1]
+					0.746, -- [2]
+					0.5920000000000001, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Middle Area Behind Boxes",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Middle Area Behind Boxes",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:690000000:731000000:Behind Inquisitor, Left of Stairs"] = {
+					1470, -- [1]
+					0.69, -- [2]
+					0.731, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Behind Inquisitor, Left of Stairs",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Behind Inquisitor, Left of Stairs",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -959,7 +707,29 @@ TomTomWaypointsM = {
 				},
 			},
 		},
+		["Miriyam - Silvermoon"] = {
+		},
+		["Mogfarmer - Silvermoon"] = {
+		},
+		["Faerand - Silvermoon"] = {
+		},
+		["Korugen - Silvermoon"] = {
+		},
+		["Kindhoof - Ragnaros"] = {
+		},
+		["Thorlan - Silvermoon"] = {
+		},
 		["Amranar - Silvermoon"] = {
+		},
+		["Rahran - Silvermoon"] = {
+		},
+		["Zearthan - Silvermoon"] = {
+		},
+		["Greyblood - Silvermoon"] = {
+		},
+		["Burdett - Silvermoon"] = {
+		},
+		["Praerend - Silvermoon"] = {
 		},
 	},
 }
