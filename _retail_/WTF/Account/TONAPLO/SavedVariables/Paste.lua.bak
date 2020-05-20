@@ -3,9 +3,9 @@ PasteDB = {
 	["profileKeys"] = {
 		["Algalonheal - Silvermoon"] = "Algalonheal - Silvermoon",
 		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
-		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
-		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
 		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
+		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
+		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
 		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
 		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
@@ -16,7 +16,7 @@ PasteDB = {
 		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
 		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
 		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
-		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
+		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
 	},
 	["profiles"] = {
 		["Algalonheal - Silvermoon"] = {
@@ -28,13 +28,13 @@ PasteDB = {
 		["Thedodrouk - Silvermoon"] = {
 			["loaded"] = true,
 		},
-		["Miriyam - Silvermoon"] = {
+		["Praerend - Silvermoon"] = {
 			["loaded"] = true,
 		},
 		["Burdett - Silvermoon"] = {
 			["loaded"] = true,
 		},
-		["Praerend - Silvermoon"] = {
+		["Kaldowrath - Silvermoon"] = {
 			["loaded"] = true,
 		},
 		["Mogfarmer - Silvermoon"] = {
@@ -78,7 +78,7 @@ PasteDB = {
 				["hide"] = true,
 			},
 		},
-		["Kaldowrath - Silvermoon"] = {
+		["Miriyam - Silvermoon"] = {
 			["loaded"] = true,
 		},
 	},

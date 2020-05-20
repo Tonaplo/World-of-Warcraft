@@ -1,18 +1,11 @@
 Version: 1
-Frame: AllTheThings-Window-ATT -> Dungeons & Raids -> Burning Crusade -> |cffff8000The Battle for Mount Hyjal|r750
+Frame: AllTheThings-Window-ATT -> Dungeons & Raids -> Warlords of Draenor -> |cffff8000Highmaul|r477
 FrameLevel: 1
 Anchor: TOPLEFT
 X: 0
-Y: -90
+Y: -91
 W: 300
 H: 300
-Frame: AllTheThings-Window-Prime
-FrameLevel: 1
-Anchor: RIGHT
-X: 0
-Y: -103
-W: 358
-H: 145
 Frame: ObjectiveTrackerFrame
 FrameLevel: 1
 Anchor: RIGHT
@@ -20,6 +13,13 @@ X: 1
 Y: 66
 W: 235
 H: 400
+Frame: ItemRefTooltip
+FrameLevel: 1
+Anchor: CENTER
+X: 180
+Y: 153
+W: 128
+H: 64
 Frame: ColorPickerFrame
 FrameLevel: 21
 Anchor: CENTER
@@ -90,6 +90,13 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: AchievementTracker
+FrameLevel: 1
+Anchor: CENTER
+X: 116
+Y: 14
+W: 800
+H: 500
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -104,6 +111,13 @@ X: -284
 Y: -35
 W: 200
 H: 50
+Frame: AllTheThings-Window-Prime
+FrameLevel: 1
+Anchor: RIGHT
+X: 0
+Y: -103
+W: 358
+H: 145
 Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: TOPLEFT
@@ -111,73 +125,3 @@ X: 29
 Y: -40
 W: 491
 H: 315
-Frame: AllTheThings-Window-ATT -> Dungeons & Raids -> Wrath of the Lich King -> |cffff8000The Ruby Sanctum|r761
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 300
-H: 300
-Frame: AllTheThings-Window-ATT -> Dungeons & Raids -> Wrath of the Lich King -> |cffff8000Icecrown Citadel|r758
-FrameLevel: 1
-Anchor: TOPLEFT
-X: 5
-Y: -80
-W: 300
-H: 300
-Frame: AllTheThings-Window-ATT -> Dungeons & Raids -> Wrath of the Lich King -> |cffff8000The Eye of Eternity|r756
-FrameLevel: 1
-Anchor: TOPLEFT
-X: 55
-Y: -65
-W: 300
-H: 300
-Frame: AllTheThings-Window-ATT -> Dungeons & Raids -> Wrath of the Lich King -> |cffff8000The Obsidian Sanctum|r755
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 300
-H: 300
-Frame: AllTheThings-Window-ATT -> Dungeons & Raids -> Wrath of the Lich King -> |cffff8000Naxxramas|r754
-FrameLevel: 1
-Anchor: TOPLEFT
-X: 0
-Y: -76
-W: 300
-H: 300
-Frame: AllTheThings-Window-ATT -> Dungeons & Raids -> Wrath of the Lich King -> |cffff8000Trial of the Crusader|r757
-FrameLevel: 1
-Anchor: TOPLEFT
-X: 0
-Y: -77
-W: 300
-H: 300
-Frame: ItemRefTooltip
-FrameLevel: 1
-Anchor: CENTER
-X: 180
-Y: 153
-W: 318
-H: 182
-Frame: AchievementTracker
-FrameLevel: 1
-Anchor: CENTER
-X: 116
-Y: 14
-W: 800
-H: 500
-Frame: AllTheThings-Window-ATT -> Dungeons & Raids -> Wrath of the Lich King -> |cffff8000Ulduar|r759
-FrameLevel: 1
-Anchor: TOPLEFT
-X: 0
-Y: -83
-W: 300
-H: 300
-Frame: AllTheThings-Window-ATT -> Dungeons & Raids -> Cataclysm -> |cffff8000Dragon Soul|r187
-FrameLevel: 1
-Anchor: TOPLEFT
-X: 13
-Y: -80
-W: 300
-H: 300
