@@ -11,13 +11,13 @@ TradeSkillMaster_AppHelperDB = {
 	},
 	["shoppingMaxPrices"] = {
 		["Default"] = {
-			["updateTime"] = 1589923317,
-			["100% of Market Value`Rep Items"] = "[[42780,70876],[32897,40083]]",
-			["75% of Market Value`Old Materials"] = "[[43011,24237],[765,25072],[43013,7521],[2449,51440],[21881,60379],[7972,6635],[168645,10922],[7909,35413],[17203,5382406],[4337,55799],[168303,231700],[769,17604],[42253,22975],[2674,120308]]",
-			["100% of Market Value`Current Materials"] = "[[168487,130672],[152506,42578],[152509,39710]]",
-			["75% of Market Value`Patterns and Recipes"] = "[[32753,959377],[24299,47326503],[32751,692778],[22904,23888688]]",
-			["75% of Market Value`Rarely Selling Unstackables"] = "[[40187,2637358],[50450,149971],[13067,1050155],[2877,13145287],[40439,2390356],[39717,31801935],[35203,25527941]]",
-			["100% of Market Value`Current Consumables"] = "[[163224,252082]]",
+			["updateTime"] = 1589987736,
+			["100% of Market Value`Rep Items"] = "[[32897,36341],[42780,71662]]",
+			["75% of Market Value`Old Materials"] = "[[17203,5356549],[11382,11184158],[153050,18323],[43013,5936],[4337,40778],[21881,58088],[89112,108948],[72092,58006],[154125,42319],[72093,29614],[43011,27125],[2449,50879],[769,11098],[42253,21719],[2674,136972],[765,26523],[12205,67481],[7972,5771],[168645,10193],[10286,60775],[7909,32517],[168303,225912]]",
+			["100% of Market Value`Current Materials"] = "[[168487,127535],[152506,42430],[152509,40101]]",
+			["75% of Market Value`Patterns and Recipes"] = "[[32753,819830],[47627,4495910],[18260,1392357],[47630,2757267],[24299,47045832],[32751,587324],[22904,21886866]]",
+			["75% of Market Value`Rarely Selling Unstackables"] = "[[40439,2477569],[50450,149894],[39733,9185903],[13067,1032531],[87509,1367470],[4697,4420675],[63537,6392394],[40305,14076183],[35203,23587737],[40187,2616763],[39717,27110330],[2877,12942974],[87489,1273911]]",
+			["100% of Market Value`Current Consumables"] = "[[163224,253283]]",
 		},
 	},
 	["analytics"] = {
@@ -1199,7 +1199,99 @@ TradeSkillMaster_AppHelperDB = {
 			"[\"AC\",\"v4.9.35\",1589922609394,1589922491,3,\"UI_NAVIGATION\",\"destroying\",\"\"]", -- [1175]
 			"[\"AC\",\"v4.9.35\",1589922609394,1589922491,4,\"ADDON_ENABLE\",3598]", -- [1176]
 			"[\"AC\",\"v4.9.35\",1589923369099,1589922491,5,\"ADDON_DISABLE\",3]", -- [1177]
+			"[\"AC\",\"v4.9.35\",1589958256500,1589958256,1,\"ADDON_INITIALIZE\",349]", -- [1178]
+			"[\"AC\",\"v4.9.35\",1589958283955,1589958256,2,\"UI_NAVIGATION\",\"\",\"destroying\"]", -- [1179]
+			"[\"AC\",\"v4.9.35\",1589958283955,1589958256,3,\"UI_NAVIGATION\",\"destroying\",\"\"]", -- [1180]
+			"[\"AC\",\"v4.9.35\",1589958283955,1589958256,4,\"ADDON_ENABLE\",3098]", -- [1181]
+			"[\"AC\",\"v4.9.35\",1589961958870,1589958256,5,\"UI_NAVIGATION\",\"\",\"banking\"]", -- [1182]
+			"[\"AC\",\"v4.9.35\",1589961958870,1589958256,6,\"UI_NAVIGATION\",\"banking\",\"banking/warehousing\"]", -- [1183]
+			"[\"AC\",\"v4.9.35\",1589961989302,1589958256,7,\"UI_NAVIGATION\",\"banking/warehousing\",\"\"]", -- [1184]
+			"[\"AC\",\"v4.9.35\",1589962507799,1589958256,8,\"UI_NAVIGATION\",\"\",\"main\"]", -- [1185]
+			"[\"AC\",\"v4.9.35\",1589962507799,1589958256,9,\"UI_NAVIGATION\",\"main\",\"main/dashboard\"]", -- [1186]
+			"[\"AC\",\"v4.9.35\",1589962854246,1589958256,10,\"UI_NAVIGATION\",\"main/dashboard\",\"\"]", -- [1187]
+			"[\"AC\",\"v4.9.35\",1589978686690,1589958256,11,\"ADDON_DISABLE\",18]", -- [1188]
+			"[\"AC\",\"v4.9.35\",1589986919285,1589986919,1,\"ADDON_INITIALIZE\",172]", -- [1189]
+			"[\"AC\",\"v4.9.35\",1589986938566,1589986919,2,\"ADDON_ENABLE\",2453]", -- [1190]
+			"[\"AC\",\"v4.9.35\",1589986947134,1589986919,3,\"UI_NAVIGATION\",\"\",\"destroying\"]", -- [1191]
+			"[\"AC\",\"v4.9.35\",1589986947134,1589986919,4,\"UI_NAVIGATION\",\"destroying\",\"\"]", -- [1192]
+			"[\"AC\",\"v4.9.35\",1589986979103,1589986919,5,\"UI_NAVIGATION\",\"\",\"mailing\"]", -- [1193]
+			"[\"AC\",\"v4.9.35\",1589986979103,1589986919,6,\"UI_NAVIGATION\",\"mailing\",\"mailing/inbox\"]", -- [1194]
+			"[\"AC\",\"v4.9.35\",1589986996884,1589986919,7,\"UI_NAVIGATION\",\"mailing/inbox\",\"\"]", -- [1195]
+			"[\"AC\",\"v4.9.35\",1589987000107,1589986919,8,\"UI_NAVIGATION\",\"\",\"mailing\"]", -- [1196]
+			"[\"AC\",\"v4.9.35\",1589987000107,1589986919,9,\"UI_NAVIGATION\",\"mailing\",\"mailing/inbox\"]", -- [1197]
+			"[\"AC\",\"v4.9.35\",1589987008136,1589986919,10,\"UI_NAVIGATION\",\"mailing/inbox\",\"\"]", -- [1198]
+			"[\"AC\",\"v4.9.35\",1589987010385,1589986919,11,\"UI_NAVIGATION\",\"\",\"mailing\"]", -- [1199]
+			"[\"AC\",\"v4.9.35\",1589987010385,1589986919,12,\"UI_NAVIGATION\",\"mailing\",\"mailing/inbox\"]", -- [1200]
+			"[\"AC\",\"v4.9.35\",1589987011553,1589986919,13,\"UI_NAVIGATION\",\"mailing/inbox\",\"\"]", -- [1201]
+			"[\"AC\",\"v4.9.35\",1589987011553,1589986919,14,\"ADDON_DISABLE\",25]", -- [1202]
+			"[\"AC\",\"v4.9.35\",1589987006553,1589987006,1,\"ADDON_INITIALIZE\",163]", -- [1203]
+			"[\"AC\",\"v4.9.35\",1589987006553,1589987006,2,\"UI_NAVIGATION\",\"\",\"destroying\"]", -- [1204]
+			"[\"AC\",\"v4.9.35\",1589987006553,1589987006,3,\"UI_NAVIGATION\",\"destroying\",\"\"]", -- [1205]
+			"[\"AC\",\"v4.9.35\",1589987006553,1589987006,4,\"ADDON_ENABLE\",2397]", -- [1206]
+			"[\"AC\",\"v4.9.35\",1589987019527,1589987006,5,\"UI_NAVIGATION\",\"\",\"mailing\"]", -- [1207]
+			"[\"AC\",\"v4.9.35\",1589987019527,1589987006,6,\"UI_NAVIGATION\",\"mailing\",\"mailing/inbox\"]", -- [1208]
+			"[\"AC\",\"v4.9.35\",1589987021402,1589987006,7,\"UI_NAVIGATION\",\"mailing/inbox\",\"\"]", -- [1209]
+			"[\"AC\",\"v4.9.35\",1589987026703,1589987006,8,\"UI_NAVIGATION\",\"\",\"main\"]", -- [1210]
+			"[\"AC\",\"v4.9.35\",1589987026703,1589987006,9,\"UI_NAVIGATION\",\"main\",\"main/dashboard\"]", -- [1211]
+			"[\"AC\",\"v4.9.35\",1589987028484,1589987006,10,\"UI_NAVIGATION\",\"main/dashboard\",\"main/groups\"]", -- [1212]
+			"[\"AC\",\"v4.9.35\",1589987028484,1589987006,11,\"UI_NAVIGATION\",\"main/groups\",\"main/groups/information\"]", -- [1213]
+			"[\"AC\",\"v4.9.35\",1589987031451,1589987006,12,\"UI_NAVIGATION\",\"main/groups/information\",\"main/groups/items\"]", -- [1214]
+			"[\"AC\",\"v4.9.35\",1589987048293,1589987006,13,\"UI_NAVIGATION\",\"main/groups/items\",\"\"]", -- [1215]
+			"[\"AC\",\"v4.9.35\",1589987176067,1589987006,14,\"UI_NAVIGATION\",\"\",\"mailing\"]", -- [1216]
+			"[\"AC\",\"v4.9.35\",1589987176067,1589987006,15,\"UI_NAVIGATION\",\"mailing\",\"mailing/inbox\"]", -- [1217]
+			"[\"AC\",\"v4.9.35\",1589987179084,1589987006,16,\"UI_NAVIGATION\",\"mailing/inbox\",\"\"]", -- [1218]
+			"[\"AC\",\"v4.9.35\",1589987189702,1589987006,17,\"UI_NAVIGATION\",\"\",\"main\"]", -- [1219]
+			"[\"AC\",\"v4.9.35\",1589987189702,1589987006,18,\"UI_NAVIGATION\",\"main\",\"main/dashboard\"]", -- [1220]
+			"[\"AC\",\"v4.9.35\",1589987191620,1589987006,19,\"UI_NAVIGATION\",\"main/dashboard\",\"main/groups\"]", -- [1221]
+			"[\"AC\",\"v4.9.35\",1589987191620,1589987006,20,\"UI_NAVIGATION\",\"main/groups\",\"main/groups/information\"]", -- [1222]
+			"[\"AC\",\"v4.9.35\",1589987233166,1589987006,21,\"UI_NAVIGATION\",\"main/groups/information\",\"main/groups/items\"]", -- [1223]
+			"[\"AC\",\"v4.9.35\",1589987244849,1589987006,22,\"ADDED_GROUP_ITEMS\",\"75% of Market Value`Battle Pets\",2]", -- [1224]
+			"[\"AC\",\"v4.9.35\",1589987271951,1589987006,23,\"ADDED_GROUP_ITEMS\",\"75% of Market Value`Rarely Selling Unstackables\",15]", -- [1225]
+			"[\"AC\",\"v4.9.35\",1589987285234,1589987006,24,\"ADDED_GROUP_ITEMS\",\"75% of Market Value`Old Materials\",8]", -- [1226]
+			"[\"AC\",\"v4.9.35\",1589987290299,1589987006,25,\"ADDED_GROUP_ITEMS\",\"75% of Market Value`Patterns and Recipes\",3]", -- [1227]
+			"[\"AC\",\"v4.9.35\",1589987292249,1589987006,26,\"UI_NAVIGATION\",\"main/groups/items\",\"\"]", -- [1228]
+			"[\"AC\",\"v4.9.35\",1589987297500,1589987006,27,\"UI_NAVIGATION\",\"\",\"auction\"]", -- [1229]
+			"[\"AC\",\"v4.9.35\",1589987297500,1589987006,28,\"UI_NAVIGATION\",\"auction\",\"auction/auctioning\"]", -- [1230]
+			"[\"AC\",\"v4.9.35\",1589987297500,1589987006,29,\"UI_NAVIGATION\",\"auction/auctioning\",\"auction/auctioning/selection\"]", -- [1231]
+			"[\"AC\",\"v4.9.35\",1589987304955,1589987006,30,\"UI_NAVIGATION\",\"auction/auctioning/selection\",\"\"]", -- [1232]
+			"[\"AC\",\"v4.9.35\",1589987306408,1589987006,31,\"UI_NAVIGATION\",\"\",\"main\"]", -- [1233]
+			"[\"AC\",\"v4.9.35\",1589987306408,1589987006,32,\"UI_NAVIGATION\",\"main\",\"main/dashboard\"]", -- [1234]
+			"[\"AC\",\"v4.9.35\",1589987309182,1589987006,33,\"UI_NAVIGATION\",\"main/dashboard\",\"main/operations\"]", -- [1235]
+			"[\"AC\",\"v4.9.35\",1589987310874,1589987006,34,\"UI_NAVIGATION\",\"main/operations\",\"main/operations/none\"]", -- [1236]
+			"[\"AC\",\"v4.9.35\",1589987311732,1589987006,35,\"UI_NAVIGATION\",\"main/operations/none\",\"main/operations/auctioning\"]", -- [1237]
+			"[\"AC\",\"v4.9.35\",1589987311732,1589987006,36,\"UI_NAVIGATION\",\"main/operations/auctioning\",\"main/operations/auctioning/details\"]", -- [1238]
+			"[\"AC\",\"v4.9.35\",1589987313583,1589987006,37,\"UI_NAVIGATION\",\"main/operations/auctioning/details\",\"main/operations/auctioning/canceling\"]", -- [1239]
+			"[\"AC\",\"v4.9.35\",1589987314132,1589987006,38,\"UI_NAVIGATION\",\"main/operations/auctioning/canceling\",\"main/operations/auctioning/details\"]", -- [1240]
+			"[\"AC\",\"v4.9.35\",1589987316283,1589987006,39,\"UI_NAVIGATION\",\"main/operations/auctioning/details\",\"main/operations/auctioning\"]", -- [1241]
+			"[\"AC\",\"v4.9.35\",1589987316283,1589987006,40,\"UI_NAVIGATION\",\"main/operations/auctioning\",\"main/operations/auctioning/details\"]", -- [1242]
+			"[\"AC\",\"v4.9.35\",1589987317354,1589987006,41,\"UI_NAVIGATION\",\"main/operations/auctioning/details\",\"main/operations/auctioning\"]", -- [1243]
+			"[\"AC\",\"v4.9.35\",1589987317354,1589987006,42,\"UI_NAVIGATION\",\"main/operations/auctioning\",\"main/operations/auctioning/details\"]", -- [1244]
+			"[\"AC\",\"v4.9.35\",1589987317933,1589987006,43,\"UI_NAVIGATION\",\"main/operations/auctioning/details\",\"main/ledger\"]", -- [1245]
+			"[\"AC\",\"v4.9.35\",1589987317933,1589987006,44,\"UI_NAVIGATION\",\"main/ledger\",\"main/ledger/inventory\"]", -- [1246]
+			"[\"AC\",\"v4.9.35\",1589987318182,1589987006,45,\"UI_NAVIGATION\",\"main/ledger/inventory\",\"main/groups\"]", -- [1247]
+			"[\"AC\",\"v4.9.35\",1589987318182,1589987006,46,\"UI_NAVIGATION\",\"main/groups\",\"main/groups/information\"]", -- [1248]
+			"[\"AC\",\"v4.9.35\",1589987320749,1589987006,47,\"UI_NAVIGATION\",\"main/groups/information\",\"main/groups/items\"]", -- [1249]
+			"[\"AC\",\"v4.9.35\",1589987321899,1589987006,48,\"UI_NAVIGATION\",\"main/groups/items\",\"main/groups/operations\"]", -- [1250]
+			"[\"AC\",\"v4.9.35\",1589987327848,1589987006,49,\"UI_NAVIGATION\",\"main/groups/operations\",\"\"]", -- [1251]
+			"[\"AC\",\"v4.9.35\",1589987329583,1589987006,50,\"UI_NAVIGATION\",\"\",\"auction\"]", -- [1252]
+			"[\"AC\",\"v4.9.35\",1589987329583,1589987006,51,\"UI_NAVIGATION\",\"auction\",\"auction/auctioning\"]", -- [1253]
+			"[\"AC\",\"v4.9.35\",1589987329583,1589987006,52,\"UI_NAVIGATION\",\"auction/auctioning\",\"auction/auctioning/selection\"]", -- [1254]
+			"[\"AC\",\"v4.9.35\",1589987336098,1589987006,53,\"UI_NAVIGATION\",\"auction/auctioning/selection\",\"\"]", -- [1255]
+			"[\"AC\",\"v4.9.35\",1589987337632,1589987006,54,\"UI_NAVIGATION\",\"\",\"main\"]", -- [1256]
+			"[\"AC\",\"v4.9.35\",1589987337632,1589987006,55,\"UI_NAVIGATION\",\"main\",\"main/dashboard\"]", -- [1257]
+			"[\"AC\",\"v4.9.35\",1589987339132,1589987006,56,\"UI_NAVIGATION\",\"main/dashboard\",\"main/groups\"]", -- [1258]
+			"[\"AC\",\"v4.9.35\",1589987339132,1589987006,57,\"UI_NAVIGATION\",\"main/groups\",\"main/groups/information\"]", -- [1259]
+			"[\"AC\",\"v4.9.35\",1589987340166,1589987006,58,\"UI_NAVIGATION\",\"main/groups/information\",\"main/groups/items\"]", -- [1260]
+			"[\"AC\",\"v4.9.35\",1589987343083,1589987006,59,\"UI_NAVIGATION\",\"main/groups/items\",\"main/groups/operations\"]", -- [1261]
+			"[\"AC\",\"v4.9.35\",1589987352016,1589987006,60,\"UI_NAVIGATION\",\"main/groups/operations\",\"\"]", -- [1262]
+			"[\"AC\",\"v4.9.35\",1589987352650,1589987006,61,\"UI_NAVIGATION\",\"\",\"auction\"]", -- [1263]
+			"[\"AC\",\"v4.9.35\",1589987352650,1589987006,62,\"UI_NAVIGATION\",\"auction\",\"auction/auctioning\"]", -- [1264]
+			"[\"AC\",\"v4.9.35\",1589987352650,1589987006,63,\"UI_NAVIGATION\",\"auction/auctioning\",\"auction/auctioning/selection\"]", -- [1265]
+			"[\"AC\",\"v4.9.35\",1589987358515,1589987006,64,\"UI_NAVIGATION\",\"auction/auctioning/selection\",\"auction/auctioning/scan\"]", -- [1266]
+			"[\"AC\",\"v4.9.35\",1589987358515,1589987006,65,\"UI_NAVIGATION\",\"auction/auctioning/scan\",\"auction/auctioning/scan/log\"]", -- [1267]
+			"[\"AC\",\"v4.9.35\",1589987675746,1589987006,66,\"UI_NAVIGATION\",\"auction/auctioning/scan/log\",\"\"]", -- [1268]
+			"[\"AC\",\"v4.9.35\",1589987739429,1589987006,67,\"ADDON_DISABLE\",14]", -- [1269]
 		},
-		["updateTime"] = 1589923317,
+		["updateTime"] = 1589987736,
 	},
 }
