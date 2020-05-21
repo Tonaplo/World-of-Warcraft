@@ -11,13 +11,13 @@ TradeSkillMaster_AppHelperDB = {
 	},
 	["shoppingMaxPrices"] = {
 		["Default"] = {
-			["updateTime"] = 1590014006,
-			["100% of Market Value`Rep Items"] = "[[32897,35587],[42780,71661]]",
-			["75% of Market Value`Old Materials"] = "[[72093,28108],[43011,25815],[2449,51258],[769,13297],[42253,20833],[2674,139610],[765,25292],[12205,80416],[7972,5510],[168645,10302],[10286,60973],[7909,32528],[168303,224333],[17203,5354707],[11382,11183356],[153050,18094],[43013,5966],[4337,47667],[21881,57575],[89112,109895],[72092,57699],[154125,40183]]",
-			["100% of Market Value`Current Materials"] = "[[168487,126779],[152506,42894],[152509,40196]]",
-			["75% of Market Value`Patterns and Recipes"] = "[[47630,2691435],[18260,1409866],[24299,46383670],[32751,599880],[22904,20956528],[32753,773992],[47627,4484830]]",
-			["75% of Market Value`Rarely Selling Unstackables"] = "[[4697,4464630],[63537,6408535],[40305,17950233],[35203,22941843],[40187,2626465],[39717,26654181],[2877,12870745],[87489,1267531],[40439,2466824],[50450,149873],[39733,9101376],[13067,1020761],[87509,1359239]]",
-			["100% of Market Value`Current Consumables"] = "[[163224,253106]]",
+			["updateTime"] = 1590097293,
+			["75-100-200`Current Materials"] = "[[152509,41828],[168487,126848],[152506,44226]]",
+			["50-90-200`Old Materials"] = "[[168303,214929],[52190,168430],[52180,976331],[71808,1101068],[52194,457597],[52182,105387],[52191,324572],[71810,701413],[71806,754592],[52181,4629614],[17203,5203381],[52195,42785],[11382,10585975],[153050,17333],[43013,5346],[4337,63186],[21881,54738],[89112,111653],[72092,56135],[72093,36985],[52193,2842274],[43011,36558],[52192,138597],[71807,2490667],[52179,67387],[2449,49155],[769,11412],[42253,18099],[154125,40692],[2674,142499],[52177,109461],[765,25840],[12205,67776],[7972,5043],[168645,9444],[71805,429229],[10286,55424],[7909,27371],[52178,229680],[36907,262044],[71809,60698]]",
+			["50-90-200`Rarely Selling Unstackables"] = "[[40439,4722277],[50450,149809],[39733,8841644],[13067,981250],[37698,1722857],[164545,322584420],[87509,1285798],[4697,4248067],[63537,6518924],[40305,22320452],[35203,19967869],[40187,2519582],[39717,21269942],[2877,12458709],[87489,1203556]]",
+			["75-100-200`Rep Items"] = "[[32897,33303],[42780,66705]]",
+			["50-90-200`Patterns and Recipes"] = "[[22904,18720030],[32753,594905],[47627,4168273],[47630,2391981],[18260,1323816],[24299,45848344],[32751,497857]]",
+			["75-100-200`Current Consumables"] = "[[163224,245865]]",
 		},
 	},
 	["analytics"] = {
@@ -1307,7 +1307,94 @@ TradeSkillMaster_AppHelperDB = {
 			"[\"AC\",\"v4.9.35\",1590007207383,1590007064,6,\"UI_NAVIGATION\",\"mailing\",\"mailing/inbox\"]", -- [1283]
 			"[\"AC\",\"v4.9.35\",1590007209378,1590007064,7,\"UI_NAVIGATION\",\"mailing/inbox\",\"\"]", -- [1284]
 			"[\"AC\",\"v4.9.35\",1590014014204,1590007064,8,\"ADDON_DISABLE\",19]", -- [1285]
+			"[\"AC\",\"v4.9.35\",1590096182564,1590096182,1,\"ADDON_INITIALIZE\",208]", -- [1286]
+			"[\"AC\",\"v4.9.35\",1590096257726,1590096182,2,\"ADDON_ENABLE\",2972]", -- [1287]
+			"[\"AC\",\"v4.9.35\",1590096270559,1590096182,3,\"UI_NAVIGATION\",\"\",\"destroying\"]", -- [1288]
+			"[\"AC\",\"v4.9.35\",1590096270559,1590096182,4,\"UI_NAVIGATION\",\"destroying\",\"\"]", -- [1289]
+			"[\"AC\",\"v4.9.35\",1590096331898,1590096182,5,\"UI_NAVIGATION\",\"\",\"mailing\"]", -- [1290]
+			"[\"AC\",\"v4.9.35\",1590096331898,1590096182,6,\"UI_NAVIGATION\",\"mailing\",\"mailing/inbox\"]", -- [1291]
+			"[\"AC\",\"v4.9.35\",1590096361856,1590096182,7,\"UI_NAVIGATION\",\"mailing/inbox\",\"\"]", -- [1292]
+			"[\"AC\",\"v4.9.35\",1590096366531,1590096182,8,\"UI_NAVIGATION\",\"\",\"main\"]", -- [1293]
+			"[\"AC\",\"v4.9.35\",1590096366531,1590096182,9,\"UI_NAVIGATION\",\"main\",\"main/dashboard\"]", -- [1294]
+			"[\"AC\",\"v4.9.35\",1590096368298,1590096182,10,\"UI_NAVIGATION\",\"main/dashboard\",\"main/groups\"]", -- [1295]
+			"[\"AC\",\"v4.9.35\",1590096368298,1590096182,11,\"UI_NAVIGATION\",\"main/groups\",\"main/groups/information\"]", -- [1296]
+			"[\"AC\",\"v4.9.35\",1590096375157,1590096182,12,\"UI_NAVIGATION\",\"main/groups/information\",\"main/groups/items\"]", -- [1297]
+			"[\"AC\",\"v4.9.35\",1590096402218,1590096182,13,\"ADDED_GROUP_ITEMS\",\"75% of Market Value`Rarely Selling Unstackables\",7]", -- [1298]
+			"[\"AC\",\"v4.9.35\",1590096411766,1590096182,14,\"ADDED_GROUP_ITEMS\",\"75% of Market Value`Rarely Selling Unstackables\",2]", -- [1299]
+			"[\"AC\",\"v4.9.35\",1590096421043,1590096182,15,\"ADDED_GROUP_ITEMS\",\"75% of Market Value`Battle Pets\",1]", -- [1300]
+			"[\"AC\",\"v4.9.35\",1590096441727,1590096182,16,\"ADDED_GROUP_ITEMS\",\"75% of Market Value`Old Materials\",19]", -- [1301]
+			"[\"AC\",\"v4.9.35\",1590096445423,1590096182,17,\"UI_NAVIGATION\",\"main/groups/items\",\"main/groups/operations\"]", -- [1302]
+			"[\"AC\",\"v4.9.35\",1590096447026,1590096182,18,\"UI_NAVIGATION\",\"main/groups/operations\",\"main/import_export\"]", -- [1303]
+			"[\"AC\",\"v4.9.35\",1590096447534,1590096182,19,\"UI_NAVIGATION\",\"main/import_export\",\"main/operations\"]", -- [1304]
+			"[\"AC\",\"v4.9.35\",1590096448969,1590096182,20,\"UI_NAVIGATION\",\"main/operations\",\"main/operations/none\"]", -- [1305]
+			"[\"AC\",\"v4.9.35\",1590096449666,1590096182,21,\"UI_NAVIGATION\",\"main/operations/none\",\"main/operations/auctioning\"]", -- [1306]
+			"[\"AC\",\"v4.9.35\",1590096449666,1590096182,22,\"UI_NAVIGATION\",\"main/operations/auctioning\",\"main/operations/auctioning/details\"]", -- [1307]
+			"[\"AC\",\"v4.9.35\",1590096452848,1590096182,23,\"UI_NAVIGATION\",\"main/operations/auctioning/details\",\"main/operations/auctioning/posting\"]", -- [1308]
+			"[\"AC\",\"v4.9.35\",1590096456723,1590096182,24,\"UI_NAVIGATION\",\"main/operations/auctioning/posting\",\"main/operations/auctioning\"]", -- [1309]
+			"[\"AC\",\"v4.9.35\",1590096456723,1590096182,25,\"UI_NAVIGATION\",\"main/operations/auctioning\",\"main/operations/auctioning/details\"]", -- [1310]
+			"[\"AC\",\"v4.9.35\",1590096458199,1590096182,26,\"UI_NAVIGATION\",\"main/operations/auctioning/details\",\"main/operations/auctioning/posting\"]", -- [1311]
+			"[\"AC\",\"v4.9.35\",1590096468026,1590096182,27,\"UI_NAVIGATION\",\"main/operations/auctioning/posting\",\"main/operations/auctioning\"]", -- [1312]
+			"[\"AC\",\"v4.9.35\",1590096468026,1590096182,28,\"UI_NAVIGATION\",\"main/operations/auctioning\",\"main/operations/auctioning/details\"]", -- [1313]
+			"[\"AC\",\"v4.9.35\",1590096470100,1590096182,29,\"UI_NAVIGATION\",\"main/operations/auctioning/details\",\"main/operations/auctioning/posting\"]", -- [1314]
+			"[\"AC\",\"v4.9.35\",1590096471829,1590096182,30,\"UI_NAVIGATION\",\"main/operations/auctioning/posting\",\"\"]", -- [1315]
+			"[\"AC\",\"v4.9.35\",1590096484005,1590096182,31,\"UI_NAVIGATION\",\"\",\"auction\"]", -- [1316]
+			"[\"AC\",\"v4.9.35\",1590096484005,1590096182,32,\"UI_NAVIGATION\",\"auction\",\"auction/auctioning\"]", -- [1317]
+			"[\"AC\",\"v4.9.35\",1590096484005,1590096182,33,\"UI_NAVIGATION\",\"auction/auctioning\",\"auction/auctioning/selection\"]", -- [1318]
+			"[\"AC\",\"v4.9.35\",1590096495113,1590096182,34,\"UI_NAVIGATION\",\"auction/auctioning/selection\",\"auction/auctioning/scan\"]", -- [1319]
+			"[\"AC\",\"v4.9.35\",1590096495113,1590096182,35,\"UI_NAVIGATION\",\"auction/auctioning/scan\",\"auction/auctioning/scan/log\"]", -- [1320]
+			"[\"AC\",\"v4.9.35\",1590096619487,1590096182,36,\"UI_NAVIGATION\",\"auction/auctioning/scan/log\",\"\"]", -- [1321]
+			"[\"AC\",\"v4.9.35\",1590096621088,1590096182,37,\"UI_NAVIGATION\",\"\",\"main\"]", -- [1322]
+			"[\"AC\",\"v4.9.35\",1590096621088,1590096182,38,\"UI_NAVIGATION\",\"main\",\"main/dashboard\"]", -- [1323]
+			"[\"AC\",\"v4.9.35\",1590096622554,1590096182,39,\"UI_NAVIGATION\",\"main/dashboard\",\"main/operations\"]", -- [1324]
+			"[\"AC\",\"v4.9.35\",1590096623947,1590096182,40,\"UI_NAVIGATION\",\"main/operations\",\"main/operations/auctioning\"]", -- [1325]
+			"[\"AC\",\"v4.9.35\",1590096623947,1590096182,41,\"UI_NAVIGATION\",\"main/operations/auctioning\",\"main/operations/auctioning/details\"]", -- [1326]
+			"[\"AC\",\"v4.9.35\",1590096625692,1590096182,42,\"UI_NAVIGATION\",\"main/operations/auctioning/details\",\"main/operations/auctioning/posting\"]", -- [1327]
+			"[\"AC\",\"v4.9.35\",1590096680772,1590096182,43,\"UI_NAVIGATION\",\"main/operations/auctioning/posting\",\"main/operations/auctioning\"]", -- [1328]
+			"[\"AC\",\"v4.9.35\",1590096680772,1590096182,44,\"UI_NAVIGATION\",\"main/operations/auctioning\",\"main/operations/auctioning/details\"]", -- [1329]
+			"[\"AC\",\"v4.9.35\",1590096682422,1590096182,45,\"UI_NAVIGATION\",\"main/operations/auctioning/details\",\"main/operations/auctioning/canceling\"]", -- [1330]
+			"[\"AC\",\"v4.9.35\",1590096683450,1590096182,46,\"UI_NAVIGATION\",\"main/operations/auctioning/canceling\",\"main/operations/auctioning/posting\"]", -- [1331]
+			"[\"AC\",\"v4.9.35\",1590096711744,1590096182,47,\"UI_NAVIGATION\",\"main/operations/auctioning/posting\",\"main/operations/auctioning\"]", -- [1332]
+			"[\"AC\",\"v4.9.35\",1590096711744,1590096182,48,\"UI_NAVIGATION\",\"main/operations/auctioning\",\"main/operations/auctioning/details\"]", -- [1333]
+			"[\"AC\",\"v4.9.35\",1590096713480,1590096182,49,\"UI_NAVIGATION\",\"main/operations/auctioning/details\",\"main/operations/none\"]", -- [1334]
+			"[\"AC\",\"v4.9.35\",1590096715419,1590096182,50,\"UI_NAVIGATION\",\"main/operations/none\",\"main/operations/auctioning\"]", -- [1335]
+			"[\"AC\",\"v4.9.35\",1590096715419,1590096182,51,\"UI_NAVIGATION\",\"main/operations/auctioning\",\"main/operations/auctioning/details\"]", -- [1336]
+			"[\"AC\",\"v4.9.35\",1590096716370,1590096182,52,\"UI_NAVIGATION\",\"main/operations/auctioning/details\",\"main/operations/auctioning/posting\"]", -- [1337]
+			"[\"AC\",\"v4.9.35\",1590096721259,1590096182,53,\"UI_NAVIGATION\",\"main/operations/auctioning/posting\",\"main/operations/auctioning\"]", -- [1338]
+			"[\"AC\",\"v4.9.35\",1590096721259,1590096182,54,\"UI_NAVIGATION\",\"main/operations/auctioning\",\"main/operations/auctioning/details\"]", -- [1339]
+			"[\"AC\",\"v4.9.35\",1590096723164,1590096182,55,\"UI_NAVIGATION\",\"main/operations/auctioning/details\",\"main/operations/auctioning/posting\"]", -- [1340]
+			"[\"AC\",\"v4.9.35\",1590096748058,1590096182,56,\"UI_NAVIGATION\",\"main/operations/auctioning/posting\",\"main/operations/auctioning\"]", -- [1341]
+			"[\"AC\",\"v4.9.35\",1590096748058,1590096182,57,\"UI_NAVIGATION\",\"main/operations/auctioning\",\"main/operations/auctioning/details\"]", -- [1342]
+			"[\"AC\",\"v4.9.35\",1590096750282,1590096182,58,\"UI_NAVIGATION\",\"main/operations/auctioning/details\",\"main/operations/auctioning/posting\"]", -- [1343]
+			"[\"AC\",\"v4.9.35\",1590096755506,1590096182,59,\"UI_NAVIGATION\",\"main/operations/auctioning/posting\",\"main/operations/auctioning\"]", -- [1344]
+			"[\"AC\",\"v4.9.35\",1590096755506,1590096182,60,\"UI_NAVIGATION\",\"main/operations/auctioning\",\"main/operations/auctioning/details\"]", -- [1345]
+			"[\"AC\",\"v4.9.35\",1590096757244,1590096182,61,\"UI_NAVIGATION\",\"main/operations/auctioning/details\",\"main/operations/auctioning/posting\"]", -- [1346]
+			"[\"AC\",\"v4.9.35\",1590096776314,1590096182,62,\"UI_NAVIGATION\",\"main/operations/auctioning/posting\",\"main/operations/auctioning\"]", -- [1347]
+			"[\"AC\",\"v4.9.35\",1590096776314,1590096182,63,\"UI_NAVIGATION\",\"main/operations/auctioning\",\"main/operations/auctioning/details\"]", -- [1348]
+			"[\"AC\",\"v4.9.35\",1590096778740,1590096182,64,\"UI_NAVIGATION\",\"main/operations/auctioning/details\",\"main/dashboard\"]", -- [1349]
+			"[\"AC\",\"v4.9.35\",1590096780085,1590096182,65,\"UI_NAVIGATION\",\"main/dashboard\",\"main/groups\"]", -- [1350]
+			"[\"AC\",\"v4.9.35\",1590096780085,1590096182,66,\"UI_NAVIGATION\",\"main/groups\",\"main/groups/information\"]", -- [1351]
+			"[\"AC\",\"v4.9.35\",1590096781185,1590096182,67,\"UI_NAVIGATION\",\"main/groups/information\",\"main/groups/items\"]", -- [1352]
+			"[\"AC\",\"v4.9.35\",1590096791886,1590096182,68,\"MOVED_GROUP\",\"100% of Market Value\",\"75-100-200\"]", -- [1353]
+			"[\"AC\",\"v4.9.35\",1590096804345,1590096182,69,\"MOVED_GROUP\",\"75% of Market Value\",\"50-90-200\"]", -- [1354]
+			"[\"AC\",\"v4.9.35\",1590096806543,1590096182,70,\"UI_NAVIGATION\",\"main/groups/items\",\"main/groups/operations\"]", -- [1355]
+			"[\"AC\",\"v4.9.35\",1590096811633,1590096182,71,\"UI_NAVIGATION\",\"main/groups/operations\",\"\"]", -- [1356]
+			"[\"AC\",\"v4.9.35\",1590096813002,1590096182,72,\"UI_NAVIGATION\",\"\",\"auction\"]", -- [1357]
+			"[\"AC\",\"v4.9.35\",1590096813002,1590096182,73,\"UI_NAVIGATION\",\"auction\",\"auction/auctioning\"]", -- [1358]
+			"[\"AC\",\"v4.9.35\",1590096813002,1590096182,74,\"UI_NAVIGATION\",\"auction/auctioning\",\"auction/auctioning/selection\"]", -- [1359]
+			"[\"AC\",\"v4.9.35\",1590096819127,1590096182,75,\"UI_NAVIGATION\",\"auction/auctioning/selection\",\"auction/auctioning/scan\"]", -- [1360]
+			"[\"AC\",\"v4.9.35\",1590096819127,1590096182,76,\"UI_NAVIGATION\",\"auction/auctioning/scan\",\"auction/auctioning/scan/log\"]", -- [1361]
+			"[\"AC\",\"v4.9.35\",1590096824201,1590096182,77,\"UI_NAVIGATION\",\"auction/auctioning/scan/log\",\"\"]", -- [1362]
+			"[\"AC\",\"v4.9.35\",1590096827370,1590096182,78,\"UI_NAVIGATION\",\"\",\"auction\"]", -- [1363]
+			"[\"AC\",\"v4.9.35\",1590096827370,1590096182,79,\"UI_NAVIGATION\",\"auction\",\"auction/auctioning\"]", -- [1364]
+			"[\"AC\",\"v4.9.35\",1590096827370,1590096182,80,\"UI_NAVIGATION\",\"auction/auctioning\",\"auction/auctioning/selection\"]", -- [1365]
+			"[\"AC\",\"v4.9.35\",1590096830896,1590096182,81,\"UI_NAVIGATION\",\"auction/auctioning/selection\",\"auction/auctioning/scan\"]", -- [1366]
+			"[\"AC\",\"v4.9.35\",1590096830896,1590096182,82,\"UI_NAVIGATION\",\"auction/auctioning/scan\",\"auction/auctioning/scan/log\"]", -- [1367]
+			"[\"AC\",\"v4.9.35\",1590097229785,1590096182,83,\"UI_NAVIGATION\",\"auction/auctioning/scan/log\",\"\"]", -- [1368]
+			"[\"AC\",\"v4.9.35\",1590097272052,1590096182,84,\"UI_NAVIGATION\",\"\",\"mailing\"]", -- [1369]
+			"[\"AC\",\"v4.9.35\",1590097272052,1590096182,85,\"UI_NAVIGATION\",\"mailing\",\"mailing/inbox\"]", -- [1370]
+			"[\"AC\",\"v4.9.35\",1590097274570,1590096182,86,\"UI_NAVIGATION\",\"mailing/inbox\",\"\"]", -- [1371]
+			"[\"AC\",\"v4.9.35\",1590097326439,1590096182,87,\"ADDON_DISABLE\",21]", -- [1372]
 		},
-		["updateTime"] = 1590014006,
+		["updateTime"] = 1590097293,
 	},
 }

@@ -115,8 +115,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABue3A5or3e",
 				}, -- [6]
 				{
-					["id"] = 281400,
 					["sliceToken"] = "ABuefzXEJSe",
+					["id"] = 281400,
 				}, -- [7]
 				{
 					"toy", -- [1]
@@ -129,8 +129,8 @@ OneRing_Config = {
 			},
 			["CommonTrades"] = {
 				{
-					["id"] = "/cast {{spell:3908/51309}}",
 					["sliceToken"] = "OPCCTt",
+					["id"] = "/cast {{spell:3908/51309}}",
 				}, -- [1]
 				{
 					["id"] = "/cast {{spell:2108/51302}}",
@@ -145,12 +145,12 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTj",
 				}, -- [4]
 				{
-					["id"] = "/cast [mod] {{spell:13262}}; {{spell:7411/51313}}",
 					["sliceToken"] = "OPCCTe",
+					["id"] = "/cast [mod] {{spell:13262}}; {{spell:7411/51313}}",
 				}, -- [5]
 				{
-					["sliceToken"] = "OPCCTa",
 					["id"] = "/cast {{spell:2259/51304}}",
+					["sliceToken"] = "OPCCTa",
 				}, -- [6]
 				{
 					["sliceToken"] = "OPCCTc",
@@ -181,8 +181,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTm",
 				}, -- [13]
 				{
-					["id"] = 13262,
 					["sliceToken"] = "ABuepjqUmtwi",
+					["id"] = 13262,
 				}, -- [14]
 				{
 					["sliceToken"] = "ABuep4BpwxeZ",
@@ -223,8 +223,8 @@ OneRing_Config = {
 					["id"] = 229377,
 				}, -- [3]
 				{
-					["id"] = 229376,
 					["sliceToken"] = "ABuea4sWRNe",
+					["id"] = 229376,
 				}, -- [4]
 				{
 					["id"] = 229388,
@@ -263,8 +263,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueacciiTe",
 				}, -- [13]
 				{
-					["sliceToken"] = "ABueaX/fZYr",
 					["id"] = 783,
+					["sliceToken"] = "ABueaX/fZYr",
 				}, -- [14]
 				{
 					["sliceToken"] = "ABue3CmU2ge",
@@ -510,8 +510,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuep5Et2m1",
 				}, -- [5]
 				{
-					["id"] = 190336,
 					["sliceToken"] = "ABuep5Et2mr",
+					["id"] = 190336,
 				}, -- [6]
 				{
 					["id"] = 546,
@@ -603,16 +603,16 @@ OneRing_Config = {
 					["sliceToken"] = "ABue3OSS36e",
 				}, -- [28]
 				{
-					["id"] = 1459,
 					["sliceToken"] = "ABue3OJrOoe",
+					["id"] = 1459,
 				}, -- [29]
 				{
 					["id"] = 192106,
 					["sliceToken"] = "ABue3Hxl4re",
 				}, -- [30]
 				{
-					["sliceToken"] = "ABue3/fH9De",
 					["id"] = 58984,
+					["sliceToken"] = "ABue3/fH9De",
 				}, -- [31]
 				["name"] = "Abilities",
 				["save"] = true,
