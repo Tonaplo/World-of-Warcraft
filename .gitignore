@@ -6,6 +6,7 @@ _retail_/Screenshots/*
 _retail_/Utils/*
 _retail_/Cache/*
 _retail_/Logs/*
+_retail_/Interface/AddOns/TradeSkillMaster_AppHelper/AppData.lua
 _retail_/.flavor.info
 _retail_/BlizzardError.exe
 _retail_/dbghelp.dll
