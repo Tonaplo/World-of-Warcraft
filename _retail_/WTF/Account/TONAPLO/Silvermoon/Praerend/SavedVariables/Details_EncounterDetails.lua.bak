@@ -2,97 +2,31 @@
 EncounterDetailsDB = {
 	["emotes"] = {
 		{
-			["boss"] = "Iron Reaver",
-		}, -- [1]
-		{
 			{
 				0.1, -- [1]
-				"So, you wish to test the might of the Fel Horde? Come warriors, show them how we treat unwanted guests.", -- [2]
-				"Siegemaster Mar'tak", -- [3]
+				"You will learn why I am king, and you are little more than peasants.", -- [2]
+				"Imperator Mar'gok", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				1.128000000000611, -- [1]
-				"I'll be back...", -- [2]
-				"Siegemaster Mar'tak", -- [3]
+				4.217000000004191, -- [1]
+				"Look upon the tools of your demise! The ancient stones grant me unimaginable power!", -- [2]
+				"Imperator Mar'gok", -- [3]
 				7, -- [4]
 			}, -- [2]
+			["boss"] = "Imperator Mar'gok",
+		}, -- [1]
+		{
 			{
-				24.96100000000297, -- [1]
-				"Run them down!", -- [2]
-				"Siegemaster Mar'tak", -- [3]
+				5.38300000000163, -- [1]
+				"We will rebuild this place... but no one will be able to put YOU back together.", -- [2]
+				"Blackhand", -- [3]
 				7, -- [4]
-			}, -- [3]
-			{
-				30.21200000000317, -- [1]
-				"Attack!", -- [2]
-				"Hulking Berserker", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				35.36200000000099, -- [1]
-				"Attack!", -- [2]
-				"Gorebound Felcaster", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				36.36200000000099, -- [1]
-				"Destruction!", -- [2]
-				"Siegemaster Mar'tak", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				43.27800000000207, -- [1]
-				"Comin' in hot!", -- [2]
-				"Siegemaster Mar'tak", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				45.11200000000099, -- [1]
-				"Ow!", -- [2]
-				"Gorebound Felcaster", -- [3]
-				7, -- [4]
-			}, -- [8]
-			{
-				46.66200000000026, -- [1]
-				"|TInterface\\Icons\\inv_blacksmithdye_black.blp:20|t %s dropped |cFFFF0000|Hspell:180147|h[Felfire Munitions]|h|r.", -- [2]
-				"Felfire Flamebelcher", -- [3]
-				1, -- [4]
-			}, -- [9]
-			{
-				53.52900000000227, -- [1]
-				"Charge!", -- [2]
-				"Gorebound Felcaster", -- [3]
-				7, -- [4]
-			}, -- [10]
-			{
-				63.89500000000044, -- [1]
-				"Attack!", -- [2]
-				"Hulking Berserker", -- [3]
-				7, -- [4]
-			}, -- [11]
-			{
-				72.91200000000026, -- [1]
-				"Fire in the hole!", -- [2]
-				"Siegemaster Mar'tak", -- [3]
-				7, -- [4]
-			}, -- [12]
-			{
-				78.48700000000099, -- [1]
-				"Ow!", -- [2]
-				"Hulking Berserker", -- [3]
-				7, -- [4]
-			}, -- [13]
-			{
-				83, -- [1]
-				"Ow!", -- [2]
-				"Gorebound Felcaster", -- [3]
-				7, -- [4]
-			}, -- [14]
-			["boss"] = "Hellfire Assault",
+			}, -- [1]
+			["boss"] = "Blackhand",
 		}, -- [2]
 		{
-			["boss"] = "Gorefiend",
+			["boss"] = "Iron Reaver",
 		}, -- [3]
 	},
 	["encounter_spells"] = {
@@ -803,6 +737,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tyrant Velhari",
 		},
+		[181120] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Iron Dragoon",
+		},
 		[181134] = {
 			["school"] = 4,
 			["token"] = {
@@ -820,14 +763,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Operator Thogar",
 		},
-		[181120] = {
-			["school"] = 1,
+		[259531] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Iron Dragoon",
+			["source"] = "Reanimation Totem",
 		},
 		[309671] = {
 			["school"] = 4,
@@ -847,15 +790,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tyrant Velhari",
 		},
-		[259531] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Reanimation Totem",
-		},
 		[250022] = {
 			["school"] = 32,
 			["token"] = {
@@ -863,14 +797,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Yazma",
 		},
-		[182178] = {
+		[162658] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Shadow-Lord Iskar",
+			["source"] = "Shard of Tectus",
 		},
 		[181956] = {
 			["school"] = 1,
@@ -880,13 +814,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shadow-Lord Iskar",
 		},
-		[255372] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Rezan",
-		},
 		[255445] = {
 			["school"] = 1,
 			["token"] = {
@@ -894,19 +821,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rezan",
 		},
-		[175621] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Iron Flame Binder",
-		},
-		[177438] = {
-			["school"] = 4,
+		[255372] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Rezan",
 		},
 		[159250] = {
 			["school"] = 1,
@@ -917,6 +837,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kargath Bladefist",
 		},
+		[175621] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Iron Flame Binder",
+		},
+		[250368] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Vol'kaal",
+		},
 		[255421] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -926,12 +861,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rezan",
 		},
-		[184476] = {
-			["school"] = 32,
+		[159336] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Dia Darkwhisper",
+			["source"] = "Marak the Blooded",
+		},
+		[175539] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Greater Void Aberration",
 		},
 		[250241] = {
 			["school"] = 32,
@@ -952,22 +897,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rezan",
 		},
-		[186045] = {
-			["school"] = 1,
+		[250050] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Delusional Zealot",
-		},
-		[175539] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
-			},
-			["source"] = "Greater Void Aberration",
+			["source"] = "Yazma",
 		},
 		[156601] = {
 			["school"] = 1,
@@ -985,18 +921,9 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dread Infernal",
 		},
-		[175620] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Iron Flame Binder",
-		},
-		[184675] = {
+		[184476] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Dia Darkwhisper",
@@ -1008,6 +935,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Night-Twisted Earthwarper",
 		},
+		[184675] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Dia Darkwhisper",
+		},
+		[184449] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Dia Darkwhisper",
+		},
 		[180000] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -1015,16 +959,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Tyrant Velhari",
-		},
-		[255371] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Rezan",
 		},
 		[191068] = {
 			["school"] = 32,
@@ -1042,6 +976,16 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Fel Iron Summoner",
+		},
+		[255371] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Rezan",
 		},
 		[184357] = {
 			["school"] = 1,
@@ -1061,14 +1005,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blademaster Jubei'thos",
 		},
-		[184449] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[175620] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Dia Darkwhisper",
+			["source"] = "Iron Flame Binder",
 		},
 		[181138] = {
 			["school"] = 64,
@@ -1077,14 +1020,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Fel Imp",
-		},
-		[159336] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Marak the Blooded",
 		},
 		[181957] = {
 			["school"] = 1,
@@ -1102,6 +1037,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Vol'kaal",
+		},
+		[186045] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Delusional Zealot",
 		},
 		[252666] = {
 			["school"] = 8,
@@ -1125,20 +1068,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pol",
 		},
-		[250050] = {
-			["school"] = 32,
+		[177438] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Yazma",
 		},
-		[250368] = {
-			["school"] = 8,
+		[182178] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Vol'kaal",
+			["source"] = "Shadow-Lord Iskar",
 		},
 		[308278] = {
 			["school"] = 32,
@@ -1147,15 +1090,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Alleria Windrunner",
-		},
-		[162658] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Shard of Tectus",
 		},
 		[255836] = {
 			["school"] = 32,
@@ -1173,6 +1107,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Spirit Wolf",
+		},
+		[159515] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Imperator Mar'gok",
 		},
 	},
 }

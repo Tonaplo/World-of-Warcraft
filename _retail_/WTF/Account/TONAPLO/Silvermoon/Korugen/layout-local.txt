@@ -2,8 +2,8 @@ Version: 1
 Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: TOPLEFT
-X: 41
-Y: -153
+X: 10
+Y: -72
 W: 300
 H: 300
 Frame: ObjectiveTrackerFrame
@@ -90,3 +90,10 @@ X: -240
 Y: 31
 W: 200
 H: 50
+Frame: SavedInstancesDetachHeader
+FrameLevel: 100
+Anchor: TOP
+X: 188
+Y: -162
+W: 1035
+H: 224
