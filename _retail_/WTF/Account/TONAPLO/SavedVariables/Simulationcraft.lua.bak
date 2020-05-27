@@ -91,36 +91,36 @@ SimulationCraftDB = {
 				["minimapPos"] = 202.121936669121,
 			},
 		},
-		["Mogfarmer - Silvermoon"] = {
+		["Faerand - Silvermoon"] = {
 		},
 		["Praerend - Silvermoon"] = {
 		},
-		["Faerand - Silvermoon"] = {
+		["Mogfarmer - Silvermoon"] = {
+		},
+		["Kaldorath - Icecrown"] = {
 		},
 		["Greybone - Icecrown"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
 		},
-		["Kaldorath - Icecrown"] = {
-		},
 		["Thedodrouk - Icecrown"] = {
 		},
-		["healer"] = {
-			["minimap"] = {
-				["hide"] = true,
-			},
-		},
-		["Rahran - Silvermoon"] = {
+		["Korugen - Icecrown"] = {
 		},
 		["DPS"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
 		},
+		["Rahran - Silvermoon"] = {
+		},
 		["Zearthan - Silvermoon"] = {
 		},
-		["Korugen - Icecrown"] = {
+		["healer"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
 		},
 		["Mallusof - Silvermoon"] = {
 			["minimap"] = {

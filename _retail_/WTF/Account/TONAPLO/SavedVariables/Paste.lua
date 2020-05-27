@@ -3,20 +3,20 @@ PasteDB = {
 	["profileKeys"] = {
 		["Algalonheal - Silvermoon"] = "Algalonheal - Silvermoon",
 		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
+		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
+		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
 		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
-		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
-		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
 		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
-		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
+		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
 		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
 		["Thorlan - Silvermoon"] = "Thorlan - Silvermoon",
 		["Amranar - Silvermoon"] = "Amranar - Silvermoon",
-		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
+		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
 		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
 		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
-		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
-		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
+		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
+		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
 	},
 	["profiles"] = {
 		["Algalonheal - Silvermoon"] = {
@@ -28,24 +28,13 @@ PasteDB = {
 		["Thedodrouk - Silvermoon"] = {
 			["loaded"] = true,
 		},
+		["Praerend - Silvermoon"] = {
+			["loaded"] = true,
+		},
+		["Burdett - Silvermoon"] = {
+			["loaded"] = true,
+		},
 		["Kaldowrath - Silvermoon"] = {
-			["loaded"] = true,
-		},
-		["Mallusof - Silvermoon"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
-			["loaded"] = true,
-			["pos"] = {
-				["height"] = 320,
-				["top"] = 320,
-				["left"] = 1420.003173828125,
-				["width"] = 499.9999084472656,
-			},
-			["minimap"] = {
-				["hide"] = true,
-			},
-		},
-		["Miriyam - Silvermoon"] = {
 			["loaded"] = true,
 		},
 		["Mogfarmer - Silvermoon"] = {
@@ -57,7 +46,7 @@ PasteDB = {
 		["Faerand - Silvermoon"] = {
 			["loaded"] = true,
 		},
-		["Korugen - Silvermoon"] = {
+		["Rahran - Silvermoon"] = {
 			["loaded"] = true,
 		},
 		["Kindhoof - Ragnaros"] = {
@@ -69,7 +58,7 @@ PasteDB = {
 		["Amranar - Silvermoon"] = {
 			["loaded"] = true,
 		},
-		["Rahran - Silvermoon"] = {
+		["Korugen - Silvermoon"] = {
 			["loaded"] = true,
 		},
 		["Zearthan - Silvermoon"] = {
@@ -78,10 +67,21 @@ PasteDB = {
 		["Greyblood - Silvermoon"] = {
 			["loaded"] = true,
 		},
-		["Burdett - Silvermoon"] = {
+		["Mallusof - Silvermoon"] = {
+			["whispertarget"] = "",
+			["where"] = "Default",
 			["loaded"] = true,
+			["minimap"] = {
+				["hide"] = true,
+			},
+			["pos"] = {
+				["height"] = 320,
+				["top"] = 320,
+				["left"] = 1420.003173828125,
+				["width"] = 499.9999084472656,
+			},
 		},
-		["Praerend - Silvermoon"] = {
+		["Miriyam - Silvermoon"] = {
 			["loaded"] = true,
 		},
 	},
