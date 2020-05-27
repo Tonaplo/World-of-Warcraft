@@ -18,7 +18,7 @@ DailyToDoDB = {
 			["timestamp"] = 20200519000000,
 		},
 		["Mallusof - Silvermoon"] = {
-			["timestamp"] = 20200520090000,
+			["timestamp"] = 20200527090000,
 			["hideCompleted"] = true,
 			["lists"] = {
 				{
@@ -399,7 +399,7 @@ DailyToDoDB = {
 							["weekly"] = true,
 						}, -- [3]
 						{
-							["completed"] = false,
+							["completed"] = true,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "Horrific Vision for Malefic Core",

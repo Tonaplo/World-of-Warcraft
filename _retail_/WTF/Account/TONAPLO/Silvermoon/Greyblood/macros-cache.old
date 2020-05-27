@@ -1,0 +1,27 @@
+VER 3 0100000000000006 "Asphy" "INV_MISC_QUESTIONMARK"
+#showtooltip Asphyxiate
+/target Inqui
+/cast Asphyxiate
+END
+VER 3 0100000000000003 "Frost Cooldowns" "135840"
+/use 13
+/use 14
+/cast Empower Rune Weapon
+/cast Pillar of Frost
+/cast Obliteration
+END
+VER 3 0100000000000005 "Mind Free" "INV_MISC_QUESTIONMARK"
+#showtooltip Mind Freeze
+/cast [target=focus] Mind Freeze
+END
+VER 3 0100000000000004 "Unholy CDs" "298674"
+/use 13
+/use 14
+/cast Summon Gargoyle
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+R[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1ET[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Gre[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

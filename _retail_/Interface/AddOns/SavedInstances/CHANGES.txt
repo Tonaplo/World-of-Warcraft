@@ -1,0 +1,22 @@
+tag 849d420231e22cdbdee5cc3e8e7ecae274e34a85 8.3.3
+Author:	Benjamin Staneck <staneck@gmail.com>
+Date:	Tue May 19 18:19:13 2020 +0200
+
+Tagging as 8.3.3
+
+commit 3958649e2be23b59f93deecd7e280bc064464e57
+Author: Tom Knaepen <t.knaepen@ccvlab.eu>
+Date:   Fri May 8 11:21:12 2020 +0200
+
+    Use locale global strings
+    
+    Thanks to LiangYuxuan
+
+commit ebefb253c50a5e2b0091e02c911c5e92a1b4de1b
+Author: Tom <tom.knaepen@telenet.be>
+Date:   Tue May 5 10:07:54 2020 +0200
+
+    Add equipped cloak rank + resist to character tooltip
+    
+    Closes #344
+

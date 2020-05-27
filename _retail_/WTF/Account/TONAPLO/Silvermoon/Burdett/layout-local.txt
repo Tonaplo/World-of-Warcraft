@@ -13,6 +13,13 @@ X: 0
 Y: 0
 W: 365
 H: 240
+Frame: AllTheThings-Window-Prime
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 425
+H: 305
 Frame: AllTheThings-Window-Unsorted
 FrameLevel: 1
 Anchor: CENTER
@@ -71,9 +78,9 @@ W: 300
 H: 300
 Frame: scanner_button
 FrameLevel: 200
-Anchor: BOTTOM
-X: 0
-Y: 128
+Anchor: RIGHT
+X: -247
+Y: -7
 W: 200
 H: 50
 Frame: VuhDoNewOptionsTabbedFrame
@@ -90,10 +97,3 @@ X: 0
 Y: 0
 W: 300
 H: 300
-Frame: AllTheThings-Window-Prime
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 425
-H: 305

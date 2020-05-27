@@ -18,7 +18,7 @@ DailyToDoDB = {
 			["timestamp"] = 20200519000000,
 		},
 		["Mallusof - Silvermoon"] = {
-			["timestamp"] = 20200520090000,
+			["timestamp"] = 20200527090000,
 			["hideCompleted"] = true,
 			["lists"] = {
 				{
@@ -42,7 +42,7 @@ DailyToDoDB = {
 							["manual"] = false,
 						}, -- [1]
 						{
-							["completed"] = true,
+							["completed"] = false,
 							["checked"] = true,
 							["weekly"] = false,
 							["text"] = "Check Zuldazar for Rare Thunderfoot",
@@ -367,7 +367,7 @@ DailyToDoDB = {
 							["manual"] = false,
 						}, -- [1]
 						{
-							["completed"] = true,
+							["completed"] = false,
 							["checked"] = true,
 							["weekly"] = true,
 							["text"] = "Clear Main Assault",
@@ -399,7 +399,7 @@ DailyToDoDB = {
 							["manual"] = false,
 						}, -- [3]
 						{
-							["completed"] = false,
+							["completed"] = true,
 							["checked"] = true,
 							["weekly"] = true,
 							["text"] = "Horrific Vision for Malefic Core",

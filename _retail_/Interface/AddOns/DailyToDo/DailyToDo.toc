@@ -1,0 +1,9 @@
+## Interface: 60000
+## Title: DailyToDo
+## Version: 1.0.3
+## Notes: Daily To Do List
+## Author: Ærixalimar
+## SavedVariables: DailyToDoDB
+
+embeds.xml
+DailyToDo.lua

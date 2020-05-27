@@ -37,5 +37,5 @@ StatPriority: disabled
 VuhDo: disabled
 VuhDoOptions: disabled
 ParagonReputation: disabled
-TradeSkillMaster: disabled
-TradeSkillMaster_AppHelper: disabled
+TradeSkillMaster: enabled
+TradeSkillMaster_AppHelper: enabled

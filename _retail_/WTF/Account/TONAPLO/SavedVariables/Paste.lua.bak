@@ -39,6 +39,9 @@ PasteDB = {
 		},
 		["Mogfarmer - Silvermoon"] = {
 			["loaded"] = true,
+			["minimap"] = {
+				["minimapPos"] = 222.5805367040374,
+			},
 		},
 		["Faerand - Silvermoon"] = {
 			["loaded"] = true,
@@ -68,14 +71,14 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
+			["minimap"] = {
+				["hide"] = true,
+			},
 			["pos"] = {
 				["height"] = 320,
 				["top"] = 320,
 				["left"] = 1420.003173828125,
 				["width"] = 499.9999084472656,
-			},
-			["minimap"] = {
-				["hide"] = true,
 			},
 		},
 		["Kaldowrath - Silvermoon"] = {

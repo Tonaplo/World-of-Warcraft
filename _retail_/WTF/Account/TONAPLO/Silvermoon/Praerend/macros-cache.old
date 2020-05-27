@@ -12,10 +12,10 @@ VER 3 0100000000000006 "Pummel" "INV_MISC_QUESTIONMARK"
 /cast [target=focus] Pummel
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-R1HR[x]1IR1RM1PM2NM2OM2NM2MR2EM3PH3DH3LR3EM3DR4DT4NM4PT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1WM0__[x][x][x][x][x][x][x][x]0__[x][x]0__0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-NDry[x]ArtКурBelKelОгоMatAelWolVarVerLocKaiRaíHalBelXen[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]PraSto[x][x][x][x][x][x][x][x]Pla[x][x]NeeDir[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Pra[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000004 "WW with Pot" "INV_MISC_QUESTIONMARK"
 /use Battle Potion of Strength

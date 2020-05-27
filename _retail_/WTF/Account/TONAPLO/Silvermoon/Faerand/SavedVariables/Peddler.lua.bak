@@ -1,0 +1,17 @@
+
+ItemsToSell = {
+	[128124] = 1,
+	[128048] = 1,
+	[128151] = 1,
+	[128153] = 1,
+	[128125] = 1,
+}
+UnmarkedItems = {
+}
+AutoSellGreyItems = true
+AutoSellWhiteItems = nil
+AutoSellGreenItems = nil
+AutoSellBlueItems = nil
+AutoSellPurpleItems = nil
+AutoSellUnwantedItems = nil
+SoulboundOnly = nil

@@ -26,7 +26,7 @@ ExRT: enabled
 GTFO: enabled
 HandyNotes: enabled
 HandyNotes_BattleForAzerothTreasures: disabled
-HandyNotes_DraenorTreasures: enabled
+HandyNotes_DraenorTreasures: disabled
 HandyNotes_LegionTreasures: disabled
 idTip: enabled
 InstanceAchievementTracker: enabled
@@ -80,3 +80,4 @@ DailyToDo: enabled
 TradeSkillMaster: enabled
 TradeSkillMaster_AppHelper: enabled
 AngryAssignments: enabled
+MethodDungeonTools: enabled
