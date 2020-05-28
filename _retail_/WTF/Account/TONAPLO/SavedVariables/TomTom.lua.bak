@@ -4,18 +4,18 @@ TomTomDB = {
 		["Algalonheal - Silvermoon"] = "Default",
 		["Thedodrouk - Silvermoon"] = "Default",
 		["Miriyam - Silvermoon"] = "Default",
-		["Burdett - Silvermoon"] = "Default",
+		["Mallusof - Silvermoon"] = "Default",
 		["Praerend - Silvermoon"] = "Default",
 		["Mogfarmer - Silvermoon"] = "Default",
 		["Faerand - Silvermoon"] = "Default",
-		["Rahran - Silvermoon"] = "Default",
+		["Korugen - Silvermoon"] = "Default",
 		["Kindhoof - Ragnaros"] = "Default",
 		["Thorlan - Silvermoon"] = "Default",
 		["Amranar - Silvermoon"] = "Default",
-		["Korugen - Silvermoon"] = "Default",
+		["Rahran - Silvermoon"] = "Default",
 		["Zearthan - Silvermoon"] = "Default",
 		["Greyblood - Silvermoon"] = "Default",
-		["Mallusof - Silvermoon"] = "Default",
+		["Burdett - Silvermoon"] = "Default",
 		["Kaldowrath - Silvermoon"] = "Default",
 	},
 	["profiles"] = {
@@ -47,18 +47,18 @@ TomTomWaypointsM = {
 		["Algalonheal - Silvermoon"] = "Algalonheal - Silvermoon",
 		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
 		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
-		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
+		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
 		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
-		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
+		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
 		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
 		["Thorlan - Silvermoon"] = "Thorlan - Silvermoon",
 		["Amranar - Silvermoon"] = "Amranar - Silvermoon",
-		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
+		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
 		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
 		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
-		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
+		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
 		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
 	},
 	["profiles"] = {
@@ -68,48 +68,26 @@ TomTomWaypointsM = {
 		},
 		["Miriyam - Silvermoon"] = {
 		},
-		["Burdett - Silvermoon"] = {
-		},
-		["Praerend - Silvermoon"] = {
-		},
-		["Mogfarmer - Silvermoon"] = {
-		},
-		["Faerand - Silvermoon"] = {
-		},
-		["Rahran - Silvermoon"] = {
-		},
-		["Kindhoof - Ragnaros"] = {
-		},
-		["Thorlan - Silvermoon"] = {
-		},
-		["Amranar - Silvermoon"] = {
-		},
-		["Korugen - Silvermoon"] = {
-		},
-		["Zearthan - Silvermoon"] = {
-		},
-		["Greyblood - Silvermoon"] = {
-		},
 		["Mallusof - Silvermoon"] = {
 			[1469] = {
-				["1469:510000000:452000000:Between pillar and boxes"] = {
+				["1469:389000000:499000000:Left in the big tent"] = {
 					1469, -- [1]
-					0.51, -- [2]
-					0.452, -- [3]
+					0.389, -- [2]
+					0.499, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Between pillar and boxes",
+					["desc"] = "Left in the big tent",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Between pillar and boxes",
+					["title"] = "Left in the big tent",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -130,32 +108,32 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1469:389000000:499000000:Left in the big tent"] = {
+				["1469:510000000:452000000:Between pillar and boxes"] = {
 					1469, -- [1]
-					0.389, -- [2]
-					0.499, -- [3]
+					0.51, -- [2]
+					0.452, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Left in the big tent",
+					["desc"] = "Between pillar and boxes",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Left in the big tent",
+					["title"] = "Between pillar and boxes",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -176,9 +154,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -186,29 +164,6 @@ TomTomWaypointsM = {
 				},
 			},
 			[108] = {
-				["108:550000000:710000000:Okrek"] = {
-					108, -- [1]
-					0.55, -- [2]
-					0.71, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Okrek",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Okrek",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
 				["108:650000000:400000000:Jurim"] = {
 					108, -- [1]
 					0.65, -- [2]
@@ -224,9 +179,32 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
+						["world"] = {
+						},
 						["minimap"] = {
 						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["108:550000000:710000000:Okrek"] = {
+					108, -- [1]
+					0.55, -- [2]
+					0.71, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Okrek",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Okrek",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -234,24 +212,24 @@ TomTomWaypointsM = {
 				},
 			},
 			[1470] = {
-				["1470:690000000:731000000:Behind Inquisitor, Left of Stairs"] = {
+				["1470:634000000:417000000:Corner by Chest Spawn"] = {
 					1470, -- [1]
-					0.69, -- [2]
-					0.731, -- [3]
+					0.634, -- [2]
+					0.417, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Behind Inquisitor, Left of Stairs",
+					["desc"] = "Corner by Chest Spawn",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Behind Inquisitor, Left of Stairs",
+					["title"] = "Corner by Chest Spawn",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -272,9 +250,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -295,9 +273,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -318,9 +296,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -341,9 +319,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -364,32 +342,32 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1470:634000000:417000000:Corner by Chest Spawn"] = {
+				["1470:690000000:731000000:Behind Inquisitor, Left of Stairs"] = {
 					1470, -- [1]
-					0.634, -- [2]
-					0.417, -- [3]
+					0.69, -- [2]
+					0.731, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Corner by Chest Spawn",
+					["desc"] = "Behind Inquisitor, Left of Stairs",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Corner by Chest Spawn",
+					["title"] = "Behind Inquisitor, Left of Stairs",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -412,9 +390,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -437,9 +415,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -460,9 +438,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -483,9 +461,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -506,9 +484,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -529,9 +507,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -554,9 +532,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -579,9 +557,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -602,9 +580,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -625,9 +603,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -648,9 +626,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -671,9 +649,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -696,9 +674,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -719,9 +697,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -742,9 +720,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -765,9 +743,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -788,15 +766,37 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
 					["world"] = true,
 				},
 			},
+		},
+		["Praerend - Silvermoon"] = {
+		},
+		["Mogfarmer - Silvermoon"] = {
+		},
+		["Faerand - Silvermoon"] = {
+		},
+		["Korugen - Silvermoon"] = {
+		},
+		["Kindhoof - Ragnaros"] = {
+		},
+		["Thorlan - Silvermoon"] = {
+		},
+		["Amranar - Silvermoon"] = {
+		},
+		["Rahran - Silvermoon"] = {
+		},
+		["Zearthan - Silvermoon"] = {
+		},
+		["Greyblood - Silvermoon"] = {
+		},
+		["Burdett - Silvermoon"] = {
 		},
 		["Kaldowrath - Silvermoon"] = {
 		},

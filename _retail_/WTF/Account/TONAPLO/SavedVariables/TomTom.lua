@@ -4,18 +4,18 @@ TomTomDB = {
 		["Algalonheal - Silvermoon"] = "Default",
 		["Thedodrouk - Silvermoon"] = "Default",
 		["Kaldowrath - Silvermoon"] = "Default",
-		["Mallusof - Silvermoon"] = "Default",
+		["Burdett - Silvermoon"] = "Default",
 		["Miriyam - Silvermoon"] = "Default",
 		["Mogfarmer - Silvermoon"] = "Default",
 		["Faerand - Silvermoon"] = "Default",
-		["Korugen - Silvermoon"] = "Default",
+		["Rahran - Silvermoon"] = "Default",
 		["Kindhoof - Ragnaros"] = "Default",
 		["Thorlan - Silvermoon"] = "Default",
 		["Amranar - Silvermoon"] = "Default",
-		["Rahran - Silvermoon"] = "Default",
+		["Korugen - Silvermoon"] = "Default",
 		["Zearthan - Silvermoon"] = "Default",
 		["Greyblood - Silvermoon"] = "Default",
-		["Burdett - Silvermoon"] = "Default",
+		["Mallusof - Silvermoon"] = "Default",
 		["Praerend - Silvermoon"] = "Default",
 	},
 	["profiles"] = {
@@ -47,18 +47,18 @@ TomTomWaypointsM = {
 		["Algalonheal - Silvermoon"] = "Algalonheal - Silvermoon",
 		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
 		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
-		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
+		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
 		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
 		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
-		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
+		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
 		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
 		["Thorlan - Silvermoon"] = "Thorlan - Silvermoon",
 		["Amranar - Silvermoon"] = "Amranar - Silvermoon",
-		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
+		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
 		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
 		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
-		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
+		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
 	},
 	["profiles"] = {
@@ -67,6 +67,28 @@ TomTomWaypointsM = {
 		["Thedodrouk - Silvermoon"] = {
 		},
 		["Kaldowrath - Silvermoon"] = {
+		},
+		["Burdett - Silvermoon"] = {
+		},
+		["Miriyam - Silvermoon"] = {
+		},
+		["Mogfarmer - Silvermoon"] = {
+		},
+		["Faerand - Silvermoon"] = {
+		},
+		["Rahran - Silvermoon"] = {
+		},
+		["Kindhoof - Ragnaros"] = {
+		},
+		["Thorlan - Silvermoon"] = {
+		},
+		["Amranar - Silvermoon"] = {
+		},
+		["Korugen - Silvermoon"] = {
+		},
+		["Zearthan - Silvermoon"] = {
+		},
+		["Greyblood - Silvermoon"] = {
 		},
 		["Mallusof - Silvermoon"] = {
 			[105] = {
@@ -227,17 +249,17 @@ TomTomWaypointsM = {
 				},
 			},
 			[108] = {
-				["108:650000000:400000000:Jurim"] = {
+				["108:550000000:710000000:Okrek"] = {
 					108, -- [1]
-					0.65, -- [2]
-					0.4, -- [3]
+					0.55, -- [2]
+					0.71, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Jurim",
+					["desc"] = "Okrek",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Jurim",
+					["title"] = "Okrek",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -258,17 +280,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["108:550000000:710000000:Okrek"] = {
+				["108:650000000:400000000:Jurim"] = {
 					108, -- [1]
-					0.55, -- [2]
-					0.71, -- [3]
+					0.65, -- [2]
+					0.4, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Okrek",
+					["desc"] = "Jurim",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Okrek",
+					["title"] = "Jurim",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -448,17 +470,17 @@ TomTomWaypointsM = {
 				},
 			},
 			[1469] = {
-				["1469:389000000:499000000:Left in the big tent"] = {
+				["1469:510000000:452000000:Between pillar and boxes"] = {
 					1469, -- [1]
-					0.389, -- [2]
-					0.499, -- [3]
+					0.51, -- [2]
+					0.452, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Left in the big tent",
+					["desc"] = "Between pillar and boxes",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Left in the big tent",
+					["title"] = "Between pillar and boxes",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -510,17 +532,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1469:510000000:452000000:Between pillar and boxes"] = {
+				["1469:389000000:499000000:Left in the big tent"] = {
 					1469, -- [1]
-					0.51, -- [2]
-					0.452, -- [3]
+					0.389, -- [2]
+					0.499, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Between pillar and boxes",
+					["desc"] = "Left in the big tent",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Between pillar and boxes",
+					["title"] = "Left in the big tent",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -731,17 +753,17 @@ TomTomWaypointsM = {
 				},
 			},
 			[1470] = {
-				["1470:634000000:417000000:Corner by Chest Spawn"] = {
+				["1470:690000000:731000000:Behind Inquisitor, Left of Stairs"] = {
 					1470, -- [1]
-					0.634, -- [2]
-					0.417, -- [3]
+					0.69, -- [2]
+					0.731, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Corner by Chest Spawn",
+					["desc"] = "Behind Inquisitor, Left of Stairs",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Corner by Chest Spawn",
+					["title"] = "Behind Inquisitor, Left of Stairs",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -917,17 +939,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1470:690000000:731000000:Behind Inquisitor, Left of Stairs"] = {
+				["1470:634000000:417000000:Corner by Chest Spawn"] = {
 					1470, -- [1]
-					0.69, -- [2]
-					0.731, -- [3]
+					0.634, -- [2]
+					0.417, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Behind Inquisitor, Left of Stairs",
+					["desc"] = "Corner by Chest Spawn",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Behind Inquisitor, Left of Stairs",
+					["title"] = "Corner by Chest Spawn",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -1015,28 +1037,6 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
-		},
-		["Miriyam - Silvermoon"] = {
-		},
-		["Mogfarmer - Silvermoon"] = {
-		},
-		["Faerand - Silvermoon"] = {
-		},
-		["Korugen - Silvermoon"] = {
-		},
-		["Kindhoof - Ragnaros"] = {
-		},
-		["Thorlan - Silvermoon"] = {
-		},
-		["Amranar - Silvermoon"] = {
-		},
-		["Rahran - Silvermoon"] = {
-		},
-		["Zearthan - Silvermoon"] = {
-		},
-		["Greyblood - Silvermoon"] = {
-		},
-		["Burdett - Silvermoon"] = {
 		},
 		["Praerend - Silvermoon"] = {
 		},
