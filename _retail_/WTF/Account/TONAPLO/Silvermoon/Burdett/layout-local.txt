@@ -1,4 +1,11 @@
 Version: 1
+Frame: AllTheThings-Window-CurrentInstance
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 0
+Y: -89
+W: 300
+H: 300
 Frame: ObjectiveTrackerFrame
 FrameLevel: 1
 Anchor: RIGHT
@@ -90,10 +97,3 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: AllTheThings-Window-CurrentInstance
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 300
-H: 300

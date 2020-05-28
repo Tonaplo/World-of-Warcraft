@@ -1,578 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/cw Monttana-Silvermoon My main is 440", -- [1]
-		"/cw Monttana-Silvermoon As in I could you this myself, if I didnt have to have the achievement to get into litereally every group", -- [2]
-		"/s Need that cloak?", -- [3]
-		"r?", -- [4]
-		"/s lmk", -- [5]
-		"/s r?", -- [6]
-		"/cw Monttana-Silvermoon How much gold?", -- [7]
-		"/cw Monttana-Silvermoon Only Aszhara or is that the whole thing?", -- [8]
-		"perfect!", -- [9]
-		"/rarescanner hide", -- [10]
-		"/4 Hey bud :)", -- [11]
-		"/s thanks", -- [12]
-		"/wave", -- [13]
-		"/s run with it", -- [14]
-		"/s away from the place", -- [15]
-		"/s there", -- [16]
-		"/s dyde", -- [17]
-		"/s asdfsd", -- [18]
-		"/att mini", -- [19]
-		"/macro", -- [20]
+		"/cw Monttana-Silvermoon As in I could you this myself, if I didnt have to have the achievement to get into litereally every group", -- [1]
+		"r?", -- [2]
+		"/s r?", -- [3]
+		"/cw Monttana-Silvermoon Only Aszhara or is that the whole thing?", -- [4]
+		"/rarescanner hide", -- [5]
+		"/s thanks", -- [6]
+		"/s run with it", -- [7]
+		"/s there", -- [8]
+		"/s asdfsd", -- [9]
+		"/macro", -- [10]
+		"/s Need that cloak?", -- [11]
+		"/cw Monttana-Silvermoon How much gold?", -- [12]
+		"/4 Hey bud :)", -- [13]
+		"/s away from the place", -- [14]
+		"/att mini", -- [15]
+		"/s lmk", -- [16]
+		"/wave", -- [17]
+		"/cw Monttana-Silvermoon My main is 440", -- [18]
+		"/s dyde", -- [19]
+		"perfect!", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"<NBC> Offering: Ny'alotha 12/12HC from 350k, Mythic12/12, Curve=100k, M+10=100k, M+15=250k!Buy 2=FREE ARMOR STACK! Visions,  Jaina mount=1m, Islands, pvp 2v2, Mechagon HM+mount, Hertz locker, leveling! Accepting gold on all realms! Pm for more info!", -- [1]
-			"Novabcguy-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novabcguy-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3212, -- [11]
-			"Player-3391-0AC1D04A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeNovabcguy|r",
-			[51] = 1590582040,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"Wts Boost LvlUp 110-120  Only for Gold (best Price)  5 min per run", -- [1]
-			"Samúrai-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Samúrai-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3213, -- [11]
-			"Player-3391-0A85E2E9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Samúrai|r",
-			[51] = 1590582046,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"The Gallywix Community || WTS >>MYTHIC+<< (10-24) GUARANTEED in time.Also We can Stack your Armor &Reserve a Specific Keystone!Accepting Golds On All Eu Realms!Whisper me for more info .|cffffff00|Hachievement:14145:Player-3391-0A3EB96D:1:2:11:20:4294967295:4294967295:4294967295:4294967295|h[Battle for Azeroth Keystone Master: Season Four]|h|r", -- [1]
-			"Sedkhole-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sedkhole-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3214, -- [11]
-			"Player-3391-0A3EB96D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Sedkhole|r",
-			[51] = 1590582047,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"Gallywix WTS  // M+ 10-22 Keys IN TIME. Get  |cffffff00|Hachievement:14145:Player-1305-09CAF81F:0:0:0:0:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|r  M+15 230k.  AOTC + Carapace and CE. Ny'alotha 12/12 hc +mythic /w for info :)", -- [1]
-			"Korraa-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Korraa-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3215, -- [11]
-			"Player-3391-0B213EC8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Korraa|r",
-			[51] = 1590582052,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"WTS |cffa335ee|Hitem:163575::::::::20:269::::::|h[Reins of a Tamed Bloodfeaster]|h|r 78k", -- [1]
-			"Longboiinc-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Longboiinc-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3219, -- [11]
-			"Player-3391-0B2748AF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe95Longboiinc|r",
-			[51] = 1590582056,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"<Righteous Redeemers> is a transferring guild with 4/12 Mythic progress. We are searching for DPS mainly but healers and tanks with strong knowledge of the DPS speccs are also welcomed. Raid days Thursday/Sunday/Tuesday 20:00-23:00 ST./w for more info", -- [1]
-			"Foreya-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Foreya-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3220, -- [11]
-			"Player-3391-0B27E534", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Foreya|r",
-			[51] = 1590582058,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"< Geometry > 10/12 Mythic Ny'Alotha is after Exceptional Raiders (Lock-Mage-HPala-Disc Priest) to strengthen our Mythic Team for Ny'alotha! We raid Wed/Thurs/Mon 20.00-23:00 Server. You can apply @ our New Amazing website https://www.geometry-guild.eu", -- [1]
-			"Sagishamiumz-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sagishamiumz-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3221, -- [11]
-			"Player-3391-0A455BC9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcSagishamiumz|r",
-			[51] = 1590582059,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"The Gallywix WTS HC/MYTHIC|cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r/HC|cff66bbff|Hjournal:1:2364:15|h[Ra-den the Despoiled]|h|r125k (Carapace+N'Zoth 175k) Key (10-23) IN TIME (Vision WITH 5 mask)(PVP) Jaina Mount/gold all realms ", -- [1]
-			"Ferymatee-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ferymatee-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3222, -- [11]
-			"Player-3391-0B19A991", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeFerymatee|r",
-			[51] = 1590582060,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"[WТS] Nyalotha Normal & Heroic Boosts: get ilvl 445-470+ corrupted gear, NEW MOUNT, Essences & Curve Achieve. Fast runs with TOP Guilds every day. We have over 8349 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
-			"Heraqetap-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Heraqetap-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3223, -- [11]
-			"Player-3391-0B25BB76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cHeraqetap|r",
-			[51] = 1590582061,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"GALLYWIX Community WTS Mythic Jaina Proudmore |cffa335ee|Hitem:166705::::::::20:269::::::|h[Glacial Tidestorm]|h|r  M+ 10-21 KEYS IN TIME // 12/12 HC en Mythic Ny'altoha //   PVP // Islands // Legacy // Visions // Levelboosts // Glory runs /w me for info :)", -- [1]
-			"Korraa-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Korraa-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3226, -- [11]
-			"Player-3391-0B213EC8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Korraa|r",
-			[51] = 1590582070,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"WTS +15 Mythic dungeons for a reasonable price from geared and experienced players, you will get all the items at the end of the dungeon and weekly chest 475 item on Wednesday. /w for price!", -- [1]
-			"Yggdrasyl-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Yggdrasyl-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3227, -- [11]
-			"Player-3391-09BC7FF8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8686ecYggdrasyl|r",
-			[51] = 1590582072,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"wts horrific vision 4-5 mask runs", -- [1]
-			"Imryll-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Imryll-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3231, -- [11]
-			"Player-3391-08481A65", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Imryll|r",
-			[51] = 1590582083,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"GALLYWIX WTS |cffffff00|Hachievement:14068:Player-2073-0707B707:0:0:0:0:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r + Carapace  |cffffff00|Hachievement:14069:Player-2073-0707B707:0:0:0:0:0:0:0:0|h[Cutting Edge: N'Zoth the Corruptor]|h|r // Ny'alotha 12/12 HC and Mythic //  M+ 10-22 Keys IN TIME  // Azhara // PVP // Islands // Visions // Glory+Legacy runs. /w for info :)", -- [1]
-			"Korraa-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Korraa-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3233, -- [11]
-			"Player-3391-0B213EC8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Korraa|r",
-			[51] = 1590582087,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"W T S Horrific Vision 0-5 Masks 25k-100k!!!Get your 470 ilvl corrupted item! Cheapest price around here /w for more info.", -- [1]
-			"Gaozbolt-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gaozbolt-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3234, -- [11]
-			"Player-3391-0A59F1AA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8686ecGaozbolt|r",
-			[51] = 1590582087,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"We are selling N'Zoth Heroic Now! Receive|cffffff00|Hachievement:14068:Player-3391-0B0D6AB9:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r for 110k and the chance to get 470+ items aswell as the Uncorrupted Voidwing & Cloak Upgrade, we have runs every 20 mins /w for more info.", -- [1]
-			"Lanaaii-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lanaaii-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3235, -- [11]
-			"Player-3391-0B0D6AB9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Lanaaii|r",
-			[51] = 1590582088,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"<NBC> Offering: Ny'alotha 12/12HC from 350k, Mythic12/12, Curve=100k, M+10=100k, M+15=250k!Buy 2=FREE ARMOR STACK! Visions,  Jaina mount=1m, Islands, pvp 2v2, Mechagon HM+mount, Hertz locker, leveling! Accepting gold on all realms! Pm for more info!", -- [1]
-			"Novabcguy-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novabcguy-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3241, -- [11]
-			"Player-3391-0AC1D04A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeNovabcguy|r",
-			[51] = 1590582103,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"Gallywix WTS  // M+ 10-22 Keys IN TIME. Get  |cffffff00|Hachievement:14145:Player-1305-09CAF81F:0:0:0:0:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|r  M+15 230k.  AOTC + Carapace and CE. Ny'alotha 12/12 hc +mythic /w for info :)", -- [1]
-			"Korraa-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Korraa-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3243, -- [11]
-			"Player-3391-0B213EC8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Korraa|r",
-			[51] = 1590582104,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"how do I get to Argus??", -- [1]
-			"Elaganza-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Elaganza-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3246, -- [11]
-			"Player-3391-07F4744F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Elaganza|r",
-			[51] = 1590582112,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"<SBS> SELLING <FREE ARMOR STACK>  3x +11=300k (9x 460 ilvl loot), 3x +14=450k(9x 465 ilvl loot) +10=100k ,+11=110K,+12=130k ,+15=210k (in time)+16 /+17 M+ runs , Horrific Vision no mask 50k/5 mask 250k ONLY! HC/Mythic Ny'alotha runs & trader options !", -- [1]
-			"Mechamini-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mechamini-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3247, -- [11]
-			"Player-3391-0AD5ECDE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe95Mechamini|r",
-			[51] = 1590582113,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"<Righteous Redeemers> is a transferring guild with 4/12 Mythic progress. We are searching for DPS mainly but healers and tanks with strong knowledge of the DPS speccs are also welcomed. Raid days Thursday/Sunday/Tuesday 20:00-23:00 ST./w for more info", -- [1]
-			"Foreya-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Foreya-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3248, -- [11]
-			"Player-3391-0B27E534", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Foreya|r",
-			[51] = 1590582116,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"Wts Boost LvlUp 110-120  Only for Gold (best Price)  5 min per run", -- [1]
-			"Samúrai-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Samúrai-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3249, -- [11]
-			"Player-3391-0A85E2E9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Samúrai|r",
-			[51] = 1590582117,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"<NOVA Community> Selling M+ (10-21) Keys in time = FREE ARMOR STACK! || M+10=100k || M+12=130k || M+14=170k || M+15 = 250k! Also Nyalotha 12/12 HC 350k only! And Nyalotha Mythic || Jaina Mount || Visions 1-5 Masks! /w me for more info!", -- [1]
-			"Novaleet-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novaleet-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3250, -- [11]
-			"Player-3391-0B2150EA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe95Novaleet|r",
-			[51] = 1590582119,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"WTS |cffa335ee|Hitem:163575::::::::20:269::::::|h[Reins of a Tamed Bloodfeaster]|h|r 78k", -- [1]
-			"Longboiinc-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Longboiinc-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3252, -- [11]
-			"Player-3391-0B2748AF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe95Longboiinc|r",
-			[51] = 1590582124,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"step 1: have the legion invade azeroth", -- [1]
-			"Imryll-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Imryll-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3253, -- [11]
-			"Player-3391-08481A65", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Imryll|r",
-			[51] = 1590582126,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"WTB Full Vision Clear /w me", -- [1]
-			"Cakeqt-Silvermoon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Cakeqt-Silvermoon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3254, -- [11]
-			"Player-3391-0B281129", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cCakeqt|r",
-			[51] = 1590582130,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
 		{
 			"< Geometry > 10/12 Mythic Ny'Alotha is after Exceptional Raiders (Lock-Mage-HPala-Disc Priest) to strengthen our Mythic Team for Ny'alotha! We raid Wed/Thurs/Mon 20.00-23:00 Server. You can apply @ our New Amazing website https://www.geometry-guild.eu", -- [1]
 			"Sagishamiumz-Silvermoon", -- [2]
@@ -594,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSagishamiumz|r",
 			[51] = 1590582131,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [1]
 		{
 			"WTS +15 Mythic dungeons for a reasonable price from geared and experienced players, you will get all the items at the end of the dungeon and weekly chest 475 item on Wednesday. /w for price!", -- [1]
 			"Yggdrasyl-Silvermoon", -- [2]
@@ -616,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecYggdrasyl|r",
 			[51] = 1590582134,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [2]
 		{
 			"GALLYWIX WTS |cffffff00|Hachievement:14068:Player-2073-0707B707:0:0:0:0:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r + Carapace  |cffffff00|Hachievement:14069:Player-2073-0707B707:0:0:0:0:0:0:0:0|h[Cutting Edge: N'Zoth the Corruptor]|h|r // Ny'alotha 12/12 HC and Mythic //  M+ 10-22 Keys IN TIME  // Azhara // PVP // Islands // Visions // Glory+Legacy runs. /w for info :)", -- [1]
 			"Korraa-Silvermoon", -- [2]
@@ -638,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Korraa|r",
 			[51] = 1590582137,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [3]
 		{
 			"> Hydra Community < WTS Pvp mount:|cff71d5ff|Hspell:230401:0|h[Ivory Hawkstrider]|h|r555k |||cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r40k , 100k mount+title+pet+5 achievment || |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r160k /W me", -- [1]
 			"Wmsecreett-Silvermoon", -- [2]
@@ -660,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeWmsecreett|r",
 			[51] = 1590582145,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [4]
 		{
 			"The Gallywix WTS HC/MYTHIC|cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r/HC|cff66bbff|Hjournal:1:2364:15|h[Ra-den the Despoiled]|h|r125k (Carapace+N'Zoth 175k) Key (10-23) IN TIME (Vision WITH 5 mask)(PVP) Jaina Mount/gold all realms ", -- [1]
 			"Ferymatee-Silvermoon", -- [2]
@@ -682,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeFerymatee|r",
 			[51] = 1590583875,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [5]
 		{
 			"WTS +15 Mythic dungeons for a reasonable price from geared and experienced players , you will get all the items at the end of the dungeon and weekly chest 475 item on Wednesday. /w for price!", -- [1]
 			"Ragingsoup-Silvermoon", -- [2]
@@ -704,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRagingsoup|r",
 			[51] = 1590583883,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [6]
 		{
 			"<NOVA Community> Selling M+ (10-21) Keys in time = FREE ARMOR STACK! || M+10=100k || M+12=130k || M+14=170k || M+15 = 250k! Also Nyalotha 12/12 HC 350k only! And Nyalotha Mythic || Jaina Mount || Visions 1-5 Masks! /w me for more info!", -- [1]
 			"Novaleet-Silvermoon", -- [2]
@@ -726,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Novaleet|r",
 			[51] = 1590583892,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [7]
 		{
 			"WTS |cffa335ee|Hitem:163575::::::::20:103::::::|h[Reins of a Tamed Bloodfeaster]|h|r|cff0070dd|Hbattlepet:130:1:3:155:11:11:0000000000000000:0|h[Hippogryph Hatchling]|h|r|cffa335ee|Hitem:159840::::::::20:103::::::|h[Teebu's Scorching Straight Sword]|h|r", -- [1]
 			"Arcanebank-Silvermoon", -- [2]
@@ -748,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Arcanebank|r",
 			[51] = 1590583896,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [8]
 		{
 			"WTS keystone 10-19 .100% intime . sharing all the loots. free armor stacking .get discount by buying more than one keystone . Feel free to whisper me for a chat", -- [1]
 			"Rodimusp-Silvermoon", -- [2]
@@ -770,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRodimusp|r",
 			[51] = 1590583897,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [9]
 		{
 			"WTS Mythic keystones boost +12[[ CHEAPEST]] // and lvl up boost in FH /and  full clear Horific Visions 0-4 mask------[CHEAPEST ON SERVER-----// w me for details ", -- [1]
 			"Cronosmk-Silvermoon", -- [2]
@@ -792,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cCronosmk|r",
 			[51] = 1590583907,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [10]
 		{
 			"< WTS NYÁLOTHA NM/HC |||| 110-120 BOOST |||| +10 -- +20 KEYSTONES |||| PVP CAP |||| MECHAGON N/HM |||| x5 MASKS VISIONS CHEAP SMOOTH AND RIGHT NOW W/ME >|cffa335ee|Hkeystone:158923:250:20:10:5:14:120|h[Keystone: Temple of Sethraliss (20)]|h|r|cffa335ee|Hkeystone:158923:250:20:10:5:14:120|h[Keystone: Temple of Sethraliss (20)]|h|r", -- [1]
 			"Greatestwarr-Silvermoon", -- [2]
@@ -814,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGreatestwarr|r",
 			[51] = 1590584452,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [11]
 		{
 			"Gallywix WTS  // M+ 10-22 Keys IN TIME. Get  |cffffff00|Hachievement:14145:Player-1305-09CAF81F:0:0:0:0:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|r  M+15 230k.  AOTC + Carapace and CE. Ny'alotha 12/12 hc +mythic /w for info :)", -- [1]
 			"Korraa-Silvermoon", -- [2]
@@ -836,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Korraa|r",
 			[51] = 1590584452,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [12]
 		{
 			"The Gallywix Community || WTS >>MYTHIC+<< (10-24) GUARANTEED in time.Also We can Stack your Armor &Reserve a Specific Keystone!Accepting Golds On All Eu Realms!Whisper me for more info .|cffffff00|Hachievement:14145:Player-3391-0A3EB96D:1:2:11:20:4294967295:4294967295:4294967295:4294967295|h[Battle for Azeroth Keystone Master: Season Four]|h|r", -- [1]
 			"Sedkhole-Silvermoon", -- [2]
@@ -858,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Sedkhole|r",
 			[51] = 1590584452,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [13]
 		{
 			"GALLYWIX Community WTS Mythic Jaina Proudmore |cffa335ee|Hitem:166705::::::::20:269::::::|h[Glacial Tidestorm]|h|r  M+ 10-21 KEYS IN TIME // 12/12 HC en Mythic Ny'altoha //   PVP // Islands // Legacy // Visions // Levelboosts // Glory runs /w me for info :)", -- [1]
 			"Korraa-Silvermoon", -- [2]
@@ -880,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Korraa|r",
 			[51] = 1590584467,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [14]
 		{
 			"[WТS] Nyalotha Normal & Heroic Boosts: get ilvl 445-470+ corrupted gear, NEW MOUNT, Essences & Curve Achieve. Fast runs with TOP Guilds every day. We have over 8349 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
 			"Heraqetap-Silvermoon", -- [2]
@@ -902,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHeraqetap|r",
 			[51] = 1590584467,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [15]
 		{
 			"GALLYWIX |cffffff00|Hachievement:14145:Player-3391-0B21430D:0:0:0:0:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|rWTS  m+10-23 ArmorStack/All Dungeons!! |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r12/12 HC/MYTHIC VIP Loot!! |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r, PVP 0-2400 Gladiator, Visions!! Jaina Mount!!", -- [1]
 			"Silentgally-Silvermoon", -- [2]
@@ -924,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSilentgally|r",
 			[51] = 1590584468,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [16]
 		{
 			"The Gallywix WTS HC/MYTHIC|cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r/HC|cff66bbff|Hjournal:1:2364:15|h[Ra-den the Despoiled]|h|r125k (Carapace+N'Zoth 175k) Key (10-23) IN TIME (Vision WITH 5 mask)(PVP) Jaina Mount/gold all realms ", -- [1]
 			"Ferymatee-Silvermoon", -- [2]
@@ -946,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeFerymatee|r",
 			[51] = 1590584474,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [17]
 		{
 			"<Gallywix> WTS |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r12/12 Mythic+HC With Loot. |cffffff00|Hachievement:14068:Player-3391-0B1F2CDB:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r+Carapace+Raden. PVP,VISION,JAINA Mount. |cffffff00|Hachievement:14145:Player-3391-0B1F2CDB:0:0:0:-1:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|r20% Off Buy 6x M+(10-23)Share Loot. ", -- [1]
 			"Silentwix-Silvermoon", -- [2]
@@ -968,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Silentwix|r",
 			[51] = 1590584474,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [18]
 		{
 			"<SBS> SELLING <FREE ARMOR STACK>  3x +11=300k (9x 460 ilvl loot), 3x +14=450k(9x 465 ilvl loot) +10=100k ,+11=110K,+12=130k ,+15=210k (in time)+16 /+17 M+ runs , Horrific Vision no mask 50k/5 mask 250k ONLY! HC/Mythic Ny'alotha runs & trader options !", -- [1]
 			"Mechamini-Silvermoon", -- [2]
@@ -990,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Mechamini|r",
 			[51] = 1590584474,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [19]
 		{
 			"Gallywix WTS Mythic +10-21 keys, |cffffff00|Hachievement:14069:Player-3391-08DC9166:0:0:0:-1:0:0:0:0|h[Cutting Edge: N'Zoth the Corruptor]|h|r , 12612 Mythic/HC! |cff66bbff|Hjournal:0:1001:1|h[Freehold]|h|r LVL boost, 2s/3s arena! We also have Horrific Vision boosts, |cffffff00|Hachievement:13314:Player-3391-08DC9166:0:0:0:-1:0:0:0:0|h[Mythic: Lady Jaina Proudmoore]|h|r with mount, pm me for more info!", -- [1]
 			"Yennagally-Silvermoon", -- [2]
@@ -1012,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeYennagally|r",
 			[51] = 1590584945,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [20]
 		{
 			"<Gallywix> WTS |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r12/12 Mythic+HC With Loot. |cffffff00|Hachievement:14068:Player-3391-0B1F2CDB:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r+Carapace+Raden. PVP,VISION,JAINA Mount. |cffffff00|Hachievement:14145:Player-3391-0B1F2CDB:0:0:0:-1:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|r20% Off Buy 6x M+(10-23)Share Loot. ", -- [1]
 			"Silentwix-Silvermoon", -- [2]
@@ -1034,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Silentwix|r",
 			[51] = 1590584952,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [21]
 		{
 			"<SBS> SELLING <FREE ARMOR STACK>  3x +11=300k (9x 460 ilvl loot), 3x +14=450k(9x 465 ilvl loot) +10=100k ,+11=110K,+12=130k ,+15=210k (in time)+16 /+17 M+ runs , Horrific Vision no mask 50k/5 mask 250k ONLY!Mythic Ny'alotha run TODAY with trader option", -- [1]
 			"Mechamini-Silvermoon", -- [2]
@@ -1056,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Mechamini|r",
 			[51] = 1590584955,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [22]
 		{
 			"<SBS> SELLING, Mythic Ny'alotha run TODAY with trader options ! 1 spot left for full run !", -- [1]
 			"Bullva-Silvermoon", -- [2]
@@ -1078,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBullva|r",
 			[51] = 1590584955,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [23]
 		{
 			"<NOVA>  Selling [M+15=250K]  [M+10=100K]  [M+11=110K]  [M+14=170K]  {M+12=130K] //VISION: Full run 60k-- +5 Mask: 350k-- Nyalotha HC 300k (traders 125k) AND NYA MYTHIC 10% DISC!!//Keystone Master//Jaina Mount 1M/Mechagon Mount wisp + info", -- [1]
 			"Novalove-Silvermoon", -- [2]
@@ -1100,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Novalove|r",
 			[51] = 1590584956,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [24]
 		{
 			"The Gallywix WTS HC/MYTHIC|cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r/HC|cff66bbff|Hjournal:1:2364:15|h[Ra-den the Despoiled]|h|r125k (Carapace+N'Zoth 175k) Key (10-23) IN TIME (Vision WITH 5 mask)(PVP) Jaina Mount/gold all realms ", -- [1]
 			"Ferymatee-Silvermoon", -- [2]
@@ -1122,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeFerymatee|r",
 			[51] = 1590585242,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [25]
 		{
 			"WTS +15 Mythic dungeons for a reasonable price from geared and experienced players, you will get all the items at the end of the dungeon and weekly chest 475 item on Wednesday. /w for price!", -- [1]
 			"Ragingsoup-Silvermoon", -- [2]
@@ -1144,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRagingsoup|r",
 			[51] = 1590585243,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [26]
 		{
 			"WTS keystone 10-19 .100% intime . sharing all the loots. free armor stacking .get discount by buying more than one keystone . Feel free to whisper me for a chat", -- [1]
 			"Rodimusp-Silvermoon", -- [2]
@@ -1166,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRodimusp|r",
 			[51] = 1590585245,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [27]
 		{
 			"The Gallywix Community || WTS >>MYTHIC+<< (10-24) GUARANTEED in time.Also We can Stack your Armor &Reserve a Specific Keystone!Accepting Golds On All Eu Realms!Whisper me for more info .|cffffff00|Hachievement:14145:Player-3391-0A3EB96D:1:2:11:20:4294967295:4294967295:4294967295:4294967295|h[Battle for Azeroth Keystone Master: Season Four]|h|r", -- [1]
 			"Sedkhole-Silvermoon", -- [2]
@@ -1188,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Sedkhole|r",
 			[51] = 1590585246,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [28]
 		{
 			"Gallywix WTS Mythic +10-21 keys, |cffffff00|Hachievement:14069:Player-3391-08DC9166:0:0:0:-1:0:0:0:0|h[Cutting Edge: N'Zoth the Corruptor]|h|r , 12612 Mythic/HC! |cff66bbff|Hjournal:0:1001:1|h[Freehold]|h|r LVL boost, 2s/3s arena! We also have Horrific Vision boosts, |cffffff00|Hachievement:13314:Player-3391-08DC9166:0:0:0:-1:0:0:0:0|h[Mythic: Lady Jaina Proudmoore]|h|r with mount, pm me for more info!", -- [1]
 			"Yennagally-Silvermoon", -- [2]
@@ -1210,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeYennagally|r",
 			[51] = 1590585247,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [29]
 		{
 			"||Nova Boosting|| WTS [Ny'alotha, the Waking City] HC + Mythic + Jaina  Also Selling || +M (10-22) IN Time || FreeAmorStack For 10-13 ||+10=100k|| +14=170k || ||+15=250k || Accept gold Any Server /w info ", -- [1]
 			"Killêr-Silvermoon", -- [2]
@@ -1232,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Killêr|r",
 			[51] = 1590585247,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [30]
 		{
 			"GALLYWIX |cffffff00|Hachievement:14145:Player-3391-0B21430D:0:0:0:0:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|rWTS  m+10-23 ArmorStack/All Dungeons!! |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r12/12 HC/MYTHIC VIP Loot!! |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r, PVP 0-2400 Gladiator, Visions!! Jaina Mount!!", -- [1]
 			"Silentgally-Silvermoon", -- [2]
@@ -1254,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSilentgally|r",
 			[51] = 1590585248,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [31]
 		{
 			"<AB24> WTS |cff66bbff|Hjournal:0:1178:23|h[Operation: Mechagon]|h|r with |cff71d5ff|Hspell:290718:0|h[Aerial Unit R-21/X]|h|r 200k, also +15 keys for 180k |||cff66bbff|Hjournal:0:1001:23|h[Freehold]|h|r Boosting 5k pr level, /w me for more info.", -- [1]
 			"Petrico-Silvermoon", -- [2]
@@ -1276,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Petrico|r",
 			[51] = 1590585251,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [32]
 		{
 			"WTS Mythic keystones boost +12[[ CHEAPEST]] // and lvl up boost in FH /and  full clear Horific Visions 0-4 mask------[CHEAPEST ON SERVER-----// w me for details ", -- [1]
 			"Cronosmk-Silvermoon", -- [2]
@@ -1298,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cCronosmk|r",
 			[51] = 1590585630,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [33]
 		{
 			"GALLYWIX |cffffff00|Hachievement:14145:Player-3391-0B21430D:0:0:0:0:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|rWTS  m+10-23 ArmorStack/All Dungeons!! |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r12/12 HC/MYTHIC VIP Loot!! |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r, PVP 0-2400 Gladiator, Visions!! Jaina Mount!!", -- [1]
 			"Silentgally-Silvermoon", -- [2]
@@ -1320,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSilentgally|r",
 			[51] = 1590585633,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [34]
 		{
 			"$elling mythic +10/&/+15/+18 (armor stack..share loot..in time)&(FULL horrific vision clear 5/5 bosses)(only gold )gp ready ..../w for more info!!!", -- [1]
 			"Curian-Silvermoon", -- [2]
@@ -1342,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Curian|r",
 			[51] = 1590585634,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [35]
 		{
 			"(NBC) Offering M+ Boost 10=100k/ M+15=250k in Time/ Free armor stack even at 1 run +10 to +13 / 5%-10% Discount on more than 1 run / shared loot  /  5 run 10% + armor ! / Selling NY'ALOTHA Full clear 300k  /  Curve 100k  /Mechagon HM /w for info", -- [1]
 			"Nbcizannagia-Silvermoon", -- [2]
@@ -1364,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Nbcizannagia|r",
 			[51] = 1590585634,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [36]
 		{
 			"(NBC) Offering M+ Boost 10=100k/ M+15=250k in Time/ Free armor stack even at 1 run +10 to +13 / 5%-10% Discount on more than 1 run / shared loot  /  5 run 10% + armor ! / Selling NY'ALOTHA Full clear 300k  /  Curve 100k  /Mechagon HM /w for info", -- [1]
 			"Nbcfoxa-Silvermoon", -- [2]
@@ -1386,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Nbcfoxa|r",
 			[51] = 1590585635,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [37]
 		{
 			"WTS keystone 10-19 .100% intime . sharing all the loots. free armor stacking .get discount by buying more than one keystone . Feel free to whisper me for a chat", -- [1]
 			"Rodimusp-Silvermoon", -- [2]
@@ -1408,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRodimusp|r",
 			[51] = 1590585635,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [38]
 		{
 			"<AB24> WTS |cff66bbff|Hjournal:0:1178:23|h[Operation: Mechagon]|h|r with |cff71d5ff|Hspell:290718:0|h[Aerial Unit R-21/X]|h|r 200k, also +15 keys for 180k |||cff66bbff|Hjournal:0:1001:23|h[Freehold]|h|r Boosting 5k pr level, /w me for more info.", -- [1]
 			"Petrico-Silvermoon", -- [2]
@@ -1430,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Petrico|r",
 			[51] = 1590585636,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [39]
 		{
 			"WTS Mythic Keystone Boost +5 -> +12! Lvling Boost 110-120! Horrific Vision 0 -> 5 Masks Full Run! CHEAPEST PRICE!!! /w me for details!", -- [1]
 			"Deathersk-Silvermoon", -- [2]
@@ -1452,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Deathersk|r",
 			[51] = 1590585638,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [40]
 		{
 			"Gallywix WTS Mythic +10-21 keys, |cffffff00|Hachievement:14069:Player-3391-08DC9166:0:0:0:-1:0:0:0:0|h[Cutting Edge: N'Zoth the Corruptor]|h|r , 12612 Mythic/HC! |cff66bbff|Hjournal:0:1001:1|h[Freehold]|h|r LVL boost, 2s/3s arena! We also have Horrific Vision boosts, |cffffff00|Hachievement:13314:Player-3391-08DC9166:0:0:0:-1:0:0:0:0|h[Mythic: Lady Jaina Proudmoore]|h|r with mount, pm me for more info!", -- [1]
 			"Yennagally-Silvermoon", -- [2]
@@ -1474,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeYennagally|r",
 			[51] = 1590585639,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [41]
 		{
 			"Selling N'Zoth Heroic Now! Get your|cffffff00|Hachievement:14068:Player-3391-0A828960:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r + Uncorrupted Voidwing mount and 470+ items for just 110k, we have runs every 20 mins. /w for more info!", -- [1]
 			"Lanä-Silvermoon", -- [2]
@@ -1496,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLanä|r",
 			[51] = 1590585640,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [42]
 		{
 			"WTS Horrific Visions boost. 5 Masks full run. Best price!  Get your 470 corrupted item today!", -- [1]
 			"Zahadius-Silvermoon", -- [2]
@@ -1518,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Zahadius|r",
 			[51] = 1590585649,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [43]
 		{
 			"The Gallywix Community || WTS >>MYTHIC+<< (10-24) GUARANTEED in time.Also We can Stack your Armor &Reserve a Specific Keystone!Accepting Golds On All Eu Realms!Whisper me for more info .|cffffff00|Hachievement:14145:Player-3391-0A3EB96D:1:2:11:20:4294967295:4294967295:4294967295:4294967295|h[Battle for Azeroth Keystone Master: Season Four]|h|r", -- [1]
 			"Sedkhole-Silvermoon", -- [2]
@@ -1540,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Sedkhole|r",
 			[51] = 1590585650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [44]
 		{
 			"WTS Mythic+ 10-23!|cffffff00|Hachievement:14145:Player-1305-0AF58DF8:1:2:13:20:4294967295:4294967295:4294967295:4294967295|h[Battle for Azeroth Keystone Master: Season Four]|h|r And Horrefic Vision 5x Mask Full Run ! PVP 2s  3s 0-2400!/w For More Info", -- [1]
 			"Shadõwdancer-Silvermoon", -- [2]
@@ -1562,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Shadõwdancer|r",
 			[51] = 1590585651,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [45]
 		{
 			"WTS FREEHOLD BOOST (110-120) LEVELUP CHEAP 5 MIN PER LEVEL", -- [1]
 			"Shadowwfury-Silvermoon", -- [2]
@@ -1584,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Shadowwfury|r",
 			[51] = 1590585651,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [46]
 		{
 			"<Gallywix> WTS |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r12/12 Mythic+HC With Loot. |cffffff00|Hachievement:14068:Player-3391-0B1F2CDB:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r+Carapace+Raden. PVP,VISION,JAINA Mount. |cffffff00|Hachievement:14145:Player-3391-0B1F2CDB:0:0:0:-1:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|r20% Off Buy 6x M+(10-23)Share Loot. ", -- [1]
 			"Silentwix-Silvermoon", -- [2]
@@ -1606,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Silentwix|r",
 			[51] = 1590585652,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [47]
 		{
 			"<SBS> SELLING <FREE ARMOR STACK>  3x +11=300k (9x 460 ilvl loot), 3x +14=450k(9x 465 ilvl loot) +10=100k ,+11=110K,+12=130k ,+15=210k (in time)+16 /+17 M+ runs , Horrific Vision no mask 50k/5 mask 250k ONLY!Mythic Ny'alotha run TODAY with trader option", -- [1]
 			"Mechamini-Silvermoon", -- [2]
@@ -1628,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Mechamini|r",
 			[51] = 1590585652,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [48]
 		{
 			"WTS vision boost. 0-5 masks, your choice.  /w for further info", -- [1]
 			"Ticián-Silvermoon", -- [2]
@@ -1650,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ticián|r",
 			[51] = 1590585664,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [49]
 		{
 			"The Gallywix WTS HC/MYTHIC|cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r/HC|cff66bbff|Hjournal:1:2364:15|h[Ra-den the Despoiled]|h|r125k (Carapace+N'Zoth 175k) Key (10-23) IN TIME (Vision WITH 5 mask)(PVP) Jaina Mount/gold all realms ", -- [1]
 			"Ferymatee-Silvermoon", -- [2]
@@ -1672,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeFerymatee|r",
 			[51] = 1590585665,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [50]
 		{
 			"WTS|cff0070dd|Hitem:168825::::::::120:260::::::|h[Rich Jelly]|h|r 74X 7K", -- [1]
 			"Mortalityman-Silvermoon", -- [2]
@@ -1694,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mortalityman|r",
 			[51] = 1590585671,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [51]
 		{
 			"Selling vision BOOSTS 0-5 MASKS CHEAP (5mask=90k)", -- [1]
 			"Talìs-Silvermoon", -- [2]
@@ -1716,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTalìs|r",
 			[51] = 1590585677,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [52]
 		{
 			"We are selling N'Zoth Heroic Now! Receive|cffffff00|Hachievement:14068:Player-3391-0B0D6AB9:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r for 110k and the chance to get 470+ items aswell as the Uncorrupted Voidwing & Cloak Upgrade, we have runs every 20 mins /w for more info.", -- [1]
 			"Lanaaii-Silvermoon", -- [2]
@@ -1738,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Lanaaii|r",
 			[51] = 1590585679,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [53]
 		{
 			"<NOVA>  Selling [M+15=250K]  [M+10=100K]  [M+11=110K]  [M+14=170K]  {M+12=130K] //VISION: Full run 60k-- +5 Mask: 225k-- Nyalotha HC 300k (traders 125k) AND NYA MYTHIC 10% DISC!!//Keystone Master//Jaina Mount 1M/Mechagon Mount wisp + info", -- [1]
 			"Novalove-Silvermoon", -- [2]
@@ -1760,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Novalove|r",
 			[51] = 1590585679,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [54]
 		{
 			"[WТS] Horrific Visions Challenge Boost, Legendary cloak upgrade, Essences, Allied races, Reputations, Glories, Mounts & other 8.3 BOOSTS! We have over 8349 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
 			"Heraqetap-Silvermoon", -- [2]
@@ -1782,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHeraqetap|r",
 			[51] = 1590585686,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [55]
 		{
 			"(NBC) Offering M+ Boost 10=100k/ M+15=250k in Time/ Free armor stack even at 1 run +10 to +13 / 5%-10% Discount on more than 1 run / shared loot  /  5 run 10% + armor ! / Selling NY'ALOTHA Full clear 300k  /  Curve 100k  /Mechagon HM /w for info", -- [1]
 			"Nbcizannagia-Silvermoon", -- [2]
@@ -1804,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Nbcizannagia|r",
 			[51] = 1590585700,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [56]
 		{
 			"(NBC) Offering M+ Boost 10=100k/ M+15=250k in Time/ Free armor stack even at 1 run +10 to +13 / 5%-10% Discount on more than 1 run / shared loot  /  5 run 10% + armor ! / Selling NY'ALOTHA Full clear 300k  /  Curve 100k  /Mechagon HM /w for info", -- [1]
 			"Nbcfoxa-Silvermoon", -- [2]
@@ -1826,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Nbcfoxa|r",
 			[51] = 1590585701,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [57]
 		{
 			"BIG DISCOUNT <Sylvanas Boost Community ) BUY X2 AND GET FREE ARMOR STACK */+10 for [100k]  ONLY   / 5 M+ 10 [450K] / + 12  [130k] / +14 [165k] / +15 [215k] E / x5 M+ 15[ 950k] /+16 [265k] / +17 [400k]  / 18 [615k]/ Nylotha HC and MYTHIC / JAINA MOUNT", -- [1]
 			"Emator-Silvermoon", -- [2]
@@ -1848,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcEmator|r",
 			[51] = 1590585705,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [58]
 		{
 			"WTS +15 Mythic dungeons for a reasonable price from geared and experienced players, you will get all the items at the end of the dungeon and weekly chest 475 item on Wednesday. /w for price!", -- [1]
 			"Ragingsoup-Silvermoon", -- [2]
@@ -1870,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRagingsoup|r",
 			[51] = 1590585713,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [59]
 		{
 			"GALLYWIX |cffffff00|Hachievement:14145:Player-3391-0B21430D:0:0:0:0:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|rWTS  m+10-23 ArmorStack/All Dungeons!! |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r12/12 HC/MYTHIC VIP Loot!! |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r, PVP 0-2400 Gladiator, Visions!! Jaina Mount!!", -- [1]
 			"Silentgally-Silvermoon", -- [2]
@@ -1892,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSilentgally|r",
 			[51] = 1590585715,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [60]
 		{
 			"Selling Mythic+ 10-15 75k-150k , Mechagon Hardmode |cff71d5ff|Hspell:290718:0|h[Aerial Unit R-21/X]|h|r & Battle for azeroth Keystone master S4. Gold on Most Realms. Cheapest on Silvermoon  /w me for info", -- [1]
 			"Sanct-Silvermoon", -- [2]
@@ -1914,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSanct|r",
 			[51] = 1590585716,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [61]
 		{
 			"<<NBC>> (Special Offer) WTS M+10 =100k, M+15= 210k With Free Armor Stack! (Specific Key Available).Ny'alotha Hc Raid Full Clear=300k (Personal trader available) -Mecha Hm + Mount - FH leveling (Only Gold) Wis Me For Info!!", -- [1]
 			"Novazii-Silvermoon", -- [2]
@@ -1936,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Novazii|r",
 			[51] = 1590592002,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [62]
 		{
 			"<SBS> SELLING, Mythic Ny'alotha run TODAY with trader options!", -- [1]
 			"Lidlrogue-Silvermoon", -- [2]
@@ -1958,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Lidlrogue|r",
 			[51] = 1590592006,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [63]
 		{
 			"We are selling N'Zoth Heroic Now! Receive|cffffff00|Hachievement:14068:Player-3391-0B0D6AB9:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r for 110k and the chance to get 470+ items aswell as the Uncorrupted Voidwing & Cloak Upgrade, we have runs every 20 mins /w for more info.", -- [1]
 			"Lanaaii-Silvermoon", -- [2]
@@ -1980,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Lanaaii|r",
 			[51] = 1590592011,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [64]
 		{
 			"Wts Cheap M+ (10-15) Get your 465+ gear and 475+ and Residuum in weekly! :) Also Selling Island and Horrific boost! (Gold Only)", -- [1]
 			"Aleissa-Silvermoon", -- [2]
@@ -2002,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAleissa|r",
 			[51] = 1590592013,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [65]
 		{
 			"||Nova Boosting|| WTS [Ny'alotha, the Waking City] HC + Mythic + Jaina  Also Selling || +M (10-22) IN Time || FreeAmorStack For 10-15 ||+10=100k|| +14=160k || ||+15=210k || Accept gold Any Server /w info ", -- [1]
 			"Killêr-Silvermoon", -- [2]
@@ -2024,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Killêr|r",
 			[51] = 1590592014,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [66]
 		{
 			"> Hydra Community < WTS Pvp mount:|cff71d5ff|Hspell:230401:0|h[Ivory Hawkstrider]|h|r555k |||cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r40k , 100k mount+title+pet+5 achievment || |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r180k /W me", -- [1]
 			"Wmsecreett-Silvermoon", -- [2]
@@ -2046,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeWmsecreett|r",
 			[51] = 1590592015,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [67]
 		{
 			"GALLYWIX |cffffff00|Hachievement:14145:Player-3391-0B21430D:0:0:0:0:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|rWTS  m+10-23 ArmorStack/All Dungeons!! |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r12/12 HC/MYTHIC VIP Loot!! |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r, PVP 0-2400 Gladiator, Visions!! Jaina Mount!!", -- [1]
 			"Silentgally-Silvermoon", -- [2]
@@ -2068,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSilentgally|r",
 			[51] = 1590592015,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [68]
 		{
 			"Selling Mythic Keystone 10-21 /Vision 0-5mask You got 470 With Corruption 100%/ACcept Gold only all realm ( Horde + Ally)/ Iw fore more info", -- [1]
 			"Hieveryboody-Silvermoon", -- [2]
@@ -2090,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHieveryboody|r",
 			[51] = 1590592017,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [69]
 		{
 			"Wts DEVASTATION R3 18% and Infinite STAR corruption |cffa335ee|Hitem:175006::::::::120:70::5:8:4823:1808:6578:6579:6553:6515:1502:4786:::|h[Gauntlets of Nightmare Manifest]|h|r/|cffa335ee|Hitem:175006::::::::120:70::5:7:4823:6578:6579:6539:6513:1502:4786:::|h[Gauntlets of Nightmare Manifest]|h|r", -- [1]
 			"Winnzi-Silvermoon", -- [2]
@@ -2112,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Winnzi|r",
 			[51] = 1590592018,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [70]
 		{
 			"WTS [Long-Forgotten Hippogryph] Right now! 60K(Gold Only!) / W me !", -- [1]
 			"Ladý-Silvermoon", -- [2]
@@ -2134,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ladý|r",
 			[51] = 1590592020,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [71]
 		{
 			"<NOVA> FLASH DEALS TONIGHT! HC Ny'alotha only 300k  / +1 trader: 125K / Curve 100k / Stack Armor FREE M+15 = 210k / +14 = 170k /+10 = 100k /  / Jaina Mount 1M /w for info", -- [1]
 			"Exoonova-Silvermoon", -- [2]
@@ -2156,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Exoonova|r",
 			[51] = 1590592020,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [72]
 		{
 			"WTS M+  and vision 5 mask /w me for more info", -- [1]
 			"Holylucifer-Silvermoon", -- [2]
@@ -2178,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcHolylucifer|r",
 			[51] = 1590592020,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [73]
 		{
 			"The Gallywix WTS HC/MYTHIC|cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r/HC|cff66bbff|Hjournal:1:2364:15|h[Ra-den the Despoiled]|h|r125k (Carapace+N'Zoth 175k) Key (10-23) IN TIME (Vision WITH 5 mask)(PVP) Jaina Mount/gold all realms ", -- [1]
 			"Ferymatee-Silvermoon", -- [2]
@@ -2200,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeFerymatee|r",
 			[51] = 1590592020,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [99]
+		}, -- [74]
 		{
 			"<Righteous Redeemers> is a transferring guild with 4/12 Mythic progress. We are searching for DPS mainly but healers and tanks with strong knowledge of the DPS speccs are also welcomed. Raid days Thursday/Sunday/Tuesday 20:00-23:00 ST./w for more info", -- [1]
 			"Foreya-Silvermoon", -- [2]
@@ -2222,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Foreya|r",
 			[51] = 1590592023,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [100]
+		}, -- [75]
 		{
 			"[WТS] WTS Mythic+ runs Tonight! +10/+11/+12/+13/+14/+15 key CARRY. You will get ilvl 430-475+ Gear, RIO score & Essences. Fast Mechagon Mount runs. We have over 8349 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
 			"Heraqetap-Silvermoon", -- [2]
@@ -2244,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHeraqetap|r",
 			[51] = 1590592130,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [101]
+		}, -- [76]
 		{
 			"||Nova Boosting|| WTS [Ny'alotha, the Waking City] HC + Mythic + Jaina  Also Selling || +M (10-22) IN Time || FreeAmorStack For 10-15 ||+10=100k|| +14=160k || ||+15=210k || Accept gold Any Server /w info ", -- [1]
 			"Killêr-Silvermoon", -- [2]
@@ -2266,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Killêr|r",
 			[51] = 1590592132,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [77]
 		{
 			"The Gallywix WTS HC/MYTHIC|cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r/HC|cff66bbff|Hjournal:1:2364:15|h[Ra-den the Despoiled]|h|r125k (Carapace+N'Zoth 175k) Key (10-23) IN TIME (Vision WITH 5 mask)(PVP) Jaina Mount/gold all realms ", -- [1]
 			"Ferymatee-Silvermoon", -- [2]
@@ -2288,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeFerymatee|r",
 			[51] = 1590592133,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [103]
+		}, -- [78]
 		{
 			"We are selling N'Zoth Heroic Now! Receive|cffffff00|Hachievement:14068:Player-3391-0B0D6AB9:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r for 110k and the chance to get 470+ items aswell as the Uncorrupted Voidwing & Cloak Upgrade, we have runs every 20 mins /w for more info.", -- [1]
 			"Lanaaii-Silvermoon", -- [2]
@@ -2310,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Lanaaii|r",
 			[51] = 1590592135,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [104]
+		}, -- [79]
 		{
 			"<SBS> SELLING <FREE ARMOR STACK>  3x +11=300k (9x 460 ilvl loot), 3x +14=450k(9x 465 ilvl loot) +10=100k ,+11=110K,+12=130k ,+15=210k (in time)+16 /+17 M+ runs ,Horrific Vision no mask 50k/5 mask 250k ONLY!Mythic Ny'alotha run TODAY with trader options", -- [1]
 			"Mechamini-Silvermoon", -- [2]
@@ -2332,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Mechamini|r",
 			[51] = 1590592137,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [80]
 		{
 			"<NOVA>HC FULL RUN =300K and 125K per TRADER---NYA MYTHIC TODAY 10% DISCOUNT --5MASKS = 225K!! ---...WTS ::: [M+15=210K]  [M+11=110K]  [M+12=130K]  [M+14=160K]  {M+10=100K] /2X runs=5% -- 4X runs=10% discount--JAINA MOUNT 1M--wisp me + info ", -- [1]
 			"Novalove-Silvermoon", -- [2]
@@ -2354,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Novalove|r",
 			[51] = 1590592140,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [81]
 		{
 			"WTS M+  and vision 5 mask /w me for more info", -- [1]
 			"Holylucifer-Silvermoon", -- [2]
@@ -2376,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcHolylucifer|r",
 			[51] = 1590592140,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [82]
 		{
 			"GALLYWIX |cffffff00|Hachievement:14145:Player-3391-0B21430D:0:0:0:0:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|rWTS  m+10-23 ArmorStack/All Dungeons!! |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r12/12 HC/MYTHIC VIP Loot!! |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r, PVP 0-2400 Gladiator, Visions!! Jaina Mount!!", -- [1]
 			"Silentgally-Silvermoon", -- [2]
@@ -2398,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSilentgally|r",
 			[51] = 1590592153,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [83]
 		{
 			"> Hydra Community < WTS Pvp mount:|cff71d5ff|Hspell:230401:0|h[Ivory Hawkstrider]|h|r555k |||cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r40k , 100k mount+title+pet+5 achievment || |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r180k /W me", -- [1]
 			"Wmsecreett-Silvermoon", -- [2]
@@ -2420,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeWmsecreett|r",
 			[51] = 1590592155,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [109]
+		}, -- [84]
 		{
 			"<SBS> SELLING, Mythic Ny'alotha run TODAY with trader options!", -- [1]
 			"Lidlrogue-Silvermoon", -- [2]
@@ -2442,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Lidlrogue|r",
 			[51] = 1590592237,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [110]
+		}, -- [85]
 		{
 			"GALLYWIX |cffffff00|Hachievement:14145:Player-3391-0B21430D:0:0:0:0:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|rWTS  m+10-23 ArmorStack/All Dungeons!! |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r12/12 HC/MYTHIC VIP Loot!! |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r, PVP 0-2400 Gladiator, Visions!! Jaina Mount!!", -- [1]
 			"Silentgally-Silvermoon", -- [2]
@@ -2464,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSilentgally|r",
 			[51] = 1590592237,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [86]
 		{
 			"The Gallywix WTS HC/MYTHIC|cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r/HC|cff66bbff|Hjournal:1:2364:15|h[Ra-den the Despoiled]|h|r125k (Carapace+N'Zoth 175k) Key (10-23) IN TIME (Vision WITH 5 mask)(PVP) Jaina Mount/gold all realms ", -- [1]
 			"Ferymatee-Silvermoon", -- [2]
@@ -2486,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeFerymatee|r",
 			[51] = 1590592246,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [87]
 		{
 			"<<NBC>> (Special Offer) WTS M+10 =100k, M+15= 210k With Free Armor Stack! (Specific Key Available).Ny'alotha Hc Raid Full Clear=300k (Personal trader available) -Mecha Hm + Mount - FH leveling (Only Gold) Wis Me For Info!!", -- [1]
 			"Novazii-Silvermoon", -- [2]
@@ -2508,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Novazii|r",
 			[51] = 1590592253,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [113]
+		}, -- [88]
 		{
 			"<NOVA>HC FULL RUN =300K and 125K per TRADER---NYA MYTHIC TODAY 10% DISCOUNT --5MASKS = 225K!! ---...WTS ::: [M+15=210K]  [M+11=110K]  [M+12=130K]  [M+14=160K]  {M+10=100K] /2X runs=5% -- 4X runs=10% discount--JAINA MOUNT 1M--wisp me + info ", -- [1]
 			"Novalove-Silvermoon", -- [2]
@@ -2530,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Novalove|r",
 			[51] = 1590592253,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [89]
 		{
 			"Wts Cheap M+ (10-15) Get your 465+ gear and 475+ and Residuum in weekly! :) Also Selling Island and Horrific boost! (Gold Only)", -- [1]
 			"Aleissa-Silvermoon", -- [2]
@@ -2552,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAleissa|r",
 			[51] = 1590592255,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [90]
 		{
 			"> Hydra Community < WTS Pvp mount:|cff71d5ff|Hspell:230401:0|h[Ivory Hawkstrider]|h|r555k |||cff71d5ff|Hspell:148428:0|h[Ashhide Mushan Beast]|h|r40k , 100k mount+title+pet+5 achievment || |cff71d5ff|Hspell:261395:0|h[The Hivemind]|h|r180k /W me", -- [1]
 			"Wmsecreett-Silvermoon", -- [2]
@@ -2574,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeWmsecreett|r",
 			[51] = 1590592260,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [91]
 		{
 			"WTS M+  and vision 5 mask /w me for more info", -- [1]
 			"Holylucifer-Silvermoon", -- [2]
@@ -2596,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcHolylucifer|r",
 			[51] = 1590592260,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [92]
 		{
 			"ANYONE  know to make |cffa335ee|Hitem:49888:3789:40117:40117:::::101:72::::::|h[Shadow's Edge]|h|r into shadowmorne?", -- [1]
 			"Záack-Silvermoon", -- [2]
@@ -2618,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZáack|r",
 			[51] = 1590592261,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [93]
 		{
 			"WTS boost|cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r and <Carapace of Nzoth> and <Nzoth The Corruptor> and <Ra-den the Despoiled> heroic. <RIGHT NOW> GOLD ONLY! Get mount, curve and chance on 470 loot. Fast, smooth and cherry!", -- [1]
 			"Firewavee-Silvermoon", -- [2]
@@ -2640,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Firewavee|r",
 			[51] = 1590592263,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [94]
 		{
 			"<SBS> SELLING <FREE ARMOR STACK>  3x +11=300k (9x 460 ilvl loot), 3x +14=450k(9x 465 ilvl loot) +10=100k ,+11=110K,+12=130k ,+15=210k (in time)+16 /+17 M+ runs ,Horrific Vision no mask 50k/5 mask 250k ONLY!Mythic Ny'alotha run TODAY with trader options", -- [1]
 			"Mechamini-Silvermoon", -- [2]
@@ -2662,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Mechamini|r",
 			[51] = 1590592267,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [95]
 		{
 			"<NBC> M+ Boost/M+15=210k intime/M+10=100k /M+14=160K /M+||6-19||Free Armor Stack For All the keys / buy 4 run Get 10% Discount /|cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r HC Full Run =300k /W For Mythic Raid /Gold Only/W For Info", -- [1]
 			"Miladtaker-Silvermoon", -- [2]
@@ -2684,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Miladtaker|r",
 			[51] = 1590592270,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [96]
 		{
 			"Do the quests", -- [1]
 			"Gerenhad-Silvermoon", -- [2]
@@ -2706,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Gerenhad|r",
 			[51] = 1590592275,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [97]
 		{
 			"Selling Mythic Keystone 10-21 /Vision 0-5mask You got 470 With Corruption 100%/ACcept Gold only all realm ( Horde + Ally)/ Iw fore more info", -- [1]
 			"Hieveryboody-Silvermoon", -- [2]
@@ -2728,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHieveryboody|r",
 			[51] = 1590592282,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [98]
 		{
 			"WTS +15 Mythic dungeons for a reasonable price from geared and experienced players, you will get all the items at the end of the dungeon and weekly chest 475 item on Wednesday. /w for price!", -- [1]
 			"Ragingsoup-Silvermoon", -- [2]
@@ -2750,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRagingsoup|r",
 			[51] = 1590617330,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [99]
 		{
 			"<Mobius> 10/12 mythic are recruiting a couple of ranged dps (prefer fire mages and warlocks) to fil our roster. 2 days a week (Tue + Thur). Contact for more info if interested.", -- [1]
 			"Elunereth-Silvermoon", -- [2]
@@ -2772,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Elunereth|r",
 			[51] = 1590617333,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [100]
 		{
 			"WTS |cffa335ee|Hitem:175005::::::::120:253::3:7:4822:6578:6579:6550:6513:1487:4786:::|h[Belt of Concealed Intent]|h|r 35k!", -- [1]
 			"Misscaitlyn-Silvermoon", -- [2]
@@ -2794,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Misscaitlyn|r",
 			[51] = 1590617334,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [101]
 		{
 			"[WТS] Nyalotha Normal & Heroic Boosts: get ilvl 445-470+ corrupted gear, NEW MOUNT, Essences & Curve Achieve. Fast runs with TOP Guilds every day. We have over 8349 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
 			"Heraqetap-Silvermoon", -- [2]
@@ -2815,6 +2265,556 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cffc59a6cHeraqetap|r",
 			[51] = 1590617334,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [102]
+		{
+			"<Gallywix Community> Offering Visions (0-5 Masks) || M+ 10-21 Keys || Jaina Mount || Nya'lotha 12/12 HC & Mythic || Curve (Cara & N'zoth) Multiple Runs Per Day || Islands Boost || PVP Boosts|| Freehold Levelling || PVE/PVP Coaching || HC Ra-Den ||", -- [1]
+			"Keepsy-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Keepsy-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1, -- [11]
+			"Player-3391-067A5C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Keepsy|r",
+			[51] = 1590617495,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [103]
+		{
+			"WTS  FREEHOLD lvl boost 4 k per lvlwith looms! 110-120 done in 1h---- Full vision run 40k + 20k per mask!", -- [1]
+			"Lidijan-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Lidijan-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2, -- [11]
+			"Player-3391-08793364", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Lidijan|r",
+			[51] = 1590617495,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [104]
+		{
+			"WTB DREDGED LEATHER", -- [1]
+			"Akhileus-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Akhileus-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3, -- [11]
+			"Player-3391-0B04B3E4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Akhileus|r",
+			[51] = 1590617505,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [105]
+		{
+			"so now i have 48% crit chance", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			43, -- [11]
+			false, -- [12]
+			12, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Shawkz|r",
+			[51] = 1590617693,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [106]
+		{
+			"what else to do :p", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			44, -- [11]
+			false, -- [12]
+			12, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Shawkz|r",
+			[51] = 1590617697,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [107]
+		{
+			"but my class doesn't scale as good as those proc specs :(", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			58, -- [11]
+			false, -- [12]
+			12, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Shawkz|r",
+			[51] = 1590617742,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [108]
+		{
+			"The Gallywix Community || WTS >>MYTHIC+<< (10-24) GUARANTEED in time. Armor Stacks & Specific Keys! || 110-120 Freehold Leveling I NY'ALOTHA 12/12 Mythic, Heroic, CURVE Runs & RADEN. || Horrific Visions || JAINA MOUNT || Whisper for more info!", -- [1]
+			"Vegitogwixag-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vegitogwixag-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			85, -- [11]
+			"Player-3391-0B24843D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Vegitogwixag|r",
+			[51] = 1590617793,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [109]
+		{
+			"Selling m+ key boosting! Very cheap! Just bring your own key!", -- [1]
+			"Siasa-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Siasa-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			137, -- [11]
+			"Player-3391-09CE61F6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Siasa|r",
+			[51] = 1590618016,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [110]
+		{
+			"ALLREZA HE'S SCAMMER!!!!", -- [1]
+			"Minorott-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Minorott-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			139, -- [11]
+			"Player-3391-0B281F0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeMinorott|r",
+			[51] = 1590618023,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [111]
+		{
+			"Lf Visions run", -- [1]
+			"Madsbk-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Madsbk-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			140, -- [11]
+			"Player-3391-0B1B1260", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Madsbk|r",
+			[51] = 1590618024,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			"<NBC> M+ Boost/M+15=210k intime/M+10=100k /M+14=160K /M+||6-19||Free Armor Stack For All the keys / buy 4 run Get 10% Discount /|cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r HC Full Run =300k /W For Mythic Raid /Gold Only/W For Info", -- [1]
+			"Miladtaker-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Miladtaker-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			141, -- [11]
+			"Player-3391-0A159F76", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Miladtaker|r",
+			[51] = 1590618024,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"WTS |cffa335ee|Hitem:175008::::::::1:259::5:5:4823:6516:6513:1502:4786:::|h[Lurking Schemer's Band]|h|r 50K", -- [1]
+			"Allreza-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Allreza-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			143, -- [11]
+			"Player-3391-0B117C1A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Allreza|r",
+			[51] = 1590618025,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"<The Gallywix Community> || Selling <Font & Coral stacks> || <Glacial Tidestorm> || FH Leveling & Visions || Legacy content || Rare Mounts || Herald of the Titans || Mythic & HC Ny'Alotha || <M+10-20> /w for info or to book ||GOLD ONLY ANY REALM||!", -- [1]
+			"Cherushi-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Cherushi-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			144, -- [11]
+			"Player-3391-087BA24E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Cherushi|r",
+			[51] = 1590618026,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"<NBC> Offering: Ny'alotha 12/12HC from 300k, Mythic12/12, Curve=100k, M+10=100k, M+15=210k!FREE ARMOR STACK! Visions 5masks=225k, Jaina mount=1m, Islands, PvP, Mechagon HM+mount, Hertz locker, leveling! Accepting gold on all realms! Pm for more info!", -- [1]
+			"Novabcguy-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Novabcguy-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			210, -- [11]
+			"Player-3391-0AC1D04A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeNovabcguy|r",
+			[51] = 1590618436,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"<NBC> <Selling Mythic +10 = 100k, +12 = 130k, +15 = 210k ARMOR STACK FREE & INTIME GUARANTEE> <ALL LOOT SHARES ALSO SELLING NY'ALOTHA HC FULL RUN 300k & CRV 100k & MYTHIC GUILD RUN> <ONLY FOR GOLD ACCEPTING ALL EU REALM>/w For Info <3", -- [1]
+			"Stillshiv-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Stillshiv-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			211, -- [11]
+			"Player-3391-084EFEF1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Stillshiv|r",
+			[51] = 1590618438,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"<Mobius> 10/12 mythic are recruiting a couple of ranged dps (prefer fire mages and warlocks) to fil our roster. 2 days a week (Tue + Thur). Contact for more info if interested.", -- [1]
+			"Elunereth-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Elunereth-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			213, -- [11]
+			"Player-3391-0B0C0445", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Elunereth|r",
+			[51] = 1590618443,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"BIG DISCOUNT <Sylvanas Boost Community ) BUY X2 AND GET FREE ARMOR STACK */+10 for [100k]  ONLY   / 5 M+ 10 [450K] / + 12  [130k] / +14 [165k] / +15 [215k] E / x5 M+ 15[ 950k] /+16 [265k] / +17 [400k]  / 18 [615k]/ Nylotha HC and MYTHIC / JAINA MOUNT", -- [1]
+			"Emator-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Emator-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			269, -- [11]
+			"Player-3391-0B115C34", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcEmator|r",
+			[51] = 1590618760,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"WTS RAID lockouts ICC,Ulduar, HC SoO, mogushan vaults,, firelands , BT or any custom lockout you might want. Also selling queue boosts LFR/N /HC Nyalotha, low M+", -- [1]
+			"Feelsbearman-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Feelsbearman-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			324, -- [11]
+			"Player-3391-068AF451", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Feelsbearman|r",
+			[51] = 1590619054,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"[WТS] Nyalotha Normal & Heroic Boosts: get ilvl 445-470+ corrupted gear, NEW MOUNT, Essences & Curve Achieve. Fast runs with TOP Guilds every day. We have over 8349 Trustpilot reviews. Visit WowVendor.net for more info!", -- [1]
+			"Heraqetap-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Heraqetap-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			325, -- [11]
+			"Player-3391-0B25BB76", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cHeraqetap|r",
+			[51] = 1590619054,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"Selling [Keystone: The MOTHERLODE!! (15)] and FH 15+  /W me, Cheap price 130k rite now", -- [1]
+			"Spontylady-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Spontylady-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			326, -- [11]
+			"Player-3391-0943D6D2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Spontylady|r",
+			[51] = 1590619057,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"WTS +15 Mythic dungeons for a reasonable price from geared and experienced players, you will get all the items at the end of the dungeon and weekly chest 475 item on Wednesday. /w for price!", -- [1]
+			"Yggdrasyl-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Yggdrasyl-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			327, -- [11]
+			"Player-3391-09BC7FF8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecYggdrasyl|r",
+			[51] = 1590619058,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"WTS m+10-15 intime runs armor stack special key / vision full run 0-5 mask/mechagon HM mount  wisp me for info", -- [1]
+			"Yolverine-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Yolverine-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			328, -- [11]
+			"Player-3391-068419E2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Yolverine|r",
+			[51] = 1590619063,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"LATE NIGHT MYTHIC(10/12) RAIDING GUILD: 23:30-2:00 ST. We are looking for more players to bolster our team and make a push for the final 3. Whisper for more info if interested", -- [1]
+			"Bruhor-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bruhor-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			331, -- [11]
+			"Player-3391-09EF0C51", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Bruhor|r",
+			[51] = 1590619076,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"[Gino's Mercenaries] Selling! M+10 @100k M+15 @210k up to M+20! N'A Raid 12/12 Heroic starting @350k N'Zoth+ Mount @120k!!!!! Horrific Visions! PvP too! /w for +info. Gold only", -- [1]
+			"Ipekhel-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ipekhel-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			332, -- [11]
+			"Player-3391-0A4C0EDC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Ipekhel|r",
+			[51] = 1590619078,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"<Gino's Mercenaries> Need some Gold! M+10 M+15(200k) up to M+20! N'A Raid 12/12 Heroic starting 350k N'Zoth+ Mount @125k HM! Horrific Visions! PvP too! /w for +info. Gold only! negotiable !!", -- [1]
+			"Loveyout-Silvermoon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Loveyout-Silvermoon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			333, -- [11]
+			"Player-3391-0B285B7D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeLoveyout|r",
+			[51] = 1590619084,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},

@@ -18,7 +18,7 @@ DailyToDoDB = {
 			["timestamp"] = 20200519000000,
 		},
 		["Mallusof - Silvermoon"] = {
-			["timestamp"] = 20200527090000,
+			["timestamp"] = 20200528090000,
 			["hideCompleted"] = true,
 			["lists"] = {
 				{
@@ -137,27 +137,11 @@ DailyToDoDB = {
 							["weekly"] = false,
 							["manual"] = false,
 						}, -- [7]
-						{
-							["completed"] = true,
-							["checked"] = true,
-							["days"] = {
-								true, -- [1]
-								true, -- [2]
-								true, -- [3]
-								true, -- [4]
-								true, -- [5]
-								true, -- [6]
-								true, -- [7]
-							},
-							["text"] = "Check Mrrl for Fauntly Humming Sea Stones for 1 Scrying Stone",
-							["weekly"] = false,
-							["manual"] = false,
-						}, -- [8]
 					},
 				}, -- [1]
 				{
 					["completed"] = false,
-					["expanded"] = false,
+					["expanded"] = true,
 					["name"] = "Grinds",
 					["entries"] = {
 						{
@@ -225,7 +209,7 @@ DailyToDoDB = {
 							},
 						}, -- [4]
 						{
-							["completed"] = false,
+							["completed"] = true,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "Nothing To Scry About Achievement",
