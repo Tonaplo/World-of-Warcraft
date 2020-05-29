@@ -18,7 +18,7 @@ DailyToDoDB = {
 			["timestamp"] = 20200519000000,
 		},
 		["Mallusof - Silvermoon"] = {
-			["timestamp"] = 20200528090000,
+			["timestamp"] = 20200529090000,
 			["hideCompleted"] = true,
 			["lists"] = {
 				{
@@ -209,7 +209,7 @@ DailyToDoDB = {
 							["weekly"] = false,
 						}, -- [4]
 						{
-							["completed"] = true,
+							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "Nothing To Scry About Achievement",
@@ -244,7 +244,7 @@ DailyToDoDB = {
 				}, -- [2]
 				{
 					["completed"] = false,
-					["expanded"] = true,
+					["expanded"] = false,
 					["name"] = "The BFA To Do List",
 					["entries"] = {
 						{
@@ -332,7 +332,7 @@ DailyToDoDB = {
 				{
 					["completed"] = false,
 					["name"] = "Weekly Tasks",
-					["expanded"] = true,
+					["expanded"] = false,
 					["entries"] = {
 						{
 							["completed"] = false,

@@ -1,7 +1,7 @@
 SET autoQuestPopUps "v##$"
 SET trackedQuests "v'Qi'Wh'dc(|R"
 SET hardTrackedQuests "v"
-SET trackedWorldQuests "v(~U"
+SET trackedWorldQuests "v"
 SET hardTrackedWorldQuests "v"
 SET trackedAchievements "v"
 SET showArenaEnemyFrames "0"
