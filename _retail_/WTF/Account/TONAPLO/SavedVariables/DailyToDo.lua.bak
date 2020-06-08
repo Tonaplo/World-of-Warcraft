@@ -1,25 +1,54 @@
 
 DailyToDoDB = {
 	["profileKeys"] = {
-		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
-		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
+		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
+		["Miriyam - Silvermoon"] = "LFR Gold Farmers",
+		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
+		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
 		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
+		["Praerend - Silvermoon"] = "LFR Gold Farmers",
+		["Thorlan - Silvermoon"] = "Thorlan - Silvermoon",
+		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
+		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
+		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
+		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
+		["Burdett - Silvermoon"] = "LFR Gold Farmers",
+		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
 	},
 	["profiles"] = {
-		["Kindhoof - Ragnaros"] = {
+		["Thedodrouk - Silvermoon"] = {
+			["timestamp"] = 20200607000000,
+		},
+		["Kaldowrath - Silvermoon"] = {
 			["framePosition"] = {
-				["y"] = -111.0002212524414,
-				["x"] = 303.0005798339844,
-				["anchor"] = "LEFT",
+				["y"] = 156.0003356933594,
+				["x"] = -335.0004272460938,
+				["anchor"] = "RIGHT",
 			},
-			["timestamp"] = 20200506000000,
+			["timestamp"] = 20200607000000,
+		},
+		["Faerand - Silvermoon"] = {
+			["timestamp"] = 20200607000000,
 		},
 		["Mogfarmer - Silvermoon"] = {
-			["timestamp"] = 20200519000000,
+			["timestamp"] = 20200608000000,
+		},
+		["Thorlan - Silvermoon"] = {
+			["timestamp"] = 20200608000000,
+		},
+		["Korugen - Silvermoon"] = {
+			["timestamp"] = 20200607000000,
+		},
+		["Rahran - Silvermoon"] = {
+			["timestamp"] = 20200607000000,
+		},
+		["Zearthan - Silvermoon"] = {
+			["timestamp"] = 20200608000000,
+		},
+		["Greyblood - Silvermoon"] = {
+			["timestamp"] = 20200607000000,
 		},
 		["Mallusof - Silvermoon"] = {
-			["timestamp"] = 20200529090000,
-			["hideCompleted"] = true,
 			["lists"] = {
 				{
 					["completed"] = false,
@@ -53,26 +82,10 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["text"] = "Check Zuldazar for Rare Thunderfoot",
-							["weekly"] = false,
-							["manual"] = false,
-						}, -- [2]
-						{
-							["completed"] = false,
-							["checked"] = true,
-							["days"] = {
-								true, -- [1]
-								true, -- [2]
-								true, -- [3]
-								true, -- [4]
-								true, -- [5]
-								true, -- [6]
-								true, -- [7]
-							},
 							["text"] = "Do Jade Forest Dragon dailies",
 							["weekly"] = false,
 							["manual"] = false,
-						}, -- [3]
+						}, -- [2]
 						{
 							["completed"] = true,
 							["checked"] = true,
@@ -88,7 +101,7 @@ DailyToDoDB = {
 								true, -- [7]
 							},
 							["weekly"] = false,
-						}, -- [4]
+						}, -- [3]
 						{
 							["completed"] = true,
 							["checked"] = true,
@@ -104,7 +117,7 @@ DailyToDoDB = {
 								true, -- [7]
 							},
 							["weekly"] = false,
-						}, -- [5]
+						}, -- [4]
 						{
 							["completed"] = true,
 							["checked"] = true,
@@ -120,7 +133,7 @@ DailyToDoDB = {
 								true, -- [7]
 							},
 							["weekly"] = false,
-						}, -- [6]
+						}, -- [5]
 						{
 							["completed"] = true,
 							["checked"] = true,
@@ -136,7 +149,7 @@ DailyToDoDB = {
 								true, -- [7]
 							},
 							["manual"] = false,
-						}, -- [7]
+						}, -- [6]
 					},
 				}, -- [1]
 				{
@@ -240,6 +253,22 @@ DailyToDoDB = {
 							},
 							["weekly"] = false,
 						}, -- [6]
+						{
+							["completed"] = false,
+							["checked"] = true,
+							["weekly"] = false,
+							["text"] = "Ratstallion",
+							["days"] = {
+								true, -- [1]
+								true, -- [2]
+								true, -- [3]
+								true, -- [4]
+								true, -- [5]
+								true, -- [6]
+								true, -- [7]
+							},
+							["manual"] = false,
+						}, -- [7]
 					},
 				}, -- [2]
 				{
@@ -332,7 +361,7 @@ DailyToDoDB = {
 				{
 					["completed"] = false,
 					["name"] = "Weekly Tasks",
-					["expanded"] = false,
+					["expanded"] = true,
 					["entries"] = {
 						{
 							["completed"] = false,
@@ -351,7 +380,7 @@ DailyToDoDB = {
 							["manual"] = false,
 						}, -- [1]
 						{
-							["completed"] = false,
+							["completed"] = true,
 							["checked"] = true,
 							["days"] = {
 								true, -- [1]
@@ -367,7 +396,7 @@ DailyToDoDB = {
 							["manual"] = false,
 						}, -- [2]
 						{
-							["completed"] = false,
+							["completed"] = true,
 							["checked"] = true,
 							["days"] = {
 								true, -- [1]
@@ -383,7 +412,7 @@ DailyToDoDB = {
 							["manual"] = false,
 						}, -- [3]
 						{
-							["completed"] = true,
+							["completed"] = false,
 							["checked"] = true,
 							["days"] = {
 								true, -- [1]
@@ -404,12 +433,117 @@ DailyToDoDB = {
 			["weeklyResetDay"] = 4,
 			["framePosition"] = {
 				["anchor"] = "TOPRIGHT",
-				["x"] = -377.9997863769531,
-				["y"] = -150.000244140625,
+				["x"] = -418.9990539550781,
+				["y"] = -200.0004425048828,
 			},
-			["dailyResetTime"] = 10,
 			["icon"] = {
 				["minimapPos"] = 243.2654785468459,
+				["hide"] = true,
+			},
+			["timestamp"] = 20200608090000,
+			["hideCompleted"] = true,
+			["dailyResetTime"] = 10,
+		},
+		["LFR Gold Farmers"] = {
+			["resetPollInterval"] = 2,
+			["dailyResetTime"] = 10,
+			["hideCompleted"] = true,
+			["lists"] = {
+				{
+					["completed"] = true,
+					["name"] = "LFR Wings",
+					["entries"] = {
+						{
+							["completed"] = true,
+							["checked"] = true,
+							["days"] = {
+								true, -- [1]
+								true, -- [2]
+								true, -- [3]
+								true, -- [4]
+								true, -- [5]
+								true, -- [6]
+								true, -- [7]
+							},
+							["text"] = "The Black Gate - Archimonde",
+							["weekly"] = true,
+							["manual"] = false,
+						}, -- [1]
+						{
+							["completed"] = true,
+							["checked"] = true,
+							["days"] = {
+								true, -- [1]
+								true, -- [2]
+								true, -- [3]
+								true, -- [4]
+								true, -- [5]
+								true, -- [6]
+								true, -- [7]
+							},
+							["text"] = "Destructor's Rise - All three",
+							["weekly"] = true,
+							["manual"] = false,
+						}, -- [2]
+						{
+							["completed"] = true,
+							["checked"] = true,
+							["days"] = {
+								true, -- [1]
+								true, -- [2]
+								true, -- [3]
+								true, -- [4]
+								true, -- [5]
+								true, -- [6]
+								true, -- [7]
+							},
+							["text"] = "Bastion of Shadows - Iskaar and Socretar",
+							["weekly"] = true,
+							["manual"] = false,
+						}, -- [3]
+						{
+							["completed"] = true,
+							["checked"] = true,
+							["days"] = {
+								true, -- [1]
+								true, -- [2]
+								true, -- [3]
+								true, -- [4]
+								true, -- [5]
+								true, -- [6]
+								true, -- [7]
+							},
+							["text"] = "Halls of Blood - Council only",
+							["weekly"] = true,
+							["manual"] = false,
+						}, -- [4]
+						{
+							["completed"] = true,
+							["checked"] = true,
+							["days"] = {
+								true, -- [1]
+								true, -- [2]
+								true, -- [3]
+								true, -- [4]
+								true, -- [5]
+								true, -- [6]
+								true, -- [7]
+							},
+							["text"] = "Iron Assembly - Darmac only",
+							["weekly"] = true,
+							["manual"] = false,
+						}, -- [5]
+					},
+				}, -- [1]
+			},
+			["weeklyResetDay"] = 4,
+			["framePosition"] = {
+				["y"] = 197.000244140625,
+				["x"] = -371.0003356933594,
+				["anchor"] = "RIGHT",
+			},
+			["timestamp"] = 20200608090000,
+			["icon"] = {
 				["hide"] = true,
 			},
 		},

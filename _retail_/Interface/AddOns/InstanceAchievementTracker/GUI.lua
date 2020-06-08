@@ -32,7 +32,7 @@ AchievementTrackerOptions = {}
 
 -- Purpose:         Information about the current release. This is mianly used to detect which addon should output messages to chat to avoid spam
 Config.majorVersion = 2						--Addon with a higher major version change have priority over a lower major version
-Config.minorVersion = 77    				--Addon with a minor version change have prioirty over a lower minor version
+Config.minorVersion = 78    				--Addon with a minor version change have prioirty over a lower minor version
 Config.revisionVersion = 0					--Addon with a revision change have the same priorty as a lower revision verison
 Config.releaseType = ""                     --Release type (Alpha, Beta, Release)
 
@@ -214,6 +214,7 @@ function Tab_OnClick(self)
             UIConfig.Main2.options27:Show()
 
             UIConfig.Main.author:Show()
+            UIConfig.Main.tacticsCredit:Show()
             UIConfig.Main.verison:Show()
 
             UIConfig.Main2.content:Show()
@@ -237,10 +238,12 @@ function Tab_OnClick(self)
 
             --Author & Translators
             if (GetLocale() == "enGB" or GetLocale() == "enUS") then
-                UIConfig.Main.author = Config:CreateText2("BOTTOMRIGHT", AchievementTrackerDialogBG, "BOTTOMRIGHT", -5, 5, L["GUI_Author"] .. ": (EU) Whizzey-Doomhammer","GameFontNormal")
-            else
                 UIConfig.Main.author = Config:CreateText2("BOTTOMRIGHT", AchievementTrackerDialogBG, "BOTTOMRIGHT", -5, 20, L["GUI_Author"] .. ": (EU) Whizzey-Doomhammer","GameFontNormal")
-                UIConfig.Main.translators = Config:CreateText2("BOTTOMRIGHT", AchievementTrackerDialogBG, "BOTTOMRIGHT", -5, 5,L["GUI_Translators"] .. ": " .. L["Gui_TranslatorNames"],"GameFontNormal")            
+                UIConfig.Main.tacticsCredit = Config:CreateText2("BOTTOMRIGHT", AchievementTrackerDialogBG, "BOTTOMRIGHT", -5, 5,L["GUI_Tactics"] .. ": " .. L["Gui_TacticsNames"],"GameFontNormal")      
+            else
+                UIConfig.Main.author = Config:CreateText2("BOTTOMRIGHT", AchievementTrackerDialogBG, "BOTTOMRIGHT", -5, 35, L["GUI_Author"] .. ": (EU) Whizzey-Doomhammer","GameFontNormal")
+                UIConfig.Main.translators = Config:CreateText2("BOTTOMRIGHT", AchievementTrackerDialogBG, "BOTTOMRIGHT", -5, 20,L["GUI_Translators"] .. ": " .. L["Gui_TranslatorNames"],"GameFontNormal")
+                UIConfig.Main.tacticsCredit = Config:CreateText2("BOTTOMRIGHT", AchievementTrackerDialogBG, "BOTTOMRIGHT", -5, 5,L["GUI_Tactics"] .. ": " .. L["Gui_TacticsNames"],"GameFontNormal")               
             end
             
             --Version
@@ -452,6 +455,7 @@ function Tab_OnClick(self)
         
         UIConfig.Main.author:Hide()
         UIConfig.Main.verison:Hide()
+        UIConfig.Main.tacticsCredit:Hide()
 
         UIConfig.Main2.content:Hide()
         UIConfig.Main2.content2:Hide()
@@ -1814,6 +1818,7 @@ function GetNameFromNpcIDCache(npcID)
         local name = myTooltipFromTemplateTextLeft1:GetText()
         tip:Hide()
         core.NPCCache[npcID] = name
+        --print(name)
 		for expansion, _ in pairs(core.Instances) do
 			for instanceType, _ in pairs(core.Instances[expansion]) do
 				for instance, _ in pairs(core.Instances[expansion][instanceType]) do

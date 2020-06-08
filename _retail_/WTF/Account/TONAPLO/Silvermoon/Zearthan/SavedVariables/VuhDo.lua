@@ -1719,18 +1719,18 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["297907"] = {
-				["animate"] = false,
+			["284662"] = {
+				["animate"] = true,
 				["isColor"] = false,
 				["isIconGlow"] = false,
-				["isStacks"] = true,
+				["isStacks"] = false,
 				["isMine"] = true,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["297586"] = {
+			["297907"] = {
 				["animate"] = false,
 				["isColor"] = false,
 				["isIconGlow"] = false,
@@ -1752,11 +1752,11 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["284662"] = {
-				["animate"] = true,
+			["297586"] = {
+				["animate"] = false,
 				["isColor"] = false,
 				["isIconGlow"] = false,
-				["isStacks"] = false,
+				["isStacks"] = true,
 				["isMine"] = true,
 				["isIcon"] = true,
 				["timer"] = true,
@@ -2175,8 +2175,8 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 10.2146167755127,
-			["x"] = 11.85560989379883,
+			["y"] = 42.21483612060547,
+			["x"] = 27.35548973083496,
 			["orientation"] = "BOTTOM",
 			["relativePoint"] = "BOTTOM",
 			["scale"] = 1,
@@ -2193,7 +2193,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
-			["sort"] = 0,
 			["ordering"] = 0,
 			["groups"] = {
 				1, -- [1]
@@ -2205,6 +2204,7 @@ VUHDO_PANEL_SETUP = {
 				7, -- [7]
 				8, -- [8]
 			},
+			["sort"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -4899,9 +4899,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -4909,9 +4909,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -4964,9 +4964,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w3", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 	},
@@ -4996,9 +4996,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -5006,9 +5006,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -5061,9 +5061,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w3", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 	},
@@ -5098,6 +5098,40 @@ VUHDO_SPEC_LAYOUTS = {
 }
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
+	["player"] = {
+		["zone"] = "Lunarfall",
+		["baseRange"] = true,
+		["class"] = "WARLOCK",
+		["role"] = 62,
+		["sortMaxHp"] = 202560,
+		["map"] = "Lunarfall",
+		["threat"] = 0,
+		["powermax"] = 100000,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "Zearthan",
+		["number"] = 1,
+		["isVehicle"] = false,
+		["group"] = 1,
+		["classId"] = 25,
+		["range"] = true,
+		["unit"] = "player",
+		["powertype"] = 0,
+		["healthmax"] = 202560,
+		["dead"] = false,
+		["charmed"] = false,
+		["fullName"] = "Zearthan",
+		["power"] = 100000,
+		["aggro"] = false,
+		["visible"] = true,
+		["targetUnit"] = "target",
+		["health"] = 202560,
+		["className"] = "Warlock",
+		["afk"] = false,
+		["debuff"] = 0,
+		["connected"] = true,
+		["petUnit"] = "pet",
+	},
 	["pet"] = {
 		["number"] = 1,
 		["targetUnit"] = "pettarget",
@@ -5109,10 +5143,10 @@ VUHDO_RAID = {
 		["unit"] = "pet",
 		["zone"] = "Lunarfall",
 		["debuff"] = 0,
-		["healthmax"] = 91134,
+		["healthmax"] = 91152,
 		["baseRange"] = true,
 		["afk"] = false,
-		["sortMaxHp"] = 91134,
+		["sortMaxHp"] = 91152,
 		["class"] = "WARLOCK",
 		["dead"] = false,
 		["map"] = "Lunarfall",
@@ -5129,41 +5163,7 @@ VUHDO_RAID = {
 		["powermax"] = 200,
 		["ownerUnit"] = "player",
 		["connected"] = true,
-		["health"] = 91134,
-	},
-	["player"] = {
-		["zone"] = "Lunarfall",
-		["baseRange"] = true,
-		["class"] = "WARLOCK",
-		["role"] = 62,
-		["sortMaxHp"] = 202520,
-		["map"] = "Lunarfall",
-		["threat"] = 0,
-		["powermax"] = 100000,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Zearthan",
-		["number"] = 1,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["classId"] = 25,
-		["range"] = true,
-		["unit"] = "player",
-		["powertype"] = 0,
-		["healthmax"] = 202520,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Zearthan",
-		["power"] = 100000,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "target",
-		["health"] = 202520,
-		["className"] = "Warlock",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "pet",
+		["health"] = 91152,
 	},
 }
 VUHDO_INDICATOR_CONFIG = {
@@ -5184,16 +5184,16 @@ VUHDO_INDICATOR_CONFIG = {
 			"", -- [9]
 			"", -- [10]
 		},
-		["SWIFTMEND_INDICATOR"] = "Summon Status Icon",
+		["SIDE_LEFT"] = "",
 		["INCOMING_BAR"] = "",
-		["DAMAGE_FLASH_BAR"] = "",
+		["CLUSTER_BORDER"] = "Important Debuffs",
 		["THREAT_MARK"] = "",
-		["BAR_BORDER"] = "Border: Multi + Aggro",
 		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "Manabars: Mana (Healer Only)",
+		["BAR_BORDER"] = "Border: Multi + Aggro",
 		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
-		["CLUSTER_BORDER"] = "Important Debuffs",
-		["SIDE_LEFT"] = "",
+		["DAMAGE_FLASH_BAR"] = "",
+		["SWIFTMEND_INDICATOR"] = "Summon Status Icon",
 	},
 	["CUSTOM"] = {
 		["THREAT_BAR"] = {

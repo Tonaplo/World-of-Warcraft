@@ -493,6 +493,7 @@ EncounterDetailsDB = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 		},
 		[16856] = {
@@ -665,6 +666,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Xhul'horac",
 		},
+		[181831] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Shadowfel Warden",
+		},
 		[156937] = {
 			["school"] = 4,
 			["token"] = {
@@ -686,6 +695,21 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Corrupted Talonpriest",
+		},
+		[181832] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Shadowfel Warden",
+		},
+		[184697] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Residual Energy",
 		},
 		[169401] = {
 			["school"] = 1,
@@ -819,13 +843,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Night-Twisted Earthwarper",
 		},
-		[15496] = {
-			["school"] = 1,
+		[190223] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Blood Guard Porung",
+			["source"] = "Xhul'horac",
 		},
 		[158247] = {
 			["school"] = 1,
@@ -861,12 +885,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Grand Warlock Nethekurse",
 		},
-		[186993] = {
-			["school"] = 4,
+		[179991] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Tyrant Velhari",
+		},
+		[15496] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Blademaster Jubei'thos",
+			["source"] = "Blood Guard Porung",
 		},
 		[184449] = {
 			["school"] = 32,
@@ -877,15 +911,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Dia Darkwhisper",
-		},
-		[160734] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ko'ragh",
 		},
 		[155921] = {
 			["school"] = 4,
@@ -899,22 +924,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Operator Thogar",
 		},
-		[190223] = {
+		[186993] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Xhul'horac",
+			["source"] = "Blademaster Jubei'thos",
 		},
-		[179991] = {
+		[160734] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Tyrant Velhari",
+			["source"] = "Ko'ragh",
 		},
 		[179987] = {
 			["school"] = 1,
@@ -1059,15 +1083,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Grand Warlock Nethekurse",
 		},
-		[155181] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Bellows Operator",
-		},
 		[1604] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -1075,6 +1090,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Fel Orc Convert",
+		},
+		[30508] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Grand Warlock Nethekurse",
 		},
 		[184675] = {
 			["school"] = 32,
@@ -1091,6 +1113,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Quagmirran",
 		},
+		[155181] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Bellows Operator",
+		},
 		[25821] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -1106,13 +1137,6 @@ EncounterDetailsDB = {
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-		},
-		[30508] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Grand Warlock Nethekurse",
 		},
 		[38801] = {
 			["school"] = 1,
@@ -1265,31 +1289,97 @@ EncounterDetailsDB = {
 	},
 	["emotes"] = {
 		{
-			["boss"] = "Brackenspore",
-		}, -- [1]
-		{
 			{
-				0.2110000000002401, -- [1]
-				"Come and get it!", -- [2]
-				"The Butcher", -- [3]
+				0.1, -- [1]
+				"Gurtogg! Dispatch our enemies...", -- [2]
+				"Dia Darkwhisper", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				2.327000000000226, -- [1]
-				"%s frenzies!", -- [2]
-				"The Butcher", -- [3]
+				4.714999999996508, -- [1]
+				"Yes, Dark Lady.", -- [2]
+				"Gurtogg Bloodboil", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				7.531999999999243, -- [1]
+				"%s |cFFFF0404|Hspell:184476|h[Reaps]|h|r all marked foes!", -- [2]
+				"Dia Darkwhisper", -- [3]
+				1, -- [4]
+			}, -- [3]
+			{
+				7.531999999999243, -- [1]
+				"The void, it hungers!", -- [2]
+				"Dia Darkwhisper", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				7.531999999999243, -- [1]
+				"ArRRgghhHhh...", -- [2]
+				"Gurtogg Bloodboil", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				7.531999999999243, -- [1]
+				"The sweet mercy... of death.", -- [2]
+				"Dia Darkwhisper", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				8.648999999997613, -- [1]
+				"Burn... BURN!", -- [2]
+				"Blademaster Jubei'thos", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				9.949000000000524, -- [1]
+				"I am everburning!", -- [2]
+				"Blademaster Jubei'thos", -- [3]
+				7, -- [4]
+			}, -- [8]
+			["boss"] = "Hellfire High Council",
+		}, -- [1]
+		{
+			{
+				0.2139999999999418, -- [1]
+				"The Eredar are no strangers to war. Are you so eager to meet your end?", -- [2]
+				"Tyrant Velhari", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				6.164000000004307, -- [1]
+				"|cFFFF0000%s|r activates an |cFFFF0000|Hspell:181718|h[Aura of Oppression]|h|r!", -- [2]
+				"Tyrant Velhari", -- [3]
 				1, -- [4]
 			}, -- [2]
 			{
-				2.327000000000226, -- [1]
-				"Time for the meat grinder!", -- [2]
-				"The Butcher", -- [3]
+				7.357000000003609, -- [1]
+				"You are getting so very frail and weak.", -- [2]
+				"Tyrant Velhari", -- [3]
 				7, -- [4]
 			}, -- [3]
-			["boss"] = "The Butcher",
+			{
+				9.815000000002328, -- [1]
+				"|cFFFF0000%s|r activates an |cFFFF0000|Hspell:179986|h[Aura of Contempt]|h|r!", -- [2]
+				"Tyrant Velhari", -- [3]
+				1, -- [4]
+			}, -- [4]
+			["boss"] = "Tyrant Velhari",
 		}, -- [2]
 		{
-			["boss"] = "Kargath Bladefist",
+			{
+				4.349999999998545, -- [1]
+				"No! The binding... I cannot control...", -- [2]
+				"Soul of Socrethar", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				10.90899999999965, -- [1]
+				"My soul itself shall strike you down!", -- [2]
+				"Soul of Socrethar", -- [3]
+				7, -- [4]
+			}, -- [2]
+			["boss"] = "Socrethar the Eternal",
 		}, -- [3]
 	},
 }

@@ -75,6 +75,6 @@ ElvUI_AuraBarsMovers: disabled
 ElvUI_CustomTweaks: disabled
 WeakAurasArchive: enabled
 TomTom: enabled
-DailyToDo: disabled
+DailyToDo: enabled
 TradeSkillMaster: disabled
 AngryAssignments: disabled

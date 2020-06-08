@@ -2,8 +2,8 @@ Version: 1
 Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: TOPLEFT
-X: 12
-Y: -88
+X: 0
+Y: -49
 W: 360
 H: 318
 Frame: ObjectiveTrackerFrame
@@ -15,9 +15,9 @@ W: 235
 H: 400
 Frame: ItemRefTooltip
 FrameLevel: 1
-Anchor: CENTER
-X: 180
-Y: 153
+Anchor: TOP
+X: 354
+Y: -92
 W: 128
 H: 64
 Frame: ColorPickerFrame
@@ -37,7 +37,7 @@ H: 150
 Frame: AllTheThings-Window-Prime
 FrameLevel: 1
 Anchor: RIGHT
-X: -14
+X: -12
 Y: -204
 W: 358
 H: 145
@@ -118,9 +118,3 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: AllTheThings-Window-ATT -> Dungeons & Raids -> Wrath of the Lich King -> |cffff8000Icecrown Citadel|r -> 25 Player (HeroFrameLevel: 1
-Anchor: TOPLEFT
-X: 380
-Y: -92
-W: 300
-H: 300

@@ -1,5 +1,100 @@
 
 EncounterDetailsDB = {
+	["emotes"] = {
+		{
+			{
+				0.147000000000844, -- [1]
+				"The Eredar are no strangers to war. Are you so eager to meet your end?", -- [2]
+				"Tyrant Velhari", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				6.014999999999418, -- [1]
+				"|cFFFF0000%s|r activates an |cFFFF0000|Hspell:181718|h[Aura of Oppression]|h|r!", -- [2]
+				"Tyrant Velhari", -- [3]
+				1, -- [4]
+			}, -- [2]
+			{
+				7.28099999999904, -- [1]
+				"You are getting so very frail and weak.", -- [2]
+				"Tyrant Velhari", -- [3]
+				7, -- [4]
+			}, -- [3]
+			["boss"] = "Tyrant Velhari",
+		}, -- [1]
+		{
+			{
+				0.1959999999999127, -- [1]
+				"Death could not stop me - how do you hope to?", -- [2]
+				"Soulbound Construct", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				2.33100000000195, -- [1]
+				"No! The binding... I cannot control...", -- [2]
+				"Soul of Socrethar", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				8.880000000001019, -- [1]
+				"My soul itself shall strike you down!", -- [2]
+				"Soul of Socrethar", -- [3]
+				7, -- [4]
+			}, -- [3]
+			["boss"] = "Socrethar the Eternal",
+		}, -- [2]
+		{
+			{
+				16.02400000000125, -- [1]
+				"The Veil can not hide my might!", -- [2]
+				"Shadow-Lord Iskar", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				24.10800000000018, -- [1]
+				"|cFFFF0000%s|r is about to finish casting |cFFFF0000|Hspell:181912|h[Focused Blast]|h|r!", -- [2]
+				"Shadow-Lord Iskar", -- [3]
+				1, -- [4]
+			}, -- [2]
+			{
+				30.95699999999852, -- [1]
+				"|cFFFF0000|Hspell:182582|h[Fel Incineration]|h|r is following you!", -- [2]
+				"Fel Beam Target", -- [3]
+				2, -- [4]
+			}, -- [3]
+			{
+				36.25799999999799, -- [1]
+				"Terokk can not protect you!", -- [2]
+				"Shadow-Lord Iskar", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				44.75700000000143, -- [1]
+				"|cFFFF0000%s|r is about to finish casting |cFFFF0000|Hspell:181912|h[Focused Blast]|h|r!", -- [2]
+				"Shadow-Lord Iskar", -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				55.24199999999837, -- [1]
+				"|cFFFF0000|Hspell:182582|h[Fel Incineration]|h|r is following you!", -- [2]
+				"Fel Beam Target", -- [3]
+				2, -- [4]
+			}, -- [6]
+			{
+				65.47499999999854, -- [1]
+				"|cFFFF0000%s|r is about to finish casting |cFFFF0000|Hspell:181912|h[Focused Blast]|h|r!", -- [2]
+				"Shadow-Lord Iskar", -- [3]
+				1, -- [4]
+			}, -- [7]
+			{
+				77.24199999999837, -- [1]
+				"|cFFFF0000|Hspell:182582|h[Fel Incineration]|h|r is following you!", -- [2]
+				"Fel Beam Target", -- [3]
+				2, -- [4]
+			}, -- [8]
+			["boss"] = "Shadow-Lord Iskar",
+		}, -- [3]
+	},
 	["encounter_spells"] = {
 		[182212] = {
 			["school"] = 1,
@@ -34,6 +129,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fel Imp",
 		},
+		[159336] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Marak the Blooded",
+		},
+		[181873] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Shadow-Lord Iskar",
+		},
 		[156179] = {
 			["school"] = 1,
 			["token"] = {
@@ -41,6 +152,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Oregorger",
+		},
+		[183969] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Desecration",
 		},
 		[185175] = {
 			["school"] = 1,
@@ -50,14 +170,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fel Iron Summoner",
 		},
-		[181718] = {
+		[175670] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ironworker",
+		},
+		[162658] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Tyrant Velhari",
+			["source"] = "Shard of Tectus",
+		},
+		[182049] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Gorefiend",
 		},
 		[155030] = {
 			["school"] = 4,
@@ -66,6 +201,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Dreadwing",
+		},
+		[162346] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Tectus",
 		},
 		[181191] = {
 			["school"] = 4,
@@ -76,14 +220,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dread Infernal",
 		},
-		[184357] = {
+		[180199] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Kilrogg Deadeye",
+		},
+		[162370] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Gurtogg Bloodboil",
+			["source"] = "Tectus",
 		},
 		[181089] = {
 			["school"] = 1,
@@ -94,13 +244,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Imperator Mar'gok",
 		},
-		[156669] = {
+		[189434] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Gorefiend",
+		},
+		[158315] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Enforcer Sorka",
+		},
+		[181113] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Admiral Gar'an",
+			["source"] = "Night-Twisted Earthwarper",
 		},
 		[155921] = {
 			["school"] = 4,
@@ -123,9 +289,23 @@ EncounterDetailsDB = {
 		[184476] = {
 			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Dia Darkwhisper",
+		},
+		[188614] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+		},
+		[181192] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Dread Infernal",
 		},
 		[189540] = {
 			["school"] = 4,
@@ -134,6 +314,16 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Soulbound Construct",
+		},
+		[181827] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Shadowfel Warden",
 		},
 		[191068] = {
 			["school"] = 32,
@@ -144,12 +334,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Desecration",
 		},
-		[158013] = {
+		[181831] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
+			["source"] = "Shadowfel Warden",
 		},
 		[179681] = {
 			["school"] = 1,
@@ -169,11 +360,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Desecration",
 		},
-		[188614] = {
+		[181683] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
+			["source"] = "Tyrant Velhari",
 		},
 		[182225] = {
 			["school"] = 4,
@@ -182,47 +375,47 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archimonde",
 		},
-		[181192] = {
-			["school"] = 4,
+		[182170] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Dread Infernal",
+			["source"] = "Gorefiend",
 		},
-		[158315] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[175745] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Enforcer Sorka",
+			["source"] = "Night-Twisted Brute",
 		},
-		[181827] = {
-			["school"] = 1,
+		[163208] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Tectus",
+		},
+		[162475] = {
+			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Shadowfel Warden",
+			["source"] = "Tectus",
 		},
-		[181873] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Shadow-Lord Iskar",
-		},
-		[181831] = {
+		[41062] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Shadowfel Warden",
+			["source"] = "Blademaster Jubei'thos",
 		},
 		[181832] = {
 			["school"] = 8,
@@ -234,6 +427,7 @@ EncounterDetailsDB = {
 		[184675] = {
 			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Dia Darkwhisper",
@@ -287,14 +481,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fel Imp",
 		},
-		[183969] = {
-			["school"] = 32,
+		[158013] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Desecration",
 		},
 		[180000] = {
 			["school"] = 32,
@@ -312,20 +504,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shadow-Lord Iskar",
 		},
-		[181683] = {
+		[156669] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Admiral Gar'an",
+		},
+		[184357] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Tyrant Velhari",
-		},
-		[180199] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Kilrogg Deadeye",
+			["source"] = "Gurtogg Bloodboil",
 		},
 		[185590] = {
 			["school"] = 4,
@@ -335,13 +529,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archimonde",
 		},
-		[159336] = {
+		[162288] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Marak the Blooded",
+			["source"] = "Tectus",
 		},
 		[183023] = {
 			["school"] = 1,
@@ -350,84 +544,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Soulbound Construct",
 		},
-		[175670] = {
+		[181718] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ironworker",
+			["source"] = "Tyrant Velhari",
 		},
-	},
-	["emotes"] = {
-		{
-			{
-				0.1, -- [1]
-				"You will learn why I am king, and you are little more than peasants.", -- [2]
-				"Imperator Mar'gok", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				2.144000000000233, -- [1]
-				"Look upon the tools of your demise! The ancient stones grant me unimaginable power!", -- [2]
-				"Imperator Mar'gok", -- [3]
-				7, -- [4]
-			}, -- [2]
-			["boss"] = "Imperator Mar'gok",
-		}, -- [1]
-		{
-			{
-				0.1500000000014552, -- [1]
-				"You destroyed my furnace.... Now, my furnace will destroy YOU.", -- [2]
-				"Blackhand", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				4.733000000000175, -- [1]
-				"Everyone DOWN.", -- [2]
-				"Blackhand", -- [3]
-				7, -- [4]
-			}, -- [2]
-			["boss"] = "Blackhand",
-		}, -- [2]
-		{
-			{
-				0.1280000000042492, -- [1]
-				"Let the echoes of doom resound across this wretched world, that all who live may hear them and despair.", -- [2]
-				"Archimonde", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				2.194000000003143, -- [1]
-				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
-				"Archimonde", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				4.627000000000408, -- [1]
-				"The light will not fail!", -- [2]
-				"Exarch Yrel", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				5.828000000001339, -- [1]
-				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
-				"Archimonde", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				7.044000000001688, -- [1]
-				"Lok'tar ogar! They are pushed back! To the portal! Gul'dan is mine!", -- [2]
-				"Grommash Hellscream", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				8.243999999998778, -- [1]
-				"I will shatter this pathetic world! Its broken husk will be torn apart in the twisting nether for all time!", -- [2]
-				"Archimonde", -- [3]
-				7, -- [4]
-			}, -- [6]
-			["boss"] = "Archimonde",
-		}, -- [3]
 	},
 }

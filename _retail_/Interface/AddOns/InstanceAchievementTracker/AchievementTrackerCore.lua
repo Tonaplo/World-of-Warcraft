@@ -98,9 +98,23 @@ function events:GET_ITEM_INFO_RECEIVED(self, arg1)
 end
 
 function generateNPCCache()
+	core:sendDebugMessage("Generating NPC Cache...")
+	local count = 1
+	local tempNPC = {}
 	for i,v in pairs(core.NPCCache) do							
-		GetNameFromNpcIDCache(core.NPCCache[v])							
+		--GetNameFromNpcIDCache(core.NPCCache[v])	
+		table.insert(tempNPC, core.NPCCache[v]) 						
 	end	
+
+	generateNPCs = C_Timer.NewTicker(0.01, function() 
+		--core:sendDebugMessage("Fetching: " .. tempNPC[count] .. "(" .. count .. "/" .. #tempNPC .. ")")
+		GetNameFromNpcIDCache(tempNPC[count])
+		count = count + 1
+
+		if generateNPCs._remainingIterations == 1 then
+			core:sendDebugMessage("NPC cache generated")
+		end
+	end, #tempNPC)
 end
 
 function getNPCName(npcID)
@@ -279,7 +293,7 @@ function getPlayersInGroup()
 			local currentUnit
 			core:detectGroupType() --Detect the type of group the player is in so we can do the appropriate scanning
 			for i = 1, core.groupSize do
-				if core.chatType == "PARTY" then
+				if core.chatType == "PARTY" or core.chatType == "INSTANCE_CHAT" then
 					if i < core.groupSize then
 						currentUnit = "party" .. i
 					else
@@ -586,8 +600,8 @@ function getInstanceInfomation()
 						end
 					end
 		
-					--Ask the user whether they want to enable Achievement Tracking in the instance. Only do this if there is any achievements to track for the particular instance
-					if foundTracking == true and trackAchievementsUIAutomatic == false then
+					--Ask the user whether they want to enable Achievement Tracking in the instance. Always ask user even if we can't track anything, so that they can see what they are missing too.
+					if trackAchievementsUIAutomatic == false then
 						trackAchievementsUIAutomatic = true
 						core:sendDebugMessage("Asking user whether they want to track this instance")
 						if UICreated == false then
@@ -3541,30 +3555,20 @@ function core:getPlayersInGroupForAchievement()
 	local players = {}
 	local location = nil
 	if core.groupSize > 1 then
-		--Get the current zone of the "Player"
-		for i = 1,core.groupSize do
-			local name, rank, subgroup, level, class, fileName, zone, online, isDead, role, isML, combatRole = GetRaidRosterInfo(i)
-			if UnitName("Player") == name then
-				location = zone
-			end
-		end
-
 		--Scan raid. If players are in same location as "Player" then add them to table
 		for i = 1,core.groupSize do
 			local name, rank, subgroup, level, class, fileName, zone, online, isDead, role, isML, combatRole = GetRaidRosterInfo(i)
 			--print(name,location,zone)
-			if location == zone then
-				if name ~= nil then
-					name2 = ""
-					if string.find(name, "-") then
-						name2, realm = strsplit("-", name)
-					else
-						name2 = name
-					end
-					table.insert(players, name2)
-					core.groupSizeInInstance = core.groupSizeInInstance + 1
+			if name ~= nil then
+				name2 = ""
+				if string.find(name, "-") then
+					name2, realm = strsplit("-", name)
+				else
+					name2 = name
 				end
-			end		
+				table.insert(players, name2)
+				core.groupSizeInInstance = core.groupSizeInInstance + 1
+			end
 		end
     else
         currentUnit = "player"

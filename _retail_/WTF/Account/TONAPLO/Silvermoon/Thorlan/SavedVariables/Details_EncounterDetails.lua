@@ -1,40 +1,5 @@
 
 EncounterDetailsDB = {
-	["emotes"] = {
-		{
-			{
-				3.350999999998749, -- [1]
-				"Look upon the tools of your demise! The ancient stones grant me unimaginable power!", -- [2]
-				"Imperator Mar'gok", -- [3]
-				7, -- [4]
-			}, -- [1]
-			["boss"] = "Imperator Mar'gok",
-		}, -- [1]
-		{
-			{
-				3.851000000002387, -- [1]
-				"AHHHHHH!", -- [2]
-				"Ko'ragh", -- [3]
-				7, -- [4]
-			}, -- [1]
-			["boss"] = "Ko'ragh",
-		}, -- [2]
-		{
-			{
-				0.2340000000003784, -- [1]
-				"Oy! Dey fightin'!", -- [2]
-				"Phemos", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				3.833000000002357, -- [1]
-				"Fight 'em back den.", -- [2]
-				"Pol", -- [3]
-				7, -- [4]
-			}, -- [2]
-			["boss"] = "Twin Ogron",
-		}, -- [3]
-	},
 	["encounter_spells"] = {
 		[175745] = {
 			["school"] = 32,
@@ -141,14 +106,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archimonde",
 		},
-		[160734] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[163208] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ko'ragh",
+			["source"] = "Tectus",
 		},
 		[162658] = {
 			["school"] = 1,
@@ -161,6 +124,30 @@ EncounterDetailsDB = {
 		},
 		[188950] = {
 			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Desecration",
+		},
+		[177438] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+		},
+		[186662] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Felborne Overfiend",
+		},
+		[183969] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
@@ -183,36 +170,73 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shard of Tectus",
 		},
-		[183969] = {
-			["school"] = 32,
+		[160734] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Desecration",
+			["source"] = "Ko'ragh",
 		},
-		[186662] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Felborne Overfiend",
-		},
-		[177438] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-		},
-		[163208] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Tectus",
-		},
+	},
+	["emotes"] = {
+		{
+			{
+				0.1509999999980209, -- [1]
+				"Let the echoes of doom resound across this wretched world, that all who live may hear them and despair.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				3.584000000002561, -- [1]
+				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				3.584000000002561, -- [1]
+				"The light will not fail!", -- [2]
+				"Exarch Yrel", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				5.98399999999674, -- [1]
+				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				7.23399999999674, -- [1]
+				"Lok'tar ogar! They are pushed back! To the portal! Gul'dan is mine!", -- [2]
+				"Grommash Hellscream", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				8.608000000000175, -- [1]
+				"I grow tired of this pointless game. You face the immortal Legion, scourge of a thousand worlds.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [6]
+			["boss"] = "Archimonde",
+		}, -- [1]
+		{
+			{
+				3.350999999998749, -- [1]
+				"Look upon the tools of your demise! The ancient stones grant me unimaginable power!", -- [2]
+				"Imperator Mar'gok", -- [3]
+				7, -- [4]
+			}, -- [1]
+			["boss"] = "Imperator Mar'gok",
+		}, -- [2]
+		{
+			{
+				3.851000000002387, -- [1]
+				"AHHHHHH!", -- [2]
+				"Ko'ragh", -- [3]
+				7, -- [4]
+			}, -- [1]
+			["boss"] = "Ko'ragh",
+		}, -- [3]
 	},
 }

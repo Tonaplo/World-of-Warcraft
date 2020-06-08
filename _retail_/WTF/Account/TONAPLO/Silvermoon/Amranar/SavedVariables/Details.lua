@@ -7,7 +7,7 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["last_version"] = "v8.3.0.7330",
+	["last_version"] = "v8.3.0.7335",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -43,8 +43,8 @@ _detalhes_database = {
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["animate"] = false,
 			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -165,7 +165,6 @@ _detalhes_database = {
 				0.400000035762787, -- [4]
 			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = -20.15869140625,
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -177,16 +176,17 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["attribute_type"] = 1,
 			},
+			["font_size"] = 14,
 			["x"] = 0,
 			["font_face"] = "Prototype",
+			["y"] = -20.15869140625,
 			["use_spark"] = false,
-			["font_size"] = 14,
 			["main_frame_strata"] = "LOW",
 			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
 		},
 	},
-	["last_day"] = "28",
+	["last_day"] = "08",
 	["cached_talents"] = {
 	},
 	["announce_prepots"] = {
@@ -198,7 +198,7 @@ _detalhes_database = {
 		["frame"] = {
 		},
 	},
-	["last_realversion"] = 140,
+	["last_realversion"] = 141,
 	["combat_id"] = 0,
 	["savedStyles"] = {
 	},
@@ -206,7 +206,7 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 130,
+	["combat_counter"] = 168,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -241,12 +241,12 @@ _detalhes_database = {
 		}, -- [5]
 		["raid_roster"] = {
 		},
-		["tempo_start"] = 342102.011,
+		["tempo_start"] = 5648.784000000001,
 		["last_events_tables"] = {
 		},
 		["alternate_power"] = {
 		},
-		["combat_counter"] = 1,
+		["combat_counter"] = 162,
 		["totals"] = {
 			0, -- [1]
 			0, -- [2]
@@ -272,14 +272,15 @@ _detalhes_database = {
 		},
 		["player_last_events"] = {
 		},
+		["spells_cast_timeline"] = {
+		},
 		["frags_need_refresh"] = false,
 		["aura_timeline"] = {
 		},
 		["__call"] = {
 		},
 		["data_inicio"] = 0,
-		["spells_cast_timeline"] = {
-		},
+		["end_time"] = 5648.784000000001,
 		["totals_grupo"] = {
 			0, -- [1]
 			0, -- [2]
@@ -313,8 +314,10 @@ _detalhes_database = {
 		["cleu_events"] = {
 			["n"] = 1,
 		},
-		["start_time"] = 0,
+		["start_time"] = 5648.784000000001,
 		["TimeData"] = {
+			["Player Damage Done"] = {
+			},
 		},
 		["PhaseData"] = {
 			{
@@ -403,7 +406,7 @@ _detalhes_database = {
 		}, -- [2]
 	},
 	["character_data"] = {
-		["logons"] = 65,
+		["logons"] = 83,
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,
@@ -422,5 +425,7 @@ _detalhes_database = {
 	},
 	["cached_specs"] = {
 		["Player-3391-0A827D56"] = 103,
+		["Player-3391-0B1F06CC"] = 105,
+		["Player-3391-0B2BC962"] = 105,
 	},
 }

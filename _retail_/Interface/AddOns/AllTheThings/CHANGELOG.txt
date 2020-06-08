@@ -1,1 +1,272 @@
-#nochanges
+2.0.4 Release Notes
+Contributions made by Crieve:
+* altQuests are now properly linked in the cache.
+* Updated the Tooltip text to not show the name of individual quests in the Locations List, rather it now only appears in the Contains listing.
+* Encounters now display their appropriate tooltip design.
+* Try this
+* New max itemID.
+* Added the Source Code for the API Harvester used to build the itemDB.
+* Now properly parsing Quality.
+* No longer exporting the RAW itemDB file. Now parsing Bind Types, but only keeping BoP. (1) No longer parsing older formatted types since they were not working anyways.
+* Added extensions and removed completed conversions.
+* Now parsing inventoryType... probably. Might need to double check that the values are the correct slotIDs.
+* Added Race and Class Parsing.
+* Required Skill is now parsed by the Harvester.
+* Working on a new tool.
+* Moved everything from "contrib" to ".contrib" in order to help tools ignore the folder when making builds as it is not included in the addon itself.
+* Added the PVP Rank class. Updated Parser to convert a full list of faction specific races into a Faction ID number instead.
+* Fixed an incorrect object type in SoO.
+* Music Roll: Mulgore Plains is now marked Horde Only.
+* First commit from the new computer setup.
+* Added Classic leatherworking specializations.
+* Flight Path DB now behaves exactly as it does in Classic.
+* Improvements to the parser that now allow you to dynamically remove objects based on the timeline. Should an item never make it into the game or be permanently removed, it is now also removed from the "cost" tables. There are now build categories for Retail and Classic in the Parser.
+* Removed unused icon.
+* Updated parser to strip out completely removed from game items that have literally been deleted from the game's database files. Updated the Ruins of Ahn'Qiraj. All of the idols and scarabs now show associated quests in their tooltips.
+* Fixed the Quest Chain Requirements popout.
+* Updated the Temple of Ahn'Qiraj and associated quests.
+* Updated some of the ZG quests to be marked repeatable as they should be.
+* Fixed a bug in events. While I was there, removed all the dumb numerical prefixing on the files in that folder.
+* Now ignoring the .contrib/.builds/ folder.
+* Working on a Build Tool for creating the ZIP folders and build logs automatically. (WIP)
+
+Contributions made by Gold:
+* item fix
+* removed specific instance item from world drops
+* fixed some stuff in saw in ABT
+* wotlk fist weapo unsorted
+* fixed mob specific removed items which accidently were in world drops
+* antorus lfr broken (3rd boss) :(
+* salvage yard fix (shaman)
+* small motivation to work on a bit on att (unsorted as usual)
+* added all class hall missions (removed in 7.2) and cleaning up of said section.
+* some more legion unsorted "toys" items
+* fixed a class hall item
+* 15th bday mount to bmah
+* added item posted via errors
+* some items to naz intro
+* some more naz quest rewards
+* removed zone drops from 2 bc zones due those items being world drops
+* some nyi items and some pre 4.0 item removed from world drops
+* ionized minnow added
+* bit unsorted while in lfr queue. soon more when i have to farm warfronts again!
+* Merge branch 'master' of https://github.com/DFortun81/AllTheThings
+* trash items from normal drop in heroic too (heart of fear)
+* marked correctly
+* marked glaive as unobtainable. Fastest way to know if it ever dropped or not
+* big unsorted push during afking of warfront pog bc trinkets unsorted wotlk rings unsorted "toys" legion unsorted a couple bfa weapons unsorted
+* finished bc=>unsorted=>trinkets
+* relic sorting!
+* rustmaul only came from crates
+* finished bc=>unsorted=>necks
+* finished /att unsorted=>bc
+* fishing stuff
+* some unsorted items
+
+Contributions made by Gromwind:
+* Moved quest Prototypes for Profit (57326) from Nazjatar to Mechagon
+* Merge branch 'master' of https://github.com/DFortun81/AllTheThings
+* Merge branch 'master' of https://github.com/DFortun81/AllTheThings
+* Added Stormheim bonus objective quest
+* Remaining Stormheim bonus objective quests added
+* Added Azsuna bonus objective quests
+* Corrected coordinates for Small Treasure Chest (quest: 40772)
+* Added additional sourceQuest (27957) for Thorium Point: The Seat of Brotherhood (27965)
+* Fixed transposed warlock artifact weapon honor level achievements (50 <> 80)
+* Added some Legion inscription quests
+* More Legion inscription quests
+* Added: - Monk Legion Class Hall quests Part 1 - Legion inscriptions quests
+* Alphabetised quest ordering for inscription quests after messing it up
+* Monk Legion Class Hall quests Part 2
+* Update provider for Report to the Labour Captain (25275)
+* Monk Legion Class Hall Part 3
+* More Monk Legion Class Hall tweaks
+* Rude Letter (142522) no longer marked unobtainable
+* Added Frostwolf Tannery quest
+* The Hour of Twilight (30102) marked as a breadcrumb
+* Added additional prerequisite for Speak to Salfa (28521)
+* Added additional source quests to Pirate Accuracy Increasing (25532) in Thousand Needles
+* Added quest Meditations on Fate (Monk Class Hall)
+
+Contributions made by Pr3vention:
+* Fixed 'Echo of Gul'Dan' showing as incomplete account-wide for Mag'har race unlock chain
+* Fixed 'Heresy!' showing as incomplete account-wide for Zandalari race unlock chain
+* Adjusted vulpera/mechagnome achievementID for more reliable tracking of race unlock
+* removed duplicate achievement in orgrimmar for twilight highlands
+* added some known coords for elusive quickhoof in vol'dun
+* Corrected the engineering Flying Machine mount being wrongly listed as a classic mount
+* added some tooltip text for achievement progress where the achievement is a trackable statistic
+* plotting non-collectible groups (e.g. classic rares) now works in debug mode
+* Fixed allied race quests not being recognized as collected at login but collected after a reload
+
+Contributions made by slumber:
+* some fp contingencies
+* #errors ΓÇö moved a group finder item from removed satchel to current satchel
+* some legion raid tracking quests
+* added missing WQ
+* a legion dungeon entrance coordinate
+* high council creatureIDs
+* added missing wq
+* more legion raid tracking quests
+* added missing wq
+* crowdsourcing
+* m├ís
+* gaulishsourcing
+* crowdsourcing
+* one more time
+* added a little more info for the 'combating the corruption' achievement
+* fixed crs on dragons of nightmare in EN
+* finished baa'l descriptions
+* fixed some crs in operation mechagon
+* more mechagon crs/tooltips
+* added tos achievements, formatting
+* some tracking quests, added an item to a nazjatar quest
+* some #errors
+* whoops
+* perfectly-timed differential was removed from the blueprint achievement
+* added sources for the rest of alchemy/enchanting tool of the trade crafting items
+* added a missing wq
+* put some corrupted mob questIDs into NYI
+* someone got an old version of an MoP epic
+* fixed corrupted area icon
+* some horrific visions organization
+* removed some quest rewards from kul tiras world drop sections
+* another old SoO drop put in ordos cache
+* added additional data anomaly discs
+* added coords to freehold entrance + more crs
+* blizzard continues to attack me
+* vale ny'alotha coords, an old dmf quest
+* added a wq and an unsorted item
+* removed horde_only from emissary quest header in zuldazar (it was hiding tortollan paragon rewards from alliance)
+* added some plundered items to island boxes, organized shit
+* more confirmed group finder items from #bounty
+* janky fix for ny'alotha zone drops
+* added criteria to legion fishing WQs
+* some antorus tracking quests
+* added add'l coordinates/description to uldum rares that share respawns with normal mobs
+* added a missing repeatable quest in shattrath
+* a tracking quest
+* added a title for a waist of time tracking quest, replaced singular coords with coord
+* some #errors
+* added desc to gaze of n'zoth in uldum
+* added aqir hivespawn to lfr
+* bloop
+* some honey fixes
+* cleaned up tiragarde sound rares
+* headers to separate the heroic sections of operation: mechagon
+* a couple tracking quests
+* some #errors
+* s'more plundered items
+
+Contributions made by TKTalonzor:
+* Marked The Hermit of Swamplight Manor as breadcrumb
+
+Contributions made by Gaulish:
+* About to Break achievement added to Isconclasm wq
+* Doomsould Surprise achievement added the Lights out WQ
+* Attempt at fixing cloaks.
+* Cloaks!
+* Few Zulgrub tags.
+* Various icons added.  Some vision work.
+* Icons,Visions.
+* Couple more Vision quest id's.
+* Last couple vision gear quests.
+* Rattling Bone Greatbelt tagged unobtainable.
+* DH party sync, bounty update.
+* NH tier token, dh treasure coords
+* bounty fix.
+* Weekly Horrific Core quest.
+* Breadcrumb text change test.
+* Flight Whistle needs a modID for some reason.
+* ST fishing event added to /attwq.
+* heroic tour of war and deepwind gorge achievs.
+* DH treasure coords round 2.
+* Few unsorted horde items attached to alliance quests.
+* Tracking spell for Sealed Tome of the Lost Legion.
+
+Contributions made by mogwai316:
+* Added quest chain for Garrison Campaign: Darktide Roost
+* Marked Zealot's Dues quest as unobtainable
+* Verified that the Encrypted Twilight Text quest chain is correct
+* Added a missing JC world quest in Drustvar
+* Conspicuous Consumption FoS is not unobtainable (yet)
+* Updated description on Only The Penitent achieve
+* Reworked Blade's Edge quests/achievements to be like the EK/Kalimdor zones.  This also fixes the problem where it was showing "You may need to be on the other faction" for some things in this zone.
+* Some more Blade's Edge updates for alliance quest chains
+* Added Trial of Style vendors in Boralus/Dazar'alor
+* Added the old Cataclysm crafted gear sets (Bloodied/Bloodthirsty/etc.).  These are unobtainable as the patterns were replaced with the vicious versions, however they are BoE so could show up on the auction house.
+* More Unsorted cleanup
+* Fixed Puzzlemaster Lo game description
+* Shaman legion class hall rework.  Added many missing quests, filled in questgiver info, linked quest chains together, linked to other maps where needed.  Added Farseer title.
+* Ancient Knowledge is an alchemy quest not an inscription quest.  Also more minor tweaks to Shaman class hall quests.
+* A Gift From The Six quest: druids get the 45866 version, dont get the 45842 version
+* The Tranquil Forest and Tying Up Loose Ends are breadcrumbs that can't be completed if you already did Cenarius, Keeper of the Grove.
+* Reworked Deepholm quests/achievements to be like the EK/Kalimdor zones.  Added coords and all other missing info.
+* Added/updated monk class hall intro quests
+* LFR Antoran High Command is available again now
+* Added/fixed the quests that are criteria for Harbinger achievement
+* Fixed Fjarnskaggl source quest id
+* Updated questgiver for Thalyssra's Estate
+* Removed the items from Legion world drops that only drop from Cathedral mini-bosses
+* Some legion artifact / mage questline updates
+* Added Bag Of Anchors to BFA alchemy craftables with some of the "fun" items that rarely drop from it
+* More legion artifact quest updates
+* Marked Commander Soraax as removed from the game
+* Added horde version of Tojek quest, Calamir bonus roll id
+* A True Sunwalker quest is Tauren-only (Blood elves get The Adept's Path instead)
+* Follow The Sun breadcrumb quest is also Tauren-only
+* Added Rough Monelite world quest (mining)
+* Added Fel Heart of Argus questline.  Updated some more Legion artifact quests.
+* Added Sweete's Orders quest.  Mean Gulls and Take the Bait are available without any source quests.  A few other little quest updates.
+* Added Blueprint: Holographic Digitalization Relay to Rustbolt emissary chest.  Added quest for Blueprint: Microbot XD.  Added a couple missing Boralus quests.
+* Added several bags to craftable items section.  While these are not collectible, having them added keeps "unsorted" from showing up on the tooltips of materials used to make them.
+* Added a couple fishing poles that weren't in the consolidated list of fishing poles under Professions
+* Added some missing quests
+* Added old Wizardweave Turban pattern (unobtainable, now learned from trainer)
+* More Shaman class hall / artifact questline updates
+* Pyrium Spellward moved from 2H Swords to 1H Swords
+* Added Tomb of Sargeras raid world quests
+* Fixed some quest id's for Legion leatherworking
+* Marked the overpriced gryphon mounts as alliance only
+* Fixed class restriction for Mayhem Projection Goggles.  More hidden quest triggers.
+* Fixed ZG so that it shows the correct unobtainable messages, and Living Action recipe is not shown as unobtainable on WInterspring vendor.  Polymorph Turtle tome can now be uncommented in ZG.  Fixed inconsistent un() number on Kojo's Master Matching Set.  Added Further Advancement quest (Shaman class hall).
+* 3 Nazmir quests marked as Never Implemented.  Added an unsorted relic and some hidden quest triggers.
+* Added Pristine Mantid quests and achieve criteria to Professions-Archaeology section.
+* Fixed Stormheim intro quests and chain leading to the Ravenbear Disguise toy
+
+Contributions made by Dmitry Volodin:
+* added coord to "WANTED: Grondo's Bounty" - added questID to Protectors of the Grove - corrected description for Solarsprocket Barbel fish in Mechagon - fixed coord and added description to Frenzied Knifefang battle pet in Nazjatar (it was moved to another location) - fixed source quest for "The Finest Down" - added Gilnean Ring of Ruination to Cata world drops, fixes #434
+* added some legacy quests - added another Velen for "Signs of Resistance" quest
+* fixes #430, fixes #431 some constants
+* added coord to "Rerouted!" quest and added "Cleansing Our Crevasse" as requirement to "The Wilds of Feralas" in Desolace - fixed Daggerjaw rare coord in Zuldazar
+* added some Island Expeditions crates loot
+* added new BfA guild vendors
+* added crits to Combating the Corruption in Achievs/Exploration/BfA - added Corrupted Tormentor to Combating the Corruption in Uldum (w/o coords) - added rest of crits for Combating the Corruption in Vale (w/o coords)
+* added Mark of the Nexus-King as cost in The Mark of the Nexus-King
+* forgot to push on monday :|
+* reparse
+* fixed Carapace of N'Zoth id on Normal
+* added Void-Scarred Anubisath (pet) to Ra-den on LFR fixes #441
+* added some dungeon triggers
+* fixed Emerald Nightmare skip quest
+* added "Big Bad Beetle" battle pet quest to Shadowbarb drone questline and fixed/rearranged other battle pet quests a little. Be aware, Collector, if you miss some of the pokemon quests during their corresponding assaults and continue with questline, then you will need to party sync(?) to complete those quests! - corrected Bottle of Gloop description
+* added not visible WQ in Tiragarde Sound - added legacy Children's Week quest that triggers with modern version
+* added/updated a bunch of legacy quests to get rid of Unsorted items
+* I have cloak rank 15 now
+* restored erronesly deleted quest
+* added Azure Idol as a drop in Ruins of Ahn'Qiraj (unsorted item) - added new Quartermaster's Bounty quest and marked old quest as unavailable - added Malefic Core as a drop from N'Zoth Normal+ and Horrific Visions - some hidden triggers
+* minus one unsorted item
+* updated cloak upgrade quests as they now require less items
+* added cost to some legacy quests to get rid of unsorted Brilliant Chromatic Scale
+* mark those two legacy quests I added as legacy
+
+Contributions made by sadidorf:
+* Added the Questlines for the craftables Legion Legendarys Reworked the Molten Front and added all quests/dailys Added the Legendary Cloak Rank 15 Quest
+* Added the Primal Combatant Gear and Ensembles
+* Added some Legion Raid triggers Added a few IE Weapons to the chests (Thanks to the guys in bounty channel) Started with the Druid Class Hall rework Added the Warlock Green Fire Questline
+* Added the Duellers Guild Quests an Achievements to Zuldazar Added the Season 12: Malevolent Gladiator's an Elite Gear an Ensembles Fixed a Achievement criteria in Nighthold
+
+Contributions made by Peter Morgan:
+* Added missing costs to Sylvia Hartshorn <Dreamweaver Emissary>
+* Added costs to some Arathi Basin items
+

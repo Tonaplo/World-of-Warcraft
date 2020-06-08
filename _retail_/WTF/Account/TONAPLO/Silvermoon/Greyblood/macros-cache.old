@@ -20,8 +20,8 @@ VER 3 0100000000000004 "Unholy CDs" "298674"
 /cast Summon Gargoyle
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-R[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1ET[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R[x]1PM1SM1PM1EM2LR2MR2LR2PM2DR3LR3IH3NM3IR3LR4RM4MR4HR4NM4IR5WM5WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1ET[x][x][x][x][x]0__[x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Gre[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x]КроRodNotWolDagРенAlpXenТомRebКибTurCésБесSheQmaMorНимCseSriBla[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Gre[x][x][x][x][x]Jho[x][x][x][x]Luu[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

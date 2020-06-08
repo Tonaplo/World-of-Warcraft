@@ -22,7 +22,7 @@ WeakAurasArchive: enabled
 AllTheThings: enabled
 BigWigs_Azeroth: enabled
 TomTom: enabled
-DailyToDo: disabled
+DailyToDo: enabled
 TradeSkillMaster: disabled
 AngryAssignments: disabled
 StatPriority: enabled

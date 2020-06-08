@@ -4,8 +4,8 @@ FrameLevel: 1
 Anchor: TOPLEFT
 X: 3
 Y: -52
-W: 300
-H: 300
+W: 314
+H: 421
 Frame: ObjectiveTrackerFrame
 FrameLevel: 1
 Anchor: RIGHT

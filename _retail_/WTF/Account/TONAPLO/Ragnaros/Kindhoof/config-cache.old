@@ -1,6 +1,6 @@
 SET autoLootDefault "1"
 SET autoQuestPopUps "v##$);,###"
-SET trackedQuests "v(rc(dN(dP({z(qW(y^))<(ub(U:(jX)2L)3Z)7a)<b)An)Bg)S3)a="
+SET trackedQuests "v(qW(rc(dN(dP(y^))<(ub({z(U:(jX)2L)3Z)7a)<b)An)Bg)S3)a="
 SET hardTrackedQuests "v"
 SET trackedWorldQuests "v"
 SET hardTrackedWorldQuests "v"

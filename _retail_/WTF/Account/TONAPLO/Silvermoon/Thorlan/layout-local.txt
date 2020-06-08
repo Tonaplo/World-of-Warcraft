@@ -90,10 +90,3 @@ X: 55
 Y: 60
 W: 200
 H: 50
-Frame: SavedInstancesDetachHeader
-FrameLevel: 100
-Anchor: TOP
-X: 192
-Y: -162
-W: 1044
-H: 239

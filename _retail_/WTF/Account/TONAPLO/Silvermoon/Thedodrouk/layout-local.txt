@@ -1,11 +1,11 @@
 Version: 1
-Frame: AllTheThings-Window-ATT -> Dungeons & Raids -> Warlords of Draenor -> |cffff8000Hellfire Citadel|r -> Mythic16
+Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: TOPLEFT
-X: 7
-Y: -136
-W: 314
-H: 301
+X: 54
+Y: -35
+W: 300
+H: 300
 Frame: ObjectiveTrackerFrame
 FrameLevel: 1
 Anchor: RIGHT
@@ -90,10 +90,3 @@ X: 184
 Y: -40
 W: 200
 H: 50
-Frame: AllTheThings-Window-CurrentInstance
-FrameLevel: 1
-Anchor: TOPLEFT
-X: 54
-Y: -35
-W: 300
-H: 300

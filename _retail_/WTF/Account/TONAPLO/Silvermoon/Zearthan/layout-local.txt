@@ -1,9 +1,9 @@
 Version: 1
-Frame: AllTheThings-Window-ATT -> Dungeons & Raids -> Warlords of Draenor -> |cffff8000Hellfire Citadel|r -> Mythic16
+Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: TOPLEFT
 X: 0
-Y: -76
+Y: -191
 W: 300
 H: 300
 Frame: ObjectiveTrackerFrame
@@ -81,13 +81,6 @@ FrameLevel: 1
 Anchor: CENTER
 X: 0
 Y: 0
-W: 300
-H: 300
-Frame: AllTheThings-Window-CurrentInstance
-FrameLevel: 1
-Anchor: TOPLEFT
-X: 0
-Y: -191
 W: 300
 H: 300
 Frame: scanner_button
