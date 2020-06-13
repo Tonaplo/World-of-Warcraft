@@ -149,8 +149,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTe",
 				}, -- [5]
 				{
-					["sliceToken"] = "OPCCTa",
 					["id"] = "/cast {{spell:2259/51304}}",
+					["sliceToken"] = "OPCCTa",
 				}, -- [6]
 				{
 					["sliceToken"] = "OPCCTc",
@@ -169,16 +169,16 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTg",
 				}, -- [10]
 				{
-					["sliceToken"] = "OPCCTr",
 					["id"] = "/cast [mod] {{spell:80451}}; {{spell:78670/89722}}",
+					["sliceToken"] = "OPCCTr",
 				}, -- [11]
 				{
-					["id"] = 53428,
 					["sliceToken"] = "OPCCTu",
+					["id"] = 53428,
 				}, -- [12]
 				{
-					["id"] = 2656,
 					["sliceToken"] = "OPCCTm",
+					["id"] = 2656,
 				}, -- [13]
 				{
 					["id"] = 13262,
@@ -231,8 +231,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuea4/4zZe",
 				}, -- [5]
 				{
-					["id"] = 229387,
 					["sliceToken"] = "ABueajwKJge",
+					["id"] = 229387,
 				}, -- [6]
 				{
 					["id"] = 231442,
@@ -263,8 +263,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueacciiTe",
 				}, -- [13]
 				{
-					["sliceToken"] = "ABueaX/fZYr",
 					["id"] = 783,
+					["sliceToken"] = "ABueaX/fZYr",
 				}, -- [14]
 				{
 					["sliceToken"] = "ABue3CmU2ge",
@@ -574,8 +574,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuesnWstVe",
 				}, -- [21]
 				{
-					["id"] = 3714,
 					["sliceToken"] = "ABuesnYYbWe",
+					["id"] = 3714,
 				}, -- [22]
 				{
 					["id"] = 30146,
@@ -611,8 +611,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABue3Hxl4re",
 				}, -- [30]
 				{
-					["sliceToken"] = "ABue3/fH9De",
 					["id"] = 58984,
+					["sliceToken"] = "ABue3/fH9De",
 				}, -- [31]
 				["name"] = "Abilities",
 				["save"] = true,

@@ -23,11 +23,11 @@ TomTomDB = {
 		["Default"] = {
 			["arrow"] = {
 				["position"] = {
-					"RIGHT", -- [1]
+					"CENTER", -- [1]
 					nil, -- [2]
-					"RIGHT", -- [3]
-					-448.0006408691406, -- [4]
-					128.0001373291016, -- [5]
+					"CENTER", -- [3]
+					315.0005493164063, -- [4]
+					129.0000915527344, -- [5]
 				},
 			},
 			["block"] = {
@@ -84,27 +84,27 @@ TomTomWaypointsM = {
 					534, -- [1]
 					0.392, -- [2]
 					0.688, -- [3]
+					["crazy"] = true,
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["from"] = "?",
 					["persistent"] = true,
 					["desc"] = "Bramblefell",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["from"] = "?",
-					["worldmap_displayID"] = 62258,
-					["minimap_displayID"] = 62258,
 					["title"] = "Bramblefell",
+					["minimap_displayID"] = 62258,
+					["worldmap_displayID"] = 62258,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},
@@ -159,123 +159,6 @@ TomTomWaypointsM = {
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Jurim",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[105] = {
-				["105:450000000:750000000:Mar'Grom"] = {
-					105, -- [1]
-					0.45, -- [2]
-					0.75, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Mar'Grom",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Mar'Grom",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["105:300000000:650000000:Hemathion"] = {
-					105, -- [1]
-					0.3, -- [2]
-					0.65, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Hemathion",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Hemathion",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["105:670000000:720000000:Morcrush"] = {
-					105, -- [1]
-					0.67, -- [2]
-					0.72, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Morcrush",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Morcrush",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["105:400000000:500000000:Mar'Grom"] = {
-					105, -- [1]
-					0.4, -- [2]
-					0.5, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Mar'Grom",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Mar'Grom",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["105:640000000:220000000:Mar'Grom"] = {
-					105, -- [1]
-					0.64, -- [2]
-					0.22, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Mar'Grom",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Mar'Grom",
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
@@ -500,56 +383,6 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
-			[1470] = {
-				["1470:673000000:447000000:Beside Boss Forge"] = {
-					1470, -- [1]
-					0.6729999999999999, -- [2]
-					0.447, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Beside Boss Forge",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Beside Boss Forge",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[539] = {
-				["539:560000000:411000000:TomTom waypoint"] = {
-					539, -- [1]
-					0.56, -- [2]
-					0.411, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 			[102] = {
 				["102:130000000:410000000:Marticar"] = {
 					102, -- [1]
@@ -655,6 +488,401 @@ TomTomWaypointsM = {
 					["cleardistance"] = 10,
 					["title"] = "Bog Lurker",
 					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[105] = {
+				["105:450000000:750000000:Mar'Grom"] = {
+					105, -- [1]
+					0.45, -- [2]
+					0.75, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Mar'Grom",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Mar'Grom",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["105:300000000:650000000:Hemathion"] = {
+					105, -- [1]
+					0.3, -- [2]
+					0.65, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Hemathion",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Hemathion",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["105:670000000:720000000:Morcrush"] = {
+					105, -- [1]
+					0.67, -- [2]
+					0.72, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Morcrush",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Morcrush",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["105:400000000:500000000:Mar'Grom"] = {
+					105, -- [1]
+					0.4, -- [2]
+					0.5, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Mar'Grom",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Mar'Grom",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["105:640000000:220000000:Mar'Grom"] = {
+					105, -- [1]
+					0.64, -- [2]
+					0.22, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Mar'Grom",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Mar'Grom",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[1470] = {
+				["1470:627000000:370000000:Corner by the Middle Forge"] = {
+					1470, -- [1]
+					0.627, -- [2]
+					0.37, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Corner by the Middle Forge",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Corner by the Middle Forge",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:546000000:594000000:Behind Boxes"] = {
+					1470, -- [1]
+					0.546, -- [2]
+					0.594, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Behind Boxes",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Behind Boxes",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:474000000:816000000:In Transition House Behind Counter"] = {
+					1470, -- [1]
+					0.474, -- [2]
+					0.816, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "In Transition House Behind Counter",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "In Transition House Behind Counter",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:584000000:551000000:On Top of a Hill"] = {
+					1470, -- [1]
+					0.584, -- [2]
+					0.551, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "On Top of a Hill",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "On Top of a Hill",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:746000000:592000000:Middle Area Behind Boxes"] = {
+					1470, -- [1]
+					0.746, -- [2]
+					0.5920000000000001, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Middle Area Behind Boxes",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Middle Area Behind Boxes",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:690000000:731000000:Behind Inquisitor, Left of Stairs"] = {
+					1470, -- [1]
+					0.69, -- [2]
+					0.731, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Behind Inquisitor, Left of Stairs",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Behind Inquisitor, Left of Stairs",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:620000000:769000000:Behind Mail Muncher Mailbox"] = {
+					1470, -- [1]
+					0.62, -- [2]
+					0.769, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Behind Mail Muncher Mailbox",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Behind Mail Muncher Mailbox",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:765000000:685000000:Behind Stables by Shaw"] = {
+					1470, -- [1]
+					0.765, -- [2]
+					0.685, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Behind Stables by Shaw",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Behind Stables by Shaw",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:477000000:894000000:On Platform Above Upper Walkway"] = {
+					1470, -- [1]
+					0.477, -- [2]
+					0.894, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "On Platform Above Upper Walkway",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "On Platform Above Upper Walkway",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:646000000:309000000:Corner Behind Boxes"] = {
+					1470, -- [1]
+					0.6459999999999999, -- [2]
+					0.309, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Corner Behind Boxes",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Corner Behind Boxes",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:524000000:834000000:In Transition House Behind Counter"] = {
+					1470, -- [1]
+					0.524, -- [2]
+					0.8340000000000001, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "In Transition House Behind Counter",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "In Transition House Behind Counter",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:634000000:417000000:Corner by Chest Spawn"] = {
+					1470, -- [1]
+					0.634, -- [2]
+					0.417, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Corner by Chest Spawn",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Corner by Chest Spawn",
+					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 						},

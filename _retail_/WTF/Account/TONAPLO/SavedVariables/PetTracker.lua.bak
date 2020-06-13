@@ -1,0 +1,11 @@
+
+PetTracker_Sets = {
+	["mapSearch"] = "Missing",
+	["tutorial"] = 9,
+	["rivalPortraits"] = false,
+	["rivalHistory"] = {
+	},
+	["alertUpgrades"] = false,
+	["rivalSearch"] = "",
+	["hideStables"] = true,
+}

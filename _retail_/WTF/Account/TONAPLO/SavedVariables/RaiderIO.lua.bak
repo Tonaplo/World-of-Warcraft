@@ -1,6 +1,7 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Miriyam-silvermoon"
+RaiderIO_LastCharacter = "eu-Kaldowrath-silvermoon"
 RaiderIO_MissingCharacters = {
+	["eu-Kaldowrath-silvermoon"] = true,
 }

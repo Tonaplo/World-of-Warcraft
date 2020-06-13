@@ -1,42 +1,28 @@
-lightweight tag 5384f5826bb311c1466e737736730cdae1312b01 DetailsRetail.8.3.0.7335.141
+lightweight tag fe702cf97f9b718fc51a5c43555deaab72ce2b36 DetailsRetail.8.3.0.7336.141
 Author:	Tercio Jose <terciob19@hotmail.com>
-Date:	Sun Jun 7 17:12:13 2020 -0300
+Date:	Mon Jun 8 19:40:11 2020 -0300
 
-commit 5384f5826bb311c1466e737736730cdae1312b01
+commit fe702cf97f9b718fc51a5c43555deaab72ce2b36
 Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Sun Jun 7 17:12:13 2020 -0300
+Date:   Mon Jun 8 19:40:11 2020 -0300
 
-    change logs and version update
+    Bump version
 
-commit c2007529d682b83dd9e98805e6ed6815b355bd58
-Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Wed Jun 3 19:55:42 2020 -0300
+commit b04b3473296f986f856c40a7a744cd0c4206699e
+Author: Cistoran <ivan017@gmail.com>
+Date:   Mon Jun 8 02:07:00 2020 -0600
 
-    GetLocate on the fly instead of relying on a cached value
+    Remove print messages for Spell Reflect spell info
 
-commit fedfe341a35a3325dc5dd3ed99ab1a5821cd53df
-Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Mon Jun 1 20:51:48 2020 -0300
+commit b04b3473296f986f856c40a7a744cd0c4206699e
+Author: Cistoran <ivan017@gmail.com>
+Date:   Mon Jun 8 02:07:00 2020 -0600
 
-    More spell reflection implementations
-    
-    - added reflected spells in the player tooltip.
-    - added reflected spell in the player details window.
-    - reflection spells like Warrior's Spell Reflection now has a new spell school called "Reflection".
-    - soft tooltips and player details window improvements.
-    - damage spell object now has the member 'extra' which is a table that can store hash data.
-    - profile.tooltip.tooltip_max_abilities won't be forced to 6 any more, to set your own amount of spells shown on tooltips use:
-    /run Details.tooltip.tooltip_max_abilities = number;
+    Remove print messages for Spell Reflect spell info
 
-commit 2ccc88cf31796e95dba0647b63479a7ec22a51c9
-Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Sat May 30 11:24:31 2020 -0300
+commit b04b3473296f986f856c40a7a744cd0c4206699e
+Author: Cistoran <ivan017@gmail.com>
+Date:   Mon Jun 8 02:07:00 2020 -0600
 
-    Players can now ignore spells from the Spells List, to access go to Options Panel > Spell List > All Spells
-
-commit 2ccc88cf31796e95dba0647b63479a7ec22a51c9
-Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Sat May 30 11:24:31 2020 -0300
-
-    Players can now ignore spells from the Spells List, to access go to Options Panel > Spell List > All Spells
+    Remove print messages for Spell Reflect spell info
 

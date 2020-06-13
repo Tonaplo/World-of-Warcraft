@@ -1,57 +1,18 @@
 
 DailyToDoDB = {
 	["profileKeys"] = {
-		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
 		["Miriyam - Silvermoon"] = "LFR Gold Farmers",
-		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
-		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
-		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Praerend - Silvermoon"] = "LFR Gold Farmers",
-		["Thorlan - Silvermoon"] = "Thorlan - Silvermoon",
-		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
-		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
-		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
-		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
+		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Burdett - Silvermoon"] = "LFR Gold Farmers",
-		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
 	},
 	["profiles"] = {
-		["Thedodrouk - Silvermoon"] = {
-			["timestamp"] = 20200607000000,
-		},
-		["Kaldowrath - Silvermoon"] = {
-			["framePosition"] = {
-				["y"] = 156.0003356933594,
-				["x"] = -335.0004272460938,
-				["anchor"] = "RIGHT",
-			},
-			["timestamp"] = 20200607000000,
-		},
-		["Faerand - Silvermoon"] = {
-			["timestamp"] = 20200607000000,
-		},
-		["Mogfarmer - Silvermoon"] = {
-			["timestamp"] = 20200608000000,
-		},
-		["Thorlan - Silvermoon"] = {
-			["timestamp"] = 20200608000000,
-		},
-		["Korugen - Silvermoon"] = {
-			["timestamp"] = 20200607000000,
-		},
-		["Rahran - Silvermoon"] = {
-			["timestamp"] = 20200607000000,
-		},
-		["Zearthan - Silvermoon"] = {
-			["timestamp"] = 20200608000000,
-		},
-		["Greyblood - Silvermoon"] = {
-			["timestamp"] = 20200607000000,
-		},
 		["Mallusof - Silvermoon"] = {
+			["timestamp"] = 20200612090000,
+			["hideCompleted"] = true,
 			["lists"] = {
 				{
-					["completed"] = false,
+					["completed"] = true,
 					["name"] = "Kill these once a day",
 					["entries"] = {
 						{
@@ -66,13 +27,15 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["text"] = "Check Stormsong Valley for Sabertron WQ",
+							["text"] = "Feed Ravenous Slimes in Nazjatar",
 							["weekly"] = false,
 							["manual"] = false,
 						}, -- [1]
 						{
-							["completed"] = false,
+							["completed"] = true,
 							["checked"] = true,
+							["weekly"] = false,
+							["text"] = "Do Jade Forest Dragon dailies",
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -82,15 +45,11 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["text"] = "Do Jade Forest Dragon dailies",
-							["weekly"] = false,
 							["manual"] = false,
 						}, -- [2]
 						{
 							["completed"] = true,
 							["checked"] = true,
-							["manual"] = false,
-							["text"] = "Check Mac'Aree for Sabuul for Fel-spotted Egg",
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -100,13 +59,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
+							["text"] = "Summon Snowfeather Hatchling and do the Daily",
 							["weekly"] = false,
+							["manual"] = false,
 						}, -- [3]
 						{
 							["completed"] = true,
 							["checked"] = true,
-							["manual"] = false,
-							["text"] = "Check Krokuun for Naroua for Fel-spotted Egg",
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -116,13 +75,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
+							["text"] = "Summon Direbeak Hatchling and do the Daily",
 							["weekly"] = false,
+							["manual"] = false,
 						}, -- [4]
 						{
 							["completed"] = true,
 							["checked"] = true,
-							["manual"] = false,
-							["text"] = "Check Antoran Wastes for Varga for Fel-spotted Egg",
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -132,13 +91,15 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
+							["text"] = "Summon Bloodgazer Hatchling and do the Daily",
 							["weekly"] = false,
+							["manual"] = false,
 						}, -- [5]
 						{
 							["completed"] = true,
 							["checked"] = true,
 							["weekly"] = false,
-							["text"] = "Feed Ravenous Slimes in Nazjatar",
+							["text"] = "Check Stormsong Valley for Sabertron WQ",
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -150,11 +111,75 @@ DailyToDoDB = {
 							},
 							["manual"] = false,
 						}, -- [6]
+						{
+							["completed"] = true,
+							["checked"] = true,
+							["manual"] = false,
+							["text"] = "Check Mac'Aree for Sabuul for Fel-spotted Egg",
+							["weekly"] = false,
+							["days"] = {
+								true, -- [1]
+								true, -- [2]
+								true, -- [3]
+								true, -- [4]
+								true, -- [5]
+								true, -- [6]
+								true, -- [7]
+							},
+						}, -- [7]
+						{
+							["completed"] = true,
+							["checked"] = true,
+							["manual"] = false,
+							["text"] = "Check Krokuun for Naroua for Fel-spotted Egg",
+							["weekly"] = false,
+							["days"] = {
+								true, -- [1]
+								true, -- [2]
+								true, -- [3]
+								true, -- [4]
+								true, -- [5]
+								true, -- [6]
+								true, -- [7]
+							},
+						}, -- [8]
+						{
+							["completed"] = true,
+							["checked"] = true,
+							["manual"] = false,
+							["text"] = "Check Antoran Wastes for Varga for Fel-spotted Egg",
+							["weekly"] = false,
+							["days"] = {
+								true, -- [1]
+								true, -- [2]
+								true, -- [3]
+								true, -- [4]
+								true, -- [5]
+								true, -- [6]
+								true, -- [7]
+							},
+						}, -- [9]
+						{
+							["completed"] = true,
+							["checked"] = true,
+							["days"] = {
+								true, -- [1]
+								true, -- [2]
+								true, -- [3]
+								true, -- [4]
+								true, -- [5]
+								true, -- [6]
+								true, -- [7]
+							},
+							["text"] = "Check Val'Sharah for Sharptalon Swarm WQ",
+							["weekly"] = false,
+							["manual"] = false,
+						}, -- [10]
 					},
 				}, -- [1]
 				{
 					["completed"] = false,
-					["expanded"] = false,
+					["expanded"] = true,
 					["name"] = "Grinds",
 					["entries"] = {
 						{
@@ -162,6 +187,7 @@ DailyToDoDB = {
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "The Hivemind Secret",
+							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -171,13 +197,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["weekly"] = false,
 						}, -- [1]
 						{
 							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "The Waist of Time Secret",
+							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -187,13 +213,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["weekly"] = false,
 						}, -- [2]
 						{
 							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "It's Not a Tumor! Achievement",
+							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -203,13 +229,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["weekly"] = false,
 						}, -- [3]
 						{
 							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "And We're All Out of Mana Buns Achievement",
+							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -219,13 +245,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["weekly"] = false,
 						}, -- [4]
 						{
 							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
-							["text"] = "Nothing To Scry About Achievement",
+							["text"] = "Finish off Baa'l Secret",
+							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -235,13 +261,10 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["weekly"] = false,
 						}, -- [5]
 						{
 							["completed"] = false,
 							["checked"] = true,
-							["manual"] = false,
-							["text"] = "Finish off Baa'l Secret",
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -251,13 +274,15 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
+							["text"] = "Ratstallion",
 							["weekly"] = false,
+							["manual"] = false,
 						}, -- [6]
 						{
 							["completed"] = false,
 							["checked"] = true,
 							["weekly"] = false,
-							["text"] = "Ratstallion",
+							["text"] = "Uuna",
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -281,7 +306,6 @@ DailyToDoDB = {
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "Islands Achievements, mounts, transmogs and pets",
-							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -291,13 +315,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
+							["weekly"] = false,
 						}, -- [1]
 						{
 							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "Warfront Achievements",
-							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -307,13 +331,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
+							["weekly"] = false,
 						}, -- [2]
 						{
 							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "Mechagon Achievements",
-							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -323,13 +347,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
+							["weekly"] = false,
 						}, -- [3]
 						{
 							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "BFA PvP Achievements",
-							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -339,13 +363,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
+							["weekly"] = false,
 						}, -- [4]
 						{
 							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "Dungeon Master Achievement",
-							["weekly"] = false,
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -355,6 +379,7 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
+							["weekly"] = false,
 						}, -- [5]
 					},
 				}, -- [3]
@@ -366,6 +391,8 @@ DailyToDoDB = {
 						{
 							["completed"] = false,
 							["checked"] = true,
+							["weekly"] = true,
+							["text"] = "+15 Done",
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -375,13 +402,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["text"] = "+15 Done",
-							["weekly"] = true,
 							["manual"] = false,
 						}, -- [1]
 						{
 							["completed"] = true,
 							["checked"] = true,
+							["weekly"] = true,
+							["text"] = "Clear Main Assault",
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -391,13 +418,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["text"] = "Clear Main Assault",
-							["weekly"] = true,
 							["manual"] = false,
 						}, -- [2]
 						{
-							["completed"] = true,
+							["completed"] = false,
 							["checked"] = true,
+							["weekly"] = true,
+							["text"] = "Islands Done",
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -407,13 +434,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["text"] = "Islands Done",
-							["weekly"] = true,
 							["manual"] = false,
 						}, -- [3]
 						{
-							["completed"] = false,
+							["completed"] = true,
 							["checked"] = true,
+							["weekly"] = true,
+							["text"] = "Horrific Vision for Malefic Core",
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -423,8 +450,6 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["text"] = "Horrific Vision for Malefic Core",
-							["weekly"] = true,
 							["manual"] = false,
 						}, -- [4]
 					},
@@ -433,21 +458,23 @@ DailyToDoDB = {
 			["weeklyResetDay"] = 4,
 			["framePosition"] = {
 				["anchor"] = "TOPRIGHT",
-				["x"] = -418.9990539550781,
-				["y"] = -200.0004425048828,
+				["x"] = -422.9985961914063,
+				["y"] = -133.0000915527344,
 			},
+			["dailyResetTime"] = 10,
 			["icon"] = {
 				["minimapPos"] = 243.2654785468459,
 				["hide"] = true,
 			},
-			["timestamp"] = 20200608090000,
-			["hideCompleted"] = true,
-			["dailyResetTime"] = 10,
 		},
 		["LFR Gold Farmers"] = {
 			["resetPollInterval"] = 2,
-			["dailyResetTime"] = 10,
-			["hideCompleted"] = true,
+			["weeklyResetDay"] = 4,
+			["framePosition"] = {
+				["y"] = 197.000244140625,
+				["x"] = -371.0003356933594,
+				["anchor"] = "RIGHT",
+			},
 			["lists"] = {
 				{
 					["completed"] = true,
@@ -456,6 +483,8 @@ DailyToDoDB = {
 						{
 							["completed"] = true,
 							["checked"] = true,
+							["weekly"] = true,
+							["text"] = "The Black Gate - Archimonde",
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -465,13 +494,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["text"] = "The Black Gate - Archimonde",
-							["weekly"] = true,
 							["manual"] = false,
 						}, -- [1]
 						{
 							["completed"] = true,
 							["checked"] = true,
+							["weekly"] = true,
+							["text"] = "Destructor's Rise - All three",
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -481,13 +510,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["text"] = "Destructor's Rise - All three",
-							["weekly"] = true,
 							["manual"] = false,
 						}, -- [2]
 						{
 							["completed"] = true,
 							["checked"] = true,
+							["weekly"] = true,
+							["text"] = "Bastion of Shadows - Iskaar and Socretar",
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -497,13 +526,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["text"] = "Bastion of Shadows - Iskaar and Socretar",
-							["weekly"] = true,
 							["manual"] = false,
 						}, -- [3]
 						{
 							["completed"] = true,
 							["checked"] = true,
+							["weekly"] = true,
+							["text"] = "Halls of Blood - Council only",
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -513,13 +542,13 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["text"] = "Halls of Blood - Council only",
-							["weekly"] = true,
 							["manual"] = false,
 						}, -- [4]
 						{
 							["completed"] = true,
 							["checked"] = true,
+							["weekly"] = true,
+							["text"] = "Iron Assembly - Darmac only",
 							["days"] = {
 								true, -- [1]
 								true, -- [2]
@@ -529,23 +558,17 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-							["text"] = "Iron Assembly - Darmac only",
-							["weekly"] = true,
 							["manual"] = false,
 						}, -- [5]
 					},
 				}, -- [1]
 			},
-			["weeklyResetDay"] = 4,
-			["framePosition"] = {
-				["y"] = 197.000244140625,
-				["x"] = -371.0003356933594,
-				["anchor"] = "RIGHT",
-			},
-			["timestamp"] = 20200608090000,
+			["hideCompleted"] = true,
+			["dailyResetTime"] = 10,
 			["icon"] = {
 				["hide"] = true,
 			},
+			["timestamp"] = 20200608090000,
 		},
 	},
 }

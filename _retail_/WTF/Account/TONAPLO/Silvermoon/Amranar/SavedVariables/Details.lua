@@ -7,7 +7,7 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["last_version"] = "v8.3.0.7335",
+	["last_version"] = "v8.3.0.7336",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -15,7 +15,7 @@ _detalhes_database = {
 	},
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
-		["nextreset"] = 1591826945,
+		["nextreset"] = 1593158102,
 		["last_version"] = 12,
 	},
 	["last_instance_id"] = 0,
@@ -43,8 +43,8 @@ _detalhes_database = {
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["showamount"] = false,
 			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -165,6 +165,7 @@ _detalhes_database = {
 				0.400000035762787, -- [4]
 			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -20.15869140625,
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -176,17 +177,16 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["attribute_type"] = 1,
 			},
-			["font_size"] = 14,
 			["x"] = 0,
 			["font_face"] = "Prototype",
-			["y"] = -20.15869140625,
 			["use_spark"] = false,
+			["font_size"] = 14,
 			["main_frame_strata"] = "LOW",
 			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
 		},
 	},
-	["last_day"] = "08",
+	["last_day"] = "12",
 	["cached_talents"] = {
 	},
 	["announce_prepots"] = {
@@ -206,7 +206,7 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 168,
+	["combat_counter"] = 180,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -406,7 +406,7 @@ _detalhes_database = {
 		}, -- [2]
 	},
 	["character_data"] = {
-		["logons"] = 83,
+		["logons"] = 89,
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,
@@ -424,8 +424,7 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
+		["Player-3391-0B28D602"] = 65,
 		["Player-3391-0A827D56"] = 103,
-		["Player-3391-0B1F06CC"] = 105,
-		["Player-3391-0B2BC962"] = 105,
 	},
 }
