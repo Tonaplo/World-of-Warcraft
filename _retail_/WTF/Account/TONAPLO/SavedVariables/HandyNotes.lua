@@ -1,6 +1,7 @@
 
 HandyNotesDB = {
 	["profileKeys"] = {
+		["Elyrianna - Ragnaros"] = "Elyrianna - Ragnaros",
 		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
 		["Rahran - Icecrown"] = "Rahran - Icecrown",
 		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
@@ -26,9 +27,9 @@ HandyNotesDB = {
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
 		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
 		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
@@ -54,7 +55,7 @@ HandyNotesDB = {
 		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
 		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
 		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
 		["Kaldorath - Icecrown"] = "Tank",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
@@ -123,6 +124,8 @@ HandyNotesDB = {
 		["Granjior - Proudmoore"] = {
 		},
 		["DPS"] = {
+		},
+		["Elyrianna - Ragnaros"] = {
 		},
 		["Tank"] = {
 		},
@@ -202,6 +205,7 @@ HandyNotesDB = {
 }
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
+		["Elyrianna - Ragnaros"] = "Elyrianna - Ragnaros",
 		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
 		["Rahran - Icecrown"] = "Rahran - Icecrown",
 		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
@@ -227,9 +231,9 @@ HandyNotes_HandyNotesDB = {
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
 		["Caircaidin - Frostwolf"] = "Caircaidin - Frostwolf",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
 		["Miriyal - Icecrown"] = "Miriyal - Icecrown",
@@ -255,7 +259,7 @@ HandyNotes_HandyNotesDB = {
 		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
 		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
 		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Kindhoof - Tichondrius"] = "Kindhoof - Tichondrius",
 		["Kaldorath - Icecrown"] = "Tank",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
@@ -324,6 +328,8 @@ HandyNotes_HandyNotesDB = {
 		["Granjior - Proudmoore"] = {
 		},
 		["Miriyal - Proudmoore"] = {
+		},
+		["Elyrianna - Ragnaros"] = {
 		},
 		["Tank"] = {
 		},

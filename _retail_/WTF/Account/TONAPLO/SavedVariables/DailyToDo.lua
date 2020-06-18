@@ -8,31 +8,15 @@ DailyToDoDB = {
 	},
 	["profiles"] = {
 		["Mallusof - Silvermoon"] = {
-			["timestamp"] = 20200612090000,
+			["dailyResetTime"] = 10,
 			["hideCompleted"] = true,
 			["lists"] = {
 				{
-					["completed"] = true,
+					["completed"] = false,
 					["name"] = "Kill these once a day",
 					["entries"] = {
 						{
-							["completed"] = true,
-							["checked"] = true,
-							["manual"] = false,
-							["text"] = "Feed Ravenous Slimes in Nazjatar",
-							["days"] = {
-								true, -- [1]
-								true, -- [2]
-								true, -- [3]
-								true, -- [4]
-								true, -- [5]
-								true, -- [6]
-								true, -- [7]
-							},
-							["weekly"] = false,
-						}, -- [1]
-						{
-							["completed"] = true,
+							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "Do Jade Forest Dragon dailies",
@@ -46,7 +30,7 @@ DailyToDoDB = {
 								true, -- [6]
 								true, -- [7]
 							},
-						}, -- [2]
+						}, -- [1]
 						{
 							["completed"] = true,
 							["checked"] = true,
@@ -62,7 +46,7 @@ DailyToDoDB = {
 								true, -- [7]
 							},
 							["weekly"] = false,
-						}, -- [3]
+						}, -- [2]
 						{
 							["completed"] = true,
 							["checked"] = true,
@@ -78,7 +62,7 @@ DailyToDoDB = {
 								true, -- [7]
 							},
 							["weekly"] = false,
-						}, -- [4]
+						}, -- [3]
 						{
 							["completed"] = true,
 							["checked"] = true,
@@ -94,6 +78,22 @@ DailyToDoDB = {
 								true, -- [7]
 							},
 							["weekly"] = false,
+						}, -- [4]
+						{
+							["completed"] = true,
+							["checked"] = true,
+							["manual"] = false,
+							["text"] = "Summon Sharptalon Hatchling and do the Daily",
+							["weekly"] = false,
+							["days"] = {
+								true, -- [1]
+								true, -- [2]
+								true, -- [3]
+								true, -- [4]
+								true, -- [5]
+								true, -- [6]
+								true, -- [7]
+							},
 						}, -- [5]
 						{
 							["completed"] = true,
@@ -159,28 +159,12 @@ DailyToDoDB = {
 							["weekly"] = false,
 							["manual"] = false,
 						}, -- [9]
-						{
-							["completed"] = true,
-							["checked"] = true,
-							["manual"] = false,
-							["text"] = "Check Val'Sharah for Sharptalon Swarm WQ",
-							["days"] = {
-								true, -- [1]
-								true, -- [2]
-								true, -- [3]
-								true, -- [4]
-								true, -- [5]
-								true, -- [6]
-								true, -- [7]
-							},
-							["weekly"] = false,
-						}, -- [10]
 					},
 				}, -- [1]
 				{
 					["completed"] = false,
 					["name"] = "Grinds",
-					["expanded"] = true,
+					["expanded"] = false,
 					["entries"] = {
 						{
 							["completed"] = false,
@@ -385,7 +369,7 @@ DailyToDoDB = {
 				}, -- [3]
 				{
 					["completed"] = false,
-					["expanded"] = true,
+					["expanded"] = false,
 					["name"] = "Weekly Tasks",
 					["entries"] = {
 						{
@@ -405,7 +389,7 @@ DailyToDoDB = {
 							},
 						}, -- [1]
 						{
-							["completed"] = true,
+							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "Clear Main Assault",
@@ -437,7 +421,7 @@ DailyToDoDB = {
 							},
 						}, -- [3]
 						{
-							["completed"] = true,
+							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "Horrific Vision for Malefic Core",
@@ -457,10 +441,11 @@ DailyToDoDB = {
 			},
 			["weeklyResetDay"] = 4,
 			["framePosition"] = {
-				["anchor"] = "BOTTOM",
-				["x"] = 362.002685546875,
+				["anchor"] = "TOPRIGHT",
+				["x"] = -398.9985046386719,
+				["y"] = -93.0001220703125,
 			},
-			["dailyResetTime"] = 10,
+			["timestamp"] = 20200618090000,
 			["icon"] = {
 				["minimapPos"] = 243.2654785468459,
 				["hide"] = true,
@@ -474,12 +459,6 @@ DailyToDoDB = {
 				["x"] = -371.0003356933594,
 				["anchor"] = "RIGHT",
 			},
-			["timestamp"] = 20200608090000,
-			["icon"] = {
-				["hide"] = true,
-			},
-			["dailyResetTime"] = 10,
-			["hideCompleted"] = true,
 			["lists"] = {
 				{
 					["completed"] = true,
@@ -568,6 +547,12 @@ DailyToDoDB = {
 					},
 				}, -- [1]
 			},
+			["hideCompleted"] = true,
+			["timestamp"] = 20200616090000,
+			["icon"] = {
+				["hide"] = true,
+			},
+			["dailyResetTime"] = 10,
 		},
 	},
 }

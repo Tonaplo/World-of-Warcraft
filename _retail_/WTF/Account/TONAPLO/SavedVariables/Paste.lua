@@ -1,6 +1,7 @@
 
 PasteDB = {
 	["profileKeys"] = {
+		["Elyrianna - Ragnaros"] = "Elyrianna - Ragnaros",
 		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
 		["Thorlan - Silvermoon"] = "Thorlan - Silvermoon",
 		["Amranar - Silvermoon"] = "Amranar - Silvermoon",
@@ -20,6 +21,9 @@ PasteDB = {
 		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
 	},
 	["profiles"] = {
+		["Elyrianna - Ragnaros"] = {
+			["loaded"] = true,
+		},
 		["Miriyam - Silvermoon"] = {
 			["loaded"] = true,
 		},
@@ -69,12 +73,12 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Mallusof - Silvermoon"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
 			["loaded"] = true,
 			["minimap"] = {
 				["hide"] = true,
 			},
+			["where"] = "Default",
+			["whispertarget"] = "",
 			["pos"] = {
 				["height"] = 320,
 				["top"] = 716.000732421875,

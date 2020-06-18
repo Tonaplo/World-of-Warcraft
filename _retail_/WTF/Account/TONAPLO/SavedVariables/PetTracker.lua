@@ -6,6 +6,9 @@ PetTracker_Sets = {
 	["rivalSearch"] = "",
 	["alertUpgrades"] = false,
 	["rivalHistory"] = {
+		[66522] = {
+			"1964e1ad1ec21a0000039D720770e40e83a600000B11A60311a42091fc00000C1A721B", -- [1]
+		},
 	},
 	["rivalPortraits"] = false,
 }
