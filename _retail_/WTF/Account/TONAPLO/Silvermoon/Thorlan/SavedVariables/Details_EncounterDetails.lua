@@ -3,102 +3,144 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
-				20.73299999999995, -- [1]
-				"|cFFFF0000%s|r appears and begins to empower the Fel Spire!", -- [2]
-				"Gul'dan", -- [3]
+				2.951000000000022, -- [1]
+				"Yes, Dark Lady.", -- [2]
+				"Gurtogg Bloodboil", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				14.62400000000002, -- [1]
+				"%s |cFFFF0404|Hspell:184476|h[Reaps]|h|r all marked foes!", -- [2]
+				"Dia Darkwhisper", -- [3]
+				1, -- [4]
+			}, -- [2]
+			{
+				14.62400000000002, -- [1]
+				"It rips. It tears. It is boundless and eternal...", -- [2]
+				"Dia Darkwhisper", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				15.81700000000001, -- [1]
+				"|TInterface\\Icons\\inv_misc_boilingblood.blp:20|t %s begins to use |cFFFF0404|Hspell:184357|h[Tainted Blood]|h|r!", -- [2]
+				"Gurtogg Bloodboil", -- [3]
+				1, -- [4]
+			}, -- [4]
+			{
+				15.81700000000001, -- [1]
+				"More! I want MORE!", -- [2]
+				"Gurtogg Bloodboil", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				16.11699999999996, -- [1]
+				"The sweet mercy... of death.", -- [2]
+				"Dia Darkwhisper", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				17.06700000000001, -- [1]
+				"Burn... BURN!", -- [2]
+				"Blademaster Jubei'thos", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				18.08300000000008, -- [1]
+				"ArRRgghhHhh...", -- [2]
+				"Gurtogg Bloodboil", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				18.08300000000008, -- [1]
+				"I am everburning!", -- [2]
+				"Blademaster Jubei'thos", -- [3]
+				7, -- [4]
+			}, -- [9]
+			["boss"] = "Hellfire High Council",
+		}, -- [1]
+		{
+			{
+				4.417999999999893, -- [1]
+				"|TInterface\\Icons\\warlock_summon_doomguard.blp:20|t|cFFFF0000Thorlan|r has been afflicted with |cFFFF0000|Hspell:181275|h[Curse of the Legion]|h|r!", -- [2]
+				"Demon Portal", -- [3]
 				1, -- [4]
 			}, -- [1]
 			{
-				20.73299999999995, -- [1]
-				"Faithless fools. The Legion wills it; it will be done.", -- [2]
+				28.41699999999992, -- [1]
+				"|cFFFF0000%s|r appears and begins to empower the Fel Spire!", -- [2]
 				"Gul'dan", -- [3]
-				7, -- [4]
+				1, -- [4]
 			}, -- [2]
 			{
-				30.71600000000012, -- [1]
-				"Return Mannoroth... Yes, yes! Your masters call you to this world once more!", -- [2]
+				28.41699999999992, -- [1]
+				"Faithless fools. The Legion wills it; it will be done.", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				43.31600000000003, -- [1]
-				"Fear not, Mannoroth. The fel gift empowers you... Make them suffer!", -- [2]
+				37.61699999999996, -- [1]
+				"Return Mannoroth... Yes, yes! Your masters call you to this world once more!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [4]
 			{
-				44.94200000000001, -- [1]
+				51.59999999999991, -- [1]
+				"Fear not, Mannoroth. The fel gift empowers you... Make them suffer!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				53.60899999999992, -- [1]
 				"|cFFFF0000%s|r begins to empower the Fel Spire!", -- [2]
 				"Gul'dan", -- [3]
 				1, -- [4]
-			}, -- [5]
-			{
-				48.44900000000007, -- [1]
-				"Wha- What is this? Gul'dan what have you done? I am... So weak...", -- [2]
-				"Mannoroth", -- [3]
-				7, -- [4]
 			}, -- [6]
 			{
-				49.40000000000009, -- [1]
+				54.00099999999998, -- [1]
 				"These mortals cannot be this strong. Gul'dan, do something!", -- [2]
 				"Mannoroth", -- [3]
 				7, -- [4]
 			}, -- [7]
 			{
-				51.01600000000008, -- [1]
+				56.03399999999988, -- [1]
 				"|cFFFF0000%s|r begins to empower the Fel Spire!", -- [2]
 				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [8]
+			{
+				56.70099999999979, -- [1]
+				"Wha- What is this? Gul'dan what have you done? I am... So weak...", -- [2]
+				"Mannoroth", -- [3]
+				7, -- [4]
+			}, -- [9]
 			["boss"] = "Mannoroth",
-		}, -- [1]
-		{
-			{
-				2.682999999999993, -- [1]
-				"These gaps in reality... I must tear them wider!", -- [2]
-				"Xhul'horac", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				3.816000000000031, -- [1]
-				"LEGION! Destroy all who stand before you!", -- [2]
-				"Xhul'horac", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				9.557999999999993, -- [1]
-				"I TEAR APART! AND WITH ME, YOU TOO SHALL DIE!", -- [2]
-				"Xhul'horac", -- [3]
-				7, -- [4]
-			}, -- [3]
-			["boss"] = "Xhul'horac",
 		}, -- [2]
 		{
 			{
-				3.65099999999984, -- [1]
-				"See how they struggle, not even their combined might will be enough to save you.", -- [2]
-				"Fel Lord Zakuun", -- [3]
-				4, -- [4]
+				0.1, -- [1]
+				"No matter how it all ends, you will die here.", -- [2]
+				"Xhul'horac", -- [3]
+				7, -- [4]
 			}, -- [1]
 			{
-				5.699999999999818, -- [1]
-				"|TInterface\\Icons\\inv_axe_2h_orgrimmarraid_d_01.blp:20|tFel Lord Zakuun frenzies and is now |cFFFF0000|Hspell:179671|h[Heavily Armed]|h|r!", -- [2]
-				"Fel Lord Zakuun", -- [3]
-				1, -- [4]
+				2.366999999999962, -- [1]
+				"These gaps in reality... I must tear them wider!", -- [2]
+				"Xhul'horac", -- [3]
+				7, -- [4]
 			}, -- [2]
 			{
-				5.699999999999818, -- [1]
-				"We are unstoppable!", -- [2]
-				"Fel Lord Zakuun", -- [3]
+				4.783000000000129, -- [1]
+				"LEGION! Destroy all who stand before you!", -- [2]
+				"Xhul'horac", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				6.083999999999833, -- [1]
-				"Finish him heroes, that I may drive that cursed axe down his throat and cut out his fel heart.", -- [2]
-				"Grommash Hellscream", -- [3]
-				4, -- [4]
+				8.433999999999969, -- [1]
+				"I TEAR APART! AND WITH ME, YOU TOO SHALL DIE!", -- [2]
+				"Xhul'horac", -- [3]
+				7, -- [4]
 			}, -- [4]
-			["boss"] = "Fel Lord Zakuun",
+			["boss"] = "Xhul'horac",
 		}, -- [3]
 	},
 	["encounter_spells"] = {
@@ -124,6 +166,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fel Lord Zakuun",
 		},
+		[184449] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Dia Darkwhisper",
+		},
 		[186662] = {
 			["school"] = 4,
 			["type"] = "BUFF",
@@ -142,6 +194,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Desecration",
 		},
+		[184355] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Gurtogg Bloodboil",
+		},
 		[162510] = {
 			["school"] = 8,
 			["token"] = {
@@ -156,6 +216,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Phemos",
+		},
+		[181119] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Doom Lord Usael",
 		},
 		[185175] = {
 			["school"] = 1,
@@ -232,6 +300,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fel Lord Zakuun",
 		},
+		[184476] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Dia Darkwhisper",
+		},
+		[184847] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Gurtogg Bloodboil",
+		},
 		[191068] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -283,6 +367,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archimonde",
 		},
+		[186993] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Blademaster Jubei'thos",
+		},
+		[184357] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Gurtogg Bloodboil",
+		},
+		[163208] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Tectus",
+		},
 		[162475] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -293,6 +400,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tectus",
 		},
+		[41062] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Blademaster Jubei'thos",
+		},
+		[181275] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Demon Portal",
+		},
+		[184675] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dia Darkwhisper",
+		},
+		[177438] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+		},
 		[182171] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -301,19 +441,6 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[177438] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-		},
-		[163208] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Tectus",
-		},
 		[181192] = {
 			["school"] = 4,
 			["token"] = {
@@ -321,12 +448,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dread Infernal",
 		},
-		[181134] = {
-			["school"] = 4,
+		[162658] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Fel Imp",
+			["source"] = "Shard of Tectus",
 		},
 		[159515] = {
 			["school"] = 64,
@@ -344,12 +473,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fel Imp",
 		},
-		[186532] = {
-			["school"] = 4,
+		[188614] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Wild Pyromaniac",
 		},
 		[186134] = {
 			["school"] = 4,
@@ -374,20 +502,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shard of Tectus",
 		},
-		[188614] = {
-			["school"] = 1,
+		[186532] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
+			["source"] = "Wild Pyromaniac",
 		},
-		[162658] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[185590] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Shard of Tectus",
+			["source"] = "Archimonde",
 		},
 		[162288] = {
 			["school"] = 1,
@@ -397,6 +525,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tectus",
 		},
+		[181134] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Fel Imp",
+		},
 		[179583] = {
 			["school"] = 4,
 			["token"] = {
@@ -405,14 +540,6 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Fel Lord Zakuun",
-		},
-		[185590] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Archimonde",
 		},
 	},
 }

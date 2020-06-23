@@ -71,15 +71,15 @@ FarmHudDB = {
 		["hide"] = false,
 	},
 	["tracking^136454"] = "client",
-	["tracking^133939"] = "client",
-	["time_show"] = true,
 	["text_scale"] = 1.4,
+	["time_show"] = true,
 	["time_color"] = {
 		1, -- [1]
 		0.82, -- [2]
 		0, -- [3]
 		0.7, -- [4]
 	},
+	["tracking^133939"] = "client",
 	["coords_bottom"] = false,
 	["tracking^524052"] = "client",
 	["time_radius"] = 0.48,

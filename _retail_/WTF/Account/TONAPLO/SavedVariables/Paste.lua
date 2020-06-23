@@ -73,17 +73,17 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Mallusof - Silvermoon"] = {
-			["loaded"] = true,
-			["minimap"] = {
-				["hide"] = true,
-			},
-			["where"] = "Default",
 			["whispertarget"] = "",
+			["where"] = "Default",
+			["loaded"] = true,
 			["pos"] = {
 				["height"] = 320,
 				["top"] = 716.000732421875,
 				["left"] = 1129.002685546875,
 				["width"] = 499.9999084472656,
+			},
+			["minimap"] = {
+				["hide"] = true,
 			},
 		},
 		["Mogfarmer - Silvermoon"] = {

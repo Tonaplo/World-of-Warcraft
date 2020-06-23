@@ -679,6 +679,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Foreman Feldspar",
 		},
+		[159585] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Admiral Gar'an",
+		},
 		[182280] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -686,13 +693,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Iron Reaver",
-		},
-		[159585] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Admiral Gar'an",
 		},
 		[160382] = {
 			["school"] = 1,
@@ -1166,60 +1166,117 @@ EncounterDetailsDB = {
 		{
 			{
 				0.1, -- [1]
+				"Gurtogg! Dispatch our enemies...", -- [2]
+				"Dia Darkwhisper", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				4.692000000000917, -- [1]
+				"Yes, Dark Lady.", -- [2]
+				"Gurtogg Bloodboil", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				11.14900000000125, -- [1]
+				"%s |cFFFF0404|Hspell:184476|h[Reaps]|h|r all marked foes!", -- [2]
+				"Dia Darkwhisper", -- [3]
+				1, -- [4]
+			}, -- [3]
+			{
+				11.14900000000125, -- [1]
+				"The void, it hungers!", -- [2]
+				"Dia Darkwhisper", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				12.58200000000034, -- [1]
+				"The sweet mercy... of death.", -- [2]
+				"Dia Darkwhisper", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				13.56600000000071, -- [1]
+				"|TInterface\\Icons\\inv_misc_boilingblood.blp:20|t %s begins to use |cFFFF0404|Hspell:184357|h[Tainted Blood]|h|r!", -- [2]
+				"Gurtogg Bloodboil", -- [3]
+				1, -- [4]
+			}, -- [6]
+			{
+				13.56600000000071, -- [1]
+				"More! I want MORE!", -- [2]
+				"Gurtogg Bloodboil", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				15.89900000000125, -- [1]
+				"ArRRgghhHhh...", -- [2]
+				"Gurtogg Bloodboil", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				19.61599999999999, -- [1]
+				"I am everburning!", -- [2]
+				"Blademaster Jubei'thos", -- [3]
+				7, -- [4]
+			}, -- [9]
+			["boss"] = "Hellfire High Council",
+		}, -- [1]
+		{
+			{
+				0.1, -- [1]
 				"They are here. Hurry! Gul'dan demands we finish this...", -- [2]
 				"Fel Iron Summoner", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				18.79199999999992, -- [1]
+				18.93400000000111, -- [1]
 				"|cFFFF0000%s|r appears and begins to empower the Fel Spire!", -- [2]
 				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [2]
 			{
-				18.79199999999992, -- [1]
+				19.14999999999964, -- [1]
 				"Faithless fools. The Legion wills it; it will be done.", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				29.30799999999999, -- [1]
+				29, -- [1]
 				"Return Mannoroth... Yes, yes! Your masters call you to this world once more!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [4]
 			{
-				42.77399999999989, -- [1]
+				43.63400000000002, -- [1]
 				"Fear not, Mannoroth. The fel gift empowers you... Make them suffer!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [5]
 			{
-				43.97399999999993, -- [1]
+				45.66699999999946, -- [1]
 				"|cFFFF0000%s|r begins to empower the Fel Spire!", -- [2]
 				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [6]
 			{
-				46.37400000000002, -- [1]
+				47.26599999999962, -- [1]
 				"These mortals cannot be this strong. Gul'dan, do something!", -- [2]
 				"Mannoroth", -- [3]
 				7, -- [4]
 			}, -- [7]
 			{
-				47.60799999999995, -- [1]
-				"|cFFFF0000%s|r begins to empower the Fel Spire!", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [8]
-			{
-				47.8900000000001, -- [1]
+				47.5, -- [1]
 				"Wha- What is this? Gul'dan what have you done? I am... So weak...", -- [2]
 				"Mannoroth", -- [3]
 				7, -- [4]
+			}, -- [8]
+			{
+				49.28300000000127, -- [1]
+				"|cFFFF0000%s|r begins to empower the Fel Spire!", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
 			}, -- [9]
 			["boss"] = "Mannoroth",
-		}, -- [1]
+		}, -- [2]
 		{
 			{
 				0.1, -- [1]
@@ -1228,63 +1285,24 @@ EncounterDetailsDB = {
 				7, -- [4]
 			}, -- [1]
 			{
-				1.032999999999902, -- [1]
+				1.350000000000364, -- [1]
 				"These gaps in reality... I must tear them wider!", -- [2]
 				"Xhul'horac", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				6.082999999999856, -- [1]
+				6.333000000000538, -- [1]
 				"LEGION! Destroy all who stand before you!", -- [2]
 				"Xhul'horac", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				12.13300000000004, -- [1]
+				11.19200000000092, -- [1]
 				"I TEAR APART! AND WITH ME, YOU TOO SHALL DIE!", -- [2]
 				"Xhul'horac", -- [3]
 				7, -- [4]
 			}, -- [4]
 			["boss"] = "Xhul'horac",
-		}, -- [2]
-		{
-			{
-				0.1990000000000691, -- [1]
-				"We will reap your souls.", -- [2]
-				"Fel Lord Zakuun", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				2.08400000000006, -- [1]
-				"See how they struggle, not even their combined might will be enough to save you.", -- [2]
-				"Fel Lord Zakuun", -- [3]
-				4, -- [4]
-			}, -- [2]
-			{
-				6.115999999999985, -- [1]
-				"Heh Heh Heh, they are besting you demon.", -- [2]
-				"Grommash Hellscream", -- [3]
-				4, -- [4]
-			}, -- [3]
-			{
-				8.215999999999894, -- [1]
-				"|TInterface\\Icons\\inv_axe_2h_orgrimmarraid_d_01.blp:20|tFel Lord Zakuun frenzies and is now |cFFFF0000|Hspell:179671|h[Heavily Armed]|h|r!", -- [2]
-				"Fel Lord Zakuun", -- [3]
-				1, -- [4]
-			}, -- [4]
-			{
-				8.215999999999894, -- [1]
-				"We are unstoppable!", -- [2]
-				"Fel Lord Zakuun", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				8.548999999999978, -- [1]
-				"Finish him heroes, that I may drive that cursed axe down his throat and cut out his fel heart.", -- [2]
-				"Grommash Hellscream", -- [3]
-				4, -- [4]
-			}, -- [6]
-			["boss"] = "Fel Lord Zakuun",
 		}, -- [3]
 	},
 }

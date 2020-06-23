@@ -9,6 +9,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fel Iron Summoner",
 		},
+		[156138] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Fel Lord Zakuun",
+		},
 		[179582] = {
 			["school"] = 1,
 			["token"] = {
@@ -60,6 +67,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gorian Warmage",
 		},
+		[191068] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Desecration",
+		},
 		[179583] = {
 			["school"] = 4,
 			["token"] = {
@@ -87,6 +103,8 @@ EncounterDetailsDB = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Felborne Overfiend",
 		},
@@ -98,13 +116,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tyrant Velhari",
 		},
-		[181138] = {
-			["school"] = 64,
+		[158012] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Fel Imp",
 		},
 		[185175] = {
 			["school"] = 1,
@@ -122,20 +139,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Xhul'horac",
 		},
-		[181192] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Dread Infernal",
-		},
-		[158012] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-		},
 		[174126] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -144,6 +147,21 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Gorian Warmage",
+		},
+		[185590] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[188614] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
 		},
 		[179986] = {
 			["school"] = 1,
@@ -163,13 +181,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dread Infernal",
 		},
-		[185590] = {
-			["school"] = 4,
+		[179743] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Archimonde",
+			["source"] = "Fel Lord Zakuun",
 		},
 		[184357] = {
 			["school"] = 1,
@@ -189,12 +207,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Imperator Mar'gok",
 		},
-		[188614] = {
-			["school"] = 1,
+		[157657] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Volatile Anomaly",
 		},
 		[186271] = {
 			["school"] = 4,
@@ -221,37 +240,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tyrant Velhari",
 		},
-		[179743] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[181192] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Fel Lord Zakuun",
+			["source"] = "Dread Infernal",
 		},
 		[184476] = {
 			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Dia Darkwhisper",
 		},
-		[191068] = {
+		[180000] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Tyrant Velhari",
+		},
+		[179681] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Desecration",
-		},
-		[157657] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Volatile Anomaly",
+			["source"] = "Fel Lord Zakuun",
 		},
 		[189540] = {
 			["school"] = 4,
@@ -262,13 +281,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Soulbound Construct",
 		},
-		[180000] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[181138] = {
+			["school"] = 64,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Tyrant Velhari",
+			["source"] = "Fel Imp",
 		},
 		[186532] = {
 			["school"] = 4,
@@ -284,14 +303,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archimonde",
 		},
-		[179681] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[184847] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Fel Lord Zakuun",
+			["source"] = "Gurtogg Bloodboil",
 		},
 		[188950] = {
 			["school"] = 1,
@@ -302,12 +321,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Desecration",
 		},
-		[186993] = {
-			["school"] = 4,
+		[159515] = {
+			["school"] = 64,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Blademaster Jubei'thos",
+			["source"] = "Imperator Mar'gok",
 		},
 		[182225] = {
 			["school"] = 4,
@@ -327,13 +347,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shadowfel Warden",
 		},
-		[159515] = {
-			["school"] = 64,
-			["type"] = "BUFF",
+		[186993] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Imperator Mar'gok",
+			["source"] = "Blademaster Jubei'thos",
 		},
 		[158013] = {
 			["school"] = 1,
@@ -342,13 +361,12 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
-		[180166] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[157278] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Tyrant Velhari",
+			["source"] = "Imperator Mar'gok",
 		},
 		[41062] = {
 			["school"] = 1,
@@ -359,12 +377,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blademaster Jubei'thos",
 		},
-		[157278] = {
-			["school"] = 64,
+		[180166] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Imperator Mar'gok",
+			["source"] = "Tyrant Velhari",
 		},
 		[184675] = {
 			["school"] = 32,
@@ -427,14 +446,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
-		[184847] = {
-			["school"] = 8,
+		[184676] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Gurtogg Bloodboil",
+			["source"] = "Dia Darkwhisper",
 		},
 		[181912] = {
 			["school"] = 1,
@@ -497,126 +516,156 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
-				0.2509999999999764, -- [1]
+				3.23299999999972, -- [1]
+				"Yes, Dark Lady.", -- [2]
+				"Gurtogg Bloodboil", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				8.48299999999972, -- [1]
+				"%s |cFFFF0404|Hspell:184476|h[Reaps]|h|r all marked foes!", -- [2]
+				"Dia Darkwhisper", -- [3]
+				1, -- [4]
+			}, -- [2]
+			{
+				8.48299999999972, -- [1]
+				"It rips. It tears. It is boundless and eternal...", -- [2]
+				"Dia Darkwhisper", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				10.91699999999992, -- [1]
+				"|TInterface\\Icons\\inv_misc_boilingblood.blp:20|t %s begins to use |cFFFF0404|Hspell:184357|h[Tainted Blood]|h|r!", -- [2]
+				"Gurtogg Bloodboil", -- [3]
+				1, -- [4]
+			}, -- [4]
+			{
+				10.91699999999992, -- [1]
+				"More! I want MORE!", -- [2]
+				"Gurtogg Bloodboil", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				11.48299999999972, -- [1]
+				"ArRRgghhHhh...", -- [2]
+				"Gurtogg Bloodboil", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				13.33299999999963, -- [1]
+				"%s marks half of her enemies with |cFFFF0404|Hspell:184449|h[Mark of the Necromancer]|h|r!", -- [2]
+				"Dia Darkwhisper", -- [3]
+				1, -- [4]
+			}, -- [7]
+			{
+				13.33299999999963, -- [1]
+				"They will carry the darkness with them.", -- [2]
+				"Dia Darkwhisper", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				14.13599999999997, -- [1]
+				"I am everburning!", -- [2]
+				"Blademaster Jubei'thos", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				14.13599999999997, -- [1]
+				"The sweet mercy... of death.", -- [2]
+				"Dia Darkwhisper", -- [3]
+				7, -- [4]
+			}, -- [10]
+			["boss"] = "Hellfire High Council",
+		}, -- [1]
+		{
+			{
+				0.2039999999997235, -- [1]
 				"They are here. Hurry! Gul'dan demands we finish this...", -- [2]
 				"Fel Iron Summoner", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				24.83299999999986, -- [1]
+				17.221, -- [1]
 				"|cFFFF0000%s|r appears and begins to empower the Fel Spire!", -- [2]
 				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [2]
 			{
-				24.83299999999986, -- [1]
+				17.221, -- [1]
 				"Faithless fools. The Legion wills it; it will be done.", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				34.5329999999999, -- [1]
+				27.80299999999988, -- [1]
 				"Return Mannoroth... Yes, yes! Your masters call you to this world once more!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [4]
 			{
-				52.41599999999994, -- [1]
+				42.2529999999997, -- [1]
 				"Fear not, Mannoroth. The fel gift empowers you... Make them suffer!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [5]
 			{
-				52.66599999999994, -- [1]
-				"Wha- What is this? Gul'dan what have you done? I am... So weak...", -- [2]
-				"Mannoroth", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				54.01599999999985, -- [1]
+				43.62099999999964, -- [1]
 				"|cFFFF0000%s|r begins to empower the Fel Spire!", -- [2]
 				"Gul'dan", -- [3]
 				1, -- [4]
+			}, -- [6]
+			{
+				46.0029999999997, -- [1]
+				"These mortals cannot be this strong. Gul'dan, do something!", -- [2]
+				"Mannoroth", -- [3]
+				7, -- [4]
 			}, -- [7]
 			{
-				58.49900000000002, -- [1]
-				"These mortals cannot be this strong. Gul'dan, do something!", -- [2]
+				46.30399999999963, -- [1]
+				"Wha- What is this? Gul'dan what have you done? I am... So weak...", -- [2]
 				"Mannoroth", -- [3]
 				7, -- [4]
 			}, -- [8]
 			{
-				60.13300000000004, -- [1]
+				47.2199999999998, -- [1]
 				"|cFFFF0000%s|r begins to empower the Fel Spire!", -- [2]
 				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [9]
 			["boss"] = "Mannoroth",
-		}, -- [1]
+		}, -- [2]
 		{
 			{
-				0.1670000000001437, -- [1]
+				0.193000000000211, -- [1]
 				"I have so much to show you...", -- [2]
 				"Xhul'horac", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				1.484000000000151, -- [1]
+				2.251000000000204, -- [1]
 				"These gaps in reality... I must tear them wider!", -- [2]
 				"Xhul'horac", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				7.167000000000144, -- [1]
+				7.101000000000113, -- [1]
 				"LEGION! Destroy all who stand before you!", -- [2]
 				"Xhul'horac", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				12, -- [1]
+				10.76800000000003, -- [1]
 				"I TEAR APART! AND WITH ME, YOU TOO SHALL DIE!", -- [2]
 				"Xhul'horac", -- [3]
 				7, -- [4]
 			}, -- [4]
-			["boss"] = "Xhul'horac",
-		}, -- [2]
-		{
 			{
-				0.2119999999999891, -- [1]
-				"We will reap your souls.", -- [2]
-				"Fel Lord Zakuun", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				3.276999999999816, -- [1]
-				"See how they struggle, not even their combined might will be enough to save you.", -- [2]
-				"Fel Lord Zakuun", -- [3]
-				4, -- [4]
-			}, -- [2]
-			{
-				5.727999999999838, -- [1]
-				"Heh Heh Heh, they are besting you demon.", -- [2]
-				"Grommash Hellscream", -- [3]
-				4, -- [4]
-			}, -- [3]
-			{
-				7.194999999999936, -- [1]
-				"|TInterface\\Icons\\inv_axe_2h_orgrimmarraid_d_01.blp:20|tFel Lord Zakuun frenzies and is now |cFFFF0000|Hspell:179671|h[Heavily Armed]|h|r!", -- [2]
-				"Fel Lord Zakuun", -- [3]
-				1, -- [4]
-			}, -- [4]
-			{
-				7.194999999999936, -- [1]
-				"We are unstoppable!", -- [2]
-				"Fel Lord Zakuun", -- [3]
+				11.58400000000029, -- [1]
+				"All will be swallowed! No life shall remain!", -- [2]
+				"Xhul'horac", -- [3]
 				7, -- [4]
 			}, -- [5]
-			{
-				8.144000000000005, -- [1]
-				"Finish him heroes, that I may drive that cursed axe down his throat and cut out his fel heart.", -- [2]
-				"Grommash Hellscream", -- [3]
-				4, -- [4]
-			}, -- [6]
-			["boss"] = "Fel Lord Zakuun",
+			["boss"] = "Xhul'horac",
 		}, -- [3]
 	},
 }

@@ -80,12 +80,12 @@ PasteDB = {
 			},
 		},
 		["Mallusof - Silvermoon"] = {
+			["whispertarget"] = "",
+			["where"] = "Default",
 			["loaded"] = true,
 			["minimap"] = {
 				["hide"] = true,
 			},
-			["where"] = "Default",
-			["whispertarget"] = "",
 			["pos"] = {
 				["height"] = 320,
 				["top"] = 716.000732421875,
