@@ -16,9 +16,9 @@ PasteDB = {
 		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
 		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
 		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
-		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
-		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
+		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
+		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
 	},
 	["profiles"] = {
 		["Elyrianna - Ragnaros"] = {
@@ -69,8 +69,15 @@ PasteDB = {
 		["Zearthan - Silvermoon"] = {
 			["loaded"] = true,
 		},
-		["Kaldowrath - Silvermoon"] = {
+		["Mogfarmer - Silvermoon"] = {
 			["loaded"] = true,
+			["minimap"] = {
+				["minimapPos"] = 222.5805367040374,
+			},
+			["where"] = "Default",
+			["whispertarget"] = "",
+			["pos"] = {
+			},
 		},
 		["Mallusof - Silvermoon"] = {
 			["whispertarget"] = "",
@@ -86,15 +93,8 @@ PasteDB = {
 				["hide"] = true,
 			},
 		},
-		["Mogfarmer - Silvermoon"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
+		["Kaldowrath - Silvermoon"] = {
 			["loaded"] = true,
-			["minimap"] = {
-				["minimapPos"] = 222.5805367040374,
-			},
-			["pos"] = {
-			},
 		},
 	},
 }

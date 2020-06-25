@@ -16,9 +16,9 @@ TomTomDB = {
 		["Kindhoof - Ragnaros"] = "Default",
 		["Rahran - Silvermoon"] = "Default",
 		["Zearthan - Silvermoon"] = "Default",
-		["Kaldowrath - Silvermoon"] = "Default",
-		["Mallusof - Silvermoon"] = "Default",
 		["Mogfarmer - Silvermoon"] = "Default",
+		["Mallusof - Silvermoon"] = "Default",
+		["Kaldowrath - Silvermoon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -61,9 +61,9 @@ TomTomWaypointsM = {
 		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
 		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
 		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
-		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
-		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
+		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
+		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
 	},
 	["profiles"] = {
 		["Elyrianna - Ragnaros"] = {
@@ -89,7 +89,7 @@ TomTomWaypointsM = {
 					0.392, -- [2]
 					0.688, -- [3]
 					["crazy"] = true,
-					["worldmap_displayID"] = 62258,
+					["desc"] = "Bramblefell",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -104,11 +104,11 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["silent"] = true,
 					["cleardistance"] = 10,
+					["title"] = "Bramblefell",
+					["worldmap_displayID"] = 62258,
 					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["from"] = "?",
 					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["title"] = "Bramblefell",
-					["desc"] = "Bramblefell",
 					["world"] = true,
 				},
 			},
@@ -125,17 +125,22 @@ TomTomWaypointsM = {
 		},
 		["Zearthan - Silvermoon"] = {
 		},
-		["Kaldowrath - Silvermoon"] = {
+		["Mogfarmer - Silvermoon"] = {
 		},
 		["Mallusof - Silvermoon"] = {
-			[106] = {
-				["106:244000000:515000000:Fenissa the Assassin"] = {
-					106, -- [1]
-					0.244, -- [2]
-					0.515, -- [3]
-					["crazy"] = true,
-					["desc"] = "Fenissa the Assassin",
+			[36] = {
+				["36:680000185.96649:600000023.84186:Bonfire (Honor) (Burning Steppes, 11810)"] = {
+					36, -- [1]
+					0.6800001859664917, -- [2]
+					0.6000000238418579, -- [3]
 					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Bonfire (Honor) (Burning Steppes, 11810)",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Bonfire (Honor) (Burning Steppes, 11810)",
+					["from"] = "?",
 					["callbacks"] = {
 						["distance"] = {
 						},
@@ -144,232 +149,7 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["title"] = "Fenissa the Assassin",
-					["persistent"] = true,
 					["minimap"] = true,
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["minimap_displayID"] = 20771,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["world"] = true,
-				},
-				["106:366000000:603000000:Fenissa the Assassin"] = {
-					106, -- [1]
-					0.366, -- [2]
-					0.603, -- [3]
-					["crazy"] = true,
-					["desc"] = "Fenissa the Assassin",
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["title"] = "Fenissa the Assassin",
-					["persistent"] = true,
-					["minimap"] = true,
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["minimap_displayID"] = 20771,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["world"] = true,
-				},
-				["106:388000000:584000000:Fenissa the Assassin"] = {
-					106, -- [1]
-					0.388, -- [2]
-					0.584, -- [3]
-					["crazy"] = true,
-					["desc"] = "Fenissa the Assassin",
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["title"] = "Fenissa the Assassin",
-					["persistent"] = true,
-					["minimap"] = true,
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["minimap_displayID"] = 20771,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["world"] = true,
-				},
-				["106:401000000:612000000:Fenissa the Assassin"] = {
-					106, -- [1]
-					0.401, -- [2]
-					0.612, -- [3]
-					["crazy"] = true,
-					["desc"] = "Fenissa the Assassin",
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["title"] = "Fenissa the Assassin",
-					["persistent"] = true,
-					["minimap"] = true,
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["minimap_displayID"] = 20771,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["world"] = true,
-				},
-				["106:243000000:542000000:Fenissa the Assassin"] = {
-					106, -- [1]
-					0.243, -- [2]
-					0.542, -- [3]
-					["crazy"] = true,
-					["desc"] = "Fenissa the Assassin",
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["title"] = "Fenissa the Assassin",
-					["persistent"] = true,
-					["minimap"] = true,
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["minimap_displayID"] = 20771,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["world"] = true,
-				},
-				["106:243000000:565000000:Fenissa the Assassin"] = {
-					106, -- [1]
-					0.243, -- [2]
-					0.565, -- [3]
-					["crazy"] = true,
-					["desc"] = "Fenissa the Assassin",
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["title"] = "Fenissa the Assassin",
-					["persistent"] = true,
-					["minimap"] = true,
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["minimap_displayID"] = 20771,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["world"] = true,
-				},
-				["106:395000000:589000000:Fenissa the Assassin"] = {
-					106, -- [1]
-					0.395, -- [2]
-					0.589, -- [3]
-					["crazy"] = true,
-					["desc"] = "Fenissa the Assassin",
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["title"] = "Fenissa the Assassin",
-					["persistent"] = true,
-					["minimap"] = true,
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["minimap_displayID"] = 20771,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["world"] = true,
-				},
-				["106:363000000:627000000:Fenissa the Assassin"] = {
-					106, -- [1]
-					0.363, -- [2]
-					0.627, -- [3]
-					["crazy"] = true,
-					["desc"] = "Fenissa the Assassin",
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["title"] = "Fenissa the Assassin",
-					["persistent"] = true,
-					["minimap"] = true,
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["minimap_displayID"] = 20771,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["world"] = true,
-				},
-				["106:378000000:584000000:Fenissa the Assassin"] = {
-					106, -- [1]
-					0.378, -- [2]
-					0.584, -- [3]
-					["crazy"] = true,
-					["desc"] = "Fenissa the Assassin",
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["title"] = "Fenissa the Assassin",
-					["persistent"] = true,
-					["minimap"] = true,
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["minimap_displayID"] = 20771,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["world"] = true,
 				},
 			},
@@ -379,6 +159,13 @@ TomTomWaypointsM = {
 					0.4021999835968018, -- [2]
 					0.4760001003742218, -- [3]
 					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Bonfire (Honor) (Drustvar, 54743)",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Bonfire (Honor) (Drustvar, 54743)",
+					["from"] = "?",
 					["callbacks"] = {
 						["distance"] = {
 						},
@@ -387,27 +174,22 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["persistent"] = true,
 					["minimap"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Bonfire (Honor) (Drustvar, 54743)",
-					["from"] = "?",
-					["crazy"] = true,
 					["world"] = true,
 				},
 			},
 			[1469] = {
-				["1469:494000000:687000000:Hidden behind boxes"] = {
+				["1469:579000000:486000000:Inside hut behind Inquisitor"] = {
 					1469, -- [1]
-					0.494, -- [2]
-					0.687, -- [3]
+					0.579, -- [2]
+					0.486, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Hidden behind boxes",
+					["desc"] = "Inside hut behind Inquisitor",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Hidden behind boxes",
+					["title"] = "Inside hut behind Inquisitor",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -420,17 +202,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1469:682000000:429000000:Underneath bridge"] = {
+				["1469:639000000:304000000:Go right behind Rexxar's building"] = {
 					1469, -- [1]
-					0.682, -- [2]
-					0.429, -- [3]
+					0.639, -- [2]
+					0.304, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Underneath bridge",
+					["desc"] = "Go right behind Rexxar's building",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Underneath bridge",
+					["title"] = "Go right behind Rexxar's building",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -558,17 +340,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1469:535000000:820000000:Inside first hut on the right"] = {
+				["1469:487000000:838000000:In the bank, behind the counter"] = {
 					1469, -- [1]
-					0.535, -- [2]
-					0.82, -- [3]
+					0.487, -- [2]
+					0.838, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Inside first hut on the right",
+					["desc"] = "In the bank, behind the counter",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Inside first hut on the right",
+					["title"] = "In the bank, behind the counter",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -604,17 +386,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1469:487000000:838000000:In the bank, behind the counter"] = {
+				["1469:535000000:820000000:Inside first hut on the right"] = {
 					1469, -- [1]
-					0.487, -- [2]
-					0.838, -- [3]
+					0.535, -- [2]
+					0.82, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "In the bank, behind the counter",
+					["desc"] = "Inside first hut on the right",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "In the bank, behind the counter",
+					["title"] = "Inside first hut on the right",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -673,17 +455,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1469:639000000:304000000:Go right behind Rexxar's building"] = {
+				["1469:682000000:429000000:Underneath bridge"] = {
 					1469, -- [1]
-					0.639, -- [2]
-					0.304, -- [3]
+					0.682, -- [2]
+					0.429, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Go right behind Rexxar's building",
+					["desc"] = "Underneath bridge",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Go right behind Rexxar's building",
+					["title"] = "Underneath bridge",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -696,17 +478,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1469:579000000:486000000:Inside hut behind Inquisitor"] = {
+				["1469:494000000:687000000:Hidden behind boxes"] = {
 					1469, -- [1]
-					0.579, -- [2]
-					0.486, -- [3]
+					0.494, -- [2]
+					0.687, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Inside hut behind Inquisitor",
+					["desc"] = "Hidden behind boxes",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Inside hut behind Inquisitor",
+					["title"] = "Hidden behind boxes",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -720,13 +502,13 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
-			[71] = {
-				["71:424000000:716000000:Otela\nTime-Lost Baubles"] = {
-					71, -- [1]
-					0.424, -- [2]
-					0.716, -- [3]
+			[106] = {
+				["106:244000000:515000000:Fenissa the Assassin"] = {
+					106, -- [1]
+					0.244, -- [2]
+					0.515, -- [3]
 					["crazy"] = true,
-					["desc"] = "Otela\nTime-Lost Baubles",
+					["worldmap_displayID"] = 20771,
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -736,16 +518,232 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["title"] = "Otela\nTime-Lost Baubles",
+					["minimap_displayID"] = 20771,
 					["persistent"] = true,
-					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+					["title"] = "Fenissa the Assassin",
 					["from"] = "?",
-					["worldmap_displayID"] = 92567,
-					["minimap_displayID"] = 92567,
-					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap"] = true,
+					["desc"] = "Fenissa the Assassin",
+					["world"] = true,
+				},
+				["106:366000000:603000000:Fenissa the Assassin"] = {
+					106, -- [1]
+					0.366, -- [2]
+					0.603, -- [3]
+					["crazy"] = true,
+					["worldmap_displayID"] = 20771,
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap_displayID"] = 20771,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Fenissa the Assassin",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap"] = true,
+					["desc"] = "Fenissa the Assassin",
+					["world"] = true,
+				},
+				["106:388000000:584000000:Fenissa the Assassin"] = {
+					106, -- [1]
+					0.388, -- [2]
+					0.584, -- [3]
+					["crazy"] = true,
+					["worldmap_displayID"] = 20771,
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap_displayID"] = 20771,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Fenissa the Assassin",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap"] = true,
+					["desc"] = "Fenissa the Assassin",
+					["world"] = true,
+				},
+				["106:401000000:612000000:Fenissa the Assassin"] = {
+					106, -- [1]
+					0.401, -- [2]
+					0.612, -- [3]
+					["crazy"] = true,
+					["worldmap_displayID"] = 20771,
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap_displayID"] = 20771,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Fenissa the Assassin",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap"] = true,
+					["desc"] = "Fenissa the Assassin",
+					["world"] = true,
+				},
+				["106:243000000:542000000:Fenissa the Assassin"] = {
+					106, -- [1]
+					0.243, -- [2]
+					0.542, -- [3]
+					["crazy"] = true,
+					["worldmap_displayID"] = 20771,
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap_displayID"] = 20771,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Fenissa the Assassin",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap"] = true,
+					["desc"] = "Fenissa the Assassin",
+					["world"] = true,
+				},
+				["106:243000000:565000000:Fenissa the Assassin"] = {
+					106, -- [1]
+					0.243, -- [2]
+					0.565, -- [3]
+					["crazy"] = true,
+					["worldmap_displayID"] = 20771,
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap_displayID"] = 20771,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Fenissa the Assassin",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap"] = true,
+					["desc"] = "Fenissa the Assassin",
+					["world"] = true,
+				},
+				["106:395000000:589000000:Fenissa the Assassin"] = {
+					106, -- [1]
+					0.395, -- [2]
+					0.589, -- [3]
+					["crazy"] = true,
+					["worldmap_displayID"] = 20771,
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap_displayID"] = 20771,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Fenissa the Assassin",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap"] = true,
+					["desc"] = "Fenissa the Assassin",
+					["world"] = true,
+				},
+				["106:378000000:584000000:Fenissa the Assassin"] = {
+					106, -- [1]
+					0.378, -- [2]
+					0.584, -- [3]
+					["crazy"] = true,
+					["worldmap_displayID"] = 20771,
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap_displayID"] = 20771,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Fenissa the Assassin",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap"] = true,
+					["desc"] = "Fenissa the Assassin",
+					["world"] = true,
+				},
+				["106:363000000:627000000:Fenissa the Assassin"] = {
+					106, -- [1]
+					0.363, -- [2]
+					0.627, -- [3]
+					["crazy"] = true,
+					["worldmap_displayID"] = 20771,
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap_displayID"] = 20771,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Fenissa the Assassin",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap"] = true,
+					["desc"] = "Fenissa the Assassin",
 					["world"] = true,
 				},
 			},
@@ -934,40 +932,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1470:477000000:894000000:On Platform Above Upper Walkway"] = {
+				["1470:634000000:417000000:Corner by Chest Spawn"] = {
 					1470, -- [1]
-					0.477, -- [2]
-					0.894, -- [3]
+					0.634, -- [2]
+					0.417, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "On Platform Above Upper Walkway",
+					["desc"] = "Corner by Chest Spawn",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "On Platform Above Upper Walkway",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:646000000:309000000:Corner Behind Boxes"] = {
-					1470, -- [1]
-					0.6459999999999999, -- [2]
-					0.309, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Corner Behind Boxes",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Corner Behind Boxes",
+					["title"] = "Corner by Chest Spawn",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -1003,17 +978,40 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1470:634000000:417000000:Corner by Chest Spawn"] = {
+				["1470:646000000:309000000:Corner Behind Boxes"] = {
 					1470, -- [1]
-					0.634, -- [2]
-					0.417, -- [3]
+					0.6459999999999999, -- [2]
+					0.309, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Corner by Chest Spawn",
+					["desc"] = "Corner Behind Boxes",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Corner by Chest Spawn",
+					["title"] = "Corner Behind Boxes",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:477000000:894000000:On Platform Above Upper Walkway"] = {
+					1470, -- [1]
+					0.477, -- [2]
+					0.894, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "On Platform Above Upper Walkway",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "On Platform Above Upper Walkway",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -1033,7 +1031,7 @@ TomTomWaypointsM = {
 					0.804, -- [2]
 					0.56, -- [3]
 					["crazy"] = true,
-					["desc"] = "Silthide",
+					["worldmap_displayID"] = 61216,
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -1043,16 +1041,16 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["from"] = "?",
+					["minimap_displayID"] = 61216,
 					["persistent"] = true,
-					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Silthide",
-					["minimap_displayID"] = 61216,
-					["worldmap_displayID"] = 61216,
+					["from"] = "?",
 					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap"] = true,
+					["desc"] = "Silthide",
 					["world"] = true,
 				},
 				["535:620000000:332000000:Silthide"] = {
@@ -1060,7 +1058,7 @@ TomTomWaypointsM = {
 					0.62, -- [2]
 					0.332, -- [3]
 					["crazy"] = true,
-					["desc"] = "Silthide",
+					["worldmap_displayID"] = 61216,
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -1070,16 +1068,16 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["from"] = "?",
+					["minimap_displayID"] = 61216,
 					["persistent"] = true,
-					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Silthide",
-					["minimap_displayID"] = 61216,
-					["worldmap_displayID"] = 61216,
+					["from"] = "?",
 					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap"] = true,
+					["desc"] = "Silthide",
 					["world"] = true,
 				},
 				["535:468000000:310000000:Sargerei War Council"] = {
@@ -1102,17 +1100,17 @@ TomTomWaypointsM = {
 					["cleardistance"] = 10,
 					["title"] = "Sargerei War Council",
 					["from"] = "?",
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["535:674000000:598000000:Silthide"] = {
+				["535:314000000:476000000:Orumo the Observer"] = {
 					535, -- [1]
-					0.674, -- [2]
-					0.598, -- [3]
+					0.314, -- [2]
+					0.476, -- [3]
 					["crazy"] = true,
-					["desc"] = "Silthide",
+					["worldmap_displayID"] = 60429,
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -1122,16 +1120,16 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["from"] = "?",
+					["minimap_displayID"] = 60429,
 					["persistent"] = true,
-					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Silthide",
-					["minimap_displayID"] = 61216,
-					["worldmap_displayID"] = 61216,
+					["title"] = "Orumo the Observer",
+					["from"] = "?",
 					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap"] = true,
+					["desc"] = "Orumo the Observer",
 					["world"] = true,
 				},
 				["535:336000000:378000000:Lady Demlash\nShadow Council"] = {
@@ -1139,7 +1137,7 @@ TomTomWaypointsM = {
 					0.336, -- [2]
 					0.378, -- [3]
 					["crazy"] = true,
-					["desc"] = "Lady Demlash\nShadow Council",
+					["worldmap_displayID"] = 60856,
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -1149,95 +1147,16 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["from"] = "?",
+					["minimap_displayID"] = 60856,
 					["persistent"] = true,
-					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Lady Demlash\nShadow Council",
-					["minimap_displayID"] = 60856,
-					["worldmap_displayID"] = 60856,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["world"] = true,
-				},
-				["535:626000000:460000000:Silthide"] = {
-					535, -- [1]
-					0.626, -- [2]
-					0.46, -- [3]
-					["crazy"] = true,
-					["desc"] = "Silthide",
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
 					["from"] = "?",
-					["persistent"] = true,
-					["minimap"] = true,
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Silthide",
-					["minimap_displayID"] = 61216,
-					["worldmap_displayID"] = 61216,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["world"] = true,
-				},
-				["535:458000000:278000000:Sargerei War Council"] = {
-					535, -- [1]
-					0.458, -- [2]
-					0.278, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Sargerei War Council",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Sargerei War Council",
-					["from"] = "?",
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["minimap"] = true,
-					["world"] = true,
-				},
-				["535:374000000:376000000:Kurlosh Doomfang\nShadow Council"] = {
-					535, -- [1]
-					0.374, -- [2]
-					0.376, -- [3]
-					["crazy"] = true,
-					["desc"] = "Kurlosh Doomfang\nShadow Council",
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["from"] = "?",
-					["persistent"] = true,
-					["minimap"] = true,
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Kurlosh Doomfang\nShadow Council",
-					["minimap_displayID"] = 57440,
-					["worldmap_displayID"] = 57440,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["desc"] = "Lady Demlash\nShadow Council",
 					["world"] = true,
 				},
 				["535:438000000:264000000:Sargerei War Council"] = {
@@ -1260,17 +1179,17 @@ TomTomWaypointsM = {
 					["cleardistance"] = 10,
 					["title"] = "Sargerei War Council",
 					["from"] = "?",
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["535:314000000:476000000:Orumo the Observer"] = {
+				["535:374000000:376000000:Kurlosh Doomfang\nShadow Council"] = {
 					535, -- [1]
-					0.314, -- [2]
-					0.476, -- [3]
+					0.374, -- [2]
+					0.376, -- [3]
 					["crazy"] = true,
-					["desc"] = "Orumo the Observer",
+					["worldmap_displayID"] = 57440,
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -1280,24 +1199,105 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["from"] = "?",
+					["minimap_displayID"] = 57440,
 					["persistent"] = true,
-					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Orumo the Observer",
-					["minimap_displayID"] = 60429,
-					["worldmap_displayID"] = 60429,
+					["title"] = "Kurlosh Doomfang\nShadow Council",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap"] = true,
+					["desc"] = "Kurlosh Doomfang\nShadow Council",
+					["world"] = true,
+				},
+				["535:458000000:278000000:Sargerei War Council"] = {
+					535, -- [1]
+					0.458, -- [2]
+					0.278, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Sargerei War Council",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Sargerei War Council",
+					["from"] = "?",
 					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["535:626000000:460000000:Silthide"] = {
+					535, -- [1]
+					0.626, -- [2]
+					0.46, -- [3]
+					["crazy"] = true,
+					["worldmap_displayID"] = 61216,
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap_displayID"] = 61216,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Silthide",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap"] = true,
+					["desc"] = "Silthide",
+					["world"] = true,
+				},
+				["535:674000000:598000000:Silthide"] = {
+					535, -- [1]
+					0.674, -- [2]
+					0.598, -- [3]
+					["crazy"] = true,
+					["worldmap_displayID"] = 61216,
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap_displayID"] = 61216,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Silthide",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap"] = true,
+					["desc"] = "Silthide",
 					["world"] = true,
 				},
 			},
-			[36] = {
-				["36:680000185.96649:600000023.84186:Bonfire (Honor) (Burning Steppes, 11810)"] = {
-					36, -- [1]
-					0.6800001859664917, -- [2]
-					0.6000000238418579, -- [3]
+			[71] = {
+				["71:424000000:716000000:Otela\nTime-Lost Baubles"] = {
+					71, -- [1]
+					0.424, -- [2]
+					0.716, -- [3]
+					["crazy"] = true,
+					["worldmap_displayID"] = 92567,
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -1307,17 +1307,21 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
+					["minimap_displayID"] = 92567,
 					["persistent"] = true,
-					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Bonfire (Honor) (Burning Steppes, 11810)",
+					["title"] = "Otela\nTime-Lost Baubles",
 					["from"] = "?",
-					["crazy"] = true,
+					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+					["minimap"] = true,
+					["desc"] = "Otela\nTime-Lost Baubles",
 					["world"] = true,
 				},
 			},
 		},
-		["Mogfarmer - Silvermoon"] = {
+		["Kaldowrath - Silvermoon"] = {
 		},
 	},
 }
