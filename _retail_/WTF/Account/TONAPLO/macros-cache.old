@@ -103,9 +103,33 @@ VER 3 0000000000000082 "MO HPriest09" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [talent:7/2] Apotheosis; [talent:7/3] Holy Word: Salvation
 END
+VER 3 000000000000008B "MO Monk 06" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Life Cocoon
+END
+VER 3 000000000000008C "MO Monk 07" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Tiger's Lust
+END
 VER 3 0000000000000071 "MO Monk01" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [talent:1/2] Chi Wave; [talent:1/3] Chi Burst
+END
+VER 3 0000000000000087 "MO Monk02" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Vivify
+END
+VER 3 0000000000000088 "MO Monk03" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Enveloping Mist
+END
+VER 3 0000000000000089 "MO Monk04" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Renewing Mist
+END
+VER 3 000000000000008A "MO Monk05" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Soothing Mist
 END
 VER 3 0000000000000072 "MO Pally01" "INV_MISC_QUESTIONMARK"
 #showtooltip

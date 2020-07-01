@@ -26,3 +26,4 @@ DailyToDo: enabled
 TradeSkillMaster: disabled
 AngryAssignments: disabled
 StatPriority: enabled
+LittleWigs: enabled

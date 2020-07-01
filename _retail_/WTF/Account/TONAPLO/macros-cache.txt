@@ -177,6 +177,9 @@ END
 VER 3 000000000000007C "reload ui" "237290"
 /reload ui
 END
+VER 3 000000000000008D "Selfkill" "135935"
+/click HelpFrameCharacterStuckStuck
+END
 VER 3 000000000000007D "SUPER PET LEVEL" "135996"
 /script local ids = { 31851, 31819, 31850, 31780, 31781, }; for i = 1, 5 do local index = GetQuestLogIndexByID(ids[i]); SelectQuestLogEntry(index); ShowQuestComplete(index); CompleteQuest(); GetQuestReward(); end
 END

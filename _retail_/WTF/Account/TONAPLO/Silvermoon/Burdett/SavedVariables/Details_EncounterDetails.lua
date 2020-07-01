@@ -2,6 +2,9 @@
 EncounterDetailsDB = {
 	["emotes"] = {
 		{
+			["boss"] = "Slave Watcher Crushto",
+		}, -- [1]
+		{
 			{
 				0.1839999999997417, -- [1]
 				"Let the echoes of doom resound across this wretched world, that all who live may hear them and despair.", -- [2]
@@ -75,7 +78,7 @@ EncounterDetailsDB = {
 				7, -- [4]
 			}, -- [12]
 			["boss"] = "Archimonde",
-		}, -- [1]
+		}, -- [2]
 		{
 			{
 				1.197000000000116, -- [1]
@@ -126,57 +129,6 @@ EncounterDetailsDB = {
 				7, -- [4]
 			}, -- [8]
 			["boss"] = "Mannoroth",
-		}, -- [2]
-		{
-			{
-				0.1, -- [1]
-				"No matter how it all ends, you will die here.", -- [2]
-				"Xhul'horac", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				3.317000000000007, -- [1]
-				"These gaps in reality... I must tear them wider!", -- [2]
-				"Xhul'horac", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				5.650000000000091, -- [1]
-				"LEGION! Destroy all who stand before you!", -- [2]
-				"Xhul'horac", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				8.166999999999916, -- [1]
-				"All will be swallowed! No life shall remain!", -- [2]
-				"Xhul'horac", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				16.70800000000008, -- [1]
-				"Servants of the Void! Swallow this world!", -- [2]
-				"Xhul'horac", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				22.75, -- [1]
-				"I TEAR APART! AND WITH ME, YOU TOO SHALL DIE!", -- [2]
-				"Xhul'horac", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				25.18399999999974, -- [1]
-				"Xhul'horac targets you with |cFFFF0000|Hspell:186407|h[Fel Surge]|h|r!", -- [2]
-				"Burdett", -- [3]
-				2, -- [4]
-			}, -- [7]
-			{
-				26.20800000000008, -- [1]
-				"A |cFFFF0000|Hspell:186407|h[Shadowfel Annihilation]|h|r detonates on Burdett!", -- [2]
-				"Burdett", -- [3]
-				3, -- [4]
-			}, -- [8]
-			["boss"] = "Xhul'horac",
 		}, -- [3]
 	},
 	["encounter_spells"] = {
@@ -940,20 +892,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fel Lord Zakuun",
 		},
-		[181190] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Dread Infernal",
-		},
 		[158013] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
+		},
+		[159515] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Imperator Mar'gok",
 		},
 		[41062] = {
 			["school"] = 1,
@@ -990,20 +942,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Doom Lord Kaz'eth",
 		},
-		[184473] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-		},
-		[159515] = {
-			["school"] = 64,
+		[162288] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Imperator Mar'gok",
+			["source"] = "Tectus",
+		},
+		[181190] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Dread Infernal",
 		},
 		[184357] = {
 			["school"] = 1,
@@ -1059,14 +1012,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Felfire Flamebelcher",
 		},
-		[155181] = {
+		[181956] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Bellows Operator",
+			["source"] = "Shadow-Lord Iskar",
 		},
 		[155743] = {
 			["school"] = 4,
@@ -1190,13 +1142,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dread Infernal",
 		},
-		[160379] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Security Guard",
-		},
 		[188939] = {
 			["school"] = 32,
 			["token"] = {
@@ -1212,6 +1157,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Xhul'horac",
+		},
+		[160379] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Security Guard",
 		},
 		[181831] = {
 			["school"] = 1,
@@ -1258,12 +1210,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archimonde",
 		},
-		[181227] = {
-			["school"] = 8,
+		[189897] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Ancient Enforcer",
+			["source"] = "Archimonde",
 		},
 		[179218] = {
 			["school"] = 1,
@@ -1295,13 +1248,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shadowfel Warden",
 		},
-		[175745] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[180080] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Night-Twisted Brute",
+			["source"] = "Felfire Artillery",
 		},
 		[180143] = {
 			["school"] = 32,
@@ -1319,13 +1272,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Primal Elementalist",
 		},
-		[189897] = {
-			["school"] = 4,
+		[181227] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Archimonde",
+			["source"] = "Ancient Enforcer",
 		},
 		[179219] = {
 			["school"] = 4,
@@ -1353,13 +1305,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wild Pyromaniac",
 		},
-		[180080] = {
-			["school"] = 4,
+		[175745] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Felfire Artillery",
+			["source"] = "Night-Twisted Brute",
 		},
 		[181132] = {
 			["school"] = 4,
@@ -1394,13 +1346,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fel Lord Zakuun",
 		},
-		[165195] = {
-			["school"] = 8,
+		[182280] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Operator Thogar",
+			["source"] = "Iron Reaver",
 		},
 		[182001] = {
 			["school"] = 4,
@@ -1410,15 +1362,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Iron Reaver",
 		},
-		[183917] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[190313] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Hulking Terror",
+			["source"] = "Archimonde",
 		},
 		[174726] = {
 			["school"] = 1,
@@ -1427,13 +1377,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Furnace Engineer",
 		},
-		[190313] = {
-			["school"] = 32,
+		[182153] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Archimonde",
+			["source"] = "Salivating Bloodthirster",
 		},
 		[186292] = {
 			["school"] = 32,
@@ -1540,14 +1491,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Enforcer Sorka",
 		},
-		[182153] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[183917] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Salivating Bloodthirster",
+			["source"] = "Hulking Terror",
+		},
+		[165195] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Operator Thogar",
 		},
 		[175670] = {
 			["school"] = 1,
@@ -1556,14 +1516,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Ironworker",
-		},
-		[182280] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Iron Reaver",
 		},
 		[173471] = {
 			["school"] = 8,
@@ -1698,13 +1650,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kilrogg Deadeye",
 		},
-		[181956] = {
+		[155181] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Shadow-Lord Iskar",
+			["source"] = "Bellows Operator",
 		},
 		[181557] = {
 			["school"] = 4,
@@ -1751,20 +1704,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Iron Reaver",
 		},
+		[184473] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
 		[158078] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Marak the Blooded",
-		},
-		[162288] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Tectus",
 		},
 		[155288] = {
 			["school"] = 1,
