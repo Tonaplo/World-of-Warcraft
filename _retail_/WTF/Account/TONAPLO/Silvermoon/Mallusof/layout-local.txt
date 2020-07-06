@@ -1,11 +1,4 @@
 Version: 1
-Frame: scanner_button
-FrameLevel: 200
-Anchor: RIGHT
-X: -284
-Y: -35
-W: 200
-H: 50
 Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: TOPLEFT
@@ -111,6 +104,13 @@ X: -36
 Y: -37
 W: 800
 H: 500
+Frame: scanner_button
+FrameLevel: 200
+Anchor: RIGHT
+X: -284
+Y: -35
+W: 200
+H: 50
 Frame: RematchDialog
 FrameLevel: 1
 Anchor: CENTER

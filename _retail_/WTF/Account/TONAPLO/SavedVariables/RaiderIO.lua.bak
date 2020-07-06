@@ -3,11 +3,4 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "eu-Mallusof-silvermoon"
 RaiderIO_MissingCharacters = {
-	["eu-Kilmore-silvermoon"] = true,
-	["eu-Sasainos-silvermoon"] = true,
-	["eu-Demonloki-aszune"] = true,
-	["eu-Faèndal-silvermoon"] = true,
-	["eu-Modorf-silvermoon"] = true,
-	["eu-Guolong-silvermoon"] = true,
-	["eu-Mictlan-silvermoon"] = true,
 }
