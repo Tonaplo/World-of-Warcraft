@@ -1,7 +1,7 @@
 # CandyBuckets
 
-## [v8.3.0.200202](https://github.com/Vladinator89/wow-addon-candybuckets/tree/v8.3.0.200202) (2020-02-02)
-[Full Changelog](https://github.com/Vladinator89/wow-addon-candybuckets/compare/v8.2.5.191026...v8.3.0.200202)
+## [v8.3.0.200703](https://github.com/Vladinator89/wow-addon-candybuckets/tree/v8.3.0.200703) (2020-07-03)
+[Full Changelog](https://github.com/Vladinator89/wow-addon-candybuckets/compare/v8.3.0.200202...v8.3.0.200703) [Previous Releases](https://github.com/Vladinator89/wow-addon-candybuckets/releases)
 
-- - TOC bump  
-    - Fixed an issue where instance quests like the Lunar Elders would trigger an error report about being too far away. This was caused by the distance check and the fact that instances don't have coordinates available to us in the first place, so this behavior is checked for and disabled in this particular scenario to avoid these error messages.  
+- - Fixed bug where some maps didn't contain themselves and icons would disappear.  
+    - Added a simple list modifier that will make a list of nodes appear in the middle of the map, it's quick and dirty way to dump anything we should have shown on map but as a list for easier hunting. Hold down any modifier when navigating the map or opening it to display this list.  
