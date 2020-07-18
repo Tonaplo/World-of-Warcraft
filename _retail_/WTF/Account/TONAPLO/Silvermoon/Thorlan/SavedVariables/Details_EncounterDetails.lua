@@ -2,8 +2,53 @@
 EncounterDetailsDB = {
 	["emotes"] = {
 		{
-			["boss"] = "Slave Watcher Crushto",
+			{
+				0.1, -- [1]
+				"Your foolish crusade ends here, mortals. The legion comes and with it this world breathes its dying breath!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				4.885999999998603, -- [1]
+				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				7.150000000001455, -- [1]
+				"The light will not fail!", -- [2]
+				"Exarch Yrel", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				8.515999999995984, -- [1]
+				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				9.548999999999069, -- [1]
+				"Lok'tar ogar! They are pushed back! To the portal! Gul'dan is mine!", -- [2]
+				"Grommash Hellscream", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				10.94799999999668, -- [1]
+				"I will shatter this pathetic world! Its broken husk will be torn apart in the twisting nether for all time!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				12.33299999999872, -- [1]
+				"I grow tired of this pointless game. You face the immortal Legion, scourge of a thousand worlds.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [7]
+			["boss"] = "Archimonde",
 		}, -- [1]
+		{
+			["boss"] = "Slave Watcher Crushto",
+		}, -- [2]
 		{
 			{
 				2.951000000000022, -- [1]
@@ -60,63 +105,6 @@ EncounterDetailsDB = {
 				7, -- [4]
 			}, -- [9]
 			["boss"] = "Hellfire High Council",
-		}, -- [2]
-		{
-			{
-				4.417999999999893, -- [1]
-				"|TInterface\\Icons\\warlock_summon_doomguard.blp:20|t|cFFFF0000Thorlan|r has been afflicted with |cFFFF0000|Hspell:181275|h[Curse of the Legion]|h|r!", -- [2]
-				"Demon Portal", -- [3]
-				1, -- [4]
-			}, -- [1]
-			{
-				28.41699999999992, -- [1]
-				"|cFFFF0000%s|r appears and begins to empower the Fel Spire!", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [2]
-			{
-				28.41699999999992, -- [1]
-				"Faithless fools. The Legion wills it; it will be done.", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				37.61699999999996, -- [1]
-				"Return Mannoroth... Yes, yes! Your masters call you to this world once more!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				51.59999999999991, -- [1]
-				"Fear not, Mannoroth. The fel gift empowers you... Make them suffer!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				53.60899999999992, -- [1]
-				"|cFFFF0000%s|r begins to empower the Fel Spire!", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [6]
-			{
-				54.00099999999998, -- [1]
-				"These mortals cannot be this strong. Gul'dan, do something!", -- [2]
-				"Mannoroth", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				56.03399999999988, -- [1]
-				"|cFFFF0000%s|r begins to empower the Fel Spire!", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [8]
-			{
-				56.70099999999979, -- [1]
-				"Wha- What is this? Gul'dan what have you done? I am... So weak...", -- [2]
-				"Mannoroth", -- [3]
-				7, -- [4]
-			}, -- [9]
-			["boss"] = "Mannoroth",
 		}, -- [3]
 	},
 	["encounter_spells"] = {
@@ -283,13 +271,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dia Darkwhisper",
 		},
-		[153679] = {
-			["school"] = 1,
+		[186993] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Slave Watcher Crushto",
+			["source"] = "Blademaster Jubei'thos",
 		},
 		[179681] = {
 			["school"] = 1,
@@ -351,13 +338,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archimonde",
 		},
-		[186993] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Blademaster Jubei'thos",
-		},
 		[184357] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -375,6 +355,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Shard of Tectus",
+		},
+		[153679] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Slave Watcher Crushto",
 		},
 		[162475] = {
 			["school"] = 8,

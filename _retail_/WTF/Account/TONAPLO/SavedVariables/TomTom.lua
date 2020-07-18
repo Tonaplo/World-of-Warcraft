@@ -16,9 +16,9 @@ TomTomDB = {
 		["Kindhoof - Ragnaros"] = "Default",
 		["Rahran - Silvermoon"] = "Default",
 		["Zearthan - Silvermoon"] = "Default",
-		["Mogfarmer - Silvermoon"] = "Default",
-		["Mallusof - Silvermoon"] = "Default",
 		["Kaldowrath - Silvermoon"] = "Default",
+		["Mallusof - Silvermoon"] = "Default",
+		["Mogfarmer - Silvermoon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -27,8 +27,8 @@ TomTomDB = {
 					"CENTER", -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					315.0005493164063, -- [4]
-					129.0000915527344, -- [5]
+					461.0011291503906, -- [4]
+					-15.00010299682617, -- [5]
 				},
 			},
 			["block"] = {
@@ -61,9 +61,9 @@ TomTomWaypointsM = {
 		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
 		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
 		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
-		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
-		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
+		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
+		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
 	},
 	["profiles"] = {
 		["Elyrianna - Ragnaros"] = {
@@ -96,9 +96,392 @@ TomTomWaypointsM = {
 		},
 		["Zearthan - Silvermoon"] = {
 		},
-		["Mogfarmer - Silvermoon"] = {
+		["Kaldowrath - Silvermoon"] = {
 		},
 		["Mallusof - Silvermoon"] = {
+			[535] = {
+				["535:804000000:560000000:Silthide"] = {
+					535, -- [1]
+					0.804, -- [2]
+					0.56, -- [3]
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["minimap_displayID"] = 61216,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Silthide",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["desc"] = "Silthide",
+					["worldmap_displayID"] = 61216,
+					["world"] = true,
+				},
+				["535:620000000:332000000:Silthide"] = {
+					535, -- [1]
+					0.62, -- [2]
+					0.332, -- [3]
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["minimap_displayID"] = 61216,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Silthide",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["desc"] = "Silthide",
+					["worldmap_displayID"] = 61216,
+					["world"] = true,
+				},
+				["535:468000000:310000000:Sargerei War Council"] = {
+					535, -- [1]
+					0.468, -- [2]
+					0.31, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Sargerei War Council",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Sargerei War Council",
+					["from"] = "?",
+					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["world"] = true,
+				},
+				["535:674000000:598000000:Silthide"] = {
+					535, -- [1]
+					0.674, -- [2]
+					0.598, -- [3]
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["minimap_displayID"] = 61216,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Silthide",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["desc"] = "Silthide",
+					["worldmap_displayID"] = 61216,
+					["world"] = true,
+				},
+				["535:336000000:378000000:Lady Demlash\nShadow Council"] = {
+					535, -- [1]
+					0.336, -- [2]
+					0.378, -- [3]
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["minimap_displayID"] = 60856,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Lady Demlash\nShadow Council",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["desc"] = "Lady Demlash\nShadow Council",
+					["worldmap_displayID"] = 60856,
+					["world"] = true,
+				},
+				["535:626000000:460000000:Silthide"] = {
+					535, -- [1]
+					0.626, -- [2]
+					0.46, -- [3]
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["minimap_displayID"] = 61216,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Silthide",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["desc"] = "Silthide",
+					["worldmap_displayID"] = 61216,
+					["world"] = true,
+				},
+				["535:458000000:278000000:Sargerei War Council"] = {
+					535, -- [1]
+					0.458, -- [2]
+					0.278, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Sargerei War Council",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Sargerei War Council",
+					["from"] = "?",
+					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["world"] = true,
+				},
+				["535:374000000:376000000:Kurlosh Doomfang\nShadow Council"] = {
+					535, -- [1]
+					0.374, -- [2]
+					0.376, -- [3]
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["minimap_displayID"] = 57440,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Kurlosh Doomfang\nShadow Council",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["desc"] = "Kurlosh Doomfang\nShadow Council",
+					["worldmap_displayID"] = 57440,
+					["world"] = true,
+				},
+				["535:438000000:264000000:Sargerei War Council"] = {
+					535, -- [1]
+					0.4379999999999999, -- [2]
+					0.264, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Sargerei War Council",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Sargerei War Council",
+					["from"] = "?",
+					["minimap"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["world"] = true,
+				},
+				["535:314000000:476000000:Orumo the Observer"] = {
+					535, -- [1]
+					0.314, -- [2]
+					0.476, -- [3]
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["minimap_displayID"] = 60429,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Orumo the Observer",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["desc"] = "Orumo the Observer",
+					["worldmap_displayID"] = 60429,
+					["world"] = true,
+				},
+			},
+			[71] = {
+				["71:424000000:716000000:Otela\nTime-Lost Baubles"] = {
+					71, -- [1]
+					0.424, -- [2]
+					0.716, -- [3]
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["minimap_displayID"] = 92567,
+					["persistent"] = true,
+					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Otela\nTime-Lost Baubles",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+					["desc"] = "Otela\nTime-Lost Baubles",
+					["worldmap_displayID"] = 92567,
+					["world"] = true,
+				},
+			},
 			[36] = {
 				["36:680000185.96649:600000023.84186:Bonfire (Honor) (Burning Steppes, 11810)"] = {
 					36, -- [1]
@@ -132,18 +515,18 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
-			[1469] = {
-				["1469:579000000:486000000:Inside hut behind Inquisitor"] = {
-					1469, -- [1]
-					0.579, -- [2]
-					0.486, -- [3]
+			[1470] = {
+				["1470:524000000:834000000:In Transition House Behind Counter"] = {
+					1470, -- [1]
+					0.524, -- [2]
+					0.8340000000000001, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Inside hut behind Inquisitor",
+					["desc"] = "In Transition House Behind Counter",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Inside hut behind Inquisitor",
+					["title"] = "In Transition House Behind Counter",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -164,17 +547,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1469:639000000:304000000:Go right behind Rexxar's building"] = {
-					1469, -- [1]
-					0.639, -- [2]
-					0.304, -- [3]
+				["1470:474000000:816000000:In Transition House Behind Counter"] = {
+					1470, -- [1]
+					0.474, -- [2]
+					0.816, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Go right behind Rexxar's building",
+					["desc"] = "In Transition House Behind Counter",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Go right behind Rexxar's building",
+					["title"] = "In Transition House Behind Counter",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -195,17 +578,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1469:385000000:807000000:Inside Embassy"] = {
-					1469, -- [1]
-					0.385, -- [2]
-					0.807, -- [3]
+				["1470:584000000:551000000:On Top of a Hill"] = {
+					1470, -- [1]
+					0.584, -- [2]
+					0.551, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Inside Embassy",
+					["desc"] = "On Top of a Hill",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Inside Embassy",
+					["title"] = "On Top of a Hill",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -226,17 +609,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1469:354000000:694000000:Top floor of building"] = {
-					1469, -- [1]
-					0.354, -- [2]
-					0.6940000000000001, -- [3]
+				["1470:746000000:592000000:Middle Area Behind Boxes"] = {
+					1470, -- [1]
+					0.746, -- [2]
+					0.5920000000000001, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Top floor of building",
+					["desc"] = "Middle Area Behind Boxes",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Top floor of building",
+					["title"] = "Middle Area Behind Boxes",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -257,17 +640,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1469:389000000:499000000:Left in the big tent"] = {
-					1469, -- [1]
-					0.389, -- [2]
-					0.499, -- [3]
+				["1470:690000000:731000000:Behind Inquisitor, Left of Stairs"] = {
+					1470, -- [1]
+					0.69, -- [2]
+					0.731, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Left in the big tent",
+					["desc"] = "Behind Inquisitor, Left of Stairs",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Left in the big tent",
+					["title"] = "Behind Inquisitor, Left of Stairs",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -288,17 +671,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1469:334000000:657000000:Center building, bottom floor"] = {
-					1469, -- [1]
-					0.334, -- [2]
-					0.657, -- [3]
+				["1470:756000000:534000000:Bar, Upper Level"] = {
+					1470, -- [1]
+					0.7559999999999999, -- [2]
+					0.534, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Center building, bottom floor",
+					["desc"] = "Bar, Upper Level",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Center building, bottom floor",
+					["title"] = "Bar, Upper Level",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -319,17 +702,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1469:484000000:441000000:Up the hill"] = {
-					1469, -- [1]
-					0.484, -- [2]
-					0.441, -- [3]
+				["1470:765000000:685000000:Behind Stables by Shaw"] = {
+					1470, -- [1]
+					0.765, -- [2]
+					0.685, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Up the hill",
+					["desc"] = "Behind Stables by Shaw",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Up the hill",
+					["title"] = "Behind Stables by Shaw",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -350,17 +733,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1469:487000000:838000000:In the bank, behind the counter"] = {
-					1469, -- [1]
-					0.487, -- [2]
-					0.838, -- [3]
+				["1470:673000000:447000000:Beside Boss Forge"] = {
+					1470, -- [1]
+					0.6729999999999999, -- [2]
+					0.447, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "In the bank, behind the counter",
+					["desc"] = "Beside Boss Forge",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "In the bank, behind the counter",
+					["title"] = "Beside Boss Forge",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -381,17 +764,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1469:510000000:452000000:Between pillar and boxes"] = {
-					1469, -- [1]
-					0.51, -- [2]
-					0.452, -- [3]
+				["1470:620000000:769000000:Behind Mail Muncher Mailbox"] = {
+					1470, -- [1]
+					0.62, -- [2]
+					0.769, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Between pillar and boxes",
+					["desc"] = "Behind Mail Muncher Mailbox",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Between pillar and boxes",
+					["title"] = "Behind Mail Muncher Mailbox",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -412,17 +795,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1469:535000000:820000000:Inside first hut on the right"] = {
-					1469, -- [1]
-					0.535, -- [2]
-					0.82, -- [3]
+				["1470:646000000:309000000:Corner Behind Boxes"] = {
+					1470, -- [1]
+					0.6459999999999999, -- [2]
+					0.309, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Inside first hut on the right",
+					["desc"] = "Corner Behind Boxes",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Inside first hut on the right",
+					["title"] = "Corner Behind Boxes",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -443,110 +826,17 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["world"] = true,
 				},
-				["1469:658000000:506000000:Inside cacti"] = {
-					1469, -- [1]
-					0.6579999999999999, -- [2]
-					0.506, -- [3]
+				["1470:477000000:894000000:On Platform Above Upper Walkway"] = {
+					1470, -- [1]
+					0.477, -- [2]
+					0.894, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "Inside cacti",
+					["desc"] = "On Platform Above Upper Walkway",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Inside cacti",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1469:417000000:448000000:Inside first hut on the right"] = {
-					1469, -- [1]
-					0.417, -- [2]
-					0.448, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Inside first hut on the right",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Inside first hut on the right",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1469:682000000:429000000:Underneath bridge"] = {
-					1469, -- [1]
-					0.682, -- [2]
-					0.429, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Underneath bridge",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Underneath bridge",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1469:494000000:687000000:Hidden behind boxes"] = {
-					1469, -- [1]
-					0.494, -- [2]
-					0.687, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Hidden behind boxes",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Hidden behind boxes",
+					["title"] = "On Platform Above Upper Walkway",
 					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
@@ -814,41 +1104,6 @@ TomTomWaypointsM = {
 					["worldmap_displayID"] = 20771,
 					["world"] = true,
 				},
-				["106:378000000:584000000:Fenissa the Assassin"] = {
-					106, -- [1]
-					0.378, -- [2]
-					0.584, -- [3]
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_displayID"] = 20771,
-					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Fenissa the Assassin",
-					["from"] = "?",
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["desc"] = "Fenissa the Assassin",
-					["worldmap_displayID"] = 20771,
-					["world"] = true,
-				},
 				["106:363000000:627000000:Fenissa the Assassin"] = {
 					106, -- [1]
 					0.363, -- [2]
@@ -884,20 +1139,10 @@ TomTomWaypointsM = {
 					["worldmap_displayID"] = 20771,
 					["world"] = true,
 				},
-			},
-			[1470] = {
-				["1470:524000000:834000000:In Transition House Behind Counter"] = {
-					1470, -- [1]
-					0.524, -- [2]
-					0.8340000000000001, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "In Transition House Behind Counter",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "In Transition House Behind Counter",
-					["from"] = "Exality_Aura/OddCrystal",
+				["106:378000000:584000000:Fenissa the Assassin"] = {
+					106, -- [1]
+					0.378, -- [2]
+					0.584, -- [3]
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -915,293 +1160,34 @@ TomTomWaypointsM = {
 						},
 					},
 					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:474000000:816000000:In Transition House Behind Counter"] = {
-					1470, -- [1]
-					0.474, -- [2]
-					0.816, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
+					["minimap_displayID"] = 20771,
 					["persistent"] = true,
-					["desc"] = "In Transition House Behind Counter",
+					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "In Transition House Behind Counter",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:584000000:551000000:On Top of a Hill"] = {
-					1470, -- [1]
-					0.584, -- [2]
-					0.551, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "On Top of a Hill",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "On Top of a Hill",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:746000000:592000000:Middle Area Behind Boxes"] = {
-					1470, -- [1]
-					0.746, -- [2]
-					0.5920000000000001, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Middle Area Behind Boxes",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Middle Area Behind Boxes",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:690000000:731000000:Behind Inquisitor, Left of Stairs"] = {
-					1470, -- [1]
-					0.69, -- [2]
-					0.731, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Behind Inquisitor, Left of Stairs",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Behind Inquisitor, Left of Stairs",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:756000000:534000000:Bar, Upper Level"] = {
-					1470, -- [1]
-					0.7559999999999999, -- [2]
-					0.534, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Bar, Upper Level",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Bar, Upper Level",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:765000000:685000000:Behind Stables by Shaw"] = {
-					1470, -- [1]
-					0.765, -- [2]
-					0.685, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Behind Stables by Shaw",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Behind Stables by Shaw",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:673000000:447000000:Beside Boss Forge"] = {
-					1470, -- [1]
-					0.6729999999999999, -- [2]
-					0.447, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Beside Boss Forge",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Beside Boss Forge",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:646000000:309000000:Corner Behind Boxes"] = {
-					1470, -- [1]
-					0.6459999999999999, -- [2]
-					0.309, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Corner Behind Boxes",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Corner Behind Boxes",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:477000000:894000000:On Platform Above Upper Walkway"] = {
-					1470, -- [1]
-					0.477, -- [2]
-					0.894, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "On Platform Above Upper Walkway",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "On Platform Above Upper Walkway",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
+					["title"] = "Fenissa the Assassin",
+					["from"] = "?",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["desc"] = "Fenissa the Assassin",
+					["worldmap_displayID"] = 20771,
 					["world"] = true,
 				},
 			},
-			[535] = {
-				["535:804000000:560000000:Silthide"] = {
-					535, -- [1]
-					0.804, -- [2]
-					0.56, -- [3]
+			[1469] = {
+				["1469:494000000:687000000:Hidden behind boxes"] = {
+					1469, -- [1]
+					0.494, -- [2]
+					0.687, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Hidden behind boxes",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Hidden behind boxes",
+					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -1219,24 +1205,20 @@ TomTomWaypointsM = {
 						},
 					},
 					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_displayID"] = 61216,
-					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Silthide",
-					["from"] = "?",
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["desc"] = "Silthide",
-					["worldmap_displayID"] = 61216,
 					["world"] = true,
 				},
-				["535:620000000:332000000:Silthide"] = {
-					535, -- [1]
-					0.62, -- [2]
-					0.332, -- [3]
+				["1469:682000000:429000000:Underneath bridge"] = {
+					1469, -- [1]
+					0.682, -- [2]
+					0.429, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Underneath bridge",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Underneath bridge",
+					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -1254,25 +1236,20 @@ TomTomWaypointsM = {
 						},
 					},
 					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_displayID"] = 61216,
-					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Silthide",
-					["from"] = "?",
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["desc"] = "Silthide",
-					["worldmap_displayID"] = 61216,
 					["world"] = true,
 				},
-				["535:468000000:310000000:Sargerei War Council"] = {
-					535, -- [1]
-					0.468, -- [2]
-					0.31, -- [3]
+				["1469:385000000:807000000:Inside Embassy"] = {
+					1469, -- [1]
+					0.385, -- [2]
+					0.807, -- [3]
 					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Inside Embassy",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Inside Embassy",
+					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -1289,22 +1266,21 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Sargerei War Council",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Sargerei War Council",
-					["from"] = "?",
 					["minimap"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["world"] = true,
 				},
-				["535:314000000:476000000:Orumo the Observer"] = {
-					535, -- [1]
-					0.314, -- [2]
-					0.476, -- [3]
+				["1469:354000000:694000000:Top floor of building"] = {
+					1469, -- [1]
+					0.354, -- [2]
+					0.6940000000000001, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Top floor of building",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Top floor of building",
+					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -1322,24 +1298,20 @@ TomTomWaypointsM = {
 						},
 					},
 					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_displayID"] = 60429,
-					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Orumo the Observer",
-					["from"] = "?",
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["desc"] = "Orumo the Observer",
-					["worldmap_displayID"] = 60429,
 					["world"] = true,
 				},
-				["535:336000000:378000000:Lady Demlash\nShadow Council"] = {
-					535, -- [1]
-					0.336, -- [2]
-					0.378, -- [3]
+				["1469:389000000:499000000:Left in the big tent"] = {
+					1469, -- [1]
+					0.389, -- [2]
+					0.499, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Left in the big tent",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Left in the big tent",
+					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -1357,25 +1329,20 @@ TomTomWaypointsM = {
 						},
 					},
 					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_displayID"] = 60856,
-					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Lady Demlash\nShadow Council",
-					["from"] = "?",
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["desc"] = "Lady Demlash\nShadow Council",
-					["worldmap_displayID"] = 60856,
 					["world"] = true,
 				},
-				["535:438000000:264000000:Sargerei War Council"] = {
-					535, -- [1]
-					0.4379999999999999, -- [2]
-					0.264, -- [3]
+				["1469:334000000:657000000:Center building, bottom floor"] = {
+					1469, -- [1]
+					0.334, -- [2]
+					0.657, -- [3]
 					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Center building, bottom floor",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Center building, bottom floor",
+					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -1392,22 +1359,21 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Sargerei War Council",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Sargerei War Council",
-					["from"] = "?",
 					["minimap"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["world"] = true,
 				},
-				["535:374000000:376000000:Kurlosh Doomfang\nShadow Council"] = {
-					535, -- [1]
-					0.374, -- [2]
-					0.376, -- [3]
+				["1469:484000000:441000000:Up the hill"] = {
+					1469, -- [1]
+					0.484, -- [2]
+					0.441, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Up the hill",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Up the hill",
+					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -1425,25 +1391,20 @@ TomTomWaypointsM = {
 						},
 					},
 					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_displayID"] = 57440,
-					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Kurlosh Doomfang\nShadow Council",
-					["from"] = "?",
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["desc"] = "Kurlosh Doomfang\nShadow Council",
-					["worldmap_displayID"] = 57440,
 					["world"] = true,
 				},
-				["535:458000000:278000000:Sargerei War Council"] = {
-					535, -- [1]
-					0.458, -- [2]
-					0.278, -- [3]
+				["1469:535000000:820000000:Inside first hut on the right"] = {
+					1469, -- [1]
+					0.535, -- [2]
+					0.82, -- [3]
 					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Inside first hut on the right",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Inside first hut on the right",
+					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -1460,22 +1421,21 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Sargerei War Council",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Sargerei War Council",
-					["from"] = "?",
 					["minimap"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["world"] = true,
 				},
-				["535:674000000:598000000:Silthide"] = {
-					535, -- [1]
-					0.674, -- [2]
-					0.598, -- [3]
+				["1469:510000000:452000000:Between pillar and boxes"] = {
+					1469, -- [1]
+					0.51, -- [2]
+					0.452, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Between pillar and boxes",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Between pillar and boxes",
+					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -1493,24 +1453,20 @@ TomTomWaypointsM = {
 						},
 					},
 					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_displayID"] = 61216,
-					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Silthide",
-					["from"] = "?",
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["desc"] = "Silthide",
-					["worldmap_displayID"] = 61216,
 					["world"] = true,
 				},
-				["535:626000000:460000000:Silthide"] = {
-					535, -- [1]
-					0.626, -- [2]
-					0.46, -- [3]
+				["1469:487000000:838000000:In the bank, behind the counter"] = {
+					1469, -- [1]
+					0.487, -- [2]
+					0.838, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "In the bank, behind the counter",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "In the bank, behind the counter",
+					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -1528,26 +1484,20 @@ TomTomWaypointsM = {
 						},
 					},
 					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_displayID"] = 61216,
-					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Silthide",
-					["from"] = "?",
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["desc"] = "Silthide",
-					["worldmap_displayID"] = 61216,
 					["world"] = true,
 				},
-			},
-			[71] = {
-				["71:424000000:716000000:Otela\nTime-Lost Baubles"] = {
-					71, -- [1]
-					0.424, -- [2]
-					0.716, -- [3]
+				["1469:658000000:506000000:Inside cacti"] = {
+					1469, -- [1]
+					0.6579999999999999, -- [2]
+					0.506, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Inside cacti",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Inside cacti",
+					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -1565,23 +1515,104 @@ TomTomWaypointsM = {
 						},
 					},
 					["minimap"] = true,
+					["world"] = true,
+				},
+				["1469:417000000:448000000:Inside first hut on the right"] = {
+					1469, -- [1]
+					0.417, -- [2]
+					0.448, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["minimap_displayID"] = 92567,
 					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+					["desc"] = "Inside first hut on the right",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "Otela\nTime-Lost Baubles",
-					["from"] = "?",
-					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
-					["desc"] = "Otela\nTime-Lost Baubles",
-					["worldmap_displayID"] = 92567,
+					["title"] = "Inside first hut on the right",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1469:639000000:304000000:Go right behind Rexxar's building"] = {
+					1469, -- [1]
+					0.639, -- [2]
+					0.304, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Go right behind Rexxar's building",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Go right behind Rexxar's building",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1469:579000000:486000000:Inside hut behind Inquisitor"] = {
+					1469, -- [1]
+					0.579, -- [2]
+					0.486, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Inside hut behind Inquisitor",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Inside hut behind Inquisitor",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},
 		},
-		["Kaldowrath - Silvermoon"] = {
+		["Mogfarmer - Silvermoon"] = {
 		},
 	},
 }

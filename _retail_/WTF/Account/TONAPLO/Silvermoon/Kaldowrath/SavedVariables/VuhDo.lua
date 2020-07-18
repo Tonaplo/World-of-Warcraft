@@ -1669,6 +1669,17 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
+			["282432"] = {
+				["animate"] = false,
+				["isColor"] = false,
+				["isOthers"] = true,
+				["isStacks"] = true,
+				["isMine"] = true,
+				["isIcon"] = true,
+				["timer"] = true,
+				["isBarGlow"] = false,
+				["isIconGlow"] = false,
+			},
 			["265662"] = {
 				["animate"] = true,
 				["isColor"] = false,
@@ -1679,17 +1690,6 @@ VUHDO_CONFIG = {
 				["timer"] = true,
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
-			},
-			["307950"] = {
-				["animate"] = true,
-				["isColor"] = false,
-				["isIconGlow"] = false,
-				["isStacks"] = false,
-				["isMine"] = true,
-				["isIcon"] = true,
-				["timer"] = true,
-				["isBarGlow"] = false,
-				["isOthers"] = true,
 			},
 			["314347"] = {
 				["animate"] = true,
@@ -1724,11 +1724,11 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["284662"] = {
-				["animate"] = true,
+			["297907"] = {
+				["animate"] = false,
 				["isColor"] = false,
 				["isOthers"] = true,
-				["isStacks"] = false,
+				["isStacks"] = true,
 				["isMine"] = true,
 				["isIcon"] = true,
 				["timer"] = true,
@@ -1768,18 +1768,18 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["297586"] = {
-				["animate"] = false,
+			["284662"] = {
+				["animate"] = true,
 				["isColor"] = false,
 				["isOthers"] = true,
-				["isStacks"] = true,
+				["isStacks"] = false,
 				["isMine"] = true,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["297907"] = {
+			["297586"] = {
 				["animate"] = false,
 				["isColor"] = false,
 				["isOthers"] = true,
@@ -1834,16 +1834,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["282432"] = {
-				["animate"] = false,
+			["307950"] = {
+				["animate"] = true,
 				["isColor"] = false,
-				["isOthers"] = true,
-				["isStacks"] = true,
+				["isIconGlow"] = false,
+				["isStacks"] = false,
 				["isMine"] = true,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 			},
 			["295348"] = {
 				["animate"] = false,
@@ -2197,8 +2197,8 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 42.21483612060547,
-			["x"] = 27.35548973083496,
+			["y"] = 0.2154037356376648,
+			["x"] = 18.35547065734863,
 			["scale"] = 1,
 			["relativePoint"] = "BOTTOM",
 			["orientation"] = "BOTTOM",
@@ -2215,6 +2215,8 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
+			["sort"] = 0,
+			["ordering"] = 0,
 			["groups"] = {
 				1, -- [1]
 				2, -- [2]
@@ -2225,8 +2227,6 @@ VUHDO_PANEL_SETUP = {
 				7, -- [7]
 				8, -- [8]
 			},
-			["sort"] = 0,
-			["ordering"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -4902,9 +4902,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -4912,9 +4912,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -4967,9 +4967,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -4996,9 +4996,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -5006,9 +5006,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -5061,9 +5061,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -5101,12 +5101,12 @@ VUHDO_SPEC_LAYOUTS = {
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
 	["player"] = {
-		["zone"] = "Lunarfall",
+		["zone"] = "Dalaran",
 		["baseRange"] = true,
 		["class"] = "DEMONHUNTER",
 		["role"] = 61,
-		["sortMaxHp"] = 230000,
-		["map"] = "Lunarfall",
+		["sortMaxHp"] = 230180,
+		["map"] = "Dalaran",
 		["threat"] = 0,
 		["powermax"] = 120,
 		["threatPerc"] = 0,
@@ -5119,15 +5119,15 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["powertype"] = 17,
-		["healthmax"] = 230000,
+		["healthmax"] = 230180,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "Kaldowrath",
-		["power"] = 45,
+		["power"] = 0,
 		["aggro"] = false,
 		["visible"] = true,
 		["targetUnit"] = "target",
-		["health"] = 230000,
+		["health"] = 230180,
 		["className"] = "Demon Hunter",
 		["afk"] = false,
 		["debuff"] = 0,
@@ -5141,16 +5141,16 @@ VUHDO_INDICATOR_CONFIG = {
 		["MOUSEOVER_HIGHLIGHT"] = "",
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "Background: Red",
-		["CLUSTER_BORDER"] = "Important Debuffs",
-		["SWIFTMEND_INDICATOR"] = "Summon Status Icon",
-		["INCOMING_BAR"] = "",
 		["DAMAGE_FLASH_BAR"] = "",
+		["SIDE_LEFT"] = "",
+		["INCOMING_BAR"] = "",
+		["CLUSTER_BORDER"] = "Important Debuffs",
 		["THREAT_MARK"] = "",
-		["MANA_BAR"] = "Manabars: Mana (Healer Only)",
 		["BAR_BORDER"] = "Border: Multi + Aggro",
 		["SIDE_RIGHT"] = "",
+		["MANA_BAR"] = "Manabars: Mana (Healer Only)",
 		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
-		["SIDE_LEFT"] = "",
+		["SWIFTMEND_INDICATOR"] = "Summon Status Icon",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]

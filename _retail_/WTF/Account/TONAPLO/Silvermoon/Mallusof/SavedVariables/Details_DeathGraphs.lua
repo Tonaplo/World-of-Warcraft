@@ -5,224 +5,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Vexiona",
 		["id"] = 2370,
-		["player_db"] = {
-			["Nanodh-Hellscream"] = {
-				["name"] = "Nanodh-Hellscream",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Id-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Id-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Illai-Hellscream"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Illai-Hellscream",
-				["overall"] = {
-				},
-			},
-			["Gralph"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Gralph",
-				["overall"] = {
-				},
-			},
-			["Malash-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Malash-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Inleafeor-Aggramar"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Inleafeor-Aggramar",
-				["overall"] = {
-				},
-			},
-			["Charie-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Charie-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Gimvy-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Gimvy-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Misswhiskers-AzjolNerub"] = {
-				["name"] = "Misswhiskers-AzjolNerub",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Siferous-AzjolNerub"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Siferous-AzjolNerub",
-				["overall"] = {
-				},
-			},
-			["Illiax-Hellscream"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Illiax-Hellscream",
-				["overall"] = {
-				},
-			},
-			["Sempra-Wildhammer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Sempra-Wildhammer",
-				["overall"] = {
-				},
-			},
-			["Moridin-Anub'arak"] = {
-				["name"] = "Moridin-Anub'arak",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Drugie-Draenor"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Drugie-Draenor",
-				["overall"] = {
-				},
-			},
-			["Purrdition-AzjolNerub"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Purrdition-AzjolNerub",
-				["overall"] = {
-				},
-			},
-			["Fugguts-Ravencrest"] = {
-				["name"] = "Fugguts-Ravencrest",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Karlun-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Karlun-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Daizen-Hellscream"] = {
-				["name"] = "Daizen-Hellscream",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Relapse-Ravencrest"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Relapse-Ravencrest",
-				["overall"] = {
-				},
-			},
-			["Foodmaker-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Foodmaker-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Dåre-Quel'Thalas"] = {
-				["name"] = "Dåre-Quel'Thalas",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Calarél-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Calarél-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-			["Azzal-AzjolNerub"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Azzal-AzjolNerub",
-				["overall"] = {
-				},
-			},
-			["Dhaina-Anub'arak"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Dhaina-Anub'arak",
-				["overall"] = {
-				},
-			},
-			["Vanorlaa-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Vanorlaa-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Zenish-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Zenish-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 9,
@@ -235,6 +17,224 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["encounter"] = "Vexiona",
 		},
+		["player_db"] = {
+			["Nanodh-Hellscream"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Nanodh-Hellscream",
+				["class"] = "DEMONHUNTER",
+			},
+			["Id-Quel'Thalas"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Id-Quel'Thalas",
+			},
+			["Illai-Hellscream"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Illai-Hellscream",
+			},
+			["Gralph"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gralph",
+			},
+			["Malash-Quel'Thalas"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Malash-Quel'Thalas",
+			},
+			["Inleafeor-Aggramar"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Inleafeor-Aggramar",
+			},
+			["Charie-Quel'Thalas"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Charie-Quel'Thalas",
+			},
+			["Misswhiskers-AzjolNerub"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Misswhiskers-AzjolNerub",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Gimvy-Quel'Thalas"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gimvy-Quel'Thalas",
+			},
+			["Siferous-AzjolNerub"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Siferous-AzjolNerub",
+			},
+			["Illiax-Hellscream"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Illiax-Hellscream",
+			},
+			["Sempra-Wildhammer"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sempra-Wildhammer",
+			},
+			["Zenish-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Zenish-Quel'Thalas",
+			},
+			["Drugie-Draenor"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Drugie-Draenor",
+			},
+			["Purrdition-AzjolNerub"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Purrdition-AzjolNerub",
+			},
+			["Fugguts-Ravencrest"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Fugguts-Ravencrest",
+				["class"] = "DRUID",
+			},
+			["Karlun-Quel'Thalas"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Karlun-Quel'Thalas",
+			},
+			["Daizen-Hellscream"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Daizen-Hellscream",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Relapse-Ravencrest"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Relapse-Ravencrest",
+			},
+			["Foodmaker-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Foodmaker-Quel'Thalas",
+			},
+			["Dåre-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Dåre-Quel'Thalas",
+				["class"] = "WARLOCK",
+			},
+			["Calarél-ArgentDawn"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Calarél-ArgentDawn",
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+			["Azzal-AzjolNerub"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Azzal-AzjolNerub",
+			},
+			["Dhaina-Anub'arak"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Dhaina-Anub'arak",
+			},
+			["Vanorlaa-ArgentDawn"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Vanorlaa-ArgentDawn",
+			},
+			["Moridin-Anub'arak"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Moridin-Anub'arak",
+				["class"] = "DEMONHUNTER",
+			},
+		},
 		["diff"] = 15,
 	},
 	["237414"] = {
@@ -243,104 +243,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Il'gynoth, Corruption Reborn",
 		["id"] = 2374,
 		["diff"] = 14,
-		["player_db"] = {
-			["Sempra-Wildhammer"] = {
-				["name"] = "Sempra-Wildhammer",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Moridin-Anub'arak"] = {
-				["name"] = "Moridin-Anub'arak",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Illai-Hellscream"] = {
-				["name"] = "Illai-Hellscream",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Karlun-Quel'Thalas"] = {
-				["name"] = "Karlun-Quel'Thalas",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Карликарий-Азурегос"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Карликарий-Азурегос",
-				["class"] = "HUNTER",
-			},
-			["Sainfire-Wildhammer"] = {
-				["name"] = "Sainfire-Wildhammer",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Calarél-ArgentDawn"] = {
-				["name"] = "Calarél-ArgentDawn",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Id-Quel'Thalas"] = {
-				["name"] = "Id-Quel'Thalas",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Gimvy-Quel'Thalas"] = {
-				["name"] = "Gimvy-Quel'Thalas",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Vanorlaa-ArgentDawn"] = {
-				["name"] = "Vanorlaa-ArgentDawn",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Zenish-Quel'Thalas"] = {
-				["name"] = "Zenish-Quel'Thalas",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 8,
@@ -354,6 +256,104 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Sempra-Wildhammer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Sempra-Wildhammer",
+				["class"] = "DRUID",
+			},
+			["Moridin-Anub'arak"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Moridin-Anub'arak",
+				["class"] = "DEMONHUNTER",
+			},
+			["Illai-Hellscream"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Illai-Hellscream",
+				["class"] = "ROGUE",
+			},
+			["Karlun-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Karlun-Quel'Thalas",
+				["class"] = "PRIEST",
+			},
+			["Карликарий-Азурегос"] = {
+				["name"] = "Карликарий-Азурегос",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Sainfire-Wildhammer"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Sainfire-Wildhammer",
+				["class"] = "MAGE",
+			},
+			["Calarél-ArgentDawn"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Calarél-ArgentDawn",
+				["class"] = "PRIEST",
+			},
+			["Mallusof"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+			},
+			["Id-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Id-Quel'Thalas",
+				["class"] = "DEMONHUNTER",
+			},
+			["Gimvy-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Gimvy-Quel'Thalas",
+				["class"] = "SHAMAN",
+			},
+			["Vanorlaa-ArgentDawn"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Vanorlaa-ArgentDawn",
+				["class"] = "PALADIN",
+			},
+			["Zenish-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Zenish-Quel'Thalas",
+				["class"] = "HUNTER",
+			},
+		},
 	},
 	["235315"] = {
 		["hash"] = "235315",
@@ -361,6 +361,208 @@ DeathGraphsDBDeaths = {
 		["name"] = "Radiance of Azshara",
 		["id"] = 2353,
 		["diff"] = 15,
+		["player_db"] = {
+			["Unchartet-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Unchartet-Antonidas",
+				["class"] = "WARRIOR",
+			},
+			["Zhan-Malygos"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Zhan-Malygos",
+				["class"] = "MONK",
+			},
+			["Lí-Todeswache"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Lí-Todeswache",
+				["class"] = "SHAMAN",
+			},
+			["Manchmaltod-Norgannon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Manchmaltod-Norgannon",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Manaburst-Malorne"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Manaburst-Malorne",
+				["class"] = "MAGE",
+			},
+			["Fabienne-Malorne"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Fabienne-Malorne",
+				["class"] = "HUNTER",
+			},
+			["Atalane-Eldre'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Atalane-Eldre'Thalas",
+				["class"] = "HUNTER",
+			},
+			["Andito-Pozzodell'Eternità"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Andito-Pozzodell'Eternità",
+				["overall"] = {
+				},
+			},
+			["Wildfighter-Malorne"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Wildfighter-Malorne",
+				["class"] = "HUNTER",
+			},
+			["Jank-TheMaelstrom"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Jank-TheMaelstrom",
+				["overall"] = {
+				},
+			},
+			["Moridin-Anub'arak"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Moridin-Anub'arak",
+			},
+			["Iampalü-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Iampalü-Antonidas",
+				["class"] = "PALADIN",
+			},
+			["Grimmjôw-Ambossar"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Grimmjôw-Ambossar",
+				["class"] = "WARLOCK",
+			},
+			["Friedholm-Mal'Ganis"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Friedholm-Mal'Ganis",
+				["class"] = "HUNTER",
+			},
+			["Oppressum-Neptulon"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Oppressum-Neptulon",
+			},
+			["Scarymann-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Scarymann-Antonidas",
+				["class"] = "DRUID",
+			},
+			["Kuriyama-Neptulon"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Kuriyama-Neptulon",
+				["overall"] = {
+				},
+			},
+			["Христов-Гордунни"] = {
+				["name"] = "Христов-Гордунни",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Killrockson-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Killrockson-Antonidas",
+				["class"] = "HUNTER",
+			},
+			["Invasor-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Invasor-Antonidas",
+				["class"] = "PALADIN",
+			},
+			["Mallusof"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+			},
+			["Karltoffel-Malorne"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Karltoffel-Malorne",
+				["class"] = "HUNTER",
+			},
+			["Bàppì-Alleria"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Bàppì-Alleria",
+				["class"] = "HUNTER",
+			},
+			["Doktorchen-DunMorogh"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Doktorchen-DunMorogh",
+				["class"] = "MONK",
+			},
+			["Estania-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Estania-Antonidas",
+				["class"] = "MAGE",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 3,
@@ -373,415 +575,12 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1179,
 			["diff"] = 15,
 		},
-		["player_db"] = {
-			["Unchartet-Antonidas"] = {
-				["name"] = "Unchartet-Antonidas",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Zhan-Malygos"] = {
-				["name"] = "Zhan-Malygos",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Lí-Todeswache"] = {
-				["name"] = "Lí-Todeswache",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Manchmaltod-Norgannon"] = {
-				["name"] = "Manchmaltod-Norgannon",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Manaburst-Malorne"] = {
-				["name"] = "Manaburst-Malorne",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Fabienne-Malorne"] = {
-				["name"] = "Fabienne-Malorne",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Atalane-Eldre'Thalas"] = {
-				["name"] = "Atalane-Eldre'Thalas",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Andito-Pozzodell'Eternità"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Andito-Pozzodell'Eternità",
-			},
-			["Wildfighter-Malorne"] = {
-				["name"] = "Wildfighter-Malorne",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jank-TheMaelstrom"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Jank-TheMaelstrom",
-			},
-			["Moridin-Anub'arak"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Moridin-Anub'arak",
-				["overall"] = {
-				},
-			},
-			["Iampalü-Antonidas"] = {
-				["name"] = "Iampalü-Antonidas",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Bàppì-Alleria"] = {
-				["name"] = "Bàppì-Alleria",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Friedholm-Mal'Ganis"] = {
-				["name"] = "Friedholm-Mal'Ganis",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Oppressum-Neptulon"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Oppressum-Neptulon",
-				["overall"] = {
-				},
-			},
-			["Scarymann-Antonidas"] = {
-				["name"] = "Scarymann-Antonidas",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kuriyama-Neptulon"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kuriyama-Neptulon",
-			},
-			["Христов-Гордунни"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Христов-Гордунни",
-				["class"] = "HUNTER",
-			},
-			["Killrockson-Antonidas"] = {
-				["name"] = "Killrockson-Antonidas",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Invasor-Antonidas"] = {
-				["name"] = "Invasor-Antonidas",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Karltoffel-Malorne"] = {
-				["name"] = "Karltoffel-Malorne",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Grimmjôw-Ambossar"] = {
-				["name"] = "Grimmjôw-Ambossar",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Doktorchen-DunMorogh"] = {
-				["name"] = "Doktorchen-DunMorogh",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Estania-Antonidas"] = {
-				["name"] = "Estania-Antonidas",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["237415"] = {
 		["hash"] = "237415",
 		["type"] = "deaths",
 		["name"] = "Il'gynoth, Corruption Reborn",
 		["id"] = 2374,
-		["player_db"] = {
-			["Nanodh-Hellscream"] = {
-				["name"] = "Nanodh-Hellscream",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Id-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Id-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Illai-Hellscream"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Illai-Hellscream",
-				["overall"] = {
-				},
-			},
-			["Seventy"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Seventy",
-				["overall"] = {
-				},
-			},
-			["Relapse-Ravencrest"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Relapse-Ravencrest",
-				["overall"] = {
-				},
-			},
-			["Sainfire-Wildhammer"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Sainfire-Wildhammer",
-				["overall"] = {
-				},
-			},
-			["Misswhiskers-AzjolNerub"] = {
-				["name"] = "Misswhiskers-AzjolNerub",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Trinilex-DunMorogh"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Trinilex-DunMorogh",
-				["overall"] = {
-				},
-			},
-			["Moridin-Anub'arak"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Moridin-Anub'arak",
-				["overall"] = {
-				},
-			},
-			["Perdition-Blackmoore"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Perdition-Blackmoore",
-				["overall"] = {
-				},
-			},
-			["Zenish-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Zenish-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Nbeewz"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Nbeewz",
-				["overall"] = {
-				},
-			},
-			["Calarél-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Calarél-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Purrdition-AzjolNerub"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Purrdition-AzjolNerub",
-				["overall"] = {
-				},
-			},
-			["Karlun-Quel'Thalas"] = {
-				["name"] = "Karlun-Quel'Thalas",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Daizen-Hellscream"] = {
-				["name"] = "Daizen-Hellscream",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Fuqita-Ravencrest"] = {
-				["name"] = "Fuqita-Ravencrest",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Ангроникус-Галакронд"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Ангроникус-Галакронд",
-				["overall"] = {
-				},
-			},
-			["Grálph-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Grálph-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Priestêss"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Priestêss",
-				["overall"] = {
-				},
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-			["Oppressum-Neptulon"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Oppressum-Neptulon",
-				["overall"] = {
-				},
-			},
-			["Dåre-Quel'Thalas"] = {
-				["name"] = "Dåre-Quel'Thalas",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Vanorlaa-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Vanorlaa-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Metroseksüel-Sylvanas"] = {
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Metroseksüel-Sylvanas",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 8,
@@ -794,6 +593,207 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["encounter"] = "Il'gynoth, Corruption Reborn",
 		},
+		["player_db"] = {
+			["Nanodh-Hellscream"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Nanodh-Hellscream",
+				["class"] = "DEMONHUNTER",
+			},
+			["Id-Quel'Thalas"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Id-Quel'Thalas",
+			},
+			["Illai-Hellscream"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Illai-Hellscream",
+			},
+			["Seventy"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Seventy",
+			},
+			["Relapse-Ravencrest"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Relapse-Ravencrest",
+			},
+			["Sainfire-Wildhammer"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sainfire-Wildhammer",
+			},
+			["Misswhiskers-AzjolNerub"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Misswhiskers-AzjolNerub",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Trinilex-DunMorogh"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Trinilex-DunMorogh",
+			},
+			["Moridin-Anub'arak"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Moridin-Anub'arak",
+			},
+			["Nbeewz"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nbeewz",
+			},
+			["Zenish-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Zenish-Quel'Thalas",
+			},
+			["Perdition-Blackmoore"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Perdition-Blackmoore",
+			},
+			["Calarél-ArgentDawn"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Calarél-ArgentDawn",
+			},
+			["Purrdition-AzjolNerub"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Purrdition-AzjolNerub",
+			},
+			["Dåre-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Dåre-Quel'Thalas",
+				["class"] = "WARLOCK",
+			},
+			["Daizen-Hellscream"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Daizen-Hellscream",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Fuqita-Ravencrest"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Fuqita-Ravencrest",
+				["class"] = "MONK",
+			},
+			["Ангроникус-Галакронд"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ангроникус-Галакронд",
+			},
+			["Grálph-ArgentDawn"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Grálph-ArgentDawn",
+			},
+			["Priestêss"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Priestêss",
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+			["Oppressum-Neptulon"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Oppressum-Neptulon",
+			},
+			["Karlun-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Karlun-Quel'Thalas",
+				["class"] = "PRIEST",
+			},
+			["Vanorlaa-ArgentDawn"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Vanorlaa-ArgentDawn",
+			},
+			["Metroseksüel-Sylvanas"] = {
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Metroseksüel-Sylvanas",
+			},
+		},
 		["diff"] = 15,
 	},
 	["236615"] = {
@@ -801,152 +801,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Carapace of N'Zoth",
 		["id"] = 2366,
-		["player_db"] = {
-			["Nanodh-Hellscream"] = {
-				["name"] = "Nanodh-Hellscream",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Id-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Id-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Illai-Hellscream"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Illai-Hellscream",
-				["overall"] = {
-				},
-			},
-			["Gralph"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Gralph",
-				["overall"] = {
-				},
-			},
-			["Relapse-Ravencrest"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Relapse-Ravencrest",
-				["overall"] = {
-				},
-			},
-			["Sainfire-Wildhammer"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Sainfire-Wildhammer",
-				["overall"] = {
-				},
-			},
-			["Misswhiskers-AzjolNerub"] = {
-				["name"] = "Misswhiskers-AzjolNerub",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sempra-Wildhammer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Sempra-Wildhammer",
-				["overall"] = {
-				},
-			},
-			["Moridin-Anub'arak"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Moridin-Anub'arak",
-				["overall"] = {
-				},
-			},
-			["Purrdition-AzjolNerub"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Purrdition-AzjolNerub",
-				["overall"] = {
-				},
-			},
-			["Karlun-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Karlun-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Daizen-Hellscream"] = {
-				["name"] = "Daizen-Hellscream",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Calarél-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Calarél-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-			["Fugguts-Ravencrest"] = {
-				["name"] = "Fugguts-Ravencrest",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Zenish-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Zenish-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Vanorlaa-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Vanorlaa-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Dåre-Quel'Thalas"] = {
-				["name"] = "Dåre-Quel'Thalas",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 11,
@@ -959,205 +813,70 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["encounter"] = "Carapace of N'Zoth",
 		},
-		["diff"] = 15,
-	},
-	["235215"] = {
-		["hash"] = "235215",
-		["type"] = "deaths",
-		["name"] = "Abyssal Commander Sivara",
-		["id"] = 2352,
-		["diff"] = 15,
 		["player_db"] = {
-			["Azooh"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Azooh",
-			},
-			["Varianna"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Varianna",
-			},
-			["Добродав-Гордунни"] = {
+			["Nanodh-Hellscream"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Добродав-Гордунни",
-				["class"] = "PRIEST",
+				["name"] = "Nanodh-Hellscream",
+				["class"] = "DEMONHUNTER",
 			},
-			["Gweniver-Hellscream"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Gweniver-Hellscream",
-				["class"] = "PRIEST",
-			},
-			["Bettewarlock-Terenas"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Bettewarlock-Terenas",
-			},
-			["Invasor-Antonidas"] = {
-				["name"] = "Invasor-Antonidas",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Legendarion-Sylvanas"] = {
+			["Id-Quel'Thalas"] = {
 				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Legendarion-Sylvanas",
+				["name"] = "Id-Quel'Thalas",
 			},
-			["Мутагеночка-ЧерныйШрам"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Мутагеночка-ЧерныйШрам",
-				["class"] = "WARLOCK",
-			},
-			["Roxette-Azshara"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Roxette-Azshara",
+			["Illai-Hellscream"] = {
 				["class"] = "ROGUE",
-			},
-			["Nulona-Garrosh"] = {
-				["class"] = "DRUID",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Nulona-Garrosh",
+				["name"] = "Illai-Hellscream",
 			},
-			["Cathriona-ArgentDawn"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Cathriona-ArgentDawn",
-			},
-			["Anomassa"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Anomassa",
-			},
-			["Alinkkiene-Magtheridon"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Alinkkiene-Magtheridon",
-			},
-			["Doae-Area52"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Doae-Area52",
-				["class"] = "ROGUE",
-			},
-			["Osselon-Outland"] = {
+			["Gralph"] = {
 				["class"] = "MONK",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Osselon-Outland",
+				["name"] = "Gralph",
 			},
-			["Dwaveth-Dalaran"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Dwaveth-Dalaran",
-				["class"] = "DRUID",
-			},
-			["Anorwen-Pozzodell'Eternità"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Anorwen-Pozzodell'Eternità",
-				["class"] = "PALADIN",
-			},
-			["Axewamboo-Dalaran"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Axewamboo-Dalaran",
+			["Relapse-Ravencrest"] = {
 				["class"] = "WARRIOR",
-			},
-			["Ãrrnn-Dalaran"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Ãrrnn-Dalaran",
-				["class"] = "MONK",
-			},
-			["Cxen-Blackmoore"] = {
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Cxen-Blackmoore",
+				["name"] = "Relapse-Ravencrest",
 			},
-			["Traklune-KirinTor"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Traklune-KirinTor",
+			["Sainfire-Wildhammer"] = {
 				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sainfire-Wildhammer",
 			},
-			["Oø-Antonidas"] = {
+			["Misswhiskers-AzjolNerub"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Misswhiskers-AzjolNerub",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Sempra-Wildhammer"] = {
 				["class"] = "DRUID",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Oø-Antonidas",
-			},
-			["Claudîus-Outland"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Claudîus-Outland",
-			},
-			["Titanniah-Uldaman"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Titanniah-Uldaman",
-				["class"] = "DEMONHUNTER",
+				["name"] = "Sempra-Wildhammer",
 			},
 			["Moridin-Anub'arak"] = {
 				["class"] = "DEMONHUNTER",
@@ -1167,229 +886,522 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Moridin-Anub'arak",
 			},
-			["Monniela-Alonsus"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Monniela-Alonsus",
-			},
-			["Clive-KirinTor"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Clive-KirinTor",
-			},
-			["Kahral-TarrenMill"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kahral-TarrenMill",
-			},
-			["Zetari-Dalaran"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Zetari-Dalaran",
-				["class"] = "DEMONHUNTER",
-			},
-			["Монтанор-Разувий"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Монтанор-Разувий",
-			},
-			["Killrockson-Antonidas"] = {
-				["name"] = "Killrockson-Antonidas",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Melice-Neptulon"] = {
+			["Purrdition-AzjolNerub"] = {
 				["class"] = "PALADIN",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Melice-Neptulon",
+				["name"] = "Purrdition-AzjolNerub",
 			},
-			["Biggiplayss-Antonidas"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Biggiplayss-Antonidas",
-			},
-			["Vhasir-Antonidas"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Vhasir-Antonidas",
-			},
-			["Сабхайп-Гордунни"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Сабхайп-Гордунни",
-				["class"] = "ROGUE",
-			},
-			["Aréla-Tirion"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Aréla-Tirion",
-				["class"] = "DRUID",
-			},
-			["Silentfury-DunModr"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Silentfury-DunModr",
-			},
-			["Regiez-Karazhan"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Regiez-Karazhan",
-			},
-			["Jt-Antonidas"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Jt-Antonidas",
-			},
-			["Headshøt-Malorne"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Headshøt-Malorne",
-				["class"] = "HUNTER",
-			},
-			["Nätsya-Dalaran"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Nätsya-Dalaran",
-				["class"] = "ROGUE",
-			},
-			["Verycool-ArgentDawn"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Verycool-ArgentDawn",
-				["class"] = "ROGUE",
-			},
-			["Qingaling-Ravencrest"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Qingaling-Ravencrest",
-			},
-			["Ménera-Aegwynn"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Ménera-Aegwynn",
-				["class"] = "WARLOCK",
-			},
-			["Kahreena-ArgentDawn"] = {
+			["Karlun-Quel'Thalas"] = {
 				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Kahreena-ArgentDawn",
+				["name"] = "Karlun-Quel'Thalas",
+			},
+			["Daizen-Hellscream"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Daizen-Hellscream",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Calarél-ArgentDawn"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Calarél-ArgentDawn",
 			},
 			["Mallusof"] = {
-				["overall"] = {
-				},
+				["class"] = "PRIEST",
 				["deaths"] = {
+				},
+				["overall"] = {
 				},
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 			},
-			["Mivu-KirinTor"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
+			["Fugguts-Ravencrest"] = {
 				["overall"] = {
 				},
-				["name"] = "Mivu-KirinTor",
-			},
-			["Asrael-Al'Akir"] = {
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
-				["name"] = "Asrael-Al'Akir",
-				["overall"] = {
-				},
-			},
-			["Adionis-Magtheridon"] = {
+				["name"] = "Fugguts-Ravencrest",
 				["class"] = "DRUID",
+			},
+			["Zenish-Quel'Thalas"] = {
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Adionis-Magtheridon",
+				["name"] = "Zenish-Quel'Thalas",
 			},
-			["Oppressum-Neptulon"] = {
+			["Vanorlaa-ArgentDawn"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Vanorlaa-ArgentDawn",
+			},
+			["Dåre-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Dåre-Quel'Thalas",
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Oppressum-Neptulon",
 			},
-			["Athaline-Drek'Thar"] = {
+		},
+		["diff"] = 15,
+	},
+	["235215"] = {
+		["hash"] = "235215",
+		["type"] = "deaths",
+		["name"] = "Abyssal Commander Sivara",
+		["id"] = 2352,
+		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "The Eternal Palace",
+			["id"] = 2298,
+			["mapid"] = 2164,
+			["try_number"] = 1,
+			["name"] = "Abyssal Commander Sivara",
+			["encounter"] = "Abyssal Commander Sivara",
+			["ej_instance_id"] = 1179,
+			["diff"] = 15,
+		},
+		["player_db"] = {
+			["Azooh"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Azooh",
+				["overall"] = {
+				},
+			},
+			["Varianna"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Varianna",
+				["overall"] = {
+				},
+			},
+			["Добродав-Гордунни"] = {
+				["name"] = "Добродав-Гордунни",
+				["class"] = "PRIEST",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Athaline-Drek'Thar",
+			},
+			["Gweniver-Hellscream"] = {
+				["name"] = "Gweniver-Hellscream",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Bettewarlock-Terenas"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Bettewarlock-Terenas",
+				["overall"] = {
+				},
+			},
+			["Invasor-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Invasor-Antonidas",
+				["class"] = "PALADIN",
+			},
+			["Legendarion-Sylvanas"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Legendarion-Sylvanas",
+				["overall"] = {
+				},
+			},
+			["Мутагеночка-ЧерныйШрам"] = {
+				["name"] = "Мутагеночка-ЧерныйШрам",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Roxette-Azshara"] = {
+				["name"] = "Roxette-Azshara",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Nulona-Garrosh"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Nulona-Garrosh",
+				["overall"] = {
+				},
+			},
+			["Cathriona-ArgentDawn"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Cathriona-ArgentDawn",
+				["overall"] = {
+				},
+			},
+			["Anomassa"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Anomassa",
+				["overall"] = {
+				},
+			},
+			["Alinkkiene-Magtheridon"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Alinkkiene-Magtheridon",
+				["overall"] = {
+				},
+			},
+			["Doae-Area52"] = {
+				["name"] = "Doae-Area52",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Osselon-Outland"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Osselon-Outland",
+				["overall"] = {
+				},
+			},
+			["Dwaveth-Dalaran"] = {
+				["name"] = "Dwaveth-Dalaran",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Anorwen-Pozzodell'Eternità"] = {
+				["name"] = "Anorwen-Pozzodell'Eternità",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Axewamboo-Dalaran"] = {
+				["name"] = "Axewamboo-Dalaran",
+				["class"] = "WARRIOR",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Ãrrnn-Dalaran"] = {
+				["name"] = "Ãrrnn-Dalaran",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Cxen-Blackmoore"] = {
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Cxen-Blackmoore",
+			},
+			["Traklune-KirinTor"] = {
+				["name"] = "Traklune-KirinTor",
 				["class"] = "MAGE",
-			},
-			["Гаетана-Гордунни"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Гаетана-Гордунни",
+			},
+			["Oø-Antonidas"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Oø-Antonidas",
+				["overall"] = {
+				},
+			},
+			["Claudîus-Outland"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Claudîus-Outland",
+				["overall"] = {
+				},
+			},
+			["Titanniah-Uldaman"] = {
+				["name"] = "Titanniah-Uldaman",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Moridin-Anub'arak"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Moridin-Anub'arak",
+				["overall"] = {
+				},
+			},
+			["Monniela-Alonsus"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Monniela-Alonsus",
+				["overall"] = {
+				},
+			},
+			["Clive-KirinTor"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Clive-KirinTor",
+				["overall"] = {
+				},
+			},
+			["Kahral-TarrenMill"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Kahral-TarrenMill",
+				["overall"] = {
+				},
+			},
+			["Zetari-Dalaran"] = {
+				["name"] = "Zetari-Dalaran",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Монтанор-Разувий"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Монтанор-Разувий",
+				["overall"] = {
+				},
+			},
+			["Killrockson-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Killrockson-Antonidas",
 				["class"] = "HUNTER",
 			},
-			["Kuriyama-Neptulon"] = {
+			["Melice-Neptulon"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Melice-Neptulon",
+				["overall"] = {
+				},
+			},
+			["Biggiplayss-Antonidas"] = {
+				["deaths"] = {
+				},
 				["class"] = "ROGUE",
+				["name"] = "Biggiplayss-Antonidas",
+				["overall"] = {
+				},
+			},
+			["Vhasir-Antonidas"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Vhasir-Antonidas",
+				["overall"] = {
+				},
+			},
+			["Сабхайп-Гордунни"] = {
+				["name"] = "Сабхайп-Гордунни",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Aréla-Tirion"] = {
+				["name"] = "Aréla-Tirion",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Silentfury-DunModr"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Silentfury-DunModr",
+				["overall"] = {
+				},
+			},
+			["Regiez-Karazhan"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Regiez-Karazhan",
+				["overall"] = {
+				},
+			},
+			["Jt-Antonidas"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Jt-Antonidas",
+				["overall"] = {
+				},
+			},
+			["Headshøt-Malorne"] = {
+				["name"] = "Headshøt-Malorne",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Nätsya-Dalaran"] = {
+				["name"] = "Nätsya-Dalaran",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Verycool-ArgentDawn"] = {
+				["name"] = "Verycool-ArgentDawn",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Qingaling-Ravencrest"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Qingaling-Ravencrest",
+				["overall"] = {
+				},
+			},
+			["Ménera-Aegwynn"] = {
+				["name"] = "Ménera-Aegwynn",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Kahreena-ArgentDawn"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Kahreena-ArgentDawn",
+				["overall"] = {
+				},
+			},
+			["Mallusof"] = {
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Mivu-KirinTor"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Mivu-KirinTor",
+				["overall"] = {
+				},
+			},
+			["Asrael-Al'Akir"] = {
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
+				["name"] = "Asrael-Al'Akir",
+			},
+			["Adionis-Magtheridon"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Adionis-Magtheridon",
+				["overall"] = {
+				},
+			},
+			["Oppressum-Neptulon"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Oppressum-Neptulon",
+				["overall"] = {
+				},
+			},
+			["Athaline-Drek'Thar"] = {
+				["name"] = "Athaline-Drek'Thar",
+				["class"] = "MAGE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Гаетана-Гордунни"] = {
+				["name"] = "Гаетана-Гордунни",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Kuriyama-Neptulon"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
 				["name"] = "Kuriyama-Neptulon",
+				["overall"] = {
+				},
 			},
 			["Marëox-DunModr"] = {
 				["deaths"] = {
@@ -1406,36 +1418,36 @@ DeathGraphsDBDeaths = {
 				["name"] = "Druidbosse-Executus",
 			},
 			["Киндрсюрприз-Гордунни"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 				["name"] = "Киндрсюрприз-Гордунни",
 				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 			["Manchmaltod-Norgannon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 				["name"] = "Manchmaltod-Norgannon",
 				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 			},
 			["Terguron-Mannoroth"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 				["name"] = "Terguron-Mannoroth",
 				["class"] = "MAGE",
-			},
-			["Gralph"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+			},
+			["Gralph"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
 				["name"] = "Gralph",
+				["overall"] = {
+				},
 			},
 			["Palasnikova-DunModr"] = {
 				["deaths"] = {
@@ -1445,185 +1457,173 @@ DeathGraphsDBDeaths = {
 				["name"] = "Palasnikova-DunModr",
 			},
 			["Memthis"] = {
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Memthis",
 				["overall"] = {
 				},
-				["name"] = "Memthis",
 			},
 			["Anivera-Ravencrest"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 				["name"] = "Anivera-Ravencrest",
 				["class"] = "WARRIOR",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 			["Wolweriné-Ambossar"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 				["name"] = "Wolweriné-Ambossar",
 				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 			},
 			["Demetrâ-Dalaran"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 				["name"] = "Demetrâ-Dalaran",
 				["class"] = "WARRIOR",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 			["Treekoz"] = {
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
+				["name"] = "Treekoz",
 				["overall"] = {
 				},
-				["name"] = "Treekoz",
 			},
 			["Muratgk-Antonidas"] = {
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
+				["name"] = "Muratgk-Antonidas",
 				["overall"] = {
 				},
-				["name"] = "Muratgk-Antonidas",
 			},
 			["Beba-Antonidas"] = {
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
+				["name"] = "Beba-Antonidas",
 				["overall"] = {
 				},
-				["name"] = "Beba-Antonidas",
 			},
 			["Dharan-Quel'Thalas"] = {
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
+				["name"] = "Dharan-Quel'Thalas",
 				["overall"] = {
 				},
-				["name"] = "Dharan-Quel'Thalas",
 			},
 			["Хронепсис-Гром"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 				["name"] = "Хронепсис-Гром",
 				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 			["Ухтыкакмогу-ВечнаяПесня"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 				["name"] = "Ухтыкакмогу-ВечнаяПесня",
 				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 			["Хрюль-Гордунни"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 				["name"] = "Хрюль-Гордунни",
 				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 			["Мансоун-Гордунни"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 				["name"] = "Мансоун-Гордунни",
 				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 			["Mariusar"] = {
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
+				["name"] = "Mariusar",
 				["overall"] = {
 				},
-				["name"] = "Mariusar",
 			},
 			["Darkalina-Dalaran"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 				["name"] = "Darkalina-Dalaran",
 				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 			["Näbot-Hyjal"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 				["name"] = "Näbot-Hyjal",
 				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 			["Stalhorn-Hyjal"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 				["name"] = "Stalhorn-Hyjal",
 				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 			["Custèr"] = {
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
+				["name"] = "Custèr",
 				["overall"] = {
 				},
-				["name"] = "Custèr",
 			},
 			["Karltoffel-Malorne"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 				["name"] = "Karltoffel-Malorne",
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 			},
 			["Tontonbil-Eitrigg"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 				["name"] = "Tontonbil-Eitrigg",
 				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 			["Suula-Tyrande"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 				["name"] = "Suula-Tyrande",
 				["class"] = "PALADIN",
-			},
-			["Azmødan"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Azmødan",
+				["deaths"] = {
+				},
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 1,
-			["zone"] = "The Eternal Palace",
-			["id"] = 2298,
-			["mapid"] = 2164,
-			["try_number"] = 1,
-			["name"] = "Abyssal Commander Sivara",
-			["encounter"] = "Abyssal Commander Sivara",
-			["ej_instance_id"] = 1179,
-			["diff"] = 15,
+			["Azmødan"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Azmødan",
+				["overall"] = {
+				},
+			},
 		},
 	},
 	["235314"] = {
@@ -1632,88 +1632,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Radiance of Azshara",
 		["id"] = 2353,
 		["diff"] = 14,
-		["player_db"] = {
-			["Moridin-Anub'arak"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Moridin-Anub'arak",
-				["class"] = "DEMONHUNTER",
-			},
-			["Fugguts-Ravencrest"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Fugguts-Ravencrest",
-				["class"] = "DRUID",
-			},
-			["Karlun-Quel'Thalas"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Karlun-Quel'Thalas",
-				["class"] = "PRIEST",
-			},
-			["Zenish-Quel'Thalas"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Zenish-Quel'Thalas",
-				["class"] = "HUNTER",
-			},
-			["Jerkon-EarthenRing"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Jerkon-EarthenRing",
-				["class"] = "PRIEST",
-			},
-			["Mallusof"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-			},
-			["Kuriyama-Neptulon"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Kuriyama-Neptulon",
-				["class"] = "ROGUE",
-			},
-			["Oppressum-Neptulon"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Oppressum-Neptulon",
-				["class"] = "WARLOCK",
-			},
-			["Asrael-Al'Akir"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Asrael-Al'Akir",
-				["class"] = "WARLOCK",
-			},
-			["Hengli-Ravencrest"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Hengli-Ravencrest",
-				["class"] = "MONK",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 3,
@@ -1727,88 +1645,17 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1179,
 			["killed"] = true,
 		},
-	},
-	["235915"] = {
-		["hash"] = "235915",
-		["type"] = "deaths",
-		["name"] = "The Queen's Court",
-		["id"] = 2359,
-		["diff"] = 15,
 		["player_db"] = {
-			["Gralph"] = {
-				["name"] = "Gralph",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Килури-Гордунни"] = {
-				["name"] = "Килури-Гордунни",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Irreale-Antonidas"] = {
-				["name"] = "Irreale-Antonidas",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Elaza-Blackmoore"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Elaza-Blackmoore",
-				["class"] = "SHAMAN",
-			},
-			["Mivu-KirinTor"] = {
-				["name"] = "Mivu-KirinTor",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Cathriona-ArgentDawn"] = {
-				["name"] = "Cathriona-ArgentDawn",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
 			["Moridin-Anub'arak"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 				["name"] = "Moridin-Anub'arak",
 				["class"] = "DEMONHUNTER",
-			},
-			["Malchijah-Quel'Thalas"] = {
-				["name"] = "Malchijah-Quel'Thalas",
-				["class"] = "PRIEST",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
 			},
-			["Clive-KirinTor"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Clive-KirinTor",
-				["class"] = "HUNTER",
-			},
-			["Peaseblossom-AzjolNerub"] = {
-				["name"] = "Peaseblossom-AzjolNerub",
+			["Fugguts-Ravencrest"] = {
+				["name"] = "Fugguts-Ravencrest",
 				["class"] = "DRUID",
 				["overall"] = {
 				},
@@ -1816,52 +1663,28 @@ DeathGraphsDBDeaths = {
 				},
 			},
 			["Karlun-Quel'Thalas"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
 				["name"] = "Karlun-Quel'Thalas",
-			},
-			["Idonee-Turalyon"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Idonee-Turalyon",
-			},
-			["Наккига-Разувий"] = {
+				["class"] = "PRIEST",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Наккига-Разувий",
+			},
+			["Zenish-Quel'Thalas"] = {
+				["name"] = "Zenish-Quel'Thalas",
 				["class"] = "HUNTER",
-			},
-			["Христов-Гордунни"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Христов-Гордунни",
-				["class"] = "HUNTER",
 			},
-			["Fröjya-Quel'Thalas"] = {
+			["Jerkon-EarthenRing"] = {
+				["name"] = "Jerkon-EarthenRing",
+				["class"] = "PRIEST",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Fröjya-Quel'Thalas",
-				["class"] = "DRUID",
-			},
-			["Oppressum-Neptulon"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Oppressum-Neptulon",
 			},
 			["Mallusof"] = {
 				["name"] = "Mallusof",
@@ -1879,31 +1702,38 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Qingaling-Ravencrest"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
+			["Oppressum-Neptulon"] = {
+				["name"] = "Oppressum-Neptulon",
+				["class"] = "WARLOCK",
 				["overall"] = {
 				},
-				["name"] = "Qingaling-Ravencrest",
+				["deaths"] = {
+				},
 			},
 			["Asrael-Al'Akir"] = {
+				["name"] = "Asrael-Al'Akir",
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Asrael-Al'Akir",
+				["deaths"] = {
+				},
 			},
-			["Fugguts-Ravencrest"] = {
-				["name"] = "Fugguts-Ravencrest",
-				["class"] = "DRUID",
+			["Hengli-Ravencrest"] = {
+				["name"] = "Hengli-Ravencrest",
+				["class"] = "MONK",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
 			},
 		},
+	},
+	["235915"] = {
+		["hash"] = "235915",
+		["type"] = "deaths",
+		["name"] = "The Queen's Court",
+		["id"] = 2359,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 6,
@@ -1917,38 +1747,182 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1179,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Gralph"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Gralph",
+				["class"] = "MONK",
+			},
+			["Килури-Гордунни"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Килури-Гордунни",
+				["class"] = "SHAMAN",
+			},
+			["Irreale-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Irreale-Antonidas",
+				["class"] = "WARRIOR",
+			},
+			["Elaza-Blackmoore"] = {
+				["name"] = "Elaza-Blackmoore",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Mivu-KirinTor"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mivu-KirinTor",
+				["class"] = "PRIEST",
+			},
+			["Cathriona-ArgentDawn"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Cathriona-ArgentDawn",
+				["class"] = "PALADIN",
+			},
+			["Moridin-Anub'arak"] = {
+				["name"] = "Moridin-Anub'arak",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Malchijah-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Malchijah-Quel'Thalas",
+				["class"] = "PRIEST",
+			},
+			["Clive-KirinTor"] = {
+				["name"] = "Clive-KirinTor",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Peaseblossom-AzjolNerub"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Peaseblossom-AzjolNerub",
+				["class"] = "DRUID",
+			},
+			["Karlun-Quel'Thalas"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Karlun-Quel'Thalas",
+				["overall"] = {
+				},
+			},
+			["Idonee-Turalyon"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Idonee-Turalyon",
+				["overall"] = {
+				},
+			},
+			["Наккига-Разувий"] = {
+				["name"] = "Наккига-Разувий",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Христов-Гордунни"] = {
+				["name"] = "Христов-Гордунни",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Fröjya-Quel'Thalas"] = {
+				["name"] = "Fröjya-Quel'Thalas",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Kuriyama-Neptulon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kuriyama-Neptulon",
+				["class"] = "ROGUE",
+			},
+			["Mallusof"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+			},
+			["Oppressum-Neptulon"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Oppressum-Neptulon",
+				["overall"] = {
+				},
+			},
+			["Qingaling-Ravencrest"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Qingaling-Ravencrest",
+				["overall"] = {
+				},
+			},
+			["Asrael-Al'Akir"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Asrael-Al'Akir",
+				["overall"] = {
+				},
+			},
+			["Fugguts-Ravencrest"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Fugguts-Ravencrest",
+				["class"] = "DRUID",
+			},
+		},
 	},
 	["236815"] = {
 		["hash"] = "236815",
 		["type"] = "deaths",
 		["name"] = "Wrathion",
 		["id"] = 2368,
-		["player_db"] = {
-			["Purrdition-AzjolNerub"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Purrdition-AzjolNerub",
-			},
-			["Id-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Id-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Vanorlaa-ArgentDawn"] = {
-				["name"] = "Vanorlaa-ArgentDawn",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 1,
@@ -1962,6 +1936,32 @@ DeathGraphsDBDeaths = {
 			["id"] = 2329,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Purrdition-AzjolNerub"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Purrdition-AzjolNerub",
+				["overall"] = {
+				},
+			},
+			["Id-Quel'Thalas"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Id-Quel'Thalas",
+			},
+			["Vanorlaa-ArgentDawn"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Vanorlaa-ArgentDawn",
+				["class"] = "PALADIN",
+			},
+		},
 		["diff"] = 15,
 	},
 	["236614"] = {
@@ -1970,120 +1970,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Carapace of N'Zoth",
 		["id"] = 2366,
 		["diff"] = 14,
-		["player_db"] = {
-			["Sempra-Wildhammer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Sempra-Wildhammer",
-				["overall"] = {
-				},
-			},
-			["Zenish-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Zenish-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Illai-Hellscream"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Illai-Hellscream",
-				["overall"] = {
-				},
-			},
-			["Lethraleon-Ravencrest"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Lethraleon-Ravencrest",
-				["class"] = "WARLOCK",
-			},
-			["Karlun-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Karlun-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Calarél-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Calarél-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Moridin-Anub'arak"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Moridin-Anub'arak",
-				["overall"] = {
-				},
-			},
-			["Sainfire-Wildhammer"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Sainfire-Wildhammer",
-				["overall"] = {
-				},
-			},
-			["Nanodh-Hellscream"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Nanodh-Hellscream",
-				["overall"] = {
-				},
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-			["Gimvy-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Gimvy-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Misswhiskers-AzjolNerub"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Misswhiskers-AzjolNerub",
-				["overall"] = {
-				},
-			},
-			["Vanorlaa-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Vanorlaa-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Id-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Id-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 11,
@@ -2097,6 +1983,120 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Sempra-Wildhammer"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sempra-Wildhammer",
+			},
+			["Zenish-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Zenish-Quel'Thalas",
+			},
+			["Illai-Hellscream"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Illai-Hellscream",
+			},
+			["Lethraleon-Ravencrest"] = {
+				["name"] = "Lethraleon-Ravencrest",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Karlun-Quel'Thalas"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Karlun-Quel'Thalas",
+			},
+			["Calarél-ArgentDawn"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Calarél-ArgentDawn",
+			},
+			["Moridin-Anub'arak"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Moridin-Anub'arak",
+			},
+			["Sainfire-Wildhammer"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sainfire-Wildhammer",
+			},
+			["Nanodh-Hellscream"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nanodh-Hellscream",
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+			["Gimvy-Quel'Thalas"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gimvy-Quel'Thalas",
+			},
+			["Misswhiskers-AzjolNerub"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Misswhiskers-AzjolNerub",
+			},
+			["Vanorlaa-ArgentDawn"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Vanorlaa-ArgentDawn",
+			},
+			["Id-Quel'Thalas"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Id-Quel'Thalas",
+			},
+		},
 	},
 	["236714"] = {
 		["hash"] = "236714",
@@ -2104,8 +2104,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Shad'har the Insatiable",
 		["id"] = 2367,
 		["diff"] = 14,
-		["player_db"] = {
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 6,
@@ -2119,6 +2117,8 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
+		["player_db"] = {
+		},
 	},
 	["237014"] = {
 		["hash"] = "237014",
@@ -2126,24 +2126,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Vexiona",
 		["id"] = 2370,
 		["diff"] = 14,
-		["player_db"] = {
-			["Карликарий-Азурегос"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Карликарий-Азурегос",
-				["class"] = "HUNTER",
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 9,
@@ -2156,6 +2138,24 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["diff"] = 14,
 		},
+		["player_db"] = {
+			["Карликарий-Азурегос"] = {
+				["name"] = "Карликарий-Азурегос",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+		},
 	},
 	["237314"] = {
 		["hash"] = "237314",
@@ -2163,8 +2163,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Drest'agath",
 		["id"] = 2373,
 		["diff"] = 14,
-		["player_db"] = {
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 7,
@@ -2178,6 +2176,8 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
+		["player_db"] = {
+		},
 	},
 	["237714"] = {
 		["hash"] = "237714",
@@ -2185,96 +2185,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Dark Inquisitor Xanesh",
 		["id"] = 2377,
 		["diff"] = 14,
-		["player_db"] = {
-			["Nanodh-Hellscream"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Nanodh-Hellscream",
-				["overall"] = {
-				},
-			},
-			["Moridin-Anub'arak"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Moridin-Anub'arak",
-				["overall"] = {
-				},
-			},
-			["Illai-Hellscream"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Illai-Hellscream",
-				["overall"] = {
-				},
-			},
-			["Gralph"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Gralph",
-				["overall"] = {
-				},
-			},
-			["Карликарий-Азурегос"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Карликарий-Азурегос",
-				["class"] = "HUNTER",
-			},
-			["Sainfire-Wildhammer"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Sainfire-Wildhammer",
-				["overall"] = {
-				},
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-			["Sempra-Wildhammer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Sempra-Wildhammer",
-				["overall"] = {
-				},
-			},
-			["Misswhiskers-AzjolNerub"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Misswhiskers-AzjolNerub",
-				["overall"] = {
-				},
-			},
-			["Karlun-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Karlun-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Gimvy-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Gimvy-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 4,
@@ -2287,230 +2197,102 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["diff"] = 14,
 		},
+		["player_db"] = {
+			["Nanodh-Hellscream"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nanodh-Hellscream",
+			},
+			["Moridin-Anub'arak"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Moridin-Anub'arak",
+			},
+			["Illai-Hellscream"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Illai-Hellscream",
+			},
+			["Gralph"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gralph",
+			},
+			["Карликарий-Азурегос"] = {
+				["name"] = "Карликарий-Азурегос",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Sainfire-Wildhammer"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sainfire-Wildhammer",
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+			["Sempra-Wildhammer"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sempra-Wildhammer",
+			},
+			["Gimvy-Quel'Thalas"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gimvy-Quel'Thalas",
+			},
+			["Karlun-Quel'Thalas"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Karlun-Quel'Thalas",
+			},
+			["Misswhiskers-AzjolNerub"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Misswhiskers-AzjolNerub",
+			},
+		},
 	},
 	["234915"] = {
 		["hash"] = "234915",
 		["type"] = "deaths",
 		["name"] = "Za'qul",
 		["id"] = 2349,
-		["player_db"] = {
-			["Id-Quel'Thalas"] = {
-				["name"] = "Id-Quel'Thalas",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Chirllo-Arathor"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Chirllo-Arathor",
-				["overall"] = {
-				},
-			},
-			["Gralph"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Gralph",
-				["overall"] = {
-				},
-			},
-			["Килури-Гордунни"] = {
-				["name"] = "Килури-Гордунни",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Ednaryyt"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Ednaryyt",
-				["overall"] = {
-				},
-			},
-			["Asrael-Al'Akir"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Asrael-Al'Akir",
-			},
-			["Sníphz-Ravencrest"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Sníphz-Ravencrest",
-				["overall"] = {
-				},
-			},
-			["Mivu-KirinTor"] = {
-				["name"] = "Mivu-KirinTor",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Акелар-Борейскаятундра"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Акелар-Борейскаятундра",
-				["overall"] = {
-				},
-			},
-			["Кооба-Борейскаятундра"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Кооба-Борейскаятундра",
-				["overall"] = {
-				},
-			},
-			["Peaseblossom-AzjolNerub"] = {
-				["name"] = "Peaseblossom-AzjolNerub",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kaesius-Magtheridon"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Kaesius-Magtheridon",
-				["overall"] = {
-				},
-			},
-			["Moridin-Anub'arak"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Moridin-Anub'arak",
-				["overall"] = {
-				},
-			},
-			["Eredar-Antonidas"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Eredar-Antonidas",
-			},
-			["Clive-KirinTor"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Clive-KirinTor",
-				["overall"] = {
-				},
-			},
-			["Cathriona-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Cathriona-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Pyrob"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Pyrob",
-				["overall"] = {
-				},
-			},
-			["Malchijah-Quel'Thalas"] = {
-				["name"] = "Malchijah-Quel'Thalas",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Наккига-Разувий"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Наккига-Разувий",
-				["overall"] = {
-				},
-			},
-			["Христов-Гордунни"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Христов-Гордунни",
-				["overall"] = {
-				},
-			},
-			["Fröjya-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Fröjya-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Melice-Neptulon"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Melice-Neptulon",
-				["overall"] = {
-				},
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-			["Kuriyama-Neptulon"] = {
-				["name"] = "Kuriyama-Neptulon",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Fugguts-Ravencrest"] = {
-				["name"] = "Fugguts-Ravencrest",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Adionis-Magtheridon"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Adionis-Magtheridon",
-				["overall"] = {
-				},
-			},
-			["Irreale-Antonidas"] = {
-				["name"] = "Irreale-Antonidas",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 7,
@@ -2523,6 +2305,224 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1179,
 			["encounter"] = "Za'qul",
 		},
+		["player_db"] = {
+			["Id-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Id-Quel'Thalas",
+				["class"] = "DEMONHUNTER",
+			},
+			["Chirllo-Arathor"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Chirllo-Arathor",
+			},
+			["Gralph"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gralph",
+			},
+			["Килури-Гордунни"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Килури-Гордунни",
+				["class"] = "SHAMAN",
+			},
+			["Ednaryyt"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ednaryyt",
+			},
+			["Sníphz-Ravencrest"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sníphz-Ravencrest",
+			},
+			["Asrael-Al'Akir"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Asrael-Al'Akir",
+				["overall"] = {
+				},
+			},
+			["Mivu-KirinTor"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mivu-KirinTor",
+				["class"] = "PRIEST",
+			},
+			["Clive-KirinTor"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Clive-KirinTor",
+			},
+			["Кооба-Борейскаятундра"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Кооба-Борейскаятундра",
+			},
+			["Peaseblossom-AzjolNerub"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Peaseblossom-AzjolNerub",
+				["class"] = "DRUID",
+			},
+			["Kaesius-Magtheridon"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kaesius-Magtheridon",
+			},
+			["Moridin-Anub'arak"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Moridin-Anub'arak",
+			},
+			["Eredar-Antonidas"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Eredar-Antonidas",
+				["overall"] = {
+				},
+			},
+			["Акелар-Борейскаятундра"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Акелар-Борейскаятундра",
+			},
+			["Fugguts-Ravencrest"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Fugguts-Ravencrest",
+				["class"] = "DRUID",
+			},
+			["Pyrob"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Pyrob",
+			},
+			["Malchijah-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Malchijah-Quel'Thalas",
+				["class"] = "PRIEST",
+			},
+			["Наккига-Разувий"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Наккига-Разувий",
+			},
+			["Христов-Гордунни"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Христов-Гордунни",
+			},
+			["Fröjya-Quel'Thalas"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Fröjya-Quel'Thalas",
+			},
+			["Melice-Neptulon"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Melice-Neptulon",
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+			["Kuriyama-Neptulon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kuriyama-Neptulon",
+				["class"] = "ROGUE",
+			},
+			["Cathriona-ArgentDawn"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Cathriona-ArgentDawn",
+			},
+			["Adionis-Magtheridon"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Adionis-Magtheridon",
+			},
+			["Irreale-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Irreale-Antonidas",
+				["class"] = "WARRIOR",
+			},
+		},
 		["diff"] = 15,
 	},
 	["234714"] = {
@@ -2531,24 +2531,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Blackwater Behemoth",
 		["id"] = 2347,
 		["diff"] = 14,
-		["player_db"] = {
-			["Bettewarlock-Terenas"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Bettewarlock-Terenas",
-				["class"] = "WARLOCK",
-			},
-			["Люпен-Седогрив"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Люпен-Седогрив",
-				["class"] = "DEMONHUNTER",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 2,
@@ -2562,6 +2544,24 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1179,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Bettewarlock-Terenas"] = {
+				["name"] = "Bettewarlock-Terenas",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Люпен-Седогрив"] = {
+				["name"] = "Люпен-Седогрив",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+		},
 	},
 	["237214"] = {
 		["hash"] = "237214",
@@ -2569,8 +2569,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "The Hivemind",
 		["id"] = 2372,
 		["diff"] = 14,
-		["player_db"] = {
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 5,
@@ -2584,6 +2582,8 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
+		["player_db"] = {
+		},
 	},
 	["234715"] = {
 		["hash"] = "234715",
@@ -2591,6 +2591,455 @@ DeathGraphsDBDeaths = {
 		["name"] = "Blackwater Behemoth",
 		["id"] = 2347,
 		["diff"] = 15,
+		["player_db"] = {
+			["Iampalü-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Iampalü-Antonidas",
+				["class"] = "PALADIN",
+			},
+			["Xiaoyueya-Outland"] = {
+				["name"] = "Xiaoyueya-Outland",
+				["class"] = "MAGE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Jank-TheMaelstrom"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Jank-TheMaelstrom",
+				["overall"] = {
+				},
+			},
+			["Invasor-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Invasor-Antonidas",
+				["class"] = "PALADIN",
+			},
+			["Mivu-KirinTor"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Mivu-KirinTor",
+				["overall"] = {
+				},
+			},
+			["Estania-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Estania-Antonidas",
+				["class"] = "MAGE",
+			},
+			["Jiga-Nemesis"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Jiga-Nemesis",
+				["class"] = "WARLOCK",
+			},
+			["Lí-Todeswache"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Lí-Todeswache",
+				["class"] = "SHAMAN",
+			},
+			["Oppressum-Neptulon"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Oppressum-Neptulon",
+			},
+			["Rukus-Nemesis"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Rukus-Nemesis",
+				["class"] = "PALADIN",
+			},
+			["Tirius-Nemesis"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Tirius-Nemesis",
+				["class"] = "HUNTER",
+			},
+			["Nulona-Garrosh"] = {
+				["name"] = "Nulona-Garrosh",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Friedholm-Mal'Ganis"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Friedholm-Mal'Ganis",
+				["class"] = "HUNTER",
+			},
+			["Anomassa"] = {
+				["name"] = "Anomassa",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Kuriyama-Neptulon"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Kuriyama-Neptulon",
+				["overall"] = {
+				},
+			},
+			["Даомакс-СтражСмерти"] = {
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Даомакс-СтражСмерти",
+			},
+			["Karltoffel-Malorne"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Karltoffel-Malorne",
+				["class"] = "HUNTER",
+			},
+			["Evergreen-DieSilberneHand"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Evergreen-DieSilberneHand",
+				["class"] = "DRUID",
+			},
+			["Lyranthus-Nemesis"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Lyranthus-Nemesis",
+				["class"] = "PALADIN",
+			},
+			["Mallusof"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+			},
+			["Chebaky-DunModr"] = {
+				["name"] = "Chebaky-DunModr",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Aysía-Nemesis"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Aysía-Nemesis",
+				["class"] = "ROGUE",
+			},
+			["Ikbal-Nemesis"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Ikbal-Nemesis",
+				["class"] = "MAGE",
+			},
+			["Axix-Ravencrest"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Axix-Ravencrest",
+				["class"] = "DRUID",
+			},
+			["Klænex-Hyjal"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Klænex-Hyjal",
+				["class"] = "SHAMAN",
+			},
+			["Bulbumbo"] = {
+				["name"] = "Bulbumbo",
+				["class"] = "WARRIOR",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Unchartet-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Unchartet-Antonidas",
+				["class"] = "WARRIOR",
+			},
+			["Grimmjôw-Ambossar"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Grimmjôw-Ambossar",
+				["class"] = "WARLOCK",
+			},
+			["Doktorchen-DunMorogh"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Doktorchen-DunMorogh",
+				["class"] = "MONK",
+			},
+			["Gralph"] = {
+				["name"] = "Gralph",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Semastaa-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Semastaa-Antonidas",
+				["class"] = "MONK",
+			},
+			["Manchmaltod-Norgannon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Manchmaltod-Norgannon",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Irreale-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Irreale-Antonidas",
+				["class"] = "WARRIOR",
+			},
+			["Zumitø-DunModr"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Zumitø-DunModr",
+				["class"] = "PRIEST",
+			},
+			["Wolweriné-Ambossar"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Wolweriné-Ambossar",
+				["class"] = "ROGUE",
+			},
+			["Manaburst-Malorne"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Manaburst-Malorne",
+				["class"] = "MAGE",
+			},
+			["Beltra-Nemesis"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Beltra-Nemesis",
+				["class"] = "WARRIOR",
+			},
+			["Piefke-Lordaeron"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Piefke-Lordaeron",
+				["class"] = "WARLOCK",
+			},
+			["Wildfighter-Malorne"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Wildfighter-Malorne",
+				["class"] = "HUNTER",
+			},
+			["Bonscott-Blackmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Bonscott-Blackmoore",
+				["class"] = "MONK",
+			},
+			["Clive-KirinTor"] = {
+				["name"] = "Clive-KirinTor",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Moridin-Anub'arak"] = {
+				["name"] = "Moridin-Anub'arak",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Darkterrors-DunModr"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Darkterrors-DunModr",
+				["class"] = "SHAMAN",
+			},
+			["Azmødan"] = {
+				["name"] = "Azmødan",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Fabienne-Malorne"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Fabienne-Malorne",
+				["class"] = "HUNTER",
+			},
+			["Andito-Pozzodell'Eternità"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Andito-Pozzodell'Eternità",
+				["overall"] = {
+				},
+			},
+			["Wyshaa-Hyjal"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Wyshaa-Hyjal",
+				["class"] = "DRUID",
+			},
+			["Монтанор-Разувий"] = {
+				["name"] = "Монтанор-Разувий",
+				["class"] = "WARRIOR",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Bàppì-Alleria"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Bàppì-Alleria",
+				["class"] = "HUNTER",
+			},
+			["Killrockson-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Killrockson-Antonidas",
+				["class"] = "HUNTER",
+			},
+			["Melice-Neptulon"] = {
+				["name"] = "Melice-Neptulon",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Scarymann-Antonidas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Scarymann-Antonidas",
+				["class"] = "DRUID",
+			},
+			["Acharia"] = {
+				["name"] = "Acharia",
+				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Servigna-Nemesis"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Servigna-Nemesis",
+				["class"] = "HUNTER",
+			},
+			["Bettewarlock-Terenas"] = {
+				["name"] = "Bettewarlock-Terenas",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Килури-Гордунни"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Килури-Гордунни",
+				["class"] = "SHAMAN",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 2,
@@ -2603,591 +3052,12 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1179,
 			["diff"] = 15,
 		},
-		["player_db"] = {
-			["Iampalü-Antonidas"] = {
-				["name"] = "Iampalü-Antonidas",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Xiaoyueya-Outland"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Xiaoyueya-Outland",
-				["class"] = "MAGE",
-			},
-			["Jank-TheMaelstrom"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Jank-TheMaelstrom",
-			},
-			["Invasor-Antonidas"] = {
-				["name"] = "Invasor-Antonidas",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mivu-KirinTor"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Mivu-KirinTor",
-			},
-			["Estania-Antonidas"] = {
-				["name"] = "Estania-Antonidas",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jiga-Nemesis"] = {
-				["name"] = "Jiga-Nemesis",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Lí-Todeswache"] = {
-				["name"] = "Lí-Todeswache",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Oppressum-Neptulon"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Oppressum-Neptulon",
-				["overall"] = {
-				},
-			},
-			["Rukus-Nemesis"] = {
-				["name"] = "Rukus-Nemesis",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Tirius-Nemesis"] = {
-				["name"] = "Tirius-Nemesis",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Servigna-Nemesis"] = {
-				["name"] = "Servigna-Nemesis",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Friedholm-Mal'Ganis"] = {
-				["name"] = "Friedholm-Mal'Ganis",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Anomassa"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Anomassa",
-				["class"] = "PRIEST",
-			},
-			["Kuriyama-Neptulon"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kuriyama-Neptulon",
-			},
-			["Даомакс-СтражСмерти"] = {
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Даомакс-СтражСмерти",
-			},
-			["Karltoffel-Malorne"] = {
-				["name"] = "Karltoffel-Malorne",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Evergreen-DieSilberneHand"] = {
-				["name"] = "Evergreen-DieSilberneHand",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Lyranthus-Nemesis"] = {
-				["name"] = "Lyranthus-Nemesis",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Chebaky-DunModr"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Chebaky-DunModr",
-				["class"] = "MONK",
-			},
-			["Aysía-Nemesis"] = {
-				["name"] = "Aysía-Nemesis",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Ikbal-Nemesis"] = {
-				["name"] = "Ikbal-Nemesis",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Axix-Ravencrest"] = {
-				["name"] = "Axix-Ravencrest",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Klænex-Hyjal"] = {
-				["name"] = "Klænex-Hyjal",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Bulbumbo"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Bulbumbo",
-				["class"] = "WARRIOR",
-			},
-			["Unchartet-Antonidas"] = {
-				["name"] = "Unchartet-Antonidas",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Zumitø-DunModr"] = {
-				["name"] = "Zumitø-DunModr",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Andito-Pozzodell'Eternità"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Andito-Pozzodell'Eternità",
-			},
-			["Gralph"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Gralph",
-				["class"] = "MONK",
-			},
-			["Semastaa-Antonidas"] = {
-				["name"] = "Semastaa-Antonidas",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Manchmaltod-Norgannon"] = {
-				["name"] = "Manchmaltod-Norgannon",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Irreale-Antonidas"] = {
-				["name"] = "Irreale-Antonidas",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Grimmjôw-Ambossar"] = {
-				["name"] = "Grimmjôw-Ambossar",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Wolweriné-Ambossar"] = {
-				["name"] = "Wolweriné-Ambossar",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Manaburst-Malorne"] = {
-				["name"] = "Manaburst-Malorne",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Fabienne-Malorne"] = {
-				["name"] = "Fabienne-Malorne",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Piefke-Lordaeron"] = {
-				["name"] = "Piefke-Lordaeron",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Wildfighter-Malorne"] = {
-				["name"] = "Wildfighter-Malorne",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Bonscott-Blackmoore"] = {
-				["name"] = "Bonscott-Blackmoore",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Clive-KirinTor"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Clive-KirinTor",
-				["class"] = "HUNTER",
-			},
-			["Moridin-Anub'arak"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Moridin-Anub'arak",
-				["class"] = "DEMONHUNTER",
-			},
-			["Darkterrors-DunModr"] = {
-				["name"] = "Darkterrors-DunModr",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Azmødan"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Azmødan",
-				["class"] = "WARLOCK",
-			},
-			["Beltra-Nemesis"] = {
-				["name"] = "Beltra-Nemesis",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Doktorchen-DunMorogh"] = {
-				["name"] = "Doktorchen-DunMorogh",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Wyshaa-Hyjal"] = {
-				["name"] = "Wyshaa-Hyjal",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Монтанор-Разувий"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Монтанор-Разувий",
-				["class"] = "WARRIOR",
-			},
-			["Bàppì-Alleria"] = {
-				["name"] = "Bàppì-Alleria",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Killrockson-Antonidas"] = {
-				["name"] = "Killrockson-Antonidas",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Melice-Neptulon"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Melice-Neptulon",
-				["class"] = "PALADIN",
-			},
-			["Scarymann-Antonidas"] = {
-				["name"] = "Scarymann-Antonidas",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Acharia"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Acharia",
-				["class"] = "DEATHKNIGHT",
-			},
-			["Nulona-Garrosh"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Nulona-Garrosh",
-				["class"] = "DRUID",
-			},
-			["Bettewarlock-Terenas"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Bettewarlock-Terenas",
-				["class"] = "WARLOCK",
-			},
-			["Килури-Гордунни"] = {
-				["name"] = "Килури-Гордунни",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["237715"] = {
 		["hash"] = "237715",
 		["type"] = "deaths",
 		["name"] = "Dark Inquisitor Xanesh",
 		["id"] = 2377,
-		["player_db"] = {
-			["Nanodh-Hellscream"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Nanodh-Hellscream",
-				["overall"] = {
-				},
-			},
-			["Id-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Id-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Zenish-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Zenish-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Illai-Hellscream"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Illai-Hellscream",
-				["overall"] = {
-				},
-			},
-			["Purrdition-AzjolNerub"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Purrdition-AzjolNerub",
-				["overall"] = {
-				},
-			},
-			["Karlun-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Karlun-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Calarél-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Calarél-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Inleafeor-Aggramar"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Inleafeor-Aggramar",
-				["overall"] = {
-				},
-			},
-			["Relapse-Ravencrest"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Relapse-Ravencrest",
-				["overall"] = {
-				},
-			},
-			["Grálph-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Grálph-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Mushí-Ravencrest"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Mushí-Ravencrest",
-				["overall"] = {
-				},
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-			["Oppressum-Neptulon"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Oppressum-Neptulon",
-				["overall"] = {
-				},
-			},
-			["Gimvy-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Gimvy-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Vanorlaa-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Vanorlaa-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Gralph"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Gralph",
-				["overall"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 4,
@@ -3200,67 +3070,189 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["encounter"] = "Dark Inquisitor Xanesh",
 		},
-		["diff"] = 15,
-	},
-	["236915"] = {
-		["hash"] = "236915",
-		["type"] = "deaths",
-		["name"] = "Prophet Skitra",
-		["id"] = 2369,
 		["player_db"] = {
-			["Relapse-Ravencrest"] = {
+			["Nanodh-Hellscream"] = {
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
-				["name"] = "Relapse-Ravencrest",
 				["overall"] = {
 				},
+				["name"] = "Nanodh-Hellscream",
 			},
-			["Хикас-Гордунни"] = {
-				["name"] = "Хикас-Гордунни",
+			["Id-Quel'Thalas"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Id-Quel'Thalas",
+			},
+			["Zenish-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Zenish-Quel'Thalas",
+			},
+			["Illai-Hellscream"] = {
 				["class"] = "ROGUE",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Illai-Hellscream",
 			},
-			["Интэгра-Дракономор"] = {
-				["name"] = "Интэгра-Дракономор",
+			["Purrdition-AzjolNerub"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Purrdition-AzjolNerub",
+			},
+			["Gralph"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gralph",
+			},
+			["Calarél-ArgentDawn"] = {
 				["class"] = "PRIEST",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Calarél-ArgentDawn",
 			},
-			["Хелдорадушка-Азурегос"] = {
-				["name"] = "Хелдорадушка-Азурегос",
+			["Inleafeor-Aggramar"] = {
 				["class"] = "DRUID",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Inleafeor-Aggramar",
 			},
-			["Мираель-СтражСмерти"] = {
-				["name"] = "Мираель-СтражСмерти",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
+			["Relapse-Ravencrest"] = {
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Relapse-Ravencrest",
+			},
+			["Grálph-ArgentDawn"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Grálph-ArgentDawn",
+			},
+			["Mushí-Ravencrest"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mushí-Ravencrest",
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+			["Oppressum-Neptulon"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Oppressum-Neptulon",
+			},
+			["Gimvy-Quel'Thalas"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gimvy-Quel'Thalas",
+			},
+			["Vanorlaa-ArgentDawn"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Vanorlaa-ArgentDawn",
+			},
+			["Karlun-Quel'Thalas"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Karlun-Quel'Thalas",
 			},
 		},
+		["diff"] = 15,
+	},
+	["237215"] = {
+		["hash"] = "237215",
+		["type"] = "deaths",
+		["name"] = "The Hivemind",
+		["id"] = 2372,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
-			["index"] = 3,
+			["index"] = 5,
 			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Prophet Skitra",
+			["encounter"] = "The Hivemind",
 			["mapid"] = 2217,
 			["try_number"] = 1,
-			["name"] = "Prophet Skitra",
+			["name"] = "The Hivemind",
 			["diff"] = 15,
 			["ej_instance_id"] = 1180,
-			["id"] = 2334,
+			["id"] = 2333,
 			["killed"] = true,
+		},
+		["player_db"] = {
+			["Sempra-Wildhammer"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sempra-Wildhammer",
+			},
+			["Gimvy-Quel'Thalas"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gimvy-Quel'Thalas",
+			},
+			["Moridin-Anub'arak"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Moridin-Anub'arak",
+			},
+			["Dhaina-Anub'arak"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Dhaina-Anub'arak",
+			},
 		},
 		["diff"] = 15,
 	},
@@ -3269,104 +3261,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Lady Ashvane",
 		["id"] = 2354,
-		["player_db"] = {
-			["Id-Quel'Thalas"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Id-Quel'Thalas",
-				["class"] = "DEMONHUNTER",
-			},
-			["Clive-KirinTor"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Clive-KirinTor",
-				["class"] = "HUNTER",
-			},
-			["Peaseblossom-AzjolNerub"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Peaseblossom-AzjolNerub",
-				["class"] = "DRUID",
-			},
-			["Gralph"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Gralph",
-				["class"] = "MONK",
-			},
-			["Moridin-Anub'arak"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Moridin-Anub'arak",
-				["class"] = "DEMONHUNTER",
-			},
-			["Fugguts-Ravencrest"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Fugguts-Ravencrest",
-				["class"] = "DRUID",
-			},
-			["Oppressum-Neptulon"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Oppressum-Neptulon",
-				["class"] = "WARLOCK",
-			},
-			["Mallusof"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-			},
-			["Kuriyama-Neptulon"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Kuriyama-Neptulon",
-				["class"] = "ROGUE",
-			},
-			["Karlun-Quel'Thalas"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Karlun-Quel'Thalas",
-				["class"] = "PRIEST",
-			},
-			["Asrael-Al'Akir"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Asrael-Al'Akir",
-				["class"] = "WARLOCK",
-			},
-			["Hengli-Ravencrest"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Hengli-Ravencrest",
-				["class"] = "MONK",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 4,
@@ -3380,6 +3274,104 @@ DeathGraphsDBDeaths = {
 			["id"] = 2304,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Id-Quel'Thalas"] = {
+				["name"] = "Id-Quel'Thalas",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Clive-KirinTor"] = {
+				["name"] = "Clive-KirinTor",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Peaseblossom-AzjolNerub"] = {
+				["name"] = "Peaseblossom-AzjolNerub",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Gralph"] = {
+				["name"] = "Gralph",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Moridin-Anub'arak"] = {
+				["name"] = "Moridin-Anub'arak",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Fugguts-Ravencrest"] = {
+				["name"] = "Fugguts-Ravencrest",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Kuriyama-Neptulon"] = {
+				["name"] = "Kuriyama-Neptulon",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Oppressum-Neptulon"] = {
+				["name"] = "Oppressum-Neptulon",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Karlun-Quel'Thalas"] = {
+				["name"] = "Karlun-Quel'Thalas",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Asrael-Al'Akir"] = {
+				["name"] = "Asrael-Al'Akir",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Hengli-Ravencrest"] = {
+				["name"] = "Hengli-Ravencrest",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+		},
 		["diff"] = 14,
 	},
 	["236515"] = {
@@ -3387,128 +3379,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Maut",
 		["id"] = 2365,
-		["player_db"] = {
-			["Sempra-Wildhammer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Sempra-Wildhammer",
-				["overall"] = {
-				},
-			},
-			["Zenish-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Zenish-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Illai-Hellscream"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Illai-Hellscream",
-				["overall"] = {
-				},
-			},
-			["Karlun-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Karlun-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Gralph"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Gralph",
-				["overall"] = {
-				},
-			},
-			["Calarél-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Calarél-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Inleafeor-Aggramar"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Inleafeor-Aggramar",
-				["overall"] = {
-				},
-			},
-			["Relapse-Ravencrest"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Relapse-Ravencrest",
-				["overall"] = {
-				},
-			},
-			["Grálph-ArgentDawn"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Grálph-ArgentDawn",
-			},
-			["Gimvy-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Gimvy-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Mallusof"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Mallusof",
-			},
-			["Oppressum-Neptulon"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Oppressum-Neptulon",
-			},
-			["Misswhiskers-AzjolNerub"] = {
-				["name"] = "Misswhiskers-AzjolNerub",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Vanorlaa-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Vanorlaa-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Daizen-Hellscream"] = {
-				["name"] = "Daizen-Hellscream",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 2,
@@ -3521,98 +3391,92 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["encounter"] = "Maut",
 		},
-		["diff"] = 15,
-	},
-	["236914"] = {
-		["hash"] = "236914",
-		["type"] = "deaths",
-		["name"] = "Prophet Skitra",
-		["id"] = 2369,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 3,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Prophet Skitra",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Prophet Skitra",
-			["diff"] = 14,
-			["ej_instance_id"] = 1180,
-			["id"] = 2334,
-			["killed"] = true,
-		},
 		["player_db"] = {
-		},
-		["diff"] = 14,
-	},
-	["235115"] = {
-		["hash"] = "235115",
-		["type"] = "deaths",
-		["name"] = "Orgozoa",
-		["id"] = 2351,
-		["diff"] = 15,
-		["player_db"] = {
-			["Id-Quel'Thalas"] = {
-				["name"] = "Id-Quel'Thalas",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Chanchanko-Auchindoun"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Chanchanko-Auchindoun",
-				["overall"] = {
-				},
-			},
-			["Clive-KirinTor"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Clive-KirinTor",
-				["overall"] = {
-				},
-			},
-			["Fugguts-Ravencrest"] = {
-				["name"] = "Fugguts-Ravencrest",
+			["Sempra-Wildhammer"] = {
 				["class"] = "DRUID",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Sempra-Wildhammer",
+			},
+			["Zenish-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Zenish-Quel'Thalas",
+			},
+			["Illai-Hellscream"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Illai-Hellscream",
 			},
 			["Gralph"] = {
-				["name"] = "Gralph",
 				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gralph",
+			},
+			["Karlun-Quel'Thalas"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Karlun-Quel'Thalas",
+			},
+			["Daizen-Hellscream"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
+				["name"] = "Daizen-Hellscream",
+				["class"] = "DEATHKNIGHT",
 			},
-			["Наккига-Разувий"] = {
+			["Inleafeor-Aggramar"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
 				["overall"] = {
 				},
+				["name"] = "Inleafeor-Aggramar",
+			},
+			["Relapse-Ravencrest"] = {
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-				["name"] = "Наккига-Разувий",
-				["class"] = "HUNTER",
-			},
-			["Moridin-Anub'arak"] = {
-				["name"] = "Moridin-Anub'arak",
-				["class"] = "DEMONHUNTER",
 				["overall"] = {
 				},
+				["name"] = "Relapse-Ravencrest",
+			},
+			["Grálph-ArgentDawn"] = {
 				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Grálph-ArgentDawn",
+				["overall"] = {
 				},
 			},
-			["Corasm-Auchindoun"] = {
+			["Gimvy-Quel'Thalas"] = {
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
-				["name"] = "Corasm-Auchindoun",
+				["overall"] = {
+				},
+				["name"] = "Gimvy-Quel'Thalas",
+			},
+			["Mallusof"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Mallusof",
 				["overall"] = {
 				},
 			},
@@ -3624,47 +3488,165 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 			},
-			["Elaza-Blackmoore"] = {
+			["Misswhiskers-AzjolNerub"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Elaza-Blackmoore",
-				["class"] = "SHAMAN",
+				["name"] = "Misswhiskers-AzjolNerub",
+				["class"] = "DEATHKNIGHT",
 			},
-			["Âcherón-DunModr"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Âcherón-DunModr",
-				["overall"] = {
-				},
-			},
-			["Kuriyama-Neptulon"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Kuriyama-Neptulon",
-				["overall"] = {
-				},
-			},
-			["Asrael-Al'Akir"] = {
-				["name"] = "Asrael-Al'Akir",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Cathriona-ArgentDawn"] = {
-				["name"] = "Cathriona-ArgentDawn",
+			["Vanorlaa-ArgentDawn"] = {
 				["class"] = "PALADIN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Vanorlaa-ArgentDawn",
+			},
+			["Calarél-ArgentDawn"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Calarél-ArgentDawn",
 			},
 		},
+		["diff"] = 15,
+	},
+	["237315"] = {
+		["hash"] = "237315",
+		["type"] = "deaths",
+		["name"] = "Drest'agath",
+		["id"] = 2373,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 7,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Drest'agath",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Drest'agath",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2343,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Nanodh-Hellscream"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Nanodh-Hellscream",
+				["class"] = "DEMONHUNTER",
+			},
+			["Zenish-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Zenish-Quel'Thalas",
+			},
+			["Illai-Hellscream"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Illai-Hellscream",
+			},
+			["Dåre-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Dåre-Quel'Thalas",
+				["class"] = "WARLOCK",
+			},
+			["Daizen-Hellscream"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Daizen-Hellscream",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Fuqita-Ravencrest"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Fuqita-Ravencrest",
+				["class"] = "MONK",
+			},
+			["Mushí-Ravencrest"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mushí-Ravencrest",
+			},
+			["Grálph-ArgentDawn"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Grálph-ArgentDawn",
+			},
+			["Moridin-Anub'arak"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Moridin-Anub'arak",
+			},
+			["Relapse-Ravencrest"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Relapse-Ravencrest",
+			},
+			["Misswhiskers-AzjolNerub"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Misswhiskers-AzjolNerub",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Vanorlaa-ArgentDawn"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Vanorlaa-ArgentDawn",
+				["class"] = "PALADIN",
+			},
+			["Karlun-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Karlun-Quel'Thalas",
+				["class"] = "PRIEST",
+			},
+		},
+		["diff"] = 15,
+	},
+	["235115"] = {
+		["hash"] = "235115",
+		["type"] = "deaths",
+		["name"] = "Orgozoa",
+		["id"] = 2351,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 5,
@@ -3678,12 +3660,136 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1179,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Id-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Id-Quel'Thalas",
+				["class"] = "DEMONHUNTER",
+			},
+			["Chanchanko-Auchindoun"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Chanchanko-Auchindoun",
+			},
+			["Clive-KirinTor"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Clive-KirinTor",
+			},
+			["Fugguts-Ravencrest"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Fugguts-Ravencrest",
+				["class"] = "DRUID",
+			},
+			["Gralph"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Gralph",
+				["class"] = "MONK",
+			},
+			["Наккига-Разувий"] = {
+				["name"] = "Наккига-Разувий",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Moridin-Anub'arak"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Moridin-Anub'arak",
+				["class"] = "DEMONHUNTER",
+			},
+			["Kuriyama-Neptulon"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kuriyama-Neptulon",
+			},
+			["Âcherón-DunModr"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Âcherón-DunModr",
+			},
+			["Elaza-Blackmoore"] = {
+				["name"] = "Elaza-Blackmoore",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Oppressum-Neptulon"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Oppressum-Neptulon",
+			},
+			["Corasm-Auchindoun"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Corasm-Auchindoun",
+			},
+			["Asrael-Al'Akir"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Asrael-Al'Akir",
+				["class"] = "WARLOCK",
+			},
+			["Cathriona-ArgentDawn"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Cathriona-ArgentDawn",
+				["class"] = "PALADIN",
+			},
+		},
 	},
 	["235214"] = {
 		["hash"] = "235214",
 		["type"] = "deaths",
 		["name"] = "Abyssal Commander Sivara",
 		["id"] = 2352,
+		["player_db"] = {
+			["Moridin-Anub'arak"] = {
+				["name"] = "Moridin-Anub'arak",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 1,
@@ -3697,16 +3803,6 @@ DeathGraphsDBDeaths = {
 			["id"] = 2298,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Moridin-Anub'arak"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Moridin-Anub'arak",
-				["class"] = "DEMONHUNTER",
-			},
-		},
 		["diff"] = 14,
 	},
 	["236514"] = {
@@ -3714,6 +3810,48 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Maut",
 		["id"] = 2365,
+		["player_db"] = {
+			["Eøzenn-Archimonde"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Eøzenn-Archimonde",
+				["overall"] = {
+				},
+			},
+			["Relapse-Ravencrest"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Relapse-Ravencrest",
+				["class"] = "WARRIOR",
+			},
+			["Gimvy-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Gimvy-Quel'Thalas",
+				["class"] = "SHAMAN",
+			},
+			["Карликарий-Азурегос"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Карликарий-Азурегос",
+				["overall"] = {
+				},
+			},
+			["Voidmist-Pozzodell'Eternità"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Voidmist-Pozzodell'Eternità",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 2,
@@ -3726,175 +3864,29 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["encounter"] = "Maut",
 		},
-		["player_db"] = {
-			["Eøzenn-Archimonde"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Eøzenn-Archimonde",
-			},
-			["Relapse-Ravencrest"] = {
-				["name"] = "Relapse-Ravencrest",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Gimvy-Quel'Thalas"] = {
-				["name"] = "Gimvy-Quel'Thalas",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Карликарий-Азурегос"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Карликарий-Азурегос",
-			},
-			["Voidmist-Pozzodell'Eternità"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Voidmist-Pozzodell'Eternità",
-			},
-		},
 		["diff"] = 14,
 	},
-	["237315"] = {
-		["hash"] = "237315",
+	["236914"] = {
+		["hash"] = "236914",
 		["type"] = "deaths",
-		["name"] = "Drest'agath",
-		["id"] = 2373,
+		["name"] = "Prophet Skitra",
+		["id"] = 2369,
 		["player_db"] = {
-			["Nanodh-Hellscream"] = {
-				["name"] = "Nanodh-Hellscream",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Zenish-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Zenish-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Illai-Hellscream"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Illai-Hellscream",
-				["overall"] = {
-				},
-			},
-			["Dåre-Quel'Thalas"] = {
-				["name"] = "Dåre-Quel'Thalas",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Daizen-Hellscream"] = {
-				["name"] = "Daizen-Hellscream",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Fuqita-Ravencrest"] = {
-				["name"] = "Fuqita-Ravencrest",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mushí-Ravencrest"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Mushí-Ravencrest",
-				["overall"] = {
-				},
-			},
-			["Grálph-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Grálph-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Moridin-Anub'arak"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Moridin-Anub'arak",
-				["overall"] = {
-				},
-			},
-			["Relapse-Ravencrest"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Relapse-Ravencrest",
-				["overall"] = {
-				},
-			},
-			["Misswhiskers-AzjolNerub"] = {
-				["name"] = "Misswhiskers-AzjolNerub",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Vanorlaa-ArgentDawn"] = {
-				["name"] = "Vanorlaa-ArgentDawn",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Karlun-Quel'Thalas"] = {
-				["name"] = "Karlun-Quel'Thalas",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
 		},
 		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 7,
+			["diff_string"] = "Normal",
+			["index"] = 3,
 			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Drest'agath",
+			["encounter"] = "Prophet Skitra",
 			["mapid"] = 2217,
 			["try_number"] = 1,
-			["name"] = "Drest'agath",
-			["diff"] = 15,
+			["name"] = "Prophet Skitra",
+			["diff"] = 14,
 			["ej_instance_id"] = 1180,
-			["id"] = 2343,
+			["id"] = 2334,
 			["killed"] = true,
 		},
-		["diff"] = 15,
+		["diff"] = 14,
 	},
 	["235415"] = {
 		["hash"] = "235415",
@@ -3902,151 +3894,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Lady Ashvane",
 		["id"] = 2354,
 		["diff"] = 15,
-		["player_db"] = {
-			["Odell-Antonidas"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Odell-Antonidas",
-				["overall"] = {
-				},
-			},
-			["Druidesa-Ravencrest"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Druidesa-Ravencrest",
-			},
-			["Chanchanko-Auchindoun"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Chanchanko-Auchindoun",
-				["overall"] = {
-				},
-			},
-			["Andito-Pozzodell'Eternità"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Andito-Pozzodell'Eternità",
-			},
-			["Jank-TheMaelstrom"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Jank-TheMaelstrom",
-			},
-			["Mivu-KirinTor"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Mivu-KirinTor",
-			},
-			["Aurìèl"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Aurìèl",
-				["overall"] = {
-				},
-			},
-			["Qingaling-Ravencrest"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Qingaling-Ravencrest",
-			},
-			["Clive-KirinTor"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Clive-KirinTor",
-			},
-			["Sáidá-Antonidas"] = {
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Sáidá-Antonidas",
-			},
-			["Førsåken-Hyjal"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Førsåken-Hyjal",
-			},
-			["Corasm-Auchindoun"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Corasm-Auchindoun",
-				["overall"] = {
-				},
-			},
-			["Ibaky-Dalaran"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Ibaky-Dalaran",
-			},
-			["Mallusof"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Mallusof",
-			},
-			["Kuriyama-Neptulon"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kuriyama-Neptulon",
-			},
-			["Mezriim"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Mezriim",
-				["overall"] = {
-				},
-			},
-			["Âcherón-DunModr"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Âcherón-DunModr",
-				["overall"] = {
-				},
-			},
-			["Oppressum-Neptulon"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Oppressum-Neptulon",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 4,
@@ -4060,106 +3907,107 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1179,
 			["killed"] = true,
 		},
-	},
-	["237515"] = {
-		["hash"] = "237515",
-		["type"] = "deaths",
-		["name"] = "N'Zoth the Corruptor",
-		["id"] = 2375,
 		["player_db"] = {
-			["Nanodh-Hellscream"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Nanodh-Hellscream",
-				["overall"] = {
-				},
-			},
-			["Id-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Id-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Illai-Hellscream"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Illai-Hellscream",
-				["overall"] = {
-				},
-			},
-			["Gralph"] = {
-				["deaths"] = {
-				},
+			["Odell-Antonidas"] = {
 				["class"] = "MONK",
-				["name"] = "Gralph",
-				["overall"] = {
-				},
-			},
-			["Relapse-Ravencrest"] = {
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
-				["name"] = "Relapse-Ravencrest",
 				["overall"] = {
 				},
+				["name"] = "Odell-Antonidas",
 			},
-			["Sainfire-Wildhammer"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Sainfire-Wildhammer",
-				["overall"] = {
-				},
-			},
-			["Gimvy-Quel'Thalas"] = {
-				["name"] = "Gimvy-Quel'Thalas",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sempra-Wildhammer"] = {
+			["Druidesa-Ravencrest"] = {
 				["deaths"] = {
 				},
 				["class"] = "DRUID",
-				["name"] = "Sempra-Wildhammer",
+				["name"] = "Druidesa-Ravencrest",
 				["overall"] = {
 				},
 			},
-			["Zenish-Quel'Thalas"] = {
+			["Chanchanko-Auchindoun"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Chanchanko-Auchindoun",
+			},
+			["Andito-Pozzodell'Eternità"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Andito-Pozzodell'Eternità",
+				["overall"] = {
+				},
+			},
+			["Jank-TheMaelstrom"] = {
 				["deaths"] = {
 				},
 				["class"] = "HUNTER",
-				["name"] = "Zenish-Quel'Thalas",
+				["name"] = "Jank-TheMaelstrom",
 				["overall"] = {
 				},
 			},
-			["Purrdition-AzjolNerub"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Purrdition-AzjolNerub",
-				["overall"] = {
-				},
-			},
-			["Karlun-Quel'Thalas"] = {
+			["Mivu-KirinTor"] = {
 				["deaths"] = {
 				},
 				["class"] = "PRIEST",
-				["name"] = "Karlun-Quel'Thalas",
+				["name"] = "Mivu-KirinTor",
 				["overall"] = {
 				},
 			},
-			["Calarél-ArgentDawn"] = {
+			["Aurìèl"] = {
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
-				["name"] = "Calarél-ArgentDawn",
+				["overall"] = {
+				},
+				["name"] = "Aurìèl",
+			},
+			["Qingaling-Ravencrest"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Qingaling-Ravencrest",
+				["overall"] = {
+				},
+			},
+			["Clive-KirinTor"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Clive-KirinTor",
+				["overall"] = {
+				},
+			},
+			["Sáidá-Antonidas"] = {
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sáidá-Antonidas",
+			},
+			["Førsåken-Hyjal"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Førsåken-Hyjal",
+				["overall"] = {
+				},
+			},
+			["Corasm-Auchindoun"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Corasm-Auchindoun",
+			},
+			["Ibaky-Dalaran"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Ibaky-Dalaran",
 				["overall"] = {
 				},
 			},
@@ -4172,38 +4020,44 @@ DeathGraphsDBDeaths = {
 				},
 			},
 			["Oppressum-Neptulon"] = {
-				["name"] = "Oppressum-Neptulon",
+				["deaths"] = {
+				},
 				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mushí-Ravencrest"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Mushí-Ravencrest",
+				["name"] = "Oppressum-Neptulon",
 				["overall"] = {
 				},
 			},
-			["Vanorlaa-ArgentDawn"] = {
-				["deaths"] = {
-				},
+			["Mezriim"] = {
 				["class"] = "PALADIN",
-				["name"] = "Vanorlaa-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Moridin-Anub'arak"] = {
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Moridin-Anub'arak",
+				["overall"] = {
+				},
+				["name"] = "Mezriim",
+			},
+			["Âcherón-DunModr"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Âcherón-DunModr",
+			},
+			["Kuriyama-Neptulon"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Kuriyama-Neptulon",
 				["overall"] = {
 				},
 			},
 		},
+	},
+	["237515"] = {
+		["hash"] = "237515",
+		["type"] = "deaths",
+		["name"] = "N'Zoth the Corruptor",
+		["id"] = 2375,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 12,
@@ -4216,6 +4070,144 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["encounter"] = "N'Zoth the Corruptor",
 		},
+		["player_db"] = {
+			["Nanodh-Hellscream"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nanodh-Hellscream",
+			},
+			["Id-Quel'Thalas"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Id-Quel'Thalas",
+			},
+			["Illai-Hellscream"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Illai-Hellscream",
+			},
+			["Gralph"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gralph",
+			},
+			["Relapse-Ravencrest"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Relapse-Ravencrest",
+			},
+			["Sainfire-Wildhammer"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sainfire-Wildhammer",
+			},
+			["Gimvy-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Gimvy-Quel'Thalas",
+				["class"] = "SHAMAN",
+			},
+			["Sempra-Wildhammer"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sempra-Wildhammer",
+			},
+			["Zenish-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Zenish-Quel'Thalas",
+			},
+			["Purrdition-AzjolNerub"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Purrdition-AzjolNerub",
+			},
+			["Karlun-Quel'Thalas"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Karlun-Quel'Thalas",
+			},
+			["Calarél-ArgentDawn"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Calarél-ArgentDawn",
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+			["Oppressum-Neptulon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Oppressum-Neptulon",
+				["class"] = "WARLOCK",
+			},
+			["Mushí-Ravencrest"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mushí-Ravencrest",
+			},
+			["Vanorlaa-ArgentDawn"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Vanorlaa-ArgentDawn",
+			},
+			["Moridin-Anub'arak"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Moridin-Anub'arak",
+			},
+		},
 		["diff"] = 15,
 	},
 	["234914"] = {
@@ -4223,200 +4215,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Za'qul",
 		["id"] = 2349,
-		["player_db"] = {
-			["Bulbumbo"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Bulbumbo",
-				["overall"] = {
-				},
-			},
-			["Blunot-ArgentDawn"] = {
-				["name"] = "Blunot-ArgentDawn",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Gralph"] = {
-				["name"] = "Gralph",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Bettewarlock-Terenas"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Bettewarlock-Terenas",
-				["overall"] = {
-				},
-			},
-			["Jerkon-EarthenRing"] = {
-				["name"] = "Jerkon-EarthenRing",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Adionis-Magtheridon"] = {
-				["name"] = "Adionis-Magtheridon",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Asrael-Al'Akir"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Asrael-Al'Akir",
-				["overall"] = {
-				},
-			},
-			["Hengli-Ravencrest"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Hengli-Ravencrest",
-				["overall"] = {
-				},
-			},
-			["Cathriona-ArgentDawn"] = {
-				["name"] = "Cathriona-ArgentDawn",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Moridin-Anub'arak"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Moridin-Anub'arak",
-				["overall"] = {
-				},
-			},
-			["Karlun-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Karlun-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Clive-KirinTor"] = {
-				["name"] = "Clive-KirinTor",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Fugguts-Ravencrest"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Fugguts-Ravencrest",
-				["overall"] = {
-				},
-			},
-			["Anomassa"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Anomassa",
-				["overall"] = {
-				},
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-			["Id-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Id-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Peaseblossom-AzjolNerub"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Peaseblossom-AzjolNerub",
-				["overall"] = {
-				},
-			},
-			["Sindrallig-Hyjal"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Sindrallig-Hyjal",
-				["overall"] = {
-				},
-			},
-			["Melice-Neptulon"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Melice-Neptulon",
-				["overall"] = {
-				},
-			},
-			["Terdonis-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Terdonis-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Oppressum-Neptulon"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Oppressum-Neptulon",
-				["overall"] = {
-				},
-			},
-			["Gachiff-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Gachiff-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Sníphz-Ravencrest"] = {
-				["name"] = "Sníphz-Ravencrest",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Billíe-AeriePeak"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Billíe-AeriePeak",
-				["overall"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 7,
@@ -4429,6 +4227,200 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1179,
 			["encounter"] = "Za'qul",
 		},
+		["player_db"] = {
+			["Bulbumbo"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Bulbumbo",
+			},
+			["Blunot-ArgentDawn"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Blunot-ArgentDawn",
+				["class"] = "WARLOCK",
+			},
+			["Gralph"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Gralph",
+				["class"] = "MONK",
+			},
+			["Bettewarlock-Terenas"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Bettewarlock-Terenas",
+			},
+			["Jerkon-EarthenRing"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Jerkon-EarthenRing",
+				["class"] = "PRIEST",
+			},
+			["Asrael-Al'Akir"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Asrael-Al'Akir",
+			},
+			["Adionis-Magtheridon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Adionis-Magtheridon",
+				["class"] = "DRUID",
+			},
+			["Hengli-Ravencrest"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Hengli-Ravencrest",
+			},
+			["Fugguts-Ravencrest"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Fugguts-Ravencrest",
+			},
+			["Moridin-Anub'arak"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Moridin-Anub'arak",
+			},
+			["Karlun-Quel'Thalas"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Karlun-Quel'Thalas",
+			},
+			["Gachiff-ArgentDawn"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gachiff-ArgentDawn",
+			},
+			["Cathriona-ArgentDawn"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Cathriona-ArgentDawn",
+				["class"] = "PALADIN",
+			},
+			["Anomassa"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Anomassa",
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+			["Id-Quel'Thalas"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Id-Quel'Thalas",
+			},
+			["Peaseblossom-AzjolNerub"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Peaseblossom-AzjolNerub",
+			},
+			["Sindrallig-Hyjal"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sindrallig-Hyjal",
+			},
+			["Melice-Neptulon"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Melice-Neptulon",
+			},
+			["Terdonis-ArgentDawn"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Terdonis-ArgentDawn",
+			},
+			["Oppressum-Neptulon"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Oppressum-Neptulon",
+			},
+			["Clive-KirinTor"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Clive-KirinTor",
+				["class"] = "HUNTER",
+			},
+			["Sníphz-Ravencrest"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Sníphz-Ravencrest",
+				["class"] = "ROGUE",
+			},
+			["Billíe-AeriePeak"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Billíe-AeriePeak",
+			},
+		},
 		["diff"] = 14,
 	},
 	["236415"] = {
@@ -4436,192 +4428,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Ra-den the Despoiled",
 		["id"] = 2364,
-		["player_db"] = {
-			["Nanodh-Hellscream"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Nanodh-Hellscream",
-				["overall"] = {
-				},
-			},
-			["Id-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Id-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Illai-Hellscream"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Illai-Hellscream",
-				["overall"] = {
-				},
-			},
-			["Gralph"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Gralph",
-				["overall"] = {
-				},
-			},
-			["Malash-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Malash-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Relapse-Ravencrest"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Relapse-Ravencrest",
-				["overall"] = {
-				},
-			},
-			["Misswhiskers-AzjolNerub"] = {
-				["name"] = "Misswhiskers-AzjolNerub",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Siferous-AzjolNerub"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Siferous-AzjolNerub",
-				["overall"] = {
-				},
-			},
-			["Sempra-Wildhammer"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Sempra-Wildhammer",
-				["overall"] = {
-				},
-			},
-			["Zenish-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Zenish-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Drugie-Draenor"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Drugie-Draenor",
-				["overall"] = {
-				},
-			},
-			["Purrdition-AzjolNerub"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Purrdition-AzjolNerub",
-				["overall"] = {
-				},
-			},
-			["Karlun-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Karlun-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Calarél-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Calarél-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Fuqita-Ravencrest"] = {
-				["name"] = "Fuqita-Ravencrest",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Foodmaker-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Foodmaker-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Dhaina-Anub'arak"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Dhaina-Anub'arak",
-				["overall"] = {
-				},
-			},
-			["Moridin-Anub'arak"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Moridin-Anub'arak",
-				["overall"] = {
-				},
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-			["Azzal-AzjolNerub"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Azzal-AzjolNerub",
-				["overall"] = {
-				},
-			},
-			["Inleafeor-Aggramar"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Inleafeor-Aggramar",
-				["overall"] = {
-				},
-			},
-			["Vanorlaa-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Vanorlaa-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Gimvy-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Gimvy-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 10,
@@ -4634,6 +4440,192 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["encounter"] = "Ra-den the Despoiled",
 		},
+		["player_db"] = {
+			["Nanodh-Hellscream"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nanodh-Hellscream",
+			},
+			["Id-Quel'Thalas"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Id-Quel'Thalas",
+			},
+			["Illai-Hellscream"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Illai-Hellscream",
+			},
+			["Gralph"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gralph",
+			},
+			["Malash-Quel'Thalas"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Malash-Quel'Thalas",
+			},
+			["Relapse-Ravencrest"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Relapse-Ravencrest",
+			},
+			["Misswhiskers-AzjolNerub"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Misswhiskers-AzjolNerub",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Siferous-AzjolNerub"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Siferous-AzjolNerub",
+			},
+			["Sempra-Wildhammer"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sempra-Wildhammer",
+			},
+			["Zenish-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Zenish-Quel'Thalas",
+			},
+			["Drugie-Draenor"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Drugie-Draenor",
+			},
+			["Purrdition-AzjolNerub"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Purrdition-AzjolNerub",
+			},
+			["Karlun-Quel'Thalas"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Karlun-Quel'Thalas",
+			},
+			["Calarél-ArgentDawn"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Calarél-ArgentDawn",
+			},
+			["Fuqita-Ravencrest"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Fuqita-Ravencrest",
+				["class"] = "MONK",
+			},
+			["Foodmaker-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Foodmaker-Quel'Thalas",
+			},
+			["Dhaina-Anub'arak"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Dhaina-Anub'arak",
+			},
+			["Moridin-Anub'arak"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Moridin-Anub'arak",
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+			["Azzal-AzjolNerub"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Azzal-AzjolNerub",
+			},
+			["Inleafeor-Aggramar"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Inleafeor-Aggramar",
+			},
+			["Vanorlaa-ArgentDawn"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Vanorlaa-ArgentDawn",
+			},
+			["Gimvy-Quel'Thalas"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gimvy-Quel'Thalas",
+			},
+		},
 		["diff"] = 15,
 	},
 	["236715"] = {
@@ -4641,120 +4633,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Shad'har the Insatiable",
 		["id"] = 2367,
-		["player_db"] = {
-			["Moridin-Anub'arak"] = {
-				["name"] = "Moridin-Anub'arak",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Nbeewz"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Nbeewz",
-				["overall"] = {
-				},
-			},
-			["Alleriia-Alexstrasza"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Alleriia-Alexstrasza",
-				["overall"] = {
-				},
-			},
-			["Relapse-Ravencrest"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Relapse-Ravencrest",
-				["overall"] = {
-				},
-			},
-			["Daizen-Hellscream"] = {
-				["name"] = "Daizen-Hellscream",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Rugduk-Sylvanas"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Rugduk-Sylvanas",
-				["overall"] = {
-				},
-			},
-			["Metroseksüel-Sylvanas"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Metroseksüel-Sylvanas",
-				["overall"] = {
-				},
-			},
-			["Lastchaos-Dalaran"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Lastchaos-Dalaran",
-				["overall"] = {
-				},
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-			["Sensenel"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Sensenel",
-				["overall"] = {
-				},
-			},
-			["Javer-Durotan"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Javer-Durotan",
-				["overall"] = {
-				},
-			},
-			["Zenish-Quel'Thalas"] = {
-				["name"] = "Zenish-Quel'Thalas",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Flamon-Blade'sEdge"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Flamon-Blade'sEdge",
-				["overall"] = {
-				},
-			},
-			["Fuqita-Ravencrest"] = {
-				["name"] = "Fuqita-Ravencrest",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 6,
@@ -4768,6 +4646,120 @@ DeathGraphsDBDeaths = {
 			["id"] = 2335,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Moridin-Anub'arak"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Moridin-Anub'arak",
+				["class"] = "DEMONHUNTER",
+			},
+			["Nbeewz"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nbeewz",
+			},
+			["Alleriia-Alexstrasza"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Alleriia-Alexstrasza",
+			},
+			["Metroseksüel-Sylvanas"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Metroseksüel-Sylvanas",
+			},
+			["Daizen-Hellscream"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Daizen-Hellscream",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Fuqita-Ravencrest"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Fuqita-Ravencrest",
+				["class"] = "MONK",
+			},
+			["Relapse-Ravencrest"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Relapse-Ravencrest",
+			},
+			["Lastchaos-Dalaran"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Lastchaos-Dalaran",
+			},
+			["Sensenel"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sensenel",
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+			["Javer-Durotan"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Javer-Durotan",
+			},
+			["Zenish-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Zenish-Quel'Thalas",
+				["class"] = "HUNTER",
+			},
+			["Flamon-Blade'sEdge"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Flamon-Blade'sEdge",
+			},
+			["Rugduk-Sylvanas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Rugduk-Sylvanas",
+			},
+		},
 		["diff"] = 15,
 	},
 	["237514"] = {
@@ -4775,16 +4767,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "N'Zoth the Corruptor",
 		["id"] = 2375,
-		["player_db"] = {
-			["Sainfire-Wildhammer"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Sainfire-Wildhammer",
-				["overall"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 12,
@@ -4798,6 +4780,16 @@ DeathGraphsDBDeaths = {
 			["id"] = 2344,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Sainfire-Wildhammer"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sainfire-Wildhammer",
+			},
+		},
 		["diff"] = 14,
 	},
 	["236414"] = {
@@ -4806,24 +4798,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Ra-den the Despoiled",
 		["id"] = 2364,
 		["diff"] = 14,
-		["player_db"] = {
-			["Zenish-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Zenish-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Товамис-Ясеневыйлес"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Товамис-Ясеневыйлес",
-				["class"] = "HUNTER",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 10,
@@ -4836,206 +4810,30 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["diff"] = 14,
 		},
+		["player_db"] = {
+			["Zenish-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Zenish-Quel'Thalas",
+			},
+			["Товамис-Ясеневыйлес"] = {
+				["name"] = "Товамис-Ясеневыйлес",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+		},
 	},
 	["235114"] = {
 		["hash"] = "235114",
 		["type"] = "deaths",
 		["name"] = "Orgozoa",
 		["id"] = 2351,
-		["player_db"] = {
-			["Bulbumbo"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Bulbumbo",
-				["overall"] = {
-				},
-			},
-			["Blunot-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Blunot-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Gralph"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Gralph",
-				["overall"] = {
-				},
-			},
-			["Bettewarlock-Terenas"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Bettewarlock-Terenas",
-				["overall"] = {
-				},
-			},
-			["Druidesa-Outland"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Druidesa-Outland",
-				["overall"] = {
-				},
-			},
-			["Jerkon-EarthenRing"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Jerkon-EarthenRing",
-				["overall"] = {
-				},
-			},
-			["Moridin-Anub'arak"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Moridin-Anub'arak",
-				["overall"] = {
-				},
-			},
-			["Hengli-Ravencrest"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Hengli-Ravencrest",
-				["class"] = "MONK",
-			},
-			["Sníphz-Ravencrest"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Sníphz-Ravencrest",
-				["overall"] = {
-				},
-			},
-			["Zenish-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Zenish-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Clive-KirinTor"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Clive-KirinTor",
-				["overall"] = {
-				},
-			},
-			["Gachiff-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Gachiff-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Cathriona-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Cathriona-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Karlun-Quel'Thalas"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Karlun-Quel'Thalas",
-				["class"] = "PRIEST",
-			},
-			["Peaseblossom-AzjolNerub"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Peaseblossom-AzjolNerub",
-				["class"] = "DRUID",
-			},
-			["Mallusof"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Mallusof",
-				["overall"] = {
-				},
-			},
-			["Id-Quel'Thalas"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Id-Quel'Thalas",
-				["class"] = "DEMONHUNTER",
-			},
-			["Sindrallig-Hyjal"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Sindrallig-Hyjal",
-				["overall"] = {
-				},
-			},
-			["Melice-Neptulon"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Melice-Neptulon",
-				["overall"] = {
-				},
-			},
-			["Terdonis-ArgentDawn"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Terdonis-ArgentDawn",
-				["overall"] = {
-				},
-			},
-			["Oppressum-Neptulon"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Oppressum-Neptulon",
-				["class"] = "WARLOCK",
-			},
-			["Anomassa"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Anomassa",
-				["overall"] = {
-				},
-			},
-			["Asrael-Al'Akir"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Asrael-Al'Akir",
-				["class"] = "WARLOCK",
-			},
-			["Fugguts-Ravencrest"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Fugguts-Ravencrest",
-				["class"] = "DRUID",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 5,
@@ -5048,59 +4846,261 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1179,
 			["encounter"] = "Orgozoa",
 		},
-		["diff"] = 14,
-	},
-	["237215"] = {
-		["hash"] = "237215",
-		["type"] = "deaths",
-		["name"] = "The Hivemind",
-		["id"] = 2372,
 		["player_db"] = {
-			["Sempra-Wildhammer"] = {
+			["Bulbumbo"] = {
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
-				["name"] = "Sempra-Wildhammer",
 				["overall"] = {
+				},
+				["name"] = "Bulbumbo",
+			},
+			["Blunot-ArgentDawn"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Blunot-ArgentDawn",
+			},
+			["Gralph"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gralph",
+			},
+			["Bettewarlock-Terenas"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Bettewarlock-Terenas",
+			},
+			["Druidesa-Outland"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Druidesa-Outland",
+			},
+			["Jerkon-EarthenRing"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Jerkon-EarthenRing",
+			},
+			["Zenish-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Zenish-Quel'Thalas",
+			},
+			["Hengli-Ravencrest"] = {
+				["name"] = "Hengli-Ravencrest",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
 				},
 			},
-			["Gimvy-Quel'Thalas"] = {
+			["Sníphz-Ravencrest"] = {
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
-				["name"] = "Gimvy-Quel'Thalas",
 				["overall"] = {
 				},
+				["name"] = "Sníphz-Ravencrest",
 			},
 			["Moridin-Anub'arak"] = {
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Moridin-Anub'arak",
 				["overall"] = {
+				},
+				["name"] = "Moridin-Anub'arak",
+			},
+			["Gachiff-ArgentDawn"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gachiff-ArgentDawn",
+			},
+			["Clive-KirinTor"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Clive-KirinTor",
+			},
+			["Fugguts-Ravencrest"] = {
+				["name"] = "Fugguts-Ravencrest",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
 				},
 			},
-			["Dhaina-Anub'arak"] = {
+			["Anomassa"] = {
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
-				["name"] = "Dhaina-Anub'arak",
 				["overall"] = {
 				},
+				["name"] = "Anomassa",
+			},
+			["Peaseblossom-AzjolNerub"] = {
+				["name"] = "Peaseblossom-AzjolNerub",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Mallusof"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mallusof",
+			},
+			["Id-Quel'Thalas"] = {
+				["name"] = "Id-Quel'Thalas",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Sindrallig-Hyjal"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sindrallig-Hyjal",
+			},
+			["Melice-Neptulon"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Melice-Neptulon",
+			},
+			["Terdonis-ArgentDawn"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Terdonis-ArgentDawn",
+			},
+			["Oppressum-Neptulon"] = {
+				["name"] = "Oppressum-Neptulon",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Karlun-Quel'Thalas"] = {
+				["name"] = "Karlun-Quel'Thalas",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Asrael-Al'Akir"] = {
+				["name"] = "Asrael-Al'Akir",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Cathriona-ArgentDawn"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Cathriona-ArgentDawn",
 			},
 		},
+		["diff"] = 14,
+	},
+	["236915"] = {
+		["hash"] = "236915",
+		["type"] = "deaths",
+		["name"] = "Prophet Skitra",
+		["id"] = 2369,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
-			["index"] = 5,
+			["index"] = 3,
 			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "The Hivemind",
+			["encounter"] = "Prophet Skitra",
 			["mapid"] = 2217,
 			["try_number"] = 1,
-			["name"] = "The Hivemind",
+			["name"] = "Prophet Skitra",
 			["diff"] = 15,
 			["ej_instance_id"] = 1180,
-			["id"] = 2333,
+			["id"] = 2334,
 			["killed"] = true,
+		},
+		["player_db"] = {
+			["Relapse-Ravencrest"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Relapse-Ravencrest",
+			},
+			["Хикас-Гордунни"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Хикас-Гордунни",
+				["class"] = "ROGUE",
+			},
+			["Интэгра-Дракономор"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Интэгра-Дракономор",
+				["class"] = "PRIEST",
+			},
+			["Хелдорадушка-Азурегос"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Хелдорадушка-Азурегос",
+				["class"] = "DRUID",
+			},
+			["Мираель-СтражСмерти"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Мираель-СтражСмерти",
+				["class"] = "DRUID",
+			},
 		},
 		["diff"] = 15,
 	},
@@ -5109,96 +5109,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "The Queen's Court",
 		["id"] = 2359,
-		["player_db"] = {
-			["Moridin-Anub'arak"] = {
-				["name"] = "Moridin-Anub'arak",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Clive-KirinTor"] = {
-				["name"] = "Clive-KirinTor",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Cathriona-ArgentDawn"] = {
-				["name"] = "Cathriona-ArgentDawn",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Gralph"] = {
-				["name"] = "Gralph",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Druidesa-Outland"] = {
-				["name"] = "Druidesa-Outland",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Melice-Neptulon"] = {
-				["name"] = "Melice-Neptulon",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["name"] = "Mallusof",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jerkon-EarthenRing"] = {
-				["name"] = "Jerkon-EarthenRing",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Blunot-ArgentDawn"] = {
-				["name"] = "Blunot-ArgentDawn",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sníphz-Ravencrest"] = {
-				["name"] = "Sníphz-Ravencrest",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Adionis-Magtheridon"] = {
-				["name"] = "Adionis-Magtheridon",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 6,
@@ -5212,6 +5122,96 @@ DeathGraphsDBDeaths = {
 			["id"] = 2311,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Moridin-Anub'arak"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Moridin-Anub'arak",
+				["class"] = "DEMONHUNTER",
+			},
+			["Clive-KirinTor"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Clive-KirinTor",
+				["class"] = "HUNTER",
+			},
+			["Cathriona-ArgentDawn"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Cathriona-ArgentDawn",
+				["class"] = "PALADIN",
+			},
+			["Gralph"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Gralph",
+				["class"] = "MONK",
+			},
+			["Druidesa-Outland"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Druidesa-Outland",
+				["class"] = "DRUID",
+			},
+			["Melice-Neptulon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Melice-Neptulon",
+				["class"] = "PALADIN",
+			},
+			["Mallusof"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+			},
+			["Jerkon-EarthenRing"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Jerkon-EarthenRing",
+				["class"] = "PRIEST",
+			},
+			["Blunot-ArgentDawn"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Blunot-ArgentDawn",
+				["class"] = "WARLOCK",
+			},
+			["Adionis-Magtheridon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Adionis-Magtheridon",
+				["class"] = "DRUID",
+			},
+			["Sníphz-Ravencrest"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Sníphz-Ravencrest",
+				["class"] = "ROGUE",
+			},
+		},
 		["diff"] = 14,
 	},
 	["236814"] = {
@@ -5220,6 +5220,8 @@ DeathGraphsDBDeaths = {
 		["name"] = "Wrathion",
 		["id"] = 2368,
 		["diff"] = 14,
+		["player_db"] = {
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 1,
@@ -5233,8 +5235,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
-		["player_db"] = {
-		},
 	},
 }
 DeathGraphsDBEndurance = {
@@ -5243,6 +5243,18 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Vexiona",
 		["id"] = 2370,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 9,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2336,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Vexiona",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Vexiona",
+		},
 		["player_db"] = {
 			["Nanodh-Hellscream"] = {
 				["encounters"] = 6,
@@ -5258,16 +5270,11 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Gralph"] = {
-				["encounters"] = 6,
-				["points"] = 590,
-				["class"] = "MONK",
+			["Dhaina-Anub'arak"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
 				["deaths"] = {
-					{
-						6, -- [1]
-						428.1330000000016, -- [2]
-						"Void Corruption |cFFFF3333298,992|r", -- [3]
-					}, -- [1]
 				},
 			},
 			["Illai-Hellscream"] = {
@@ -5289,11 +5296,16 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Dhaina-Anub'arak"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DRUID",
+			["Gralph"] = {
+				["encounters"] = 6,
+				["points"] = 590,
+				["class"] = "MONK",
 				["deaths"] = {
+					{
+						6, -- [1]
+						428.1330000000016, -- [2]
+						"Void Corruption |cFFFF3333298,992|r", -- [3]
+					}, -- [1]
 				},
 			},
 			["Malash-Quel'Thalas"] = {
@@ -5419,6 +5431,30 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
+			["Moridin-Anub'arak"] = {
+				["encounters"] = 6,
+				["points"] = 580,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						44.59100000000035, -- [2]
+						"Spiteful Assault |cFFFF333341,669|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						295.5489999999991, -- [2]
+						"Shadowy Residue (DoT) |cFFFF333360,389|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Sempra-Wildhammer"] = {
+				["encounters"] = 6,
+				["points"] = 600,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
 			["Zenish-Quel'Thalas"] = {
 				["encounters"] = 10,
 				["points"] = 940,
@@ -5454,30 +5490,6 @@ DeathGraphsDBEndurance = {
 						109.7440000000006, -- [2]
 						"Twilight Decimator |cFFFF3333839,303|r", -- [3]
 					}, -- [6]
-				},
-			},
-			["Sempra-Wildhammer"] = {
-				["encounters"] = 6,
-				["points"] = 600,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Moridin-Anub'arak"] = {
-				["encounters"] = 6,
-				["points"] = 580,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						44.59100000000035, -- [2]
-						"Spiteful Assault |cFFFF333341,669|r", -- [3]
-					}, -- [1]
-					{
-						3, -- [1]
-						295.5489999999991, -- [2]
-						"Shadowy Residue (DoT) |cFFFF333360,389|r", -- [3]
-					}, -- [2]
 				},
 			},
 			["Karlun-Quel'Thalas"] = {
@@ -5524,17 +5536,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-			["Fugguts-Ravencrest"] = {
-				["encounters"] = 3,
-				["points"] = 290,
+			["Purrdition-AzjolNerub"] = {
+				["encounters"] = 9,
+				["points"] = 900,
+				["class"] = "PALADIN",
 				["deaths"] = {
-					{
-						2, -- [1]
-						240.9179999999997, -- [2]
-						"Twilight Decimator |cFFFF3333808,046|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "DRUID",
 			},
 			["Dåre-Quel'Thalas"] = {
 				["encounters"] = 3,
@@ -5576,12 +5583,17 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Purrdition-AzjolNerub"] = {
-				["encounters"] = 9,
-				["points"] = 900,
-				["class"] = "PALADIN",
+			["Fugguts-Ravencrest"] = {
+				["encounters"] = 3,
+				["points"] = 290,
 				["deaths"] = {
+					{
+						2, -- [1]
+						240.9179999999997, -- [2]
+						"Twilight Decimator |cFFFF3333808,046|r", -- [3]
+					}, -- [1]
 				},
+				["class"] = "DRUID",
 			},
 			["Mallusof"] = {
 				["encounters"] = 12,
@@ -5634,18 +5646,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 9,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2336,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Vexiona",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["encounter"] = "Vexiona",
-		},
 		["diff"] = 15,
 	},
 	["237414"] = {
@@ -5654,6 +5654,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Il'gynoth, Corruption Reborn",
 		["id"] = 2374,
 		["diff"] = 14,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 8,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Il'gynoth, Corruption Reborn",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Il'gynoth, Corruption Reborn",
+			["diff"] = 14,
+			["id"] = 2345,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Nanodh-Hellscream"] = {
 				["encounters"] = 1,
@@ -5697,13 +5710,6 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MONK",
 			},
-			["Janessmlot-Ravencrest"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
 			["Клавалицодпс-Гордунни"] = {
 				["encounters"] = 1,
 				["points"] = 100,
@@ -5711,12 +5717,19 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEMONHUNTER",
 			},
-			["Востоков-Ясеневыйлес"] = {
+			["Ewaa-Dalaran"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
+				["class"] = "ROGUE",
+			},
+			["Voidmist-Pozzodell'Eternità"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
 			},
 			["Sainfire-Wildhammer"] = {
 				["encounters"] = 3,
@@ -5730,12 +5743,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MAGE",
 			},
-			["Ezergood-Ravencrest"] = {
+			["Janessmlot-Ravencrest"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
+				["class"] = "PALADIN",
 			},
 			["Вайзменион-Гордунни"] = {
 				["encounters"] = 1,
@@ -5775,12 +5788,17 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "HUNTER",
 			},
-			["Borky-Blackmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Moridin-Anub'arak"] = {
+				["encounters"] = 3,
+				["points"] = 290,
 				["deaths"] = {
+					{
+						1, -- [1]
+						144.6700000000055, -- [2]
+						"Hemorrhage |cFFFF333337,068|r", -- [3]
+					}, -- [1]
 				},
-				["class"] = "MAGE",
+				["class"] = "DEMONHUNTER",
 			},
 			["Sempra-Wildhammer"] = {
 				["encounters"] = 3,
@@ -5794,17 +5812,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DRUID",
 			},
-			["Moridin-Anub'arak"] = {
-				["encounters"] = 3,
-				["points"] = 290,
+			["Borky-Blackmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
-					{
-						1, -- [1]
-						144.6700000000055, -- [2]
-						"Hemorrhage |cFFFF333337,068|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "MAGE",
 			},
 			["Nihildemohyp-Antonidas"] = {
 				["encounters"] = 1,
@@ -5837,39 +5850,6 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PALADIN",
 			},
-			["Karlun-Quel'Thalas"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						2, -- [1]
-						134.8529999999955, -- [2]
-						"Eye of N'Zoth |cFFFF3333239,574|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PRIEST",
-			},
-			["Nokrothar-TheMaelstrom"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Товамис-Ясеневыйлес"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Heiisenberg-Ravencrest"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
 			["Walt-Frostmane"] = {
 				["encounters"] = 1,
 				["points"] = 100,
@@ -5894,6 +5874,39 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PRIEST",
 			},
+			["Товамис-Ясеневыйлес"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Heiisenberg-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Karlun-Quel'Thalas"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["deaths"] = {
+					{
+						2, -- [1]
+						134.8529999999955, -- [2]
+						"Eye of N'Zoth |cFFFF3333239,574|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "PRIEST",
+			},
+			["Nokrothar-TheMaelstrom"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
 			["Mallusof"] = {
 				["encounters"] = 4,
 				["points"] = 400,
@@ -5908,12 +5921,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Ewaa-Dalaran"] = {
+			["Ezergood-Ravencrest"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
+				["class"] = "SHAMAN",
 			},
 			["Vanorlaa-ArgentDawn"] = {
 				["encounters"] = 3,
@@ -5927,26 +5940,13 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PALADIN",
 			},
-			["Voidmist-Pozzodell'Eternità"] = {
+			["Востоков-Ясеневыйлес"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "MONK",
+				["class"] = "MAGE",
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 8,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Il'gynoth, Corruption Reborn",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Il'gynoth, Corruption Reborn",
-			["diff"] = 14,
-			["id"] = 2345,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
 		},
 	},
 	["235315"] = {
@@ -5955,18 +5955,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Radiance of Azshara",
 		["id"] = 2353,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 3,
-			["zone"] = "The Eternal Palace",
-			["id"] = 2305,
-			["mapid"] = 2164,
-			["try_number"] = 1,
-			["name"] = "Radiance of Azshara",
-			["encounter"] = "Radiance of Azshara",
-			["ej_instance_id"] = 1179,
-			["diff"] = 15,
-		},
 		["player_db"] = {
 			["Chanchanko-Auchindoun"] = {
 				["encounters"] = 1,
@@ -6404,12 +6392,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "SHAMAN",
 			},
-			["Grimmjôw-Ambossar"] = {
-				["encounters"] = 3,
-				["points"] = 300,
+			["Starshadow-LosErrantes"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
+				["class"] = "DEMONHUNTER",
 			},
 			["Corasm-Auchindoun"] = {
 				["encounters"] = 1,
@@ -6458,12 +6446,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MAGE",
 			},
-			["Starshadow-LosErrantes"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Grimmjôw-Ambossar"] = {
+				["encounters"] = 3,
+				["points"] = 300,
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "WARLOCK",
 			},
 			["Druidesa-Ravencrest"] = {
 				["encounters"] = 1,
@@ -6511,12 +6499,36 @@ DeathGraphsDBEndurance = {
 				["class"] = "DEMONHUNTER",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 3,
+			["zone"] = "The Eternal Palace",
+			["id"] = 2305,
+			["mapid"] = 2164,
+			["try_number"] = 1,
+			["name"] = "Radiance of Azshara",
+			["encounter"] = "Radiance of Azshara",
+			["ej_instance_id"] = 1179,
+			["diff"] = 15,
+		},
 	},
 	["237415"] = {
 		["hash"] = "237415",
 		["type"] = "endurance",
 		["name"] = "Il'gynoth, Corruption Reborn",
 		["id"] = 2374,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 8,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2345,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Il'gynoth, Corruption Reborn",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Il'gynoth, Corruption Reborn",
+		},
 		["player_db"] = {
 			["Wagglecrank-Magtheridon"] = {
 				["encounters"] = 1,
@@ -6957,18 +6969,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 8,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2345,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Il'gynoth, Corruption Reborn",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["encounter"] = "Il'gynoth, Corruption Reborn",
-		},
 		["diff"] = 15,
 	},
 	["236615"] = {
@@ -6976,6 +6976,18 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Carapace of N'Zoth",
 		["id"] = 2366,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 11,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2337,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Carapace of N'Zoth",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Carapace of N'Zoth",
+		},
 		["player_db"] = {
 			["Nanodh-Hellscream"] = {
 				["encounters"] = 3,
@@ -7215,18 +7227,6 @@ DeathGraphsDBEndurance = {
 				["class"] = "DRUID",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 11,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2337,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Carapace of N'Zoth",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["encounter"] = "Carapace of N'Zoth",
-		},
 		["diff"] = 15,
 	},
 	["235215"] = {
@@ -7235,6 +7235,18 @@ DeathGraphsDBEndurance = {
 		["name"] = "Abyssal Commander Sivara",
 		["id"] = 2352,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "The Eternal Palace",
+			["id"] = 2298,
+			["mapid"] = 2164,
+			["try_number"] = 1,
+			["name"] = "Abyssal Commander Sivara",
+			["encounter"] = "Abyssal Commander Sivara",
+			["ej_instance_id"] = 1179,
+			["diff"] = 15,
+		},
 		["player_db"] = {
 			["Flåppers-Stormscale"] = {
 				["encounters"] = 1,
@@ -8317,6 +8329,27 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DRUID",
 			},
+			["Киндрсюрприз-Гордунни"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Andito-Pozzodell'Eternità"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Terguron-Mannoroth"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
 			["Näbot-Hyjal"] = {
 				["encounters"] = 2,
 				["points"] = 180,
@@ -8334,33 +8367,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PRIEST",
 			},
-			["Andito-Pozzodell'Eternità"] = {
+			["Manchmaltod-Norgannon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Terguron-Mannoroth"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Киндрсюрприз-Гордунни"] = {
-				["encounters"] = 3,
-				["points"] = 300,
 				["deaths"] = {
 				},
 				["class"] = "DEATHKNIGHT",
-			},
-			["Darkalina-Dalaran"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
 			},
 			["Irreale-Antonidas"] = {
 				["encounters"] = 1,
@@ -8461,12 +8473,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEMONHUNTER",
 			},
-			["Manchmaltod-Norgannon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Darkalina-Dalaran"] = {
+				["encounters"] = 3,
+				["points"] = 300,
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
+				["class"] = "HUNTER",
 			},
 			["Fatex-Ravencrest"] = {
 				["encounters"] = 1,
@@ -8574,18 +8586,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 1,
-			["zone"] = "The Eternal Palace",
-			["id"] = 2298,
-			["mapid"] = 2164,
-			["try_number"] = 1,
-			["name"] = "Abyssal Commander Sivara",
-			["encounter"] = "Abyssal Commander Sivara",
-			["ej_instance_id"] = 1179,
-			["diff"] = 15,
-		},
 	},
 	["235314"] = {
 		["hash"] = "235314",
@@ -8593,6 +8593,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Radiance of Azshara",
 		["id"] = 2353,
 		["diff"] = 14,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 3,
+			["zone"] = "The Eternal Palace",
+			["encounter"] = "Radiance of Azshara",
+			["mapid"] = 2164,
+			["try_number"] = 1,
+			["name"] = "Radiance of Azshara",
+			["diff"] = 14,
+			["id"] = 2305,
+			["ej_instance_id"] = 1179,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Люпен-Седогрив"] = {
 				["encounters"] = 1,
@@ -8643,12 +8656,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Gachiff-ArgentDawn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Clive-KirinTor"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
 			},
 			["Unabletofeel-Sylvanas"] = {
 				["encounters"] = 1,
@@ -8702,12 +8715,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DRUID",
 			},
-			["Moridin-Anub'arak"] = {
-				["encounters"] = 4,
-				["points"] = 400,
+			["Zenish-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "HUNTER",
 			},
 			["Anomassa"] = {
 				["encounters"] = 1,
@@ -8716,12 +8729,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PRIEST",
 			},
-			["Clive-KirinTor"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "HUNTER",
+			["Gachiff-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "MONK",
 			},
 			["Peaseblossom-AzjolNerub"] = {
 				["encounters"] = 2,
@@ -8791,12 +8804,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "ROGUE",
 			},
-			["Zenish-Quel'Thalas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Moridin-Anub'arak"] = {
+				["encounters"] = 4,
+				["points"] = 400,
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
+				["class"] = "DEMONHUNTER",
 			},
 			["Asrael-Al'Akir"] = {
 				["encounters"] = 2,
@@ -8818,19 +8831,6 @@ DeathGraphsDBEndurance = {
 				["class"] = "DEMONHUNTER",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 3,
-			["zone"] = "The Eternal Palace",
-			["encounter"] = "Radiance of Azshara",
-			["mapid"] = 2164,
-			["try_number"] = 1,
-			["name"] = "Radiance of Azshara",
-			["diff"] = 14,
-			["id"] = 2305,
-			["ej_instance_id"] = 1179,
-			["killed"] = true,
-		},
 	},
 	["235915"] = {
 		["hash"] = "235915",
@@ -8838,6 +8838,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "The Queen's Court",
 		["id"] = 2359,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 6,
+			["zone"] = "The Eternal Palace",
+			["encounter"] = "The Queen's Court",
+			["mapid"] = 2164,
+			["try_number"] = 1,
+			["name"] = "The Queen's Court",
+			["diff"] = 15,
+			["id"] = 2311,
+			["ej_instance_id"] = 1179,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Chanchanko-Auchindoun"] = {
 				["encounters"] = 1,
@@ -9188,25 +9201,25 @@ DeathGraphsDBEndurance = {
 				["class"] = "PALADIN",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 6,
-			["zone"] = "The Eternal Palace",
-			["encounter"] = "The Queen's Court",
-			["mapid"] = 2164,
-			["try_number"] = 1,
-			["name"] = "The Queen's Court",
-			["diff"] = 15,
-			["id"] = 2311,
-			["ej_instance_id"] = 1179,
-			["killed"] = true,
-		},
 	},
 	["236815"] = {
 		["hash"] = "236815",
 		["type"] = "endurance",
 		["name"] = "Wrathion",
 		["id"] = 2368,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Wrathion",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Wrathion",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2329,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Nanodh-Hellscream"] = {
 				["encounters"] = 1,
@@ -9300,12 +9313,12 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Dåre-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Karlun-Quel'Thalas"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
 			["Daizen-Hellscream"] = {
 				["encounters"] = 1,
@@ -9375,26 +9388,13 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Karlun-Quel'Thalas"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "PRIEST",
+			["Dåre-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 1,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Wrathion",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Wrathion",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["id"] = 2329,
-			["killed"] = true,
 		},
 		["diff"] = 15,
 	},
@@ -9404,6 +9404,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Carapace of N'Zoth",
 		["id"] = 2366,
 		["diff"] = 14,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 11,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Carapace of N'Zoth",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Carapace of N'Zoth",
+			["diff"] = 14,
+			["id"] = 2337,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Nanodh-Hellscream"] = {
 				["encounters"] = 6,
@@ -9534,12 +9547,12 @@ DeathGraphsDBEndurance = {
 					}, -- [4]
 				},
 			},
-			["Misswhiskers-AzjolNerub"] = {
-				["encounters"] = 6,
-				["points"] = 600,
-				["class"] = "DEATHKNIGHT",
+			["Ulpu"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Janessmlot-Ravencrest"] = {
 				["encounters"] = 1,
@@ -9621,19 +9634,19 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "HUNTER",
 			},
-			["Inviscuz-ArgentDawn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
 			["Heiisenberg-Ravencrest"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "PALADIN",
+			},
+			["Inviscuz-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
 			},
 			["Востоков-Ясеневыйлес"] = {
 				["encounters"] = 1,
@@ -9700,26 +9713,13 @@ DeathGraphsDBEndurance = {
 					}, -- [5]
 				},
 			},
-			["Ulpu"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Misswhiskers-AzjolNerub"] = {
+				["encounters"] = 6,
+				["points"] = 600,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 11,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Carapace of N'Zoth",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Carapace of N'Zoth",
-			["diff"] = 14,
-			["id"] = 2337,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
 		},
 	},
 	["236714"] = {
@@ -9728,6 +9728,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Shad'har the Insatiable",
 		["id"] = 2367,
 		["diff"] = 14,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 6,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Shad'har the Insatiable",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Shad'har the Insatiable",
+			["diff"] = 14,
+			["id"] = 2335,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Id-Quel'Thalas"] = {
 				["encounters"] = 1,
@@ -9799,12 +9812,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PALADIN",
 			},
-			["Gimvy-Quel'Thalas"] = {
+			["Ulpu"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
+				["class"] = "DEATHKNIGHT",
 			},
 			["Клавалицодпс-Гордунни"] = {
 				["encounters"] = 1,
@@ -9841,12 +9854,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "SHAMAN",
 			},
-			["Карликарий-Азурегос"] = {
+			["Calarél-ArgentDawn"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
+				["class"] = "PRIEST",
 			},
 			["Purrdition-AzjolNerub"] = {
 				["encounters"] = 1,
@@ -9862,12 +9875,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PRIEST",
 			},
-			["Calarél-ArgentDawn"] = {
+			["Карликарий-Азурегос"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
+				["class"] = "HUNTER",
 			},
 			["Товамис-Ясеневыйлес"] = {
 				["encounters"] = 1,
@@ -9876,12 +9889,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "HUNTER",
 			},
-			["Heiisenberg-Ravencrest"] = {
+			["Eøzenn-Archimonde"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
+				["class"] = "DRUID",
 			},
 			["Voidmist-Pozzodell'Eternità"] = {
 				["encounters"] = 1,
@@ -9890,12 +9903,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MONK",
 			},
-			["Eøzenn-Archimonde"] = {
+			["Heiisenberg-Ravencrest"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
+				["class"] = "PALADIN",
 			},
 			["Mallusof"] = {
 				["encounters"] = 2,
@@ -9925,26 +9938,13 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PALADIN",
 			},
-			["Ulpu"] = {
+			["Gimvy-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
+				["class"] = "SHAMAN",
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 6,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Shad'har the Insatiable",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Shad'har the Insatiable",
-			["diff"] = 14,
-			["id"] = 2335,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
 		},
 	},
 	["237014"] = {
@@ -9953,6 +9953,18 @@ DeathGraphsDBEndurance = {
 		["name"] = "Vexiona",
 		["id"] = 2370,
 		["diff"] = 14,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 9,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2336,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Vexiona",
+			["encounter"] = "Vexiona",
+			["ej_instance_id"] = 1180,
+			["diff"] = 14,
+		},
 		["player_db"] = {
 			["Nanodh-Hellscream"] = {
 				["encounters"] = 1,
@@ -9996,26 +10008,26 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Grímhir"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Voidmist-Pozzodell'Eternità"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
 			["Sainfire-Wildhammer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "MAGE",
 				["deaths"] = {
 				},
+			},
+			["Востоков-Ясеневыйлес"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Grímhir"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
 			},
 			["Misswhiskers-AzjolNerub"] = {
 				["encounters"] = 1,
@@ -10045,12 +10057,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Borky-Blackmoore"] = {
+			["Zenish-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Xangretor-Pozzodell'Eternità"] = {
 				["encounters"] = 1,
@@ -10066,12 +10078,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Zenish-Quel'Thalas"] = {
+			["Borky-Blackmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Nihildemohyp-Antonidas"] = {
 				["encounters"] = 1,
@@ -10080,19 +10092,19 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEMONHUNTER",
 			},
-			["Calarél-ArgentDawn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
 			["Nokrothar-TheMaelstrom"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "SHAMAN",
+			},
+			["Calarél-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
 			},
 			["Karlun-Quel'Thalas"] = {
 				["encounters"] = 1,
@@ -10101,17 +10113,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Карликарий-Азурегос"] = {
+			["Valkirion-ArgentDawn"] = {
 				["encounters"] = 1,
-				["points"] = 90,
+				["points"] = 100,
 				["deaths"] = {
-					{
-						2, -- [1]
-						103.6100000000006, -- [2]
-						"Decimation (DoT) |cFFFF333335,174|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "HUNTER",
+				["class"] = "DEATHKNIGHT",
 			},
 			["Товамис-Ясеневыйлес"] = {
 				["encounters"] = 1,
@@ -10127,12 +10134,17 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PALADIN",
 			},
-			["Valkirion-ArgentDawn"] = {
+			["Карликарий-Азурегос"] = {
 				["encounters"] = 1,
-				["points"] = 100,
+				["points"] = 90,
 				["deaths"] = {
+					{
+						2, -- [1]
+						103.6100000000006, -- [2]
+						"Decimation (DoT) |cFFFF333335,174|r", -- [3]
+					}, -- [1]
 				},
-				["class"] = "DEATHKNIGHT",
+				["class"] = "HUNTER",
 			},
 			["Moridin-Anub'arak"] = {
 				["encounters"] = 1,
@@ -10174,25 +10186,13 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Востоков-Ясеневыйлес"] = {
+			["Voidmist-Pozzodell'Eternità"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
+				["class"] = "MONK",
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 9,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2336,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Vexiona",
-			["encounter"] = "Vexiona",
-			["ej_instance_id"] = 1180,
-			["diff"] = 14,
 		},
 	},
 	["237314"] = {
@@ -10201,6 +10201,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Drest'agath",
 		["id"] = 2373,
 		["diff"] = 14,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 7,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Drest'agath",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Drest'agath",
+			["diff"] = 14,
+			["id"] = 2343,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Id-Quel'Thalas"] = {
 				["encounters"] = 1,
@@ -10391,12 +10404,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEMONHUNTER",
 			},
-			["Ezergood-Ravencrest"] = {
+			["Janessmlot-Ravencrest"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
+				["class"] = "PALADIN",
 			},
 			["Vanorlaa-ArgentDawn"] = {
 				["encounters"] = 1,
@@ -10405,26 +10418,13 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PALADIN",
 			},
-			["Janessmlot-Ravencrest"] = {
+			["Ezergood-Ravencrest"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
+				["class"] = "SHAMAN",
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 7,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Drest'agath",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Drest'agath",
-			["diff"] = 14,
-			["id"] = 2343,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
 		},
 	},
 	["237714"] = {
@@ -10433,6 +10433,18 @@ DeathGraphsDBEndurance = {
 		["name"] = "Dark Inquisitor Xanesh",
 		["id"] = 2377,
 		["diff"] = 14,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 4,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2328,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Dark Inquisitor Xanesh",
+			["encounter"] = "Dark Inquisitor Xanesh",
+			["ej_instance_id"] = 1180,
+			["diff"] = 14,
+		},
 		["player_db"] = {
 			["Nanodh-Hellscream"] = {
 				["encounters"] = 2,
@@ -10565,6 +10577,20 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MAGE",
 			},
+			["Calarél-ArgentDawn"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Karlun-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
 			["Карликарий-Азурегос"] = {
 				["encounters"] = 1,
 				["points"] = 90,
@@ -10577,20 +10603,6 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "HUNTER",
 			},
-			["Karlun-Quel'Thalas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Calarél-ArgentDawn"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
 			["Walt-Frostmane"] = {
 				["encounters"] = 1,
 				["points"] = 100,
@@ -10598,12 +10610,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "HUNTER",
 			},
-			["Valkirion-ArgentDawn"] = {
+			["Nokrothar-TheMaelstrom"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
+				["class"] = "SHAMAN",
 			},
 			["Товамис-Ясеневыйлес"] = {
 				["encounters"] = 1,
@@ -10619,12 +10631,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PALADIN",
 			},
-			["Nokrothar-TheMaelstrom"] = {
+			["Valkirion-ArgentDawn"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
+				["class"] = "DEATHKNIGHT",
 			},
 			["Moridin-Anub'arak"] = {
 				["encounters"] = 2,
@@ -10679,24 +10691,24 @@ DeathGraphsDBEndurance = {
 				["class"] = "DEMONHUNTER",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 4,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2328,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Dark Inquisitor Xanesh",
-			["encounter"] = "Dark Inquisitor Xanesh",
-			["ej_instance_id"] = 1180,
-			["diff"] = 14,
-		},
 	},
 	["234915"] = {
 		["hash"] = "234915",
 		["type"] = "endurance",
 		["name"] = "Za'qul",
 		["id"] = 2349,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 7,
+			["zone"] = "The Eternal Palace",
+			["id"] = 2293,
+			["mapid"] = 2164,
+			["try_number"] = 1,
+			["name"] = "Za'qul",
+			["diff"] = 15,
+			["ej_instance_id"] = 1179,
+			["encounter"] = "Za'qul",
+		},
 		["player_db"] = {
 			["Губеха-Гордунни"] = {
 				["encounters"] = 1,
@@ -11156,18 +11168,6 @@ DeathGraphsDBEndurance = {
 				["class"] = "DRUID",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 7,
-			["zone"] = "The Eternal Palace",
-			["id"] = 2293,
-			["mapid"] = 2164,
-			["try_number"] = 1,
-			["name"] = "Za'qul",
-			["diff"] = 15,
-			["ej_instance_id"] = 1179,
-			["encounter"] = "Za'qul",
-		},
 		["diff"] = 15,
 	},
 	["234714"] = {
@@ -11176,6 +11176,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Blackwater Behemoth",
 		["id"] = 2347,
 		["diff"] = 14,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 2,
+			["zone"] = "The Eternal Palace",
+			["encounter"] = "Blackwater Behemoth",
+			["mapid"] = 2164,
+			["try_number"] = 1,
+			["name"] = "Blackwater Behemoth",
+			["diff"] = 14,
+			["id"] = 2289,
+			["ej_instance_id"] = 1179,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Люпен-Седогрив"] = {
 				["encounters"] = 1,
@@ -11236,12 +11249,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Gachiff-ArgentDawn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Clive-KirinTor"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
 			},
 			["Unabletofeel-Sylvanas"] = {
 				["encounters"] = 1,
@@ -11285,12 +11298,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PALADIN",
 			},
-			["Moridin-Anub'arak"] = {
-				["encounters"] = 3,
-				["points"] = 300,
+			["Zenish-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "HUNTER",
 			},
 			["Anomassa"] = {
 				["encounters"] = 1,
@@ -11299,12 +11312,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PRIEST",
 			},
-			["Clive-KirinTor"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "HUNTER",
+			["Gachiff-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "MONK",
 			},
 			["Peaseblossom-AzjolNerub"] = {
 				["encounters"] = 1,
@@ -11369,12 +11382,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DRUID",
 			},
-			["Zenish-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Moridin-Anub'arak"] = {
+				["encounters"] = 3,
+				["points"] = 300,
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
+				["class"] = "DEMONHUNTER",
 			},
 			["Asrael-Al'Akir"] = {
 				["encounters"] = 1,
@@ -11391,19 +11404,6 @@ DeathGraphsDBEndurance = {
 				["class"] = "DRUID",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 2,
-			["zone"] = "The Eternal Palace",
-			["encounter"] = "Blackwater Behemoth",
-			["mapid"] = 2164,
-			["try_number"] = 1,
-			["name"] = "Blackwater Behemoth",
-			["diff"] = 14,
-			["id"] = 2289,
-			["ej_instance_id"] = 1179,
-			["killed"] = true,
-		},
 	},
 	["237214"] = {
 		["hash"] = "237214",
@@ -11411,6 +11411,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "The Hivemind",
 		["id"] = 2372,
 		["diff"] = 14,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 5,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "The Hivemind",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "The Hivemind",
+			["diff"] = 14,
+			["id"] = 2333,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Nanodh-Hellscream"] = {
 				["encounters"] = 1,
@@ -11524,10 +11537,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Zenish-Quel'Thalas"] = {
+			["Moridin-Anub'arak"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "HUNTER",
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
@@ -11538,12 +11551,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MONK",
 			},
-			["Walt-Frostmane"] = {
+			["Karlun-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Карликарий-Азурегос"] = {
 				["encounters"] = 1,
@@ -11552,19 +11565,19 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "HUNTER",
 			},
-			["Karlun-Quel'Thalas"] = {
+			["Walt-Frostmane"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
-			["Calarél-ArgentDawn"] = {
+			["Nokrothar-TheMaelstrom"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "SHAMAN",
 			},
 			["Товамис-Ясеневыйлес"] = {
 				["encounters"] = 1,
@@ -11580,12 +11593,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PALADIN",
 			},
-			["Nokrothar-TheMaelstrom"] = {
+			["Calarél-ArgentDawn"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 			},
 			["Misswhiskers-AzjolNerub"] = {
 				["encounters"] = 1,
@@ -11601,10 +11614,10 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PRIEST",
 			},
-			["Moridin-Anub'arak"] = {
+			["Zenish-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 			},
@@ -11630,19 +11643,6 @@ DeathGraphsDBEndurance = {
 				["class"] = "DEMONHUNTER",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 5,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "The Hivemind",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "The Hivemind",
-			["diff"] = 14,
-			["id"] = 2333,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
-		},
 	},
 	["234715"] = {
 		["hash"] = "234715",
@@ -11650,18 +11650,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Blackwater Behemoth",
 		["id"] = 2347,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 2,
-			["zone"] = "The Eternal Palace",
-			["id"] = 2289,
-			["mapid"] = 2164,
-			["try_number"] = 1,
-			["name"] = "Blackwater Behemoth",
-			["encounter"] = "Blackwater Behemoth",
-			["ej_instance_id"] = 1179,
-			["diff"] = 15,
-		},
 		["player_db"] = {
 			["Chanchanko-Auchindoun"] = {
 				["encounters"] = 1,
@@ -12472,12 +12460,36 @@ DeathGraphsDBEndurance = {
 				["class"] = "WARLOCK",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 2,
+			["zone"] = "The Eternal Palace",
+			["id"] = 2289,
+			["mapid"] = 2164,
+			["try_number"] = 1,
+			["name"] = "Blackwater Behemoth",
+			["encounter"] = "Blackwater Behemoth",
+			["ej_instance_id"] = 1179,
+			["diff"] = 15,
+		},
 	},
 	["237715"] = {
 		["hash"] = "237715",
 		["type"] = "endurance",
 		["name"] = "Dark Inquisitor Xanesh",
 		["id"] = 2377,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 4,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2328,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Dark Inquisitor Xanesh",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Dark Inquisitor Xanesh",
+		},
 		["player_db"] = {
 			["Nanodh-Hellscream"] = {
 				["encounters"] = 3,
@@ -12581,12 +12593,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Fugguts-Ravencrest"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Purrdition-AzjolNerub"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Karlun-Quel'Thalas"] = {
 				["encounters"] = 5,
@@ -12678,185 +12690,62 @@ DeathGraphsDBEndurance = {
 					}, -- [2]
 				},
 			},
-			["Purrdition-AzjolNerub"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "PALADIN",
+			["Fugguts-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 4,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2328,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Dark Inquisitor Xanesh",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["encounter"] = "Dark Inquisitor Xanesh",
 		},
 		["diff"] = 15,
 	},
-	["236915"] = {
-		["hash"] = "236915",
+	["237215"] = {
+		["hash"] = "237215",
 		["type"] = "endurance",
-		["name"] = "Prophet Skitra",
-		["id"] = 2369,
+		["name"] = "The Hivemind",
+		["id"] = 2372,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 5,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "The Hivemind",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "The Hivemind",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2333,
+			["killed"] = true,
+		},
 		["player_db"] = {
-			["Feráx-Doomhammer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Ambulanz-Baelgun"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Wiggor-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Inleafeor-Aggramar"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
+			["Nanodh-Hellscream"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
-			["Hølgrøødx"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Id-Quel'Thalas"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
 			},
-			["Gimvy-Quel'Thalas"] = {
+			["Illai-Hellscream"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Drugie-Draenor"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-			},
-			["Harklight-Dragonblight"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Sempra-Wildhammer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Zenish-Quel'Thalas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Ухажёр-Гордунни"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Интэгра-Дракономор"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						252.1939999999995, -- [2]
-						"Psychic Reverberations |cFFFF333321,959|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PRIEST",
-			},
-			["Dåre-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Daizen-Hellscream"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Sinceri"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Mallusof"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Vanorlaa-ArgentDawn"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Nanodh-Hellscream"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Id-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Krenka-GrimBatol"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Illai-Hellscream"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Eyesnipe"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
 			},
 			["Gralph"] = {
 				["encounters"] = 1,
@@ -12865,64 +12754,33 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Хелдорадушка-Азурегос"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						250.1939999999995, -- [2]
-						"Surging Images (DoT) |cFFFF3333231,107|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
-			},
-			["Комотоз-Разувий"] = {
+			["Malash-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Relapse-Ravencrest"] = {
-				["encounters"] = 1,
-				["points"] = 90,
+				["encounters"] = 2,
+				["points"] = 200,
 				["class"] = "WARRIOR",
 				["deaths"] = {
-					{
-						1, -- [1]
-						145.4040000000005, -- [2]
-						"Psychic Outburst |cFFFF3333513,144|r", -- [3]
-					}, -- [1]
 				},
 			},
-			["Zottl-Blackmoore"] = {
+			["Inleafeor-Aggramar"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "DRUID",
-			},
-			["Aprins-Terenas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
 			},
-			["Shareya-Alleria"] = {
+			["Sainfire-Wildhammer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
-			},
-			["Porthoto-Antonidas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
 			},
 			["Misswhiskers-AzjolNerub"] = {
 				["encounters"] = 1,
@@ -12931,73 +12789,104 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
+			["Charie-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Azzal-AzjolNerub"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Gimvy-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						188.1610000000001, -- [2]
+						"Acid Spray |cFFFF3333220,425|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Siferous-AzjolNerub"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Moridin-Anub'arak"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						216.1059999999998, -- [2]
+						"Melee |cFFFF3333240,783|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Sempra-Wildhammer"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						1, -- [1]
+						198.1859999999997, -- [2]
+						"Corrosion (DoT) |cFFFF333342,899|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Zenish-Quel'Thalas"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
 			["Calarél-ArgentDawn"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+				["encounters"] = 3,
+				["points"] = 300,
 				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 			},
-			["Funx-Ysera"] = {
+			["Bazzaboy-Draenor"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Purrdition-AzjolNerub"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Karlun-Quel'Thalas"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Daizen-Hellscream"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "DEATHKNIGHT",
-			},
-			["Purrdition-AzjolNerub"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Moridin-Anub'arak"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Хикас-Гордунни"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Агаттис-Голдринн"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Loovy"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Freppo-Ravencrest"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Мираель-СтражСмерти"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						250.0039999999972, -- [2]
-						"Surging Images (DoT) |cFFFF3333243,944|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
 			},
 			["Fuqita-Ravencrest"] = {
 				["encounters"] = 1,
@@ -13006,75 +12895,67 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MONK",
 			},
-			["Karlun-Quel'Thalas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Ptibiscuit-LesSentinelles"] = {
+			["Foodmaker-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "HUNTER",
-			},
-			["Vylian-Sylvanas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
 			},
-			["Halbarad-BronzeDragonflight"] = {
+			["Grálph-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Dåre-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Kimiká"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Mallusof"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+			},
+			["Oppressum-Neptulon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Mushí-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["class"] = "SHAMAN",
-			},
-			["Crucifixum-Antonidas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
 			},
-			["Дестрайк-Гордунни"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Vanorlaa-ArgentDawn"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
-			["Skruttbob-Stormrage"] = {
+			["Dhaina-Anub'arak"] = {
 				["encounters"] = 1,
-				["points"] = 100,
+				["points"] = 90,
+				["class"] = "DRUID",
 				["deaths"] = {
+					{
+						1, -- [1]
+						63.27799999999843, -- [2]
+						"Acid Spray |cFFFF3333270,388|r", -- [3]
+					}, -- [1]
 				},
-				["class"] = "ROGUE",
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 3,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Prophet Skitra",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Prophet Skitra",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["id"] = 2334,
-			["killed"] = true,
 		},
 		["diff"] = 15,
 	},
@@ -13083,6 +12964,19 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Lady Ashvane",
 		["id"] = 2354,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 4,
+			["zone"] = "The Eternal Palace",
+			["encounter"] = "Lady Ashvane",
+			["mapid"] = 2164,
+			["try_number"] = 1,
+			["name"] = "Lady Ashvane",
+			["diff"] = 14,
+			["ej_instance_id"] = 1179,
+			["id"] = 2304,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Bulbumbo"] = {
 				["encounters"] = 1,
@@ -13138,11 +13032,16 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Gachiff-ArgentDawn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
+			["Clive-KirinTor"] = {
+				["encounters"] = 5,
+				["points"] = 490,
+				["class"] = "HUNTER",
 				["deaths"] = {
+					{
+						2, -- [1]
+						125.5509999999995, -- [2]
+						"Environment (Falling) |cFFFF333369,492|r", -- [3]
+					}, -- [1]
 				},
 			},
 			["Unabletofeel-Sylvanas"] = {
@@ -13202,17 +13101,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Moridin-Anub'arak"] = {
-				["encounters"] = 6,
-				["points"] = 590,
-				["class"] = "DEMONHUNTER",
+			["Zenish-Quel'Thalas"] = {
+				["encounters"] = 4,
+				["points"] = 400,
 				["deaths"] = {
-					{
-						3, -- [1]
-						117.3040000000001, -- [2]
-						"Cutting Coral (DoT) |cFFFF333328,953|r", -- [3]
-					}, -- [1]
 				},
+				["class"] = "HUNTER",
 			},
 			["Anomassa"] = {
 				["encounters"] = 1,
@@ -13221,27 +13115,17 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Clive-KirinTor"] = {
-				["encounters"] = 5,
-				["points"] = 490,
-				["class"] = "HUNTER",
+			["Gachiff-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
 				["deaths"] = {
-					{
-						2, -- [1]
-						125.5509999999995, -- [2]
-						"Environment (Falling) |cFFFF333369,492|r", -- [3]
-					}, -- [1]
 				},
 			},
-			["Fugguts-Ravencrest"] = {
+			["Peaseblossom-AzjolNerub"] = {
 				["encounters"] = 4,
-				["points"] = 390,
+				["points"] = 400,
 				["deaths"] = {
-					{
-						2, -- [1]
-						122.4830000000002, -- [2]
-						"Upsurge |cFFFF333365,893|r", -- [3]
-					}, -- [1]
 				},
 				["class"] = "DRUID",
 			},
@@ -13311,10 +13195,15 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "ROGUE",
 			},
-			["Peaseblossom-AzjolNerub"] = {
+			["Fugguts-Ravencrest"] = {
 				["encounters"] = 4,
-				["points"] = 400,
+				["points"] = 390,
 				["deaths"] = {
+					{
+						2, -- [1]
+						122.4830000000002, -- [2]
+						"Upsurge |cFFFF333365,893|r", -- [3]
+					}, -- [1]
 				},
 				["class"] = "DRUID",
 			},
@@ -13325,26 +13214,18 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Zenish-Quel'Thalas"] = {
-				["encounters"] = 4,
-				["points"] = 400,
+			["Moridin-Anub'arak"] = {
+				["encounters"] = 6,
+				["points"] = 590,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
+					{
+						3, -- [1]
+						117.3040000000001, -- [2]
+						"Cutting Coral (DoT) |cFFFF333328,953|r", -- [3]
+					}, -- [1]
 				},
-				["class"] = "HUNTER",
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 4,
-			["zone"] = "The Eternal Palace",
-			["encounter"] = "Lady Ashvane",
-			["mapid"] = 2164,
-			["try_number"] = 1,
-			["name"] = "Lady Ashvane",
-			["diff"] = 14,
-			["ej_instance_id"] = 1179,
-			["id"] = 2304,
-			["killed"] = true,
 		},
 		["diff"] = 14,
 	},
@@ -13353,6 +13234,18 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Maut",
 		["id"] = 2365,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 2,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2327,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Maut",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Maut",
+		},
 		["player_db"] = {
 			["Nanodh-Hellscream"] = {
 				["encounters"] = 1,
@@ -13561,217 +13454,187 @@ DeathGraphsDBEndurance = {
 				["class"] = "DEATHKNIGHT",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 2,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2327,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Maut",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["encounter"] = "Maut",
-		},
 		["diff"] = 15,
 	},
-	["236914"] = {
-		["hash"] = "236914",
+	["237315"] = {
+		["hash"] = "237315",
 		["type"] = "endurance",
-		["name"] = "Prophet Skitra",
-		["id"] = 2369,
+		["name"] = "Drest'agath",
+		["id"] = 2373,
 		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 3,
+			["diff_string"] = "Heroic",
+			["index"] = 7,
 			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Prophet Skitra",
+			["encounter"] = "Drest'agath",
 			["mapid"] = 2217,
 			["try_number"] = 1,
-			["name"] = "Prophet Skitra",
-			["diff"] = 14,
+			["name"] = "Drest'agath",
+			["diff"] = 15,
 			["ej_instance_id"] = 1180,
-			["id"] = 2334,
+			["id"] = 2343,
 			["killed"] = true,
 		},
 		["player_db"] = {
-			["Id-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
+			["Nanodh-Hellscream"] = {
+				["encounters"] = 3,
+				["points"] = 300,
 				["class"] = "DEMONHUNTER",
-			},
-			["Weaved-Drak'thul"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
 				["deaths"] = {
 				},
 			},
-			["Julaki-Tirion"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
+			["Id-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
+				},
+			},
+			["Illai-Hellscream"] = {
+				["encounters"] = 4,
+				["points"] = 360,
+				["class"] = "ROGUE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						245.7280000000001, -- [2]
+						"Entropic Crash |cFFFF3333232,480|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						333.9480000000003, -- [2]
+						"Infinite Stars |cFFFF33336,890|r", -- [3]
+					}, -- [2]
+					{
+						1, -- [1]
+						64.79700000000048, -- [2]
+						"Entropic Crash |cFFFF3333109,361|r", -- [3]
+					}, -- [3]
+					{
+						2, -- [1]
+						322.7629999999999, -- [2]
+						"Acid Splash |cFFFF333388,210|r", -- [3]
+					}, -- [4]
 				},
 			},
 			["Gralph"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "MONK",
-			},
-			["Párrøt-Thunderhorn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 			},
-			["Nihildemohyp-Antonidas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Voidmist-Pozzodell'Eternità"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
+			["Relapse-Ravencrest"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
 			},
 			["Sainfire-Wildhammer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
-			["Ulpu"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Misswhiskers-AzjolNerub"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
 				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Вайзменион-Гордунни"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Клавалицодпс-Гордунни"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Gimvy-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Borky-Blackmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Moridin-Anub'arak"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Sempra-Wildhammer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Zenish-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Востоков-Ясеневыйлес"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Eøzenn-Archimonde"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["class"] = "DRUID",
 				["deaths"] = {
+				},
+			},
+			["Moridin-Anub'arak"] = {
+				["encounters"] = 4,
+				["points"] = 380,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						251.2309999999998, -- [2]
+						"Melee |cFFFF3333189,869|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						19.86599999999999, -- [2]
+						"Entropic Crash |cFFFF3333382,304|r", -- [3]
+					}, -- [2]
 				},
 			},
 			["Purrdition-AzjolNerub"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Karlun-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
+				["encounters"] = 4,
+				["points"] = 400,
 				["class"] = "PRIEST",
-			},
-			["Nokrothar-TheMaelstrom"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Товамис-Ясеневыйлес"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Heiisenberg-Ravencrest"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Карликарий-Азурегос"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 			},
 			["Calarél-ArgentDawn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
-			["Mallusof"] = {
+			["Fuqita-Ravencrest"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Zenish-Quel'Thalas"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						154.7290000000003, -- [2]
+						"Entropic Crash |cFFFF3333400,485|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Grálph-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						1, -- [1]
+						65.06600000000071, -- [2]
+						"Entropic Crash |cFFFF3333412,865|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Daizen-Hellscream"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						64.79700000000048, -- [2]
+						"Entropic Crash |cFFFF333369,921|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Mallusof"] = {
+				["encounters"] = 4,
+				["points"] = 400,
 				["class"] = "PRIEST",
 				["deaths"] = {
 				},
@@ -13779,33 +13642,38 @@ DeathGraphsDBEndurance = {
 			["Oppressum-Neptulon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Mushí-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						149.2660000000005, -- [2]
+						"Acid Splash |cFFFF333381,279|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Vanorlaa-ArgentDawn"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Dåre-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Ezergood-Ravencrest"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Vanorlaa-ArgentDawn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Illai-Hellscream"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
 		},
-		["diff"] = 14,
+		["diff"] = 15,
 	},
 	["235115"] = {
 		["hash"] = "235115",
@@ -13813,6 +13681,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Orgozoa",
 		["id"] = 2351,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 5,
+			["zone"] = "The Eternal Palace",
+			["encounter"] = "Orgozoa",
+			["mapid"] = 2164,
+			["try_number"] = 1,
+			["name"] = "Orgozoa",
+			["diff"] = 15,
+			["id"] = 2303,
+			["ej_instance_id"] = 1179,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Chanchanko-Auchindoun"] = {
 				["encounters"] = 2,
@@ -14157,38 +14038,12 @@ DeathGraphsDBEndurance = {
 				["class"] = "MONK",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 5,
-			["zone"] = "The Eternal Palace",
-			["encounter"] = "Orgozoa",
-			["mapid"] = 2164,
-			["try_number"] = 1,
-			["name"] = "Orgozoa",
-			["diff"] = 15,
-			["id"] = 2303,
-			["ej_instance_id"] = 1179,
-			["killed"] = true,
-		},
 	},
 	["235214"] = {
 		["hash"] = "235214",
 		["type"] = "endurance",
 		["name"] = "Abyssal Commander Sivara",
 		["id"] = 2352,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 1,
-			["zone"] = "The Eternal Palace",
-			["encounter"] = "Abyssal Commander Sivara",
-			["mapid"] = 2164,
-			["try_number"] = 1,
-			["name"] = "Abyssal Commander Sivara",
-			["diff"] = 14,
-			["ej_instance_id"] = 1179,
-			["id"] = 2298,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Bulbumbo"] = {
 				["encounters"] = 1,
@@ -14218,12 +14073,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DRUID",
 			},
-			["Peaseblossom-AzjolNerub"] = {
+			["Cathriona-ArgentDawn"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
+				["class"] = "PALADIN",
 			},
 			["Unabletofeel-Sylvanas"] = {
 				["encounters"] = 1,
@@ -14246,12 +14101,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "ROGUE",
 			},
-			["Karlun-Quel'Thalas"] = {
+			["Anomassa"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
 			["Hengli-Ravencrest"] = {
 				["encounters"] = 1,
@@ -14267,17 +14122,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Moridin-Anub'arak"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["class"] = "DEMONHUNTER",
+			["Zenish-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
-					{
-						1, -- [1]
-						347.6779999999999, -- [2]
-						"Crushing Reverberation |cFFFF3333106,167|r", -- [3]
-					}, -- [1]
 				},
+				["class"] = "HUNTER",
 			},
 			["Mallusof"] = {
 				["encounters"] = 3,
@@ -14286,26 +14136,26 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Gachiff-ArgentDawn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
+			["Clive-KirinTor"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
-			["Cathriona-ArgentDawn"] = {
+			["Peaseblossom-AzjolNerub"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
+				["class"] = "DRUID",
 			},
-			["Anomassa"] = {
+			["Karlun-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "PRIEST",
-				["deaths"] = {
-				},
 			},
 			["Melice-Neptulon"] = {
 				["encounters"] = 2,
@@ -14356,12 +14206,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "ROGUE",
 			},
-			["Clive-KirinTor"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Gachiff-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Asrael-Al'Akir"] = {
 				["encounters"] = 1,
@@ -14370,13 +14220,31 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Zenish-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Moridin-Anub'arak"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
+					{
+						1, -- [1]
+						347.6779999999999, -- [2]
+						"Crushing Reverberation |cFFFF3333106,167|r", -- [3]
+					}, -- [1]
 				},
-				["class"] = "HUNTER",
 			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 1,
+			["zone"] = "The Eternal Palace",
+			["encounter"] = "Abyssal Commander Sivara",
+			["mapid"] = 2164,
+			["try_number"] = 1,
+			["name"] = "Abyssal Commander Sivara",
+			["diff"] = 14,
+			["ej_instance_id"] = 1179,
+			["id"] = 2298,
+			["killed"] = true,
 		},
 		["diff"] = 14,
 	},
@@ -14385,23 +14253,11 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Maut",
 		["id"] = 2365,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 2,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2327,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Maut",
-			["diff"] = 14,
-			["ej_instance_id"] = 1180,
-			["encounter"] = "Maut",
-		},
 		["player_db"] = {
-			["Nihildemohyp-Antonidas"] = {
+			["Weaved-Drak'thul"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
+				["class"] = "MONK",
 				["deaths"] = {
 				},
 			},
@@ -14412,10 +14268,10 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEMONHUNTER",
 			},
-			["Weaved-Drak'thul"] = {
+			["Nihildemohyp-Antonidas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
@@ -14513,12 +14369,17 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Calarél-ArgentDawn"] = {
+			["Карликарий-Азурегос"] = {
 				["encounters"] = 1,
-				["points"] = 100,
+				["points"] = 90,
+				["class"] = "HUNTER",
 				["deaths"] = {
+					{
+						2, -- [1]
+						45.54899999999998, -- [2]
+						"Stygian Annihilation |cFFFF3333628,100|r", -- [3]
+					}, -- [1]
 				},
-				["class"] = "PRIEST",
 			},
 			["Sempra-Wildhammer"] = {
 				["encounters"] = 1,
@@ -14546,17 +14407,12 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Карликарий-Азурегос"] = {
+			["Calarél-ArgentDawn"] = {
 				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "HUNTER",
+				["points"] = 100,
 				["deaths"] = {
-					{
-						2, -- [1]
-						45.54899999999998, -- [2]
-						"Stygian Annihilation |cFFFF3333628,100|r", -- [3]
-					}, -- [1]
 				},
+				["class"] = "PRIEST",
 			},
 			["Purrdition-AzjolNerub"] = {
 				["encounters"] = 1,
@@ -14626,10 +14482,10 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Janessmlot-Ravencrest"] = {
+			["Ezergood-Ravencrest"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
 			},
@@ -14639,6 +14495,223 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 				["class"] = "PALADIN",
+			},
+			["Janessmlot-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 2,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2327,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Maut",
+			["diff"] = 14,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Maut",
+		},
+		["diff"] = 14,
+	},
+	["236914"] = {
+		["hash"] = "236914",
+		["type"] = "endurance",
+		["name"] = "Prophet Skitra",
+		["id"] = 2369,
+		["player_db"] = {
+			["Id-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Weaved-Drak'thul"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Julaki-Tirion"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Gralph"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Párrøt-Thunderhorn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Nihildemohyp-Antonidas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Voidmist-Pozzodell'Eternità"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Sainfire-Wildhammer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Ulpu"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Вайзменион-Гордунни"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Клавалицодпс-Гордунни"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Gimvy-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Borky-Blackmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Moridin-Anub'arak"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Sempra-Wildhammer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Zenish-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Востоков-Ясеневыйлес"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Heiisenberg-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Purrdition-AzjolNerub"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Karlun-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Nokrothar-TheMaelstrom"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Товамис-Ясеневыйлес"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Eøzenn-Archimonde"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Карликарий-Азурегос"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Calarél-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Mallusof"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Oppressum-Neptulon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
 			},
 			["Ezergood-Ravencrest"] = {
 				["encounters"] = 1,
@@ -14647,227 +14720,35 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-		},
-		["diff"] = 14,
-	},
-	["237315"] = {
-		["hash"] = "237315",
-		["type"] = "endurance",
-		["name"] = "Drest'agath",
-		["id"] = 2373,
-		["player_db"] = {
-			["Nanodh-Hellscream"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "DEMONHUNTER",
+			["Vanorlaa-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
-			},
-			["Id-Quel'Thalas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
+				["class"] = "PALADIN",
 			},
 			["Illai-Hellscream"] = {
-				["encounters"] = 4,
-				["points"] = 360,
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "ROGUE",
-				["deaths"] = {
-					{
-						1, -- [1]
-						245.7280000000001, -- [2]
-						"Entropic Crash |cFFFF3333232,480|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						333.9480000000003, -- [2]
-						"Infinite Stars |cFFFF33336,890|r", -- [3]
-					}, -- [2]
-					{
-						1, -- [1]
-						64.79700000000048, -- [2]
-						"Entropic Crash |cFFFF3333109,361|r", -- [3]
-					}, -- [3]
-					{
-						2, -- [1]
-						322.7629999999999, -- [2]
-						"Acid Splash |cFFFF333388,210|r", -- [3]
-					}, -- [4]
-				},
-			},
-			["Gralph"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Relapse-Ravencrest"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Sainfire-Wildhammer"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Misswhiskers-AzjolNerub"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Sempra-Wildhammer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Moridin-Anub'arak"] = {
-				["encounters"] = 4,
-				["points"] = 380,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						251.2309999999998, -- [2]
-						"Melee |cFFFF3333189,869|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						19.86599999999999, -- [2]
-						"Entropic Crash |cFFFF3333382,304|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Purrdition-AzjolNerub"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Karlun-Quel'Thalas"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Calarél-ArgentDawn"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Fuqita-Ravencrest"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Zenish-Quel'Thalas"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						154.7290000000003, -- [2]
-						"Entropic Crash |cFFFF3333400,485|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Grálph-ArgentDawn"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-					{
-						1, -- [1]
-						65.06600000000071, -- [2]
-						"Entropic Crash |cFFFF3333412,865|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Daizen-Hellscream"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						64.79700000000048, -- [2]
-						"Entropic Crash |cFFFF333369,921|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Mallusof"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Oppressum-Neptulon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Mushí-Ravencrest"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						1, -- [1]
-						149.2660000000005, -- [2]
-						"Acid Splash |cFFFF333381,279|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Vanorlaa-ArgentDawn"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Dåre-Quel'Thalas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
 			},
 		},
 		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 7,
+			["diff_string"] = "Normal",
+			["index"] = 3,
 			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Drest'agath",
+			["encounter"] = "Prophet Skitra",
 			["mapid"] = 2217,
 			["try_number"] = 1,
-			["name"] = "Drest'agath",
-			["diff"] = 15,
+			["name"] = "Prophet Skitra",
+			["diff"] = 14,
 			["ej_instance_id"] = 1180,
-			["id"] = 2343,
+			["id"] = 2334,
 			["killed"] = true,
 		},
-		["diff"] = 15,
+		["diff"] = 14,
 	},
 	["235415"] = {
 		["hash"] = "235415",
@@ -14875,6 +14756,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Lady Ashvane",
 		["id"] = 2354,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 4,
+			["zone"] = "The Eternal Palace",
+			["encounter"] = "Lady Ashvane",
+			["mapid"] = 2164,
+			["try_number"] = 1,
+			["name"] = "Lady Ashvane",
+			["diff"] = 15,
+			["id"] = 2304,
+			["ej_instance_id"] = 1179,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Chanchanko-Auchindoun"] = {
 				["encounters"] = 2,
@@ -14998,12 +14892,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Idonee-Turalyon"] = {
+			["Kaesius-Magtheridon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "MONK",
+				["class"] = "DEMONHUNTER",
 			},
 			["Наккига-Разувий"] = {
 				["encounters"] = 1,
@@ -15227,9 +15121,9 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Moridin-Anub'arak"] = {
-				["encounters"] = 8,
-				["points"] = 800,
+			["Коллядуй-Гордунни"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "DEMONHUNTER",
@@ -15269,9 +15163,9 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PRIEST",
 			},
-			["Коллядуй-Гордунни"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Moridin-Anub'arak"] = {
+				["encounters"] = 8,
+				["points"] = 800,
 				["deaths"] = {
 				},
 				["class"] = "DEMONHUNTER",
@@ -15325,26 +15219,13 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DRUID",
 			},
-			["Kaesius-Magtheridon"] = {
+			["Idonee-Turalyon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "MONK",
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 4,
-			["zone"] = "The Eternal Palace",
-			["encounter"] = "Lady Ashvane",
-			["mapid"] = 2164,
-			["try_number"] = 1,
-			["name"] = "Lady Ashvane",
-			["diff"] = 15,
-			["id"] = 2304,
-			["ej_instance_id"] = 1179,
-			["killed"] = true,
 		},
 	},
 	["237515"] = {
@@ -15352,6 +15233,18 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "N'Zoth the Corruptor",
 		["id"] = 2375,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 12,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2344,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "N'Zoth the Corruptor",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "N'Zoth the Corruptor",
+		},
 		["player_db"] = {
 			["Nanodh-Hellscream"] = {
 				["encounters"] = 1,
@@ -15758,18 +15651,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 12,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2344,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "N'Zoth the Corruptor",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["encounter"] = "N'Zoth the Corruptor",
-		},
 		["diff"] = 15,
 	},
 	["234914"] = {
@@ -15777,6 +15658,18 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Za'qul",
 		["id"] = 2349,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 7,
+			["zone"] = "The Eternal Palace",
+			["id"] = 2293,
+			["mapid"] = 2164,
+			["try_number"] = 1,
+			["name"] = "Za'qul",
+			["diff"] = 14,
+			["ej_instance_id"] = 1179,
+			["encounter"] = "Za'qul",
+		},
 		["player_db"] = {
 			["Bulbumbo"] = {
 				["encounters"] = 2,
@@ -15859,16 +15752,11 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Moridin-Anub'arak"] = {
-				["encounters"] = 6,
-				["points"] = 590,
-				["class"] = "DEMONHUNTER",
+			["Zenish-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
 				["deaths"] = {
-					{
-						1, -- [1]
-						187.4339999999793, -- [2]
-						"Dread |cFFFF333345,372|r", -- [3]
-					}, -- [1]
 				},
 			},
 			["Peaseblossom-AzjolNerub"] = {
@@ -15897,11 +15785,16 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Zenish-Quel'Thalas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "HUNTER",
+			["Moridin-Anub'arak"] = {
+				["encounters"] = 6,
+				["points"] = 590,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
+					{
+						1, -- [1]
+						187.4339999999793, -- [2]
+						"Dread |cFFFF333345,372|r", -- [3]
+					}, -- [1]
 				},
 			},
 			["Béllana-Proudmoore"] = {
@@ -15911,24 +15804,34 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Clive-KirinTor"] = {
+			["Gachiff-ArgentDawn"] = {
 				["encounters"] = 2,
 				["points"] = 190,
+				["class"] = "MONK",
 				["deaths"] = {
 					{
-						2, -- [1]
-						293.3899999999994, -- [2]
-						"Crushing Grasp |cFFFF3333154,001|r", -- [3]
+						1, -- [1]
+						232.0739999999933, -- [2]
+						"Mind Tether |cFFFF333383,611|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "HUNTER",
 			},
-			["Fugguts-Ravencrest"] = {
+			["Cathriona-ArgentDawn"] = {
 				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DRUID",
+				["points"] = 180,
 				["deaths"] = {
+					{
+						1, -- [1]
+						252.384, -- [2]
+						"Mind Tether |cFFFF333314,545|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						345.8079999999991, -- [2]
+						"Mind Tether |cFFFF333335,292|r", -- [3]
+					}, -- [2]
 				},
+				["class"] = "PALADIN",
 			},
 			["Karlun-Quel'Thalas"] = {
 				["encounters"] = 2,
@@ -16001,17 +15904,17 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Gachiff-ArgentDawn"] = {
+			["Clive-KirinTor"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "MONK",
 				["deaths"] = {
 					{
-						1, -- [1]
-						232.0739999999933, -- [2]
-						"Mind Tether |cFFFF333383,611|r", -- [3]
+						2, -- [1]
+						293.3899999999994, -- [2]
+						"Crushing Grasp |cFFFF3333154,001|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "HUNTER",
 			},
 			["Adionis-Magtheridon"] = {
 				["encounters"] = 2,
@@ -16020,35 +15923,13 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DRUID",
 			},
-			["Cathriona-ArgentDawn"] = {
+			["Fugguts-Ravencrest"] = {
 				["encounters"] = 2,
-				["points"] = 180,
+				["points"] = 200,
+				["class"] = "DRUID",
 				["deaths"] = {
-					{
-						1, -- [1]
-						252.384, -- [2]
-						"Mind Tether |cFFFF333314,545|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						345.8079999999991, -- [2]
-						"Mind Tether |cFFFF333335,292|r", -- [3]
-					}, -- [2]
 				},
-				["class"] = "PALADIN",
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 7,
-			["zone"] = "The Eternal Palace",
-			["id"] = 2293,
-			["mapid"] = 2164,
-			["try_number"] = 1,
-			["name"] = "Za'qul",
-			["diff"] = 14,
-			["ej_instance_id"] = 1179,
-			["encounter"] = "Za'qul",
 		},
 		["diff"] = 14,
 	},
@@ -16057,6 +15938,18 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Ra-den the Despoiled",
 		["id"] = 2364,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 10,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2331,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Ra-den the Despoiled",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Ra-den the Despoiled",
+		},
 		["player_db"] = {
 			["Nanodh-Hellscream"] = {
 				["encounters"] = 4,
@@ -16084,13 +15977,6 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Gralph"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
 			["Dhaina-Anub'arak"] = {
 				["encounters"] = 2,
 				["points"] = 190,
@@ -16101,6 +15987,13 @@ DeathGraphsDBEndurance = {
 						96.54900000000089, -- [2]
 						"Unstable Vita |cFFFF3333684,996|r", -- [3]
 					}, -- [1]
+				},
+			},
+			["Gralph"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "MONK",
+				["deaths"] = {
 				},
 			},
 			["Malash-Quel'Thalas"] = {
@@ -16156,17 +16049,17 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Gimvy-Quel'Thalas"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["class"] = "SHAMAN",
+			["Misswhiskers-AzjolNerub"] = {
+				["encounters"] = 1,
+				["points"] = 90,
 				["deaths"] = {
 					{
 						2, -- [1]
-						46.91799999999967, -- [2]
-						"Void Collapse |cFFFF3333309,936|r", -- [3]
+						244.7579999999998, -- [2]
+						"Decaying Wound |cFFFF3333489,651|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Charie-Quel'Thalas"] = {
 				["encounters"] = 2,
@@ -16182,17 +16075,17 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Misswhiskers-AzjolNerub"] = {
-				["encounters"] = 1,
-				["points"] = 90,
+			["Gimvy-Quel'Thalas"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						2, -- [1]
-						244.7579999999998, -- [2]
-						"Decaying Wound |cFFFF3333489,651|r", -- [3]
+						46.91799999999967, -- [2]
+						"Void Collapse |cFFFF3333309,936|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Siferous-AzjolNerub"] = {
 				["encounters"] = 2,
@@ -16237,12 +16130,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Daizen-Hellscream"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Calarél-ArgentDawn"] = {
+				["encounters"] = 6,
+				["points"] = 600,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Bazzaboy-Draenor"] = {
 				["encounters"] = 2,
@@ -16263,19 +16156,24 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Dåre-Quel'Thalas"] = {
+			["Karlun-Quel'Thalas"] = {
+				["encounters"] = 8,
+				["points"] = 790,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						2, -- [1]
+						236.2799999999998, -- [2]
+						"Ruin |cFFFF333349,581|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Daizen-Hellscream"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
-			},
-			["Calarél-ArgentDawn"] = {
-				["encounters"] = 6,
-				["points"] = 600,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Fuqita-Ravencrest"] = {
 				["encounters"] = 1,
@@ -16303,17 +16201,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Karlun-Quel'Thalas"] = {
-				["encounters"] = 8,
-				["points"] = 790,
-				["class"] = "PRIEST",
+			["Dåre-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
-					{
-						2, -- [1]
-						236.2799999999998, -- [2]
-						"Ruin |cFFFF333349,581|r", -- [3]
-					}, -- [1]
 				},
+				["class"] = "WARLOCK",
 			},
 			["Mallusof"] = {
 				["encounters"] = 8,
@@ -16376,18 +16269,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 10,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2331,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Ra-den the Despoiled",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["encounter"] = "Ra-den the Despoiled",
-		},
 		["diff"] = 15,
 	},
 	["236715"] = {
@@ -16395,6 +16276,19 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Shad'har the Insatiable",
 		["id"] = 2367,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 6,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Shad'har the Insatiable",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Shad'har the Insatiable",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2335,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Nanodh-Hellscream"] = {
 				["encounters"] = 2,
@@ -16552,10 +16446,10 @@ DeathGraphsDBEndurance = {
 					}, -- [2]
 				},
 			},
-			["Purrdition-AzjolNerub"] = {
+			["Alleriia-Alexstrasza"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "PALADIN",
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 			},
@@ -16566,17 +16460,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Daizen-Hellscream"] = {
-				["encounters"] = 1,
-				["points"] = 90,
+			["Calarél-ArgentDawn"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PRIEST",
 				["deaths"] = {
-					{
-						1, -- [1]
-						195.7049999999999, -- [2]
-						"Bubbling Overflow (DoT) |cFFFF3333221,996|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Fuqita-Ravencrest"] = {
 				["encounters"] = 1,
@@ -16604,12 +16493,17 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Calarél-ArgentDawn"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "PRIEST",
+			["Daizen-Hellscream"] = {
+				["encounters"] = 1,
+				["points"] = 90,
 				["deaths"] = {
+					{
+						1, -- [1]
+						195.7049999999999, -- [2]
+						"Bubbling Overflow (DoT) |cFFFF3333221,996|r", -- [3]
+					}, -- [1]
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Mallusof"] = {
 				["encounters"] = 5,
@@ -16625,10 +16519,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Alleriia-Alexstrasza"] = {
+			["Purrdition-AzjolNerub"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "WARLOCK",
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
 			},
@@ -16647,19 +16541,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 6,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Shad'har the Insatiable",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Shad'har the Insatiable",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["id"] = 2335,
-			["killed"] = true,
-		},
 		["diff"] = 15,
 	},
 	["237514"] = {
@@ -16667,6 +16548,19 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "N'Zoth the Corruptor",
 		["id"] = 2375,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 12,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "N'Zoth the Corruptor",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "N'Zoth the Corruptor",
+			["diff"] = 14,
+			["ej_instance_id"] = 1180,
+			["id"] = 2344,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Nanodh-Hellscream"] = {
 				["encounters"] = 1,
@@ -16764,13 +16658,6 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Carmen-Wildhammer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
 			["Alwarr-Sylvanas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
@@ -16778,12 +16665,19 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARRIOR",
 			},
-			["Flînk"] = {
+			["Carmen-Wildhammer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
+				["class"] = "PRIEST",
+			},
+			["Calarél-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
 			},
 			["Volthuin-Aggra(Português)"] = {
 				["encounters"] = 1,
@@ -16820,12 +16714,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Calarél-ArgentDawn"] = {
+			["Flînk"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "ROGUE",
 			},
 			["Volthian-Sylvanas"] = {
 				["encounters"] = 1,
@@ -16849,19 +16743,6 @@ DeathGraphsDBEndurance = {
 				["class"] = "HUNTER",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 12,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "N'Zoth the Corruptor",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "N'Zoth the Corruptor",
-			["diff"] = 14,
-			["ej_instance_id"] = 1180,
-			["id"] = 2344,
-			["killed"] = true,
-		},
 		["diff"] = 14,
 	},
 	["236414"] = {
@@ -16870,6 +16751,18 @@ DeathGraphsDBEndurance = {
 		["name"] = "Ra-den the Despoiled",
 		["id"] = 2364,
 		["diff"] = 14,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 10,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2331,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Ra-den the Despoiled",
+			["encounter"] = "Ra-den the Despoiled",
+			["ej_instance_id"] = 1180,
+			["diff"] = 14,
+		},
 		["player_db"] = {
 			["Nihildemohyp-Antonidas"] = {
 				["encounters"] = 1,
@@ -17127,24 +17020,24 @@ DeathGraphsDBEndurance = {
 				["class"] = "DEMONHUNTER",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 10,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2331,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Ra-den the Despoiled",
-			["encounter"] = "Ra-den the Despoiled",
-			["ej_instance_id"] = 1180,
-			["diff"] = 14,
-		},
 	},
 	["235114"] = {
 		["hash"] = "235114",
 		["type"] = "endurance",
 		["name"] = "Orgozoa",
 		["id"] = 2351,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 5,
+			["zone"] = "The Eternal Palace",
+			["id"] = 2303,
+			["mapid"] = 2164,
+			["try_number"] = 1,
+			["name"] = "Orgozoa",
+			["diff"] = 14,
+			["ej_instance_id"] = 1179,
+			["encounter"] = "Orgozoa",
+		},
 		["player_db"] = {
 			["Bulbumbo"] = {
 				["encounters"] = 2,
@@ -17239,11 +17132,16 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Gachiff-ArgentDawn"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "MONK",
+			["Clive-KirinTor"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "HUNTER",
 				["deaths"] = {
+					{
+						5, -- [1]
+						137.4159999999993, -- [2]
+						"", -- [3]
+					}, -- [1]
 				},
 			},
 			["Hengli-Ravencrest"] = {
@@ -17280,17 +17178,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Moridin-Anub'arak"] = {
-				["encounters"] = 9,
-				["points"] = 890,
-				["class"] = "DEMONHUNTER",
+			["Zenish-Quel'Thalas"] = {
+				["encounters"] = 5,
+				["points"] = 500,
 				["deaths"] = {
-					{
-						2, -- [1]
-						243.6729999999952, -- [2]
-						"Melee |cFFFF3333307,005|r", -- [3]
-					}, -- [1]
 				},
+				["class"] = "HUNTER",
 			},
 			["Terdonis-ArgentDawn"] = {
 				["encounters"] = 2,
@@ -17299,34 +17192,24 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Clive-KirinTor"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "HUNTER",
+			["Gachiff-ArgentDawn"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Peaseblossom-AzjolNerub"] = {
+				["encounters"] = 5,
+				["points"] = 490,
 				["deaths"] = {
 					{
-						5, -- [1]
-						137.4159999999993, -- [2]
+						7, -- [1]
+						158.9270000000015, -- [2]
 						"", -- [3]
 					}, -- [1]
 				},
-			},
-			["Cathriona-ArgentDawn"] = {
-				["encounters"] = 3,
-				["points"] = 270,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						1, -- [1]
-						143.1060000000007, -- [2]
-						"Incubation Fluid |cFFFF3333870|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						154.3760000000002, -- [2]
-						"Melee |cFFFF3333269,979|r", -- [3]
-					}, -- [2]
-				},
+				["class"] = "DRUID",
 			},
 			["Karlun-Quel'Thalas"] = {
 				["encounters"] = 5,
@@ -17419,17 +17302,22 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Peaseblossom-AzjolNerub"] = {
-				["encounters"] = 5,
-				["points"] = 490,
+			["Cathriona-ArgentDawn"] = {
+				["encounters"] = 3,
+				["points"] = 270,
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
-						7, -- [1]
-						158.9270000000015, -- [2]
-						"", -- [3]
+						1, -- [1]
+						143.1060000000007, -- [2]
+						"Incubation Fluid |cFFFF3333870|r", -- [3]
 					}, -- [1]
+					{
+						1, -- [1]
+						154.3760000000002, -- [2]
+						"Melee |cFFFF3333269,979|r", -- [3]
+					}, -- [2]
 				},
-				["class"] = "DRUID",
 			},
 			["Asrael-Al'Akir"] = {
 				["encounters"] = 5,
@@ -17443,87 +17331,60 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Zenish-Quel'Thalas"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 5,
-			["zone"] = "The Eternal Palace",
-			["id"] = 2303,
-			["mapid"] = 2164,
-			["try_number"] = 1,
-			["name"] = "Orgozoa",
-			["diff"] = 14,
-			["ej_instance_id"] = 1179,
-			["encounter"] = "Orgozoa",
-		},
-		["diff"] = 14,
-	},
-	["237215"] = {
-		["hash"] = "237215",
-		["type"] = "endurance",
-		["name"] = "The Hivemind",
-		["id"] = 2372,
-		["player_db"] = {
-			["Nanodh-Hellscream"] = {
-				["encounters"] = 3,
-				["points"] = 300,
+			["Moridin-Anub'arak"] = {
+				["encounters"] = 9,
+				["points"] = 890,
 				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Id-Quel'Thalas"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Illai-Hellscream"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Drugie-Draenor"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Dhaina-Anub'arak"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "DRUID",
 				["deaths"] = {
 					{
-						1, -- [1]
-						63.27799999999843, -- [2]
-						"Acid Spray |cFFFF3333270,388|r", -- [3]
+						2, -- [1]
+						243.6729999999952, -- [2]
+						"Melee |cFFFF3333307,005|r", -- [3]
 					}, -- [1]
 				},
 			},
-			["Malash-Quel'Thalas"] = {
+		},
+		["diff"] = 14,
+	},
+	["236915"] = {
+		["hash"] = "236915",
+		["type"] = "endurance",
+		["name"] = "Prophet Skitra",
+		["id"] = 2369,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 3,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Prophet Skitra",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Prophet Skitra",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2334,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Feráx-Doomhammer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
 			},
-			["Relapse-Ravencrest"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "WARRIOR",
+			["Ambulanz-Baelgun"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
+			},
+			["Wiggor-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
 			},
 			["Inleafeor-Aggramar"] = {
 				["encounters"] = 1,
@@ -17532,104 +17393,59 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Sainfire-Wildhammer"] = {
+			["Hølgrøødx"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["Gimvy-Quel'Thalas"] = {
 				["encounters"] = 1,
-				["points"] = 90,
+				["points"] = 100,
 				["class"] = "SHAMAN",
 				["deaths"] = {
-					{
-						1, -- [1]
-						188.1610000000001, -- [2]
-						"Acid Spray |cFFFF3333220,425|r", -- [3]
-					}, -- [1]
 				},
 			},
-			["Charie-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Azzal-AzjolNerub"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Misswhiskers-AzjolNerub"] = {
+			["Harklight-Dragonblight"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Siferous-AzjolNerub"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Moridin-Anub'arak"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						216.1059999999998, -- [2]
-						"Melee |cFFFF3333240,783|r", -- [3]
-					}, -- [1]
-				},
+				["class"] = "PALADIN",
 			},
 			["Sempra-Wildhammer"] = {
 				["encounters"] = 1,
-				["points"] = 90,
+				["points"] = 100,
 				["class"] = "DRUID",
 				["deaths"] = {
-					{
-						1, -- [1]
-						198.1859999999997, -- [2]
-						"Corrosion (DoT) |cFFFF333342,899|r", -- [3]
-					}, -- [1]
 				},
 			},
 			["Zenish-Quel'Thalas"] = {
-				["encounters"] = 3,
-				["points"] = 300,
+				["encounters"] = 2,
+				["points"] = 200,
 				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 			},
-			["Daizen-Hellscream"] = {
+			["Ухажёр-Гордунни"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
+				["class"] = "MONK",
 			},
-			["Bazzaboy-Draenor"] = {
+			["Интэгра-Дракономор"] = {
 				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
+				["points"] = 90,
 				["deaths"] = {
+					{
+						1, -- [1]
+						252.1939999999995, -- [2]
+						"Psychic Reverberations |cFFFF333321,959|r", -- [3]
+					}, -- [1]
 				},
-			},
-			["Purrdition-AzjolNerub"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
+				["class"] = "PRIEST",
 			},
 			["Dåre-Quel'Thalas"] = {
 				["encounters"] = 1,
@@ -17638,12 +17454,209 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Calarél-ArgentDawn"] = {
+			["Daizen-Hellscream"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Sinceri"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Mallusof"] = {
 				["encounters"] = 3,
 				["points"] = 300,
 				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+			},
+			["Vanorlaa-ArgentDawn"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Nanodh-Hellscream"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Id-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Комотоз-Разувий"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Illai-Hellscream"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Eyesnipe"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Skruttbob-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+			["Хелдорадушка-Азурегос"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						250.1939999999995, -- [2]
+						"Surging Images (DoT) |cFFFF3333231,107|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DRUID",
+			},
+			["Krenka-GrimBatol"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+			["Relapse-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						1, -- [1]
+						145.4040000000005, -- [2]
+						"Psychic Outburst |cFFFF3333513,144|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Zottl-Blackmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Aprins-Terenas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Shareya-Alleria"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Porthoto-Antonidas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Misswhiskers-AzjolNerub"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Агаттис-Голдринн"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Funx-Ysera"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Loovy"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Moridin-Anub'arak"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Хикас-Гордунни"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+			["Calarél-ArgentDawn"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Purrdition-AzjolNerub"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Karlun-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Мираель-СтражСмерти"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						250.0039999999972, -- [2]
+						"Surging Images (DoT) |cFFFF3333243,944|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DRUID",
 			},
 			["Fuqita-Ravencrest"] = {
 				["encounters"] = 1,
@@ -17652,54 +17665,54 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MONK",
 			},
-			["Foodmaker-Quel'Thalas"] = {
+			["Freppo-Ravencrest"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Ptibiscuit-LesSentinelles"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "HUNTER",
-				["deaths"] = {
-				},
 			},
-			["Grálph-ArgentDawn"] = {
+			["Vylian-Sylvanas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
-			["Karlun-Quel'Thalas"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Mallusof"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Oppressum-Neptulon"] = {
+			["Halbarad-BronzeDragonflight"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 			},
-			["Mushí-Ravencrest"] = {
+			["Kimiká"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
 			},
-			["Vanorlaa-ArgentDawn"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "PALADIN",
+			["Crucifixum-Antonidas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Дестрайк-Гордунни"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
 			},
 			["Gralph"] = {
 				["encounters"] = 1,
@@ -17709,19 +17722,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 5,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "The Hivemind",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "The Hivemind",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["id"] = 2333,
-			["killed"] = true,
-		},
 		["diff"] = 15,
 	},
 	["235914"] = {
@@ -17729,6 +17729,19 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "The Queen's Court",
 		["id"] = 2359,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 6,
+			["zone"] = "The Eternal Palace",
+			["encounter"] = "The Queen's Court",
+			["mapid"] = 2164,
+			["try_number"] = 1,
+			["name"] = "The Queen's Court",
+			["diff"] = 14,
+			["ej_instance_id"] = 1179,
+			["id"] = 2311,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Bulbumbo"] = {
 				["encounters"] = 1,
@@ -17798,10 +17811,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Moridin-Anub'arak"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["class"] = "DEMONHUNTER",
+			["Zenish-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 			},
@@ -17826,10 +17839,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Zenish-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
+			["Moridin-Anub'arak"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
@@ -17840,24 +17853,34 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Clive-KirinTor"] = {
-				["encounters"] = 3,
-				["points"] = 290,
+			["Gachiff-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Cathriona-ArgentDawn"] = {
+				["encounters"] = 4,
+				["points"] = 360,
 				["deaths"] = {
 					{
 						1, -- [1]
-						241.5699999999997, -- [2]
-						"Melee |cFFFF333338,527|r", -- [3]
+						232.7299999999996, -- [2]
+						"Melee |cFFFF333333,006|r", -- [3]
 					}, -- [1]
+					{
+						2, -- [1]
+						239.6519999999982, -- [2]
+						"Deferred Sentence |cFFFF3333204,005|r", -- [3]
+					}, -- [2]
+					{
+						2, -- [1]
+						358.280999999999, -- [2]
+						"Melee |cFFFF333333,066|r", -- [3]
+					}, -- [3]
 				},
-				["class"] = "HUNTER",
-			},
-			["Fugguts-Ravencrest"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
+				["class"] = "PALADIN",
 			},
 			["Karlun-Quel'Thalas"] = {
 				["encounters"] = 1,
@@ -17915,12 +17938,17 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Gachiff-ArgentDawn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
+			["Clive-KirinTor"] = {
+				["encounters"] = 3,
+				["points"] = 290,
 				["deaths"] = {
+					{
+						1, -- [1]
+						241.5699999999997, -- [2]
+						"Melee |cFFFF333338,527|r", -- [3]
+					}, -- [1]
 				},
+				["class"] = "HUNTER",
 			},
 			["Adionis-Magtheridon"] = {
 				["encounters"] = 3,
@@ -17934,41 +17962,13 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DRUID",
 			},
-			["Cathriona-ArgentDawn"] = {
-				["encounters"] = 4,
-				["points"] = 360,
+			["Fugguts-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
-					{
-						1, -- [1]
-						232.7299999999996, -- [2]
-						"Melee |cFFFF333333,006|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						239.6519999999982, -- [2]
-						"Deferred Sentence |cFFFF3333204,005|r", -- [3]
-					}, -- [2]
-					{
-						2, -- [1]
-						358.280999999999, -- [2]
-						"Melee |cFFFF333333,066|r", -- [3]
-					}, -- [3]
 				},
-				["class"] = "PALADIN",
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 6,
-			["zone"] = "The Eternal Palace",
-			["encounter"] = "The Queen's Court",
-			["mapid"] = 2164,
-			["try_number"] = 1,
-			["name"] = "The Queen's Court",
-			["diff"] = 14,
-			["ej_instance_id"] = 1179,
-			["id"] = 2311,
-			["killed"] = true,
 		},
 		["diff"] = 14,
 	},
@@ -17978,19 +17978,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Wrathion",
 		["id"] = 2368,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 1,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Wrathion",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Wrathion",
-			["diff"] = 14,
-			["id"] = 2329,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Sempra-Wildhammer"] = {
 				["encounters"] = 1,
@@ -18097,6 +18084,19 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEMONHUNTER",
 			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 1,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Wrathion",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Wrathion",
+			["diff"] = 14,
+			["id"] = 2329,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
 		},
 	},
 }
@@ -21565,10 +21565,9 @@ DeathGraphsDBGraph = {
 			[336] = {
 				1565724078, -- [1]
 			},
-			[90] = {
-				1565724078, -- [1]
-				1570652894, -- [2]
-				1570652894, -- [3]
+			[179] = {
+				1570652894, -- [1]
+				1570653684, -- [2]
 			},
 			[173] = {
 				1570651237, -- [1]
@@ -21584,15 +21583,13 @@ DeathGraphsDBGraph = {
 			[89] = {
 				1565724078, -- [1]
 			},
-			[179] = {
-				1570652894, -- [1]
-				1570653684, -- [2]
+			[90] = {
+				1565724078, -- [1]
+				1570652894, -- [2]
+				1570652894, -- [3]
 			},
-			[181] = {
-				1570653684, -- [1]
-				1570654766, -- [2]
-				1570654766, -- [3]
-				1570654766, -- [4]
+			[91] = {
+				1570652894, -- [1]
 			},
 			[196] = {
 				1570646910, -- [1]
@@ -21604,8 +21601,8 @@ DeathGraphsDBGraph = {
 			[94] = {
 				1570652492, -- [1]
 			},
-			[95] = {
-				1570651237, -- [1]
+			[24] = {
+				1565727344, -- [1]
 			},
 			[96] = {
 				1565724756, -- [1]
@@ -21614,11 +21611,11 @@ DeathGraphsDBGraph = {
 				1565723548, -- [1]
 				1574276966, -- [2]
 			},
-			[203] = {
-				1570652894, -- [1]
+			[102] = {
+				1567626131, -- [1]
 			},
-			[197] = {
-				1570645872, -- [1]
+			[99] = {
+				1567626791, -- [1]
 			},
 			[100] = {
 				1565727962, -- [1]
@@ -21627,8 +21624,8 @@ DeathGraphsDBGraph = {
 			[273] = {
 				1570652205, -- [1]
 			},
-			[102] = {
-				1567626131, -- [1]
+			[203] = {
+				1570652894, -- [1]
 			},
 			[103] = {
 				1565726798, -- [1]
@@ -21675,17 +21672,20 @@ DeathGraphsDBGraph = {
 			[280] = {
 				1570651695, -- [1]
 			},
-			[99] = {
-				1567626791, -- [1]
+			[197] = {
+				1570645872, -- [1]
 			},
-			[24] = {
-				1565727344, -- [1]
+			[95] = {
+				1570651237, -- [1]
 			},
 			[235] = {
 				1567626791, -- [1]
 			},
-			[91] = {
-				1570652894, -- [1]
+			[181] = {
+				1570653684, -- [1]
+				1570654766, -- [2]
+				1570654766, -- [3]
+				1570654766, -- [4]
 			},
 			[120] = {
 				1565727344, -- [1]
@@ -22063,11 +22063,11 @@ DeathGraphsDBGraph = {
 			[119] = {
 				1575487969, -- [1]
 			},
-			[44] = {
-				1566416858, -- [1]
+			[235] = {
+				1567629101, -- [1]
 			},
-			[103] = {
-				1565299242, -- [1]
+			[204] = {
+				1567628184, -- [1]
 			},
 			[173] = {
 				1566414856, -- [1]
@@ -22093,15 +22093,15 @@ DeathGraphsDBGraph = {
 			[239] = {
 				1567628623, -- [1]
 			},
-			[204] = {
-				1567628184, -- [1]
+			[103] = {
+				1565299242, -- [1]
 			},
 			[121] = {
 				1567629101, -- [1]
 				1573074395, -- [2]
 			},
-			[235] = {
-				1567629101, -- [1]
+			[44] = {
+				1566416858, -- [1]
 			},
 			[214] = {
 				1567628623, -- [1]
@@ -22152,16 +22152,16 @@ DeathGraphsDBGraph = {
 			[101] = {
 				1583349495, -- [1]
 			},
-			[182] = {
-				1586974936, -- [1]
-				1586974936, -- [2]
-				1586974936, -- [3]
+			[167] = {
+				1583349495, -- [1]
 			},
 			[99] = {
 				1585765330, -- [1]
 			},
-			[167] = {
-				1583349495, -- [1]
+			[182] = {
+				1586974936, -- [1]
+				1586974936, -- [2]
+				1586974936, -- [3]
 			},
 		},
 		["spells"] = {
@@ -22197,8 +22197,8 @@ DeathGraphsDBGraph = {
 				1583353275, -- [1]
 				1583353645, -- [2]
 			},
-			[203] = {
-				1583353992, -- [1]
+			[305] = {
+				1583354384, -- [1]
 			},
 			[90] = {
 				1583353275, -- [1]
@@ -22240,8 +22240,8 @@ DeathGraphsDBGraph = {
 			[112] = {
 				1591822197, -- [1]
 			},
-			[305] = {
-				1583354384, -- [1]
+			[203] = {
+				1583353992, -- [1]
 			},
 		},
 		["spells"] = {
@@ -22617,12 +22617,12 @@ DeathGraphsDBGraph = {
 				1583961707, -- [1]
 				1583963549, -- [2]
 			},
-			[428] = {
-				1584559869, -- [1]
-			},
 			[215] = {
 				1583961220, -- [1]
 				1583961220, -- [2]
+			},
+			[428] = {
+				1584559869, -- [1]
 			},
 			[217] = {
 				1584558644, -- [1]
@@ -22681,9 +22681,8 @@ DeathGraphsDBGraph = {
 			[200] = {
 				1573076243, -- [1]
 			},
-			[233] = {
+			[203] = {
 				1573076243, -- [1]
-				1573077693, -- [2]
 			},
 			[60] = {
 				1575489235, -- [1]
@@ -22694,8 +22693,9 @@ DeathGraphsDBGraph = {
 			[389] = {
 				1573076975, -- [1]
 			},
-			[203] = {
+			[233] = {
 				1573076243, -- [1]
+				1573077693, -- [2]
 			},
 			[361] = {
 				1573076975, -- [1]
@@ -22738,8 +22738,8 @@ DeathGraphsDBGraph = {
 				1584568699, -- [1]
 				1584569053, -- [2]
 			},
-			[152] = {
-				1584568699, -- [1]
+			[137] = {
+				1585164996, -- [1]
 			},
 			[114] = {
 				1585164996, -- [1]
@@ -22751,8 +22751,8 @@ DeathGraphsDBGraph = {
 				1584568699, -- [1]
 				1584568699, -- [2]
 			},
-			[137] = {
-				1585164996, -- [1]
+			[152] = {
+				1584568699, -- [1]
 			},
 			[130] = {
 				1584569053, -- [1]
@@ -22792,8 +22792,8 @@ DeathGraphsDBGraph = {
 			[238] = {
 				1591824596, -- [1]
 			},
-			[249] = {
-				1591824185, -- [1]
+			[11] = {
+				1586978473, -- [1]
 			},
 			[12] = {
 				1585768985, -- [1]
@@ -22801,8 +22801,8 @@ DeathGraphsDBGraph = {
 			[235] = {
 				1591824185, -- [1]
 			},
-			[11] = {
-				1586978473, -- [1]
+			[249] = {
+				1591824185, -- [1]
 			},
 		},
 		["spells"] = {

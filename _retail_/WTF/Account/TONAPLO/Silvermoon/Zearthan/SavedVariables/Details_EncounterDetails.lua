@@ -2,8 +2,47 @@
 EncounterDetailsDB = {
 	["emotes"] = {
 		{
-			["boss"] = "Slave Watcher Crushto",
+			{
+				1.91700000000003, -- [1]
+				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				5.567000000000007, -- [1]
+				"The light will not fail!", -- [2]
+				"Exarch Yrel", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				6.773000000000025, -- [1]
+				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				6.773000000000025, -- [1]
+				"Lok'tar ogar! They are pushed back! To the portal! Gul'dan is mine!", -- [2]
+				"Grommash Hellscream", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				7.984000000000037, -- [1]
+				"I will shatter this pathetic world! Its broken husk will be torn apart in the twisting nether for all time!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				10.58400000000006, -- [1]
+				"I grow tired of this pointless game. You face the immortal Legion, scourge of a thousand worlds.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [6]
+			["boss"] = "Archimonde",
 		}, -- [1]
+		{
+			["boss"] = "Slave Watcher Crushto",
+		}, -- [2]
 		{
 			{
 				0.1, -- [1]
@@ -66,45 +105,6 @@ EncounterDetailsDB = {
 				7, -- [4]
 			}, -- [10]
 			["boss"] = "Hellfire High Council",
-		}, -- [2]
-		{
-			{
-				23.57600000000002, -- [1]
-				"|cFFFF0000%s|r appears and begins to empower the Fel Spire!", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [1]
-			{
-				23.57600000000002, -- [1]
-				"Faithless fools. The Legion wills it; it will be done.", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				34.13400000000002, -- [1]
-				"Return Mannoroth... Yes, yes! Your masters call you to this world once more!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				49.56700000000001, -- [1]
-				"These mortals cannot be this strong. Gul'dan, do something!", -- [2]
-				"Mannoroth", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				49.56700000000001, -- [1]
-				"Fear not, Mannoroth. The fel gift empowers you... Make them suffer!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				51.16700000000037, -- [1]
-				"|cFFFF0000%s|r begins to empower the Fel Spire!", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [6]
-			["boss"] = "Mannoroth",
 		}, -- [3]
 	},
 	["encounter_spells"] = {
@@ -124,12 +124,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Felfire Flamebelcher",
 		},
-		[190223] = {
+		[181968] = {
 			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Xhul'horac",
+			["source"] = "Gorebound Felcaster",
 		},
 		[185237] = {
 			["school"] = 32,
@@ -139,13 +142,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tyrant Velhari",
 		},
-		[179428] = {
+		[190223] = {
 			["school"] = 4,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Fel Lord Zakuun",
+			["source"] = "Xhul'horac",
 		},
 		[179681] = {
 			["school"] = 1,
@@ -210,15 +212,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Desecration",
 		},
-		[181968] = {
+		[179428] = {
 			["school"] = 4,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Gorebound Felcaster",
+			["source"] = "Fel Lord Zakuun",
 		},
 		[180017] = {
 			["school"] = 32,
@@ -303,13 +303,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dread Infernal",
 		},
-		[179218] = {
-			["school"] = 1,
+		[190394] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Corrupted Talonpriest",
+			["source"] = "Archimonde",
 		},
 		[182049] = {
 			["school"] = 32,
@@ -347,12 +347,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archimonde",
 		},
-		[183917] = {
+		[179218] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Hulking Terror",
+			["source"] = "Corrupted Talonpriest",
 		},
 		[179987] = {
 			["school"] = 1,
@@ -395,13 +396,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tyrant Velhari",
 		},
-		[190394] = {
-			["school"] = 32,
+		[183917] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Archimonde",
+			["source"] = "Hulking Terror",
 		},
 		[182225] = {
 			["school"] = 4,
@@ -444,14 +444,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Felborne Overfiend",
 		},
-		[182178] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[191068] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Shadow-Lord Iskar",
+			["source"] = "Desecration",
 		},
 		[180116] = {
 			["school"] = 1,
@@ -624,12 +624,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Siegeworks Technician",
 		},
-		[181832] = {
-			["school"] = 8,
+		[180604] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Shadowfel Warden",
+			["source"] = "Tyrant Velhari",
 		},
 		[180260] = {
 			["school"] = 4,
@@ -639,14 +641,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tyrant Velhari",
 		},
-		[180604] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[181832] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Tyrant Velhari",
+			["source"] = "Shadowfel Warden",
 		},
 		[180927] = {
 			["school"] = 4,
@@ -801,13 +801,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kilrogg Deadeye",
 		},
-		[186883] = {
-			["school"] = 4,
+		[180533] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Felfire Flamebelcher",
+			["source"] = "Tyrant Velhari",
 		},
 		[179977] = {
 			["school"] = 32,
@@ -825,17 +828,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tyrant Velhari",
 		},
-		[180533] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Tyrant Velhari",
-		},
 		[180025] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -847,6 +839,14 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_HEAL"] = true,
 			},
 			["source"] = "Ancient Harbinger",
+		},
+		[186883] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Felfire Flamebelcher",
 		},
 		[181692] = {
 			["school"] = 1,
@@ -1029,14 +1029,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Contracted Engineer",
 		},
-		[191068] = {
+		[180146] = {
 			["school"] = 32,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Desecration",
+			["source"] = "Gorebound Construct",
 		},
 		[184473] = {
 			["school"] = 32,
@@ -1045,12 +1043,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
-		[180146] = {
-			["school"] = 32,
+		[182178] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Gorebound Construct",
+			["source"] = "Shadow-Lord Iskar",
 		},
 		[188950] = {
 			["school"] = 1,

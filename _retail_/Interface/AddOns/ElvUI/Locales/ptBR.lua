@@ -2,6 +2,9 @@
 local E = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local L = E.Libs.ACL:NewLocale("ElvUI", "ptBR")
 
+local COLOR1 = '|cFF1784d1'
+local COLOR2 = '|cfd9b9b9b'
+
 L[" |cff00ff00bound to |r"] = " |cff00ff00Ligado a |r"
 L["%s frame has a conflicting anchor point. Forcing the Buffs to be attached to the main unitframe."] = true
 L["%s is attempting to share his filters with you. Would you like to accept the request?"] = "%s está tentando compartilhar os filtros dele com você. Gostaria de aceitar o pedido?"
@@ -82,6 +85,7 @@ L["Continue"] = true
 L["Coords"] = true
 L["copperabbrev"] = "|cffeda55fc|r"
 L["Count"] = "Contar"
+L["Current Difficulties:"] = true
 L["Current Level:"] = true
 L["CVars Set"] = "CVars configuradas"
 L["CVars"] = "CVars"
@@ -153,9 +157,9 @@ L["Icons Only"] = "Apenas Ícones"
 L["If you accidently remove a chat frame you can always go the in-game configuration menu, press install, go to the chat portion and reset them."] = "Se acidentalmente remover um quadro de conversação você pode sempre ir ao menu de configuração em jogo, pressionar instalar, ir até a etapa de bate-papo e os restaurar."
 L["If you are experiencing issues with ElvUI try disabling all your addons except ElvUI, remember ElvUI is a full UI replacement addon, you cannot run two addons that do the same thing."] = "Se estiver a ter problemas com a ElvUI tente desativar todos os addons exceto a ElvUI, lembre-se que a ElvUI é um addon de substituição de interface completo, e não se consegue executar dois addons que fazem a mesma coisa."
 L["IL"] = "IL"
-L["Importance: |cff07D400High|r"] = "Importância: |cff07D400Alta|r"
+L["Importance: |cffFF3333High|r"] = "Importância: |cffFF3333Alta|r"
 L["Importance: |cffD3CF00Medium|r"] = "Importância: |cffD3CF00Média|r"
-L["Importance: |cffFF0000Low|r"] = "Importância: |cffFF0000Baixa|r"
+L["Importance: |cFF33FF33Low|r"] = "Importância: |cFF33FF33Baixa|r"
 L["In Progress"] = true
 L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please select either the addon or the ElvUI module to disable."
 L["Installation Complete"] = "Instalação Completa"
@@ -188,7 +192,8 @@ L["Legs"] = "Pernas"
 L["Level Up Display / Boss Banner"] = true
 L["List of installations in queue:"] = true
 L["Lock"] = "Travar"
-L["LOGIN_MSG"] = "Welcome to %sElvUI|r version %s%s|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at https://www.tukui.org or join our Discord: https://discord.gg/xFWcfgE"
+L["LOGIN_MSG"] = ("Welcome to *ElvUI|r version *%s|r, type */ec|r to access the in-game configuration menu. If you are in need of technical support you can visit us at https://www.tukui.org or join our Discord: https://discord.gg/xFWcfgE"):gsub('*', COLOR1)
+L["LOGIN_MSG_HELP"] = ("Please use */ehelp|r for a list of available *ElvUI|r commands."):gsub('*', COLOR1)
 L["Loot / Alert Frames"] = "Quadro de Saque / Alerta"
 L["Loot Frame"] = true
 L["Lord! It's a miracle! The download up and vanished like a fart in the wind! Try Again!"] = "Senhor! É um milagre! O Download sumiu como um peido no vento! Tente novamente!"
@@ -255,7 +260,7 @@ L["Remaining:"] = "Restante:"
 L["Remove Bar %d Action Page"] = "Remover paginação de ação da barra %d."
 L["Reputation Bar"] = "Barra de Reputação"
 L["Request was denied by user."] = "Pedido negado pelo usuário."
-L["Reset Counters: Hold Shift + Right Click"] = true
+L["Reset Counters: Hold Ctrl + Right Click"] = true
 L["Reset Data: Hold Shift + Right Click"] = "Redefinir Dados: Segurar Shifr + Clique Direito"
 L["Reset Position"] = "Redefinir Posição"
 L["Rested:"] = "Descansado:"
@@ -376,3 +381,17 @@ Options:
   Shift + RightClick - Hides mover temporarily.
   Ctrl + RightClick - Resets mover position to default.
 ]=]
+
+L["EHELP_COMMANDS"] = ([=[Here is a list of all important *ElvUI|r commands:
+ */ec|r or */elvui|r  -  Toggle the *OptionsUI|r.
+ */moveui|r  -  Toggle anchors to reposition various elements.
+ */kb|r  -  Toggle the keybind mode.
+ */resetui|r  -  Reset all frames to their original positions.
+ */bgstats|r  -  Toggle Battleground stats on your DataTexts.
+ */hdt|r  -  Edit your DataTexts without opening the *OptionsUI|r.
+ */estatus|r  -  Important informations for support questions.
+ */egrid|r ^64|r or ^128|r or ^256|r  -  Toggle a pixel grid.
+ */luaerror|r ^on|r or ^off|r  -  Disable all AddOns except ElvUI.
+  NOTE: */luaerror|r ^off|r will re-enable the addons disabled from
+  using */luaerror|r ^on|r within that session.
+]=]):gsub('*', COLOR1):gsub('%^', COLOR2)

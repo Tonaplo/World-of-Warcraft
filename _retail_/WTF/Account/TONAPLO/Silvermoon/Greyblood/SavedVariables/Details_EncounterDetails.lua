@@ -154,12 +154,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[181192] = {
-			["school"] = 4,
+		[180000] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Dread Infernal",
+			["source"] = "Tyrant Velhari",
 		},
 		[179986] = {
 			["school"] = 1,
@@ -205,13 +206,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Imperator Mar'gok",
 		},
-		[180000] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[181192] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Tyrant Velhari",
+			["source"] = "Dread Infernal",
 		},
 		[186271] = {
 			["school"] = 4,
@@ -515,8 +515,53 @@ EncounterDetailsDB = {
 	},
 	["emotes"] = {
 		{
-			["boss"] = "Slave Watcher Crushto",
+			{
+				0.1, -- [1]
+				"Let the echoes of doom resound across this wretched world, that all who live may hear them and despair.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				3.379000000000019, -- [1]
+				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				7.180999999999983, -- [1]
+				"The light will not fail!", -- [2]
+				"Exarch Yrel", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				8.295999999999992, -- [1]
+				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				10.79700000000003, -- [1]
+				"Lok'tar ogar! They are pushed back! To the portal! Gul'dan is mine!", -- [2]
+				"Grommash Hellscream", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				12.17900000000003, -- [1]
+				"I grow tired of this pointless game. You face the immortal Legion, scourge of a thousand worlds.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				13.24600000000004, -- [1]
+				"I will shatter this pathetic world! Its broken husk will be torn apart in the twisting nether for all time!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [7]
+			["boss"] = "Archimonde",
 		}, -- [1]
+		{
+			["boss"] = "Slave Watcher Crushto",
+		}, -- [2]
 		{
 			{
 				3.23299999999972, -- [1]
@@ -579,63 +624,6 @@ EncounterDetailsDB = {
 				7, -- [4]
 			}, -- [10]
 			["boss"] = "Hellfire High Council",
-		}, -- [2]
-		{
-			{
-				0.2039999999997235, -- [1]
-				"They are here. Hurry! Gul'dan demands we finish this...", -- [2]
-				"Fel Iron Summoner", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				17.221, -- [1]
-				"|cFFFF0000%s|r appears and begins to empower the Fel Spire!", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [2]
-			{
-				17.221, -- [1]
-				"Faithless fools. The Legion wills it; it will be done.", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				27.80299999999988, -- [1]
-				"Return Mannoroth... Yes, yes! Your masters call you to this world once more!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				42.2529999999997, -- [1]
-				"Fear not, Mannoroth. The fel gift empowers you... Make them suffer!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				43.62099999999964, -- [1]
-				"|cFFFF0000%s|r begins to empower the Fel Spire!", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [6]
-			{
-				46.0029999999997, -- [1]
-				"These mortals cannot be this strong. Gul'dan, do something!", -- [2]
-				"Mannoroth", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				46.30399999999963, -- [1]
-				"Wha- What is this? Gul'dan what have you done? I am... So weak...", -- [2]
-				"Mannoroth", -- [3]
-				7, -- [4]
-			}, -- [8]
-			{
-				47.2199999999998, -- [1]
-				"|cFFFF0000%s|r begins to empower the Fel Spire!", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [9]
-			["boss"] = "Mannoroth",
 		}, -- [3]
 	},
 }

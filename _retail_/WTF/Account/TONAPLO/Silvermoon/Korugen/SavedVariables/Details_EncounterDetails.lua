@@ -681,12 +681,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Slave Watcher Crushto",
 		},
-		[171537] = {
-			["school"] = 1,
+		[151545] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Iron Cleaver",
+			["source"] = "Bloodmaul Warder",
 		},
 		[156937] = {
 			["school"] = 4,
@@ -695,12 +695,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Foreman Feldspar",
 		},
-		[151545] = {
-			["school"] = 32,
+		[30633] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Bloodmaul Warder",
+			["source"] = "Warbringer O'mrogg",
 		},
 		[34980] = {
 			["school"] = 1,
@@ -717,24 +721,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Corrupted Talonpriest",
 		},
-		[30633] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Warbringer O'mrogg",
-		},
-		[181832] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Shadowfel Warden",
-		},
 		[184697] = {
 			["school"] = 1,
 			["token"] = {
@@ -743,12 +729,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Residual Energy",
 		},
-		[169401] = {
-			["school"] = 1,
+		[181832] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Gronnling Laborer",
+			["source"] = "Shadowfel Warden",
 		},
 		[175670] = {
 			["school"] = 1,
@@ -757,6 +743,20 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Ironworker",
+		},
+		[169401] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Gronnling Laborer",
+		},
+		[171537] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Iron Cleaver",
 		},
 		[155185] = {
 			["school"] = 1,
@@ -832,20 +832,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Foreman Feldspar",
 		},
-		[179582] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Fel Lord Zakuun",
-		},
-		[186883] = {
+		[190223] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Felfire Flamebelcher",
+			["source"] = "Xhul'horac",
+		},
+		[179991] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Tyrant Velhari",
 		},
 		[180017] = {
 			["school"] = 32,
@@ -868,22 +870,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Furnace Engineer",
 		},
-		[190223] = {
+		[179582] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Fel Lord Zakuun",
+		},
+		[186883] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Xhul'horac",
-		},
-		[179991] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Tyrant Velhari",
+			["source"] = "Felfire Flamebelcher",
 		},
 		[158247] = {
 			["school"] = 1,
@@ -1068,12 +1068,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Heathen Guard",
 		},
-		[181192] = {
-			["school"] = 4,
+		[1604] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Dread Infernal",
+			["source"] = "Fel Orc Convert",
 		},
 		[30739] = {
 			["school"] = 1,
@@ -1116,13 +1117,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Grand Warlock Nethekurse",
 		},
-		[1604] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[181192] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Fel Orc Convert",
+			["source"] = "Dread Infernal",
 		},
 		[30508] = {
 			["school"] = 1,
@@ -1320,8 +1320,53 @@ EncounterDetailsDB = {
 	},
 	["emotes"] = {
 		{
-			["boss"] = "Slave Watcher Crushto",
+			{
+				0.1500000000014552, -- [1]
+				"Your foolish crusade ends here, mortals. The legion comes and with it this world breathes its dying breath!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				4.93300000000454, -- [1]
+				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				7.332999999998719, -- [1]
+				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				7.332999999998719, -- [1]
+				"Lok'tar ogar! They are pushed back! To the portal! Gul'dan is mine!", -- [2]
+				"Grommash Hellscream", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				7.332999999998719, -- [1]
+				"The light will not fail!", -- [2]
+				"Exarch Yrel", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				9.783000000003085, -- [1]
+				"I will shatter this pathetic world! Its broken husk will be torn apart in the twisting nether for all time!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				12.33400000000256, -- [1]
+				"I grow tired of this pointless game. You face the immortal Legion, scourge of a thousand worlds.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [7]
+			["boss"] = "Archimonde",
 		}, -- [1]
+		{
+			["boss"] = "Slave Watcher Crushto",
+		}, -- [2]
 		{
 			{
 				0.1, -- [1]
@@ -1384,51 +1429,6 @@ EncounterDetailsDB = {
 				7, -- [4]
 			}, -- [10]
 			["boss"] = "Hellfire High Council",
-		}, -- [2]
-		{
-			{
-				0.2340000000003784, -- [1]
-				"They are here. Hurry! Gul'dan demands we finish this...", -- [2]
-				"Fel Iron Summoner", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				20.45100000000002, -- [1]
-				"|cFFFF0000%s|r appears and begins to empower the Fel Spire!", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [2]
-			{
-				20.45100000000002, -- [1]
-				"Faithless fools. The Legion wills it; it will be done.", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				31.05000000000018, -- [1]
-				"Return Mannoroth... Yes, yes! Your masters call you to this world once more!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				41.61599999999999, -- [1]
-				"Fear not, Mannoroth. The fel gift empowers you... Make them suffer!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				43.18900000000031, -- [1]
-				"|cFFFF0000%s|r begins to empower the Fel Spire!", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [6]
-			{
-				50.36700000000019, -- [1]
-				"Wha- What is this? Gul'dan what have you done? I am... So weak...", -- [2]
-				"Mannoroth", -- [3]
-				7, -- [4]
-			}, -- [7]
-			["boss"] = "Mannoroth",
 		}, -- [3]
 	},
 }

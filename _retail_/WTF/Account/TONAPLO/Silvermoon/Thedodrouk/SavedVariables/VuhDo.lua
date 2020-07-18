@@ -1669,18 +1669,18 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["265662"] = {
-				["animate"] = true,
+			["282432"] = {
+				["animate"] = false,
 				["isColor"] = false,
 				["isOthers"] = true,
-				["isStacks"] = false,
+				["isStacks"] = true,
 				["isMine"] = true,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["307950"] = {
+			["265662"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isOthers"] = true,
@@ -1724,11 +1724,11 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["297586"] = {
-				["animate"] = false,
+			["284662"] = {
+				["animate"] = true,
 				["isColor"] = false,
 				["isOthers"] = true,
-				["isStacks"] = true,
+				["isStacks"] = false,
 				["isMine"] = true,
 				["isIcon"] = true,
 				["timer"] = true,
@@ -1768,7 +1768,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["297907"] = {
+			["297586"] = {
 				["animate"] = false,
 				["isColor"] = false,
 				["isOthers"] = true,
@@ -1779,11 +1779,11 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["284662"] = {
-				["animate"] = true,
+			["297907"] = {
+				["animate"] = false,
 				["isColor"] = false,
 				["isOthers"] = true,
-				["isStacks"] = false,
+				["isStacks"] = true,
 				["isMine"] = true,
 				["isIcon"] = true,
 				["timer"] = true,
@@ -1834,11 +1834,11 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["282432"] = {
-				["animate"] = false,
+			["307950"] = {
+				["animate"] = true,
 				["isColor"] = false,
 				["isOthers"] = true,
-				["isStacks"] = true,
+				["isStacks"] = false,
 				["isMine"] = true,
 				["isIcon"] = true,
 				["timer"] = true,
@@ -2215,6 +2215,8 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
+			["sort"] = 0,
+			["ordering"] = 0,
 			["groups"] = {
 				1, -- [1]
 				2, -- [2]
@@ -2225,8 +2227,6 @@ VUHDO_PANEL_SETUP = {
 				7, -- [7]
 				8, -- [8]
 			},
-			["sort"] = 0,
-			["ordering"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -5081,9 +5081,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -5091,9 +5091,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -5146,9 +5146,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -5175,9 +5175,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -5185,9 +5185,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -5240,9 +5240,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -5289,14 +5289,14 @@ VUHDO_SPEC_LAYOUTS = {
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
 	["player"] = {
-		["zone"] = "Gorgrond",
+		["zone"] = "Lunarfall",
 		["baseRange"] = true,
 		["class"] = "MAGE",
 		["role"] = 62,
-		["sortMaxHp"] = 211320,
-		["map"] = "Gorgrond",
+		["sortMaxHp"] = 219620,
+		["map"] = "Lunarfall",
 		["threat"] = 0,
-		["powermax"] = 128700,
+		["powermax"] = 128733,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "Thedodrouk",
@@ -5307,15 +5307,15 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["powertype"] = 0,
-		["healthmax"] = 211320,
+		["healthmax"] = 219620,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "Thedodrouk",
-		["power"] = 128700,
+		["power"] = 128733,
 		["aggro"] = false,
 		["visible"] = true,
 		["targetUnit"] = "target",
-		["health"] = 211320,
+		["health"] = 219620,
 		["className"] = "Mage",
 		["afk"] = false,
 		["debuff"] = 0,
@@ -5329,16 +5329,16 @@ VUHDO_INDICATOR_CONFIG = {
 		["MOUSEOVER_HIGHLIGHT"] = "",
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "Background: Red",
-		["CLUSTER_BORDER"] = "Important Debuffs",
-		["SWIFTMEND_INDICATOR"] = "Summon Status Icon",
-		["INCOMING_BAR"] = "",
 		["DAMAGE_FLASH_BAR"] = "",
+		["SIDE_LEFT"] = "",
+		["INCOMING_BAR"] = "",
+		["CLUSTER_BORDER"] = "Important Debuffs",
 		["THREAT_MARK"] = "",
-		["MANA_BAR"] = "Manabars: Mana (Healer Only)",
 		["BAR_BORDER"] = "Border: Multi + Aggro",
 		["SIDE_RIGHT"] = "",
+		["MANA_BAR"] = "Manabars: Mana (Healer Only)",
 		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
-		["SIDE_LEFT"] = "",
+		["SWIFTMEND_INDICATOR"] = "Summon Status Icon",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]

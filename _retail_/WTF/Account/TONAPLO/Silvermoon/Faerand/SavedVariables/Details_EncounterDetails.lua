@@ -2,8 +2,47 @@
 EncounterDetailsDB = {
 	["emotes"] = {
 		{
-			["boss"] = "Slave Watcher Crushto",
+			{
+				0.184000000001106, -- [1]
+				"Your foolish crusade ends here, mortals. The legion comes and with it this world breathes its dying breath!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				2.325000000004366, -- [1]
+				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				2.325000000004366, -- [1]
+				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				2.325000000004366, -- [1]
+				"The light will not fail!", -- [2]
+				"Exarch Yrel", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				4.867000000005646, -- [1]
+				"Lok'tar ogar! They are pushed back! To the portal! Gul'dan is mine!", -- [2]
+				"Grommash Hellscream", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				4.867000000005646, -- [1]
+				"I will shatter this pathetic world! Its broken husk will be torn apart in the twisting nether for all time!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [6]
+			["boss"] = "Archimonde",
 		}, -- [1]
+		{
+			["boss"] = "Slave Watcher Crushto",
+		}, -- [2]
 		{
 			{
 				0.1, -- [1]
@@ -66,51 +105,6 @@ EncounterDetailsDB = {
 				7, -- [4]
 			}, -- [10]
 			["boss"] = "Hellfire High Council",
-		}, -- [2]
-		{
-			{
-				0.1, -- [1]
-				"They are here. Hurry! Gul'dan demands we finish this...", -- [2]
-				"Fel Iron Summoner", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				16.4670000000001, -- [1]
-				"|cFFFF0000%s|r appears and begins to empower the Fel Spire!", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [2]
-			{
-				16.4670000000001, -- [1]
-				"Faithless fools. The Legion wills it; it will be done.", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				26.11699999999996, -- [1]
-				"Return Mannoroth... Yes, yes! Your masters call you to this world once more!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				38.66699999999992, -- [1]
-				"Fear not, Mannoroth. The fel gift empowers you... Make them suffer!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				40.65000000000009, -- [1]
-				"|cFFFF0000%s|r begins to empower the Fel Spire!", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [6]
-			{
-				42.26600000000008, -- [1]
-				"These mortals cannot be this strong. Gul'dan, do something!", -- [2]
-				"Mannoroth", -- [3]
-				7, -- [4]
-			}, -- [7]
-			["boss"] = "Mannoroth",
 		}, -- [3]
 	},
 	["encounter_spells"] = {
@@ -175,6 +169,7 @@ EncounterDetailsDB = {
 		[182225] = {
 			["school"] = 4,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Archimonde",
@@ -271,6 +266,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Fel Lord Zakuun",
+		},
+		[187107] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Archimonde",
 		},
 		[181912] = {
 			["school"] = 1,

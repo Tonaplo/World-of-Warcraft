@@ -184,15 +184,6 @@ AngryAssign_Categories = {
 	},
 }
 AngryAssign_State = {
-	["directionUp"] = true,
-	["display"] = {
-		["y"] = 256.9613647460938,
-		["x"] = -2.9989013671875,
-		["point"] = "BOTTOMRIGHT",
-		["scale"] = 1,
-		["hidden"] = true,
-		["width"] = 472.3762817382813,
-	},
 	["tree"] = {
 		["groups"] = {
 			["-24970565932323582815"] = true,
@@ -256,14 +247,14 @@ AngryAssign_State = {
 			["-2160435338-1704423869368684347"] = true,
 			["1551745919"] = true,
 			["66201454"] = true,
-			["-2497056593"] = true,
+			["-2160435338-286004399"] = true,
 			["33666399"] = true,
 			["397328248"] = true,
 			["-216043533820180740"] = true,
 			["-27454250503530526082"] = true,
 			["-2160435338-17044238693602934933"] = true,
 			["2915927274"] = true,
-			["-2160435338-286004399"] = true,
+			["-2497056593"] = true,
 			["4178968441"] = true,
 			["3068560029"] = true,
 			["-2160435338-17044238693165416452"] = true,
@@ -275,18 +266,27 @@ AngryAssign_State = {
 			["2305002918"] = true,
 		},
 		["scrollvalue"] = 0,
-		["treesizable"] = true,
 		["selected"] = "-2160435338-24970565933563313419",
+		["treesizable"] = true,
 		["treewidth"] = 175,
 		["fullwidth"] = 746.0001220703125,
 	},
-	["locked"] = true,
+	["display"] = {
+		["y"] = 256.9613647460938,
+		["x"] = -2.9989013671875,
+		["point"] = "BOTTOMRIGHT",
+		["scale"] = 1,
+		["hidden"] = true,
+		["width"] = 472.3762817382813,
+	},
 	["window"] = {
 		["height"] = 535.0000610351562,
 		["top"] = 1034.42041015625,
 		["left"] = 0,
 		["width"] = 780.0000610351562,
 	},
+	["locked"] = true,
+	["directionUp"] = true,
 }
 AngryAssign_Config = {
 	["backdropColor"] = "000000ff",

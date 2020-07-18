@@ -98,6 +98,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bellows Operator",
 		},
+		[155196] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Unknown",
+		},
 		[183023] = {
 			["school"] = 1,
 			["token"] = {
@@ -120,6 +129,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Siegemaster Mar'tak",
+		},
+		[186562] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Dreadstalker",
 		},
 		[179582] = {
 			["school"] = 1,
@@ -194,6 +210,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hulking Berserker",
 		},
+		[176141] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Unknown",
+		},
 		[186883] = {
 			["school"] = 4,
 			["token"] = {
@@ -201,6 +226,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Felfire Flamebelcher",
+		},
+		[155200] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Slag Elemental",
 		},
 		[170405] = {
 			["school"] = 1,
@@ -413,6 +446,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Oregorger",
 		},
+		[173790] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Stubborn Ironhoof",
+		},
 		[190397] = {
 			["school"] = 32,
 			["token"] = {
@@ -436,6 +477,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Tectus",
+		},
+		[155176] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Primal Elementalist",
 		},
 		[190398] = {
 			["school"] = 32,
@@ -579,6 +629,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bellows Operator",
 		},
+		[155213] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Slag Elemental",
+		},
 		[185590] = {
 			["school"] = 4,
 			["token"] = {
@@ -587,6 +646,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archimonde",
 		},
+		[155233] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Slag Elemental",
+		},
+		[156902] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Heart of the Mountain",
+		},
+		[175593] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Forgemistress Flamehand",
+		},
 		[182212] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -594,6 +678,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Fel Iron Summoner",
+		},
+		[162322] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Gruul",
 		},
 		[181191] = {
 			["school"] = 4,
@@ -604,14 +697,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dread Infernal",
 		},
-		[162322] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[187052] = {
+			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Gruul",
+			["source"] = "Contracted Engineer",
 		},
 		[155080] = {
 			["school"] = 4,
@@ -623,22 +716,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gruul",
 		},
-		[187052] = {
-			["school"] = 8,
+		[158078] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Contracted Engineer",
+			["source"] = "Marak the Blooded",
 		},
-		[175593] = {
+		[159336] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Forgemistress Flamehand",
+			["source"] = "Marak the Blooded",
 		},
 		[184476] = {
 			["school"] = 32,
@@ -648,38 +740,35 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dia Darkwhisper",
 		},
-		[170395] = {
-			["school"] = 1,
+		[155201] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Furnace Engineer",
+		},
+		[185282] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Iron Reaver",
+		},
+		[188886] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Felfire Artillery",
+		},
+		[186134] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Enforcer Sorka",
-		},
-		[158078] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Marak the Blooded",
-		},
-		[156039] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Aknor Steelbringer",
-		},
-		[160379] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Security Guard",
+			["source"] = "Xhul'horac",
 		},
 		[181831] = {
 			["school"] = 1,
@@ -688,16 +777,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Shadowfel Warden",
-		},
-		[155794] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Enforcer Sorka",
 		},
 		[175981] = {
 			["school"] = 4,
@@ -708,37 +787,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Iron Slag-Shaper",
 		},
-		[179583] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Fel Lord Zakuun",
-		},
-		[188886] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Felfire Artillery",
-		},
-		[181957] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Shadow-Lord Iskar",
-		},
-		[179218] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Corrupted Talonpriest",
-		},
 		[162658] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -747,13 +795,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Shard of Tectus",
-		},
-		[181832] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Shadowfel Warden",
 		},
 		[184473] = {
 			["school"] = 32,
@@ -771,12 +812,59 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gorebound Felcaster",
 		},
-		[181227] = {
+		[185090] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Siegemaster Mar'tak",
+		},
+		[179218] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Corrupted Talonpriest",
+		},
+		[180000] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Tyrant Velhari",
+		},
+		[181832] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ancient Sovereign",
+			["source"] = "Shadowfel Warden",
+		},
+		[189897] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[184472] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
+		[182280] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Iron Reaver",
 		},
 		[155185] = {
 			["school"] = 1,
@@ -787,13 +875,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Primal Elementalist",
 		},
-		[189897] = {
-			["school"] = 4,
+		[181227] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Archimonde",
+			["source"] = "Ancient Sovereign",
 		},
 		[179219] = {
 			["school"] = 4,
@@ -854,6 +941,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shadow-Lord Iskar",
 		},
+		[170395] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Enforcer Sorka",
+		},
+		[165195] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Operator Thogar",
+		},
 		[190727] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -864,29 +967,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archimonde",
 		},
-		[182280] = {
+		[181957] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Iron Reaver",
-		},
-		[160382] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Security Guard",
-		},
-		[159336] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Marak the Blooded",
+			["source"] = "Shadow-Lord Iskar",
 		},
 		[174726] = {
 			["school"] = 1,
@@ -903,26 +990,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archimonde",
 		},
-		[184472] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-		},
-		[185282] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Iron Reaver",
-		},
 		[159585] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Admiral Gar'an",
+		},
+		[179743] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Fel Lord Zakuun",
+		},
+		[160382] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Security Guard",
 		},
 		[179986] = {
 			["school"] = 1,
@@ -933,20 +1022,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tyrant Velhari",
 		},
-		[179743] = {
+		[186045] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Delusional Zealot",
+		},
+		[160734] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Fel Lord Zakuun",
-		},
-		[188888] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Felfire Flamebelcher",
+			["source"] = "Ko'ragh",
 		},
 		[180082] = {
 			["school"] = 4,
@@ -972,15 +1063,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Operator Thogar",
 		},
-		[160734] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ko'ragh",
-		},
 		[175745] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -988,6 +1070,16 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Night-Twisted Brute",
+		},
+		[155794] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Enforcer Sorka",
 		},
 		[179987] = {
 			["school"] = 1,
@@ -1013,13 +1105,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bellows Operator",
 		},
-		[185090] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[188888] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Siegemaster Mar'tak",
+			["source"] = "Felfire Flamebelcher",
 		},
 		[184847] = {
 			["school"] = 8,
@@ -1104,13 +1195,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archimonde",
 		},
-		[186045] = {
-			["school"] = 1,
+		[180945] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Delusional Zealot",
+			["source"] = "Felfire Demolisher",
+		},
+		[179583] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Fel Lord Zakuun",
 		},
 		[182178] = {
 			["school"] = 1,
@@ -1120,14 +1219,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Shadow-Lord Iskar",
-		},
-		[180945] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Felfire Demolisher",
 		},
 		[180021] = {
 			["school"] = 8,
@@ -1176,13 +1267,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Greater Void Aberration",
 		},
-		[180000] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[176133] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Tyrant Velhari",
+			["source"] = "Slag Elemental",
 		},
 		[158315] = {
 			["school"] = 1,
@@ -1228,13 +1319,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tyrant Velhari",
 		},
-		[155201] = {
-			["school"] = 8,
+		[160379] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Furnace Engineer",
+			["source"] = "Security Guard",
 		},
 		[155192] = {
 			["school"] = 1,
@@ -1279,13 +1372,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Phemos",
 		},
-		[186134] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[156039] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Xhul'horac",
+			["source"] = "Aknor Steelbringer",
 		},
 		[180199] = {
 			["school"] = 1,
@@ -1329,138 +1421,372 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
-				0.2240000000001601, -- [1]
-				"Your foolish crusade ends here, mortals. The legion comes and with it this world breathes its dying breath!", -- [2]
-				"Archimonde", -- [3]
+				0.2000000000007276, -- [1]
+				"I'll burn you alive, even if I have to flood the whole foundry...", -- [2]
+				"Blackhand", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				6.048999999999978, -- [1]
-				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
-				"Archimonde", -- [3]
+				7.5, -- [1]
+				"Everyone DOWN.", -- [2]
+				"Blackhand", -- [3]
+				7, -- [4]
+			}, -- [2]
+			["boss"] = "Blackhand",
+		}, -- [1]
+		{
+			{
+				0.1999999999989086, -- [1]
+				"Protect the furnace at all costs!", -- [2]
+				"Foreman Feldspar", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				2.867000000000189, -- [1]
+				"awww...aaaaggg...", -- [2]
+				"Foreman Feldspar", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				15.7489999999998, -- [1]
-				"The light will not fail!", -- [2]
-				"Exarch Yrel", -- [3]
-				7, -- [4]
+				5.483999999998559, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
 			}, -- [3]
 			{
-				16.14900000000034, -- [1]
-				"|TINTERFACE\\ICONS\\ability_fixated_state_red.blp:20|t A Doomfire Spirit is |cFFF00000|Hspell:182879|h[Fixated]|h|r on you!", -- [2]
+				19.3169999999991, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
 				"Thedodrouk", -- [3]
 				2, -- [4]
 			}, -- [4]
 			{
-				20.66600000000017, -- [1]
-				"I grow tired of this pointless game. You face the immortal Legion, scourge of a thousand worlds.", -- [2]
-				"Archimonde", -- [3]
-				7, -- [4]
+				19.63400000000002, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
 			}, -- [5]
 			{
-				21.04899999999998, -- [1]
-				"Light protect us from this atrocity! Grant us your strength to banish this evil!", -- [2]
-				"Exarch Yrel", -- [3]
-				7, -- [4]
+				19.94099999999889, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
 			}, -- [6]
 			{
-				21.82400000000052, -- [1]
-				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
-				"Archimonde", -- [3]
-				7, -- [4]
+				21.09999999999855, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
 			}, -- [7]
 			{
-				23.46000000000004, -- [1]
-				"You have foolishly rushed to your end. The Black Gate is whole!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
+				21.7510000000002, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
 			}, -- [8]
 			{
-				31.60000000000036, -- [1]
-				"I am the defiler! Lord of the Burning Legion! This world will feel my wrath and burn!", -- [2]
-				"Archimonde", -- [3]
-				7, -- [4]
+				22.46699999999873, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
 			}, -- [9]
 			{
-				32.84900000000016, -- [1]
-				"This world will not fall so easily, demon. Its people will not give up without a fight. Our will is unbreakable! For Draenor!", -- [2]
-				"Grommash Hellscream", -- [3]
-				7, -- [4]
+				43.66699999999946, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
 			}, -- [10]
 			{
-				40.46600000000035, -- [1]
-				"Behold the might of the legion!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
+				45.29999999999927, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
 			}, -- [11]
-			["boss"] = "Archimonde",
-		}, -- [1]
-		{
 			{
-				1.800999999999476, -- [1]
-				"The final hour is at hand, the master comes! This is your purpose, summoners. Mannoroth will be whole again!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [1]
+				46.78299999999945, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [12]
 			{
-				15.15099999999984, -- [1]
-				"Wha- What is this? Gul'dan what have you done? I am... So weak...", -- [2]
-				"Mannoroth", -- [3]
-				7, -- [4]
-			}, -- [2]
+				51.33399999999892, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [13]
 			{
-				21.16799999999967, -- [1]
-				"|TInterface\\Icons\\warlock_summon_doomguard.blp:20|t|cFFFF0000Thedodrouk|r has been afflicted with |cFFFF0000|Hspell:181275|h[Curse of the Legion]|h|r!", -- [2]
-				"Demon Portal", -- [3]
+				51.59999999999855, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [14]
+			{
+				51.93299999999908, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [15]
+			{
+				78.61599999999999, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [16]
+			{
+				79.58399999999892, -- [1]
+				"|TInterface\\Icons\\spell_shaman_improvedfirenova.blp:20|tThe frequency of the Heart of the Mountain's |cFFFF0000|Hspell:155209|h[Blast]|h|r has been increased!", -- [2]
+				"Heart of the Mountain", -- [3]
 				1, -- [4]
-			}, -- [3]
+			}, -- [17]
 			{
-				23.66599999999926, -- [1]
-				"Fear not, Mannoroth. The fel gift empowers you... Make them suffer!", -- [2]
-				"Gul'dan", -- [3]
+				79.58399999999892, -- [1]
+				"My flames will lick the flesh from your bones!", -- [2]
+				"Heart of the Mountain", -- [3]
 				7, -- [4]
-			}, -- [4]
+			}, -- [18]
 			{
-				25.66699999999946, -- [1]
-				"|cFFFF0000%s|r begins to empower the Fel Spire!", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [5]
+				79.58399999999892, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [19]
 			{
-				33.00099999999929, -- [1]
-				"|TInterface\\Icons\\warlock_curse_shadow_aura:20|t%s begins to cast |cFFFF0000|Hspell:186348|h[Wrath of Gul'dan]|h|r!", -- [2]
-				"Gul'dan", -- [3]
+				82.8159999999989, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [20]
+			{
+				89.47499999999854, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [21]
+			{
+				91.46599999999853, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [22]
+			{
+				93.51599999999962, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [23]
+			{
+				110.7829999999995, -- [1]
+				"|TInterface\\Icons\\spell_shaman_improvedfirenova.blp:20|tThe frequency of the Heart of the Mountain's |cFFFF0000|Hspell:155209|h[Blast]|h|r has been increased!", -- [2]
+				"Heart of the Mountain", -- [3]
 				1, -- [4]
-			}, -- [6]
-			["boss"] = "Mannoroth",
+			}, -- [24]
+			{
+				110.7829999999995, -- [1]
+				"My flames will lick the flesh from your bones!", -- [2]
+				"Heart of the Mountain", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				115.0829999999987, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [26]
+			{
+				116.1829999999991, -- [1]
+				"Furnace pressure is out of control - the Heart of the Mountain starts gaining more heat!", -- [2]
+				"Heart of the Mountain", -- [3]
+				1, -- [4]
+			}, -- [27]
+			{
+				119.7989999999991, -- [1]
+				"|TInterface\\Icons\\spell_shaman_improvedfirenova.blp:20|tThe frequency of the Heart of the Mountain's |cFFFF0000|Hspell:155209|h[Blast]|h|r has been increased!", -- [2]
+				"Heart of the Mountain", -- [3]
+				1, -- [4]
+			}, -- [28]
+			{
+				121.3199999999997, -- [1]
+				"The machinery is damaged. Keep those scum from sabotaging the furnace!", -- [2]
+				"Blackhand", -- [3]
+				7, -- [4]
+			}, -- [29]
+			{
+				129.6489999999994, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [30]
+			{
+				132.2159999999985, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [31]
+			{
+				132.5159999999996, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [32]
+			{
+				132.8329999999987, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [33]
+			{
+				134.75, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [34]
+			{
+				135.2829999999995, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [35]
+			{
+				135.5319999999992, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [36]
+			{
+				151.366, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [37]
+			{
+				151.8490000000002, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [38]
+			{
+				152.2150000000002, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [39]
+			{
+				157.2860000000001, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [40]
+			{
+				159.0329999999995, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [41]
+			{
+				159.7159999999985, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [42]
+			{
+				160.2649999999994, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [43]
+			{
+				183.8230000000003, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [44]
+			{
+				184.4489999999987, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [45]
+			{
+				184.6980000000003, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [46]
+			{
+				192.5819999999985, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [47]
+			{
+				195.6319999999996, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [48]
+			{
+				196.0149999999994, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [49]
+			{
+				196.232, -- [1]
+				"The furnace is overheating! Fools, if the Fury breaks free, our work will be ruined!", -- [2]
+				"Blackhand", -- [3]
+				7, -- [4]
+			}, -- [50]
+			{
+				196.232, -- [1]
+				"|TInterface\\Icons\\spell_sandexplosion.blp:20|tYou have a |cFFFF0000|Hspell:155187|h[Bomb]|h|r on you!", -- [2]
+				"Thedodrouk", -- [3]
+				2, -- [4]
+			}, -- [51]
+			{
+				207.348, -- [1]
+				"The Fury has broken free!", -- [2]
+				"Primal Elementalist", -- [3]
+				7, -- [4]
+			}, -- [52]
+			{
+				212.2989999999991, -- [1]
+				"Quick, get it under control!", -- [2]
+				"Primal Elementalist", -- [3]
+				7, -- [4]
+			}, -- [53]
+			{
+				217.0329999999995, -- [1]
+				"Warlord, we have it under control.", -- [2]
+				"Primal Elementalist", -- [3]
+				7, -- [4]
+			}, -- [54]
+			{
+				235.3819999999996, -- [1]
+				"It... is free. Warlord, we have failed...", -- [2]
+				"Primal Elementalist", -- [3]
+				7, -- [4]
+			}, -- [55]
+			{
+				246.2489999999998, -- [1]
+				"A small victory, but now you will perish in the flame that burns at the heart of Blackrock!", -- [2]
+				"Blackhand", -- [3]
+				7, -- [4]
+			}, -- [56]
+			{
+				246.2489999999998, -- [1]
+				"Freeeedommmmm!", -- [2]
+				"Heart of the Mountain", -- [3]
+				7, -- [4]
+			}, -- [57]
+			["boss"] = "Blast Furnace",
 		}, -- [2]
 		{
 			{
-				0.1669999999994616, -- [1]
-				"No matter how it all ends, you will die here.", -- [2]
-				"Xhul'horac", -- [3]
+				0.2159999999985303, -- [1]
+				"Hahahaha, Gruul kill you so easy!", -- [2]
+				"Gruul", -- [3]
 				7, -- [4]
 			}, -- [1]
-			{
-				2.61699999999928, -- [1]
-				"These gaps in reality... I must tear them wider!", -- [2]
-				"Xhul'horac", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				3.817000000000007, -- [1]
-				"LEGION! Destroy all who stand before you!", -- [2]
-				"Xhul'horac", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				5.033999999999651, -- [1]
-				"All will be swallowed! No life shall remain!", -- [2]
-				"Xhul'horac", -- [3]
-				7, -- [4]
-			}, -- [4]
-			["boss"] = "Xhul'horac",
+			["boss"] = "Gruul",
 		}, -- [3]
 	},
 }
