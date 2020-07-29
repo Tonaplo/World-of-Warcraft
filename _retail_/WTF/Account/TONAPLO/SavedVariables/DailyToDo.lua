@@ -6,16 +6,15 @@ DailyToDoDB = {
 	},
 	["profiles"] = {
 		["Mallusof - Silvermoon"] = {
-			["timestamp"] = 20200717090000,
+			["dailyResetTime"] = 10,
 			["hideCompleted"] = true,
 			["lists"] = {
 				{
 					["completed"] = false,
 					["name"] = "(FUN) Dailies",
-					["expanded"] = false,
 					["entries"] = {
 						{
-							["completed"] = false,
+							["completed"] = true,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "(DO) Jade Forest Dragon dailies for Cloudserpent Mount",
@@ -111,7 +110,7 @@ DailyToDoDB = {
 							["weekly"] = false,
 						}, -- [6]
 						{
-							["completed"] = false,
+							["completed"] = true,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "(CHECK) Stormsong Valley for Sabertron WQ",
@@ -127,7 +126,7 @@ DailyToDoDB = {
 							["weekly"] = false,
 						}, -- [7]
 						{
-							["completed"] = false,
+							["completed"] = true,
 							["checked"] = true,
 							["weekly"] = false,
 							["text"] = "(CHECK) Mac'Aree for Sabuul for Fel-spotted Egg",
@@ -143,7 +142,7 @@ DailyToDoDB = {
 							["manual"] = false,
 						}, -- [8]
 						{
-							["completed"] = false,
+							["completed"] = true,
 							["checked"] = true,
 							["weekly"] = false,
 							["text"] = "(CHECK) Krokuun for Naroua for Fel-spotted Egg",
@@ -159,7 +158,7 @@ DailyToDoDB = {
 							["manual"] = false,
 						}, -- [9]
 						{
-							["completed"] = false,
+							["completed"] = true,
 							["checked"] = true,
 							["weekly"] = false,
 							["text"] = "(CHECK) Antoran Wastes for Varga for Fel-spotted Egg",
@@ -182,7 +181,7 @@ DailyToDoDB = {
 					["name"] = "(FUN) Weeklies",
 					["entries"] = {
 						{
-							["completed"] = true,
+							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "(RAID) Clear ICC for Transmog",
@@ -214,7 +213,7 @@ DailyToDoDB = {
 							["weekly"] = true,
 						}, -- [2]
 						{
-							["completed"] = true,
+							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "(RAID) Clear Dragon Soul for Mounts and Transmog",
@@ -571,7 +570,7 @@ DailyToDoDB = {
 							["weekly"] = true,
 						}, -- [1]
 						{
-							["completed"] = true,
+							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "(WEEKLY) Clear Main N'Zoth Assault",
@@ -587,7 +586,7 @@ DailyToDoDB = {
 							["weekly"] = true,
 						}, -- [2]
 						{
-							["completed"] = true,
+							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "(WEEKLY) Islands",
@@ -603,7 +602,7 @@ DailyToDoDB = {
 							["weekly"] = true,
 						}, -- [3]
 						{
-							["completed"] = true,
+							["completed"] = false,
 							["checked"] = true,
 							["manual"] = false,
 							["text"] = "(WEEKLY) Horrific Vision for Malefic Core",
@@ -624,22 +623,27 @@ DailyToDoDB = {
 			["weeklyResetDay"] = 4,
 			["framePosition"] = {
 				["anchor"] = "TOP",
-				["x"] = 397.0026550292969,
-				["y"] = -142.0001678466797,
+				["x"] = 329.0028076171875,
+				["y"] = -113.0002365112305,
 			},
-			["dailyResetTime"] = 10,
+			["timestamp"] = 20200729090000,
 			["icon"] = {
 				["minimapPos"] = 243.2654785468459,
 				["hide"] = true,
 			},
 		},
 		["Burdett - Silvermoon"] = {
+			["lists"] = {
+				{
+					["completed"] = true,
+				}, -- [1]
+			},
+			["timestamp"] = 20200728000000,
 			["framePosition"] = {
 				["y"] = -247.0004119873047,
 				["x"] = -229.0005035400391,
 				["anchor"] = "TOPRIGHT",
 			},
-			["timestamp"] = 20200714000000,
 		},
 	},
 }

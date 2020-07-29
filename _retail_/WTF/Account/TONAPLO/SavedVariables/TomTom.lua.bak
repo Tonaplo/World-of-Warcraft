@@ -99,11 +99,19 @@ TomTomWaypointsM = {
 		["Mogfarmer - Silvermoon"] = {
 		},
 		["Mallusof - Silvermoon"] = {
-			[535] = {
-				["535:804000000:560000000:Silthide"] = {
-					535, -- [1]
-					0.804, -- [2]
-					0.56, -- [3]
+			[1470] = {
+				["1470:524000000:834000000:In Transition House Behind Counter"] = {
+					1470, -- [1]
+					0.524, -- [2]
+					0.8340000000000001, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "In Transition House Behind Counter",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "In Transition House Behind Counter",
+					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -121,24 +129,237 @@ TomTomWaypointsM = {
 						},
 					},
 					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Silthide",
-					["from"] = "?",
-					["worldmap_displayID"] = 61216,
-					["desc"] = "Silthide",
-					["minimap_displayID"] = 61216,
 					["world"] = true,
 				},
-				["535:620000000:332000000:Silthide"] = {
-					535, -- [1]
+				["1470:474000000:816000000:In Transition House Behind Counter"] = {
+					1470, -- [1]
+					0.474, -- [2]
+					0.816, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "In Transition House Behind Counter",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "In Transition House Behind Counter",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:584000000:551000000:On Top of a Hill"] = {
+					1470, -- [1]
+					0.584, -- [2]
+					0.551, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "On Top of a Hill",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "On Top of a Hill",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:746000000:592000000:Middle Area Behind Boxes"] = {
+					1470, -- [1]
+					0.746, -- [2]
+					0.5920000000000001, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Middle Area Behind Boxes",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Middle Area Behind Boxes",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:690000000:731000000:Behind Inquisitor, Left of Stairs"] = {
+					1470, -- [1]
+					0.69, -- [2]
+					0.731, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Behind Inquisitor, Left of Stairs",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Behind Inquisitor, Left of Stairs",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:756000000:534000000:Bar, Upper Level"] = {
+					1470, -- [1]
+					0.7559999999999999, -- [2]
+					0.534, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Bar, Upper Level",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Bar, Upper Level",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:765000000:685000000:Behind Stables by Shaw"] = {
+					1470, -- [1]
+					0.765, -- [2]
+					0.685, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Behind Stables by Shaw",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Behind Stables by Shaw",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:673000000:447000000:Beside Boss Forge"] = {
+					1470, -- [1]
+					0.6729999999999999, -- [2]
+					0.447, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Beside Boss Forge",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Beside Boss Forge",
+					["from"] = "Exality_Aura/OddCrystal",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1470:620000000:769000000:Behind Mail Muncher Mailbox"] = {
+					1470, -- [1]
 					0.62, -- [2]
-					0.332, -- [3]
+					0.769, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Behind Mail Muncher Mailbox",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Behind Mail Muncher Mailbox",
+					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -156,25 +377,20 @@ TomTomWaypointsM = {
 						},
 					},
 					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Silthide",
-					["from"] = "?",
-					["worldmap_displayID"] = 61216,
-					["desc"] = "Silthide",
-					["minimap_displayID"] = 61216,
 					["world"] = true,
 				},
-				["535:468000000:310000000:Sargerei War Council"] = {
-					535, -- [1]
-					0.468, -- [2]
-					0.31, -- [3]
+				["1470:646000000:309000000:Corner Behind Boxes"] = {
+					1470, -- [1]
+					0.6459999999999999, -- [2]
+					0.309, -- [3]
 					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Corner Behind Boxes",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Corner Behind Boxes",
+					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -191,22 +407,21 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Sargerei War Council",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Sargerei War Council",
-					["from"] = "?",
 					["minimap"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["world"] = true,
 				},
-				["535:314000000:476000000:Orumo the Observer"] = {
-					535, -- [1]
-					0.314, -- [2]
-					0.476, -- [3]
+				["1470:477000000:894000000:On Platform Above Upper Walkway"] = {
+					1470, -- [1]
+					0.477, -- [2]
+					0.894, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "On Platform Above Upper Walkway",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "On Platform Above Upper Walkway",
+					["from"] = "Exality_Aura/OddCrystal",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -224,240 +439,14 @@ TomTomWaypointsM = {
 						},
 					},
 					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Orumo the Observer",
-					["from"] = "?",
-					["worldmap_displayID"] = 60429,
-					["desc"] = "Orumo the Observer",
-					["minimap_displayID"] = 60429,
-					["world"] = true,
-				},
-				["535:336000000:378000000:Lady Demlash\nShadow Council"] = {
-					535, -- [1]
-					0.336, -- [2]
-					0.378, -- [3]
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Lady Demlash\nShadow Council",
-					["from"] = "?",
-					["worldmap_displayID"] = 60856,
-					["desc"] = "Lady Demlash\nShadow Council",
-					["minimap_displayID"] = 60856,
-					["world"] = true,
-				},
-				["535:438000000:264000000:Sargerei War Council"] = {
-					535, -- [1]
-					0.4379999999999999, -- [2]
-					0.264, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Sargerei War Council",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Sargerei War Council",
-					["from"] = "?",
-					["minimap"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["world"] = true,
-				},
-				["535:374000000:376000000:Kurlosh Doomfang\nShadow Council"] = {
-					535, -- [1]
-					0.374, -- [2]
-					0.376, -- [3]
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Kurlosh Doomfang\nShadow Council",
-					["from"] = "?",
-					["worldmap_displayID"] = 57440,
-					["desc"] = "Kurlosh Doomfang\nShadow Council",
-					["minimap_displayID"] = 57440,
-					["world"] = true,
-				},
-				["535:458000000:278000000:Sargerei War Council"] = {
-					535, -- [1]
-					0.458, -- [2]
-					0.278, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Sargerei War Council",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Sargerei War Council",
-					["from"] = "?",
-					["minimap"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["world"] = true,
-				},
-				["535:626000000:460000000:Silthide"] = {
-					535, -- [1]
-					0.626, -- [2]
-					0.46, -- [3]
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Silthide",
-					["from"] = "?",
-					["worldmap_displayID"] = 61216,
-					["desc"] = "Silthide",
-					["minimap_displayID"] = 61216,
-					["world"] = true,
-				},
-				["535:674000000:598000000:Silthide"] = {
-					535, -- [1]
-					0.674, -- [2]
-					0.598, -- [3]
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Silthide",
-					["from"] = "?",
-					["worldmap_displayID"] = 61216,
-					["desc"] = "Silthide",
-					["minimap_displayID"] = 61216,
 					["world"] = true,
 				},
 			},
-			[433] = {
-				["433:550000000:160000000:The Defiant (Look at map: big round room vith water)"] = {
-					433, -- [1]
-					0.55, -- [2]
-					0.16, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "The Defiant (Look at map: big round room vith water)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "The Defiant (Look at map: big round room vith water)",
-					["from"] = "TomTom/way",
+			[71] = {
+				["71:424000000:716000000:Otela\nTime-Lost Baubles"] = {
+					71, -- [1]
+					0.424, -- [2]
+					0.716, -- [3]
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -475,68 +464,18 @@ TomTomWaypointsM = {
 						},
 					},
 					["minimap"] = true,
-					["world"] = true,
-				},
-				["433:749300000:764800000:The Hammer of Folly"] = {
-					433, -- [1]
-					0.7493000000000001, -- [2]
-					0.7648, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
+					["worldmap_displayID"] = 92567,
 					["persistent"] = true,
-					["desc"] = "The Hammer of Folly",
+					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
 					["silent"] = true,
 					["cleardistance"] = 10,
-					["title"] = "The Hammer of Folly",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["433:545000000:719000000:Forgotten Lockbox"] = {
-					433, -- [1]
-					0.545, -- [2]
-					0.7190000000000001, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Forgotten Lockbox",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Forgotten Lockbox",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
+					["title"] = "Otela\nTime-Lost Baubles",
+					["from"] = "?",
+					["minimap_displayID"] = 92567,
+					["desc"] = "Otela\nTime-Lost Baubles",
+					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
 					["world"] = true,
 				},
 			},
@@ -976,1541 +915,6 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
-			[371] = {
-				["371:470589023.39682:647060458.45092:TomTom waypoint"] = {
-					371, -- [1]
-					0.4705890233968235, -- [2]
-					0.6470604584509224, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "TomTom waypoint",
-					["from"] = "TomTom/wm",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["371:319000000:278000000:Lucky Pandaren Coin (95g grey item, in fountain)"] = {
-					371, -- [1]
-					0.319, -- [2]
-					0.278, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Lucky Pandaren Coin (95g grey item, in fountain)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Lucky Pandaren Coin (95g grey item, in fountain)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["371:262000000:324000000:Ancient Pandaren Tea Pot (100g grey item, on table)"] = {
-					371, -- [1]
-					0.262, -- [2]
-					0.324, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Ancient Pandaren Tea Pot (100g grey item, on table)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Ancient Pandaren Tea Pot (100g grey item, on table)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["371:240000000:530000000:Chest of Supplies (10g, bottom of waterfall near overturned boat)"] = {
-					371, -- [1]
-					0.24, -- [2]
-					0.53, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Chest of Supplies (10g, bottom of waterfall near overturned boat)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Chest of Supplies (10g, bottom of waterfall near overturned boat)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["371:260000000:280000000:Hozen Speech"] = {
-					371, -- [1]
-					0.26, -- [2]
-					0.28, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Hozen Speech",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Hozen Speech",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["371:392600000:466500000:Jade Infused Blade"] = {
-					371, -- [1]
-					0.3926, -- [2]
-					0.4665, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Jade Infused Blade",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Jade Infused Blade",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["371:235000000:350000000:Pandaren Ritual Stone (100g grey item, in between 5 stones on island)"] = {
-					371, -- [1]
-					0.235, -- [2]
-					0.35, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Pandaren Ritual Stone (100g grey item, in between 5 stones on island)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Pandaren Ritual Stone (100g grey item, in between 5 stones on island)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[71] = {
-				["71:424000000:716000000:Otela\nTime-Lost Baubles"] = {
-					71, -- [1]
-					0.424, -- [2]
-					0.716, -- [3]
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
-					["persistent"] = true,
-					["worldmap_icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Otela\nTime-Lost Baubles",
-					["from"] = "?",
-					["worldmap_displayID"] = 92567,
-					["desc"] = "Otela\nTime-Lost Baubles",
-					["minimap_displayID"] = 92567,
-					["world"] = true,
-				},
-			},
-			[418] = {
-				["418:510000000:320000000:The Lost Dynasty"] = {
-					418, -- [1]
-					0.51, -- [2]
-					0.32, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "The Lost Dynasty",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "The Lost Dynasty",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["418:523000000:887000000:Barrel of Banana Infused Rum"] = {
-					418, -- [1]
-					0.523, -- [2]
-					0.887, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Barrel of Banana Infused Rum",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Barrel of Banana Infused Rum",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["418:520000000:870000000:Hozen Maturity (Inside cave)"] = {
-					418, -- [1]
-					0.52, -- [2]
-					0.87, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Hozen Maturity (Inside cave)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Hozen Maturity (Inside cave)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["418:810000000:110000000:Quan Tou Kuo the Two Fisted"] = {
-					418, -- [1]
-					0.81, -- [2]
-					0.11, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Quan Tou Kuo the Two Fisted",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Quan Tou Kuo the Two Fisted",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["418:710000000:90000000:Saurok Stone Tablet entrance"] = {
-					418, -- [1]
-					0.71, -- [2]
-					0.09, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Saurok Stone Tablet entrance",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Saurok Stone Tablet entrance",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["418:300000000:380000000:Origins"] = {
-					418, -- [1]
-					0.3, -- [2]
-					0.38, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Origins",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Origins",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["418:330000000:290000000:Last Stand"] = {
-					418, -- [1]
-					0.33, -- [2]
-					0.29, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Last Stand",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Last Stand",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["418:508000000:493000000:Pandaren Fishing Spear"] = {
-					418, -- [1]
-					0.508, -- [2]
-					0.493, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Pandaren Fishing Spear",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Pandaren Fishing Spear",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["418:720000000:310000000:Waiting for the Turtle"] = {
-					418, -- [1]
-					0.72, -- [2]
-					0.31, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Waiting for the Turtle",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Waiting for the Turtle",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["418:400000000:570000000:The Emperor's Burden - Part 4 (On first floor)"] = {
-					418, -- [1]
-					0.4, -- [2]
-					0.57, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "The Emperor's Burden - Part 4 (On first floor)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "The Emperor's Burden - Part 4 (On first floor)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["418:423000000:920000000:Equipment Locker"] = {
-					418, -- [1]
-					0.423, -- [2]
-					0.92, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Equipment Locker",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Equipment Locker",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["418:520000000:730000000:Stack of Papers (15g grey item)"] = {
-					418, -- [1]
-					0.52, -- [2]
-					0.73, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Stack of Papers (15g grey item)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Stack of Papers (15g grey item)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[1470] = {
-				["1470:524000000:834000000:In Transition House Behind Counter"] = {
-					1470, -- [1]
-					0.524, -- [2]
-					0.8340000000000001, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "In Transition House Behind Counter",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "In Transition House Behind Counter",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:474000000:816000000:In Transition House Behind Counter"] = {
-					1470, -- [1]
-					0.474, -- [2]
-					0.816, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "In Transition House Behind Counter",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "In Transition House Behind Counter",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:584000000:551000000:On Top of a Hill"] = {
-					1470, -- [1]
-					0.584, -- [2]
-					0.551, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "On Top of a Hill",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "On Top of a Hill",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:746000000:592000000:Middle Area Behind Boxes"] = {
-					1470, -- [1]
-					0.746, -- [2]
-					0.5920000000000001, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Middle Area Behind Boxes",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Middle Area Behind Boxes",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:690000000:731000000:Behind Inquisitor, Left of Stairs"] = {
-					1470, -- [1]
-					0.69, -- [2]
-					0.731, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Behind Inquisitor, Left of Stairs",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Behind Inquisitor, Left of Stairs",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:756000000:534000000:Bar, Upper Level"] = {
-					1470, -- [1]
-					0.7559999999999999, -- [2]
-					0.534, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Bar, Upper Level",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Bar, Upper Level",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:765000000:685000000:Behind Stables by Shaw"] = {
-					1470, -- [1]
-					0.765, -- [2]
-					0.685, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Behind Stables by Shaw",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Behind Stables by Shaw",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:673000000:447000000:Beside Boss Forge"] = {
-					1470, -- [1]
-					0.6729999999999999, -- [2]
-					0.447, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Beside Boss Forge",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Beside Boss Forge",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:620000000:769000000:Behind Mail Muncher Mailbox"] = {
-					1470, -- [1]
-					0.62, -- [2]
-					0.769, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Behind Mail Muncher Mailbox",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Behind Mail Muncher Mailbox",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:646000000:309000000:Corner Behind Boxes"] = {
-					1470, -- [1]
-					0.6459999999999999, -- [2]
-					0.309, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Corner Behind Boxes",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Corner Behind Boxes",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["1470:477000000:894000000:On Platform Above Upper Walkway"] = {
-					1470, -- [1]
-					0.477, -- [2]
-					0.894, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "On Platform Above Upper Walkway",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "On Platform Above Upper Walkway",
-					["from"] = "Exality_Aura/OddCrystal",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[36] = {
-				["36:680000185.96649:600000023.84186:Bonfire (Honor) (Burning Steppes, 11810)"] = {
-					36, -- [1]
-					0.6800001859664917, -- [2]
-					0.6000000238418579, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Bonfire (Honor) (Burning Steppes, 11810)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Bonfire (Honor) (Burning Steppes, 11810)",
-					["from"] = "?",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[376] = {
-				["376:200000000:550000000:The Birthplace of Liu Lang"] = {
-					376, -- [1]
-					0.2, -- [2]
-					0.55, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "The Birthplace of Liu Lang",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "The Birthplace of Liu Lang",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["376:921000000:391000000:Boat-Building Instructions"] = {
-					376, -- [1]
-					0.9209999999999999, -- [2]
-					0.391, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Boat-Building Instructions",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Boat-Building Instructions",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["376:190000000:320000000:Pandaren Fighting Tactics"] = {
-					376, -- [1]
-					0.19, -- [2]
-					0.32, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Pandaren Fighting Tactics",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Pandaren Fighting Tactics",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["376:550000000:470000000:A Most Famous Bill of Sale"] = {
-					376, -- [1]
-					0.55, -- [2]
-					0.47, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "A Most Famous Bill of Sale",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "A Most Famous Bill of Sale",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["376:751000000:551000000:Saurok Stone Tablet"] = {
-					376, -- [1]
-					0.7509999999999999, -- [2]
-					0.551, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Saurok Stone Tablet",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Saurok Stone Tablet",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["376:237100000:283300000:Virmen Treasure Cache"] = {
-					376, -- [1]
-					0.2371, -- [2]
-					0.2833, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Virmen Treasure Cache",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Virmen Treasure Cache",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["376:154000000:291000000:Staff of the Hidden Master"] = {
-					376, -- [1]
-					0.154, -- [2]
-					0.291, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Staff of the Hidden Master",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Staff of the Hidden Master",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["376:610000000:350000000:Waterspeakers"] = {
-					376, -- [1]
-					0.61, -- [2]
-					0.35, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Waterspeakers",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Waterspeakers",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["376:830000000:210000000:Embracing the Passion"] = {
-					376, -- [1]
-					0.83, -- [2]
-					0.21, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Embracing the Passion",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Embracing the Passion",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["376:190000000:425000000:Staff of the Hidden Master"] = {
-					376, -- [1]
-					0.19, -- [2]
-					0.425, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Staff of the Hidden Master",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Staff of the Hidden Master",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["376:150000000:337000000:Staff of the Hidden Master"] = {
-					376, -- [1]
-					0.15, -- [2]
-					0.337, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Staff of the Hidden Master",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Staff of the Hidden Master",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["376:454000000:382000000:Ghostly Pandaren Craftsman"] = {
-					376, -- [1]
-					0.454, -- [2]
-					0.382, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Ghostly Pandaren Craftsman",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Ghostly Pandaren Craftsman",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["376:191000000:379000000:Staff of the Hidden Master"] = {
-					376, -- [1]
-					0.191, -- [2]
-					0.379, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Staff of the Hidden Master",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Staff of the Hidden Master",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["376:435000000:374000000:Cache of Pilfered Goods"] = {
-					376, -- [1]
-					0.435, -- [2]
-					0.374, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Cache of Pilfered Goods",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Cache of Pilfered Goods",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["376:175000000:357000000:Staff of the Hidden Master"] = {
-					376, -- [1]
-					0.175, -- [2]
-					0.357, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Staff of the Hidden Master",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Staff of the Hidden Master",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["376:350000000:640000000:The Wandering Widow"] = {
-					376, -- [1]
-					0.35, -- [2]
-					0.64, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "The Wandering Widow",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "The Wandering Widow",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["376:468000000:246000000:Ghostly Pandaren Fisherman"] = {
-					376, -- [1]
-					0.468, -- [2]
-					0.246, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Ghostly Pandaren Fisherman",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Ghostly Pandaren Fisherman",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 			[106] = {
 				["106:244000000:515000000:Fenissa the Assassin"] = {
 					106, -- [1]
@@ -2535,16 +939,16 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["worldmap_displayID"] = 20771,
 					["persistent"] = true,
 					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Fenissa the Assassin",
 					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["desc"] = "Fenissa the Assassin",
 					["minimap_displayID"] = 20771,
+					["desc"] = "Fenissa the Assassin",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["world"] = true,
 				},
 				["106:366000000:603000000:Fenissa the Assassin"] = {
@@ -2570,16 +974,16 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["worldmap_displayID"] = 20771,
 					["persistent"] = true,
 					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Fenissa the Assassin",
 					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["desc"] = "Fenissa the Assassin",
 					["minimap_displayID"] = 20771,
+					["desc"] = "Fenissa the Assassin",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["world"] = true,
 				},
 				["106:388000000:584000000:Fenissa the Assassin"] = {
@@ -2605,16 +1009,16 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["worldmap_displayID"] = 20771,
 					["persistent"] = true,
 					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Fenissa the Assassin",
 					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["desc"] = "Fenissa the Assassin",
 					["minimap_displayID"] = 20771,
+					["desc"] = "Fenissa the Assassin",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["world"] = true,
 				},
 				["106:401000000:612000000:Fenissa the Assassin"] = {
@@ -2640,16 +1044,16 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["worldmap_displayID"] = 20771,
 					["persistent"] = true,
 					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Fenissa the Assassin",
 					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["desc"] = "Fenissa the Assassin",
 					["minimap_displayID"] = 20771,
+					["desc"] = "Fenissa the Assassin",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["world"] = true,
 				},
 				["106:243000000:542000000:Fenissa the Assassin"] = {
@@ -2675,16 +1079,16 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["worldmap_displayID"] = 20771,
 					["persistent"] = true,
 					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Fenissa the Assassin",
 					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["desc"] = "Fenissa the Assassin",
 					["minimap_displayID"] = 20771,
+					["desc"] = "Fenissa the Assassin",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["world"] = true,
 				},
 				["106:243000000:565000000:Fenissa the Assassin"] = {
@@ -2710,16 +1114,16 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["worldmap_displayID"] = 20771,
 					["persistent"] = true,
 					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Fenissa the Assassin",
 					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["desc"] = "Fenissa the Assassin",
 					["minimap_displayID"] = 20771,
+					["desc"] = "Fenissa the Assassin",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["world"] = true,
 				},
 				["106:395000000:589000000:Fenissa the Assassin"] = {
@@ -2745,16 +1149,16 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["worldmap_displayID"] = 20771,
 					["persistent"] = true,
 					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Fenissa the Assassin",
 					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["desc"] = "Fenissa the Assassin",
 					["minimap_displayID"] = 20771,
+					["desc"] = "Fenissa the Assassin",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["world"] = true,
 				},
 				["106:378000000:584000000:Fenissa the Assassin"] = {
@@ -2780,16 +1184,16 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["worldmap_displayID"] = 20771,
 					["persistent"] = true,
 					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Fenissa the Assassin",
 					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["desc"] = "Fenissa the Assassin",
 					["minimap_displayID"] = 20771,
+					["desc"] = "Fenissa the Assassin",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["world"] = true,
 				},
 				["106:363000000:627000000:Fenissa the Assassin"] = {
@@ -2815,1851 +1219,16 @@ TomTomWaypointsM = {
 					["minimap"] = true,
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
-					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
+					["worldmap_displayID"] = 20771,
 					["persistent"] = true,
 					["worldmap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "Fenissa the Assassin",
 					["from"] = "?",
-					["worldmap_displayID"] = 20771,
-					["desc"] = "Fenissa the Assassin",
 					["minimap_displayID"] = 20771,
-					["world"] = true,
-				},
-			},
-			[422] = {
-				["422:360000000:330000000:The Empress"] = {
-					422, -- [1]
-					0.36, -- [2]
-					0.33, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "The Empress",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "The Empress",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["422:520000000:100000000:Amber (Enter South)"] = {
-					422, -- [1]
-					0.52, -- [2]
-					0.1, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Amber (Enter South)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Amber (Enter South)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["422:330000000:301000000:Amber Encased Necklace"] = {
-					422, -- [1]
-					0.33, -- [2]
-					0.301, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Amber Encased Necklace",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Amber Encased Necklace",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["422:420000000:622000000:Glinting Rapana Whelk"] = {
-					422, -- [1]
-					0.42, -- [2]
-					0.622, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Glinting Rapana Whelk",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Glinting Rapana Whelk",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["422:480000000:330000000:Cycle of the Mantid"] = {
-					422, -- [1]
-					0.48, -- [2]
-					0.33, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Cycle of the Mantid",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Cycle of the Mantid",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["422:600000000:550000000:Mantid Society"] = {
-					422, -- [1]
-					0.6, -- [2]
-					0.55, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Mantid Society",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Mantid Society",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["422:542000000:564000000:Swarmkeeper's Medallion"] = {
-					422, -- [1]
-					0.542, -- [2]
-					0.564, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Swarmkeeper's Medallion",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Swarmkeeper's Medallion",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["422:259000000:503000000:Bloodsoaked Chitin Fragment"] = {
-					422, -- [1]
-					0.259, -- [2]
-					0.503, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Bloodsoaked Chitin Fragment",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Bloodsoaked Chitin Fragment",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["422:670000000:610000000:The Deserters"] = {
-					422, -- [1]
-					0.67, -- [2]
-					0.61, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "The Deserters",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "The Deserters",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["422:422000000:636000000:Glinting Rapana Whelk"] = {
-					422, -- [1]
-					0.422, -- [2]
-					0.636, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Glinting Rapana Whelk",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Glinting Rapana Whelk",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["422:487000000:300000000:Malik's Stalwart Spear"] = {
-					422, -- [1]
-					0.487, -- [2]
-					0.3, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Malik's Stalwart Spear",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Malik's Stalwart Spear",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["422:568000000:776000000:Swarming Cleaver of Ka'roz"] = {
-					422, -- [1]
-					0.568, -- [2]
-					0.7759999999999999, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Swarming Cleaver of Ka'roz",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Swarming Cleaver of Ka'roz",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["422:718000000:361000000:Wind-Reaver's Dagger of Quick Strikes"] = {
-					422, -- [1]
-					0.718, -- [2]
-					0.361, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Wind-Reaver's Dagger of Quick Strikes",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Wind-Reaver's Dagger of Quick Strikes",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["422:416000000:646000000:Glinting Rapana Whelk"] = {
-					422, -- [1]
-					0.416, -- [2]
-					0.6459999999999999, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Glinting Rapana Whelk",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Glinting Rapana Whelk",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["422:288000000:419000000:Blade of the Poisoned Mind"] = {
-					422, -- [1]
-					0.288, -- [2]
-					0.419, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Blade of the Poisoned Mind",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Blade of the Poisoned Mind",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["422:668000000:638000000:Blade of the Prime"] = {
-					422, -- [1]
-					0.6679999999999999, -- [2]
-					0.638, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Blade of the Prime",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Blade of the Prime",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["422:302000000:908000000:Dissector's Staff of Mutation"] = {
-					422, -- [1]
-					0.302, -- [2]
-					0.9079999999999999, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Dissector's Staff of Mutation",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Dissector's Staff of Mutation",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[379] = {
-				["379:490000000:590000000:Hozen Treasure Cache (gold only, next to 6 containers)"] = {
-					379, -- [1]
-					0.49, -- [2]
-					0.59, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Hozen Treasure Cache (gold only, next to 6 containers)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Hozen Treasure Cache (gold only, next to 6 containers)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:567000000:489000000:Stolen Sprite Treasure (gold only, back of cave)"] = {
-					379, -- [1]
-					0.5670000000000001, -- [2]
-					0.489, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Stolen Sprite Treasure (gold only, back of cave)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Stolen Sprite Treasure (gold only, back of cave)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:700000000:638000000:Stash of Yaungol Weapons"] = {
-					379, -- [1]
-					0.7, -- [2]
-					0.638, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Stash of Yaungol Weapons",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Stash of Yaungol Weapons",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:747000000:749000000:Sprite's Cloth Chest"] = {
-					379, -- [1]
-					0.747, -- [2]
-					0.7490000000000001, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Sprite's Cloth Chest",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Sprite's Cloth Chest",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:578000000:763000000:Terracotta Head (100g grey item, around this area, statue head on the ground)"] = {
-					379, -- [1]
-					0.578, -- [2]
-					0.763, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Terracotta Head (100g grey item, around this area, statue head on the ground)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Terracotta Head (100g grey item, around this area, statue head on the ground)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:590000000:500000000:Stolen Sprite Treasure entrance"] = {
-					379, -- [1]
-					0.59, -- [2]
-					0.5, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Stolen Sprite Treasure entrance",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Stolen Sprite Treasure entrance",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:720000000:339000000:Statue of Xuen (100g grey item, at bottom of lake)"] = {
-					379, -- [1]
-					0.72, -- [2]
-					0.339, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Statue of Xuen (100g grey item, at bottom of lake)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Statue of Xuen (100g grey item, at bottom of lake)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:523000000:510000000:Rikkitik's Tick Remover entrance"] = {
-					379, -- [1]
-					0.523, -- [2]
-					0.51, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Rikkitik's Tick Remover entrance",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Rikkitik's Tick Remover entrance",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:680000000:480000000:The Emperor's Burden - Part 6"] = {
-					379, -- [1]
-					0.68, -- [2]
-					0.48, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "The Emperor's Burden - Part 6",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "The Emperor's Burden - Part 6",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:720000000:630000000:Yaungoil"] = {
-					379, -- [1]
-					0.72, -- [2]
-					0.63, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Yaungoil",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Yaungoil",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:530000000:460000000:Valley of Emperors (58 71 inside)"] = {
-					379, -- [1]
-					0.53, -- [2]
-					0.46, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Valley of Emperors (58 71 inside)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Valley of Emperors (58 71 inside)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:639000000:498000000:Ancient Mogu Tablet entrance"] = {
-					379, -- [1]
-					0.639, -- [2]
-					0.498, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Ancient Mogu Tablet entrance",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Ancient Mogu Tablet entrance",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:630000000:410000000:Victory in Kun-Lai"] = {
-					379, -- [1]
-					0.63, -- [2]
-					0.41, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Victory in Kun-Lai",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Victory in Kun-Lai",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:367000000:797000000:Lost Adventurer's Belongings (gold only, inside tent)"] = {
-					379, -- [1]
-					0.3670000000000001, -- [2]
-					0.797, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Lost Adventurer's Belongings (gold only, inside tent)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Lost Adventurer's Belongings (gold only, inside tent)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:526000000:515000000:Rikkitik's Tick Remover (105g grey item + 50g)"] = {
-					379, -- [1]
-					0.526, -- [2]
-					0.515, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Rikkitik's Tick Remover (105g grey item + 50g)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Rikkitik's Tick Remover (105g grey item + 50g)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:712000000:626000000:Stash of Yaungol Weapons"] = {
-					379, -- [1]
-					0.7120000000000001, -- [2]
-					0.626, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Stash of Yaungol Weapons",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Stash of Yaungol Weapons",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:500000000:790000000:Yaungol Tactics"] = {
-					379, -- [1]
-					0.5, -- [2]
-					0.79, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Yaungol Tactics",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Yaungol Tactics",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:352000000:764000000:Frozen Trail Packer"] = {
-					379, -- [1]
-					0.352, -- [2]
-					0.764, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Frozen Trail Packer",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Frozen Trail Packer",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:642000000:451000000:Ancient Mogu Tablet (95g grey item, in room with Lost Souls)"] = {
-					379, -- [1]
-					0.642, -- [2]
-					0.451, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Ancient Mogu Tablet (95g grey item, in room with Lost Souls)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Ancient Mogu Tablet (95g grey item, in room with Lost Souls)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:447000000:524000000:Tablet of Ren Yun"] = {
-					379, -- [1]
-					0.447, -- [2]
-					0.524, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Tablet of Ren Yun",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Tablet of Ren Yun",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:515000000:740000000:Hozen Warrior Spear"] = {
-					379, -- [1]
-					0.515, -- [2]
-					0.74, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Hozen Warrior Spear",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Hozen Warrior Spear",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:460000000:620000000:The Hozen Ravage"] = {
-					379, -- [1]
-					0.46, -- [2]
-					0.62, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "The Hozen Ravage",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "The Hozen Ravage",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:447200000:523800000:Ren Yun the Blind"] = {
-					379, -- [1]
-					0.4472, -- [2]
-					0.5238, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Ren Yun the Blind",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Ren Yun the Blind",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:440000000:510000000:The Emperor's Burden - Part 2"] = {
-					379, -- [1]
-					0.44, -- [2]
-					0.51, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "The Emperor's Burden - Part 2",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "The Emperor's Burden - Part 2",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:410000000:420000000:The Emperor's Burden - Part 7"] = {
-					379, -- [1]
-					0.41, -- [2]
-					0.42, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "The Emperor's Burden - Part 7",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "The Emperor's Burden - Part 7",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:740000000:840000000:Role Call"] = {
-					379, -- [1]
-					0.74, -- [2]
-					0.84, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Role Call",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Role Call",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["379:479000000:733000000:Mo-Mo's Treasure Chest (11g, small chest behind Mo-Mo)"] = {
-					379, -- [1]
-					0.479, -- [2]
-					0.733, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Mo-Mo's Treasure Chest (11g, small chest behind Mo-Mo)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Mo-Mo's Treasure Chest (11g, small chest behind Mo-Mo)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[388] = {
-				["388:840000000:730000000:Trapped in a Strange Land"] = {
-					388, -- [1]
-					0.84, -- [2]
-					0.73, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Trapped in a Strange Land",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Trapped in a Strange Land",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["388:540000000:610000000:Hardened Sap of Kri'vess (Small yellow blub)"] = {
-					388, -- [1]
-					0.54, -- [2]
-					0.61, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Hardened Sap of Kri'vess (Small yellow blub)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Hardened Sap of Kri'vess (Small yellow blub)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["388:668000000:480000000:Yaungol Fire Carrier"] = {
-					388, -- [1]
-					0.6679999999999999, -- [2]
-					0.48, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Yaungol Fire Carrier",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Yaungol Fire Carrier",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["388:663000000:447000000:Yaungol Fire Carrier"] = {
-					388, -- [1]
-					0.6629999999999999, -- [2]
-					0.447, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Yaungol Fire Carrier",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Yaungol Fire Carrier",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["388:628200000:340500000:Abandoned Crate of Goods (gold only, inside tent with 2 containers)"] = {
-					388, -- [1]
-					0.6282, -- [2]
-					0.3405, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Abandoned Crate of Goods (gold only, inside tent with 2 containers)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Abandoned Crate of Goods (gold only, inside tent with 2 containers)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["388:530000000:610000000:Hardened Sap of Kri'vess (Small yellow blub)"] = {
-					388, -- [1]
-					0.53, -- [2]
-					0.61, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Hardened Sap of Kri'vess (Small yellow blub)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Hardened Sap of Kri'vess (Small yellow blub)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["388:380000000:630000000:The Emperor's Burden Part 5"] = {
-					388, -- [1]
-					0.38, -- [2]
-					0.63, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "The Emperor's Burden Part 5",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "The Emperor's Burden Part 5",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["388:650000000:500000000:Dominance"] = {
-					388, -- [1]
-					0.65, -- [2]
-					0.5, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Dominance",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Dominance",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["388:530000000:580000000:Hardened Sap of Kri'vess (Small yellow blub)"] = {
-					388, -- [1]
-					0.53, -- [2]
-					0.58, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Hardened Sap of Kri'vess (Small yellow blub)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Hardened Sap of Kri'vess (Small yellow blub)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["388:570000000:540000000:Hardened Sap of Kri'vess (Small yellow blub)"] = {
-					388, -- [1]
-					0.57, -- [2]
-					0.54, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Hardened Sap of Kri'vess (Small yellow blub)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Hardened Sap of Kri'vess (Small yellow blub)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["388:658300000:860800000:Amber Encased Moth (105g grey item, to the right of the tree root)"] = {
-					388, -- [1]
-					0.6583, -- [2]
-					0.8608, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Amber Encased Moth (105g grey item, to the right of the tree root)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Amber Encased Moth (105g grey item, to the right of the tree root)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["388:560000000:550000000:Hardened Sap of Kri'vess (Small yellow blub)"] = {
-					388, -- [1]
-					0.56, -- [2]
-					0.55, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Hardened Sap of Kri'vess (Small yellow blub)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Hardened Sap of Kri'vess (Small yellow blub)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["388:520000000:600000000:Hardened Sap of Kri'vess (Small yellow blub)"] = {
-					388, -- [1]
-					0.52, -- [2]
-					0.6, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Hardened Sap of Kri'vess (Small yellow blub)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Hardened Sap of Kri'vess (Small yellow blub)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["388:328000000:616000000:Fragment of Dread entrance"] = {
-					388, -- [1]
-					0.328, -- [2]
-					0.616, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Fragment of Dread entrance",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Fragment of Dread entrance",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["388:348000000:631000000:Fragment of Dread (90g grey item)"] = {
-					388, -- [1]
-					0.348, -- [2]
-					0.631, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Fragment of Dread (90g grey item)",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Fragment of Dread (90g grey item)",
-					["from"] = "TomTom/way",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
+					["desc"] = "Fenissa the Assassin",
+					["minimap_icon"] = "Interface\\Worldmap\\Skull_64Green",
 					["world"] = true,
 				},
 			},

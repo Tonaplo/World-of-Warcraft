@@ -21,12 +21,12 @@
 # ## Notes: Shows the POIs in Argus
 #@end-debug@
 ## Author: arith
-## Version: v0.15
+## Version: v0.16
 ## RequiredDeps: HandyNotes
 ## OptionalDeps: LibBabble-SubZone-3.0
 ## DefaultState: enabled
 ## SavedVariables: HandyNotes_ArgusDB
-## X-Date: 2020-01-17T14:32:00Z
+## X-Date: 2020-07-26T15:00:19Z
 ## X-License: GPLv2
 ## X-Category: Map
 

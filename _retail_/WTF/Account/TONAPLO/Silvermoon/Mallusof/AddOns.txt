@@ -81,3 +81,4 @@ TradeSkillMaster: enabled
 TradeSkillMaster_AppHelper: enabled
 AngryAssignments: enabled
 MethodDungeonTools: enabled
+ElvUI_DTBars2: disabled

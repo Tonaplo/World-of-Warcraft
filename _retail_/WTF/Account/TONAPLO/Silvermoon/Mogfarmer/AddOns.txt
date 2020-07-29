@@ -39,3 +39,4 @@ VuhDoOptions: disabled
 ParagonReputation: disabled
 TradeSkillMaster: enabled
 TradeSkillMaster_AppHelper: enabled
+ElvUI_DTBars2: disabled

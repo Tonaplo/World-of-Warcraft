@@ -80,3 +80,4 @@ TradeSkillMaster: enabled
 RareScanner: enabled
 TradeSkillMaster_AppHelper: enabled
 AngryAssignments: disabled
+ElvUI_DTBars2: disabled

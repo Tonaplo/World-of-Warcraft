@@ -13,35 +13,36 @@ FarmHudDB = {
 		0, -- [3]
 		0.7, -- [4]
 	},
-	["tracking^136459"] = "client",
-	["tracking^136456"] = "client",
+	["tracking^136459"] = "false",
+	["tracking^136456"] = "false",
 	["time_server"] = true,
-	["tracking^136465"] = "client",
-	["buttons_radius"] = 0.56,
+	["tracking^136465"] = "false",
+	["buttons_radius"] = 0.47,
 	["cardinalpoints_color1"] = {
 		1, -- [1]
 		0.82, -- [2]
 		0, -- [3]
 		0.7, -- [4]
 	},
-	["tracking^136458"] = "client",
-	["hud_scale"] = 1.4,
-	["tracking^136457"] = "client",
+	["tracking^136458"] = "false",
+	["hud_scale"] = 1,
+	["tracking^136457"] = "false",
 	["QuestArrowInfoMsg"] = false,
-	["tracking^136463"] = "client",
+	["tracking^136463"] = "false",
 	["gathercircle_color"] = {
 		0, -- [1]
 		1, -- [2]
 		0, -- [3]
 		0.5, -- [4]
 	},
-	["tracking^1863940"] = "client",
+	["tracking^1863940"] = "false",
 	["rotation"] = true,
 	["buttons_alpha"] = 0.6,
 	["holdKeyForMouseOn"] = "_none",
-	["tracking^524051"] = "client",
-	["hud_size"] = 1,
-	["tracking^136464"] = "client",
+	["tracking^535616"] = "false",
+	["tracking^524051"] = "false",
+	["hud_size"] = 0.8,
+	["tracking^136464"] = "false",
 	["mouseoverinfo_color"] = {
 		1, -- [1]
 		0.82, -- [2]
@@ -49,44 +50,44 @@ FarmHudDB = {
 		0.7, -- [4]
 	},
 	["buttons_show"] = false,
-	["tracking^1598183"] = "client",
-	["coords_show"] = true,
-	["tracking^457292"] = "client",
-	["showDummy"] = true,
 	["coords_radius"] = 0.51,
-	["showDummyBg"] = true,
+	["coords_show"] = false,
+	["tracking^457292"] = "false",
+	["showDummy"] = true,
 	["SuperTrackedQuest"] = true,
-	["tracking^136453"] = "client",
+	["showDummyBg"] = true,
 	["gathercircle_show"] = true,
-	["tracking^613074"] = "client",
-	["cardinalpoints_radius"] = 0.47,
-	["player_dot"] = "blizz",
-	["tracking^524052"] = "client",
+	["tracking^136453"] = "false",
+	["tracking^535615"] = "false",
+	["tracking^613074"] = "false",
+	["cardinalpoints_radius"] = 0.365,
+	["tracking^524052"] = "false",
+	["coords_bottom"] = false,
 	["buttons_buttom"] = false,
 	["time_bottom"] = false,
-	["tracking^237607"] = "client",
+	["tracking^237607"] = "false",
 	["MinimapIcon"] = {
-		["minimapPos"] = 320.5115398271814,
+		["minimapPos"] = 311.185960386427,
 		["radius"] = 80,
 		["hide"] = false,
 	},
-	["coords_bottom"] = false,
+	["tracking^133939"] = "true",
 	["time_color"] = {
 		1, -- [1]
 		0.82, -- [2]
 		0, -- [3]
 		0.7, -- [4]
 	},
-	["time_show"] = true,
-	["tracking^133939"] = "client",
-	["text_scale"] = 1.4,
-	["tracking^136454"] = "client",
-	["tracking^133888"] = "client",
+	["time_show"] = false,
+	["text_scale"] = 1,
+	["tracking^133888"] = "false",
+	["tracking^136454"] = "false",
+	["player_dot"] = "blizz",
 	["time_radius"] = 0.48,
-	["tracking^535615"] = "client",
-	["tracking^136466"] = "client",
+	["tracking^136466"] = "false",
 	["cardinalpoints_show"] = true,
+	["tracking^1598183"] = "false",
 	["time_local"] = true,
-	["tracking^136452"] = "client",
-	["tracking^535616"] = "client",
+	["tracking^136452"] = "false",
+	["buttons_bottom"] = false,
 }

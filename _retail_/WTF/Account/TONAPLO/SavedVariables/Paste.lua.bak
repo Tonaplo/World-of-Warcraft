@@ -73,10 +73,10 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
-			["pos"] = {
-			},
 			["minimap"] = {
 				["minimapPos"] = 222.5805367040374,
+			},
+			["pos"] = {
 			},
 		},
 		["Mallusof - Silvermoon"] = {

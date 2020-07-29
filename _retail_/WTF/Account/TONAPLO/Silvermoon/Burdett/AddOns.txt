@@ -27,3 +27,4 @@ TradeSkillMaster: disabled
 AngryAssignments: disabled
 StatPriority: enabled
 LittleWigs: enabled
+ElvUI_DTBars2: disabled

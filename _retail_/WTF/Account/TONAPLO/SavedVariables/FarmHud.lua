@@ -13,35 +13,36 @@ FarmHudDB = {
 		0, -- [3]
 		0.7, -- [4]
 	},
-	["tracking^136459"] = "client",
-	["tracking^136456"] = "client",
+	["tracking^136459"] = "false",
+	["tracking^136456"] = "false",
 	["time_server"] = true,
-	["tracking^136465"] = "client",
-	["buttons_radius"] = 0.56,
+	["tracking^136465"] = "false",
+	["buttons_radius"] = 0.47,
 	["cardinalpoints_color1"] = {
 		1, -- [1]
 		0.82, -- [2]
 		0, -- [3]
 		0.7, -- [4]
 	},
-	["tracking^136458"] = "client",
+	["tracking^136458"] = "false",
 	["hud_scale"] = 1.4,
-	["tracking^136457"] = "client",
+	["tracking^136457"] = "false",
 	["QuestArrowInfoMsg"] = false,
-	["tracking^136463"] = "client",
+	["tracking^136463"] = "false",
 	["gathercircle_color"] = {
 		0, -- [1]
 		1, -- [2]
 		0, -- [3]
 		0.5, -- [4]
 	},
-	["tracking^1863940"] = "client",
+	["tracking^1863940"] = "false",
 	["rotation"] = true,
 	["buttons_alpha"] = 0.6,
-	["tracking^535616"] = "client",
-	["tracking^524051"] = "client",
-	["hud_size"] = 1,
-	["tracking^136464"] = "client",
+	["buttons_bottom"] = false,
+	["tracking^535616"] = "false",
+	["tracking^524051"] = "false",
+	["hud_size"] = 0.8,
+	["tracking^136464"] = "false",
 	["mouseoverinfo_color"] = {
 		1, -- [1]
 		0.82, -- [2]
@@ -49,44 +50,44 @@ FarmHudDB = {
 		0.7, -- [4]
 	},
 	["buttons_show"] = false,
-	["tracking^1598183"] = "client",
-	["coords_show"] = true,
-	["tracking^457292"] = "client",
+	["tracking^1598183"] = "false",
+	["coords_show"] = false,
+	["tracking^457292"] = "false",
 	["showDummy"] = true,
 	["cardinalpoints_show"] = true,
 	["showDummyBg"] = true,
-	["tracking^136466"] = "client",
-	["tracking^136453"] = "client",
-	["tracking^535615"] = "client",
-	["tracking^613074"] = "client",
-	["cardinalpoints_radius"] = 0.47,
+	["tracking^136466"] = "false",
+	["tracking^136453"] = "false",
+	["tracking^535615"] = "false",
+	["tracking^613074"] = "false",
+	["cardinalpoints_radius"] = 0.365,
 	["player_dot"] = "blizz",
-	["tracking^133888"] = "client",
+	["tracking^136454"] = "false",
 	["buttons_buttom"] = false,
 	["time_bottom"] = false,
-	["tracking^237607"] = "client",
+	["tracking^237607"] = "false",
 	["MinimapIcon"] = {
-		["minimapPos"] = 320.5115398271814,
+		["minimapPos"] = 311.185960386427,
 		["radius"] = 80,
 		["hide"] = false,
 	},
-	["tracking^136454"] = "client",
-	["text_scale"] = 1.4,
-	["time_show"] = true,
+	["tracking^133888"] = "false",
+	["text_scale"] = 1,
+	["time_show"] = false,
+	["tracking^133939"] = "true",
 	["time_color"] = {
 		1, -- [1]
 		0.82, -- [2]
 		0, -- [3]
 		0.7, -- [4]
 	},
-	["tracking^133939"] = "client",
 	["coords_bottom"] = false,
-	["tracking^524052"] = "client",
+	["tracking^524052"] = "false",
 	["time_radius"] = 0.48,
 	["gathercircle_show"] = true,
 	["SuperTrackedQuest"] = true,
 	["coords_radius"] = 0.51,
 	["time_local"] = true,
-	["tracking^136452"] = "client",
-	["holdKeyForMouseOn"] = "_none",
+	["tracking^136452"] = "false",
+	["holdKeyForMouseOn"] = "_NONE",
 }

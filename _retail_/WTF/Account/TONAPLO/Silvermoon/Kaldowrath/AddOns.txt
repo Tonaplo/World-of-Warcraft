@@ -27,3 +27,4 @@ DailyToDo: disabled
 TradeSkillMaster: disabled
 AngryAssignments: disabled
 StatPriority: enabled
+ElvUI_DTBars2: disabled

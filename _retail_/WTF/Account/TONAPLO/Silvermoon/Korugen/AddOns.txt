@@ -78,3 +78,4 @@ TomTom: enabled
 DailyToDo: disabled
 TradeSkillMaster: disabled
 AngryAssignments: disabled
+ElvUI_DTBars2: disabled

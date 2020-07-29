@@ -1,0 +1,46 @@
+
+HandyNotes_LostAndFoundDB = {
+	["profileKeys"] = {
+		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
+		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
+		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
+		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
+		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
+		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
+		["Thorlan - Silvermoon"] = "Thorlan - Silvermoon",
+		["Amranar - Silvermoon"] = "Amranar - Silvermoon",
+		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
+		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
+		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
+		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
+		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
+	},
+	["profiles"] = {
+		["Thedodrouk - Silvermoon"] = {
+		},
+		["Kaldowrath - Silvermoon"] = {
+		},
+		["Faerand - Silvermoon"] = {
+		},
+		["Miriyam - Silvermoon"] = {
+		},
+		["Burdett - Silvermoon"] = {
+		},
+		["Rahran - Silvermoon"] = {
+		},
+		["Thorlan - Silvermoon"] = {
+		},
+		["Amranar - Silvermoon"] = {
+		},
+		["Korugen - Silvermoon"] = {
+		},
+		["Zearthan - Silvermoon"] = {
+		},
+		["Greyblood - Silvermoon"] = {
+		},
+		["Mallusof - Silvermoon"] = {
+		},
+		["Praerend - Silvermoon"] = {
+		},
+	},
+}
