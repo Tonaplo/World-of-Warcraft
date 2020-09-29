@@ -1,39 +1,8 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Mallusof-silvermoon"
+RaiderIO_LastCharacter = "eu-Thedodrouk-silvermoon"
 RaiderIO_MissingCharacters = {
-	["eu-Mattydhunter-silvermoon"] = true,
-	["eu-Incenokappa-silvermoon"] = true,
-	["eu-Bloodfróst-silvermoon"] = true,
-	["eu-Devlyin-silvermoon"] = true,
-	["eu-Subinjan-silvermoon"] = true,
-	["eu-Mistyspice-silvermoon"] = true,
-	["eu-Hovour-silvermoon"] = true,
-	["eu-Tecoma-silvermoon"] = true,
-	["eu-Holygiblets-silvermoon"] = true,
-	["eu-Celanalas-silvermoon"] = true,
-	["eu-Ceyx-silvermoon"] = true,
-	["eu-Unknown-silvermoon"] = true,
-	["eu-Rakursi-silvermoon"] = true,
-	["eu-Shèngjiàn-silvermoon"] = true,
-	["eu-Stårlight-silvermoon"] = true,
-	["eu-Nagaz-silvermoon"] = true,
-	["eu-Jarta-silvermoon"] = true,
-	["eu-Phorbídden-silvermoon"] = true,
-	["eu-Tenatacle-silvermoon"] = true,
-	["eu-Féñrîr-silvermoon"] = true,
-	["eu-Karathia-silvermoon"] = true,
-	["eu-Scrb-silvermoon"] = true,
-	["eu-Jackthelonk-silvermoon"] = true,
-	["eu-Wyrtam-silvermoon"] = true,
-	["eu-Jènnifer-silvermoon"] = true,
-	["eu-Saltski-silvermoon"] = true,
-	["eu-Lagkage-silvermoon"] = true,
-	["eu-Talthina-silvermoon"] = true,
-	["eu-Emranw-silvermoon"] = true,
-	["eu-Sercios-silvermoon"] = true,
-	["eu-Killorcs-silvermoon"] = true,
-	["eu-Níam-silvermoon"] = true,
-	["eu-Yurîe-silvermoon"] = true,
+	["eu-Thedodrouk-silvermoon"] = true,
 }
+RaiderIO_CachedRuns = nil

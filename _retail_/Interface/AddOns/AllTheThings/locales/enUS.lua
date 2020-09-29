@@ -9,6 +9,7 @@
 --------------------------------------------------------------------------------
 --				This script is called directly after the Core.lua file. 	  --
 --------------------------------------------------------------------------------
+
 local name, app = ...;
 app.L = {
 	-- General Text
@@ -109,13 +110,14 @@ app.L = {
 	["COLLECTED_ICON"] = "|TInterface\\Addons\\AllTheThings\\assets\\known:0|t";	-- Acquired the colors and icon from CanIMogIt.
 	["COLLECTED_APPEARANCE_ICON"] = "|TInterface\\Addons\\AllTheThings\\assets\\known_circle:0|t";		-- Acquired the colors and icon from CanIMogIt.
 	["COMPLETE_ICON"] = "|TInterface\\Addons\\AllTheThings\\assets\\known_green:0|t";		-- Acquired the colors and icon from CanIMogIt.
+    ["INCOMPLETE_ICON"] = "|TInterface\\Addons\\AllTheThings\\assets\\incomplete:0|t";        -- Acquired the colors and icon from CanIMogIt.
 	["NOT_COLLECTED_ICON"] = "|TInterface\\Addons\\AllTheThings\\assets\\unknown:0|t";		-- Acquired the colors and icon from CanIMogIt.
 	["COLLECTED"] = "|TInterface\\Addons\\AllTheThings\\assets\\known:0|t |cff15abffCollected|r";		-- Acquired the colors and icon from CanIMogIt.
 	["COLLECTED_APPEARANCE"] = "|TInterface\\Addons\\AllTheThings\\assets\\known_circle:0|t |cff15abffCollected*|r";	-- Acquired the colors and icon from CanIMogIt.
 	["NOT_COLLECTED"] = "|TInterface\\Addons\\AllTheThings\\assets\\unknown:0|t |cffff9333Not Collected|r";		-- Acquired the colors and icon from CanIMogIt.
 	["COMPLETE"] = "|TInterface\\Addons\\AllTheThings\\assets\\known_green:0|t |cff6dce47Complete|r";		-- Acquired the colors and icon from CanIMogIt.
 	["COMPLETE_OTHER"] = "|TInterface\\Addons\\AllTheThings\\assets\\known_green:0|t |cff6dce47Complete*|r";		-- Acquired the colors and icon from CanIMogIt.
-	["INCOMPLETE"] = "|TInterface\\Addons\\AllTheThings\\assets\\unknown:0|t |cffff9333Incomplete|r";		-- Acquired the colors and icon from CanIMogIt.
+    ["INCOMPLETE"] = "|TInterface\\Addons\\AllTheThings\\assets\\incomplete:0|t |cff15abffIncomplete|r";        -- Acquired the colors and icon from CanIMogIt.
 	["KNOWN_ON_CHARACTER"] = "|TInterface\\Addons\\AllTheThings\\assets\\known:0|t |cff15abffKnown on current character|r";
 	["UNKNOWN_ON_CHARACTER"] = "|TInterface\\Addons\\AllTheThings\\assets\\unknown:0|t |cffff9333Unknown on current character|r";
 
@@ -310,7 +312,7 @@ app.L = {
 		[-36] = "Interface\\Icons\\WoW_Token01", 											-- In-Game Shop
 		[-37] = "Interface\\Icons\\Garrison_Building_MageTower",							-- Discovery
 		[-38] = "Interface\\Icons\\achievement_general_workingasateam",						-- Professions
-		[-39] = "Interface\\Icons\\Inv_misc_book_17", 									
+		[-39] = "Interface\\Icons\\Inv_misc_book_17",
 		[-40] = "Interface\\Icons\\Inv_misc_book_17", 										-- Legacy
 		[-41] = "Interface\\Icons\\TRADE_ARCHAEOLOGY", 										-- Cache of Madness
 		[-43] = "Interface\\Icons\\inv_chest_cloth_21",										-- Cloth Armor
@@ -323,7 +325,7 @@ app.L = {
 		[-52] = "Interface\\Icons\\inv_misc_toy_04",										-- Children's Week
 		[-53] = "Interface\\Icons\\inv_summerfest_symbol_high",								-- Midsummer Fire Festival
 		[-54] = "Interface\\Icons\\inv_summerfest_symbol_low",								-- Unused (Previously: Midsummer Fire Festival [Horde])
-		[-55] = "Interface\\Icons\\inv_helmet_66",											-- Pirate's Day",
+		[-55] = "Interface\\Icons\\inv_helmet_66",											-- Pirates' Day",
 		[-56] = "Interface\\Icons\\achievement_worldevent_brewmaster",						-- Brewfest
 		[-57] = "Interface\\Icons\\INV_Holiday_Thanksgiving_Cornucopia", 					-- Harvest Festival
 		[-58] = "Interface\\Addons\\AllTheThings\\assets\\hallows_end",						-- Hallow's End
@@ -999,7 +1001,7 @@ app.L = {
 		[-51] = select(1,GetCategoryInfo(159)),									-- Noblegarden
 		[-52] = select(1,GetCategoryInfo(163)),									-- Children's Week
 		[-53] = "Midsummer Fire Festival",										-- Midsummer Fire Festival
-		[-55] = "Pirate's Day",
+		[-55] = "Pirates' Day",
 		[-56] = select(1,GetCategoryInfo(162)),									-- Brewfest
 		[-58] = select(1,GetCategoryInfo(158)),									-- Hallow's End
 		[-59] = "Day of the Dead",
@@ -1023,7 +1025,7 @@ app.L = {
 		[-93] = "Silithus (The Wound)",
 		[-94] = "Black Market Auction House",									-- Black Market Auction House"
 -- Garrison Note: These will be changed into a new class soon(TM)
-		--[-99] = select(2,C_Garrison.GetBuildingInfo(65) ), 					-- Stables
+		--[-99] = select(2,C_Garrison.GetBuildingInfo(65)), 					-- Stables
 		[-99] = "Buildings",
 		[-101] = "Followers",
 --Horde [Swaps based on faction ONLY after a reloadui]
@@ -4031,7 +4033,7 @@ app.L = {
 		[332576] = "Crystalline Cat Figurine",
 		[332577] = "Crystalline Cat Figurine",	-- Need to be confirmed
 		[332704] = "Corrupted Chest",
-		[339211] = "Empty Dish",
+		[339211] = "|cFFFFFFFFStep 2:|r Empty Dish",
 		[343611] = "Voidtouched Egg",
 		[9999890] = "Corrupted Loot",
 		[9999891] = "Main Objective Only",
@@ -4055,6 +4057,7 @@ app.L = {
 		[9999918] = "|cFFFFFFFFStep 11:|r Metal Gate",
 		[9999919] = "|cFFFFFFFFStep 12:|r Wisdom Cube",
 		[9999920] = "|cFFFFFFFFStep 13:|r Tarnished Plaque",
+		[9999921] = "Placement",
 		[9999938] = "Uuna's World Tour",
 		[9999946] = "Summon Baa'l",
 		[9999990] = "Treasure Chest",	-- Use these until objectID is found
@@ -4168,7 +4171,7 @@ app.L = {
 		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Children's Week
 		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Midsummer Fire Festival
 		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Trial of Style
-		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Pirate's Day
+		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Pirates' Day
 		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Brewfest
 		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Harvest Festival
 		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Hallow's End
@@ -4203,7 +4206,7 @@ app.L = {
 		{9, "|CFF00FFDEMay require Children's Week to be active to obtain this item.|r", "Children's Week (20)"},--20
 		{10, "|CFF00FFDEMay require Midsummer Fire Festival to be active to obtain this item.|r", "Midsummer Fire Festival (21)"},--21
 		{11, "", "Micro-Holiday (22)"},--22 Description written on item
-		{12, "|CFF00FFDEMay require Pirate's Day to be active to obtain this item.|r", "Pirate's Day (23)"},--23
+		{12, "|CFF00FFDEMay require Pirates' Day to be active to obtain this item.|r", "Pirates' Day (23)"},--23
 		{13, "|CFF00FFDEMay require Brewfest to be active to obtain this item.|r", "Brewfest (24)"},--24
 		{14, "|CFF00FFDEMay require Harvest Festival to be active to obtain this item.|r", "Harvest Festival (25)"},--25
 		{15, "|CFF00FFDEMay require Hallow's End to be active to obtain this item.|r", "Hallow's End (26)"},--26

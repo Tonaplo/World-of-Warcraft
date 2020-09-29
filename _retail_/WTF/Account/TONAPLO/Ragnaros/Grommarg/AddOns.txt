@@ -28,3 +28,4 @@ HandyNotes_VisionsOfNZoth: disabled
 HandyNotes_MechagonAndNazjatar: disabled
 Handynotes_Pandaria: disabled
 AngryWorldQuests: enabled
+ElvUI_DTBars2: disabled

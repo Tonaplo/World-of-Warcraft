@@ -3,38 +3,38 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
-				0.2000000000007276, -- [1]
-				"Your foolish crusade ends here, mortals. The legion comes and with it this world breathes its dying breath!", -- [2]
+				0.5500000000001819, -- [1]
+				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
 				"Archimonde", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				1.183000000000902, -- [1]
-				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
-				"Archimonde", -- [3]
+				0.5500000000001819, -- [1]
+				"The light will not fail!", -- [2]
+				"Exarch Yrel", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				3.782999999999447, -- [1]
+				2.983000000000175, -- [1]
 				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
 				"Archimonde", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				3.782999999999447, -- [1]
+				5.416999999999462, -- [1]
 				"Lok'tar ogar! They are pushed back! To the portal! Gul'dan is mine!", -- [2]
 				"Grommash Hellscream", -- [3]
 				7, -- [4]
 			}, -- [4]
 			{
-				3.782999999999447, -- [1]
-				"The light will not fail!", -- [2]
-				"Exarch Yrel", -- [3]
+				5.416999999999462, -- [1]
+				"I will shatter this pathetic world! Its broken husk will be torn apart in the twisting nether for all time!", -- [2]
+				"Archimonde", -- [3]
 				7, -- [4]
 			}, -- [5]
 			{
-				6.117000000000189, -- [1]
-				"I will shatter this pathetic world! Its broken husk will be torn apart in the twisting nether for all time!", -- [2]
+				5.416999999999462, -- [1]
+				"I grow tired of this pointless game. You face the immortal Legion, scourge of a thousand worlds.", -- [2]
 				"Archimonde", -- [3]
 				7, -- [4]
 			}, -- [6]
@@ -42,45 +42,69 @@ EncounterDetailsDB = {
 		}, -- [1]
 		{
 			{
-				0.184000000001106, -- [1]
-				"Your foolish crusade ends here, mortals. The legion comes and with it this world breathes its dying breath!", -- [2]
+				0.1, -- [1]
+				"Let the echoes of doom resound across this wretched world, that all who live may hear them and despair.", -- [2]
 				"Archimonde", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				2.325000000004366, -- [1]
+				2.382999999997992, -- [1]
 				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
 				"Archimonde", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				2.325000000004366, -- [1]
-				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
-				"Archimonde", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				2.325000000004366, -- [1]
+				4.849999999998545, -- [1]
 				"The light will not fail!", -- [2]
 				"Exarch Yrel", -- [3]
 				7, -- [4]
+			}, -- [3]
+			{
+				6.033999999999651, -- [1]
+				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
 			}, -- [4]
 			{
-				4.867000000005646, -- [1]
+				7.157999999999447, -- [1]
 				"Lok'tar ogar! They are pushed back! To the portal! Gul'dan is mine!", -- [2]
 				"Grommash Hellscream", -- [3]
 				7, -- [4]
 			}, -- [5]
-			{
-				4.867000000005646, -- [1]
-				"I will shatter this pathetic world! Its broken husk will be torn apart in the twisting nether for all time!", -- [2]
-				"Archimonde", -- [3]
-				7, -- [4]
-			}, -- [6]
 			["boss"] = "Archimonde",
 		}, -- [2]
 		{
-			["boss"] = "Slave Watcher Crushto",
+			{
+				0.1999999999998181, -- [1]
+				"Let the echoes of doom resound across this wretched world, that all who live may hear them and despair.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				1.199999999999818, -- [1]
+				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				3.641000000000531, -- [1]
+				"The light will not fail!", -- [2]
+				"Exarch Yrel", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				4.856999999999971, -- [1]
+				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				6.083000000000538, -- [1]
+				"Lok'tar ogar! They are pushed back! To the portal! Gul'dan is mine!", -- [2]
+				"Grommash Hellscream", -- [3]
+				7, -- [4]
+			}, -- [5]
+			["boss"] = "Archimonde",
 		}, -- [3]
 	},
 	["encounter_spells"] = {
@@ -382,6 +406,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Archimonde",
+		},
+		[189470] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Anetheron",
 		},
 		[184657] = {
 			["school"] = 32,
@@ -782,12 +813,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shard of Tectus",
 		},
-		[180080] = {
-			["school"] = 4,
+		[175745] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Felfire Artillery",
+			["source"] = "Night-Twisted Brute",
 		},
 		[181132] = {
 			["school"] = 4,
@@ -908,6 +940,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Primal Elementalist",
 		},
+		[181134] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Fel Imp",
+		},
 		[184449] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -917,13 +956,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Dia Darkwhisper",
-		},
-		[181134] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Fel Imp",
 		},
 		[155921] = {
 			["school"] = 4,
@@ -1072,12 +1104,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gorebound Construct",
 		},
-		[186045] = {
-			["school"] = 1,
+		[180945] = {
+			["school"] = 4,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Delusional Zealot",
+			["source"] = "Felfire Demolisher",
 		},
 		[184847] = {
 			["school"] = 8,
@@ -1105,13 +1138,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Felfire Crusher",
 		},
-		[180945] = {
-			["school"] = 4,
+		[186045] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Felfire Demolisher",
+			["source"] = "Delusional Zealot",
 		},
 		[184675] = {
 			["school"] = 32,
@@ -1262,13 +1294,12 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 		},
-		[175745] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[180080] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Night-Twisted Brute",
+			["source"] = "Felfire Artillery",
 		},
 		[181968] = {
 			["school"] = 4,

@@ -1,1 +1,15 @@
 Version: 1
+Frame: ChecklistFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -182
+Y: 239
+W: 200
+H: 32
+Frame: scanner_button
+FrameLevel: 200
+Anchor: BOTTOM
+X: 0
+Y: 128
+W: 200
+H: 50

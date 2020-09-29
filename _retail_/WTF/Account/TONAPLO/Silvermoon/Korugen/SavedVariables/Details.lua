@@ -7,28 +7,7016 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 303,
+					["combatId"] = 309,
 					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005546,
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["total_without_pet"] = 4124747.005546,
+							["dps_started"] = false,
+							["total"] = 4124747.005546,
+							["spec"] = 66,
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-3391-0A827D5A",
+							["damage_from"] = {
+								["Archimonde"] = true,
+							},
+							["targets"] = {
+								["Archimonde"] = 3704851,
+								["Felborne Overfiend"] = 242248,
+								["Dreadstalker"] = 177648,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1601207815,
+							["boss_fight_component"] = true,
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 40,
+									["BLOCKED_HITS"] = 2,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 5,
+									["PARTIAL_ABSORBED"] = 1,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 1,
+									["ABSORB"] = 1,
+									["ABSORB_AMT"] = 1,
+									["FULL_HIT"] = 4,
+									["HITS"] = 5,
+									["FULL_HIT_AMT"] = 62,
+								},
+								["Archimonde"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 40,
+									["BLOCKED_HITS"] = 2,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 5,
+									["PARTIAL_ABSORBED"] = 1,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 1,
+									["ABSORB"] = 1,
+									["ABSORB_AMT"] = 1,
+									["FULL_HIT"] = 4,
+									["HITS"] = 5,
+									["FULL_HIT_AMT"] = 62,
+								},
+							},
+							["nome"] = "Korugen",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 235908,
+										["g_amt"] = 0,
+										["n_max"] = 120405,
+										["targets"] = {
+											["Archimonde"] = 591187,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 355279,
+										["n_min"] = 115863,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 591187,
+										["c_max"] = 235908,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 235908,
+									}, -- [1]
+									[204242] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Dreadstalker"] = 0,
+											["Archimonde"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["IMMUNE"] = 5,
+										["total"] = 0,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 204242,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[275779] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 982784,
+										["g_amt"] = 0,
+										["n_max"] = 259371,
+										["targets"] = {
+											["Archimonde"] = 1242155,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 259371,
+										["n_min"] = 259371,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 1242155,
+										["c_max"] = 491392,
+										["spellschool"] = 2,
+										["id"] = 275779,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 491392,
+									},
+									[53600] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 623153,
+										["g_amt"] = 0,
+										["n_max"] = 122326,
+										["targets"] = {
+											["Felborne Overfiend"] = 209638,
+											["Archimonde"] = 637780,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 224265,
+										["n_min"] = 101939,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 847418,
+										["c_max"] = 209638,
+										["spellschool"] = 2,
+										["id"] = 53600,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 203877,
+									},
+									[256893] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 728143,
+										["targets"] = {
+											["Archimonde"] = 728143,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 728143,
+										["n_min"] = 728143,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 728143,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 256893,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[81297] = {
+										["c_amt"] = 11,
+										["b_amt"] = 0,
+										["c_dmg"] = 347546,
+										["g_amt"] = 0,
+										["n_max"] = 16305,
+										["targets"] = {
+											["Archimonde"] = 343670,
+											["Felborne Overfiend"] = 32610,
+											["Dreadstalker"] = 177648,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 206382,
+										["n_min"] = 15445,
+										["g_dmg"] = 0,
+										["counter"] = 24,
+										["total"] = 553928,
+										["c_max"] = 32610,
+										["spellschool"] = 2,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 13,
+										["r_amt"] = 0,
+										["c_min"] = 30890,
+									},
+									[31935] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 161916,
+										["targets"] = {
+											["Archimonde"] = 161916,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 161916,
+										["n_min"] = 161916,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 161916,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 31935,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 351042.2983443404,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 91.00554600000001,
+							["start_time"] = 1601207803,
+							["delay"] = 0,
+							["last_event"] = 1601207815,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.004888,
+							["monster"] = true,
+							["damage_from"] = {
+								["Korugen"] = true,
+							},
+							["targets"] = {
+								["Korugen"] = 91,
+							},
+							["pets"] = {
+								"Desecration <Archimonde>", -- [1]
+							},
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 91.004888,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 91.004888,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3111-1448-10064-91331-0000707DED",
+							["nome"] = "Archimonde",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 2,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 29,
+										["targets"] = {
+											["Korugen"] = 91,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 91,
+										["n_min"] = 4,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 91,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 29,
+										["m_crit"] = 0,
+										["a_amt"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 9,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[185590] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 185590,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[187107] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 187107,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 3,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[182225] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 182225,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1601207815,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 3704851.004888,
+							["start_time"] = 1601207803,
+							["delay"] = 0,
+							["last_event"] = 1601207814,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.005209,
+							["damage_from"] = {
+								["Korugen"] = true,
+							},
+							["targets"] = {
+							},
+							["monster"] = true,
+							["pets"] = {
+							},
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.005209,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 0.005209,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3111-1448-10064-93615-0000707E02",
+							["nome"] = "Felborne Overfiend",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Korugen"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["MISS"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[186662] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 186662,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1601207815,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 242248.005209,
+							["start_time"] = 1601207815,
+							["delay"] = 0,
+							["last_event"] = 1601207810,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.005017,
+							["serial"] = "Vehicle-0-3111-1448-10064-92781-0000707E01",
+							["damage_from"] = {
+							},
+							["targets"] = {
+							},
+							["boss_fight_component"] = true,
+							["pets"] = {
+							},
+							["monster"] = true,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.005017,
+							["dps_started"] = false,
+							["total"] = 0.005017,
+							["classe"] = "UNKNOW",
+							["ownerName"] = "Archimonde",
+							["nome"] = "Desecration <Archimonde>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[191068] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 191068,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[183969] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 183969,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[188950] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 188950,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1601207815,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.005017,
+							["start_time"] = 1601207815,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.002241,
+							["damage_from"] = {
+								["Korugen"] = true,
+							},
+							["targets"] = {
+							},
+							["monster"] = true,
+							["pets"] = {
+							},
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.002241,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 0.002241,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3111-1448-10064-93616-0000707E02",
+							["nome"] = "Dreadstalker",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Korugen"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["MISS"] = 2,
+										["total"] = 0,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1601207815,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 177648.002241,
+							["start_time"] = 1601207815,
+							["delay"] = 0,
+							["last_event"] = 1601207812,
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.001649,
+							["damage_from"] = {
+							},
+							["targets"] = {
+							},
+							["monster"] = true,
+							["pets"] = {
+							},
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.001649,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 0.001649,
+							["classe"] = "UNKNOW",
+							["serial"] = "",
+							["nome"] = "[*] Desecration",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[188614] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 188614,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1601207815,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.001649,
+							["start_time"] = 1601207815,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [6]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 309,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PALADIN",
+							["totalover"] = 0.006713,
+							["total_without_pet"] = 1.006713,
+							["total"] = 1.006713,
+							["targets_absorbs"] = {
+								["Korugen"] = 1,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-3391-0A827D5A",
+							["totalabsorb"] = 1.006713,
+							["last_hps"] = 0.08567770212765957,
+							["targets"] = {
+								["Korugen"] = 1,
+							},
+							["totalover_without_pet"] = 0.006713,
+							["healing_taken"] = 1.006713,
+							["boss_fight_component"] = true,
+							["end_time"] = 1601207815,
+							["healing_from"] = {
+								["Korugen"] = true,
+							},
+							["nome"] = "Korugen",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[203791] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 1,
+										["targets"] = {
+											["Korugen"] = 1,
+										},
+										["n_min"] = 1,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 1,
+										["c_max"] = 0,
+										["id"] = 203791,
+										["targets_absorbs"] = {
+											["Korugen"] = 1,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 1,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1601207810,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 66,
+							["totaldenied"] = 0.006713,
+							["delay"] = 0,
+							["last_event"] = 1601207810,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 309,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 309,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[204242] = {
+										["activedamt"] = 0,
+										["id"] = 204242,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 81,
+							["classe"] = "PALADIN",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[132403] = {
+										["activedamt"] = 1,
+										["id"] = 132403,
+										["targets"] = {
+										},
+										["uptime"] = 9,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[186406] = {
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[197561] = {
+										["activedamt"] = 1,
+										["id"] = 197561,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[228128] = {
+										["activedamt"] = 1,
+										["id"] = 228128,
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[328136] = {
+										["activedamt"] = 1,
+										["id"] = 328136,
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[294027] = {
+										["activedamt"] = 1,
+										["id"] = 294027,
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[31884] = {
+										["activedamt"] = 1,
+										["id"] = 31884,
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188370] = {
+										["activedamt"] = 3,
+										["id"] = 188370,
+										["targets"] = {
+										},
+										["uptime"] = 11,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 2,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 66,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[275779] = 3,
+								[31935] = 1,
+								[26573] = 2,
+								[53600] = 4,
+							},
+							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1601207815,
+							["nome"] = "Korugen",
+							["pets"] = {
+							},
+							["serial"] = "Player-3391-0A827D5A",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["nome"] = "Archimonde",
+							["tipo"] = 4,
+							["pets"] = {
+								"Desecration <Archimonde>", -- [1]
+							},
+							["boss_fight_component"] = true,
+							["spell_cast"] = {
+								[185590] = 1,
+								[187107] = 3,
+								[182225] = 1,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-3111-1448-10064-91331-0000707DED",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["ownerName"] = "Archimonde",
+							["nome"] = "Desecration <Archimonde>",
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["boss_fight_component"] = true,
+							["spell_cast"] = {
+								[191068] = 1,
+								[183969] = 1,
+								[188950] = 1,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Vehicle-0-3111-1448-10064-92781-0000707E01",
+							["last_event"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["nome"] = "[*] Desecration",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["boss_fight_component"] = true,
+							["spell_cast"] = {
+								[188614] = 1,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "",
+							["classe"] = "UNKNOW",
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["nome"] = "Felborne Overfiend",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["boss_fight_component"] = true,
+							["spell_cast"] = {
+								[186662] = 1,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-3111-1448-10064-93615-0000707E02",
+							["classe"] = "UNKNOW",
+						}, -- [5]
+						{
+							["flag_original"] = 2584,
+							["nome"] = "Exarch Yrel",
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["boss_fight_component"] = true,
+							["last_event"] = 0,
+							["spell_cast"] = {
+								[183962] = 1,
+							},
+							["serial"] = "Creature-0-3111-1448-10064-92769-0000707DEE",
+							["classe"] = "UNKNOW",
+						}, -- [6]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 309,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Korugen"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["tempo_start"] = 1601207803,
+				["cleu_timeline"] = {
+				},
+				["alternate_power"] = {
+				},
+				["overall_added"] = true,
+				["enemy"] = "Archimonde",
+				["combat_counter"] = 510,
+				["TotalElapsedCombatTime"] = 5056.436,
+				["totals"] = {
+					4124838, -- [1]
+					1, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["frags_need_refresh"] = true,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "13:56:44",
+				["end_time"] = 5056.266000000001,
+				["CombatEndedAt"] = 5056.436,
+				["instance_type"] = "raid",
+				["totals_grupo"] = {
+					4124747, -- [1]
+					1, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Korugen"] = 1.006713,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Korugen"] = 4124747.005546,
+						}, -- [1]
+					},
+				},
+				["combat_id"] = 309,
+				["frags"] = {
+					["Felborne Overfiend"] = 1,
+					["Dreadstalker"] = 3,
+				},
+				["data_fim"] = "13:56:56",
+				["is_boss"] = {
+					["diff_string"] = "Looking For Raid",
+					["index"] = 1,
+					["zone"] = "Hellfire Citadel",
+					["encounter"] = "Archimonde",
+					["mapid"] = 1448,
+					["try_number"] = 1,
+					["name"] = "Archimonde",
+					["diff"] = 17,
+					["id"] = 1799,
+					["ej_instance_id"] = 669,
+					["killed"] = true,
+				},
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["start_time"] = 5044.516000000001,
+				["contra"] = "Archimonde",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						774478.005546, -- [1]
+						177361, -- [2]
+						745025.9999999999, -- [3]
+						15445, -- [4]
+						845171, -- [5]
+						77226, -- [6]
+						720404, -- [7]
+						81525, -- [8]
+						461301, -- [9]
+						47645, -- [10]
+						148274, -- [11]
+						["max_value"] = 845171,
+					},
+					["Raid Damage Done"] = {
+						774478, -- [1]
+						177361, -- [2]
+						745026, -- [3]
+						15445, -- [4]
+						845171, -- [5]
+						77226, -- [6]
+						720404, -- [7]
+						81525, -- [8]
+						461301, -- [9]
+						47645, -- [10]
+						148274, -- [11]
+						["max_value"] = 845171,
+					},
+				},
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 308,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006579,
+							["pets"] = {
+							},
+							["classe"] = "PALADIN",
+							["total_without_pet"] = 3842587.006579,
+							["dps_started"] = false,
+							["total"] = 3842587.006579,
+							["spec"] = 66,
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-3391-0A827D5A",
+							["damage_from"] = {
+								["Archimonde"] = true,
+							},
+							["targets"] = {
+								["Archimonde"] = 3842587,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1600028112,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 1600028112,
+							["nome"] = "Korugen",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 423291,
+										["g_amt"] = 0,
+										["n_max"] = 115719,
+										["targets"] = {
+											["Archimonde"] = 768857,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 345566,
+										["n_min"] = 114794,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 768857,
+										["c_max"] = 231953,
+										["c_min"] = 191338,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[204242] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Archimonde"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["c_min"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["r_amt"] = 0,
+										["id"] = 204242,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 2,
+										["IMMUNE"] = 2,
+									},
+									[275779] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 900885,
+										["g_amt"] = 0,
+										["n_max"] = 245696,
+										["targets"] = {
+											["Archimonde"] = 1392277,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 491392,
+										["n_min"] = 245696,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 1392277,
+										["c_max"] = 491392,
+										["c_min"] = 409493,
+										["id"] = 275779,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[31935] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 131000,
+										["targets"] = {
+											["Archimonde"] = 131000,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 131000,
+										["n_min"] = 131000,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 131000,
+										["c_max"] = 0,
+										["c_min"] = 0,
+										["id"] = 31935,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[256893] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 728144,
+										["targets"] = {
+											["Archimonde"] = 728144,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 728144,
+										["n_min"] = 728144,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 728144,
+										["c_max"] = 0,
+										["c_min"] = 0,
+										["id"] = 256893,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[81297] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 61782,
+										["g_amt"] = 0,
+										["n_max"] = 15446,
+										["targets"] = {
+											["Archimonde"] = 169899,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 108117,
+										["n_min"] = 15445,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 169899,
+										["c_max"] = 30891,
+										["c_min"] = 30891,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 7,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[53600] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 652410,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Archimonde"] = 652410,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 652410,
+										["c_max"] = 244654,
+										["c_min"] = 203878,
+										["id"] = 53600,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["last_dps"] = 332662.7137545818,
+							["damage_taken"] = 122.006579,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 4,
+									["PARTIAL_ABSORBED"] = 1,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 1,
+									["ABSORB"] = 1,
+									["ABSORB_AMT"] = 1,
+									["FULL_HIT"] = 3,
+									["HITS"] = 4,
+									["FULL_HIT_AMT"] = 85,
+								},
+								["Archimonde"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 4,
+									["PARTIAL_ABSORBED"] = 1,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 1,
+									["ABSORB"] = 1,
+									["ABSORB_AMT"] = 1,
+									["FULL_HIT"] = 3,
+									["HITS"] = 4,
+									["FULL_HIT_AMT"] = 85,
+								},
+							},
+							["start_time"] = 1600028101,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.003761,
+							["damage_from"] = {
+								["Korugen"] = true,
+							},
+							["targets"] = {
+								["Korugen"] = 122,
+							},
+							["pets"] = {
+								"Desecration <Archimonde>", -- [1]
+							},
+							["last_event"] = 1600028108,
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 122.003761,
+							["delay"] = 0,
+							["monster"] = true,
+							["total"] = 122.003761,
+							["classe"] = "UNKNOW",
+							["damage_taken"] = 3842587.003761,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 37,
+										["targets"] = {
+											["Korugen"] = 122,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 122,
+										["n_min"] = 23,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 122,
+										["c_max"] = 0,
+										["c_min"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_dmg"] = 37,
+										["m_crit"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 1,
+										["n_amt"] = 4,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[185590] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 185590,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[187107] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 187107,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[182225] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 182225,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Archimonde",
+							["last_dps"] = 0,
+							["end_time"] = 1600028112,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1600028102,
+							["serial"] = "Creature-0-3769-1448-4115-91331-00005E7DB8",
+							["dps_started"] = false,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.008848,
+							["damage_from"] = {
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.008848,
+							["delay"] = 0,
+							["monster"] = true,
+							["total"] = 0.008848,
+							["classe"] = "UNKNOW",
+							["damage_taken"] = 0.008848,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[188614] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 188614,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "[*] Desecration",
+							["last_dps"] = 0,
+							["end_time"] = 1600028112,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1600028112,
+							["serial"] = "",
+							["dps_started"] = false,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.006148,
+							["total"] = 0.006148,
+							["damage_from"] = {
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["delay"] = 0,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.006148,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1600028112,
+							["friendlyfire_total"] = 0,
+							["ownerName"] = "Archimonde",
+							["nome"] = "Desecration <Archimonde>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[191068] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 191068,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[183969] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 183969,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[188950] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 188950,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+								},
+								["tipo"] = 2,
+							},
+							["monster"] = true,
+							["damage_taken"] = 0.006148,
+							["boss_fight_component"] = true,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1600028112,
+							["serial"] = "Vehicle-0-3769-1448-4115-92781-00005E7DC8",
+							["last_dps"] = 0,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 308,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PALADIN",
+							["totalover"] = 0.00264,
+							["total_without_pet"] = 1.00264,
+							["total"] = 1.00264,
+							["targets_absorbs"] = {
+								["Korugen"] = 1,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-3391-0A827D5A",
+							["totalabsorb"] = 1.00264,
+							["last_hps"] = 0.08680114275820669,
+							["targets"] = {
+								["Korugen"] = 1,
+							},
+							["totalover_without_pet"] = 0.00264,
+							["healing_taken"] = 1.00264,
+							["end_time"] = 1600028112,
+							["nome"] = "Korugen",
+							["last_event"] = 1600028102,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[203791] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 1,
+										["targets"] = {
+											["Korugen"] = 1,
+										},
+										["n_min"] = 1,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 1,
+										["c_max"] = 0,
+										["id"] = 203791,
+										["targets_absorbs"] = {
+											["Korugen"] = 1,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 1,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["totaldenied"] = 0.00264,
+							["spec"] = 66,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1600028111,
+							["delay"] = 1600028102,
+							["healing_from"] = {
+								["Korugen"] = true,
+							},
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 308,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 308,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["nome"] = "Korugen",
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 66,
+							["grupo"] = true,
+							["boss_fight_component"] = true,
+							["buff_uptime"] = 69,
+							["pets"] = {
+							},
+							["last_event"] = 1600028112,
+							["classe"] = "PALADIN",
+							["spell_cast"] = {
+								[26573] = 2,
+								[275779] = 4,
+								[255647] = 1,
+								[31884] = 1,
+								[53600] = 3,
+							},
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186403,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[228128] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 228128,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[197561] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 197561,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[132403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 132403,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[328136] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 328136,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[188370] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 188370,
+										["uptime"] = 7,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[31884] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 31884,
+										["uptime"] = 9,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[294027] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 294027,
+										["uptime"] = 9,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-3391-0A827D5A",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["last_event"] = 0,
+							["nome"] = "Archimonde",
+							["pets"] = {
+								"Desecration <Archimonde>", -- [1]
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[185590] = 1,
+								[187107] = 2,
+								[182225] = 1,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3769-1448-4115-91331-00005E7DB8",
+							["boss_fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["tipo"] = 4,
+							["ownerName"] = "Archimonde",
+							["nome"] = "Desecration <Archimonde>",
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["spell_cast"] = {
+								[191068] = 1,
+								[183969] = 1,
+								[188950] = 1,
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["serial"] = "Vehicle-0-3769-1448-4115-92781-00005E7DC8",
+							["boss_fight_component"] = true,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["last_event"] = 0,
+							["nome"] = "[*] Desecration",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[188614] = 1,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "",
+							["boss_fight_component"] = true,
+						}, -- [4]
+						{
+							["flag_original"] = 2584,
+							["nome"] = "Exarch Yrel",
+							["spell_cast"] = {
+								[183962] = 1,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Creature-0-3769-1448-4115-92769-00005E7DB8",
+							["boss_fight_component"] = true,
+						}, -- [5]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 308,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Korugen"] = true,
+				},
+				["CombatStartedAt"] = 5041.816,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals"] = {
+					3842709, -- [1]
+					1, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					3842587, -- [1]
+					1, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "raid",
+				["hasSaved"] = true,
+				["data_fim"] = "22:15:13",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Archimonde",
+				["TotalElapsedCombatTime"] = 27786.537,
+				["CombatEndedAt"] = 27786.537,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "22:15:01",
+				["end_time"] = 27786.037,
+				["combat_id"] = 308,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Korugen"] = 3842587.006579,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Korugen"] = 1.00264,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["tempo_start"] = 1600028101,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						731831.006579, -- [1]
+						0, -- [2]
+						115053, -- [3]
+						0, -- [4]
+						131164, -- [5]
+						1250427, -- [6]
+						275545, -- [7]
+						375935, -- [8]
+						219323, -- [9]
+						451277, -- [10]
+						46336, -- [11]
+						["max_value"] = 1250427,
+					},
+					["Raid Damage Done"] = {
+						731831, -- [1]
+						0, -- [2]
+						115053, -- [3]
+						0, -- [4]
+						131164, -- [5]
+						1250427, -- [6]
+						275545, -- [7]
+						375935, -- [8]
+						219323, -- [9]
+						451277, -- [10]
+						46336, -- [11]
+						["max_value"] = 1250427,
+					},
+				},
+				["frags"] = {
+				},
+				["is_boss"] = {
+					["diff_string"] = "Looking For Raid",
+					["index"] = 1,
+					["zone"] = "Hellfire Citadel",
+					["encounter"] = "Archimonde",
+					["mapid"] = 1448,
+					["try_number"] = 1,
+					["name"] = "Archimonde",
+					["diff"] = 17,
+					["ej_instance_id"] = 669,
+					["id"] = 1799,
+					["killed"] = true,
+				},
+				["combat_counter"] = 508,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 27774.486,
+				["contra"] = "Archimonde",
+				["spells_cast_timeline"] = {
+				},
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 307,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006489,
+							["custom"] = 0,
+							["damage_from"] = {
+								["Archimonde"] = true,
+							},
+							["targets"] = {
+								["Archimonde"] = 3770921,
+							},
+							["last_event"] = 1596279345,
+							["pets"] = {
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 235282,
+										["g_amt"] = 0,
+										["n_max"] = 117241,
+										["targets"] = {
+											["Archimonde"] = 817017,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 581735,
+										["n_min"] = 115111,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 817017,
+										["c_max"] = 235282,
+										["r_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 235282,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[268525] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 96186,
+										["targets"] = {
+											["Archimonde"] = 96186,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 96186,
+										["n_min"] = 96186,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 96186,
+										["c_max"] = 0,
+										["r_amt"] = 0,
+										["id"] = 268525,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[31935] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 317114,
+										["g_amt"] = 0,
+										["n_max"] = 128282,
+										["targets"] = {
+											["Archimonde"] = 445396,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 128282,
+										["n_min"] = 128282,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 445396,
+										["c_max"] = 317114,
+										["r_amt"] = 0,
+										["id"] = 31935,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 317114,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[275779] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 481199,
+										["g_amt"] = 0,
+										["n_max"] = 240599,
+										["targets"] = {
+											["Archimonde"] = 962397,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 481198,
+										["n_min"] = 240599,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 962397,
+										["c_max"] = 481199,
+										["r_amt"] = 0,
+										["id"] = 275779,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 481199,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[53600] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 199649,
+										["g_amt"] = 0,
+										["n_max"] = 119789,
+										["targets"] = {
+											["Archimonde"] = 419263,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 219614,
+										["n_min"] = 99825,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 419263,
+										["c_max"] = 199649,
+										["r_amt"] = 0,
+										["id"] = 53600,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 199649,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[204301] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 30250,
+										["targets"] = {
+											["Archimonde"] = 30250,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 30250,
+										["n_min"] = 30250,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 30250,
+										["c_max"] = 0,
+										["r_amt"] = 0,
+										["id"] = 204301,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[256893] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 713039,
+										["targets"] = {
+											["Archimonde"] = 713039,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 713039,
+										["n_min"] = 713039,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 713039,
+										["c_max"] = 0,
+										["r_amt"] = 0,
+										["id"] = 256893,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[81297] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 181500,
+										["g_amt"] = 0,
+										["n_max"] = 15125,
+										["targets"] = {
+											["Archimonde"] = 287373,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 105873,
+										["n_min"] = 15124,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 287373,
+										["c_max"] = 30250,
+										["r_amt"] = 0,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 30250,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 7,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[204242] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Archimonde"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["r_amt"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["extra"] = {
+										},
+										["id"] = 204242,
+										["r_dmg"] = 0,
+										["b_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 2,
+										["IMMUNE"] = 2,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3770921.006489,
+							["delay"] = 0,
+							["classe"] = "PALADIN",
+							["dps_started"] = false,
+							["end_time"] = 1596279345,
+							["start_time"] = 1596279330,
+							["total"] = 3770921.006489,
+							["nome"] = "Korugen",
+							["spec"] = 66,
+							["grupo"] = true,
+							["last_dps"] = 266326.7890733169,
+							["boss_fight_component"] = true,
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 5,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 3,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 5,
+									["HITS"] = 5,
+									["FULL_HIT_AMT"] = 147,
+								},
+								["Archimonde"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 5,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 3,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 5,
+									["HITS"] = 5,
+									["FULL_HIT_AMT"] = 147,
+								},
+							},
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["damage_taken"] = 147.006489,
+							["isTank"] = true,
+							["serial"] = "Player-3391-0A827D5A",
+							["on_hold"] = false,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.005318,
+							["damage_from"] = {
+								["Korugen"] = true,
+							},
+							["targets"] = {
+								["Korugen"] = 147,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 147.005318,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 147.005318,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Archimonde",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 32,
+										["targets"] = {
+											["Korugen"] = 147,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 147,
+										["n_min"] = 27,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["r_amt"] = 0,
+										["total"] = 147,
+										["c_max"] = 0,
+										["extra"] = {
+										},
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["PARRY"] = 3,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 5,
+										["spellschool"] = 1,
+										["a_amt"] = 0,
+									}, -- [1]
+									[187107] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 187107,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[182225] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 182225,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_event"] = 1596279341,
+							["last_dps"] = 0,
+							["end_time"] = 1596279345,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 3770921.005318,
+							["start_time"] = 1596279330,
+							["serial"] = "Creature-0-3110-1448-19178-91331-0000254A15",
+							["monster"] = true,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 307,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 307,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 307,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[204301] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 204301,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 82,
+							["classe"] = "PALADIN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[225787] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 225787,
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[197561] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 197561,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[228128] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 228128,
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[294027] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 294027,
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[188370] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 188370,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[31884] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 31884,
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[132403] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 132403,
+										["uptime"] = 9,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 3,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 66,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[26573] = 2,
+								[275779] = 3,
+								[53600] = 3,
+								[204019] = 1,
+								[255647] = 1,
+								[31884] = 1,
+								[31935] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1596279345,
+							["pets"] = {
+							},
+							["nome"] = "Korugen",
+							["serial"] = "Player-3391-0A827D5A",
+							["boss_fight_component"] = true,
+						}, -- [1]
+						{
+							["flag_original"] = 2584,
+							["nome"] = "Exarch Yrel",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[183962] = 1,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3110-1448-19178-92769-0000254A15",
+							["boss_fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["last_event"] = 0,
+							["nome"] = "Archimonde",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[187107] = 2,
+								[182225] = 1,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3110-1448-19178-91331-0000254A15",
+							["boss_fight_component"] = true,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 307,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Korugen"] = true,
+				},
+				["CombatStartedAt"] = 27773.553,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals"] = {
+					3771067.990852, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					3770921, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "raid",
+				["hasSaved"] = true,
+				["data_fim"] = "12:55:45",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Archimonde",
+				["TotalElapsedCombatTime"] = 4993.042,
+				["CombatEndedAt"] = 4993.042,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Korugen"] = 3770921.006489,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 4992.709,
+				["combat_id"] = 307,
+				["data_inicio"] = "12:55:31",
+				["tempo_start"] = 1596279330,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						128282.006489, -- [1]
+						0, -- [2]
+						0, -- [3]
+						824350, -- [4]
+						491006, -- [5]
+						150039, -- [6]
+						728451.0000000002, -- [7]
+						229899, -- [8]
+						162616, -- [9]
+						15125, -- [10]
+						401839, -- [11]
+						160485, -- [12]
+						30250, -- [13]
+						332239, -- [14]
+						["max_value"] = 824350,
+					},
+					["Raid Damage Done"] = {
+						128282, -- [1]
+						0, -- [2]
+						0, -- [3]
+						824350, -- [4]
+						491006, -- [5]
+						150039, -- [6]
+						728451, -- [7]
+						229899, -- [8]
+						162616, -- [9]
+						15125, -- [10]
+						401839, -- [11]
+						160485, -- [12]
+						30250, -- [13]
+						332239, -- [14]
+						["max_value"] = 824350,
+					},
+				},
+				["spells_cast_timeline"] = {
+				},
+				["is_boss"] = {
+					["diff_string"] = "Looking For Raid",
+					["index"] = 1,
+					["zone"] = "Hellfire Citadel",
+					["encounter"] = "Archimonde",
+					["mapid"] = 1448,
+					["try_number"] = 1,
+					["name"] = "Archimonde",
+					["diff"] = 17,
+					["ej_instance_id"] = 669,
+					["id"] = 1799,
+					["killed"] = true,
+				},
+				["combat_counter"] = 505,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 4978.55,
+				["contra"] = "Archimonde",
+				["frags"] = {
+				},
+			}, -- [3]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 306,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002792,
+							["damage_from"] = {
+								["Stone Golem"] = true,
+								["Brittle Shardling"] = true,
+							},
+							["targets"] = {
+								["Stone Golem"] = 192292,
+								["Brittle Shardling"] = 32329,
+							},
+							["custom"] = 0,
+							["pets"] = {
+							},
+							["avoidance"] = {
+								["Brittle Shardling"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 911,
+									["BLOCKED_HITS"] = 1,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 6,
+									["PARTIAL_ABSORBED"] = 6,
+									["PARRY"] = 1,
+									["PARTIAL_ABSORB_AMT"] = 1371,
+									["ABSORB"] = 6,
+									["ABSORB_AMT"] = 1371,
+									["FULL_HIT"] = 0,
+									["HITS"] = 6,
+									["FULL_HIT_AMT"] = 0,
+								},
+								["Stone Golem"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 4221,
+									["BLOCKED_HITS"] = 2,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 8,
+									["PARTIAL_ABSORBED"] = 8,
+									["PARRY"] = 4,
+									["PARTIAL_ABSORB_AMT"] = 2925,
+									["ABSORB"] = 8,
+									["ABSORB_AMT"] = 2925,
+									["FULL_HIT"] = 0,
+									["HITS"] = 6,
+									["FULL_HIT_AMT"] = 0,
+								},
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 5132,
+									["BLOCKED_HITS"] = 3,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 14,
+									["PARTIAL_ABSORBED"] = 14,
+									["PARRY"] = 5,
+									["PARTIAL_ABSORB_AMT"] = 4296,
+									["ABSORB"] = 14,
+									["ABSORB_AMT"] = 4296,
+									["FULL_HIT"] = 0,
+									["HITS"] = 12,
+									["FULL_HIT_AMT"] = 0,
+								},
+							},
+							["total"] = 224621.002792,
+							["classe"] = "PALADIN",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 224621.002792,
+							["last_dps"] = 9327.34003787048,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1596192722,
+							["delay"] = 0,
+							["start_time"] = 1596192698,
+							["nome"] = "Korugen",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 5033,
+										["g_amt"] = 0,
+										["n_max"] = 3159,
+										["targets"] = {
+											["Stone Golem"] = 37460,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 32427,
+										["n_min"] = 2428,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 37460,
+										["c_max"] = 5033,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 5033,
+										["n_amt"] = 11,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[31935] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 21718,
+										["g_amt"] = 0,
+										["n_max"] = 5577,
+										["targets"] = {
+											["Stone Golem"] = 16142,
+											["Brittle Shardling"] = 16729,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 11153,
+										["n_min"] = 5576,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 32871,
+										["c_max"] = 11153,
+										["spellschool"] = 2,
+										["id"] = 31935,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 10565,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[53600] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3991,
+										["targets"] = {
+											["Stone Golem"] = 10642,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 10642,
+										["n_min"] = 3325,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 10642,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 53600,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[275779] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 16032,
+										["g_amt"] = 0,
+										["n_max"] = 8462,
+										["targets"] = {
+											["Stone Golem"] = 54256,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 38224,
+										["n_min"] = 6680,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 54256,
+										["c_max"] = 16032,
+										["spellschool"] = 2,
+										["id"] = 275779,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 16032,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[268525] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2448,
+										["targets"] = {
+											["Stone Golem"] = 2448,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2448,
+										["n_min"] = 2448,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2448,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 268525,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[204301] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 10416,
+										["g_amt"] = 0,
+										["n_max"] = 1037,
+										["targets"] = {
+											["Stone Golem"] = 7224,
+											["Brittle Shardling"] = 5237,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2045,
+										["n_min"] = 1008,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 12461,
+										["c_max"] = 2128,
+										["spellschool"] = 2,
+										["id"] = 204301,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 2016,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[256893] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 47510,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Stone Golem"] = 47510,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 47510,
+										["c_max"] = 47510,
+										["spellschool"] = 2,
+										["id"] = 256893,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 47510,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[81297] = {
+										["c_amt"] = 11,
+										["b_amt"] = 0,
+										["c_dmg"] = 11393,
+										["g_amt"] = 0,
+										["n_max"] = 532,
+										["targets"] = {
+											["Stone Golem"] = 16610,
+											["Brittle Shardling"] = 10363,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 15580,
+										["n_min"] = 420,
+										["g_dmg"] = 0,
+										["counter"] = 42,
+										["total"] = 26973,
+										["c_max"] = 1064,
+										["spellschool"] = 2,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 1007,
+										["n_amt"] = 31,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[204242] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Stone Golem"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["IMMUNE"] = 4,
+										["r_amt"] = 0,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["r_dmg"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["id"] = 204242,
+										["total"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["tipo"] = 1,
+							["spec"] = 66,
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["last_event"] = 1596192721,
+							["damage_taken"] = 43422.002792,
+							["isTank"] = true,
+							["serial"] = "Player-3391-0A827D5A",
+							["on_hold"] = false,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.006703,
+							["damage_from"] = {
+								["Magnolía"] = true,
+								["Korugen"] = true,
+								["Sáiyon"] = true,
+							},
+							["targets"] = {
+								["Magnolía"] = 2606,
+								["Korugen"] = 32024,
+								["Sáiyon"] = 1723,
+							},
+							["pets"] = {
+							},
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 36353.006703,
+							["serial"] = "Creature-0-3102-1643-1282-137708-000023F7B3",
+							["fight_component"] = true,
+							["total"] = 36353.006703,
+							["monster"] = true,
+							["damage_taken"] = 1255624.006703,
+							["nome"] = "Stone Golem",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 8923,
+										["targets"] = {
+											["Korugen"] = 28184,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 28184,
+										["n_min"] = 3421,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["a_amt"] = 6,
+										["r_amt"] = 0,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["r_dmg"] = 0,
+										["b_dmg"] = 4639,
+										["a_dmg"] = 28184,
+										["m_crit"] = 0,
+										["PARRY"] = 4,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 6,
+										["id"] = 1,
+										["total"] = 28184,
+									}, -- [1]
+									[257659] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 257659,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[270871] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 270871,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[257660] = {
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2606,
+										["targets"] = {
+											["Magnolía"] = 2606,
+											["Korugen"] = 917,
+											["Sáiyon"] = 1723,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5246,
+										["n_min"] = 917,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 5246,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 257660,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 917,
+										["m_crit"] = 0,
+										["a_amt"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 917,
+										["r_amt"] = 0,
+									},
+									[257657] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2923,
+										["targets"] = {
+											["Korugen"] = 2923,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2923,
+										["n_min"] = 2923,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2923,
+										["c_max"] = 0,
+										["id"] = 257657,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 2923,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 1,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["end_time"] = 1596192722,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1596192720,
+							["on_hold"] = false,
+							["start_time"] = 1596192701,
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.004675,
+							["damage_from"] = {
+								["Korugen"] = true,
+								["Sáiyon"] = true,
+							},
+							["targets"] = {
+								["Korugen"] = 11398,
+							},
+							["pets"] = {
+							},
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 11398.004675,
+							["serial"] = "Creature-0-3102-1643-1282-137715-000023F7CB",
+							["fight_component"] = true,
+							["total"] = 11398.004675,
+							["monster"] = true,
+							["damage_taken"] = 79789.004675,
+							["nome"] = "Brittle Shardling",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2788,
+										["targets"] = {
+											["Korugen"] = 11398,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 11398,
+										["n_min"] = 994,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["a_amt"] = 6,
+										["r_amt"] = 0,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["r_dmg"] = 0,
+										["b_dmg"] = 994,
+										["a_dmg"] = 11398,
+										["m_crit"] = 0,
+										["PARRY"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 6,
+										["id"] = 1,
+										["total"] = 11398,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["end_time"] = 1596192722,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1596192721,
+							["on_hold"] = false,
+							["start_time"] = 1596192714,
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 306,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PALADIN",
+							["totalover"] = 0.004663,
+							["total_without_pet"] = 4296.004663,
+							["total"] = 4296.004663,
+							["targets_absorbs"] = {
+								["Korugen"] = 4296,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-3391-0A827D5A",
+							["totalabsorb"] = 4296.004663,
+							["last_hps"] = 178.3906927580741,
+							["targets"] = {
+								["Korugen"] = 4296,
+							},
+							["totalover_without_pet"] = 0.004663,
+							["healing_taken"] = 4296.004663,
+							["fight_component"] = true,
+							["end_time"] = 1596192722,
+							["healing_from"] = {
+								["Korugen"] = true,
+							},
+							["nome"] = "Korugen",
+							["spells"] = {
+								["_ActorTable"] = {
+									[203791] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 2416,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 371,
+										["targets"] = {
+											["Korugen"] = 2416,
+										},
+										["n_min"] = 28,
+										["counter"] = 14,
+										["overheal"] = 0,
+										["total"] = 2416,
+										["c_max"] = 0,
+										["id"] = 203791,
+										["targets_absorbs"] = {
+											["Korugen"] = 2416,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 2416,
+										["n_amt"] = 14,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[229976] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1880,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 538,
+										["targets"] = {
+											["Korugen"] = 1880,
+										},
+										["n_min"] = 135,
+										["counter"] = 5,
+										["overheal"] = 0,
+										["total"] = 1880,
+										["c_max"] = 0,
+										["id"] = 229976,
+										["targets_absorbs"] = {
+											["Korugen"] = 1880,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 1880,
+										["n_amt"] = 5,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["tipo"] = 2,
+							["start_time"] = 1596192701,
+							["custom"] = 0,
+							["last_event"] = 1596192721,
+							["spec"] = 66,
+							["totaldenied"] = 0.004663,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 306,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 306,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[204301] = {
+										["appliedamt"] = 6,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 10,
+										["id"] = 204301,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[62124] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = 62124,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[204242] = {
+										["appliedamt"] = 5,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 7,
+										["id"] = 204242,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 110,
+							["classe"] = "PALADIN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[225787] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 24,
+										["id"] = 225787,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[132403] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 132403,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188370] = {
+										["appliedamt"] = 4,
+										["targets"] = {
+										},
+										["activedamt"] = 4,
+										["uptime"] = 23,
+										["id"] = 188370,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[197561] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 9,
+										["id"] = 197561,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[31884] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 20,
+										["id"] = 31884,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[294027] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 20,
+										["id"] = 294027,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 23,
+							["nome"] = "Korugen",
+							["spec"] = 66,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[62124] = 2,
+								[26573] = 4,
+								[275779] = 5,
+								[204019] = 2,
+								[53600] = 3,
+								[255647] = 1,
+								[31884] = 1,
+								[31935] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1596192722,
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["isTank"] = true,
+							["serial"] = "Player-3391-0A827D5A",
+							["buff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["tipo"] = 4,
+							["nome"] = "Stone Golem",
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								[257659] = 1,
+								[257657] = 1,
+								[270871] = 1,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-3102-1643-1282-137708-000023F7B3",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 306,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Korugen"] = true,
+				},
+				["CombatStartedAt"] = 4978.009,
+				["tempo_start"] = 1596192698,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 503,
+				["playing_solo"] = true,
+				["totals"] = {
+					272371.8758639995, -- [1]
+					4295.989882, -- [2]
+					{
+						-0.02753999999998769, -- [1]
+						[0] = -0.0053,
+						["alternatepower"] = 0,
+						[3] = -0.00236,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = -0.00533399999999995,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "12:52:03",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stone Golem",
+				["TotalElapsedCombatTime"] = 24.08200000000034,
+				["CombatEndedAt"] = 14395.031,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "12:51:39",
+				["end_time"] = 14395.031,
+				["combat_id"] = 306,
+				["frags"] = {
+					["Stone Golem"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						9108.002792, -- [1]
+						5453, -- [2]
+						420, -- [3]
+						3921, -- [4]
+						1008, -- [5]
+						11069, -- [6]
+						4489, -- [7]
+						56030, -- [8]
+						19395, -- [9]
+						4495, -- [10]
+						7363, -- [11]
+						1008, -- [12]
+						8475.000000000015, -- [13]
+						8519, -- [14]
+						6717, -- [15]
+						2015, -- [16]
+						3626, -- [17]
+						7264, -- [18]
+						5631, -- [19]
+						27093, -- [20]
+						15876, -- [21]
+						2128, -- [22]
+						6467, -- [23]
+						7051, -- [24]
+						["max_value"] = 56030,
+					},
+					["Raid Damage Done"] = {
+						9108, -- [1]
+						5453, -- [2]
+						420, -- [3]
+						3921, -- [4]
+						1008, -- [5]
+						11069, -- [6]
+						4489, -- [7]
+						56030, -- [8]
+						19395, -- [9]
+						4495, -- [10]
+						7363, -- [11]
+						1008, -- [12]
+						8475, -- [13]
+						8519, -- [14]
+						6717, -- [15]
+						2015, -- [16]
+						3626, -- [17]
+						7264, -- [18]
+						5631, -- [19]
+						27093, -- [20]
+						15876, -- [21]
+						2128, -- [22]
+						6467, -- [23]
+						7051, -- [24]
+						["max_value"] = 56030,
+					},
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					224621, -- [1]
+					4296, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 14370.949,
+				["contra"] = "Stone Golem",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Korugen"] = 4296.004663,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Korugen"] = 224621.002792,
+						}, -- [1]
+					},
+				},
+			}, -- [4]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 305,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005323,
+							["damage_from"] = {
+								["Cursed Game-hawk"] = true,
+								["Cottontail Matron"] = true,
+								["Frenzied Cottontail"] = true,
+							},
+							["targets"] = {
+								["Cursed Game-hawk"] = 47594,
+								["Cottontail Matron"] = 230251,
+								["Frenzied Cottontail"] = 243062,
+							},
+							["total"] = 520907.005323,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["spec"] = 66,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 520907.005323,
+							["avoidance"] = {
+								["Cottontail Matron"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 2029,
+									["BLOCKED_HITS"] = 6,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 26,
+									["PARTIAL_ABSORBED"] = 26,
+									["PARRY"] = 11,
+									["PARTIAL_ABSORB_AMT"] = 1791,
+									["ABSORB"] = 26,
+									["ABSORB_AMT"] = 1791,
+									["FULL_HIT"] = 0,
+									["HITS"] = 21,
+									["FULL_HIT_AMT"] = 0,
+								},
+								["Frenzied Cottontail"] = {
+									["DODGE"] = 3,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 1965,
+									["BLOCKED_HITS"] = 17,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 64,
+									["PARTIAL_ABSORBED"] = 64,
+									["PARRY"] = 18,
+									["PARTIAL_ABSORB_AMT"] = 3757,
+									["ABSORB"] = 64,
+									["ABSORB_AMT"] = 3757,
+									["FULL_HIT"] = 0,
+									["HITS"] = 64,
+									["FULL_HIT_AMT"] = 0,
+								},
+								["Cursed Game-hawk"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 14,
+									["PARTIAL_ABSORBED"] = 14,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 2772,
+									["ABSORB"] = 14,
+									["ABSORB_AMT"] = 2772,
+									["FULL_HIT"] = 0,
+									["HITS"] = 2,
+									["FULL_HIT_AMT"] = 0,
+								},
+								["overall"] = {
+									["DODGE"] = 3,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 3994,
+									["BLOCKED_HITS"] = 23,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 104,
+									["PARTIAL_ABSORBED"] = 104,
+									["PARRY"] = 29,
+									["PARTIAL_ABSORB_AMT"] = 8320,
+									["ABSORB"] = 104,
+									["ABSORB_AMT"] = 8320,
+									["FULL_HIT"] = 0,
+									["HITS"] = 87,
+									["FULL_HIT_AMT"] = 0,
+								},
+							},
+							["classe"] = "PALADIN",
+							["dps_started"] = false,
+							["end_time"] = 1596192676,
+							["serial"] = "Player-3391-0A827D5A",
+							["isTank"] = true,
+							["nome"] = "Korugen",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 30573,
+										["g_amt"] = 0,
+										["n_max"] = 3202,
+										["targets"] = {
+											["Cursed Game-hawk"] = 13093,
+											["Cottontail Matron"] = 65419,
+											["Frenzied Cottontail"] = 2456,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 50395,
+										["n_min"] = 2386,
+										["g_dmg"] = 0,
+										["counter"] = 28,
+										["DODGE"] = 3,
+										["r_amt"] = 0,
+										["c_max"] = 5399,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["r_dmg"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 4839,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 19,
+										["id"] = 1,
+										["total"] = 80968,
+									}, -- [1]
+									[31935] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 37826,
+										["g_amt"] = 0,
+										["n_max"] = 5490,
+										["targets"] = {
+											["Frenzied Cottontail"] = 58915,
+											["Cottontail Matron"] = 28438,
+											["Cursed Game-hawk"] = 9388,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 58915,
+										["n_min"] = 4401,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 96741,
+										["c_max"] = 9975,
+										["spellschool"] = 2,
+										["id"] = 31935,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 8803,
+										["n_amt"] = 12,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[275779] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 8187,
+										["targets"] = {
+											["Cursed Game-hawk"] = 14080,
+											["Cottontail Matron"] = 79303,
+											["Frenzied Cottontail"] = 7730,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 101113,
+										["n_min"] = 6678,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 101113,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 275779,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 14,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[204301] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1679,
+										["g_amt"] = 0,
+										["n_max"] = 1047,
+										["targets"] = {
+											["Cursed Game-hawk"] = 3589,
+											["Cottontail Matron"] = 5188,
+											["Frenzied Cottontail"] = 18943,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 26041,
+										["n_min"] = 839,
+										["g_dmg"] = 0,
+										["counter"] = 29,
+										["total"] = 27720,
+										["c_max"] = 1679,
+										["spellschool"] = 2,
+										["id"] = 204301,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 1679,
+										["n_amt"] = 28,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[81297] = {
+										["c_amt"] = 27,
+										["b_amt"] = 0,
+										["c_dmg"] = 25732,
+										["g_amt"] = 0,
+										["n_max"] = 533,
+										["targets"] = {
+											["Cursed Game-hawk"] = 7444,
+											["Cottontail Matron"] = 27295,
+											["Frenzied Cottontail"] = 74815,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 83822,
+										["n_min"] = 419,
+										["g_dmg"] = 0,
+										["counter"] = 203,
+										["total"] = 109554,
+										["c_max"] = 1065,
+										["spellschool"] = 2,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 839,
+										["n_amt"] = 176,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[53600] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 24313,
+										["g_amt"] = 0,
+										["n_max"] = 4076,
+										["targets"] = {
+											["Cottontail Matron"] = 24608,
+											["Frenzied Cottontail"] = 80203,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 80498,
+										["n_min"] = 2771,
+										["g_dmg"] = 0,
+										["counter"] = 25,
+										["DODGE"] = 1,
+										["r_amt"] = 0,
+										["c_max"] = 8154,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["r_dmg"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 8006,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 21,
+										["id"] = 53600,
+										["total"] = 104811,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["last_event"] = 1596192676,
+							["colocacao"] = 1,
+							["last_dps"] = 8562.901802031716,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1596192616,
+							["delay"] = 0,
+							["damage_taken"] = 47976.00532300001,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 2414.005354,
+							["damage_from"] = {
+								["Modar"] = true,
+								["Mngt-SteamwheedleCartel"] = true,
+								["Qrota"] = true,
+								["Korugen"] = true,
+							},
+							["targets"] = {
+								["Modar"] = 6555,
+								["Qrota"] = 5202,
+								["Korugen"] = 17930,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 29687.005354,
+							["serial"] = "Creature-0-3102-1643-1282-129904-000023F772",
+							["dps_started"] = false,
+							["total"] = 29687.005354,
+							["end_time"] = 1596192676,
+							["on_hold"] = false,
+							["nome"] = "Cottontail Matron",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 6,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1394,
+										["targets"] = {
+											["Korugen"] = 16370,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 16370,
+										["MISS"] = 1,
+										["n_min"] = 246,
+										["g_dmg"] = 0,
+										["counter"] = 31,
+										["a_amt"] = 21,
+										["total"] = 16370,
+										["spellschool"] = 1,
+										["b_dmg"] = 2627,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["PARRY"] = 9,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 16370,
+										["n_amt"] = 21,
+										["c_max"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[259328] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3103,
+										["targets"] = {
+											["Modar"] = 6555,
+											["Qrota"] = 5202,
+											["Korugen"] = 1560,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13317,
+										["n_min"] = 219,
+										["g_dmg"] = 0,
+										["counter"] = 17,
+										["total"] = 13317,
+										["c_max"] = 0,
+										["a_amt"] = 6,
+										["id"] = 259328,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["a_dmg"] = 2217,
+										["r_amt"] = 0,
+									},
+									[259331] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 259331,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_event"] = 1596192675,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 329800.005354,
+							["start_time"] = 1596192631,
+							["delay"] = 0,
+							["fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 8473.00184,
+							["damage_from"] = {
+								["Korugen"] = true,
+								["Mngt-SteamwheedleCartel"] = true,
+							},
+							["targets"] = {
+								["Korugen"] = 18213,
+								["Mngt-SteamwheedleCartel"] = 8473,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 26686.00184,
+							["serial"] = "Creature-0-3102-1643-1282-122961-000023F6F7",
+							["dps_started"] = false,
+							["total"] = 26686.00184,
+							["end_time"] = 1596192676,
+							["on_hold"] = false,
+							["nome"] = "Cursed Game-hawk",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2048,
+										["targets"] = {
+											["Korugen"] = 2368,
+											["Mngt-SteamwheedleCartel"] = 5840,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 8208,
+										["n_min"] = 1124,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 8208,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 2,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 2368,
+										["r_amt"] = 0,
+									}, -- [1]
+									[256498] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1064,
+										["targets"] = {
+											["Korugen"] = 3127,
+											["Mngt-SteamwheedleCartel"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3127,
+										["n_min"] = 1031,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 3127,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 256498,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 3,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["c_min"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 3127,
+										["r_amt"] = 0,
+									},
+									[256499] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2633,
+										["targets"] = {
+											["Korugen"] = 2756,
+											["Mngt-SteamwheedleCartel"] = 2633,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5389,
+										["n_min"] = 1108,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 5389,
+										["c_max"] = 0,
+										["id"] = 256499,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 2756,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_amt"] = 2,
+										["r_amt"] = 0,
+									},
+									[269800] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3070,
+										["targets"] = {
+											["Korugen"] = 9962,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 9962,
+										["n_min"] = 1110,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 9962,
+										["c_max"] = 0,
+										["id"] = 269800,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 9962,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_amt"] = 7,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_event"] = 1596192673,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 82308.00184,
+							["start_time"] = 1596192652,
+							["delay"] = 1596192630,
+							["fight_component"] = true,
+						}, -- [3]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.00618,
+							["damage_from"] = {
+								["Korugen"] = true,
+							},
+							["targets"] = {
+								["Korugen"] = 11833,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 11833.00618,
+							["serial"] = "Creature-0-3102-1643-1282-129899-0002A3F768",
+							["dps_started"] = false,
+							["total"] = 11833.00618,
+							["end_time"] = 1596192676,
+							["on_hold"] = false,
+							["nome"] = "Frenzied Cottontail",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 17,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 350,
+										["targets"] = {
+											["Korugen"] = 11833,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 11833,
+										["DODGE"] = 3,
+										["MISS"] = 2,
+										["n_min"] = 59,
+										["a_amt"] = 64,
+										["counter"] = 87,
+										["r_amt"] = 0,
+										["total"] = 11833,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["r_dmg"] = 0,
+										["a_dmg"] = 11833,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["PARRY"] = 18,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["id"] = 1,
+										["n_amt"] = 64,
+										["b_dmg"] = 2079,
+										["g_dmg"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["last_event"] = 1596192643,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 243062.00618,
+							["start_time"] = 1596192653,
+							["delay"] = 1596192643,
+							["fight_component"] = true,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 305,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Korugen"] = 13868,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PALADIN",
+							["totalover"] = 13868.001144,
+							["total_without_pet"] = 46146.001144,
+							["total"] = 46146.001144,
+							["targets_absorbs"] = {
+								["Korugen"] = 8341,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-3391-0A827D5A",
+							["totalabsorb"] = 8341.001144,
+							["last_hps"] = 758.5685589071654,
+							["targets"] = {
+								["Korugen"] = 46146,
+							},
+							["totalover_without_pet"] = 0.001144,
+							["healing_taken"] = 46146.001144,
+							["fight_component"] = true,
+							["end_time"] = 1596192676,
+							["healing_from"] = {
+								["Korugen"] = true,
+							},
+							["nome"] = "Korugen",
+							["spells"] = {
+								["_ActorTable"] = {
+									[203791] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 7532,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 505,
+										["targets"] = {
+											["Korugen"] = 7532,
+										},
+										["n_min"] = 10,
+										["counter"] = 104,
+										["overheal"] = 0,
+										["total"] = 7532,
+										["c_max"] = 0,
+										["id"] = 203791,
+										["targets_absorbs"] = {
+											["Korugen"] = 7532,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 7532,
+										["n_amt"] = 104,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[229976] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 809,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 128,
+										["targets"] = {
+											["Korugen"] = 809,
+										},
+										["n_min"] = 17,
+										["counter"] = 19,
+										["overheal"] = 0,
+										["total"] = 809,
+										["c_max"] = 0,
+										["id"] = 229976,
+										["targets_absorbs"] = {
+											["Korugen"] = 809,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 809,
+										["n_amt"] = 19,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[213652] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Korugen"] = 13868,
+										},
+										["n_max"] = 27725,
+										["targets"] = {
+											["Korugen"] = 37805,
+										},
+										["n_min"] = 10080,
+										["counter"] = 2,
+										["overheal"] = 13868,
+										["total"] = 37805,
+										["c_max"] = 0,
+										["id"] = 213652,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 37805,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["tipo"] = 2,
+							["start_time"] = 1596192615,
+							["custom"] = 0,
+							["last_event"] = 1596192675,
+							["spec"] = 66,
+							["totaldenied"] = 0.001144,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 305,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 305,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[204301] = {
+										["appliedamt"] = 22,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 19,
+										["id"] = 204301,
+										["refreshamt"] = 7,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[31935] = {
+										["appliedamt"] = 4,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 11,
+										["id"] = 31935,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[204242] = {
+										["appliedamt"] = 33,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 53,
+										["id"] = 204242,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[62124] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = 62124,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["cooldowns_defensive"] = 1.007725,
+							["buff_uptime"] = 185,
+							["last_cooldown"] = {
+								1596192633.087, -- [1]
+								31850, -- [2]
+							},
+							["classe"] = "PALADIN",
+							["cooldowns_defensive_targets"] = {
+								["Korugen"] = 1,
+							},
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[225787] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 61,
+										["id"] = 225787,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[132403] = {
+										["appliedamt"] = 5,
+										["targets"] = {
+										},
+										["activedamt"] = 5,
+										["uptime"] = 31,
+										["id"] = 132403,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[197561] = {
+										["appliedamt"] = 4,
+										["targets"] = {
+										},
+										["activedamt"] = 4,
+										["uptime"] = 30,
+										["id"] = 197561,
+										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[31850] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 31850,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188370] = {
+										["appliedamt"] = 8,
+										["targets"] = {
+										},
+										["activedamt"] = 8,
+										["uptime"] = 55,
+										["id"] = 188370,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 86,
+							["nome"] = "Korugen",
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 66,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[62124] = 1,
+								[31935] = 7,
+								[275779] = 14,
+								[213652] = 2,
+								[31850] = 1,
+								[53600] = 7,
+								[26573] = 8,
+								[204019] = 7,
+							},
+							["cooldowns_defensive_spells"] = {
+								["_ActorTable"] = {
+									[31850] = {
+										["id"] = 31850,
+										["targets"] = {
+											["Korugen"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["last_event"] = 1596192676,
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["isTank"] = true,
+							["serial"] = "Player-3391-0A827D5A",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["tipo"] = 4,
+							["nome"] = "Cursed Game-hawk",
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								[256498] = 2,
+								[256499] = 3,
+								[269800] = 1,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-3102-1643-1282-122961-000023F6F7",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["tipo"] = 4,
+							["nome"] = "Cottontail Matron",
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								[259328] = 3,
+								[259331] = 3,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-3102-1643-1282-129904-000023F772",
+							["classe"] = "UNKNOW",
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 305,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Korugen"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 502,
+				["playing_solo"] = true,
+				["totals"] = {
+					589112.9738370001, -- [1]
+					46145.984084, -- [2]
+					{
+						-0.005014, -- [1]
+						[0] = -0.009073999999999999,
+						["alternatepower"] = 0,
+						[3] = -0.01274599999999282,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 1,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "12:51:17",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Cursed Game-hawk",
+				["TotalElapsedCombatTime"] = 14349.449,
+				["CombatEndedAt"] = 14349.449,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "12:50:16",
+				["end_time"] = 14349.449,
+				["combat_id"] = 305,
+				["spells_cast_timeline"] = {
+				},
+				["tempo_start"] = 1596192615,
+				["frags"] = {
+					["Cursed Game-hawk"] = 2,
+					["Cottontail Matron"] = 1,
+					["Frenzied Cottontail"] = 13,
+				},
+				["contra"] = "Cursed Game-hawk",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					520907, -- [1]
+					46146, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 1,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 14288.616,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						9161.005323, -- [1]
+						420, -- [2]
+						1679, -- [3]
+						12120, -- [4]
+						1725, -- [5]
+						3989, -- [6]
+						12857, -- [7]
+						4185, -- [8]
+						16499, -- [9]
+						22799.99999999999, -- [10]
+						7764, -- [11]
+						7769, -- [12]
+						7766, -- [13]
+						13674, -- [14]
+						61218, -- [15]
+						0, -- [16]
+						21702, -- [17]
+						23389, -- [18]
+						9909, -- [19]
+						55549.00000000003, -- [20]
+						2787, -- [21]
+						15589, -- [22]
+						5535, -- [23]
+						21833, -- [24]
+						22471, -- [25]
+						2159, -- [26]
+						8162, -- [27]
+						14125, -- [28]
+						0, -- [29]
+						5609, -- [30]
+						420, -- [31]
+						12023, -- [32]
+						420, -- [33]
+						2518, -- [34]
+						8868, -- [35]
+						2848, -- [36]
+						5894, -- [37]
+						839, -- [38]
+						9222, -- [39]
+						9857, -- [40]
+						881, -- [41]
+						5417, -- [42]
+						440, -- [43]
+						7454, -- [44]
+						2826, -- [45]
+						441, -- [46]
+						4589, -- [47]
+						441, -- [48]
+						7992, -- [49]
+						7454, -- [50]
+						7453, -- [51]
+						6884, -- [52]
+						1768, -- [53]
+						3403, -- [54]
+						8096, -- [55]
+						883, -- [56]
+						1338, -- [57]
+						2653, -- [58]
+						3377, -- [59]
+						441, -- [60]
+						["max_value"] = 61218,
+					},
+					["Raid Damage Done"] = {
+						9161, -- [1]
+						420, -- [2]
+						1679, -- [3]
+						12120, -- [4]
+						1725, -- [5]
+						3989, -- [6]
+						12857, -- [7]
+						4185, -- [8]
+						16499, -- [9]
+						22800, -- [10]
+						7764, -- [11]
+						7769, -- [12]
+						7766, -- [13]
+						13674, -- [14]
+						61218, -- [15]
+						0, -- [16]
+						21702, -- [17]
+						23389, -- [18]
+						9909, -- [19]
+						55549, -- [20]
+						2787, -- [21]
+						15589, -- [22]
+						5535, -- [23]
+						21833, -- [24]
+						22471, -- [25]
+						2159, -- [26]
+						8162, -- [27]
+						14125, -- [28]
+						0, -- [29]
+						5609, -- [30]
+						420, -- [31]
+						12023, -- [32]
+						420, -- [33]
+						2518, -- [34]
+						8868, -- [35]
+						2848, -- [36]
+						5894, -- [37]
+						839, -- [38]
+						9222, -- [39]
+						9857, -- [40]
+						881, -- [41]
+						5417, -- [42]
+						440, -- [43]
+						7454, -- [44]
+						2826, -- [45]
+						441, -- [46]
+						4589, -- [47]
+						441, -- [48]
+						7992, -- [49]
+						7454, -- [50]
+						7453, -- [51]
+						6884, -- [52]
+						1768, -- [53]
+						3403, -- [54]
+						8096, -- [55]
+						883, -- [56]
+						1338, -- [57]
+						2653, -- [58]
+						3377, -- [59]
+						441, -- [60]
+						["max_value"] = 61218,
+					},
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Korugen"] = 46146.001144,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Korugen"] = 520907.005323,
+						}, -- [1]
+					},
+				},
+			}, -- [5]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 304,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007097,
+							["damage_from"] = {
+								["Emily Mayville"] = true,
+								["Soul Pillar"] = true,
+							},
+							["targets"] = {
+								["Emily Mayville"] = 310477,
+							},
+							["total"] = 310477.007097,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["spec"] = 66,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 310477.007097,
+							["avoidance"] = {
+								["Emily Mayville"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 1463,
+									["BLOCKED_HITS"] = 2,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 53,
+									["PARTIAL_ABSORBED"] = 53,
+									["PARRY"] = 4,
+									["PARTIAL_ABSORB_AMT"] = 1836,
+									["ABSORB"] = 53,
+									["ABSORB_AMT"] = 1836,
+									["FULL_HIT"] = 0,
+									["HITS"] = 11,
+									["FULL_HIT_AMT"] = 0,
+								},
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 1463,
+									["BLOCKED_HITS"] = 2,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 94,
+									["PARTIAL_ABSORBED"] = 93,
+									["PARRY"] = 4,
+									["PARTIAL_ABSORB_AMT"] = 4435,
+									["ABSORB"] = 93,
+									["ABSORB_AMT"] = 4435,
+									["FULL_HIT"] = 1,
+									["HITS"] = 11,
+									["FULL_HIT_AMT"] = 2145,
+								},
+								["Soul Pillar"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 41,
+									["PARTIAL_ABSORBED"] = 40,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 2599,
+									["ABSORB"] = 40,
+									["ABSORB_AMT"] = 2599,
+									["FULL_HIT"] = 1,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 2145,
+								},
+							},
+							["classe"] = "PALADIN",
+							["dps_started"] = false,
+							["end_time"] = 1596192571,
+							["serial"] = "Player-3391-0A827D5A",
+							["isTank"] = true,
+							["nome"] = "Korugen",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 31824,
+										["g_amt"] = 0,
+										["n_max"] = 2889,
+										["targets"] = {
+											["Emily Mayville"] = 83790,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 51966,
+										["n_min"] = 2318,
+										["g_dmg"] = 0,
+										["counter"] = 27,
+										["total"] = 83790,
+										["c_max"] = 5943,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 4759,
+										["n_amt"] = 21,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[268525] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 4897,
+										["g_amt"] = 0,
+										["n_max"] = 2448,
+										["targets"] = {
+											["Emily Mayville"] = 9793,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4896,
+										["n_min"] = 2448,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 9793,
+										["c_max"] = 4897,
+										["spellschool"] = 1,
+										["id"] = 268525,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 4897,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[275779] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 15671,
+										["g_amt"] = 0,
+										["n_max"] = 8015,
+										["targets"] = {
+											["Emily Mayville"] = 100058,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 84387,
+										["n_min"] = 6529,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 100058,
+										["c_max"] = 15671,
+										["spellschool"] = 2,
+										["id"] = 275779,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 15671,
+										["n_amt"] = 12,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[53600] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 13220,
+										["g_amt"] = 0,
+										["n_max"] = 3901,
+										["targets"] = {
+											["Emily Mayville"] = 31950,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 18730,
+										["n_min"] = 2709,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 31950,
+										["c_max"] = 7802,
+										["spellschool"] = 2,
+										["id"] = 53600,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 5418,
+										["n_amt"] = 6,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[204301] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1679,
+										["g_amt"] = 0,
+										["n_max"] = 839,
+										["targets"] = {
+											["Emily Mayville"] = 9974,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 8295,
+										["n_min"] = 820,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 9974,
+										["c_max"] = 1679,
+										["spellschool"] = 2,
+										["id"] = 204301,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 1679,
+										["n_amt"] = 10,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[256893] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 23223,
+										["targets"] = {
+											["Emily Mayville"] = 23223,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 23223,
+										["n_min"] = 23223,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 23223,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 256893,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[81297] = {
+										["c_amt"] = 10,
+										["b_amt"] = 0,
+										["c_dmg"] = 8943,
+										["g_amt"] = 0,
+										["n_max"] = 503,
+										["targets"] = {
+											["Emily Mayville"] = 29214,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 20271,
+										["n_min"] = 409,
+										["g_dmg"] = 0,
+										["counter"] = 57,
+										["total"] = 29214,
+										["c_max"] = 1008,
+										["spellschool"] = 2,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 820,
+										["n_amt"] = 47,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[31935] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 8607,
+										["g_amt"] = 0,
+										["n_max"] = 5164,
+										["targets"] = {
+											["Emily Mayville"] = 22475,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13868,
+										["n_min"] = 4303,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 22475,
+										["c_max"] = 8607,
+										["spellschool"] = 2,
+										["id"] = 31935,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 8607,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["last_event"] = 1596192560,
+							["colocacao"] = 1,
+							["last_dps"] = 4164.122949262368,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1596192506,
+							["delay"] = 1596192560,
+							["damage_taken"] = 132753.007097,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.003345,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Korugen"] = 86773,
+							},
+							["pets"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1596192571,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 86773.003345,
+							["serial"] = "Creature-0-3102-1643-1282-137479-000023F6FC",
+							["monster"] = true,
+							["total"] = 86773.003345,
+							["fight_component"] = true,
+							["on_hold"] = false,
+							["nome"] = "Soul Pillar",
+							["spells"] = {
+								["_ActorTable"] = {
+									[270161] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2189,
+										["targets"] = {
+											["Korugen"] = 86773,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 86773,
+										["n_min"] = 2080,
+										["g_dmg"] = 0,
+										["counter"] = 41,
+										["total"] = 86773,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 270161,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 40,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 41,
+										["a_dmg"] = 84628,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_event"] = 1596192561,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.003345,
+							["start_time"] = 1596192517,
+							["delay"] = 1596192561,
+							["classe"] = "UNKNOW",
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.007146,
+							["damage_from"] = {
+								["Korugen"] = true,
+							},
+							["targets"] = {
+								["Korugen"] = 45980,
+							},
+							["pets"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1596192571,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 45980.007146,
+							["serial"] = "Creature-0-3102-1643-1282-129995-000023F6D5",
+							["monster"] = true,
+							["total"] = 45980.007146,
+							["fight_component"] = true,
+							["on_hold"] = false,
+							["nome"] = "Emily Mayville",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 2,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1544,
+										["targets"] = {
+											["Korugen"] = 10906,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 10906,
+										["n_min"] = 685,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["a_amt"] = 11,
+										["r_amt"] = 0,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["r_dmg"] = 0,
+										["b_dmg"] = 1925,
+										["a_dmg"] = 10906,
+										["m_crit"] = 0,
+										["PARRY"] = 4,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 11,
+										["id"] = 1,
+										["total"] = 10906,
+									}, -- [1]
+									[270157] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 730,
+										["targets"] = {
+											["Korugen"] = 28139,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 28139,
+										["n_min"] = 693,
+										["g_dmg"] = 0,
+										["counter"] = 40,
+										["total"] = 28139,
+										["c_max"] = 0,
+										["id"] = 270157,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 28139,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 4,
+										["b_dmg"] = 0,
+										["n_amt"] = 40,
+										["a_amt"] = 40,
+										["r_amt"] = 0,
+									},
+									[270158] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 270158,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 6,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[256871] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3468,
+										["targets"] = {
+											["Korugen"] = 6935,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6935,
+										["n_min"] = 3467,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 6935,
+										["c_max"] = 0,
+										["id"] = 256871,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 6935,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_amt"] = 2,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_event"] = 1596192560,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 310477.007146,
+							["start_time"] = 1596192508,
+							["delay"] = 1596192560,
+							["classe"] = "UNKNOW",
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 304,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PALADIN",
+							["totalover"] = 0.001502,
+							["total_without_pet"] = 137892.001502,
+							["total"] = 137892.001502,
+							["targets_absorbs"] = {
+								["Korugen"] = 4435,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-3391-0A827D5A",
+							["totalabsorb"] = 4435.001502,
+							["last_hps"] = 2067.873393548609,
+							["targets"] = {
+								["Korugen"] = 137892,
+							},
+							["totalover_without_pet"] = 0.001502,
+							["healing_taken"] = 137892.001502,
+							["fight_component"] = true,
+							["end_time"] = 1596192571,
+							["healing_from"] = {
+								["Korugen"] = true,
+							},
+							["nome"] = "Korugen",
+							["spells"] = {
+								["_ActorTable"] = {
+									[203791] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 4010,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 107,
+										["targets"] = {
+											["Korugen"] = 4010,
+										},
+										["n_min"] = 21,
+										["counter"] = 93,
+										["overheal"] = 0,
+										["total"] = 4010,
+										["c_max"] = 0,
+										["id"] = 203791,
+										["targets_absorbs"] = {
+											["Korugen"] = 4010,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 4010,
+										["n_amt"] = 93,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[229976] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 425,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 129,
+										["targets"] = {
+											["Korugen"] = 425,
+										},
+										["n_min"] = 93,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 425,
+										["c_max"] = 0,
+										["id"] = 229976,
+										["targets_absorbs"] = {
+											["Korugen"] = 425,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 425,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[213652] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 39673,
+										["targets"] = {
+											["Korugen"] = 133457,
+										},
+										["n_min"] = 39673,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 133457,
+										["c_max"] = 93784,
+										["id"] = 213652,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 93784,
+										["m_crit"] = 0,
+										["c_min"] = 93784,
+										["m_amt"] = 0,
+										["n_curado"] = 39673,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["tipo"] = 2,
+							["start_time"] = 1596192498,
+							["custom"] = 0,
+							["last_event"] = 1596192563,
+							["spec"] = 66,
+							["totaldenied"] = 0.001502,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 304,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 304,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[204301] = {
+										["appliedamt"] = 4,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 21,
+										["id"] = 204301,
+										["refreshamt"] = 7,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[31935] = {
+										["appliedamt"] = 4,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 9,
+										["id"] = 31935,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[204242] = {
+										["appliedamt"] = 5,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 49,
+										["id"] = 204242,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 220,
+							["classe"] = "PALADIN",
+							["interrupt_spells"] = {
+								["_ActorTable"] = {
+									[96231] = {
+										["id"] = 96231,
+										["interrompeu_oque"] = {
+											[256871] = 2,
+										},
+										["targets"] = {
+											["Emily Mayville"] = 2,
+										},
+										["counter"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[225787] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 75,
+										["id"] = 225787,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[132403] = {
+										["appliedamt"] = 6,
+										["targets"] = {
+										},
+										["activedamt"] = 6,
+										["uptime"] = 38,
+										["id"] = 132403,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188370] = {
+										["appliedamt"] = 5,
+										["targets"] = {
+										},
+										["activedamt"] = 5,
+										["uptime"] = 51,
+										["id"] = 188370,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[294027] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 294027,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[31884] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 20,
+										["id"] = 31884,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[197561] = {
+										["appliedamt"] = 4,
+										["targets"] = {
+										},
+										["activedamt"] = 4,
+										["uptime"] = 19,
+										["id"] = 197561,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["interrompeu_oque"] = {
+								[256871] = 2,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 79,
+							["interrupt_targets"] = {
+								["Emily Mayville"] = 2,
+							},
+							["interrupt"] = 2.005719,
+							["spec"] = 66,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[213652] = 2,
+								[31935] = 4,
+								[26573] = 4,
+								[255647] = 1,
+								[204019] = 5,
+								[31884] = 1,
+								[96231] = 3,
+								[53600] = 8,
+								[275779] = 13,
+							},
+							["pets"] = {
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1596192571,
+							["nome"] = "Korugen",
+							["tipo"] = 4,
+							["serial"] = "Player-3391-0A827D5A",
+							["buff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["tipo"] = 4,
+							["nome"] = "Emily Mayville",
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								[270157] = 4,
+								[270158] = 6,
+								[256871] = 2,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-3102-1643-1282-129995-000023F6D5",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 304,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Korugen"] = true,
+				},
+				["CombatStartedAt"] = 14283.691,
+				["tempo_start"] = 1596192496,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 501,
+				["playing_solo"] = true,
+				["totals"] = {
+					443229.98227, -- [1]
+					137891.991238, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 2,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "12:49:32",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Emily Mayville",
+				["TotalElapsedCombatTime"] = 10.88299999999981,
+				["CombatEndedAt"] = 14283.249,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "12:48:17",
+				["end_time"] = 14244.143,
+				["combat_id"] = 304,
+				["frags"] = {
+					["Emily Mayville"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						6156.007097, -- [1]
+						4821, -- [2]
+						12918, -- [3]
+						420, -- [4]
+						3704, -- [5]
+						2098, -- [6]
+						10440, -- [7]
+						419, -- [8]
+						7519, -- [9]
+						6062, -- [10]
+						420, -- [11]
+						7951, -- [12]
+						2099, -- [13]
+						3687.999999999993, -- [14]
+						7350, -- [15]
+						410, -- [16]
+						2757, -- [17]
+						410, -- [18]
+						2738, -- [19]
+						1230, -- [20]
+						5273, -- [21]
+						409, -- [22]
+						0, -- [23]
+						2456, -- [24]
+						0, -- [25]
+						4812, -- [26]
+						0, -- [27]
+						0, -- [28]
+						2361, -- [29]
+						0, -- [30]
+						7736, -- [31]
+						8607, -- [32]
+						2439, -- [33]
+						6530, -- [34]
+						410, -- [35]
+						2902, -- [36]
+						1258, -- [37]
+						3586, -- [38]
+						6940, -- [39]
+						2836, -- [40]
+						10190, -- [41]
+						1230, -- [42]
+						5462, -- [43]
+						1230, -- [44]
+						3631, -- [45]
+						8171, -- [46]
+						7160, -- [47]
+						3162, -- [48]
+						420, -- [49]
+						2939, -- [50]
+						1007, -- [51]
+						6446, -- [52]
+						8518, -- [53]
+						1008, -- [54]
+						35404, -- [55]
+						491, -- [56]
+						11110, -- [57]
+						491, -- [58]
+						19481.00000000003, -- [59]
+						6148, -- [60]
+						491, -- [61]
+						13940, -- [62]
+						8294, -- [63]
+						11888, -- [64]
+						0, -- [65]
+						0, -- [66]
+						0, -- [67]
+						0, -- [68]
+						0, -- [69]
+						0, -- [70]
+						0, -- [71]
+						0, -- [72]
+						0, -- [73]
+						0, -- [74]
+						["max_value"] = 35404,
+					},
+					["Raid Damage Done"] = {
+						6156, -- [1]
+						4821, -- [2]
+						12918, -- [3]
+						420, -- [4]
+						3704, -- [5]
+						2098, -- [6]
+						10440, -- [7]
+						419, -- [8]
+						7519, -- [9]
+						6062, -- [10]
+						420, -- [11]
+						7951, -- [12]
+						2099, -- [13]
+						3688, -- [14]
+						7350, -- [15]
+						410, -- [16]
+						2757, -- [17]
+						410, -- [18]
+						2738, -- [19]
+						1230, -- [20]
+						5273, -- [21]
+						409, -- [22]
+						0, -- [23]
+						2456, -- [24]
+						0, -- [25]
+						4812, -- [26]
+						0, -- [27]
+						0, -- [28]
+						2361, -- [29]
+						0, -- [30]
+						7736, -- [31]
+						8607, -- [32]
+						2439, -- [33]
+						6530, -- [34]
+						410, -- [35]
+						2902, -- [36]
+						1258, -- [37]
+						3586, -- [38]
+						6940, -- [39]
+						2836, -- [40]
+						10190, -- [41]
+						1230, -- [42]
+						5462, -- [43]
+						1230, -- [44]
+						3631, -- [45]
+						8171, -- [46]
+						7160, -- [47]
+						3162, -- [48]
+						420, -- [49]
+						2939, -- [50]
+						1007, -- [51]
+						6446, -- [52]
+						8518, -- [53]
+						1008, -- [54]
+						35404, -- [55]
+						491, -- [56]
+						11110, -- [57]
+						491, -- [58]
+						19481, -- [59]
+						6148, -- [60]
+						491, -- [61]
+						13940, -- [62]
+						8294, -- [63]
+						11888, -- [64]
+						0, -- [65]
+						0, -- [66]
+						0, -- [67]
+						0, -- [68]
+						0, -- [69]
+						0, -- [70]
+						0, -- [71]
+						0, -- [72]
+						0, -- [73]
+						0, -- [74]
+						["max_value"] = 35404,
+					},
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					310477, -- [1]
+					137892, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 2,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 14169.583,
+				["contra"] = "Emily Mayville",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Korugen"] = 137892.001502,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Korugen"] = 310477.007097,
+						}, -- [1]
+					},
+				},
+			}, -- [6]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 303,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.00533,
 							["damage_from"] = {
 								["Skycarver Krakit"] = true,
+								["Emily Mayville"] = true,
 							},
 							["targets"] = {
 								["Skycarver Krakit"] = 79756,
 							},
-							["spec"] = 66,
+							["end_time"] = 1595462272,
 							["pets"] = {
 							},
 							["friendlyfire"] = {
 							},
-							["colocacao"] = 1,
+							["spec"] = 66,
 							["classe"] = "PALADIN",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 79756.00533,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["total"] = 79756.00533,
+							["serial"] = "Player-3391-0A827D5A",
+							["isTank"] = true,
+							["nome"] = "Korugen",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 6353,
+										["g_amt"] = 0,
+										["n_max"] = 3343,
+										["targets"] = {
+											["Skycarver Krakit"] = 20329,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13976,
+										["n_min"] = 2414,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 20329,
+										["c_max"] = 6353,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 6353,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[31935] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4400,
+										["targets"] = {
+											["Skycarver Krakit"] = 4400,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4400,
+										["n_min"] = 4400,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 4400,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 31935,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[275779] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 8909,
+										["targets"] = {
+											["Skycarver Krakit"] = 24494,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 24494,
+										["n_min"] = 6676,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 24494,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 275779,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[204301] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2240,
+										["g_amt"] = 0,
+										["n_max"] = 1120,
+										["targets"] = {
+											["Skycarver Krakit"] = 3360,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1120,
+										["n_min"] = 1120,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 3360,
+										["c_max"] = 2240,
+										["spellschool"] = 2,
+										["id"] = 204301,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 2240,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[268525] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2449,
+										["targets"] = {
+											["Skycarver Krakit"] = 4897,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4897,
+										["n_min"] = 2448,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 4897,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 268525,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[81297] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 2240,
+										["g_amt"] = 0,
+										["n_max"] = 560,
+										["targets"] = {
+											["Skycarver Krakit"] = 6940,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4700,
+										["n_min"] = 419,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 6940,
+										["c_max"] = 1120,
+										["spellschool"] = 2,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 1120,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[53600] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 8871,
+										["g_amt"] = 0,
+										["n_max"] = 3696,
+										["targets"] = {
+											["Skycarver Krakit"] = 15336,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6465,
+										["n_min"] = 2769,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 15336,
+										["c_max"] = 8871,
+										["spellschool"] = 2,
+										["id"] = 53600,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 8871,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["last_event"] = 1595462271,
+							["colocacao"] = 1,
+							["last_dps"] = 5669.723845171376,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 4559.00533,
+							["start_time"] = 1595462258,
+							["delay"] = 0,
 							["avoidance"] = {
 								["overall"] = {
 									["DODGE"] = 0,
@@ -63,249 +7051,10 @@ _detalhes_database = {
 									["FULL_HIT_AMT"] = 0,
 								},
 							},
-							["isTank"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1595462272,
-							["friendlyfire_total"] = 0,
-							["total"] = 79756.00533,
-							["nome"] = "Korugen",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 6353,
-										["g_amt"] = 0,
-										["n_max"] = 3343,
-										["targets"] = {
-											["Skycarver Krakit"] = 20329,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 13976,
-										["n_min"] = 2414,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 20329,
-										["c_max"] = 6353,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["r_amt"] = 0,
-										["c_min"] = 6353,
-									}, -- [1]
-									[31935] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 4400,
-										["targets"] = {
-											["Skycarver Krakit"] = 4400,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4400,
-										["n_min"] = 4400,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 4400,
-										["c_max"] = 0,
-										["spellschool"] = 2,
-										["id"] = 31935,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[275779] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 8909,
-										["targets"] = {
-											["Skycarver Krakit"] = 24494,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 24494,
-										["n_min"] = 6676,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 24494,
-										["c_max"] = 0,
-										["spellschool"] = 2,
-										["id"] = 275779,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[204301] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 2240,
-										["g_amt"] = 0,
-										["n_max"] = 1120,
-										["targets"] = {
-											["Skycarver Krakit"] = 3360,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1120,
-										["n_min"] = 1120,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 3360,
-										["c_max"] = 2240,
-										["spellschool"] = 2,
-										["id"] = 204301,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 2240,
-									},
-									[268525] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2449,
-										["targets"] = {
-											["Skycarver Krakit"] = 4897,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4897,
-										["n_min"] = 2448,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 4897,
-										["c_max"] = 0,
-										["spellschool"] = 1,
-										["id"] = 268525,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[81297] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 2240,
-										["g_amt"] = 0,
-										["n_max"] = 560,
-										["targets"] = {
-											["Skycarver Krakit"] = 6940,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4700,
-										["n_min"] = 419,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 6940,
-										["c_max"] = 1120,
-										["spellschool"] = 2,
-										["id"] = 81297,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["r_amt"] = 0,
-										["c_min"] = 1120,
-									},
-									[53600] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 8871,
-										["g_amt"] = 0,
-										["n_max"] = 3696,
-										["targets"] = {
-											["Skycarver Krakit"] = 15336,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 6465,
-										["n_min"] = 2769,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 15336,
-										["c_max"] = 8871,
-										["spellschool"] = 2,
-										["id"] = 53600,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 8871,
-									},
-								},
-							},
-							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-3391-0A827D5A",
-							["last_dps"] = 5669.723845168443,
-							["custom"] = 0,
-							["last_event"] = 1595462271,
-							["damage_taken"] = 2983.00533,
-							["start_time"] = 1595462258,
-							["delay"] = 0,
-							["tipo"] = 1,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 1386.008938,
-							["monster"] = true,
 							["damage_from"] = {
 								["Siadra-Runetotem"] = true,
 								["Xorton"] = true,
@@ -318,18 +7067,19 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["fight_component"] = true,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4369.008938,
-							["on_hold"] = false,
+							["serial"] = "Creature-0-3773-1642-15561-134745-000018D251",
 							["dps_started"] = false,
 							["total"] = 4369.008938,
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-3773-1642-15561-134745-000018D251",
+							["monster"] = true,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Skycarver Krakit",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -353,15 +7103,15 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 2983,
+										["b_dmg"] = 1939,
 										["m_crit"] = 0,
 										["a_amt"] = 4,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 1939,
-										["n_amt"] = 5,
-										["r_amt"] = 0,
 										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 2983,
+										["r_amt"] = 0,
 									}, -- [1]
 									[261792] = {
 										["c_amt"] = 0,
@@ -385,13 +7135,13 @@ _detalhes_database = {
 										},
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[272456] = {
 										["c_amt"] = 0,
@@ -414,32 +7164,32 @@ _detalhes_database = {
 										},
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["tipo"] = 1,
 							["end_time"] = 1595462272,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1595462269,
 							["damage_taken"] = 320451.008938,
 							["start_time"] = 1595462259,
 							["delay"] = 0,
-							["last_event"] = 1595462269,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 303,
 					["tipo"] = 3,
+					["combatId"] = 303,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -462,7 +7212,7 @@ _detalhes_database = {
 							["isTank"] = true,
 							["serial"] = "Player-3391-0A827D5A",
 							["totalabsorb"] = 91.005602,
-							["last_hps"] = 6.469439254992699,
+							["last_hps"] = 6.469439254996045,
 							["targets"] = {
 								["Korugen"] = 91,
 							},
@@ -475,7 +7225,6 @@ _detalhes_database = {
 							},
 							["nome"] = "Korugen",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[203791] = {
 										["c_amt"] = 0,
@@ -495,10 +7244,10 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Korugen"] = 91,
 										},
-										["m_healed"] = 0,
 										["c_curado"] = 0,
-										["m_crit"] = 0,
 										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
 										["m_amt"] = 0,
 										["n_curado"] = 91,
 										["n_amt"] = 4,
@@ -507,174 +7256,175 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["tipo"] = 2,
 							["start_time"] = 1595462259,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1595462269,
 							["spec"] = 66,
 							["totaldenied"] = 0.005602,
 							["delay"] = 0,
-							["last_event"] = 1595462269,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 303,
 					["tipo"] = 7,
+					["combatId"] = 303,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 303,
 					["tipo"] = 9,
+					["combatId"] = 303,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[204301] = {
-										["activedamt"] = 0,
-										["id"] = 204301,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 204301,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[31935] = {
-										["activedamt"] = 0,
-										["id"] = 31935,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 31935,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[62124] = {
-										["activedamt"] = 0,
-										["id"] = 62124,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 62124,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[204242] = {
-										["activedamt"] = 0,
-										["id"] = 204242,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 10,
-										["appliedamt"] = 2,
+										["id"] = 204242,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 79,
 							["classe"] = "PALADIN",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
-									[188370] = {
-										["activedamt"] = 2,
-										["id"] = 188370,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[294027] = {
-										["activedamt"] = 1,
-										["id"] = 294027,
-										["targets"] = {
-										},
-										["uptime"] = 8,
+									[197561] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 6,
+										["id"] = 197561,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[335152] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
+										["uptime"] = 14,
 										["id"] = 335152,
-										["targets"] = {
-										},
-										["uptime"] = 14,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[132403] = {
-										["activedamt"] = 1,
-										["id"] = 132403,
-										["targets"] = {
-										},
-										["uptime"] = 14,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[273935] = {
-										["activedamt"] = 1,
-										["id"] = 273935,
-										["targets"] = {
-										},
-										["uptime"] = 7,
-										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[186403] = {
-										["activedamt"] = 1,
-										["id"] = 186403,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 14,
+										["id"] = 186403,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[132403] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 132403,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[273935] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 273935,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188370] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 8,
+										["id"] = 188370,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[31884] = {
-										["activedamt"] = 1,
-										["id"] = 31884,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 31884,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[197561] = {
-										["activedamt"] = 1,
-										["id"] = 197561,
+									[294027] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 294027,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 18,
@@ -693,19 +7443,19 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1595462272,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["isTank"] = true,
 							["serial"] = "Player-3391-0A827D5A",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
-							["nome"] = "Skycarver Krakit",
 							["tipo"] = 4,
+							["nome"] = "Skycarver Krakit",
 							["pets"] = {
 							},
 							["fight_component"] = true,
@@ -721,42 +7471,39 @@ _detalhes_database = {
 					},
 				}, -- [4]
 				{
-					["combatId"] = 303,
 					["tipo"] = 2,
+					["combatId"] = 303,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["Korugen"] = true,
 				},
-				["last_events_tables"] = {
-				},
+				["CombatStartedAt"] = 14168.867,
 				["overall_added"] = true,
-				["cleu_timeline"] = {
+				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["tempo_start"] = 1595462258,
-				["enemy"] = "Skycarver Krakit",
 				["combat_counter"] = 498,
 				["playing_solo"] = true,
 				["totals"] = {
-					84124.9104869999, -- [1]
-					90.97641200000407, -- [2]
+					84124.8528369999, -- [1]
+					90.96070000000408, -- [2]
 					{
 						0, -- [1]
 						[0] = -0.02149,
 						["alternatepower"] = 0,
-						[3] = -0.001202000000006365,
+						[3] = -0.004083000000004944,
 						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -951,17 +7698,131 @@ _detalhes_database = {
 						}, -- [32]
 						["n"] = 13,
 					},
+					["Korugen"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							1624, -- [3]
+							1596192496.505, -- [4]
+							251600, -- [5]
+							"Emily Mayville", -- [6]
+							48, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
 				},
-				["cleu_events"] = {
-					["n"] = 1,
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "01:57:52",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "Skycarver Krakit",
+				["TotalElapsedCombatTime"] = 61556.768,
 				["CombatEndedAt"] = 61556.768,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "01:57:38",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Korugen"] = 91.005602,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Korugen"] = 79756.00533,
+						}, -- [1]
+					},
+				},
 				["end_time"] = 61556.768,
+				["combat_id"] = 303,
+				["spells_cast_timeline"] = {
+				},
+				["tempo_start"] = 1595462258,
+				["frags"] = {
+					["Skycarver Krakit"] = 1,
+				},
+				["contra"] = "Skycarver Krakit",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
 				["totals_grupo"] = {
 					79756, -- [1]
 					91, -- [2]
@@ -975,48 +7836,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["combat_id"] = 303,
-				["TotalElapsedCombatTime"] = 61556.768,
-				["frags_need_refresh"] = true,
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Korugen"] = 91.005602,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Korugen"] = 79756.00533,
-						}, -- [1]
-					},
-				},
-				["frags"] = {
-					["Skycarver Krakit"] = 1,
-				},
-				["data_fim"] = "01:57:52",
-				["instance_type"] = "none",
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 61542.701,
-				["contra"] = "Skycarver Krakit",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						5212.00533, -- [1]
@@ -1053,11 +7881,12 @@ _detalhes_database = {
 						["max_value"] = 18340,
 					},
 				},
-			}, -- [1]
+				["data_inicio"] = "01:57:38",
+			}, -- [7]
 			{
 				{
-					["combatId"] = 302,
 					["tipo"] = 2,
+					["combatId"] = 302,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1069,16 +7898,268 @@ _detalhes_database = {
 								["Canyon Racer"] = 839,
 								["Enraged Krolusk"] = 257926,
 							},
-							["spec"] = 66,
+							["end_time"] = 1595462170,
 							["pets"] = {
 							},
-							["isTank"] = true,
-							["end_time"] = 1595462170,
-							["classe"] = "PALADIN",
+							["on_hold"] = false,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2784,
+										["targets"] = {
+											["Enraged Krolusk"] = 47566,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 47566,
+										["n_min"] = 2370,
+										["g_dmg"] = 0,
+										["counter"] = 19,
+										["total"] = 47566,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 19,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[31935] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 8800,
+										["g_amt"] = 0,
+										["n_max"] = 4893,
+										["targets"] = {
+											["Enraged Krolusk"] = 22492,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13692,
+										["n_min"] = 4399,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 22492,
+										["c_max"] = 8800,
+										["spellschool"] = 2,
+										["id"] = 31935,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 8800,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[275779] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 26708,
+										["g_amt"] = 0,
+										["n_max"] = 7424,
+										["targets"] = {
+											["Enraged Krolusk"] = 94218,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 67510,
+										["n_min"] = 6676,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 94218,
+										["c_max"] = 13354,
+										["spellschool"] = 2,
+										["id"] = 275779,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 13354,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 10,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[53600] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 11082,
+										["g_amt"] = 0,
+										["n_max"] = 3696,
+										["targets"] = {
+											["Enraged Krolusk"] = 24197,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13115,
+										["n_min"] = 2771,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 24197,
+										["c_max"] = 5541,
+										["spellschool"] = 2,
+										["id"] = 53600,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 5541,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[204301] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 3358,
+										["g_amt"] = 0,
+										["n_max"] = 933,
+										["targets"] = {
+											["Canyon Racer"] = 839,
+											["Enraged Krolusk"] = 12962,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 10443,
+										["n_min"] = 838,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 13801,
+										["c_max"] = 1679,
+										["spellschool"] = 2,
+										["id"] = 204301,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 1679,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 12,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[256893] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 26405,
+										["targets"] = {
+											["Enraged Krolusk"] = 26405,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 26405,
+										["n_min"] = 26405,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 26405,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 256893,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[81297] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 2517,
+										["g_amt"] = 0,
+										["n_max"] = 466,
+										["targets"] = {
+											["Enraged Krolusk"] = 22741,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 20224,
+										["n_min"] = 419,
+										["g_dmg"] = 0,
+										["counter"] = 50,
+										["total"] = 22741,
+										["c_max"] = 839,
+										["spellschool"] = 2,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 839,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 47,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[268525] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2449,
+										["targets"] = {
+											["Enraged Krolusk"] = 7345,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 7345,
+										["n_min"] = 2448,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 7345,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 268525,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 258765.006295,
-							["colocacao"] = 1,
 							["avoidance"] = {
 								["overall"] = {
 									["DODGE"] = 0,
@@ -1113,276 +8194,24 @@ _detalhes_database = {
 									["FULL_HIT_AMT"] = 0,
 								},
 							},
+							["classe"] = "PALADIN",
 							["dps_started"] = false,
 							["total"] = 258765.006295,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["nome"] = "Korugen",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2784,
-										["targets"] = {
-											["Enraged Krolusk"] = 47566,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 47566,
-										["n_min"] = 2370,
-										["g_dmg"] = 0,
-										["counter"] = 19,
-										["total"] = 47566,
-										["c_max"] = 0,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 19,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									}, -- [1]
-									[31935] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 8800,
-										["g_amt"] = 0,
-										["n_max"] = 4893,
-										["targets"] = {
-											["Enraged Krolusk"] = 22492,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 13692,
-										["n_min"] = 4399,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 22492,
-										["c_max"] = 8800,
-										["spellschool"] = 2,
-										["id"] = 31935,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 8800,
-									},
-									[275779] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 26708,
-										["g_amt"] = 0,
-										["n_max"] = 7424,
-										["targets"] = {
-											["Enraged Krolusk"] = 94218,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 67510,
-										["n_min"] = 6676,
-										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 94218,
-										["c_max"] = 13354,
-										["spellschool"] = 2,
-										["id"] = 275779,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["r_amt"] = 0,
-										["c_min"] = 13354,
-									},
-									[53600] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 11082,
-										["g_amt"] = 0,
-										["n_max"] = 3696,
-										["targets"] = {
-											["Enraged Krolusk"] = 24197,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 13115,
-										["n_min"] = 2771,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 24197,
-										["c_max"] = 5541,
-										["spellschool"] = 2,
-										["id"] = 53600,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 5541,
-									},
-									[204301] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 3358,
-										["g_amt"] = 0,
-										["n_max"] = 933,
-										["targets"] = {
-											["Canyon Racer"] = 839,
-											["Enraged Krolusk"] = 12962,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 10443,
-										["n_min"] = 838,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 13801,
-										["c_max"] = 1679,
-										["spellschool"] = 2,
-										["id"] = 204301,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 12,
-										["r_amt"] = 0,
-										["c_min"] = 1679,
-									},
-									[256893] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 26405,
-										["targets"] = {
-											["Enraged Krolusk"] = 26405,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 26405,
-										["n_min"] = 26405,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 26405,
-										["c_max"] = 0,
-										["spellschool"] = 2,
-										["id"] = 256893,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[81297] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 2517,
-										["g_amt"] = 0,
-										["n_max"] = 466,
-										["targets"] = {
-											["Enraged Krolusk"] = 22741,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 20224,
-										["n_min"] = 419,
-										["g_dmg"] = 0,
-										["counter"] = 50,
-										["total"] = 22741,
-										["c_max"] = 839,
-										["spellschool"] = 2,
-										["id"] = 81297,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 47,
-										["r_amt"] = 0,
-										["c_min"] = 839,
-									},
-									[268525] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2449,
-										["targets"] = {
-											["Enraged Krolusk"] = 7345,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 7345,
-										["n_min"] = 2448,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 7345,
-										["c_max"] = 0,
-										["spellschool"] = 1,
-										["id"] = 268525,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["on_hold"] = false,
 							["serial"] = "Player-3391-0A827D5A",
+							["isTank"] = true,
+							["nome"] = "Korugen",
+							["spec"] = 66,
+							["grupo"] = true,
+							["last_event"] = 1595462170,
+							["colocacao"] = 1,
 							["last_dps"] = 5061.715236004489,
 							["custom"] = 0,
-							["last_event"] = 1595462170,
-							["damage_taken"] = 24904.006295,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1595462119,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["damage_taken"] = 24904.006295,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -1395,19 +8224,19 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["monster"] = true,
+							["total"] = 24904.008821,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 24904.008821,
-							["monster"] = true,
+							["serial"] = "Creature-0-3773-1642-15561-136335-000018D178",
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1595462170,
-							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["on_hold"] = false,
 							["nome"] = "Enraged Krolusk",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -1420,27 +8249,27 @@ _detalhes_database = {
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 17582,
-										["MISS"] = 1,
-										["n_min"] = 754,
 										["g_dmg"] = 0,
+										["n_min"] = 754,
+										["MISS"] = 1,
 										["counter"] = 20,
 										["a_amt"] = 14,
-										["total"] = 17582,
+										["r_amt"] = 0,
 										["c_max"] = 0,
-										["spellschool"] = 1,
+										["b_dmg"] = 1050,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 17582,
+										["m_amt"] = 0,
 										["m_crit"] = 0,
 										["PARRY"] = 5,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 1050,
-										["n_amt"] = 14,
-										["r_amt"] = 0,
 										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 17582,
+										["n_amt"] = 14,
+										["spellschool"] = 1,
+										["total"] = 17582,
 									}, -- [1]
 									[261712] = {
 										["c_amt"] = 0,
@@ -1463,15 +8292,15 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 4455,
+										["m_amt"] = 0,
 										["m_crit"] = 0,
 										["PARRY"] = 1,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 4,
 										["b_dmg"] = 2225,
 										["n_amt"] = 3,
+										["a_dmg"] = 4455,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[261732] = {
 										["c_amt"] = 0,
@@ -1495,27 +8324,27 @@ _detalhes_database = {
 										},
 										["a_dmg"] = 2867,
 										["m_crit"] = 0,
-										["a_amt"] = 2,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 3,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
+										["a_amt"] = 2,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["total"] = 24904.008821,
-							["serial"] = "Creature-0-3773-1642-15561-136335-000018D178",
+							["last_event"] = 1595462169,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1595462169,
+							["tipo"] = 1,
 							["damage_taken"] = 257926.008821,
 							["start_time"] = 1595462119,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 2600,
@@ -1527,38 +8356,38 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002687,
-							["on_hold"] = false,
 							["dps_started"] = false,
+							["fight_component"] = true,
 							["total"] = 0.002687,
-							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3773-1642-15561-137416-000018CF31",
+							["on_hold"] = false,
 							["nome"] = "Canyon Racer",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
 							["end_time"] = 1595462170,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 0,
 							["damage_taken"] = 839.002687,
 							["start_time"] = 1595462170,
 							["delay"] = 0,
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 302,
 					["tipo"] = 3,
+					["combatId"] = 302,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1594,7 +8423,6 @@ _detalhes_database = {
 							},
 							["nome"] = "Korugen",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[203791] = {
 										["c_amt"] = 0,
@@ -1614,10 +8442,10 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Korugen"] = 784,
 										},
-										["m_healed"] = 0,
 										["c_curado"] = 0,
-										["m_crit"] = 0,
 										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
 										["m_amt"] = 0,
 										["n_curado"] = 784,
 										["n_amt"] = 19,
@@ -1643,10 +8471,10 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Korugen"] = 796,
 										},
-										["m_healed"] = 0,
 										["c_curado"] = 0,
-										["m_crit"] = 0,
 										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
 										["m_amt"] = 0,
 										["n_curado"] = 796,
 										["n_amt"] = 5,
@@ -1655,152 +8483,153 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["tipo"] = 2,
 							["start_time"] = 1595462119,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1595462169,
 							["spec"] = 66,
 							["totaldenied"] = 0.002507,
 							["delay"] = 0,
-							["last_event"] = 1595462169,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 302,
 					["tipo"] = 7,
+					["combatId"] = 302,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 302,
 					["tipo"] = 9,
+					["combatId"] = 302,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[204301] = {
-										["activedamt"] = 0,
-										["id"] = 204301,
+										["appliedamt"] = 6,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 19,
-										["appliedamt"] = 6,
+										["id"] = 204301,
 										["refreshamt"] = 7,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[31935] = {
-										["activedamt"] = 0,
-										["id"] = 31935,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 6,
-										["appliedamt"] = 3,
+										["id"] = 31935,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[62124] = {
-										["activedamt"] = 0,
-										["id"] = 62124,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 62124,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[204242] = {
-										["activedamt"] = 0,
-										["id"] = 204242,
+										["appliedamt"] = 6,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 42,
-										["appliedamt"] = 6,
+										["id"] = 204242,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 199,
 							["classe"] = "PALADIN",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[188370] = {
-										["activedamt"] = 6,
-										["id"] = 188370,
+										["appliedamt"] = 6,
 										["targets"] = {
 										},
+										["activedamt"] = 6,
 										["uptime"] = 43,
-										["appliedamt"] = 6,
+										["id"] = 188370,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[132403] = {
-										["activedamt"] = 4,
-										["id"] = 132403,
+										["appliedamt"] = 4,
 										["targets"] = {
 										},
+										["activedamt"] = 4,
 										["uptime"] = 26,
-										["appliedamt"] = 4,
+										["id"] = 132403,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[273935] = {
-										["activedamt"] = 1,
-										["id"] = 273935,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 12,
-										["appliedamt"] = 1,
+										["id"] = 273935,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[186403] = {
-										["activedamt"] = 1,
-										["id"] = 186403,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 51,
-										["appliedamt"] = 1,
+										["id"] = 186403,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[335152] = {
-										["activedamt"] = 1,
-										["id"] = 335152,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 51,
-										["appliedamt"] = 1,
+										["id"] = 335152,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[197561] = {
-										["activedamt"] = 3,
-										["id"] = 197561,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 3,
 										["uptime"] = 16,
-										["appliedamt"] = 3,
+										["id"] = 197561,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 70,
@@ -1819,19 +8648,19 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1595462170,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["isTank"] = true,
 							["serial"] = "Player-3391-0A827D5A",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
-							["nome"] = "Enraged Krolusk",
 							["tipo"] = 4,
+							["nome"] = "Enraged Krolusk",
 							["pets"] = {
 							},
 							["fight_component"] = true,
@@ -1847,8 +8676,8 @@ _detalhes_database = {
 					},
 				}, -- [4]
 				{
-					["combatId"] = 302,
 					["tipo"] = 2,
+					["combatId"] = 302,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -1876,39 +8705,21 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					258765, -- [1]
-					1580, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "01:56:10",
 				["cleu_timeline"] = {
 				},
@@ -1924,14 +8735,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Korugen"] = 1580.002507,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -1941,22 +8752,13 @@ _detalhes_database = {
 				},
 				["end_time"] = 61454.235,
 				["combat_id"] = 302,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "01:55:19",
-				["CombatSkillCache"] = {
-				},
 				["frags"] = {
 					["Canyon Racer"] = 1,
 					["Enraged Krolusk"] = 1,
 				},
-				["start_time"] = 61403.11300000001,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						9103.006295, -- [1]
@@ -2067,12 +8869,40 @@ _detalhes_database = {
 						["max_value"] = 26871,
 					},
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					258765, -- [1]
+					1580, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 61403.11300000001,
 				["contra"] = "Enraged Krolusk",
-			}, -- [2]
+				["data_inicio"] = "01:55:19",
+			}, -- [8]
 			{
 				{
-					["combatId"] = 301,
 					["tipo"] = 2,
+					["combatId"] = 301,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 68168,
@@ -2084,19 +8914,19 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["monster"] = true,
+							["total"] = 1963.003989,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1963.003989,
-							["monster"] = true,
+							["serial"] = "Creature-0-3773-1642-15561-138258-000018A631",
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1595462086,
-							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["on_hold"] = false,
 							["nome"] = "Bonepicker Scavenger",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -2119,34 +8949,33 @@ _detalhes_database = {
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
 										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["total"] = 1963.003989,
-							["serial"] = "Creature-0-3773-1642-15561-138258-000018A631",
+							["last_event"] = 1595462077,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1595462077,
+							["tipo"] = 1,
 							["damage_taken"] = 0.003989,
 							["start_time"] = 1595462077,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.006649,
-							["total"] = 0.006649,
 							["damage_from"] = {
 								["Bonepicker Scavenger"] = true,
 							},
@@ -2154,7 +8983,12 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["isTank"] = true,
 							["on_hold"] = false,
+							["classe"] = "PALADIN",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.006649,
 							["avoidance"] = {
 								["overall"] = {
 									["DODGE"] = 0,
@@ -2189,101 +9023,97 @@ _detalhes_database = {
 									["FULL_HIT_AMT"] = 1963,
 								},
 							},
-							["classe"] = "PALADIN",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.006649,
-							["isTank"] = true,
+							["serial"] = "Player-3391-0A827D5A",
+							["dps_started"] = false,
+							["total"] = 0.006649,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["end_time"] = 1595462086,
-							["friendlyfire_total"] = 0,
-							["spec"] = 66,
 							["nome"] = "Korugen",
+							["spec"] = 66,
+							["grupo"] = true,
+							["end_time"] = 1595462086,
+							["last_event"] = 0,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["serial"] = "Player-3391-0A827D5A",
-							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 1963.006649,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1595462086,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["damage_taken"] = 1963.006649,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 301,
 					["tipo"] = 3,
+					["combatId"] = 301,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 301,
 					["tipo"] = 7,
+					["combatId"] = 301,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 301,
 					["tipo"] = 9,
+					["combatId"] = 301,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["nome"] = "Korugen",
 							["spec"] = 66,
 							["grupo"] = true,
+							["last_event"] = 1595462086,
+							["buff_uptime"] = 27,
 							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 27,
 							["pets"] = {
 							},
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[335152] = {
-										["activedamt"] = 1,
-										["id"] = 335152,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 335152,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[231435] = {
-										["activedamt"] = 1,
-										["id"] = 231435,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 231435,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[186403] = {
-										["activedamt"] = 1,
-										["id"] = 186403,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 186403,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["last_event"] = 1595462086,
-							["tipo"] = 4,
 							["isTank"] = true,
 							["serial"] = "Player-3391-0A827D5A",
 							["classe"] = "PALADIN",
@@ -2291,23 +9121,19 @@ _detalhes_database = {
 					},
 				}, -- [4]
 				{
-					["combatId"] = 301,
 					["tipo"] = 2,
+					["combatId"] = 301,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["Korugen"] = true,
 				},
-				["last_events_tables"] = {
-				},
 				["overall_added"] = true,
-				["cleu_timeline"] = {
+				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["tempo_start"] = 1595462077,
-				["enemy"] = "Bonepicker Scavenger",
 				["combat_counter"] = 496,
 				["playing_solo"] = true,
 				["totals"] = {
@@ -2323,10 +9149,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -2335,16 +9161,51 @@ _detalhes_database = {
 				},
 				["player_last_events"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "01:54:47",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "Bonepicker Scavenger",
+				["TotalElapsedCombatTime"] = 61371.02,
 				["CombatEndedAt"] = 61371.02,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "01:54:38",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Korugen"] = 0.006649,
+						}, -- [1]
+					},
+				},
 				["end_time"] = 61371.02,
+				["combat_id"] = 301,
+				["spells_cast_timeline"] = {
+				},
+				["tempo_start"] = 1595462077,
+				["frags"] = {
+				},
+				["contra"] = "Bonepicker Scavenger",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
 				["totals_grupo"] = {
 					0, -- [1]
 					0, -- [2]
@@ -2358,46 +9219,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["combat_id"] = 301,
-				["TotalElapsedCombatTime"] = 61371.02,
-				["frags_need_refresh"] = false,
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Korugen"] = 0.006649,
-						}, -- [1]
-					},
-				},
-				["frags"] = {
-				},
-				["data_fim"] = "01:54:47",
-				["instance_type"] = "none",
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 61361.853,
-				["contra"] = "Bonepicker Scavenger",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						0.006649, -- [1]
@@ -2423,11 +9253,12 @@ _detalhes_database = {
 						0, -- [9]
 					},
 				},
-			}, -- [3]
+				["data_inicio"] = "01:54:38",
+			}, -- [9]
 			{
 				{
-					["combatId"] = 300,
 					["tipo"] = 2,
+					["combatId"] = 300,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -2438,16 +9269,236 @@ _detalhes_database = {
 							["targets"] = {
 								["Skithis the Infused"] = 208181,
 							},
-							["spec"] = 66,
+							["end_time"] = 1595462050,
 							["pets"] = {
 							},
-							["isTank"] = true,
-							["end_time"] = 1595462050,
-							["classe"] = "PALADIN",
+							["on_hold"] = false,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 23566,
+										["g_amt"] = 0,
+										["n_max"] = 3189,
+										["targets"] = {
+											["Skithis the Infused"] = 54971,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 31405,
+										["n_min"] = 2529,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 54971,
+										["c_max"] = 6169,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 5625,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 11,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[31935] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 20348,
+										["g_amt"] = 0,
+										["n_max"] = 4400,
+										["targets"] = {
+											["Skithis the Infused"] = 24748,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4400,
+										["n_min"] = 4400,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 24748,
+										["c_max"] = 10561,
+										["spellschool"] = 2,
+										["id"] = 31935,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 9787,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[275779] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 8013,
+										["targets"] = {
+											["Skithis the Infused"] = 59667,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 59667,
+										["n_min"] = 6677,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 59667,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 275779,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 8,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[204301] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 9927,
+										["g_amt"] = 0,
+										["n_max"] = 1008,
+										["targets"] = {
+											["Skithis the Infused"] = 16234,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6307,
+										["n_min"] = 839,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 16234,
+										["c_max"] = 2015,
+										["spellschool"] = 2,
+										["id"] = 204301,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 1867,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[268525] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2605,
+										["targets"] = {
+											["Skithis the Infused"] = 2605,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2605,
+										["n_min"] = 2605,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2605,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 268525,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[81297] = {
+										["c_amt"] = 8,
+										["b_amt"] = 0,
+										["c_dmg"] = 7912,
+										["g_amt"] = 0,
+										["n_max"] = 504,
+										["targets"] = {
+											["Skithis the Infused"] = 25654,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 17742,
+										["n_min"] = 420,
+										["g_dmg"] = 0,
+										["counter"] = 46,
+										["total"] = 25654,
+										["c_max"] = 1008,
+										["spellschool"] = 2,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 934,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 38,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[53600] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 15372,
+										["g_amt"] = 0,
+										["n_max"] = 3080,
+										["targets"] = {
+											["Skithis the Infused"] = 24302,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 8930,
+										["n_min"] = 2770,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 24302,
+										["c_max"] = 7978,
+										["spellschool"] = 2,
+										["id"] = 53600,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 7394,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 208181.001498,
-							["colocacao"] = 1,
 							["avoidance"] = {
 								["overall"] = {
 									["DODGE"] = 1,
@@ -2482,244 +9533,24 @@ _detalhes_database = {
 									["FULL_HIT_AMT"] = 3575,
 								},
 							},
+							["classe"] = "PALADIN",
 							["dps_started"] = false,
 							["total"] = 208181.001498,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["nome"] = "Korugen",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 23566,
-										["g_amt"] = 0,
-										["n_max"] = 3189,
-										["targets"] = {
-											["Skithis the Infused"] = 54971,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 31405,
-										["n_min"] = 2529,
-										["g_dmg"] = 0,
-										["counter"] = 15,
-										["total"] = 54971,
-										["c_max"] = 6169,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 11,
-										["r_amt"] = 0,
-										["c_min"] = 5625,
-									}, -- [1]
-									[31935] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 20348,
-										["g_amt"] = 0,
-										["n_max"] = 4400,
-										["targets"] = {
-											["Skithis the Infused"] = 24748,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4400,
-										["n_min"] = 4400,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 24748,
-										["c_max"] = 10561,
-										["spellschool"] = 2,
-										["id"] = 31935,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 9787,
-									},
-									[275779] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 8013,
-										["targets"] = {
-											["Skithis the Infused"] = 59667,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 59667,
-										["n_min"] = 6677,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 59667,
-										["c_max"] = 0,
-										["spellschool"] = 2,
-										["id"] = 275779,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[204301] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 9927,
-										["g_amt"] = 0,
-										["n_max"] = 1008,
-										["targets"] = {
-											["Skithis the Infused"] = 16234,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 6307,
-										["n_min"] = 839,
-										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 16234,
-										["c_max"] = 2015,
-										["spellschool"] = 2,
-										["id"] = 204301,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["r_amt"] = 0,
-										["c_min"] = 1867,
-									},
-									[268525] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2605,
-										["targets"] = {
-											["Skithis the Infused"] = 2605,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2605,
-										["n_min"] = 2605,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 2605,
-										["c_max"] = 0,
-										["spellschool"] = 1,
-										["id"] = 268525,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[81297] = {
-										["c_amt"] = 8,
-										["b_amt"] = 0,
-										["c_dmg"] = 7912,
-										["g_amt"] = 0,
-										["n_max"] = 504,
-										["targets"] = {
-											["Skithis the Infused"] = 25654,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 17742,
-										["n_min"] = 420,
-										["g_dmg"] = 0,
-										["counter"] = 46,
-										["total"] = 25654,
-										["c_max"] = 1008,
-										["spellschool"] = 2,
-										["id"] = 81297,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 38,
-										["r_amt"] = 0,
-										["c_min"] = 934,
-									},
-									[53600] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 15372,
-										["g_amt"] = 0,
-										["n_max"] = 3080,
-										["targets"] = {
-											["Skithis the Infused"] = 24302,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 8930,
-										["n_min"] = 2770,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 24302,
-										["c_max"] = 7978,
-										["spellschool"] = 2,
-										["id"] = 53600,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 7394,
-									},
-								},
-							},
-							["grupo"] = true,
-							["on_hold"] = false,
 							["serial"] = "Player-3391-0A827D5A",
+							["isTank"] = true,
+							["nome"] = "Korugen",
+							["spec"] = 66,
+							["grupo"] = true,
+							["last_event"] = 1595462050,
+							["colocacao"] = 1,
 							["last_dps"] = 5618.313852700898,
 							["custom"] = 0,
-							["last_event"] = 1595462050,
-							["damage_taken"] = 35449.001498,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1595462013,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["damage_taken"] = 35449.001498,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2732,20 +9563,19 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["serial"] = "Creature-0-3773-1642-15561-136732-000018D15C",
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 35449.002453,
-							["monster"] = true,
+							["serial"] = "Creature-0-3773-1642-15561-136732-000018D15C",
 							["fight_component"] = true,
-							["dps_started"] = false,
-							["total"] = 35449.002453,
 							["end_time"] = 1595462077,
-							["friendlyfire_total"] = 0,
+							["total"] = 35449.002453,
+							["on_hold"] = false,
 							["nome"] = "Skithis the Infused",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -2767,17 +9597,17 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
+										["b_dmg"] = 0,
 										["a_dmg"] = 8030,
 										["m_crit"] = 0,
-										["a_amt"] = 5,
 										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["r_amt"] = 0,
 										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 5,
+										["n_amt"] = 5,
+										["extra"] = {
+										},
+										["r_amt"] = 0,
 									}, -- [1]
 									[277192] = {
 										["c_amt"] = 0,
@@ -2800,13 +9630,13 @@ _detalhes_database = {
 										},
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 2,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[277199] = {
 										["c_amt"] = 0,
@@ -2830,13 +9660,13 @@ _detalhes_database = {
 										},
 										["a_dmg"] = 16908,
 										["m_crit"] = 0,
-										["a_amt"] = 4,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 4,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
+										["a_amt"] = 4,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[277201] = {
 										["c_amt"] = 0,
@@ -2860,32 +9690,33 @@ _detalhes_database = {
 										},
 										["a_dmg"] = 6936,
 										["m_crit"] = 0,
-										["a_amt"] = 2,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
+										["a_amt"] = 2,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["last_event"] = 1595462052,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1595462052,
+							["tipo"] = 1,
 							["damage_taken"] = 208181.002453,
 							["start_time"] = 1595462038,
 							["delay"] = 1595462052,
-							["tipo"] = 1,
+							["monster"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 300,
 					["tipo"] = 3,
+					["combatId"] = 300,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -2921,7 +9752,6 @@ _detalhes_database = {
 							},
 							["nome"] = "Korugen",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[203791] = {
 										["c_amt"] = 0,
@@ -2941,10 +9771,10 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Korugen"] = 1001,
 										},
-										["m_healed"] = 0,
 										["c_curado"] = 0,
-										["m_crit"] = 0,
 										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
 										["m_amt"] = 0,
 										["n_curado"] = 1001,
 										["n_amt"] = 11,
@@ -2970,10 +9800,10 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Korugen"] = 587,
 										},
-										["m_healed"] = 0,
 										["c_curado"] = 0,
-										["m_crit"] = 0,
 										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
 										["m_amt"] = 0,
 										["n_curado"] = 587,
 										["n_amt"] = 3,
@@ -2982,73 +9812,73 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["tipo"] = 2,
 							["start_time"] = 1595462014,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1595462049,
 							["spec"] = 66,
 							["totaldenied"] = 0.001853,
 							["delay"] = 0,
-							["last_event"] = 1595462049,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 300,
 					["tipo"] = 7,
+					["combatId"] = 300,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 300,
 					["tipo"] = 9,
+					["combatId"] = 300,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[204301] = {
-										["activedamt"] = 0,
-										["id"] = 204301,
+										["appliedamt"] = 4,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 26,
-										["appliedamt"] = 4,
+										["id"] = 204301,
 										["refreshamt"] = 8,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[31935] = {
-										["activedamt"] = 0,
-										["id"] = 31935,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 5,
-										["appliedamt"] = 3,
+										["id"] = 31935,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[204242] = {
-										["activedamt"] = 0,
-										["id"] = 204242,
+										["appliedamt"] = 7,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 36,
-										["appliedamt"] = 7,
+										["id"] = 204242,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 193,
 							["classe"] = "PALADIN",
 							["interrupt_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[96231] = {
 										["id"] = 96231,
@@ -3061,111 +9891,113 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
-									[294027] = {
-										["activedamt"] = 1,
-										["id"] = 294027,
+									[188370] = {
+										["appliedamt"] = 7,
 										["targets"] = {
 										},
-										["uptime"] = 16,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[335152] = {
-										["activedamt"] = 1,
-										["id"] = 335152,
-										["targets"] = {
-										},
-										["uptime"] = 37,
-										["appliedamt"] = 1,
+										["activedamt"] = 7,
+										["uptime"] = 36,
+										["id"] = 188370,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[197561] = {
-										["activedamt"] = 3,
-										["id"] = 197561,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 3,
 										["uptime"] = 18,
-										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[132403] = {
-										["activedamt"] = 3,
-										["id"] = 132403,
-										["targets"] = {
-										},
-										["uptime"] = 22,
-										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[273935] = {
-										["activedamt"] = 1,
-										["id"] = 273935,
-										["targets"] = {
-										},
-										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 197561,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[186403] = {
-										["activedamt"] = 1,
-										["id"] = 186403,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 37,
+										["id"] = 186403,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[132403] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 3,
+										["uptime"] = 22,
+										["id"] = 132403,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[273935] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 11,
+										["id"] = 273935,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[294027] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 16,
+										["id"] = 294027,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[31884] = {
-										["activedamt"] = 1,
-										["id"] = 31884,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 16,
-										["appliedamt"] = 1,
+										["id"] = 31884,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[188370] = {
-										["activedamt"] = 7,
-										["id"] = 188370,
+									[335152] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 36,
-										["appliedamt"] = 7,
+										["activedamt"] = 1,
+										["uptime"] = 37,
+										["id"] = 335152,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["interrompeu_oque"] = {
 								[277199] = 1,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 67,
+							["spec"] = 66,
+							["interrupt"] = 1.003544,
+							["debuff_uptime_targets"] = {
+							},
 							["interrupt_targets"] = {
 								["Skithis the Infused"] = 1,
 							},
-							["interrupt"] = 1.003544,
-							["nome"] = "Korugen",
-							["spec"] = 66,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[26573] = 6,
@@ -3176,21 +10008,20 @@ _detalhes_database = {
 								[31884] = 1,
 								[31935] = 3,
 							},
-							["debuff_uptime_targets"] = {
+							["pets"] = {
 							},
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1595462050,
-							["pets"] = {
-							},
 							["isTank"] = true,
 							["serial"] = "Player-3391-0A827D5A",
-							["tipo"] = 4,
+							["nome"] = "Korugen",
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
-							["nome"] = "Skithis the Infused",
 							["tipo"] = 4,
+							["nome"] = "Skithis the Infused",
 							["pets"] = {
 							},
 							["fight_component"] = true,
@@ -3207,8 +10038,8 @@ _detalhes_database = {
 					},
 				}, -- [4]
 				{
-					["combatId"] = 300,
 					["tipo"] = 2,
+					["combatId"] = 300,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -3236,76 +10067,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
 						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					208181, -- [1]
-					1588, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "01:54:10",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Skithis the Infused",
-				["TotalElapsedCombatTime"] = 61334.52400000001,
-				["CombatEndedAt"] = 61334.52400000001,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Korugen"] = 1588.001853,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Korugen"] = 208181.001498,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 61334.52400000001,
-				["combat_id"] = 300,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
 					["Korugen"] = {
@@ -3386,13 +10156,47 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["data_inicio"] = "01:53:33",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "01:54:10",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "Skithis the Infused",
+				["TotalElapsedCombatTime"] = 61334.52400000001,
+				["CombatEndedAt"] = 61334.52400000001,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Korugen"] = 1588.001853,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Korugen"] = 208181.001498,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 61334.52400000001,
+				["combat_id"] = 300,
 				["frags"] = {
 					["Skithis the Infused"] = 1,
 				},
-				["start_time"] = 61297.47,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						934.0014980000001, -- [1]
@@ -3475,12 +10279,40 @@ _detalhes_database = {
 						["max_value"] = 23292,
 					},
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					208181, -- [1]
+					1588, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 61297.47,
 				["contra"] = "Skithis the Infused",
-			}, -- [4]
+				["data_inicio"] = "01:53:33",
+			}, -- [10]
 			{
 				{
-					["combatId"] = 299,
 					["tipo"] = 2,
+					["combatId"] = 299,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -3491,16 +10323,236 @@ _detalhes_database = {
 							["targets"] = {
 								["Zanxib"] = 244195,
 							},
-							["spec"] = 66,
+							["end_time"] = 1595461939,
 							["pets"] = {
 							},
-							["isTank"] = true,
-							["end_time"] = 1595461939,
-							["classe"] = "PALADIN",
+							["on_hold"] = false,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 12378,
+										["g_amt"] = 0,
+										["n_max"] = 3564,
+										["targets"] = {
+											["Zanxib"] = 48873,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 36495,
+										["n_min"] = 2370,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 48873,
+										["c_max"] = 6442,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 5936,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 13,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[53600] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 6648,
+										["g_amt"] = 0,
+										["n_max"] = 4435,
+										["targets"] = {
+											["Zanxib"] = 21986,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 15338,
+										["n_min"] = 2769,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 21986,
+										["c_max"] = 6648,
+										["spellschool"] = 2,
+										["id"] = 53600,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 6648,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[275779] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 69470,
+										["g_amt"] = 0,
+										["n_max"] = 6676,
+										["targets"] = {
+											["Zanxib"] = 96174,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 26704,
+										["n_min"] = 6676,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 96174,
+										["c_max"] = 19602,
+										["spellschool"] = 2,
+										["id"] = 275779,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 16024,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[204301] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2241,
+										["g_amt"] = 0,
+										["n_max"] = 1120,
+										["targets"] = {
+											["Zanxib"] = 9066,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6825,
+										["n_min"] = 838,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 9066,
+										["c_max"] = 2241,
+										["spellschool"] = 2,
+										["id"] = 204301,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 2241,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[256893] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 29046,
+										["targets"] = {
+											["Zanxib"] = 29046,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 29046,
+										["n_min"] = 29046,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 29046,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 256893,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[81297] = {
+										["c_amt"] = 10,
+										["b_amt"] = 0,
+										["c_dmg"] = 10239,
+										["g_amt"] = 0,
+										["n_max"] = 616,
+										["targets"] = {
+											["Zanxib"] = 24379,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 14140,
+										["n_min"] = 419,
+										["g_dmg"] = 0,
+										["counter"] = 39,
+										["total"] = 24379,
+										["c_max"] = 1231,
+										["spellschool"] = 2,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 838,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 29,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[31935] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5871,
+										["targets"] = {
+											["Zanxib"] = 14671,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 14671,
+										["n_min"] = 4400,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 14671,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 31935,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 244195.00763,
-							["colocacao"] = 1,
 							["avoidance"] = {
 								["overall"] = {
 									["DODGE"] = 1,
@@ -3535,244 +10587,24 @@ _detalhes_database = {
 									["FULL_HIT_AMT"] = 0,
 								},
 							},
+							["classe"] = "PALADIN",
 							["dps_started"] = false,
 							["total"] = 244195.00763,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["nome"] = "Korugen",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 12378,
-										["g_amt"] = 0,
-										["n_max"] = 3564,
-										["targets"] = {
-											["Zanxib"] = 48873,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 36495,
-										["n_min"] = 2370,
-										["g_dmg"] = 0,
-										["counter"] = 15,
-										["total"] = 48873,
-										["c_max"] = 6442,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 13,
-										["r_amt"] = 0,
-										["c_min"] = 5936,
-									}, -- [1]
-									[53600] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 6648,
-										["g_amt"] = 0,
-										["n_max"] = 4435,
-										["targets"] = {
-											["Zanxib"] = 21986,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 15338,
-										["n_min"] = 2769,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 21986,
-										["c_max"] = 6648,
-										["spellschool"] = 2,
-										["id"] = 53600,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 6648,
-									},
-									[275779] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 69470,
-										["g_amt"] = 0,
-										["n_max"] = 6676,
-										["targets"] = {
-											["Zanxib"] = 96174,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 26704,
-										["n_min"] = 6676,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 96174,
-										["c_max"] = 19602,
-										["spellschool"] = 2,
-										["id"] = 275779,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 16024,
-									},
-									[204301] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 2241,
-										["g_amt"] = 0,
-										["n_max"] = 1120,
-										["targets"] = {
-											["Zanxib"] = 9066,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 6825,
-										["n_min"] = 838,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 9066,
-										["c_max"] = 2241,
-										["spellschool"] = 2,
-										["id"] = 204301,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["r_amt"] = 0,
-										["c_min"] = 2241,
-									},
-									[256893] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 29046,
-										["targets"] = {
-											["Zanxib"] = 29046,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 29046,
-										["n_min"] = 29046,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 29046,
-										["c_max"] = 0,
-										["spellschool"] = 2,
-										["id"] = 256893,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[81297] = {
-										["c_amt"] = 10,
-										["b_amt"] = 0,
-										["c_dmg"] = 10239,
-										["g_amt"] = 0,
-										["n_max"] = 616,
-										["targets"] = {
-											["Zanxib"] = 24379,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 14140,
-										["n_min"] = 419,
-										["g_dmg"] = 0,
-										["counter"] = 39,
-										["total"] = 24379,
-										["c_max"] = 1231,
-										["spellschool"] = 2,
-										["id"] = 81297,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 29,
-										["r_amt"] = 0,
-										["c_min"] = 838,
-									},
-									[31935] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 5871,
-										["targets"] = {
-											["Zanxib"] = 14671,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 14671,
-										["n_min"] = 4400,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 14671,
-										["c_max"] = 0,
-										["spellschool"] = 2,
-										["id"] = 31935,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["on_hold"] = false,
 							["serial"] = "Player-3391-0A827D5A",
+							["isTank"] = true,
+							["nome"] = "Korugen",
+							["spec"] = 66,
+							["grupo"] = true,
+							["last_event"] = 1595461939,
+							["colocacao"] = 1,
 							["last_dps"] = 6678.198534976722,
 							["custom"] = 0,
-							["last_event"] = 1595461939,
-							["damage_taken"] = 13332.00763,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1595461903,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["damage_taken"] = 13332.00763,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -3787,19 +10619,19 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["monster"] = true,
+							["total"] = 19754.00209,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 19754.00209,
-							["monster"] = true,
+							["serial"] = "Creature-0-3110-1642-15542-133812-000018D10D",
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1595461939,
-							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["on_hold"] = false,
 							["nome"] = "Zanxib",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -3817,22 +10649,22 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 14,
 										["a_amt"] = 10,
-										["total"] = 10427,
+										["r_amt"] = 0,
 										["c_max"] = 0,
-										["spellschool"] = 1,
+										["b_dmg"] = 1277,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 10427,
+										["m_amt"] = 0,
 										["m_crit"] = 0,
 										["PARRY"] = 3,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 1277,
-										["n_amt"] = 10,
-										["r_amt"] = 0,
 										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 10427,
+										["n_amt"] = 10,
+										["spellschool"] = 1,
+										["total"] = 10427,
 									}, -- [1]
 									[260365] = {
 										["c_amt"] = 0,
@@ -3855,13 +10687,13 @@ _detalhes_database = {
 										},
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 4,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[260366] = {
 										["c_amt"] = 0,
@@ -3886,33 +10718,33 @@ _detalhes_database = {
 										},
 										["a_dmg"] = 2905,
 										["m_crit"] = 0,
-										["a_amt"] = 3,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 4,
 										["b_dmg"] = 0,
 										["n_amt"] = 6,
+										["a_amt"] = 3,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["total"] = 19754.00209,
-							["serial"] = "Creature-0-3110-1642-15542-133812-000018D10D",
+							["last_event"] = 1595461939,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1595461939,
+							["tipo"] = 1,
 							["damage_taken"] = 504075.00209,
 							["start_time"] = 1595461904,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 299,
 					["tipo"] = 3,
+					["combatId"] = 299,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -3948,7 +10780,6 @@ _detalhes_database = {
 							},
 							["nome"] = "Korugen",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[203791] = {
 										["c_amt"] = 0,
@@ -3968,10 +10799,10 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Korugen"] = 418,
 										},
-										["m_healed"] = 0,
 										["c_curado"] = 0,
-										["m_crit"] = 0,
 										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
 										["m_amt"] = 0,
 										["n_curado"] = 418,
 										["n_amt"] = 13,
@@ -3997,10 +10828,10 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Korugen"] = 446,
 										},
-										["m_healed"] = 0,
 										["c_curado"] = 0,
-										["m_crit"] = 0,
 										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
 										["m_amt"] = 0,
 										["n_curado"] = 446,
 										["n_amt"] = 4,
@@ -4009,163 +10840,164 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
+							["tipo"] = 2,
 							["start_time"] = 1595461904,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1595461939,
 							["spec"] = 66,
 							["totaldenied"] = 0.001276,
 							["delay"] = 0,
-							["last_event"] = 1595461939,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 299,
 					["tipo"] = 7,
+					["combatId"] = 299,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 299,
 					["tipo"] = 9,
+					["combatId"] = 299,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[204301] = {
-										["activedamt"] = 0,
-										["id"] = 204301,
+										["appliedamt"] = 4,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 12,
-										["appliedamt"] = 4,
+										["id"] = 204301,
 										["refreshamt"] = 4,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[31935] = {
-										["activedamt"] = 0,
-										["id"] = 31935,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 6,
-										["appliedamt"] = 2,
+										["id"] = 31935,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[204242] = {
-										["activedamt"] = 0,
-										["id"] = 204242,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 33,
-										["appliedamt"] = 3,
+										["id"] = 204242,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 182,
 							["classe"] = "PALADIN",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
-									[335152] = {
-										["activedamt"] = 1,
-										["id"] = 335152,
+									[197561] = {
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
-										["uptime"] = 36,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[294027] = {
-										["activedamt"] = 1,
-										["id"] = 294027,
-										["targets"] = {
-										},
-										["uptime"] = 19,
-										["appliedamt"] = 1,
+										["activedamt"] = 3,
+										["uptime"] = 6,
+										["id"] = 197561,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[188370] = {
-										["activedamt"] = 3,
-										["id"] = 188370,
-										["targets"] = {
-										},
-										["uptime"] = 33,
 										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[132403] = {
-										["activedamt"] = 4,
-										["id"] = 132403,
 										["targets"] = {
 										},
-										["uptime"] = 21,
-										["appliedamt"] = 4,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[273935] = {
-										["activedamt"] = 1,
-										["id"] = 273935,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 1,
+										["activedamt"] = 3,
+										["uptime"] = 33,
+										["id"] = 188370,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[186403] = {
-										["activedamt"] = 1,
-										["id"] = 186403,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 36,
+										["id"] = 186403,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[132403] = {
+										["appliedamt"] = 4,
+										["targets"] = {
+										},
+										["activedamt"] = 4,
+										["uptime"] = 21,
+										["id"] = 132403,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[273935] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 12,
+										["id"] = 273935,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[335152] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 36,
+										["id"] = 335152,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[31884] = {
-										["activedamt"] = 1,
-										["id"] = 31884,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 19,
-										["appliedamt"] = 1,
+										["id"] = 31884,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[197561] = {
-										["activedamt"] = 3,
-										["id"] = 197561,
+									[294027] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 6,
-										["appliedamt"] = 3,
+										["activedamt"] = 1,
+										["uptime"] = 19,
+										["id"] = 294027,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 51,
@@ -4174,28 +11006,28 @@ _detalhes_database = {
 							["spec"] = 66,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[204019] = 4,
-								[53600] = 6,
 								[275779] = 8,
+								[31935] = 3,
+								[204019] = 4,
 								[26573] = 2,
 								[273935] = 1,
 								[255647] = 1,
 								[31884] = 1,
-								[31935] = 3,
+								[53600] = 6,
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1595461939,
+							["tipo"] = 4,
 							["nome"] = "Korugen",
 							["pets"] = {
 							},
 							["serial"] = "Player-3391-0A827D5A",
-							["tipo"] = 4,
+							["last_event"] = 1595461939,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
-							["nome"] = "Zanxib",
 							["tipo"] = 4,
+							["nome"] = "Zanxib",
 							["pets"] = {
 							},
 							["fight_component"] = true,
@@ -4211,8 +11043,8 @@ _detalhes_database = {
 					},
 				}, -- [4]
 				{
-					["combatId"] = 299,
 					["tipo"] = 2,
+					["combatId"] = 299,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -4240,39 +11072,21 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					244195, -- [1]
-					864, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "01:52:19",
 				["cleu_timeline"] = {
 				},
@@ -4288,14 +11102,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Korugen"] = 864.001276,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -4305,21 +11119,12 @@ _detalhes_database = {
 				},
 				["end_time"] = 61223.772,
 				["combat_id"] = 299,
-				["cleu_events"] = {
-					["n"] = 1,
+				["frags"] = {
+					["Zanxib"] = 1,
 				},
 				["overall_added"] = true,
 				["spells_cast_timeline"] = {
 				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "01:51:43",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["Zanxib"] = 1,
-				},
-				["start_time"] = 61187.206,
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						838.0076300000001, -- [1]
@@ -4400,8 +11205,36 @@ _detalhes_database = {
 						["max_value"] = 33729,
 					},
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					244195, -- [1]
+					864, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 61187.206,
 				["contra"] = "Zanxib",
-			}, -- [5]
+				["data_inicio"] = "01:51:43",
+			}, -- [11]
 			{
 				{
 					["tipo"] = 2,
@@ -4410,17 +11243,6 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.002546,
-							["pets"] = {
-							},
-							["classe"] = "PALADIN",
-							["total_without_pet"] = 143398.002546,
-							["dps_started"] = false,
-							["total"] = 143398.002546,
-							["spec"] = 66,
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["isTank"] = true,
-							["serial"] = "Player-3391-0A827D5A",
 							["damage_from"] = {
 								["Matron Morana"] = true,
 								["[*] Decaying Ground"] = true,
@@ -4428,13 +11250,11 @@ _detalhes_database = {
 							["targets"] = {
 								["Matron Morana"] = 143398,
 							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
+							["total"] = 143398.002546,
+							["pets"] = {
 							},
-							["end_time"] = 1594501346,
 							["friendlyfire"] = {
 							},
-							["nome"] = "Korugen",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -4459,8 +11279,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 6466,
 										["m_amt"] = 0,
+										["c_min"] = 6466,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 8,
@@ -4482,12 +11302,12 @@ _detalhes_database = {
 										["n_min"] = 0,
 										["g_dmg"] = 0,
 										["counter"] = 4,
-										["total"] = 0,
 										["r_amt"] = 0,
+										["total"] = 0,
 										["c_max"] = 0,
-										["id"] = 204242,
 										["extra"] = {
 										},
+										["id"] = 204242,
 										["r_dmg"] = 0,
 										["b_dmg"] = 0,
 										["a_amt"] = 0,
@@ -4522,8 +11342,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 6,
@@ -4553,8 +11373,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 5405,
 										["m_amt"] = 0,
+										["c_min"] = 5405,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
@@ -4584,8 +11404,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
@@ -4615,8 +11435,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
@@ -4646,8 +11466,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 983,
 										["m_amt"] = 0,
+										["c_min"] = 983,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 19,
@@ -4677,8 +11497,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
@@ -4689,9 +11509,22 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["classe"] = "PALADIN",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 143398.002546,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1594501346,
+							["serial"] = "Player-3391-0A827D5A",
+							["isTank"] = true,
+							["nome"] = "Korugen",
+							["spec"] = 66,
 							["grupo"] = true,
-							["damage_taken"] = 66224.002546,
 							["last_event"] = 1594501345,
+							["colocacao"] = 1,
+							["last_dps"] = 6573.668403136057,
 							["custom"] = 0,
 							["tipo"] = 1,
 							["avoidance"] = {
@@ -4746,7 +11579,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1594501324,
 							["delay"] = 0,
-							["last_dps"] = 6573.668403136057,
+							["damage_taken"] = 66224.002546,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -4769,14 +11602,14 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["damage_taken"] = 1299682.005425,
 							["classe"] = "UNKNOW",
+							["damage_taken"] = 1299682.005425,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 170574.005425,
 							["delay"] = 0,
-							["dps_started"] = false,
+							["fight_component"] = true,
 							["total"] = 170574.005425,
 							["monster"] = true,
 							["on_hold"] = false,
@@ -4797,18 +11630,18 @@ _detalhes_database = {
 										["n_min"] = 4655,
 										["g_dmg"] = 0,
 										["counter"] = 5,
-										["total"] = 17541,
 										["r_amt"] = 0,
+										["total"] = 17541,
 										["c_max"] = 0,
-										["id"] = 1,
 										["extra"] = {
 										},
+										["id"] = 1,
 										["r_dmg"] = 0,
 										["b_dmg"] = 0,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["m_crit"] = 0,
 										["PARRY"] = 2,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_dmg"] = 17541,
 										["n_amt"] = 3,
@@ -4871,8 +11704,8 @@ _detalhes_database = {
 										["a_dmg"] = 44633,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 9,
 										["n_amt"] = 44,
@@ -4892,7 +11725,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1594501324,
 							["serial"] = "Creature-0-3774-1643-29669-137704-00000A28BD",
-							["fight_component"] = true,
+							["dps_started"] = false,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -4903,20 +11736,20 @@ _detalhes_database = {
 								["Korugen"] = 4050,
 								["Czarownik"] = 5008,
 							},
-							["dps_started"] = false,
+							["delay"] = 1594501348,
 							["pets"] = {
 							},
-							["end_time"] = 1595461903,
+							["monster"] = true,
+							["spellicon"] = 425960,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 9058.002139,
-							["delay"] = 1594501348,
-							["spellicon"] = 425960,
 							["fight_component"] = true,
+							["dps_started"] = false,
 							["total"] = 9058.002139,
-							["on_hold"] = false,
-							["classe"] = "UNKNOW",
+							["damage_taken"] = 0.002139,
+							["tipo"] = 1,
 							["nome"] = "[*] Decaying Ground",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4943,8 +11776,8 @@ _detalhes_database = {
 										["a_dmg"] = 1323,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 1,
 										["n_amt"] = 7,
@@ -4955,16 +11788,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["monster"] = true,
+							["end_time"] = 1595461903,
 							["last_dps"] = 0,
-							["tipo"] = 1,
+							["on_hold"] = false,
 							["custom"] = 0,
 							["last_event"] = 1594501348,
-							["damage_taken"] = 0.002139,
-							["start_time"] = 1595461893,
-							["serial"] = "",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1595461893,
+							["serial"] = "",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -5094,16 +11927,16 @@ _detalhes_database = {
 							["classe"] = "PALADIN",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
-									[197561] = {
+									[188370] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 2,
+										["activedamt"] = 4,
 										["refreshamt"] = 0,
-										["id"] = 197561,
-										["uptime"] = 9,
+										["id"] = 188370,
+										["uptime"] = 22,
 										["targets"] = {
 										},
-										["appliedamt"] = 2,
+										["appliedamt"] = 4,
 									},
 									[225788] = {
 										["counter"] = 0,
@@ -5116,16 +11949,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[188370] = {
+									[197561] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 4,
+										["activedamt"] = 2,
 										["refreshamt"] = 0,
-										["id"] = 188370,
-										["uptime"] = 22,
+										["id"] = 197561,
+										["uptime"] = 9,
 										["targets"] = {
 										},
-										["appliedamt"] = 4,
+										["appliedamt"] = 2,
 									},
 									[132403] = {
 										["counter"] = 0,
@@ -5138,13 +11971,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[273935] = {
+									[335150] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 273935,
-										["uptime"] = 12,
+										["id"] = 335150,
+										["uptime"] = 22,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -5171,13 +12004,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[335150] = {
+									[273935] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 335150,
-										["uptime"] = 22,
+										["id"] = 273935,
+										["uptime"] = 12,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -5304,9 +12137,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "23:02:04",
-				["end_time"] = 33635.668,
-				["combat_id"] = 298,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -5327,6 +12157,9 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
+				["end_time"] = 33635.668,
+				["combat_id"] = 298,
+				["data_inicio"] = "23:02:04",
 				["overall_added"] = true,
 				["frags"] = {
 					["Matron Morana"] = 1,
@@ -5477,7 +12310,7 @@ _detalhes_database = {
 				["contra"] = "Matron Morana",
 				["spells_cast_timeline"] = {
 				},
-			}, -- [6]
+			}, -- [12]
 			{
 				{
 					["tipo"] = 2,
@@ -5496,7 +12329,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["last_dps"] = 5019.065624288668,
-							["total"] = 48439.00234,
+							["end_time"] = 1594501208,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
@@ -5504,13 +12337,10 @@ _detalhes_database = {
 							["damage_taken"] = 937.00234,
 							["classe"] = "PALADIN",
 							["dps_started"] = false,
-							["end_time"] = 1594501208,
+							["total"] = 48439.00234,
 							["delay"] = 0,
 							["start_time"] = 1594501199,
 							["nome"] = "Korugen",
-							["spec"] = 66,
-							["grupo"] = true,
-							["tipo"] = 1,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -5535,8 +12365,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
@@ -5566,8 +12396,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
@@ -5597,8 +12427,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
@@ -5628,8 +12458,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
@@ -5659,8 +12489,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 10,
@@ -5690,8 +12520,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
@@ -5702,6 +12532,9 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["tipo"] = 1,
+							["spec"] = 66,
 							["on_hold"] = false,
 							["colocacao"] = 1,
 							["last_event"] = 1594501207,
@@ -5765,16 +12598,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
 							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10752.007058,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1594501208,
 							["total"] = 10752.007058,
+							["end_time"] = 1594501208,
 							["damage_taken"] = 549352.007058,
 							["nome"] = "Sister Hilga",
 							["spells"] = {
@@ -5793,12 +12626,12 @@ _detalhes_database = {
 										["n_min"] = 937,
 										["g_dmg"] = 0,
 										["counter"] = 2,
-										["total"] = 937,
 										["r_amt"] = 0,
+										["total"] = 937,
 										["c_max"] = 0,
-										["id"] = 1,
 										["extra"] = {
 										},
+										["id"] = 1,
 										["r_dmg"] = 0,
 										["b_dmg"] = 0,
 										["a_amt"] = 1,
@@ -6130,8 +12963,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 4,
 							["last_event"] = 1594501208,
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["isTank"] = true,
@@ -6231,9 +13064,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "22:59:59",
-				["end_time"] = 33498.504,
-				["combat_id"] = 297,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -6254,6 +13084,9 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
+				["end_time"] = 33498.504,
+				["combat_id"] = 297,
+				["data_inicio"] = "22:59:59",
 				["tempo_start"] = 1594501199,
 				["spells_cast_timeline"] = {
 				},
@@ -6293,7 +13126,7 @@ _detalhes_database = {
 				["frags"] = {
 					["Sister Hilga"] = 1,
 				},
-			}, -- [7]
+			}, -- [13]
 			{
 				{
 					["tipo"] = 2,
@@ -6312,7 +13145,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["last_dps"] = 7521.843596115354,
-							["total"] = 109676.001475,
+							["end_time"] = 1594501102,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
@@ -6320,13 +13153,10 @@ _detalhes_database = {
 							["damage_taken"] = 22214.001475,
 							["classe"] = "PALADIN",
 							["dps_started"] = false,
-							["end_time"] = 1594501102,
+							["total"] = 109676.001475,
 							["delay"] = 0,
 							["start_time"] = 1594501088,
 							["nome"] = "Korugen",
-							["spec"] = 66,
-							["grupo"] = true,
-							["tipo"] = 1,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -6351,8 +13181,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 6359,
 										["m_amt"] = 0,
+										["c_min"] = 6359,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
@@ -6374,12 +13204,12 @@ _detalhes_database = {
 										["n_min"] = 0,
 										["g_dmg"] = 0,
 										["counter"] = 3,
-										["total"] = 0,
 										["r_amt"] = 0,
+										["total"] = 0,
 										["c_max"] = 0,
-										["id"] = 204242,
 										["extra"] = {
 										},
+										["id"] = 204242,
 										["r_dmg"] = 0,
 										["b_dmg"] = 0,
 										["a_amt"] = 0,
@@ -6414,8 +13244,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 12649,
 										["m_amt"] = 0,
+										["c_min"] = 12649,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
@@ -6445,8 +13275,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
@@ -6476,8 +13306,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 2186,
 										["m_amt"] = 0,
+										["c_min"] = 2186,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
@@ -6507,8 +13337,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
@@ -6538,8 +13368,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 1093,
 										["m_amt"] = 0,
+										["c_min"] = 1093,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 14,
@@ -6569,8 +13399,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
@@ -6581,6 +13411,9 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["tipo"] = 1,
+							["spec"] = 66,
 							["on_hold"] = false,
 							["colocacao"] = 1,
 							["last_event"] = 1594501101,
@@ -6645,16 +13478,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
 							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 35542.005665,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1594501102,
 							["total"] = 35542.005665,
+							["end_time"] = 1594501102,
 							["damage_taken"] = 1305404.005665,
 							["nome"] = "Stone Golem",
 							["spells"] = {
@@ -6681,8 +13514,8 @@ _detalhes_database = {
 										["a_dmg"] = 18540,
 										["b_dmg"] = 2550,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 4,
 										["n_amt"] = 4,
@@ -6739,18 +13572,18 @@ _detalhes_database = {
 										["n_min"] = 63,
 										["g_dmg"] = 0,
 										["counter"] = 12,
-										["total"] = 8833,
 										["r_amt"] = 0,
+										["total"] = 8833,
 										["c_max"] = 0,
-										["id"] = 257660,
 										["extra"] = {
 										},
+										["id"] = 257660,
 										["r_dmg"] = 0,
 										["b_dmg"] = 0,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["m_crit"] = 0,
 										["PARRY"] = 2,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_dmg"] = 1917,
 										["n_amt"] = 10,
@@ -6920,16 +13753,16 @@ _detalhes_database = {
 							["classe"] = "PALADIN",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
-									[197561] = {
+									[188370] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 1,
+										["activedamt"] = 3,
 										["refreshamt"] = 0,
-										["id"] = 197561,
-										["uptime"] = 3,
+										["id"] = 188370,
+										["uptime"] = 14,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["appliedamt"] = 3,
 									},
 									[225788] = {
 										["counter"] = 0,
@@ -6942,16 +13775,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[188370] = {
+									[197561] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 3,
+										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 188370,
-										["uptime"] = 14,
+										["id"] = 197561,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["appliedamt"] = 3,
+										["appliedamt"] = 1,
 									},
 									[132403] = {
 										["counter"] = 0,
@@ -6964,13 +13797,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[273935] = {
+									[335150] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 273935,
-										["uptime"] = 6,
+										["id"] = 335150,
+										["uptime"] = 14,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -6997,13 +13830,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[335150] = {
+									[273935] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 335150,
-										["uptime"] = 14,
+										["id"] = 273935,
+										["uptime"] = 6,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -7018,17 +13851,17 @@ _detalhes_database = {
 							["spec"] = 66,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[26573] = 2,
 								[53600] = 3,
-								[204019] = 1,
+								[26573] = 2,
+								[275779] = 3,
 								[31935] = 1,
 								[273935] = 1,
 								[255647] = 1,
 								[31884] = 1,
-								[275779] = 3,
+								[204019] = 1,
 							},
-							["tipo"] = 4,
 							["last_event"] = 1594501102,
+							["tipo"] = 4,
 							["nome"] = "Korugen",
 							["pets"] = {
 							},
@@ -7130,9 +13963,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "22:58:08",
-				["end_time"] = 33392.321,
-				["combat_id"] = 296,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -7153,6 +13983,9 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
+				["end_time"] = 33392.321,
+				["combat_id"] = 296,
+				["data_inicio"] = "22:58:08",
 				["tempo_start"] = 1594501088,
 				["spells_cast_timeline"] = {
 				},
@@ -7202,7 +14035,7 @@ _detalhes_database = {
 				["frags"] = {
 					["Stone Golem"] = 1,
 				},
-			}, -- [8]
+			}, -- [14]
 			{
 				{
 					["tipo"] = 2,
@@ -7222,16 +14055,6 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["end_time"] = 1594414100,
-							["damage_taken"] = 137.00376,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3948291.00376,
-							["delay"] = 0,
-							["classe"] = "PALADIN",
-							["dps_started"] = false,
-							["total"] = 3948291.00376,
-							["start_time"] = 1594414086,
 							["avoidance"] = {
 								["overall"] = {
 									["DODGE"] = 0,
@@ -7266,6 +14089,16 @@ _detalhes_database = {
 									["FULL_HIT_AMT"] = 57,
 								},
 							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3948291.00376,
+							["delay"] = 0,
+							["classe"] = "PALADIN",
+							["dps_started"] = false,
+							["total"] = 3948291.00376,
+							["start_time"] = 1594414086,
+							["damage_taken"] = 137.00376,
 							["nome"] = "Korugen",
 							["spec"] = 66,
 							["grupo"] = true,
@@ -7296,9 +14129,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 221213,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 221213,
 										["n_amt"] = 3,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -7318,10 +14151,11 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 2,
 										["IMMUNE"] = 2,
-										["total"] = 0,
+										["r_amt"] = 0,
 										["c_max"] = 0,
 										["spellschool"] = 2,
-										["id"] = 204242,
+										["extra"] = {
+										},
 										["r_dmg"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
@@ -7331,9 +14165,8 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["r_amt"] = 0,
+										["id"] = 204242,
+										["total"] = 0,
 									},
 									[268525] = {
 										["c_amt"] = 0,
@@ -7359,9 +14192,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
 										["n_amt"] = 1,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -7390,9 +14223,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 469018,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 469018,
 										["n_amt"] = 1,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -7421,9 +14254,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 233514,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 233514,
 										["n_amt"] = 2,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -7452,9 +14285,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 58968,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 58968,
 										["n_amt"] = 0,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -7483,9 +14316,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
 										["n_amt"] = 1,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -7514,9 +14347,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 29484,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 29484,
 										["n_amt"] = 8,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -7545,9 +14378,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 309088,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 309088,
 										["n_amt"] = 1,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -7558,11 +14391,11 @@ _detalhes_database = {
 							["last_dps"] = 281017.153292614,
 							["colocacao"] = 1,
 							["last_event"] = 1594414100,
-							["on_hold"] = false,
-							["isTank"] = true,
-							["serial"] = "Player-3391-0A827D5A",
 							["friendlyfire"] = {
 							},
+							["isTank"] = true,
+							["serial"] = "Player-3391-0A827D5A",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 2600,
@@ -7581,7 +14414,7 @@ _detalhes_database = {
 							["total_without_pet"] = 3213.004032,
 							["classe"] = "UNKNOW",
 							["dps_started"] = false,
-							["end_time"] = 1594500989,
+							["total"] = 3213.004032,
 							["delay"] = 1594500813,
 							["nome"] = "Lunarfall Footman",
 							["boss_fight_component"] = true,
@@ -7609,8 +14442,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
@@ -7630,7 +14463,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1594500988,
 							["serial"] = "Creature-0-3110-1331-4375-77370-00040A26B1",
-							["total"] = 3213.004032,
+							["end_time"] = 1594500989,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -7644,14 +14477,14 @@ _detalhes_database = {
 							["pets"] = {
 								"Desecration <Archimonde>", -- [1]
 							},
-							["dps_started"] = false,
+							["monster"] = true,
 							["nome"] = "Archimonde",
-							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 137.001885,
 							["serial"] = "Creature-0-3892-1448-29845-91331-000008D3F8",
-							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 137.001885,
 							["on_hold"] = false,
 							["friendlyfire"] = {
@@ -7674,22 +14507,22 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 6,
 										["a_amt"] = 3,
-										["total"] = 137,
+										["r_amt"] = 0,
 										["c_max"] = 0,
 										["spellschool"] = 1,
-										["id"] = 1,
+										["extra"] = {
+										},
 										["r_dmg"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 80,
 										["m_crit"] = 0,
 										["PARRY"] = 1,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
 										["n_amt"] = 5,
-										["extra"] = {
-										},
-										["r_amt"] = 0,
+										["id"] = 1,
+										["total"] = 137,
 									}, -- [1]
 									[185590] = {
 										["c_amt"] = 0,
@@ -7789,7 +14622,7 @@ _detalhes_database = {
 							["damage_taken"] = 3948291.001885,
 							["start_time"] = 1594414087,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
@@ -7802,13 +14635,13 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["on_hold"] = false,
-							["classe"] = "UNKNOW",
 							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005545,
 							["total"] = 0.005545,
-							["monster"] = true,
+							["dps_started"] = false,
 							["end_time"] = 1594414100,
 							["friendlyfire"] = {
 							},
@@ -7914,7 +14747,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1594414100,
 							["delay"] = 0,
-							["dps_started"] = false,
+							["monster"] = true,
 						}, -- [4]
 						{
 							["flag_original"] = 2632,
@@ -7925,14 +14758,14 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["dps_started"] = false,
+							["monster"] = true,
 							["nome"] = "[*] Desecration",
-							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005417,
 							["serial"] = "",
-							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 0.005417,
 							["on_hold"] = false,
 							["friendlyfire"] = {
@@ -7980,7 +14813,7 @@ _detalhes_database = {
 							["damage_taken"] = 0.005417,
 							["start_time"] = 1594414100,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [5]
 						{
 							["flag_original"] = 2600,
@@ -7999,7 +14832,7 @@ _detalhes_database = {
 							["total_without_pet"] = 0.002672,
 							["classe"] = "UNKNOW",
 							["dps_started"] = false,
-							["end_time"] = 1594500989,
+							["total"] = 0.002672,
 							["delay"] = 0,
 							["nome"] = "Lunarfall Goren",
 							["boss_fight_component"] = true,
@@ -8017,7 +14850,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1594500989,
 							["serial"] = "Creature-0-3110-1331-4375-83628-00028A26B2",
-							["total"] = 0.002672,
+							["end_time"] = 1594500989,
 						}, -- [6]
 					},
 				}, -- [1]
@@ -8123,8 +14956,8 @@ _detalhes_database = {
 							["start_time"] = 1594414087,
 							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1594414099,
 							["tipo"] = 2,
+							["last_event"] = 1594414099,
 							["totaldenied"] = 0.007315,
 							["delay"] = 0,
 							["healing_from"] = {
@@ -8157,7 +14990,7 @@ _detalhes_database = {
 							["nome"] = "Bloodypaws",
 							["targets_absorbs"] = {
 							},
-							["tipo"] = 2,
+							["last_event"] = 1594500831,
 							["boss_fight_component"] = true,
 							["heal_enemy"] = {
 							},
@@ -8183,12 +15016,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 1,
 										["n_curado"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 									[227034] = {
@@ -8211,23 +15044,23 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 3,
 										["n_curado"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["custom"] = 0,
-							["last_event"] = 1594500831,
+							["tipo"] = 2,
 							["on_hold"] = false,
-							["start_time"] = 1594500978,
-							["serial"] = "Player-3391-0A7560F2",
 							["totaldenied"] = 0.005722,
+							["serial"] = "Player-3391-0A7560F2",
+							["start_time"] = 1594500978,
 						}, -- [2]
 						{
 							["flag_original"] = 1304,
@@ -8255,7 +15088,7 @@ _detalhes_database = {
 							["nome"] = "Ocd",
 							["targets_absorbs"] = {
 							},
-							["tipo"] = 2,
+							["last_event"] = 1594500835,
 							["boss_fight_component"] = true,
 							["heal_enemy"] = {
 							},
@@ -8281,23 +15114,23 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 3,
 										["n_curado"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["custom"] = 0,
-							["last_event"] = 1594500835,
+							["tipo"] = 2,
 							["on_hold"] = false,
-							["start_time"] = 1594500972,
-							["serial"] = "Player-3391-09FA2150",
 							["totaldenied"] = 0.005108,
+							["serial"] = "Player-3391-09FA2150",
+							["start_time"] = 1594500972,
 						}, -- [3]
 						{
 							["flag_original"] = 1304,
@@ -8325,7 +15158,7 @@ _detalhes_database = {
 							["nome"] = "Metsarogue",
 							["targets_absorbs"] = {
 							},
-							["tipo"] = 2,
+							["last_event"] = 1594500820,
 							["boss_fight_component"] = true,
 							["heal_enemy"] = {
 							},
@@ -8351,23 +15184,23 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 3,
 										["n_curado"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["custom"] = 0,
-							["last_event"] = 1594500820,
+							["tipo"] = 2,
 							["on_hold"] = false,
-							["start_time"] = 1594500987,
-							["serial"] = "Player-3391-0A563FEE",
 							["totaldenied"] = 0.003721,
+							["serial"] = "Player-3391-0A563FEE",
+							["start_time"] = 1594500987,
 						}, -- [4]
 					},
 				}, -- [2]
@@ -8755,7 +15588,7 @@ _detalhes_database = {
 						}, -- [1]
 					},
 				},
-			}, -- [9]
+			}, -- [15]
 			{
 				{
 					["tipo"] = 2,
@@ -8775,16 +15608,6 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["end_time"] = 1594414100,
-							["damage_taken"] = 137.00376,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3948291.00376,
-							["delay"] = 0,
-							["classe"] = "PALADIN",
-							["dps_started"] = false,
-							["total"] = 3948291.00376,
-							["start_time"] = 1594414086,
 							["avoidance"] = {
 								["overall"] = {
 									["DODGE"] = 0,
@@ -8819,6 +15642,16 @@ _detalhes_database = {
 									["FULL_HIT_AMT"] = 57,
 								},
 							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3948291.00376,
+							["delay"] = 0,
+							["classe"] = "PALADIN",
+							["dps_started"] = false,
+							["total"] = 3948291.00376,
+							["start_time"] = 1594414086,
+							["damage_taken"] = 137.00376,
 							["nome"] = "Korugen",
 							["spec"] = 66,
 							["grupo"] = true,
@@ -8849,9 +15682,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 221213,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 221213,
 										["n_amt"] = 3,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -8871,10 +15704,11 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 2,
 										["IMMUNE"] = 2,
-										["total"] = 0,
+										["r_amt"] = 0,
 										["c_max"] = 0,
 										["spellschool"] = 2,
-										["id"] = 204242,
+										["extra"] = {
+										},
 										["r_dmg"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
@@ -8884,9 +15718,8 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["r_amt"] = 0,
+										["id"] = 204242,
+										["total"] = 0,
 									},
 									[268525] = {
 										["c_amt"] = 0,
@@ -8912,9 +15745,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
 										["n_amt"] = 1,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -8943,9 +15776,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 469018,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 469018,
 										["n_amt"] = 1,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -8974,9 +15807,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 233514,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 233514,
 										["n_amt"] = 2,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -9005,9 +15838,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 58968,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 58968,
 										["n_amt"] = 0,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -9036,9 +15869,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
 										["n_amt"] = 1,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -9067,9 +15900,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 29484,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 29484,
 										["n_amt"] = 8,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -9098,9 +15931,9 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 309088,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 309088,
 										["n_amt"] = 1,
 										["a_dmg"] = 0,
 										["r_amt"] = 0,
@@ -9111,11 +15944,11 @@ _detalhes_database = {
 							["last_dps"] = 281017.153292614,
 							["colocacao"] = 1,
 							["last_event"] = 1594414100,
-							["on_hold"] = false,
-							["isTank"] = true,
-							["serial"] = "Player-3391-0A827D5A",
 							["friendlyfire"] = {
 							},
+							["isTank"] = true,
+							["serial"] = "Player-3391-0A827D5A",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 2600,
@@ -9134,7 +15967,7 @@ _detalhes_database = {
 							["total_without_pet"] = 3213.004032,
 							["classe"] = "UNKNOW",
 							["dps_started"] = false,
-							["end_time"] = 1594500989,
+							["total"] = 3213.004032,
 							["delay"] = 1594500813,
 							["nome"] = "Lunarfall Footman",
 							["boss_fight_component"] = true,
@@ -9162,8 +15995,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
@@ -9183,7 +16016,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1594500988,
 							["serial"] = "Creature-0-3110-1331-4375-77370-00040A26B1",
-							["total"] = 3213.004032,
+							["end_time"] = 1594500989,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -9197,14 +16030,14 @@ _detalhes_database = {
 							["pets"] = {
 								"Desecration <Archimonde>", -- [1]
 							},
-							["dps_started"] = false,
+							["monster"] = true,
 							["nome"] = "Archimonde",
-							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 137.001885,
 							["serial"] = "Creature-0-3892-1448-29845-91331-000008D3F8",
-							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 137.001885,
 							["on_hold"] = false,
 							["friendlyfire"] = {
@@ -9227,22 +16060,22 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 6,
 										["a_amt"] = 3,
-										["total"] = 137,
+										["r_amt"] = 0,
 										["c_max"] = 0,
 										["spellschool"] = 1,
-										["id"] = 1,
+										["extra"] = {
+										},
 										["r_dmg"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 80,
 										["m_crit"] = 0,
 										["PARRY"] = 1,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
 										["n_amt"] = 5,
-										["extra"] = {
-										},
-										["r_amt"] = 0,
+										["id"] = 1,
+										["total"] = 137,
 									}, -- [1]
 									[185590] = {
 										["c_amt"] = 0,
@@ -9342,7 +16175,7 @@ _detalhes_database = {
 							["damage_taken"] = 3948291.001885,
 							["start_time"] = 1594414087,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
@@ -9355,13 +16188,13 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["on_hold"] = false,
-							["classe"] = "UNKNOW",
 							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005545,
 							["total"] = 0.005545,
-							["monster"] = true,
+							["dps_started"] = false,
 							["end_time"] = 1594414100,
 							["friendlyfire"] = {
 							},
@@ -9467,7 +16300,7 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["start_time"] = 1594414100,
 							["delay"] = 0,
-							["dps_started"] = false,
+							["monster"] = true,
 						}, -- [4]
 						{
 							["flag_original"] = 2632,
@@ -9478,14 +16311,14 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["dps_started"] = false,
+							["monster"] = true,
 							["nome"] = "[*] Desecration",
-							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005417,
 							["serial"] = "",
-							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 0.005417,
 							["on_hold"] = false,
 							["friendlyfire"] = {
@@ -9533,7 +16366,7 @@ _detalhes_database = {
 							["damage_taken"] = 0.005417,
 							["start_time"] = 1594414100,
 							["delay"] = 0,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [5]
 						{
 							["flag_original"] = 2600,
@@ -9552,7 +16385,7 @@ _detalhes_database = {
 							["total_without_pet"] = 0.002672,
 							["classe"] = "UNKNOW",
 							["dps_started"] = false,
-							["end_time"] = 1594500989,
+							["total"] = 0.002672,
 							["delay"] = 0,
 							["nome"] = "Lunarfall Goren",
 							["boss_fight_component"] = true,
@@ -9570,7 +16403,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1594500989,
 							["serial"] = "Creature-0-3110-1331-4375-83628-00028A26B2",
-							["total"] = 0.002672,
+							["end_time"] = 1594500989,
 						}, -- [6]
 					},
 				}, -- [1]
@@ -9676,8 +16509,8 @@ _detalhes_database = {
 							["start_time"] = 1594414087,
 							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1594414099,
 							["tipo"] = 2,
+							["last_event"] = 1594414099,
 							["totaldenied"] = 0.007315,
 							["delay"] = 0,
 							["healing_from"] = {
@@ -9710,7 +16543,7 @@ _detalhes_database = {
 							["nome"] = "Bloodypaws",
 							["targets_absorbs"] = {
 							},
-							["tipo"] = 2,
+							["last_event"] = 1594500831,
 							["boss_fight_component"] = true,
 							["heal_enemy"] = {
 							},
@@ -9736,12 +16569,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 1,
 										["n_curado"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 									[227034] = {
@@ -9764,23 +16597,23 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 3,
 										["n_curado"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["custom"] = 0,
-							["last_event"] = 1594500831,
+							["tipo"] = 2,
 							["on_hold"] = false,
-							["start_time"] = 1594500978,
-							["serial"] = "Player-3391-0A7560F2",
 							["totaldenied"] = 0.005722,
+							["serial"] = "Player-3391-0A7560F2",
+							["start_time"] = 1594500978,
 						}, -- [2]
 						{
 							["flag_original"] = 1304,
@@ -9808,7 +16641,7 @@ _detalhes_database = {
 							["nome"] = "Ocd",
 							["targets_absorbs"] = {
 							},
-							["tipo"] = 2,
+							["last_event"] = 1594500835,
 							["boss_fight_component"] = true,
 							["heal_enemy"] = {
 							},
@@ -9834,23 +16667,23 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 3,
 										["n_curado"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["custom"] = 0,
-							["last_event"] = 1594500835,
+							["tipo"] = 2,
 							["on_hold"] = false,
-							["start_time"] = 1594500972,
-							["serial"] = "Player-3391-09FA2150",
 							["totaldenied"] = 0.005108,
+							["serial"] = "Player-3391-09FA2150",
+							["start_time"] = 1594500972,
 						}, -- [3]
 						{
 							["flag_original"] = 1304,
@@ -9878,7 +16711,7 @@ _detalhes_database = {
 							["nome"] = "Metsarogue",
 							["targets_absorbs"] = {
 							},
-							["tipo"] = 2,
+							["last_event"] = 1594500820,
 							["boss_fight_component"] = true,
 							["heal_enemy"] = {
 							},
@@ -9904,23 +16737,23 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 3,
 										["n_curado"] = 0,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["custom"] = 0,
-							["last_event"] = 1594500820,
+							["tipo"] = 2,
 							["on_hold"] = false,
-							["start_time"] = 1594500987,
-							["serial"] = "Player-3391-0A563FEE",
 							["totaldenied"] = 0.003721,
+							["serial"] = "Player-3391-0A563FEE",
+							["start_time"] = 1594500987,
 						}, -- [4]
 					},
 				}, -- [2]
@@ -10308,7 +17141,7 @@ _detalhes_database = {
 						}, -- [1]
 					},
 				},
-			}, -- [10]
+			}, -- [16]
 			{
 				{
 					["tipo"] = 2,
@@ -10329,8 +17162,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["total"] = 1013870.003001,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["classe"] = "PALADIN",
 							["raid_targets"] = {
 							},
@@ -10340,7 +17172,8 @@ _detalhes_database = {
 							["dps_started"] = false,
 							["end_time"] = 1593164925,
 							["isTank"] = true,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["boss_fight_component"] = true,
 							["spec"] = 66,
 							["grupo"] = true,
@@ -10369,8 +17202,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
@@ -10401,8 +17234,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 326291,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
@@ -10433,8 +17266,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 29484,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 8,
@@ -10448,9 +17281,6 @@ _detalhes_database = {
 							["last_dps"] = 138886.3017809555,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 1486.003001,
-							["start_time"] = 1593164918,
-							["delay"] = 0,
 							["avoidance"] = {
 								["Environment (Falling)"] = {
 									["DODGE"] = 0,
@@ -10501,6 +17331,9 @@ _detalhes_database = {
 									["FULL_HIT_AMT"] = 0,
 								},
 							},
+							["start_time"] = 1593164918,
+							["delay"] = 0,
+							["damage_taken"] = 1486.003001,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -10512,14 +17345,14 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["boss_fight_component"] = true,
 							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.008103,
 							["delay"] = 0,
-							["dps_started"] = false,
+							["monster"] = true,
 							["total"] = 0.008103,
 							["friendlyfire"] = {
 							},
@@ -10538,7 +17371,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1593164925,
 							["serial"] = "Creature-0-3770-1175-14064-75210-000175C431",
-							["monster"] = true,
+							["dps_started"] = false,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -10549,14 +17382,14 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["boss_fight_component"] = true,
 							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007233,
 							["delay"] = 0,
-							["dps_started"] = false,
+							["monster"] = true,
 							["total"] = 0.007233,
 							["friendlyfire"] = {
 							},
@@ -10586,8 +17419,8 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
@@ -10606,7 +17439,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1593164925,
 							["serial"] = "Creature-0-3770-1175-14064-75198-000075C431",
-							["monster"] = true,
+							["dps_started"] = false,
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
@@ -10618,14 +17451,14 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["boss_fight_component"] = true,
 							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006102,
 							["delay"] = 0,
-							["dps_started"] = false,
+							["monster"] = true,
 							["total"] = 0.006102,
 							["friendlyfire"] = {
 							},
@@ -10644,13 +17477,13 @@ _detalhes_database = {
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 0,
-										["total"] = 0,
+										["r_amt"] = 0,
 										["n_min"] = 0,
 										["g_dmg"] = 0,
 										["counter"] = 2,
-										["spellschool"] = 1,
-										["r_amt"] = 0,
 										["c_max"] = 0,
+										["total"] = 0,
+										["spellschool"] = 1,
 										["b_dmg"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
@@ -10677,7 +17510,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1593164925,
 							["serial"] = "Creature-0-3770-1175-14064-74787-000075C431",
-							["monster"] = true,
+							["dps_started"] = false,
 						}, -- [4]
 					},
 				}, -- [1]
@@ -10945,35 +17778,17 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Korugen"] = 1774260.010166,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
+				["data_inicio"] = "11:48:39",
 				["end_time"] = 5673.216,
 				["combat_id"] = 294,
 				["overall_added"] = false,
 				["resincked"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["combat_counter"] = 478,
 				["frags"] = {
 					["Bloodmaul Warder"] = 2,
 					["Slave Watcher Crushto"] = 1,
+				},
+				["combat_counter"] = 478,
+				["spells_cast_timeline"] = {
 				},
 				["is_boss"] = {
 					["diff_string"] = "Normal",
@@ -11033,8 +17848,26 @@ _detalhes_database = {
 						["max_value"] = 504177,
 					},
 				},
-				["data_inicio"] = "11:48:39",
-			}, -- [11]
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Korugen"] = 1774260.010166,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+			}, -- [17]
 			{
 				{
 					["tipo"] = 2,
@@ -11049,232 +17882,11 @@ _detalhes_database = {
 							["targets"] = {
 								["Pest Remover Mk. II"] = 264261,
 							},
-							["end_time"] = 1592774302,
+							["total"] = 264261.00506,
 							["pets"] = {
 							},
 							["on_hold"] = false,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 23474,
-										["g_amt"] = 0,
-										["n_max"] = 2920,
-										["targets"] = {
-											["Pest Remover Mk. II"] = 64551,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 41077,
-										["n_min"] = 2340,
-										["g_dmg"] = 0,
-										["counter"] = 20,
-										["total"] = 64551,
-										["c_max"] = 5912,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 5779,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 16,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[53600] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 12966,
-										["g_amt"] = 0,
-										["n_max"] = 3890,
-										["targets"] = {
-											["Pest Remover Mk. II"] = 29969,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 17003,
-										["n_min"] = 3241,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 29969,
-										["c_max"] = 6483,
-										["spellschool"] = 2,
-										["id"] = 53600,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 6483,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[275779] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 31250,
-										["g_amt"] = 0,
-										["n_max"] = 7813,
-										["targets"] = {
-											["Pest Remover Mk. II"] = 94338,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 63088,
-										["n_min"] = 6510,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 94338,
-										["c_max"] = 15625,
-										["spellschool"] = 2,
-										["id"] = 275779,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 15625,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 9,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[204301] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 5313,
-										["g_amt"] = 0,
-										["n_max"] = 982,
-										["targets"] = {
-											["Pest Remover Mk. II"] = 15899,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 10586,
-										["n_min"] = 818,
-										["g_dmg"] = 0,
-										["counter"] = 15,
-										["total"] = 15899,
-										["c_max"] = 1965,
-										["spellschool"] = 2,
-										["id"] = 204301,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 1637,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 12,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[268525] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2449,
-										["targets"] = {
-											["Pest Remover Mk. II"] = 2449,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2449,
-										["n_min"] = 2449,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 2449,
-										["c_max"] = 0,
-										["spellschool"] = 1,
-										["id"] = 268525,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[81297] = {
-										["c_amt"] = 11,
-										["b_amt"] = 0,
-										["c_dmg"] = 10387,
-										["g_amt"] = 0,
-										["n_max"] = 492,
-										["targets"] = {
-											["Pest Remover Mk. II"] = 29402,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 19015,
-										["n_min"] = 409,
-										["g_dmg"] = 0,
-										["counter"] = 54,
-										["total"] = 29402,
-										["c_max"] = 983,
-										["spellschool"] = 2,
-										["id"] = 81297,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 818,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 43,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[31935] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 8581,
-										["g_amt"] = 0,
-										["n_max"] = 5149,
-										["targets"] = {
-											["Pest Remover Mk. II"] = 27653,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 19072,
-										["n_min"] = 4291,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 27653,
-										["c_max"] = 8581,
-										["spellschool"] = 2,
-										["id"] = 31935,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 8581,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
+							["spec"] = 66,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
@@ -11315,11 +17927,232 @@ _detalhes_database = {
 							},
 							["classe"] = "PALADIN",
 							["dps_started"] = false,
-							["total"] = 264261.00506,
+							["end_time"] = 1592774302,
 							["serial"] = "Player-3391-0A827D5A",
 							["isTank"] = true,
 							["nome"] = "Korugen",
-							["spec"] = 66,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 23474,
+										["g_amt"] = 0,
+										["n_max"] = 2920,
+										["targets"] = {
+											["Pest Remover Mk. II"] = 64551,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 41077,
+										["n_min"] = 2340,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["total"] = 64551,
+										["c_max"] = 5912,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 5779,
+										["n_amt"] = 16,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[53600] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 12966,
+										["g_amt"] = 0,
+										["n_max"] = 3890,
+										["targets"] = {
+											["Pest Remover Mk. II"] = 29969,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 17003,
+										["n_min"] = 3241,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 29969,
+										["c_max"] = 6483,
+										["spellschool"] = 2,
+										["id"] = 53600,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 6483,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[275779] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 31250,
+										["g_amt"] = 0,
+										["n_max"] = 7813,
+										["targets"] = {
+											["Pest Remover Mk. II"] = 94338,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 63088,
+										["n_min"] = 6510,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 94338,
+										["c_max"] = 15625,
+										["spellschool"] = 2,
+										["id"] = 275779,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 15625,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[204301] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 5313,
+										["g_amt"] = 0,
+										["n_max"] = 982,
+										["targets"] = {
+											["Pest Remover Mk. II"] = 15899,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 10586,
+										["n_min"] = 818,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 15899,
+										["c_max"] = 1965,
+										["spellschool"] = 2,
+										["id"] = 204301,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 1637,
+										["n_amt"] = 12,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[268525] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2449,
+										["targets"] = {
+											["Pest Remover Mk. II"] = 2449,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2449,
+										["n_min"] = 2449,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2449,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 268525,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[81297] = {
+										["c_amt"] = 11,
+										["b_amt"] = 0,
+										["c_dmg"] = 10387,
+										["g_amt"] = 0,
+										["n_max"] = 492,
+										["targets"] = {
+											["Pest Remover Mk. II"] = 29402,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 19015,
+										["n_min"] = 409,
+										["g_dmg"] = 0,
+										["counter"] = 54,
+										["total"] = 29402,
+										["c_max"] = 983,
+										["spellschool"] = 2,
+										["id"] = 81297,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 818,
+										["n_amt"] = 43,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[31935] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 8581,
+										["g_amt"] = 0,
+										["n_max"] = 5149,
+										["targets"] = {
+											["Pest Remover Mk. II"] = 27653,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 19072,
+										["n_min"] = 4291,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 27653,
+										["c_max"] = 8581,
+										["spellschool"] = 2,
+										["id"] = 31935,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["b_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 8581,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
 							["grupo"] = true,
 							["last_event"] = 1592774301,
 							["colocacao"] = 1,
@@ -11336,12 +18169,12 @@ _detalhes_database = {
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 44417.008153,
 							["damage_from"] = {
-								["Divinequin"] = true,
 								["Shadowfiend <Divinequin>"] = true,
+								["Divinequin"] = true,
 								["Daveshaman"] = true,
 								["Humlebumble"] = true,
-								["Korugen"] = true,
 								["Swordnado"] = true,
+								["Korugen"] = true,
 							},
 							["targets"] = {
 								["Korugen"] = 93392,
@@ -11351,14 +18184,14 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["dps_started"] = false,
-							["total"] = 220170.008153,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1592774393,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 220170.008153,
 							["serial"] = "Creature-0-3151-1643-15225-137649-00006FCE67",
 							["monster"] = true,
-							["end_time"] = 1592774393,
+							["total"] = 220170.008153,
 							["fight_component"] = true,
 							["on_hold"] = false,
 							["nome"] = "Pest Remover Mk. II",
@@ -11379,22 +18212,22 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 10,
 										["a_amt"] = 9,
-										["total"] = 39746,
+										["r_amt"] = 0,
 										["c_max"] = 0,
 										["spellschool"] = 1,
-										["id"] = 1,
+										["extra"] = {
+										},
 										["r_dmg"] = 0,
 										["b_dmg"] = 11429,
 										["a_dmg"] = 39746,
 										["m_crit"] = 0,
 										["PARRY"] = 1,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
 										["n_amt"] = 9,
-										["extra"] = {
-										},
-										["r_amt"] = 0,
+										["id"] = 1,
+										["total"] = 39746,
 									}, -- [1]
 									[278029] = {
 										["c_amt"] = 0,
@@ -11452,40 +18285,11 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
 										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 0,
 										["n_amt"] = 4,
 										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[278058] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 278058,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 2,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
 										["r_amt"] = 0,
 									},
 									[278040] = {
@@ -11517,6 +18321,35 @@ _detalhes_database = {
 										["a_amt"] = 0,
 										["r_amt"] = 0,
 									},
+									[278058] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 278058,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
 								},
 								["tipo"] = 2,
 							},
@@ -11529,7 +18362,7 @@ _detalhes_database = {
 							["damage_taken"] = 1748118.008153,
 							["start_time"] = 1592774368,
 							["delay"] = 1592774304,
-							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -11651,12 +18484,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 36824,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 36824,
+										["m_amt"] = 0,
 										["n_curado"] = 0,
 										["n_amt"] = 0,
-										["m_healed"] = 0,
 										["totaldenied"] = 0,
+										["m_healed"] = 0,
 										["absorbed"] = 0,
 									},
 								},
@@ -11962,26 +18795,7 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Korugen"] = 41357.00292,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Korugen"] = 264261.00506,
-						}, -- [1]
-					},
-				},
+				["data_inicio"] = "23:17:34",
 				["end_time"] = 8545.048,
 				["combat_id"] = 291,
 				["frags"] = {
@@ -12122,707 +18936,6 @@ _detalhes_database = {
 				},
 				["start_time"] = 8496.365,
 				["contra"] = "Pest Remover Mk. II",
-				["data_inicio"] = "23:17:34",
-			}, -- [12]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 290,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.006121,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Tidesage Seacaller"] = 27852,
-								["Dagrus the Scorned"] = 111617,
-							},
-							["end_time"] = 1592774143,
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2459,
-										["targets"] = {
-											["Dagrus the Scorned"] = 21782,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 21782,
-										["n_min"] = 2341,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 21782,
-										["c_max"] = 0,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 9,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[31935] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 4290,
-										["targets"] = {
-											["Tidesage Seacaller"] = 4290,
-											["Dagrus the Scorned"] = 8580,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 12870,
-										["n_min"] = 4290,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 12870,
-										["c_max"] = 0,
-										["spellschool"] = 2,
-										["id"] = 31935,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[275779] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 6694,
-										["targets"] = {
-											["Dagrus the Scorned"] = 32733,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 32733,
-										["n_min"] = 6509,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 32733,
-										["c_max"] = 0,
-										["spellschool"] = 2,
-										["id"] = 275779,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[204301] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1636,
-										["g_amt"] = 0,
-										["n_max"] = 818,
-										["targets"] = {
-											["Dagrus the Scorned"] = 4090,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2454,
-										["n_min"] = 818,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 4090,
-										["c_max"] = 1636,
-										["spellschool"] = 2,
-										["id"] = 204301,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 1636,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[256893] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 23154,
-										["targets"] = {
-											["Tidesage Seacaller"] = 23154,
-											["Dagrus the Scorned"] = 23153,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 46307,
-										["n_min"] = 23153,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 46307,
-										["c_max"] = 0,
-										["spellschool"] = 2,
-										["id"] = 256893,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[81297] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 817,
-										["g_amt"] = 0,
-										["n_max"] = 410,
-										["targets"] = {
-											["Tidesage Seacaller"] = 408,
-											["Dagrus the Scorned"] = 9393,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 8984,
-										["n_min"] = 408,
-										["g_dmg"] = 0,
-										["counter"] = 23,
-										["total"] = 9801,
-										["c_max"] = 817,
-										["spellschool"] = 2,
-										["id"] = 81297,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 817,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 22,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[53600] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 3241,
-										["targets"] = {
-											["Dagrus the Scorned"] = 11886,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 11886,
-										["n_min"] = 2702,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 11886,
-										["c_max"] = 0,
-										["spellschool"] = 2,
-										["id"] = 53600,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 139469.006121,
-							["avoidance"] = {
-								["overall"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 0,
-									["PARTIAL_ABSORBED"] = 0,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 0,
-									["ABSORB"] = 0,
-									["ABSORB_AMT"] = 0,
-									["FULL_HIT"] = 0,
-									["HITS"] = 0,
-									["FULL_HIT_AMT"] = 0,
-								},
-							},
-							["classe"] = "PALADIN",
-							["dps_started"] = false,
-							["total"] = 139469.006121,
-							["serial"] = "Player-3391-0A827D5A",
-							["isTank"] = true,
-							["nome"] = "Korugen",
-							["spec"] = 66,
-							["grupo"] = true,
-							["last_event"] = 1592774142,
-							["colocacao"] = 1,
-							["last_dps"] = 6786.482707459663,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1592774122,
-							["delay"] = 0,
-							["damage_taken"] = 0.006121,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 11558.002372,
-							["damage_from"] = {
-								["Daveshaman"] = true,
-								["Meatshieldy"] = true,
-								["Korugen"] = true,
-								["Seradark"] = true,
-							},
-							["targets"] = {
-								["Meatshieldy"] = 1187,
-								["Seradark"] = 10371,
-							},
-							["pets"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["monster"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 11558.002372,
-							["serial"] = "Creature-0-3151-1643-15225-134897-00006FCDE7",
-							["dps_started"] = false,
-							["end_time"] = 1592774143,
-							["total"] = 11558.002372,
-							["on_hold"] = false,
-							["nome"] = "Dagrus the Scorned",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 596,
-										["targets"] = {
-											["Meatshieldy"] = 1187,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1187,
-										["n_min"] = 104,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["a_amt"] = 0,
-										["total"] = 1187,
-										["c_max"] = 0,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["PARRY"] = 4,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["r_amt"] = 0,
-									}, -- [1]
-									[185350] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Daveshaman"] = 0,
-											["Korugen"] = 0,
-											["Meatshieldy"] = 0,
-											["Seradark"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 0,
-										["c_max"] = 0,
-										["MISS"] = 4,
-										["id"] = 185350,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["m_amt"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[185357] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 10371,
-										["targets"] = {
-											["Seradark"] = 10371,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 10371,
-										["n_min"] = 10371,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 10371,
-										["c_max"] = 0,
-										["spellschool"] = 8,
-										["id"] = 185357,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1592774142,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 725418.002372,
-							["start_time"] = 1592774130,
-							["delay"] = 0,
-							["fight_component"] = true,
-						}, -- [2]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.004963,
-							["damage_from"] = {
-								["Meatshieldy"] = true,
-								["Korugen"] = true,
-								["Seradark"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.004963,
-							["serial"] = "Creature-0-3151-1643-15225-130094-00006FCD8F",
-							["monster"] = true,
-							["total"] = 0.004963,
-							["end_time"] = 1592774143,
-							["on_hold"] = false,
-							["nome"] = "Tidesage Seacaller",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Meatshieldy"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["a_amt"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["PARRY"] = 1,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["r_amt"] = 0,
-									}, -- [1]
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1592774128,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 42311.004963,
-							["start_time"] = 1592774143,
-							["delay"] = 0,
-							["fight_component"] = true,
-						}, -- [3]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 290,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 290,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 290,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[204301] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 6,
-										["id"] = 204301,
-										["refreshamt"] = 3,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[31935] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 5,
-										["id"] = 31935,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[204242] = {
-										["appliedamt"] = 4,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 17,
-										["id"] = 204242,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 59,
-							["classe"] = "PALADIN",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[186406] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 21,
-										["id"] = 186406,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[188370] = {
-										["appliedamt"] = 3,
-										["targets"] = {
-										},
-										["activedamt"] = 3,
-										["uptime"] = 19,
-										["id"] = 188370,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[197561] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 4,
-										["id"] = 197561,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[132403] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 15,
-										["id"] = 132403,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["debuff_uptime"] = 28,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 66,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[31935] = 2,
-								[275779] = 4,
-								[204019] = 2,
-								[255647] = 1,
-								[53600] = 4,
-								[26573] = 3,
-							},
-							["tipo"] = 4,
-							["last_event"] = 1592774143,
-							["nome"] = "Korugen",
-							["debuff_uptime_targets"] = {
-							},
-							["serial"] = "Player-3391-0A827D5A",
-							["pets"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["tipo"] = 4,
-							["nome"] = "Dagrus the Scorned",
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								[185350] = 1,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-3151-1643-15225-134897-00006FCDE7",
-							["classe"] = "UNKNOW",
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 290,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Korugen"] = true,
-				},
-				["CombatStartedAt"] = 8496.208,
-				["tempo_start"] = 1592774122,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 464,
-				["playing_solo"] = true,
-				["totals"] = {
-					151026.88128, -- [1]
-					-0.007119999999304127, -- [2]
-					{
-						-0.01392699999998337, -- [1]
-						[0] = -0.013017,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = -0.005328999999999917,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "23:15:44",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Tidesage Seacaller",
-				["TotalElapsedCombatTime"] = 8385.944,
-				["CombatEndedAt"] = 8385.944,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -12834,5892 +18947,19 @@ _detalhes_database = {
 					},
 					["heal"] = {
 						{
+							["Korugen"] = 41357.00292,
 						}, -- [1]
 					},
 					["damage"] = {
 						{
-							["Korugen"] = 139469.006121,
+							["Korugen"] = 264261.00506,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 8385.944,
-				["combat_id"] = 290,
-				["frags"] = {
-					["Tidesage Seacaller"] = 1,
-					["Dagrus the Scorned"] = 1,
-				},
-				["overall_added"] = false,
-				["spells_cast_timeline"] = {
-				},
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						8850.006121, -- [1]
-						408, -- [2]
-						2848, -- [3]
-						410, -- [4]
-						11434, -- [5]
-						53817, -- [6]
-						4059, -- [7]
-						9266, -- [8]
-						3110, -- [9]
-						5533, -- [10]
-						408, -- [11]
-						408, -- [12]
-						9377, -- [13]
-						1226, -- [14]
-						5725, -- [15]
-						408, -- [16]
-						1634, -- [17]
-						2846, -- [18]
-						5108, -- [19]
-						12593.99999999999, -- [20]
-						["max_value"] = 53817,
-					},
-					["Raid Damage Done"] = {
-						8850, -- [1]
-						408, -- [2]
-						2848, -- [3]
-						410, -- [4]
-						11434, -- [5]
-						53817, -- [6]
-						4059, -- [7]
-						9266, -- [8]
-						3110, -- [9]
-						5533, -- [10]
-						408, -- [11]
-						408, -- [12]
-						9377, -- [13]
-						1226, -- [14]
-						5725, -- [15]
-						408, -- [16]
-						1634, -- [17]
-						2846, -- [18]
-						5108, -- [19]
-						12594, -- [20]
-						["max_value"] = 53817,
-					},
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					139469, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 8365.393,
-				["contra"] = "Dagrus the Scorned",
-				["data_inicio"] = "23:15:23",
-			}, -- [13]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 289,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.0087,
-							["nome"] = "Korugen",
-							["damage_from"] = {
-								["Blademaster Jubei'thos"] = true,
-								["Dia Darkwhisper"] = true,
-								["Dagrus the Scorned"] = true,
-								["Gurtogg Bloodboil"] = true,
-							},
-							["targets"] = {
-								["Gurtogg Bloodboil"] = 1692587,
-								["Dia Darkwhisper"] = 1072077,
-								["Blademaster Jubei'thos"] = 1347492,
-							},
-							["last_event"] = 1592690391,
-							["pets"] = {
-							},
-							["total"] = 4112156.0087,
-							["friendlyfire"] = {
-							},
-							["classe"] = "PALADIN",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 4112156.0087,
-							["serial"] = "Player-3391-0A827D5A",
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1592690391,
-							["isTank"] = true,
-							["on_hold"] = false,
-							["boss_fight_component"] = true,
-							["spec"] = 66,
-							["grupo"] = true,
-							["colocacao"] = 1,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 98923,
-										["targets"] = {
-											["Gurtogg Bloodboil"] = 195269,
-											["Dia Darkwhisper"] = 190482,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 385751,
-										["n_min"] = 91559,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 385751,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									}, -- [1]
-									[204242] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Gurtogg Bloodboil"] = 0,
-											["Dia Darkwhisper"] = 0,
-											["Blademaster Jubei'thos"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["r_amt"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["extra"] = {
-										},
-										["id"] = 204242,
-										["r_dmg"] = 0,
-										["b_dmg"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["a_dmg"] = 0,
-										["n_amt"] = 0,
-										["spellschool"] = 2,
-										["IMMUNE"] = 4,
-									},
-									[275779] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 401671,
-										["g_amt"] = 0,
-										["n_max"] = 200836,
-										["targets"] = {
-											["Gurtogg Bloodboil"] = 401671,
-											["Dia Darkwhisper"] = 390465,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 390465,
-										["n_min"] = 189629,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 792136,
-										["c_max"] = 401671,
-										["r_amt"] = 0,
-										["id"] = 275779,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 401671,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[31935] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 128716,
-										["targets"] = {
-											["Gurtogg Bloodboil"] = 124967,
-											["Dia Darkwhisper"] = 253683,
-											["Blademaster Jubei'thos"] = 253683,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 632333,
-										["n_min"] = 124967,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 632333,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 31935,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[204301] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 25923,
-										["targets"] = {
-											["Blademaster Jubei'thos"] = 49113,
-											["Dia Darkwhisper"] = 50480,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 99593,
-										["n_min"] = 24556,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 99593,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 204301,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[256893] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 694610,
-										["targets"] = {
-											["Gurtogg Bloodboil"] = 694610,
-											["Blademaster Jubei'thos"] = 694610,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1389220,
-										["n_min"] = 694610,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1389220,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 256893,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[81297] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 50501,
-										["g_amt"] = 0,
-										["n_max"] = 12961,
-										["targets"] = {
-											["Blademaster Jubei'thos"] = 150102,
-											["Dia Darkwhisper"] = 86976,
-											["Gurtogg Bloodboil"] = 76087,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 262664,
-										["n_min"] = 12278,
-										["g_dmg"] = 0,
-										["counter"] = 23,
-										["total"] = 313165,
-										["c_max"] = 25251,
-										["r_amt"] = 0,
-										["id"] = 81297,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 25250,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 21,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[53600] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 199983,
-										["g_amt"] = 0,
-										["n_max"] = 99992,
-										["targets"] = {
-											["Blademaster Jubei'thos"] = 199984,
-											["Dia Darkwhisper"] = 99991,
-											["Gurtogg Bloodboil"] = 199983,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 299975,
-										["n_min"] = 99991,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 499958,
-										["c_max"] = 199983,
-										["r_amt"] = 0,
-										["id"] = 53600,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 199983,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_dps"] = 388562.4122366195,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 2005.0087,
-							["start_time"] = 1592690380,
-							["delay"] = 0,
-							["avoidance"] = {
-								["Gurtogg Bloodboil"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 7,
-									["PARTIAL_ABSORBED"] = 3,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 3,
-									["ABSORB"] = 3,
-									["ABSORB_AMT"] = 3,
-									["FULL_HIT"] = 4,
-									["HITS"] = 3,
-									["FULL_HIT_AMT"] = 27,
-								},
-								["Dia Darkwhisper"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 4,
-									["PARTIAL_ABSORBED"] = 1,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 3,
-									["ABSORB"] = 1,
-									["ABSORB_AMT"] = 3,
-									["FULL_HIT"] = 3,
-									["HITS"] = 1,
-									["FULL_HIT_AMT"] = 9,
-								},
-								["overall"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 15,
-									["PARTIAL_ABSORBED"] = 8,
-									["PARRY"] = 1,
-									["PARTIAL_ABSORB_AMT"] = 11,
-									["ABSORB"] = 8,
-									["ABSORB_AMT"] = 11,
-									["FULL_HIT"] = 7,
-									["HITS"] = 8,
-									["FULL_HIT_AMT"] = 36,
-								},
-								["Blademaster Jubei'thos"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 4,
-									["PARTIAL_ABSORBED"] = 4,
-									["PARRY"] = 1,
-									["PARTIAL_ABSORB_AMT"] = 5,
-									["ABSORB"] = 4,
-									["ABSORB_AMT"] = 5,
-									["FULL_HIT"] = 0,
-									["HITS"] = 4,
-									["FULL_HIT_AMT"] = 0,
-								},
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.003438,
-							["damage_from"] = {
-								["Korugen"] = true,
-							},
-							["targets"] = {
-								["Korugen"] = 86,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_fight_component"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 86.003438,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 86.003438,
-							["damage_taken"] = 1692587.003438,
-							["on_hold"] = false,
-							["nome"] = "Gurtogg Bloodboil",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 22,
-										["targets"] = {
-											["Korugen"] = 59,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 59,
-										["n_min"] = 16,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 59,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["a_dmg"] = 59,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 3,
-										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									}, -- [1]
-									[184847] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 8,
-										["targets"] = {
-											["Korugen"] = 27,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 27,
-										["n_min"] = 5,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 27,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 184847,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 8,
-									},
-									[184357] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 184357,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1592690391,
-							["last_dps"] = 0,
-							["end_time"] = 1592690391,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1592690383,
-							["serial"] = "Creature-0-3891-1448-5-92146-00006E86AD",
-							["monster"] = true,
-						}, -- [2]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.006176,
-							["damage_from"] = {
-								["Korugen"] = true,
-							},
-							["targets"] = {
-								["Korugen"] = 73,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_fight_component"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 73.006176,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 73.006176,
-							["damage_taken"] = 1347492.006176,
-							["on_hold"] = false,
-							["nome"] = "Blademaster Jubei'thos",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 22,
-										["targets"] = {
-											["Korugen"] = 73,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 73,
-										["n_min"] = 15,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["r_amt"] = 0,
-										["total"] = 73,
-										["c_max"] = 0,
-										["extra"] = {
-										},
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["PARRY"] = 1,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_dmg"] = 73,
-										["n_amt"] = 4,
-										["spellschool"] = 1,
-										["a_amt"] = 4,
-									}, -- [1]
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1592690389,
-							["last_dps"] = 0,
-							["end_time"] = 1592690391,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1592690383,
-							["serial"] = "Creature-0-3891-1448-5-92142-00006E86AD",
-							["monster"] = true,
-						}, -- [3]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.008797,
-							["damage_from"] = {
-								["Korugen"] = true,
-							},
-							["targets"] = {
-								["Korugen"] = 25,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_fight_component"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 25.008797,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 25.008797,
-							["damage_taken"] = 1072077.008797,
-							["on_hold"] = false,
-							["nome"] = "Dia Darkwhisper",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 16,
-										["targets"] = {
-											["Korugen"] = 16,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 16,
-										["n_min"] = 16,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 16,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["a_dmg"] = 16,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 1,
-										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									}, -- [1]
-									[184449] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 3,
-										["targets"] = {
-											["Korugen"] = 9,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 9,
-										["n_min"] = 3,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 9,
-										["c_max"] = 0,
-										["id"] = 184449,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1592690391,
-							["last_dps"] = 0,
-							["end_time"] = 1592690391,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1592690387,
-							["serial"] = "Creature-0-3891-1448-5-92144-00006E86AD",
-							["monster"] = true,
-						}, -- [4]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 289,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "PALADIN",
-							["totalover"] = 0.007602,
-							["total_without_pet"] = 11.007602,
-							["total"] = 11.007602,
-							["targets_absorbs"] = {
-								["Korugen"] = 11,
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["isTank"] = true,
-							["serial"] = "Player-3391-0A827D5A",
-							["totalabsorb"] = 11.007602,
-							["last_hps"] = 1.040121137673664,
-							["targets"] = {
-								["Korugen"] = 11,
-							},
-							["totalover_without_pet"] = 0.007602,
-							["healing_taken"] = 11.007602,
-							["end_time"] = 1592690391,
-							["boss_fight_component"] = true,
-							["healing_from"] = {
-								["Korugen"] = true,
-							},
-							["nome"] = "Korugen",
-							["spells"] = {
-								["_ActorTable"] = {
-									[203791] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 7,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1,
-										["targets"] = {
-											["Korugen"] = 7,
-										},
-										["n_min"] = 1,
-										["counter"] = 7,
-										["overheal"] = 0,
-										["total"] = 7,
-										["c_max"] = 0,
-										["id"] = 203791,
-										["targets_absorbs"] = {
-											["Korugen"] = 7,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 7,
-										["n_curado"] = 7,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[229976] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 4,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 2,
-										["targets"] = {
-											["Korugen"] = 4,
-										},
-										["n_min"] = 1,
-										["counter"] = 3,
-										["overheal"] = 0,
-										["total"] = 4,
-										["c_max"] = 0,
-										["id"] = 229976,
-										["targets_absorbs"] = {
-											["Korugen"] = 4,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 3,
-										["n_curado"] = 4,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["totaldenied"] = 0.007602,
-							["tipo"] = 2,
-							["custom"] = 0,
-							["last_event"] = 1592690389,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1592690383,
-							["delay"] = 0,
-							["spec"] = 66,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 289,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 289,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1300,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[204301] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 1,
-										["id"] = 204301,
-										["uptime"] = 3,
-										["targets"] = {
-										},
-										["appliedamt"] = 3,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 40,
-							["classe"] = "PALADIN",
-							["interrupt_spells"] = {
-								["_ActorTable"] = {
-									[31935] = {
-										["id"] = 31935,
-										["counter"] = 1,
-										["targets"] = {
-											["Dia Darkwhisper"] = 1,
-										},
-										["interrompeu_oque"] = {
-											[184675] = 1,
-										},
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 11,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[228128] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 228128,
-										["uptime"] = 11,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[197561] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 197561,
-										["uptime"] = 7,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									[188370] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 188370,
-										["uptime"] = 7,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									[132403] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 132403,
-										["uptime"] = 4,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["interrompeu_oque"] = {
-								[184675] = 1,
-							},
-							["spec"] = 66,
-							["debuff_uptime"] = 3,
-							["boss_fight_component"] = true,
-							["nome"] = "Korugen",
-							["interrupt"] = 1.00377,
-							["interrupt_targets"] = {
-								["Dia Darkwhisper"] = 1,
-							},
-							["grupo"] = true,
-							["spell_cast"] = {
-								[53600] = 2,
-								[275779] = 3,
-								[26573] = 2,
-								[255647] = 1,
-								[204019] = 1,
-								[31935] = 1,
-							},
-							["buff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 1592690391,
-							["debuff_uptime_targets"] = {
-							},
-							["isTank"] = true,
-							["serial"] = "Player-3391-0A827D5A",
-							["pets"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_debuff"] = true,
-							["monster"] = true,
-							["debuff_uptime"] = 3,
-							["spellschool"] = 8,
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-								["Korugen"] = {
-									["uptime"] = 3,
-									["refreshamt"] = 0,
-									["appliedamt"] = 0,
-									["activedamt"] = 1,
-									["actived"] = true,
-									["actived_at"] = 1592690386,
-								},
-							},
-							["last_event"] = 1592690386,
-							["tipo"] = 4,
-							["damage_twin"] = "Gurtogg Bloodboil",
-							["serial"] = "Creature-0-3891-1448-5-92146-00006E86AD",
-							["damage_spellid"] = 184847,
-							["nome"] = "Acidic Wound",
-						}, -- [2]
-						{
-							["flag_original"] = 68168,
-							["last_event"] = 0,
-							["nome"] = "Gurtogg Bloodboil",
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["spell_cast"] = {
-								[184357] = 1,
-							},
-							["tipo"] = 4,
-							["monster"] = true,
-							["serial"] = "Creature-0-3891-1448-5-92146-00006E86AD",
-							["boss_fight_component"] = true,
-						}, -- [3]
-						{
-							["flag_original"] = 68168,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_debuff"] = true,
-							["monster"] = true,
-							["debuff_uptime"] = 0,
-							["spellschool"] = 1,
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-								["Korugen"] = {
-									["uptime"] = 0,
-									["refreshamt"] = 0,
-									["appliedamt"] = 0,
-									["activedamt"] = 1,
-									["actived"] = true,
-									["actived_at"] = 1592690385,
-								},
-							},
-							["last_event"] = 1592690385,
-							["tipo"] = 4,
-							["damage_twin"] = "Gurtogg Bloodboil",
-							["serial"] = "Creature-0-3891-1448-5-92146-00006E86AD",
-							["damage_spellid"] = 184357,
-							["nome"] = "Tainted Blood",
-						}, -- [4]
-						{
-							["flag_original"] = 68168,
-							["last_event"] = 0,
-							["nome"] = "Dia Darkwhisper",
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["spell_cast"] = {
-								[184449] = 1,
-							},
-							["tipo"] = 4,
-							["monster"] = true,
-							["serial"] = "Creature-0-3891-1448-5-92144-00006E86AD",
-							["boss_fight_component"] = true,
-						}, -- [5]
-						{
-							["flag_original"] = 68168,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_debuff"] = true,
-							["monster"] = true,
-							["debuff_uptime"] = 0,
-							["spellschool"] = 32,
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-								["Korugen"] = {
-									["uptime"] = 0,
-									["refreshamt"] = 0,
-									["appliedamt"] = 0,
-									["activedamt"] = 1,
-									["actived"] = true,
-									["actived_at"] = 1592690387,
-								},
-							},
-							["last_event"] = 1592690387,
-							["tipo"] = 4,
-							["damage_twin"] = "Dia Darkwhisper",
-							["serial"] = "Creature-0-3891-1448-5-92144-00006E86AD",
-							["damage_spellid"] = 184449,
-							["nome"] = "Mark of the Necromancer",
-						}, -- [6]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 289,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Korugen"] = true,
-				},
-				["CombatStartedAt"] = 8361.348,
-				["overall_added"] = false,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["totals"] = {
-					4112339.923564999, -- [1]
-					10.97720099999935, -- [2]
-					{
-						-0.01788599999999718, -- [1]
-						[0] = -0.012295,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 1,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["totals_grupo"] = {
-					4112156, -- [1]
-					11, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 1,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "raid",
-				["hasSaved"] = true,
-				["data_fim"] = "23:59:52",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Hellfire High Council",
-				["TotalElapsedCombatTime"] = 7807.384,
-				["CombatEndedAt"] = 7807.384,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Korugen"] = 4112156.0087,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Korugen"] = 11.007602,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 7807.151,
-				["combat_id"] = 289,
-				["data_inicio"] = "23:59:41",
-				["tempo_start"] = 1592690380,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						374901.0087, -- [1]
-						311487, -- [2]
-						37876, -- [3]
-						37875, -- [4]
-						825558.0000000001, -- [5]
-						64806, -- [6]
-						1561813, -- [7]
-						73668, -- [8]
-						373547, -- [9]
-						24556, -- [10]
-						["max_value"] = 1561813,
-					},
-					["Raid Damage Done"] = {
-						374901, -- [1]
-						311487, -- [2]
-						37876, -- [3]
-						37875, -- [4]
-						825558, -- [5]
-						64806, -- [6]
-						1561813, -- [7]
-						73668, -- [8]
-						373547, -- [9]
-						24556, -- [10]
-						["max_value"] = 1561813,
-					},
-				},
-				["spells_cast_timeline"] = {
-				},
-				["is_boss"] = {
-					["diff_string"] = "Looking For Raid",
-					["index"] = 1,
-					["zone"] = "Hellfire Citadel",
-					["encounter"] = "Hellfire High Council",
-					["mapid"] = 1448,
-					["try_number"] = 1,
-					["name"] = "Hellfire High Council",
-					["diff"] = 17,
-					["ej_instance_id"] = 669,
-					["id"] = 1798,
-					["killed"] = true,
-				},
-				["combat_counter"] = 461,
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-					["Korugen"] = {
-						{
-							true, -- [1]
-							1, -- [2]
-							1821, -- [3]
-							1592774119.436, -- [4]
-							239600, -- [5]
-							"Dagrus the Scorned", -- [6]
-							107, -- [7]
-							1, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-						}, -- [2]
-						{
-						}, -- [3]
-						{
-						}, -- [4]
-						{
-						}, -- [5]
-						{
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						{
-						}, -- [9]
-						{
-						}, -- [10]
-						{
-						}, -- [11]
-						{
-						}, -- [12]
-						{
-						}, -- [13]
-						{
-						}, -- [14]
-						{
-						}, -- [15]
-						{
-						}, -- [16]
-						{
-						}, -- [17]
-						{
-						}, -- [18]
-						{
-						}, -- [19]
-						{
-						}, -- [20]
-						{
-						}, -- [21]
-						{
-						}, -- [22]
-						{
-						}, -- [23]
-						{
-						}, -- [24]
-						{
-						}, -- [25]
-						{
-						}, -- [26]
-						{
-						}, -- [27]
-						{
-						}, -- [28]
-						{
-						}, -- [29]
-						{
-						}, -- [30]
-						{
-						}, -- [31]
-						{
-						}, -- [32]
-						["n"] = 2,
-					},
-				},
-				["start_time"] = 7796.568,
-				["contra"] = "Dia Darkwhisper",
-				["frags"] = {
-					["Gurtogg Bloodboil"] = 1,
-					["Dia Darkwhisper"] = 1,
-				},
-			}, -- [14]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 288,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.006135,
-							["nome"] = "Korugen",
-							["damage_from"] = {
-								["[*] Blood of Mannoroth"] = true,
-								["Mannoroth"] = true,
-							},
-							["targets"] = {
-								["Dread Infernal <[*] Inferno>"] = 189629,
-								["Fel Iron Summoner"] = 1078798,
-								["Fel Imp <[*] Fel Imp-losion>"] = 189628,
-								["Mannoroth"] = 3526449,
-							},
-							["tipo"] = 1,
-							["pets"] = {
-							},
-							["end_time"] = 1592690320,
-							["damage_taken"] = 521.006135,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 4984504.006135,
-							["delay"] = 1592690262,
-							["classe"] = "PALADIN",
-							["dps_started"] = false,
-							["total"] = 4984504.006135,
-							["start_time"] = 1592690274,
-							["last_dps"] = 85302.89401767838,
-							["boss_fight_component"] = true,
-							["spec"] = 66,
-							["grupo"] = true,
-							["custom"] = 0,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 96847,
-										["targets"] = {
-											["Mannoroth"] = 846541,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 846541,
-										["n_min"] = 90868,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 846541,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 9,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									}, -- [1]
-									[204242] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Mannoroth"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["r_amt"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["extra"] = {
-										},
-										["id"] = 204242,
-										["r_dmg"] = 0,
-										["b_dmg"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["a_dmg"] = 0,
-										["n_amt"] = 0,
-										["spellschool"] = 2,
-										["IMMUNE"] = 2,
-									},
-									[31935] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 128716,
-										["targets"] = {
-											["Fel Iron Summoner"] = 124968,
-											["Mannoroth"] = 257432,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 382400,
-										["n_min"] = 124968,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 382400,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 31935,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[275779] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 379257,
-										["g_amt"] = 0,
-										["n_max"] = 195318,
-										["targets"] = {
-											["Dread Infernal <[*] Inferno>"] = 189629,
-											["Fel Iron Summoner"] = 953830,
-											["Fel Imp <[*] Fel Imp-losion>"] = 189628,
-											["Mannoroth"] = 976586,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1930416,
-										["n_min"] = 189628,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 2309673,
-										["c_max"] = 379257,
-										["r_amt"] = 0,
-										["id"] = 275779,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 379257,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 10,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[268525] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 96186,
-										["targets"] = {
-											["Mannoroth"] = 192372,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 192372,
-										["n_min"] = 96186,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 192372,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 268525,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
-									[204301] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 24557,
-										["targets"] = {
-											["Mannoroth"] = 122783,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 122783,
-										["n_min"] = 24556,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 122783,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 204301,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[256893] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 694609,
-										["targets"] = {
-											["Mannoroth"] = 694609,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 694609,
-										["n_min"] = 694609,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 694609,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 256893,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[81297] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 24556,
-										["g_amt"] = 0,
-										["n_max"] = 12279,
-										["targets"] = {
-											["Mannoroth"] = 257845,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 233289,
-										["n_min"] = 12278,
-										["g_dmg"] = 0,
-										["counter"] = 20,
-										["total"] = 257845,
-										["c_max"] = 24556,
-										["r_amt"] = 0,
-										["id"] = 81297,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 24556,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 19,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[53600] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 97244,
-										["targets"] = {
-											["Mannoroth"] = 178281,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 178281,
-										["n_min"] = 81037,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 178281,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 53600,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["friendlyfire"] = {
-							},
-							["colocacao"] = 1,
-							["last_event"] = 1592690320,
-							["avoidance"] = {
-								["[*] Blood of Mannoroth"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 13,
-									["PARTIAL_ABSORBED"] = 0,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 0,
-									["ABSORB"] = 0,
-									["ABSORB_AMT"] = 0,
-									["FULL_HIT"] = 13,
-									["HITS"] = 0,
-									["FULL_HIT_AMT"] = 395,
-								},
-								["overall"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 26,
-									["BLOCKED_HITS"] = 1,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 18,
-									["PARTIAL_ABSORBED"] = 1,
-									["PARRY"] = 1,
-									["PARTIAL_ABSORB_AMT"] = 3,
-									["ABSORB"] = 1,
-									["ABSORB_AMT"] = 3,
-									["FULL_HIT"] = 17,
-									["HITS"] = 5,
-									["FULL_HIT_AMT"] = 494,
-								},
-								["Mannoroth"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 26,
-									["BLOCKED_HITS"] = 1,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 5,
-									["PARTIAL_ABSORBED"] = 1,
-									["PARRY"] = 1,
-									["PARTIAL_ABSORB_AMT"] = 3,
-									["ABSORB"] = 1,
-									["ABSORB_AMT"] = 3,
-									["FULL_HIT"] = 4,
-									["HITS"] = 5,
-									["FULL_HIT_AMT"] = 99,
-								},
-							},
-							["isTank"] = true,
-							["serial"] = "Player-3391-0A827D5A",
-							["on_hold"] = false,
-						}, -- [1]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.005145,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Korugen"] = 395,
-							},
-							["delay"] = 1592690298,
-							["spellicon"] = 576311,
-							["damage_taken"] = 0.005145,
-							["classe"] = "UNKNOW",
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 395.005145,
-							["dps_started"] = false,
-							["monster"] = true,
-							["total"] = 395.005145,
-							["on_hold"] = false,
-							["tipo"] = 1,
-							["nome"] = "[*] Blood of Mannoroth",
-							["spells"] = {
-								["_ActorTable"] = {
-									[182171] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 31,
-										["targets"] = {
-											["Korugen"] = 395,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 395,
-										["n_min"] = 29,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 395,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 182171,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 13,
-										["extra"] = {
-										},
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1592690320,
-							["friendlyfire"] = {
-							},
-							["boss_fight_component"] = true,
-							["custom"] = 0,
-							["last_event"] = 1592690298,
-							["last_dps"] = 0,
-							["start_time"] = 1592690306,
-							["serial"] = "",
-							["pets"] = {
-							},
-						}, -- [2]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.004454,
-							["damage_from"] = {
-								["Korugen"] = true,
-							},
-							["targets"] = {
-								["Korugen"] = 126,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["nome"] = "Mannoroth",
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 126.004454,
-							["delay"] = 1592690309,
-							["dps_started"] = false,
-							["total"] = 126.004454,
-							["end_time"] = 1592690320,
-							["damage_taken"] = 3526449.004454,
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 1,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 32,
-										["targets"] = {
-											["Korugen"] = 126,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 126,
-										["n_min"] = 6,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["r_amt"] = 0,
-										["total"] = 126,
-										["c_max"] = 0,
-										["extra"] = {
-										},
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["b_dmg"] = 6,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["PARRY"] = 1,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_dmg"] = 27,
-										["n_amt"] = 5,
-										["spellschool"] = 1,
-										["a_amt"] = 1,
-									}, -- [1]
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 1592690309,
-							["on_hold"] = false,
-							["start_time"] = 1592690312,
-							["serial"] = "Creature-0-3769-1448-25322-91349-00006E85B8",
-							["monster"] = true,
-						}, -- [3]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.006168,
-							["damage_from"] = {
-								["Korugen"] = true,
-							},
-							["targets"] = {
-							},
-							["delay"] = 0,
-							["pets"] = {
-							},
-							["nome"] = "Fel Imp <[*] Fel Imp-losion>",
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.006168,
-							["total"] = 0.006168,
-							["dps_started"] = false,
-							["end_time"] = 1592690320,
-							["damage_taken"] = 189628.006168,
-							["ownerName"] = "[*] Fel Imp-losion",
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									[181132] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Korugen"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 0,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 181132,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 3,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["MISS"] = 3,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 1592690286,
-							["on_hold"] = false,
-							["start_time"] = 1592690320,
-							["serial"] = "Creature-0-3769-1448-25322-91259-00006E8667",
-							["classe"] = "UNKNOW",
-						}, -- [4]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.004424,
-							["damage_from"] = {
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-								"Dread Infernal <[*] Inferno>", -- [1]
-							},
-							["classe"] = "UNKNOW",
-							["boss_fight_component"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.004424,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.004424,
-							["damage_taken"] = 0.004424,
-							["on_hold"] = false,
-							["nome"] = "[*] Inferno",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 0,
-							["last_dps"] = 0,
-							["end_time"] = 1592690320,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1592690320,
-							["serial"] = "",
-							["monster"] = true,
-						}, -- [5]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.003672,
-							["damage_from"] = {
-								["Korugen"] = true,
-							},
-							["targets"] = {
-							},
-							["delay"] = 0,
-							["pets"] = {
-							},
-							["nome"] = "Dread Infernal <[*] Inferno>",
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.003672,
-							["total"] = 0.003672,
-							["dps_started"] = false,
-							["end_time"] = 1592690320,
-							["damage_taken"] = 189629.003672,
-							["ownerName"] = "[*] Inferno",
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									[181191] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 181191,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-									[181192] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 181192,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 7,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 0,
-							["on_hold"] = false,
-							["start_time"] = 1592690320,
-							["serial"] = "Creature-0-3769-1448-25322-91270-00006E866D",
-							["classe"] = "UNKNOW",
-						}, -- [6]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.001559,
-							["damage_from"] = {
-								["Korugen"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["total"] = 0.001559,
-							["boss_fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.001559,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1592690320,
-							["friendlyfire_total"] = 0,
-							["damage_taken"] = 1078798.001559,
-							["nome"] = "Fel Iron Summoner",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 0,
-							["on_hold"] = false,
-							["start_time"] = 1592690320,
-							["serial"] = "Creature-0-3769-1448-25322-91305-00016E85B8",
-							["monster"] = true,
-						}, -- [7]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.001099,
-							["damage_from"] = {
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-								"Fel Imp <[*] Fel Imp-losion>", -- [1]
-							},
-							["classe"] = "UNKNOW",
-							["boss_fight_component"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.001099,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.001099,
-							["damage_taken"] = 0.001099,
-							["on_hold"] = false,
-							["nome"] = "[*] Fel Imp-losion",
-							["spells"] = {
-								["_ActorTable"] = {
-									[181255] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Korugen"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["r_amt"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["extra"] = {
-										},
-										["id"] = 181255,
-										["r_dmg"] = 0,
-										["b_dmg"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["a_dmg"] = 0,
-										["n_amt"] = 0,
-										["spellschool"] = 4,
-										["MISS"] = 1,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1592690274,
-							["last_dps"] = 0,
-							["end_time"] = 1592690320,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1592690320,
-							["serial"] = "",
-							["monster"] = true,
-						}, -- [8]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 288,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "PALADIN",
-							["totalover"] = 0.007005,
-							["total_without_pet"] = 3.007005,
-							["total"] = 3.007005,
-							["targets_absorbs"] = {
-								["Korugen"] = 3,
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["isTank"] = true,
-							["serial"] = "Player-3391-0A827D5A",
-							["totalabsorb"] = 3.007005,
-							["last_hps"] = 0.05146073280509302,
-							["targets"] = {
-								["Korugen"] = 3,
-							},
-							["totalover_without_pet"] = 0.007005,
-							["healing_taken"] = 3.007005,
-							["end_time"] = 1592690320,
-							["boss_fight_component"] = true,
-							["healing_from"] = {
-								["Korugen"] = true,
-							},
-							["nome"] = "Korugen",
-							["spells"] = {
-								["_ActorTable"] = {
-									[229976] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 3,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 3,
-										["targets"] = {
-											["Korugen"] = 3,
-										},
-										["n_min"] = 3,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 3,
-										["c_max"] = 0,
-										["id"] = 229976,
-										["targets_absorbs"] = {
-											["Korugen"] = 3,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 1,
-										["n_curado"] = 3,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["totaldenied"] = 0.007005,
-							["tipo"] = 2,
-							["custom"] = 0,
-							["last_event"] = 1592690306,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1592690319,
-							["delay"] = 1592690306,
-							["spec"] = 66,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 288,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 288,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1300,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[62124] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 62124,
-										["uptime"] = 3,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[204301] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 3,
-										["id"] = 204301,
-										["uptime"] = 10,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 114,
-							["classe"] = "PALADIN",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 58,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[132403] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 132403,
-										["uptime"] = 8,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[197561] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 1,
-										["id"] = 197561,
-										["uptime"] = 25,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									[221887] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 221887,
-										["uptime"] = 3,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[188370] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 188370,
-										["uptime"] = 20,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["debuff_uptime"] = 13,
-							["nome"] = "Korugen",
-							["boss_fight_component"] = true,
-							["spec"] = 66,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[62124] = 1,
-								[31935] = 3,
-								[275779] = 11,
-								[26573] = 2,
-								[190784] = 1,
-								[255647] = 1,
-								[204019] = 5,
-								[53600] = 2,
-							},
-							["buff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 1592690320,
-							["pets"] = {
-							},
-							["isTank"] = true,
-							["serial"] = "Player-3391-0A827D5A",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 2632,
-							["nome"] = "[*] Fel Imp-losion",
-							["last_event"] = 0,
-							["pets"] = {
-								"Fel Imp <[*] Fel Imp-losion>", -- [1]
-							},
-							["monster"] = true,
-							["classe"] = "UNKNOW",
-							["tipo"] = 4,
-							["serial"] = "",
-							["boss_fight_component"] = true,
-						}, -- [2]
-						{
-							["flag_original"] = 2632,
-							["tipo"] = 4,
-							["ownerName"] = "[*] Fel Imp-losion",
-							["nome"] = "Fel Imp <[*] Fel Imp-losion>",
-							["pets"] = {
-							},
-							["last_event"] = 0,
-							["spell_cast"] = {
-								[181132] = 3,
-							},
-							["classe"] = "UNKNOW",
-							["monster"] = true,
-							["serial"] = "Creature-0-3769-1448-25322-91259-00006E8667",
-							["boss_fight_component"] = true,
-						}, -- [3]
-						{
-							["flag_original"] = 2632,
-							["nome"] = "[*] Inferno",
-							["last_event"] = 0,
-							["pets"] = {
-								"Dread Infernal <[*] Inferno>", -- [1]
-							},
-							["monster"] = true,
-							["classe"] = "UNKNOW",
-							["tipo"] = 4,
-							["serial"] = "",
-							["boss_fight_component"] = true,
-						}, -- [4]
-						{
-							["flag_original"] = 2632,
-							["tipo"] = 4,
-							["ownerName"] = "[*] Inferno",
-							["nome"] = "Dread Infernal <[*] Inferno>",
-							["pets"] = {
-							},
-							["last_event"] = 0,
-							["spell_cast"] = {
-								[181191] = 1,
-								[181192] = 7,
-							},
-							["classe"] = "UNKNOW",
-							["monster"] = true,
-							["serial"] = "Creature-0-3769-1448-25322-91270-00006E866D",
-							["boss_fight_component"] = true,
-						}, -- [5]
-						{
-							["flag_original"] = 2632,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_debuff"] = true,
-							["monster"] = true,
-							["debuff_uptime"] = 12,
-							["spellschool"] = 4,
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-								["Korugen"] = {
-									["uptime"] = 12,
-									["refreshamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["appliedamt"] = 0,
-								},
-							},
-							["last_event"] = 1592690299,
-							["tipo"] = 4,
-							["damage_twin"] = "[*] Blood of Mannoroth",
-							["serial"] = "",
-							["damage_spellid"] = 182171,
-							["nome"] = "Blood of Mannoroth",
-						}, -- [6]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 288,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Korugen"] = true,
-				},
-				["CombatStartedAt"] = 7795.634,
-				["overall_added"] = false,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["totals"] = {
-					4985025, -- [1]
-					3, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "raid",
-				["hasSaved"] = true,
-				["data_fim"] = "23:58:40",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Mannoroth",
-				["TotalElapsedCombatTime"] = 7735.730000000001,
-				["CombatEndedAt"] = 7735.730000000001,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Korugen"] = 5350217.008468,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Korugen"] = 3.007005,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 7735.685,
-				["combat_id"] = 288,
-				["tempo_start"] = 1592690262,
-				["resincked"] = true,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						379257.006135, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						0, -- [6]
-						0, -- [7]
-						0, -- [8]
-						0, -- [9]
-						0, -- [10]
-						0, -- [11]
-						0, -- [12]
-						189627.9999999999, -- [13]
-						195317, -- [14]
-						0, -- [15]
-						0, -- [16]
-						0, -- [17]
-						0, -- [18]
-						124968, -- [19]
-						0, -- [20]
-						189628, -- [21]
-						0, -- [22]
-						0, -- [23]
-						0, -- [24]
-						189628, -- [25]
-						0, -- [26]
-						0, -- [27]
-						0, -- [28]
-						0, -- [29]
-						189629, -- [30]
-						0, -- [31]
-						0, -- [32]
-						0, -- [33]
-						0, -- [34]
-						0, -- [35]
-						0, -- [36]
-						0, -- [37]
-						117758, -- [38]
-						12279, -- [39]
-						207595, -- [40]
-						932450, -- [41]
-						49114, -- [42]
-						108754, -- [43]
-						36835, -- [44]
-						132869, -- [45]
-						12278, -- [46]
-						221300, -- [47]
-						195318, -- [48]
-						382371, -- [49]
-						0, -- [50]
-						109522, -- [51]
-						225355, -- [52]
-						12279, -- [53]
-						299194, -- [54]
-						36835, -- [55]
-						12279, -- [56]
-						301322, -- [57]
-						12278, -- [58]
-						["max_value"] = 932450,
-					},
-					["Raid Damage Done"] = {
-						379257, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						0, -- [6]
-						0, -- [7]
-						0, -- [8]
-						0, -- [9]
-						0, -- [10]
-						0, -- [11]
-						0, -- [12]
-						189628, -- [13]
-						195317, -- [14]
-						0, -- [15]
-						0, -- [16]
-						0, -- [17]
-						0, -- [18]
-						124968, -- [19]
-						0, -- [20]
-						189628, -- [21]
-						0, -- [22]
-						0, -- [23]
-						0, -- [24]
-						189628, -- [25]
-						0, -- [26]
-						0, -- [27]
-						0, -- [28]
-						0, -- [29]
-						189629, -- [30]
-						0, -- [31]
-						0, -- [32]
-						0, -- [33]
-						0, -- [34]
-						0, -- [35]
-						0, -- [36]
-						0, -- [37]
-						117758, -- [38]
-						12279, -- [39]
-						207595, -- [40]
-						932450, -- [41]
-						49114, -- [42]
-						108754, -- [43]
-						36835, -- [44]
-						132869, -- [45]
-						12278, -- [46]
-						221300, -- [47]
-						195318, -- [48]
-						382371, -- [49]
-						0, -- [50]
-						109522, -- [51]
-						225355, -- [52]
-						12279, -- [53]
-						299194, -- [54]
-						36835, -- [55]
-						12279, -- [56]
-						301322, -- [57]
-						12278, -- [58]
-						["max_value"] = 932450,
-					},
-				},
-				["combat_counter"] = 458,
-				["frags"] = {
-					["Fel Imp"] = 1,
-					["Fel Iron Summoner"] = 3,
-					["Dread Infernal"] = 1,
-				},
-				["is_boss"] = {
-					["diff_string"] = "Looking For Raid",
-					["index"] = 1,
-					["zone"] = "Hellfire Citadel",
-					["encounter"] = "Mannoroth",
-					["mapid"] = 1448,
-					["try_number"] = 1,
-					["name"] = "Mannoroth",
-					["diff"] = 17,
-					["ej_instance_id"] = 669,
-					["id"] = 1795,
-					["killed"] = true,
-				},
-				["totals_grupo"] = {
-					4984504, -- [1]
-					3, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
-				["start_time"] = 7677.252,
-				["contra"] = "Fel Iron Summoner",
-				["data_inicio"] = "23:57:42",
-			}, -- [15]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 287,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.008412,
-							["nome"] = "Korugen",
-							["damage_from"] = {
-								["Xhul'horac"] = true,
-							},
-							["targets"] = {
-								["Xhul'horac"] = 3097898,
-								["Vanguard Akkelion"] = 15151,
-								["Omnus <Portal Stalker>"] = 85510,
-								["Wild Pyromaniac"] = 128614,
-							},
-							["last_event"] = 1592690242,
-							["pets"] = {
-							},
-							["end_time"] = 1592690242,
-							["damage_taken"] = 250.008412,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3327173.008412,
-							["delay"] = 0,
-							["classe"] = "PALADIN",
-							["dps_started"] = false,
-							["total"] = 3327173.008412,
-							["start_time"] = 1592690231,
-							["last_dps"] = 273458.7826425494,
-							["boss_fight_component"] = true,
-							["spec"] = 66,
-							["grupo"] = true,
-							["custom"] = 0,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 450308,
-										["g_amt"] = 0,
-										["n_max"] = 115837,
-										["targets"] = {
-											["Xhul'horac"] = 772221,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 321913,
-										["n_min"] = 90923,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 772221,
-										["c_max"] = 227263,
-										["r_amt"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 223045,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									}, -- [1]
-									[204242] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Xhul'horac"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["r_amt"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["extra"] = {
-										},
-										["id"] = 204242,
-										["r_dmg"] = 0,
-										["b_dmg"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["a_dmg"] = 0,
-										["n_amt"] = 0,
-										["spellschool"] = 2,
-										["IMMUNE"] = 1,
-									},
-									[31935] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 308919,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Xhul'horac"] = 308919,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 308919,
-										["c_max"] = 308919,
-										["r_amt"] = 0,
-										["id"] = 31935,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 308919,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[275779] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 241003,
-										["targets"] = {
-											["Xhul'horac"] = 670702,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 670702,
-										["n_min"] = 195318,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 670702,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 275779,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[53600] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 194488,
-										["g_amt"] = 0,
-										["n_max"] = 116693,
-										["targets"] = {
-											["Xhul'horac"] = 408425,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 213937,
-										["n_min"] = 97244,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 408425,
-										["c_max"] = 194488,
-										["r_amt"] = 0,
-										["id"] = 53600,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 194488,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[204301] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 58935,
-										["g_amt"] = 0,
-										["n_max"] = 30301,
-										["targets"] = {
-											["Omnus <Portal Stalker>"] = 30300,
-											["Xhul'horac"] = 89236,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 60601,
-										["n_min"] = 30300,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 119536,
-										["c_max"] = 58935,
-										["r_amt"] = 0,
-										["id"] = 204301,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 58935,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[256893] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 694609,
-										["targets"] = {
-											["Xhul'horac"] = 694609,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 694609,
-										["n_min"] = 694609,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 694609,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 256893,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[81297] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 29468,
-										["g_amt"] = 0,
-										["n_max"] = 15946,
-										["targets"] = {
-											["Xhul'horac"] = 129740,
-											["Vanguard Akkelion"] = 15151,
-											["Omnus <Portal Stalker>"] = 31096,
-											["Wild Pyromaniac"] = 31892,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 178411,
-										["n_min"] = 12278,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 207879,
-										["c_max"] = 29468,
-										["r_amt"] = 0,
-										["id"] = 81297,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 29468,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 12,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[268525] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 96722,
-										["g_amt"] = 0,
-										["n_max"] = 24114,
-										["targets"] = {
-											["Xhul'horac"] = 24046,
-											["Omnus <Portal Stalker>"] = 24114,
-											["Wild Pyromaniac"] = 96722,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 48160,
-										["n_min"] = 24046,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 144882,
-										["c_max"] = 48361,
-										["r_amt"] = 0,
-										["id"] = 268525,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 48361,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["friendlyfire"] = {
-							},
-							["colocacao"] = 1,
-							["tipo"] = 1,
-							["avoidance"] = {
-								["overall"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 4,
-									["PARTIAL_ABSORBED"] = 3,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 13,
-									["ABSORB"] = 3,
-									["ABSORB_AMT"] = 13,
-									["FULL_HIT"] = 1,
-									["HITS"] = 3,
-									["FULL_HIT_AMT"] = 31,
-								},
-								["Xhul'horac"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 4,
-									["PARTIAL_ABSORBED"] = 3,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 13,
-									["ABSORB"] = 3,
-									["ABSORB_AMT"] = 13,
-									["FULL_HIT"] = 1,
-									["HITS"] = 3,
-									["FULL_HIT_AMT"] = 31,
-								},
-							},
-							["isTank"] = true,
-							["serial"] = "Player-3391-0A827D5A",
-							["on_hold"] = false,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.002765,
-							["damage_from"] = {
-								["Korugen"] = true,
-							},
-							["targets"] = {
-								["Korugen"] = 250,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["nome"] = "Xhul'horac",
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 250.002765,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 250.002765,
-							["end_time"] = 1592690242,
-							["damage_taken"] = 3097898.002765,
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 34,
-										["targets"] = {
-											["Korugen"] = 86,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 86,
-										["n_min"] = 21,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 86,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["a_dmg"] = 55,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 2,
-										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									}, -- [1]
-									[186271] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 164,
-										["targets"] = {
-											["Korugen"] = 164,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 164,
-										["n_min"] = 164,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 164,
-										["c_max"] = 0,
-										["id"] = 186271,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 1,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 164,
-										["extra"] = {
-										},
-									},
-									[190223] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 190223,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 1592690242,
-							["on_hold"] = false,
-							["start_time"] = 1592690232,
-							["serial"] = "Creature-0-3769-1448-25322-93068-00006E85B8",
-							["monster"] = true,
-						}, -- [2]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.00602,
-							["damage_from"] = {
-								["Korugen"] = true,
-							},
-							["targets"] = {
-							},
-							["delay"] = 0,
-							["pets"] = {
-							},
-							["nome"] = "Omnus <Portal Stalker>",
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.00602,
-							["total"] = 0.00602,
-							["dps_started"] = false,
-							["end_time"] = 1592690242,
-							["damage_taken"] = 85510.00602,
-							["ownerName"] = "Portal Stalker",
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 0,
-							["on_hold"] = false,
-							["start_time"] = 1592690242,
-							["serial"] = "Creature-0-3769-1448-25322-94239-00006E8645",
-							["classe"] = "UNKNOW",
-						}, -- [3]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.00545,
-							["damage_from"] = {
-								["Korugen"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_fight_component"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.00545,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.00545,
-							["damage_taken"] = 128614.00545,
-							["on_hold"] = false,
-							["nome"] = "Wild Pyromaniac",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 0,
-							["last_dps"] = 0,
-							["end_time"] = 1592690242,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1592690242,
-							["serial"] = "Creature-0-3769-1448-25322-94231-00006E8645",
-							["monster"] = true,
-						}, -- [4]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.004327,
-							["damage_from"] = {
-								["Korugen"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_fight_component"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.004327,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.004327,
-							["damage_taken"] = 15151.004327,
-							["on_hold"] = false,
-							["nome"] = "Vanguard Akkelion",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 0,
-							["last_dps"] = 0,
-							["end_time"] = 1592690242,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1592690242,
-							["serial"] = "Creature-0-3769-1448-25322-94185-00006E8640",
-							["monster"] = true,
-						}, -- [5]
-						{
-							["flag_original"] = 2584,
-							["totalabsorbed"] = 0.002589,
-							["damage_from"] = {
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-								"Omnus <Portal Stalker>", -- [1]
-							},
-							["last_event"] = 0,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.002589,
-							["boss_fight_component"] = true,
-							["dps_started"] = false,
-							["total"] = 0.002589,
-							["delay"] = 0,
-							["damage_taken"] = 0.002589,
-							["nome"] = "Portal Stalker",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 2,
-							},
-							["on_hold"] = false,
-							["end_time"] = 1592690242,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1592690242,
-							["serial"] = "Creature-0-3769-1448-25322-94437-00006E85B8",
-							["classe"] = "UNKNOW",
-						}, -- [6]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 287,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "PALADIN",
-							["totalover"] = 0.003067,
-							["total_without_pet"] = 13.003067,
-							["total"] = 13.003067,
-							["targets_absorbs"] = {
-								["Korugen"] = 13,
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["isTank"] = true,
-							["serial"] = "Player-3391-0A827D5A",
-							["totalabsorb"] = 13.003067,
-							["last_hps"] = 1.068715952987557,
-							["targets"] = {
-								["Korugen"] = 13,
-							},
-							["totalover_without_pet"] = 0.003067,
-							["healing_taken"] = 13.003067,
-							["end_time"] = 1592690242,
-							["boss_fight_component"] = true,
-							["healing_from"] = {
-								["Korugen"] = true,
-							},
-							["nome"] = "Korugen",
-							["spells"] = {
-								["_ActorTable"] = {
-									[203791] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 11,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 10,
-										["targets"] = {
-											["Korugen"] = 11,
-										},
-										["n_min"] = 1,
-										["counter"] = 2,
-										["overheal"] = 0,
-										["total"] = 11,
-										["c_max"] = 0,
-										["id"] = 203791,
-										["targets_absorbs"] = {
-											["Korugen"] = 11,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 2,
-										["n_curado"] = 11,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[229976] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 2,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 2,
-										["targets"] = {
-											["Korugen"] = 2,
-										},
-										["n_min"] = 2,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 2,
-										["c_max"] = 0,
-										["id"] = 229976,
-										["targets_absorbs"] = {
-											["Korugen"] = 2,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 1,
-										["n_curado"] = 2,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["totaldenied"] = 0.003067,
-							["tipo"] = 2,
-							["custom"] = 0,
-							["last_event"] = 1592690242,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1592690232,
-							["delay"] = 0,
-							["spec"] = 66,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 287,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 287,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1300,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[204301] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 204301,
-										["uptime"] = 4,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									[204242] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 204242,
-										["uptime"] = 1,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 41,
-							["classe"] = "PALADIN",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 11,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[132403] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 132403,
-										["uptime"] = 3,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[197561] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 197561,
-										["uptime"] = 4,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[294027] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 294027,
-										["uptime"] = 9,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[31884] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 31884,
-										["uptime"] = 9,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[188370] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 188370,
-										["uptime"] = 5,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["debuff_uptime"] = 5,
-							["nome"] = "Korugen",
-							["boss_fight_component"] = true,
-							["spec"] = 66,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[31935] = 1,
-								[275779] = 3,
-								[26573] = 1,
-								[204019] = 1,
-								[255647] = 1,
-								[31884] = 1,
-								[53600] = 3,
-							},
-							["buff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 1592690242,
-							["pets"] = {
-							},
-							["isTank"] = true,
-							["serial"] = "Player-3391-0A827D5A",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["last_event"] = 0,
-							["nome"] = "Xhul'horac",
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["spell_cast"] = {
-								[186271] = 1,
-								[190223] = 1,
-							},
-							["tipo"] = 4,
-							["monster"] = true,
-							["serial"] = "Creature-0-3769-1448-25322-93068-00006E85B8",
-							["boss_fight_component"] = true,
-						}, -- [2]
-						{
-							["flag_original"] = 68168,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_debuff"] = true,
-							["monster"] = true,
-							["debuff_uptime"] = 0,
-							["spellschool"] = 4,
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-								["Korugen"] = {
-									["uptime"] = 0,
-									["refreshamt"] = 0,
-									["appliedamt"] = 0,
-									["activedamt"] = 1,
-									["actived"] = true,
-									["actived_at"] = 1592690241,
-								},
-							},
-							["last_event"] = 1592690241,
-							["tipo"] = 4,
-							["damage_twin"] = "Xhul'horac",
-							["serial"] = "Creature-0-3769-1448-25322-93068-00006E85B8",
-							["damage_spellid"] = 186134,
-							["nome"] = "Feltouched",
-						}, -- [3]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 287,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Korugen"] = true,
-				},
-				["CombatStartedAt"] = 7676.456,
-				["tempo_start"] = 1592690231,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["totals"] = {
-					3327423, -- [1]
-					13, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["totals_grupo"] = {
-					3327173, -- [1]
-					13, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "raid",
-				["hasSaved"] = true,
-				["data_fim"] = "23:57:23",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Xhul'horac",
-				["TotalElapsedCombatTime"] = 7659.069,
-				["CombatEndedAt"] = 7659.069,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "23:57:11",
-				["end_time"] = 7657.836,
-				["combat_id"] = 287,
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Korugen"] = 3327173.008412,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Korugen"] = 13.003067,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["overall_added"] = false,
-				["contra"] = "Xhul'horac",
-				["frags"] = {
-					["Wild Pyromaniac"] = 2,
-					["Vanguard Akkelion"] = 1,
-				},
-				["is_boss"] = {
-					["diff_string"] = "Looking For Raid",
-					["index"] = 1,
-					["zone"] = "Hellfire Citadel",
-					["encounter"] = "Xhul'horac",
-					["mapid"] = 1448,
-					["try_number"] = 1,
-					["name"] = "Xhul'horac",
-					["diff"] = 17,
-					["ej_instance_id"] = 669,
-					["id"] = 1800,
-					["killed"] = true,
-				},
-				["combat_counter"] = 456,
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-				},
-				["start_time"] = 7645.669,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						310798.008412, -- [1]
-						0, -- [2]
-						223045, -- [3]
-						0, -- [4]
-						308919, -- [5]
-						257565, -- [6]
-						709343, -- [7]
-						306198.9999999998, -- [8]
-						361093, -- [9]
-						354119, -- [10]
-						301604, -- [11]
-						["max_value"] = 709343,
-					},
-					["Raid Damage Done"] = {
-						310798, -- [1]
-						0, -- [2]
-						223045, -- [3]
-						0, -- [4]
-						308919, -- [5]
-						257565, -- [6]
-						709343, -- [7]
-						306199, -- [8]
-						361093, -- [9]
-						354119, -- [10]
-						301604, -- [11]
-						["max_value"] = 709343,
-					},
-				},
-				["spells_cast_timeline"] = {
-				},
-			}, -- [16]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 284,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.003206,
-							["nome"] = "Korugen",
-							["damage_from"] = {
-								["Fel Lord Zakuun"] = true,
-							},
-							["targets"] = {
-								["Fel Lord Zakuun"] = 2366735,
-							},
-							["last_event"] = 1592690152,
-							["pets"] = {
-							},
-							["end_time"] = 1592690152,
-							["damage_taken"] = 208.003206,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 2366735.003206,
-							["delay"] = 0,
-							["classe"] = "PALADIN",
-							["dps_started"] = false,
-							["total"] = 2366735.003206,
-							["start_time"] = 1592690144,
-							["last_dps"] = 280618.3309468751,
-							["boss_fight_component"] = true,
-							["spec"] = 66,
-							["grupo"] = true,
-							["custom"] = 0,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 93729,
-										["targets"] = {
-											["Fel Lord Zakuun"] = 366809,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 366809,
-										["n_min"] = 88069,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 366809,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									}, -- [1]
-									[204242] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Fel Lord Zakuun"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["r_amt"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["extra"] = {
-										},
-										["id"] = 204242,
-										["r_dmg"] = 0,
-										["b_dmg"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["a_dmg"] = 0,
-										["n_amt"] = 0,
-										["spellschool"] = 2,
-										["IMMUNE"] = 1,
-									},
-									[31935] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 124967,
-										["targets"] = {
-											["Fel Lord Zakuun"] = 124967,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 124967,
-										["n_min"] = 124967,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 124967,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 31935,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[275779] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 195318,
-										["targets"] = {
-											["Fel Lord Zakuun"] = 580264,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 580264,
-										["n_min"] = 189629,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 580264,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 275779,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[268525] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 96186,
-										["targets"] = {
-											["Fel Lord Zakuun"] = 96186,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 96186,
-										["n_min"] = 96186,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 96186,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 268525,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
-									[204301] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 24556,
-										["targets"] = {
-											["Fel Lord Zakuun"] = 49112,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 49112,
-										["n_min"] = 24556,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 49112,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 204301,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[256893] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 694609,
-										["targets"] = {
-											["Fel Lord Zakuun"] = 694609,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 694609,
-										["n_min"] = 694609,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 694609,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 256893,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[81297] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 49112,
-										["g_amt"] = 0,
-										["n_max"] = 12279,
-										["targets"] = {
-											["Fel Lord Zakuun"] = 98226,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 49114,
-										["n_min"] = 12278,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 98226,
-										["c_max"] = 24556,
-										["r_amt"] = 0,
-										["id"] = 81297,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 24556,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[53600] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 194488,
-										["g_amt"] = 0,
-										["n_max"] = 81037,
-										["targets"] = {
-											["Fel Lord Zakuun"] = 356562,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 162074,
-										["n_min"] = 81037,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 356562,
-										["c_max"] = 194488,
-										["r_amt"] = 0,
-										["id"] = 53600,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 194488,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["friendlyfire"] = {
-							},
-							["colocacao"] = 1,
-							["tipo"] = 1,
-							["avoidance"] = {
-								["overall"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 9,
-									["PARTIAL_ABSORBED"] = 2,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 4,
-									["ABSORB"] = 2,
-									["ABSORB_AMT"] = 4,
-									["FULL_HIT"] = 7,
-									["HITS"] = 6,
-									["FULL_HIT_AMT"] = 166,
-								},
-								["Fel Lord Zakuun"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 9,
-									["PARTIAL_ABSORBED"] = 2,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 4,
-									["ABSORB"] = 2,
-									["ABSORB_AMT"] = 4,
-									["FULL_HIT"] = 7,
-									["HITS"] = 6,
-									["FULL_HIT_AMT"] = 166,
-								},
-							},
-							["isTank"] = true,
-							["serial"] = "Player-3391-0A827D5A",
-							["on_hold"] = false,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.002382,
-							["damage_from"] = {
-								["Korugen"] = true,
-							},
-							["targets"] = {
-								["Korugen"] = 208,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["nome"] = "Fel Lord Zakuun",
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 208.002382,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 208.002382,
-							["end_time"] = 1592690152,
-							["damage_taken"] = 2366735.002382,
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 28,
-										["targets"] = {
-											["Korugen"] = 142,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 142,
-										["n_min"] = 20,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 142,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["a_dmg"] = 42,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 2,
-										["n_amt"] = 6,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									}, -- [1]
-									[179681] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 179681,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-									[156138] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 22,
-										["targets"] = {
-											["Korugen"] = 66,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 66,
-										["n_min"] = 22,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 66,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 156138,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 1592690152,
-							["on_hold"] = false,
-							["start_time"] = 1592690145,
-							["serial"] = "Creature-0-3769-1448-25322-89890-00006E85B8",
-							["monster"] = true,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 284,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "PALADIN",
-							["totalover"] = 0.003785,
-							["total_without_pet"] = 4.003785000000001,
-							["total"] = 4.003785000000001,
-							["targets_absorbs"] = {
-								["Korugen"] = 4,
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["isTank"] = true,
-							["serial"] = "Player-3391-0A827D5A",
-							["totalabsorb"] = 4.003785000000001,
-							["last_hps"] = 0.4747195873843855,
-							["targets"] = {
-								["Korugen"] = 4,
-							},
-							["totalover_without_pet"] = 0.003785,
-							["healing_taken"] = 4.003785000000001,
-							["end_time"] = 1592690152,
-							["boss_fight_component"] = true,
-							["healing_from"] = {
-								["Korugen"] = true,
-							},
-							["nome"] = "Korugen",
-							["spells"] = {
-								["_ActorTable"] = {
-									[229976] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 4,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 2,
-										["targets"] = {
-											["Korugen"] = 4,
-										},
-										["n_min"] = 2,
-										["counter"] = 2,
-										["overheal"] = 0,
-										["total"] = 4,
-										["c_max"] = 0,
-										["id"] = 229976,
-										["targets_absorbs"] = {
-											["Korugen"] = 4,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 2,
-										["n_curado"] = 4,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["totaldenied"] = 0.003785,
-							["tipo"] = 2,
-							["custom"] = 0,
-							["last_event"] = 1592690152,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1592690151,
-							["delay"] = 0,
-							["spec"] = 66,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 284,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 284,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1300,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[204301] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 204301,
-										["uptime"] = 2,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 29,
-							["classe"] = "PALADIN",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 8,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[228128] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 228128,
-										["uptime"] = 8,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[197561] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 197561,
-										["uptime"] = 5,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[188370] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 188370,
-										["uptime"] = 5,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[132403] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 132403,
-										["uptime"] = 3,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["debuff_uptime"] = 2,
-							["nome"] = "Korugen",
-							["boss_fight_component"] = true,
-							["spec"] = 66,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[26573] = 1,
-								[275779] = 3,
-								[255647] = 1,
-								[53600] = 3,
-								[204019] = 1,
-							},
-							["buff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 1592690152,
-							["pets"] = {
-							},
-							["isTank"] = true,
-							["serial"] = "Player-3391-0A827D5A",
-							["debuff_uptime_targets"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["last_event"] = 0,
-							["nome"] = "Fel Lord Zakuun",
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["spell_cast"] = {
-								[179681] = 1,
-							},
-							["tipo"] = 4,
-							["monster"] = true,
-							["serial"] = "Creature-0-3769-1448-25322-89890-00006E85B8",
-							["boss_fight_component"] = true,
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 284,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Korugen"] = true,
-				},
-				["CombatStartedAt"] = 7593.763,
-				["overall_added"] = false,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 453,
-				["totals"] = {
-					2366943, -- [1]
-					4, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["totals_grupo"] = {
-					2366735, -- [1]
-					4, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = false,
-				["instance_type"] = "raid",
-				["hasSaved"] = true,
-				["data_fim"] = "23:55:53",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Fel Lord Zakuun",
-				["TotalElapsedCombatTime"] = 7567.903,
-				["CombatEndedAt"] = 7567.903,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "23:55:44",
-				["end_time"] = 7567.821,
-				["combat_id"] = 284,
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Korugen"] = 2366735.003206,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Korugen"] = 4.003785000000001,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["tempo_start"] = 1592690144,
-				["contra"] = "Fel Lord Zakuun",
-				["frags"] = {
-				},
-				["is_boss"] = {
-					["diff_string"] = "Looking For Raid",
-					["index"] = 1,
-					["zone"] = "Hellfire Citadel",
-					["encounter"] = "Fel Lord Zakuun",
-					["mapid"] = 1448,
-					["try_number"] = 1,
-					["name"] = "Fel Lord Zakuun",
-					["diff"] = 17,
-					["ej_instance_id"] = 669,
-					["id"] = 1777,
-					["killed"] = true,
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-				},
-				["start_time"] = 7559.387,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						213036.003206, -- [1]
-						189629, -- [2]
-						0, -- [3]
-						106008, -- [4]
-						1192879, -- [5]
-						117439, -- [6]
-						49112, -- [7]
-						417594.9999999998, -- [8]
-						["max_value"] = 1192879,
-					},
-					["Raid Damage Done"] = {
-						213036, -- [1]
-						189629, -- [2]
-						0, -- [3]
-						106008, -- [4]
-						1192879, -- [5]
-						117439, -- [6]
-						49112, -- [7]
-						417595, -- [8]
-						["max_value"] = 1192879,
-					},
-				},
-				["spells_cast_timeline"] = {
-				},
-			}, -- [17]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 283,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.004128,
-							["nome"] = "Korugen",
-							["damage_from"] = {
-								["[*] Desecration"] = true,
-								["Archimonde"] = true,
-							},
-							["targets"] = {
-								["Archimonde"] = 3776947,
-							},
-							["tipo"] = 1,
-							["pets"] = {
-							},
-							["end_time"] = 1592690072,
-							["damage_taken"] = 110.004128,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3776947.004128,
-							["delay"] = 0,
-							["classe"] = "PALADIN",
-							["dps_started"] = false,
-							["total"] = 3776947.004128,
-							["start_time"] = 1592690060,
-							["last_dps"] = 326499.5681300335,
-							["boss_fight_component"] = true,
-							["spec"] = 66,
-							["grupo"] = true,
-							["custom"] = 0,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 505055,
-										["g_amt"] = 0,
-										["n_max"] = 125954,
-										["targets"] = {
-											["Archimonde"] = 818186,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 313131,
-										["n_min"] = 92544,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 818186,
-										["c_max"] = 254846,
-										["r_amt"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 250209,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									}, -- [1]
-									[31935] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 171802,
-										["targets"] = {
-											["Archimonde"] = 171802,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 171802,
-										["n_min"] = 171802,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 171802,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 31935,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[275779] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 900652,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Archimonde"] = 900652,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 900652,
-										["c_max"] = 521395,
-										["r_amt"] = 0,
-										["id"] = 275779,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 379257,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[204301] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 65553,
-										["g_amt"] = 0,
-										["n_max"] = 32777,
-										["targets"] = {
-											["Archimonde"] = 163882,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 98329,
-										["n_min"] = 32776,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 163882,
-										["c_max"] = 65553,
-										["r_amt"] = 0,
-										["id"] = 204301,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 65553,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[256893] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1545202,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Archimonde"] = 1545202,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1545202,
-										["c_max"] = 1545202,
-										["r_amt"] = 0,
-										["id"] = 256893,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 1545202,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[53600] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 81037,
-										["targets"] = {
-											["Archimonde"] = 81037,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 81037,
-										["n_min"] = 81037,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 81037,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 53600,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 2,
-									},
-									[268525] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 96186,
-										["targets"] = {
-											["Archimonde"] = 96186,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 96186,
-										["n_min"] = 96186,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 96186,
-										["c_max"] = 0,
-										["r_amt"] = 0,
-										["id"] = 268525,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["friendlyfire"] = {
-							},
-							["colocacao"] = 1,
-							["last_event"] = 1592690072,
-							["avoidance"] = {
-								["[*] Desecration"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 1,
-									["PARTIAL_ABSORBED"] = 0,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 0,
-									["ABSORB"] = 0,
-									["ABSORB_AMT"] = 0,
-									["FULL_HIT"] = 1,
-									["HITS"] = 0,
-									["FULL_HIT_AMT"] = 16,
-								},
-								["Archimonde"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 3,
-									["PARTIAL_ABSORBED"] = 1,
-									["PARRY"] = 1,
-									["PARTIAL_ABSORB_AMT"] = 3,
-									["ABSORB"] = 1,
-									["ABSORB_AMT"] = 3,
-									["FULL_HIT"] = 2,
-									["HITS"] = 3,
-									["FULL_HIT_AMT"] = 65,
-								},
-								["overall"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 4,
-									["PARTIAL_ABSORBED"] = 1,
-									["PARRY"] = 1,
-									["PARTIAL_ABSORB_AMT"] = 3,
-									["ABSORB"] = 1,
-									["ABSORB_AMT"] = 3,
-									["FULL_HIT"] = 3,
-									["HITS"] = 3,
-									["FULL_HIT_AMT"] = 81,
-								},
-							},
-							["isTank"] = true,
-							["serial"] = "Player-3391-0A827D5A",
-							["on_hold"] = false,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.003889,
-							["damage_from"] = {
-								["Korugen"] = true,
-							},
-							["targets"] = {
-								["Korugen"] = 94,
-							},
-							["pets"] = {
-								"Desecration <Archimonde>", -- [1]
-							},
-							["classe"] = "UNKNOW",
-							["boss_fight_component"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 94.003889,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 94.003889,
-							["end_time"] = 1592690072,
-							["damage_taken"] = 3776947.003889,
-							["nome"] = "Archimonde",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 33,
-										["targets"] = {
-											["Korugen"] = 94,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 94,
-										["n_min"] = 29,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["r_amt"] = 0,
-										["total"] = 94,
-										["c_max"] = 0,
-										["extra"] = {
-										},
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["b_dmg"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["PARRY"] = 1,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_dmg"] = 29,
-										["n_amt"] = 3,
-										["spellschool"] = 1,
-										["a_amt"] = 1,
-									}, -- [1]
-									[185590] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 185590,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-									[187107] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 187107,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-									[182225] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 182225,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 1592690069,
-							["on_hold"] = false,
-							["start_time"] = 1592690061,
-							["serial"] = "Creature-0-3769-1448-25321-91331-00006E8582",
-							["monster"] = true,
-						}, -- [2]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.001815,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Korugen"] = 16,
-							},
-							["delay"] = 0,
-							["spellicon"] = 1118739,
-							["damage_taken"] = 0.001815,
-							["friendlyfire_total"] = 0,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 16.001815,
-							["dps_started"] = false,
-							["monster"] = true,
-							["total"] = 16.001815,
-							["on_hold"] = false,
-							["tipo"] = 1,
-							["nome"] = "[*] Desecration",
-							["spells"] = {
-								["_ActorTable"] = {
-									[188614] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 16,
-										["targets"] = {
-											["Korugen"] = 16,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 16,
-										["n_min"] = 16,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 16,
-										["c_max"] = 0,
-										["id"] = 188614,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1592690072,
-							["friendlyfire"] = {
-							},
-							["boss_fight_component"] = true,
-							["custom"] = 0,
-							["last_event"] = 1592690067,
-							["last_dps"] = 0,
-							["start_time"] = 1592690067,
-							["serial"] = "",
-							["pets"] = {
-							},
-						}, -- [3]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.007155,
-							["damage_from"] = {
-							},
-							["targets"] = {
-							},
-							["delay"] = 0,
-							["pets"] = {
-							},
-							["nome"] = "Desecration <Archimonde>",
-							["monster"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.007155,
-							["total"] = 0.007155,
-							["dps_started"] = false,
-							["end_time"] = 1592690072,
-							["damage_taken"] = 0.007155,
-							["ownerName"] = "Archimonde",
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									[191068] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 191068,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-									[183969] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 183969,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-									[188950] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 188950,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["friendlyfire"] = {
-							},
-							["custom"] = 0,
-							["last_event"] = 0,
-							["on_hold"] = false,
-							["start_time"] = 1592690072,
-							["serial"] = "Vehicle-0-3769-1448-25321-92781-00006E8594",
-							["classe"] = "UNKNOW",
-						}, -- [4]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 283,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "PALADIN",
-							["totalover"] = 0.003966,
-							["total_without_pet"] = 3.003966,
-							["total"] = 3.003966,
-							["targets_absorbs"] = {
-								["Korugen"] = 3,
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["isTank"] = true,
-							["serial"] = "Player-3391-0A827D5A",
-							["totalabsorb"] = 3.003966,
-							["last_hps"] = 0.2596789419087294,
-							["targets"] = {
-								["Korugen"] = 3,
-							},
-							["totalover_without_pet"] = 0.003966,
-							["healing_taken"] = 3.003966,
-							["end_time"] = 1592690072,
-							["boss_fight_component"] = true,
-							["healing_from"] = {
-								["Korugen"] = true,
-							},
-							["nome"] = "Korugen",
-							["spells"] = {
-								["_ActorTable"] = {
-									[229976] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 3,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 3,
-										["targets"] = {
-											["Korugen"] = 3,
-										},
-										["n_min"] = 3,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 3,
-										["c_max"] = 0,
-										["id"] = 229976,
-										["targets_absorbs"] = {
-											["Korugen"] = 3,
-										},
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["m_crit"] = 0,
-										["totaldenied"] = 0,
-										["c_min"] = 0,
-										["n_amt"] = 1,
-										["n_curado"] = 3,
-										["m_healed"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["totaldenied"] = 0.003966,
-							["tipo"] = 2,
-							["custom"] = 0,
-							["last_event"] = 1592690069,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1592690069,
-							["delay"] = 0,
-							["spec"] = 66,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 283,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 283,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1300,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[204301] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 2,
-										["id"] = 204301,
-										["uptime"] = 4,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 58,
-							["classe"] = "PALADIN",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 12,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[132403] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 132403,
-										["uptime"] = 5,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[228128] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 228128,
-										["uptime"] = 12,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[273935] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 273935,
-										["uptime"] = 9,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[294027] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 294027,
-										["uptime"] = 7,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[31884] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 31884,
-										["uptime"] = 7,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[197561] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 197561,
-										["uptime"] = 6,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["debuff_uptime"] = 4,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 66,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[53600] = 1,
-								[204019] = 2,
-								[31935] = 1,
-								[273935] = 1,
-								[255647] = 1,
-								[31884] = 1,
-								[275779] = 1,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 1592690072,
-							["pets"] = {
-							},
-							["nome"] = "Korugen",
-							["serial"] = "Player-3391-0A827D5A",
-							["boss_fight_component"] = true,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["last_event"] = 0,
-							["nome"] = "Archimonde",
-							["pets"] = {
-								"Desecration <Archimonde>", -- [1]
-							},
-							["classe"] = "UNKNOW",
-							["spell_cast"] = {
-								[185590] = 1,
-								[187107] = 1,
-								[182225] = 1,
-							},
-							["tipo"] = 4,
-							["monster"] = true,
-							["serial"] = "Creature-0-3769-1448-25321-91331-00006E8582",
-							["boss_fight_component"] = true,
-						}, -- [2]
-						{
-							["flag_original"] = 2632,
-							["tipo"] = 4,
-							["ownerName"] = "Archimonde",
-							["nome"] = "Desecration <Archimonde>",
-							["pets"] = {
-							},
-							["last_event"] = 0,
-							["spell_cast"] = {
-								[191068] = 1,
-								[183969] = 1,
-								[188950] = 1,
-							},
-							["classe"] = "UNKNOW",
-							["monster"] = true,
-							["serial"] = "Vehicle-0-3769-1448-25321-92781-00006E8594",
-							["boss_fight_component"] = true,
-						}, -- [3]
-						{
-							["flag_original"] = 2632,
-							["last_event"] = 0,
-							["nome"] = "[*] Desecration",
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["spell_cast"] = {
-								[188614] = 1,
-							},
-							["tipo"] = 4,
-							["monster"] = true,
-							["serial"] = "",
-							["boss_fight_component"] = true,
-						}, -- [4]
-						{
-							["flag_original"] = 2632,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_debuff"] = true,
-							["monster"] = true,
-							["debuff_uptime"] = 0,
-							["spellschool"] = 4,
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-								["Korugen"] = {
-									["uptime"] = 0,
-									["refreshamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["appliedamt"] = 0,
-								},
-							},
-							["last_event"] = 1592690068,
-							["tipo"] = 4,
-							["damage_twin"] = "[*] Fel Corruption",
-							["serial"] = "",
-							["damage_spellid"] = 188796,
-							["nome"] = "Fel Corruption",
-						}, -- [5]
-						{
-							["flag_original"] = 2584,
-							["nome"] = "Exarch Yrel",
-							["last_event"] = 0,
-							["spell_cast"] = {
-								[183962] = 1,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["tipo"] = 4,
-							["serial"] = "Creature-0-3769-1448-25321-92769-00006E8581",
-							["boss_fight_component"] = true,
-						}, -- [6]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 283,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Korugen"] = true,
-				},
-				["CombatStartedAt"] = 7558.67,
-				["overall_added"] = false,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["totals"] = {
-					3777056.994198, -- [1]
-					3, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = false,
-				["instance_type"] = "raid",
-				["hasSaved"] = true,
-				["data_fim"] = "23:54:32",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Archimonde",
-				["TotalElapsedCombatTime"] = 7487.32,
-				["CombatEndedAt"] = 7487.32,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Korugen"] = 4735487.020386,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Korugen"] = 3.003966,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 7486.963,
-				["combat_id"] = 283,
-				["tempo_start"] = 1592690060,
-				["resincked"] = true,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						552838.004128, -- [1]
-						0, -- [2]
-						94633, -- [3]
-						0, -- [4]
-						0, -- [5]
-						1967213, -- [6]
-						0, -- [7]
-						32777, -- [8]
-						449361, -- [9]
-						0, -- [10]
-						521395, -- [11]
-						["max_value"] = 1967213,
-					},
-					["Raid Damage Done"] = {
-						552838, -- [1]
-						0, -- [2]
-						94633, -- [3]
-						0, -- [4]
-						0, -- [5]
-						1967213, -- [6]
-						0, -- [7]
-						32777, -- [8]
-						449361, -- [9]
-						0, -- [10]
-						521395, -- [11]
-						["max_value"] = 1967213,
-					},
-				},
-				["combat_counter"] = 449,
-				["frags"] = {
-				},
-				["is_boss"] = {
-					["diff_string"] = "Looking For Raid",
-					["index"] = 1,
-					["zone"] = "Hellfire Citadel",
-					["encounter"] = "Archimonde",
-					["mapid"] = 1448,
-					["try_number"] = 1,
-					["name"] = "Archimonde",
-					["diff"] = 17,
-					["ej_instance_id"] = 669,
-					["id"] = 1799,
-					["killed"] = true,
-				},
-				["totals_grupo"] = {
-					3776947, -- [1]
-					3, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
-				["start_time"] = 7475.395,
-				["contra"] = "Archimonde",
-				["data_inicio"] = "23:54:20",
 			}, -- [18]
 		},
 	},
-	["last_version"] = "v8.3.0.7348",
+	["last_version"] = "v8.3.0.7356",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -18728,7 +18968,7 @@ _detalhes_database = {
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
 		["last_version"] = 12,
-		["nextreset"] = 1595710029,
+		["nextreset"] = 1602503760,
 	},
 	["last_instance_id"] = 1448,
 	["announce_interrupts"] = {
@@ -18738,7 +18978,7 @@ _detalhes_database = {
 		["custom"] = "",
 		["next"] = "",
 	},
-	["last_instance_time"] = 1594414076,
+	["last_instance_time"] = 1601207794,
 	["active_profile"] = "Base",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
@@ -18756,7 +18996,7 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -18765,7 +19005,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["animate"] = false,
+			["showamount"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -18862,6 +19102,16 @@ _detalhes_database = {
 			["main_frame_strata"] = "LOW",
 			["enabled"] = false,
 			["arrow_size"] = 10,
+			["y"] = -20.15869140625,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["author"] = "Details! Team",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -18873,20 +19123,10 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["size"] = 32,
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0, -- [4]
-			},
-			["author"] = "Details! Team",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["font_size"] = 14,
-			["use_spark"] = false,
 			["x"] = 0,
 			["font_face"] = "Prototype",
-			["y"] = -20.15869140625,
+			["use_spark"] = false,
 			["row_color"] = {
 				0.101960784313725, -- [1]
 				0.101960784313725, -- [2]
@@ -18898,17 +19138,26 @@ _detalhes_database = {
 			["scale"] = 1,
 		},
 	},
+	["last_day"] = "27",
+	["last_encounter"] = "Archimonde",
 	["cached_talents"] = {
+		["Player-3391-0A827D5A"] = {
+			22430, -- [1]
+			22604, -- [2]
+			22179, -- [3]
+			22434, -- [4]
+			17601, -- [5]
+			22438, -- [6]
+			21201, -- [7]
+		},
 	},
 	["announce_prepots"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "23",
-	["last_encounter"] = "Archimonde",
 	["character_data"] = {
-		["logons"] = 48,
+		["logons"] = 54,
 	},
 	["local_instances_config"] = {
 		{
@@ -18980,11 +19229,11 @@ _detalhes_database = {
 			},
 		}, -- [2]
 	},
-	["combat_id"] = 303,
+	["combat_id"] = 309,
 	["savedStyles"] = {
 	},
 	["force_font_outline"] = "",
-	["combat_counter"] = 498,
+	["combat_counter"] = 510,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -18997,98 +19246,81 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["totalabsorbed"] = 0.04558300000000001,
-					["boss_fight_component"] = true,
+					["totalabsorbed"] = 0.07940900000000002,
+					["last_event"] = 0,
 					["damage_from"] = {
+						["Skycarver Krakit"] = true,
 						["Archimonde"] = true,
 						["Matron Morana"] = true,
+						["Cottontail Matron"] = true,
 						["[*] Decaying Ground"] = true,
 						["Sister Hilga"] = true,
+						["Cursed Game-hawk"] = true,
+						["Frenzied Cottontail"] = true,
+						["Emily Mayville"] = true,
 						["Bonepicker Scavenger"] = true,
 						["Stone Golem"] = true,
-						["Skycarver Krakit"] = true,
+						["Soul Pillar"] = true,
 						["Enraged Krolusk"] = true,
+						["Brittle Shardling"] = true,
 						["Skithis the Infused"] = true,
 						["Zanxib"] = true,
 					},
 					["targets"] = {
-						["Archimonde"] = 3948291,
-						["Wild Pyromaniac"] = 0,
-						["Dread Infernal <[*] Inferno>"] = 0,
-						["Fel Imp <[*] Fel Imp-losion>"] = 0,
-						["Bloodmaul Warder"] = 0,
-						["Canyon Racer"] = 839,
+						["Felborne Overfiend"] = 242248,
+						["Gurtogg Bloodboil"] = 0,
+						["Cursed Game-hawk"] = 47594,
 						["Blademaster Jubei'thos"] = 0,
 						["Mannoroth"] = 0,
-						["Tidesage Seacaller"] = 0,
-						["Stone Golem"] = 109676,
+						["Stone Golem"] = 301968,
+						["Brittle Shardling"] = 32329,
 						["Zanxib"] = 244195,
+						["Ravenous Ranishu"] = 0,
+						["Xhul'horac"] = 0,
+						["Dagrus the Scorned"] = 0,
+						["Skithis the Infused"] = 208181,
+						["Dreadstalker"] = 177648,
+						["Matron Morana"] = 143398,
+						["Dread Infernal <[*] Inferno>"] = 0,
+						["Fel Imp <[*] Fel Imp-losion>"] = 0,
 						["Dia Darkwhisper"] = 0,
 						["Skycarver Krakit"] = 79756,
-						["Slave Watcher Crushto"] = 0,
-						["Gurtogg Bloodboil"] = 0,
-						["Enraged Krolusk"] = 257926,
-						["Omnus <Portal Stalker>"] = 0,
 						["Dunegorger Kraulok"] = 0,
-						["Ravenous Ranishu"] = 0,
+						["Frenzied Cottontail"] = 243062,
+						["Enraged Krolusk"] = 257926,
+						["Slave Watcher Crushto"] = 0,
+						["Bloodmaul Warder"] = 0,
+						["Wild Pyromaniac"] = 0,
 						["Sister Hilga"] = 48439,
 						["Fel Lord Zakuun"] = 0,
-						["Dreadstalker"] = 0,
+						["Emily Mayville"] = 310477,
+						["Canyon Racer"] = 839,
 						["Fel Iron Summoner"] = 0,
-						["Dagrus the Scorned"] = 0,
 						["Pest Remover Mk. II"] = 0,
-						["Felborne Overfiend"] = 0,
-						["Xhul'horac"] = 0,
+						["Archimonde"] = 15266650,
+						["Tidesage Seacaller"] = 0,
 						["Vanguard Akkelion"] = 0,
-						["Skithis the Infused"] = 208181,
-						["Matron Morana"] = 143398,
+						["Cottontail Matron"] = 230251,
+						["Omnus <Portal Stalker>"] = 0,
 					},
 					["friendlyfire"] = {
 					},
 					["pets"] = {
 					},
-					["spec"] = 66,
-					["avoidance"] = {
-						["overall"] = {
-							["DODGE"] = 0,
-							["FULL_ABSORB_AMT"] = 0,
-							["BLOCKED_AMT"] = 0,
-							["BLOCKED_HITS"] = 0,
-							["FULL_ABSORBED"] = 0,
-							["ALL"] = 0,
-							["PARTIAL_ABSORBED"] = 0,
-							["PARRY"] = 0,
-							["PARTIAL_ABSORB_AMT"] = 0,
-							["ABSORB"] = 0,
-							["ABSORB_AMT"] = 0,
-							["FULL_HIT"] = 0,
-							["HITS"] = 0,
-							["FULL_HIT_AMT"] = 0,
-						},
-					},
-					["classe"] = "PALADIN",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 5040701.045583,
-					["serial"] = "Player-3391-0A827D5A",
-					["friendlyfire_total"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594414100,
-					["isTank"] = true,
-					["total"] = 5040701.045583,
-					["nome"] = "Korugen",
 					["spells"] = {
 						["_ActorTable"] = {
 							{
-								["c_amt"] = 12,
+								["c_amt"] = 29,
 								["b_amt"] = 0,
-								["c_dmg"] = 513072,
+								["c_dmg"] = 1474983,
 								["g_amt"] = 0,
-								["n_max"] = 115689,
+								["n_max"] = 120405,
 								["targets"] = {
-									["Archimonde"] = 794263,
+									["Archimonde"] = 2971324,
 									["Matron Morana"] = 28480,
 									["Gurtogg Bloodboil"] = 0,
+									["Cursed Game-hawk"] = 13093,
+									["Emily Mayville"] = 83790,
 									["Mannoroth"] = 0,
 									["Fel Imp <[*] Fel Imp-losion>"] = 0,
 									["Dia Darkwhisper"] = 0,
@@ -19098,21 +19330,24 @@ _detalhes_database = {
 									["Zanxib"] = 48873,
 									["Xhul'horac"] = 0,
 									["Fel Lord Zakuun"] = 0,
+									["Frenzied Cottontail"] = 2456,
+									["Cottontail Matron"] = 65419,
 									["Fel Iron Summoner"] = 0,
 									["Pest Remover Mk. II"] = 0,
 									["Dagrus the Scorned"] = 0,
 									["Slave Watcher Crushto"] = 0,
 									["Sister Hilga"] = 10222,
 									["Skithis the Infused"] = 54971,
-									["Stone Golem"] = 19953,
+									["Stone Golem"] = 57413,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 511585,
+								["n_dmg"] = 1928953,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 78,
-								["total"] = 1024657,
-								["c_max"] = 230307,
+								["counter"] = 160,
+								["total"] = 3403936,
+								["c_max"] = 235908,
+								["DODGE"] = 3,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["extra"] = {
@@ -19123,48 +19358,53 @@ _detalhes_database = {
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 66,
+								["n_amt"] = 128,
 								["a_amt"] = 0,
 								["r_amt"] = 0,
 							}, -- [1]
 							[31935] = {
-								["c_amt"] = 4,
+								["c_amt"] = 12,
 								["b_amt"] = 0,
-								["c_dmg"] = 338236,
+								["c_dmg"] = 723501,
 								["g_amt"] = 0,
-								["n_max"] = 128786,
+								["n_max"] = 161916,
 								["targets"] = {
 									["Dreadstalker"] = 0,
 									["Matron Morana"] = 10022,
 									["Gurtogg Bloodboil"] = 0,
+									["Cursed Game-hawk"] = 9388,
 									["Blademaster Jubei'thos"] = 0,
 									["Mannoroth"] = 0,
 									["Tidesage Seacaller"] = 0,
+									["Frenzied Cottontail"] = 58915,
+									["Cottontail Matron"] = 28438,
 									["Dia Darkwhisper"] = 0,
 									["Skycarver Krakit"] = 4400,
 									["Slave Watcher Crushto"] = 0,
+									["Dunegorger Kraulok"] = 0,
 									["Enraged Krolusk"] = 22492,
 									["Zanxib"] = 14671,
+									["Emily Mayville"] = 22475,
 									["Ravenous Ranishu"] = 0,
 									["Xhul'horac"] = 0,
 									["Fel Lord Zakuun"] = 0,
-									["Stone Golem"] = 4167,
+									["Stone Golem"] = 20309,
 									["Fel Iron Summoner"] = 0,
 									["Dagrus the Scorned"] = 0,
 									["Pest Remover Mk. II"] = 0,
-									["Archimonde"] = 437874,
-									["Dunegorger Kraulok"] = 0,
+									["Archimonde"] = 1176186,
+									["Sister Hilga"] = 4293,
 									["Bloodmaul Warder"] = 0,
 									["Skithis the Infused"] = 24748,
-									["Sister Hilga"] = 4293,
+									["Brittle Shardling"] = 16729,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 184431,
+								["n_dmg"] = 689565,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 17,
-								["total"] = 522667,
-								["c_max"] = 309088,
+								["counter"] = 45,
+								["total"] = 1413066,
+								["c_max"] = 317114,
 								["id"] = 31935,
 								["r_dmg"] = 0,
 								["extra"] = {
@@ -19175,7 +19415,7 @@ _detalhes_database = {
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 13,
+								["n_amt"] = 33,
 								["a_amt"] = 0,
 								["r_amt"] = 0,
 							},
@@ -19203,10 +19443,10 @@ _detalhes_database = {
 								["n_dmg"] = 0,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 9,
+								["counter"] = 22,
 								["total"] = 0,
 								["c_max"] = 0,
-								["IMMUNE"] = 9,
+								["IMMUNE"] = 22,
 								["id"] = 204242,
 								["r_dmg"] = 0,
 								["extra"] = {
@@ -19214,23 +19454,25 @@ _detalhes_database = {
 								["b_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
 								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["c_min"] = 0,
 								["n_amt"] = 0,
 								["a_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[275779] = {
-								["c_amt"] = 10,
+								["c_amt"] = 17,
 								["b_amt"] = 0,
-								["c_dmg"] = 1059512,
+								["c_dmg"] = 3456083,
 								["g_amt"] = 0,
-								["n_max"] = 234509,
+								["n_max"] = 259371,
 								["targets"] = {
-									["Archimonde"] = 1172545,
+									["Archimonde"] = 4769374,
 									["Matron Morana"] = 45626,
 									["Gurtogg Bloodboil"] = 0,
+									["Cursed Game-hawk"] = 14080,
+									["Emily Mayville"] = 100058,
 									["Mannoroth"] = 0,
 									["Fel Imp <[*] Fel Imp-losion>"] = 0,
 									["Dia Darkwhisper"] = 0,
@@ -19240,21 +19482,23 @@ _detalhes_database = {
 									["Zanxib"] = 96174,
 									["Sister Hilga"] = 19542,
 									["Fel Lord Zakuun"] = 0,
+									["Frenzied Cottontail"] = 7730,
+									["Cottontail Matron"] = 79303,
 									["Fel Iron Summoner"] = 0,
 									["Pest Remover Mk. II"] = 0,
 									["Dagrus the Scorned"] = 0,
 									["Xhul'horac"] = 0,
 									["Dread Infernal <[*] Inferno>"] = 0,
 									["Skithis the Infused"] = 59667,
-									["Stone Golem"] = 40506,
+									["Stone Golem"] = 94762,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 493260,
+								["n_dmg"] = 1948945,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 47,
-								["total"] = 1552772,
-								["c_max"] = 469018,
+								["counter"] = 90,
+								["total"] = 5405028,
+								["c_max"] = 491392,
 								["id"] = 275779,
 								["r_dmg"] = 0,
 								["extra"] = {
@@ -19265,22 +19509,24 @@ _detalhes_database = {
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 37,
+								["n_amt"] = 73,
 								["a_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							[268525] = {
-								["c_amt"] = 0,
+								["c_amt"] = 1,
 								["b_amt"] = 0,
-								["c_dmg"] = 0,
+								["c_dmg"] = 4897,
 								["g_amt"] = 0,
 								["n_max"] = 96186,
 								["targets"] = {
-									["Archimonde"] = 96186,
+									["Archimonde"] = 192372,
 									["Omnus <Portal Stalker>"] = 0,
 									["Ravenous Ranishu"] = 0,
 									["Xhul'horac"] = 0,
 									["Fel Lord Zakuun"] = 0,
+									["Stone Golem"] = 2448,
+									["Emily Mayville"] = 9793,
 									["Mannoroth"] = 0,
 									["Pest Remover Mk. II"] = 0,
 									["Skycarver Krakit"] = 4897,
@@ -19290,12 +19536,12 @@ _detalhes_database = {
 									["Dunegorger Kraulok"] = 0,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 111033,
+								["n_dmg"] = 214563,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 7,
-								["total"] = 111033,
-								["c_max"] = 0,
+								["counter"] = 12,
+								["total"] = 219460,
+								["c_max"] = 4897,
 								["id"] = 268525,
 								["r_dmg"] = 0,
 								["extra"] = {
@@ -19306,46 +19552,51 @@ _detalhes_database = {
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 7,
+								["n_amt"] = 11,
 								["a_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							[204301] = {
-								["c_amt"] = 12,
+								["c_amt"] = 19,
 								["b_amt"] = 0,
-								["c_dmg"] = 137888,
+								["c_dmg"] = 151662,
 								["g_amt"] = 0,
-								["n_max"] = 1120,
+								["n_max"] = 30250,
 								["targets"] = {
 									["Felborne Overfiend"] = 0,
 									["Matron Morana"] = 2186,
+									["Cursed Game-hawk"] = 3589,
 									["Blademaster Jubei'thos"] = 0,
 									["Mannoroth"] = 0,
-									["Stone Golem"] = 2186,
+									["Stone Golem"] = 9410,
+									["Frenzied Cottontail"] = 18943,
+									["Cottontail Matron"] = 5188,
 									["Dia Darkwhisper"] = 0,
 									["Skycarver Krakit"] = 3360,
 									["Dunegorger Kraulok"] = 0,
+									["Dreadstalker"] = 0,
 									["Enraged Krolusk"] = 12962,
 									["Omnus <Portal Stalker>"] = 0,
+									["Emily Mayville"] = 9974,
 									["Ravenous Ranishu"] = 0,
 									["Xhul'horac"] = 0,
 									["Fel Lord Zakuun"] = 0,
 									["Canyon Racer"] = 839,
-									["Archimonde"] = 117936,
+									["Archimonde"] = 148186,
 									["Dagrus the Scorned"] = 0,
 									["Pest Remover Mk. II"] = 0,
 									["Zanxib"] = 9066,
-									["Dreadstalker"] = 0,
+									["Sister Hilga"] = 1638,
 									["Vanguard Akkelion"] = 0,
 									["Skithis the Infused"] = 16234,
-									["Sister Hilga"] = 1638,
+									["Brittle Shardling"] = 5237,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 28519,
+								["n_dmg"] = 95150,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 43,
-								["total"] = 166407,
+								["counter"] = 91,
+								["total"] = 246812,
 								["c_max"] = 58968,
 								["id"] = 204301,
 								["r_dmg"] = 0,
@@ -19357,18 +19608,18 @@ _detalhes_database = {
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 31,
+								["n_amt"] = 72,
 								["a_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							[256893] = {
-								["c_amt"] = 0,
+								["c_amt"] = 1,
 								["b_amt"] = 0,
-								["c_dmg"] = 0,
+								["c_dmg"] = 47510,
 								["g_amt"] = 0,
-								["n_max"] = 694989,
+								["n_max"] = 728144,
 								["targets"] = {
-									["Archimonde"] = 694989,
+									["Archimonde"] = 2864315,
 									["Matron Morana"] = 25766,
 									["Gurtogg Bloodboil"] = 0,
 									["Xhul'horac"] = 0,
@@ -19376,18 +19627,19 @@ _detalhes_database = {
 									["Blademaster Jubei'thos"] = 0,
 									["Mannoroth"] = 0,
 									["Tidesage Seacaller"] = 0,
+									["Emily Mayville"] = 23223,
 									["Enraged Krolusk"] = 26405,
 									["Zanxib"] = 29046,
 									["Dagrus the Scorned"] = 0,
-									["Stone Golem"] = 25766,
+									["Stone Golem"] = 73276,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 801972,
+								["n_dmg"] = 2994521,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 5,
-								["total"] = 801972,
-								["c_max"] = 0,
+								["counter"] = 10,
+								["total"] = 3042031,
+								["c_max"] = 47510,
 								["id"] = 256893,
 								["r_dmg"] = 0,
 								["extra"] = {
@@ -19398,51 +19650,56 @@ _detalhes_database = {
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 5,
+								["n_amt"] = 9,
 								["a_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							[81297] = {
-								["c_amt"] = 34,
+								["c_amt"] = 101,
 								["b_amt"] = 0,
-								["c_dmg"] = 119996,
+								["c_dmg"] = 756892,
 								["g_amt"] = 0,
-								["n_max"] = 14742,
+								["n_max"] = 16305,
 								["targets"] = {
-									["Archimonde"] = 206388,
+									["Archimonde"] = 1007330,
 									["Wild Pyromaniac"] = 0,
+									["Frenzied Cottontail"] = 74815,
 									["Gurtogg Bloodboil"] = 0,
+									["Cottontail Matron"] = 27295,
+									["Cursed Game-hawk"] = 7444,
+									["Vanguard Akkelion"] = 0,
 									["Blademaster Jubei'thos"] = 0,
 									["Mannoroth"] = 0,
 									["Tidesage Seacaller"] = 0,
-									["Zanxib"] = 24379,
+									["Dreadstalker"] = 177648,
+									["Brittle Shardling"] = 10363,
 									["Dia Darkwhisper"] = 0,
 									["Skycarver Krakit"] = 6940,
 									["Slave Watcher Crushto"] = 0,
-									["Sister Hilga"] = 4095,
-									["Enraged Krolusk"] = 22741,
 									["Omnus <Portal Stalker>"] = 0,
-									["Dreadstalker"] = 0,
+									["Enraged Krolusk"] = 22741,
+									["Zanxib"] = 24379,
+									["Emily Mayville"] = 29214,
 									["Ravenous Ranishu"] = 0,
-									["Xhul'horac"] = 0,
+									["Sister Hilga"] = 4095,
 									["Fel Lord Zakuun"] = 0,
-									["Stone Golem"] = 7545,
-									["Vanguard Akkelion"] = 0,
+									["Stone Golem"] = 24155,
+									["Xhul'horac"] = 0,
 									["Dagrus the Scorned"] = 0,
 									["Pest Remover Mk. II"] = 0,
-									["Felborne Overfiend"] = 0,
 									["Dunegorger Kraulok"] = 0,
+									["Felborne Overfiend"] = 32610,
 									["Bloodmaul Warder"] = 0,
 									["Skithis the Infused"] = 25654,
 									["Matron Morana"] = 16358,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 194104,
+								["n_dmg"] = 734149,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 208,
-								["total"] = 314100,
-								["c_max"] = 29484,
+								["counter"] = 556,
+								["total"] = 1491041,
+								["c_max"] = 32610,
 								["id"] = 81297,
 								["r_dmg"] = 0,
 								["extra"] = {
@@ -19453,45 +19710,50 @@ _detalhes_database = {
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 174,
+								["n_amt"] = 455,
 								["a_amt"] = 0,
 								["r_amt"] = 0,
 							},
 							[53600] = {
-								["c_amt"] = 8,
+								["c_amt"] = 20,
 								["b_amt"] = 0,
-								["c_dmg"] = 280892,
+								["c_dmg"] = 1793637,
 								["g_amt"] = 0,
-								["n_max"] = 97298,
+								["n_max"] = 122326,
 								["targets"] = {
-									["Archimonde"] = 428110,
+									["Archimonde"] = 2137563,
 									["Matron Morana"] = 14960,
 									["Gurtogg Bloodboil"] = 0,
 									["Blademaster Jubei'thos"] = 0,
 									["Mannoroth"] = 0,
-									["Stone Golem"] = 9553,
+									["Stone Golem"] = 20195,
 									["Dia Darkwhisper"] = 0,
 									["Skycarver Krakit"] = 15336,
 									["Dunegorger Kraulok"] = 0,
 									["Enraged Krolusk"] = 24197,
 									["Zanxib"] = 21986,
+									["Felborne Overfiend"] = 209638,
 									["Ravenous Ranishu"] = 0,
 									["Xhul'horac"] = 0,
 									["Fel Lord Zakuun"] = 0,
+									["Frenzied Cottontail"] = 80203,
+									["Cottontail Matron"] = 24608,
 									["Dagrus the Scorned"] = 0,
 									["Pest Remover Mk. II"] = 0,
+									["Emily Mayville"] = 31950,
 									["Wild Pyromaniac"] = 0,
 									["Vanguard Akkelion"] = 0,
 									["Skithis the Infused"] = 24302,
 									["Sister Hilga"] = 8649,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 266201,
+								["n_dmg"] = 819950,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 32,
-								["total"] = 547093,
-								["c_max"] = 233514,
+								["counter"] = 79,
+								["total"] = 2613587,
+								["c_max"] = 244654,
+								["DODGE"] = 1,
 								["id"] = 53600,
 								["r_dmg"] = 0,
 								["extra"] = {
@@ -19502,78 +19764,107 @@ _detalhes_database = {
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 24,
+								["n_amt"] = 58,
 								["a_amt"] = 0,
 								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
+					["avoidance"] = {
+						["overall"] = {
+							["DODGE"] = 0,
+							["FULL_ABSORB_AMT"] = 0,
+							["BLOCKED_AMT"] = 0,
+							["BLOCKED_HITS"] = 0,
+							["FULL_ABSORBED"] = 0,
+							["ALL"] = 0,
+							["PARTIAL_ABSORBED"] = 0,
+							["PARRY"] = 0,
+							["PARTIAL_ABSORB_AMT"] = 0,
+							["ABSORB"] = 0,
+							["ABSORB_AMT"] = 0,
+							["FULL_HIT"] = 0,
+							["HITS"] = 0,
+							["FULL_HIT_AMT"] = 0,
+						},
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 17834961.079409,
+					["serial"] = "Player-3391-0A827D5A",
+					["classe"] = "PALADIN",
+					["dps_started"] = false,
+					["total"] = 17834961.079409,
+					["isTank"] = true,
+					["end_time"] = 1594414100,
+					["nome"] = "Korugen",
+					["spec"] = 66,
 					["grupo"] = true,
-					["last_event"] = 0,
-					["last_dps"] = 0,
+					["boss_fight_component"] = true,
+					["damage_taken"] = 386352.079409,
 					["custom"] = 0,
 					["tipo"] = 1,
 					["on_hold"] = false,
-					["start_time"] = 1594413900,
+					["start_time"] = 1594413713,
 					["delay"] = 0,
-					["damage_taken"] = 161841.045583,
+					["last_dps"] = 0,
 				}, -- [1]
 				{
 					["flag_original"] = 68168,
-					["totalabsorbed"] = 0.003532,
+					["totalabsorbed"] = 0.017499,
 					["damage_from"] = {
 						["Korugen"] = true,
 					},
 					["targets"] = {
-						["Korugen"] = 137,
+						["Korugen"] = 497,
 					},
 					["pets"] = {
 						"Desecration <Archimonde>", -- [1]
 					},
-					["last_dps"] = 0,
-					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 137.003532,
-					["serial"] = "Creature-0-3892-1448-29845-91331-000008D3F8",
+					["total_without_pet"] = 497.017499,
+					["last_event"] = 0,
+					["damage_taken"] = 15266650.017499,
 					["monster"] = true,
+					["total"] = 497.017499,
 					["end_time"] = 1594414100,
-					["on_hold"] = false,
-					["damage_taken"] = 3948291.003532,
+					["classe"] = "UNKNOW",
 					["nome"] = "Archimonde",
 					["spells"] = {
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
-								["b_amt"] = 0,
+								["b_amt"] = 2,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
 								["n_max"] = 37,
 								["targets"] = {
-									["Korugen"] = 137,
+									["Korugen"] = 497,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 137,
+								["n_dmg"] = 497,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 6,
-								["total"] = 137,
+								["counter"] = 23,
+								["total"] = 497,
 								["c_max"] = 0,
-								["a_amt"] = 3,
+								["a_amt"] = 5,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
 								["m_amt"] = 0,
 								["m_crit"] = 0,
-								["PARRY"] = 1,
+								["PARRY"] = 4,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 5,
-								["a_dmg"] = 80,
+								["b_dmg"] = 9,
+								["n_amt"] = 19,
+								["a_dmg"] = 146,
 								["r_amt"] = 0,
 							}, -- [1]
 							[185590] = {
@@ -19599,7 +19890,7 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["m_amt"] = 0,
 								["c_min"] = 0,
-								["successful_casted"] = 1,
+								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
 								["a_amt"] = 0,
@@ -19628,7 +19919,7 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["m_amt"] = 0,
 								["c_min"] = 0,
-								["successful_casted"] = 2,
+								["successful_casted"] = 9,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
 								["a_amt"] = 0,
@@ -19657,7 +19948,7 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["m_amt"] = 0,
 								["c_min"] = 0,
-								["successful_casted"] = 1,
+								["successful_casted"] = 4,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
 								["a_amt"] = 0,
@@ -19666,38 +19957,38 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_event"] = 0,
-					["total"] = 137.003532,
-					["friendlyfire_total"] = 0,
+					["serial"] = "Creature-0-3892-1448-29845-91331-000008D3F8",
+					["dps_started"] = false,
+					["boss_fight_component"] = true,
+					["on_hold"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
 					["friendlyfire"] = {
 					},
-					["start_time"] = 1594414084,
+					["start_time"] = 1594414047,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["last_dps"] = 0,
 				}, -- [2]
 				{
 					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.012658,
+					["totalabsorbed"] = 0.023823,
+					["monster"] = true,
 					["damage_from"] = {
 					},
 					["targets"] = {
 					},
-					["serial"] = "Vehicle-0-3892-1448-29845-92781-000008D40C",
+					["last_event"] = 0,
 					["pets"] = {
 					},
-					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["serial"] = "Vehicle-0-3892-1448-29845-92781-000008D40C",
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 0.012658,
-					["friendlyfire"] = {
-					},
+					["total_without_pet"] = 0.023823,
+					["classe"] = "UNKNOW",
 					["dps_started"] = false,
 					["end_time"] = 1594414100,
-					["damage_taken"] = 0.012658,
+					["damage_taken"] = 0.023823,
 					["ownerName"] = "Archimonde",
 					["nome"] = "Desecration <Archimonde>",
 					["spells"] = {
@@ -19725,7 +20016,7 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["m_amt"] = 0,
 								["c_min"] = 0,
-								["successful_casted"] = 1,
+								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
 								["a_amt"] = 0,
@@ -19754,7 +20045,7 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["m_amt"] = 0,
 								["c_min"] = 0,
-								["successful_casted"] = 1,
+								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
 								["a_amt"] = 0,
@@ -19783,7 +20074,7 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["m_amt"] = 0,
 								["c_min"] = 0,
-								["successful_casted"] = 1,
+								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
 								["a_amt"] = 0,
@@ -19792,19 +20083,20 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_event"] = 0,
-					["monster"] = true,
-					["total"] = 0.012658,
+					["boss_fight_component"] = true,
+					["total"] = 0.023823,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1594414097,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 				}, -- [3]
 				{
 					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.012388,
+					["totalabsorbed"] = 0.022885,
 					["damage_from"] = {
 					},
 					["targets"] = {
@@ -19812,17 +20104,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
-					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 0.012388,
-					["serial"] = "",
+					["total_without_pet"] = 0.022885,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["monster"] = true,
+					["total"] = 0.022885,
 					["end_time"] = 1594414100,
-					["on_hold"] = false,
-					["damage_taken"] = 0.012388,
+					["friendlyfire_total"] = 0,
 					["nome"] = "[*] Desecration",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -19850,7 +20142,7 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["m_amt"] = 0,
 								["c_min"] = 0,
-								["successful_casted"] = 1,
+								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
 								["a_amt"] = 0,
@@ -19859,16 +20151,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_event"] = 0,
-					["total"] = 0.012388,
-					["friendlyfire_total"] = 0,
+					["serial"] = "",
+					["dps_started"] = false,
+					["boss_fight_component"] = true,
+					["damage_taken"] = 0.022885,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["start_time"] = 1594414097,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["last_dps"] = 0,
 				}, -- [4]
 				{
 					["flag_original"] = 2632,
@@ -19879,15 +20171,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "Bloodmaul Warder",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.008016,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.008016,
 					["damage_taken"] = 0.008016,
 					["friendlyfire"] = {
 					},
@@ -19905,7 +20197,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-3770-1175-14064-75210-000175C431",
-					["total"] = 0.008016,
+					["end_time"] = 1594500773,
 				}, -- [5]
 				{
 					["flag_original"] = 2632,
@@ -19916,15 +20208,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "Bloodmaul Geomancer",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.004821,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.004821,
 					["damage_taken"] = 0.004821,
 					["friendlyfire"] = {
 					},
@@ -19972,7 +20264,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-3770-1175-14064-75198-000075C431",
-					["total"] = 0.004821,
+					["end_time"] = 1594500773,
 				}, -- [6]
 				{
 					["flag_original"] = 68168,
@@ -19983,15 +20275,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "Slave Watcher Crushto",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.003967,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.003967,
 					["damage_taken"] = 0.003967,
 					["friendlyfire"] = {
 					},
@@ -20039,7 +20331,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-3770-1175-14064-74787-000075C431",
-					["total"] = 0.003967,
+					["end_time"] = 1594500773,
 				}, -- [7]
 				{
 					["flag_original"] = 68168,
@@ -20128,35 +20420,6 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
-							[278040] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 278040,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["a_amt"] = 0,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
 							[278058] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
@@ -20173,6 +20436,35 @@ _detalhes_database = {
 								["total"] = 0,
 								["c_max"] = 0,
 								["id"] = 278058,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[278040] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 278040,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["a_amt"] = 0,
@@ -20440,15 +20732,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "Gurtogg Bloodboil",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.00498,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.00498,
 					["damage_taken"] = 0.00498,
 					["friendlyfire"] = {
 					},
@@ -20555,7 +20847,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-3891-1448-5-92146-00006E86AD",
-					["total"] = 0.00498,
+					["end_time"] = 1594500773,
 				}, -- [11]
 				{
 					["flag_original"] = 2632,
@@ -20567,15 +20859,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "Blademaster Jubei'thos",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.008369,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.008369,
 					["damage_taken"] = 0.008369,
 					["friendlyfire"] = {
 					},
@@ -20623,7 +20915,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-3891-1448-5-92142-00006E86AD",
-					["total"] = 0.008369,
+					["end_time"] = 1594500773,
 				}, -- [12]
 				{
 					["flag_original"] = 68168,
@@ -20635,15 +20927,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "Dia Darkwhisper",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.003453,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.003453,
 					["damage_taken"] = 0.003453,
 					["friendlyfire"] = {
 					},
@@ -20721,7 +21013,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-3891-1448-5-92144-00006E86AD",
-					["total"] = 0.003453,
+					["end_time"] = 1594500773,
 				}, -- [13]
 				{
 					["flag_original"] = 2632,
@@ -20733,15 +21025,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "[*] Blood of Mannoroth",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.006317,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.006317,
 					["damage_taken"] = 0.006317,
 					["friendlyfire"] = {
 					},
@@ -20789,7 +21081,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "",
-					["total"] = 0.006317,
+					["end_time"] = 1594500773,
 				}, -- [14]
 				{
 					["flag_original"] = 2632,
@@ -20801,15 +21093,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "Mannoroth",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.004143,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.004143,
 					["damage_taken"] = 0.004143,
 					["friendlyfire"] = {
 					},
@@ -20857,7 +21149,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-3769-1448-25322-91349-00006E85B8",
-					["total"] = 0.004143,
+					["end_time"] = 1594500773,
 				}, -- [15]
 				{
 					["flag_original"] = 2632,
@@ -20868,15 +21160,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "Fel Imp <[*] Fel Imp-losion>",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.00545,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.00545,
 					["damage_taken"] = 0.00545,
 					["friendlyfire"] = {
 					},
@@ -20924,7 +21216,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-3769-1448-25322-91259-00006E8667",
-					["total"] = 0.00545,
+					["end_time"] = 1594500773,
 				}, -- [16]
 				{
 					["flag_original"] = 2632,
@@ -20935,15 +21227,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "[*] Inferno",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.007814,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.007814,
 					["damage_taken"] = 0.007814,
 					["friendlyfire"] = {
 					},
@@ -20961,7 +21253,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "",
-					["total"] = 0.007814,
+					["end_time"] = 1594500773,
 				}, -- [17]
 				{
 					["flag_original"] = 2632,
@@ -20972,15 +21264,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "Dread Infernal <[*] Inferno>",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.00513,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.00513,
 					["damage_taken"] = 0.00513,
 					["friendlyfire"] = {
 					},
@@ -21056,7 +21348,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-3769-1448-25322-91270-00006E866D",
-					["total"] = 0.00513,
+					["end_time"] = 1594500773,
 				}, -- [18]
 				{
 					["flag_original"] = 68168,
@@ -21067,15 +21359,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "Fel Iron Summoner",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.007184,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.007184,
 					["damage_taken"] = 0.007184,
 					["friendlyfire"] = {
 					},
@@ -21093,7 +21385,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-3769-1448-25322-91305-00016E85B8",
-					["total"] = 0.007184,
+					["end_time"] = 1594500773,
 				}, -- [19]
 				{
 					["flag_original"] = 2632,
@@ -21104,15 +21396,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "[*] Fel Imp-losion",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.005643,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.005643,
 					["damage_taken"] = 0.005643,
 					["friendlyfire"] = {
 					},
@@ -21160,7 +21452,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "",
-					["total"] = 0.005643,
+					["end_time"] = 1594500773,
 				}, -- [20]
 				{
 					["flag_original"] = 68168,
@@ -21172,15 +21464,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "Xhul'horac",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.007204,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.007204,
 					["damage_taken"] = 0.007204,
 					["friendlyfire"] = {
 					},
@@ -21287,7 +21579,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-3769-1448-25322-93068-00006E85B8",
-					["total"] = 0.007204,
+					["end_time"] = 1594500773,
 				}, -- [21]
 				{
 					["flag_original"] = 2632,
@@ -21298,15 +21590,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "Omnus <Portal Stalker>",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.003719,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.003719,
 					["damage_taken"] = 0.003719,
 					["friendlyfire"] = {
 					},
@@ -21324,7 +21616,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-3769-1448-25322-94239-00006E8645",
-					["total"] = 0.003719,
+					["end_time"] = 1594500773,
 				}, -- [22]
 				{
 					["flag_original"] = 2632,
@@ -21335,15 +21627,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "Wild Pyromaniac",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.00578,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.00578,
 					["damage_taken"] = 0.00578,
 					["friendlyfire"] = {
 					},
@@ -21361,7 +21653,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-3769-1448-25322-94231-00006E8645",
-					["total"] = 0.00578,
+					["end_time"] = 1594500773,
 				}, -- [23]
 				{
 					["flag_original"] = 2632,
@@ -21372,15 +21664,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "Vanguard Akkelion",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.001504,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.001504,
 					["damage_taken"] = 0.001504,
 					["friendlyfire"] = {
 					},
@@ -21398,7 +21690,7 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-3769-1448-25322-94185-00006E8640",
-					["total"] = 0.001504,
+					["end_time"] = 1594500773,
 				}, -- [24]
 				{
 					["flag_original"] = 2584,
@@ -21418,23 +21710,23 @@ _detalhes_database = {
 					["dps_started"] = false,
 					["end_time"] = 1594500773,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 2,
 					},
-					["on_hold"] = false,
+					["last_dps"] = 0,
 					["total"] = 0.006038,
 					["nome"] = "Portal Stalker",
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.006038,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-3769-1448-25322-94437-00006E85B8",
-					["last_dps"] = 0,
+					["damage_taken"] = 0.006038,
 				}, -- [25]
 				{
 					["flag_original"] = 68168,
@@ -21446,15 +21738,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
 					["nome"] = "Fel Lord Zakuun",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.003839,
 					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
+					["monster"] = true,
+					["total"] = 0.003839,
 					["damage_taken"] = 0.003839,
 					["friendlyfire"] = {
 					},
@@ -21491,65 +21783,6 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							}, -- [1]
-							[179582] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 179582,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["a_amt"] = 0,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-							[179583] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Korugen"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 179583,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["a_amt"] = 0,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
 							[179681] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
@@ -21609,6 +21842,65 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
+							[179582] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 179582,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[179583] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Korugen"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 179583,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
 						},
 						["tipo"] = 2,
 					},
@@ -21620,66 +21912,28 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-3769-1448-25322-89890-00006E85B8",
-					["total"] = 0.003839,
+					["end_time"] = 1594500773,
 				}, -- [26]
 				{
 					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.007694,
+					["totalabsorbed"] = 0.009935,
 					["damage_from"] = {
+						["Korugen"] = true,
 					},
 					["targets"] = {
 					},
 					["pets"] = {
 					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.009935,
+					["tipo"] = 1,
+					["dps_started"] = false,
 					["monster"] = true,
+					["end_time"] = 1594500773,
 					["nome"] = "Dreadstalker",
 					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.007694,
-					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
-					["damage_taken"] = 0.007694,
-					["friendlyfire"] = {
-					},
-					["boss_fight_component"] = true,
-					["spells"] = {
-						["_ActorTable"] = {
-						},
-						["tipo"] = 2,
-					},
-					["tipo"] = 1,
-					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
-					["custom"] = 0,
-					["last_event"] = 0,
-					["last_dps"] = 0,
-					["start_time"] = 1594500770,
-					["serial"] = "Creature-0-1467-1448-6817-93616-00006601BE",
-					["total"] = 0.007694,
-				}, -- [27]
-				{
-					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.001331,
-					["damage_from"] = {
-					},
-					["targets"] = {
-					},
-					["pets"] = {
-					},
-					["monster"] = true,
-					["nome"] = "Felborne Overfiend",
-					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.001331,
-					["delay"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1594500773,
-					["damage_taken"] = 0.001331,
-					["friendlyfire"] = {
-					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -21696,9 +21950,79 @@ _detalhes_database = {
 								["n_dmg"] = 0,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 0,
+								["counter"] = 2,
 								["total"] = 0,
 								["c_max"] = 0,
+								["MISS"] = 2,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["delay"] = 0,
+					["total"] = 0.009935,
+					["damage_taken"] = 177648.009935,
+					["friendlyfire"] = {
+					},
+					["custom"] = 0,
+					["last_event"] = 0,
+					["last_dps"] = 0,
+					["start_time"] = 1594500770,
+					["serial"] = "Creature-0-1467-1448-6817-93616-00006601BE",
+					["on_hold"] = false,
+				}, -- [27]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.00654,
+					["damage_from"] = {
+						["Korugen"] = true,
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.00654,
+					["tipo"] = 1,
+					["dps_started"] = false,
+					["monster"] = true,
+					["end_time"] = 1594500773,
+					["nome"] = "Felborne Overfiend",
+					["classe"] = "UNKNOW",
+					["boss_fight_component"] = true,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Korugen"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["MISS"] = 1,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
@@ -21735,7 +22059,7 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_min"] = 0,
 								["m_amt"] = 0,
-								["successful_casted"] = 0,
+								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
 								["a_dmg"] = 0,
@@ -21745,15 +22069,17 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["tipo"] = 1,
-					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
+					["delay"] = 0,
+					["total"] = 0.00654,
+					["damage_taken"] = 242248.00654,
+					["friendlyfire"] = {
+					},
 					["custom"] = 0,
 					["last_event"] = 0,
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-1467-1448-6817-93615-00006601BE",
-					["total"] = 0.001331,
+					["on_hold"] = false,
 				}, -- [28]
 				{
 					["flag_original"] = 68168,
@@ -21870,6 +22196,35 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
+							[275175] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 275175,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
 							[275184] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
@@ -21888,35 +22243,6 @@ _detalhes_database = {
 								["total"] = 0,
 								["c_max"] = 0,
 								["id"] = 275184,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["a_amt"] = 0,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-							[275175] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 275175,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["a_amt"] = 0,
@@ -21951,8 +22277,8 @@ _detalhes_database = {
 					["targets"] = {
 						["Laviness"] = 0,
 						["Gotham-Runetotem"] = 0,
-						["Korugen"] = 0,
 						["Slashwin"] = 0,
+						["Korugen"] = 0,
 					},
 					["pets"] = {
 					},
@@ -21962,7 +22288,7 @@ _detalhes_database = {
 					},
 					["total_without_pet"] = 0.003469,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1594500773,
 					["delay"] = 0,
 					["damage_taken"] = 0.003469,
@@ -22106,17 +22432,19 @@ _detalhes_database = {
 					["last_dps"] = 0,
 					["start_time"] = 1594500770,
 					["serial"] = "Creature-0-3769-1642-20602-139614-0000DE28AB",
-					["dps_started"] = false,
+					["fight_component"] = true,
 				}, -- [30]
 				{
 					["flag_original"] = 68168,
-					["totalabsorbed"] = 11635.012542,
+					["totalabsorbed"] = 11635.019245,
 					["damage_from"] = {
 						["Magus of the Dead <Yol>"] = true,
-						["Army of the Dead <Yol>"] = true,
-						["Bonedrinker <Yol>"] = true,
-						["Korugen"] = true,
 						["Yol"] = true,
+						["Korugen"] = true,
+						["Magnolía"] = true,
+						["Sáiyon"] = true,
+						["Bonedrinker <Yol>"] = true,
+						["Army of the Dead <Yol>"] = true,
 						["Könsikäs"] = true,
 						["Leisheng"] = true,
 					},
@@ -22124,53 +22452,57 @@ _detalhes_database = {
 						["Magus of the Dead <Yol>"] = 189,
 						["Yol"] = 1432,
 						["Bonedrinker <Yol>"] = 72,
+						["Sáiyon"] = 1723,
 						["Könsikäs"] = 5019,
-						["Korugen"] = 22214,
+						["Magnolía"] = 2606,
+						["Korugen"] = 54238,
 						["Leisheng"] = 6616,
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 1305404.012542,
-					["classe"] = "UNKNOW",
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 35542.012542,
+					["total_without_pet"] = 71895.019245,
 					["delay"] = 0,
 					["monster"] = true,
-					["end_time"] = 1594501102,
-					["friendlyfire_total"] = 0,
+					["total"] = 71895.019245,
+					["classe"] = "UNKNOW",
 					["on_hold"] = false,
 					["nome"] = "Stone Golem",
 					["spells"] = {
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
-								["b_amt"] = 1,
+								["b_amt"] = 2,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 7099,
+								["n_max"] = 8923,
 								["targets"] = {
-									["Korugen"] = 18540,
+									["Korugen"] = 46724,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 18540,
+								["n_dmg"] = 46724,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 4,
-								["total"] = 18540,
+								["counter"] = 14,
+								["total"] = 46724,
 								["c_max"] = 0,
+								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["a_amt"] = 4,
-								["m_crit"] = 0,
+								["a_amt"] = 10,
 								["c_min"] = 0,
+								["m_crit"] = 0,
+								["PARRY"] = 4,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
-								["b_dmg"] = 2550,
-								["n_amt"] = 4,
-								["a_dmg"] = 18540,
+								["b_dmg"] = 7189,
+								["n_amt"] = 10,
+								["a_dmg"] = 46724,
 								["extra"] = {
 								},
 							}, -- [1]
@@ -22196,49 +22528,80 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_min"] = 0,
 								["m_amt"] = 0,
-								["successful_casted"] = 1,
+								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
 								["a_dmg"] = 0,
 								["extra"] = {
 								},
 							},
-							[257660] = {
+							[270871] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 1771,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 270871,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[257660] = {
+								["c_amt"] = 0,
+								["b_amt"] = 1,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2606,
 								["targets"] = {
 									["Magus of the Dead <Yol>"] = 189,
 									["Yol"] = 1432,
+									["Korugen"] = 2834,
+									["Magnolía"] = 2606,
+									["Sáiyon"] = 1723,
 									["Bonedrinker <Yol>"] = 72,
-									["Korugen"] = 1917,
 									["Army of the Dead"] = 0,
 									["Könsikäs"] = 1771,
 									["Leisheng"] = 3452,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 8833,
+								["n_dmg"] = 14079,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 12,
-								["total"] = 8833,
+								["counter"] = 15,
+								["total"] = 14079,
 								["c_max"] = 0,
 								["r_amt"] = 0,
 								["id"] = 257660,
 								["r_dmg"] = 0,
-								["a_dmg"] = 1917,
+								["a_dmg"] = 2834,
 								["c_min"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 2,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 10,
+								["b_dmg"] = 917,
+								["n_amt"] = 13,
 								["extra"] = {
 								},
-								["a_amt"] = 2,
+								["a_amt"] = 3,
 							},
 							[257657] = {
 								["c_amt"] = 0,
@@ -22247,28 +22610,28 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 3248,
 								["targets"] = {
-									["Korugen"] = 1757,
+									["Korugen"] = 4680,
 									["Könsikäs"] = 3248,
 									["Leisheng"] = 3164,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 8169,
+								["n_dmg"] = 11092,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 3,
-								["total"] = 8169,
+								["counter"] = 4,
+								["total"] = 11092,
 								["c_max"] = 0,
 								["id"] = 257657,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
-								["a_amt"] = 1,
+								["a_amt"] = 2,
 								["m_crit"] = 0,
 								["c_min"] = 0,
 								["m_amt"] = 0,
-								["successful_casted"] = 1,
+								["successful_casted"] = 2,
 								["b_dmg"] = 0,
-								["n_amt"] = 3,
-								["a_dmg"] = 1757,
+								["n_amt"] = 4,
+								["a_dmg"] = 4680,
 								["extra"] = {
 								},
 							},
@@ -22276,15 +22639,14 @@ _detalhes_database = {
 						["tipo"] = 2,
 					},
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
-					["total"] = 35542.012542,
+					["end_time"] = 1594501102,
+					["damage_taken"] = 2561028.019245,
 					["custom"] = 0,
 					["last_event"] = 0,
 					["last_dps"] = 0,
-					["start_time"] = 1594501087,
+					["start_time"] = 1594501066,
 					["serial"] = "Creature-0-3774-1643-29669-137708-00000A27DC",
-					["fight_component"] = true,
+					["dps_started"] = false,
 				}, -- [31]
 				{
 					["flag_original"] = 68168,
@@ -22343,8 +22705,8 @@ _detalhes_database = {
 								["a_dmg"] = 937,
 								["b_dmg"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 1,
 								["n_amt"] = 1,
@@ -22625,11 +22987,12 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.003733,
-					["damage_taken"] = 0.003733,
+					["friendlyfire"] = {
+					},
 					["dps_started"] = false,
 					["end_time"] = 1594556439,
 					["serial"] = "Creature-0-3110-1331-4375-77370-00040A26B1",
-					["last_dps"] = 0,
+					["damage_taken"] = 0.003733,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22666,13 +23029,12 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total"] = 0.003733,
 					["nome"] = "Lunarfall Footman",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["last_dps"] = 0,
 					["start_time"] = 1594556436,
 					["delay"] = 0,
 					["friendlyfire_total"] = 0,
@@ -22691,24 +23053,24 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.006736,
-					["damage_taken"] = 0.006736,
+					["friendlyfire"] = {
+					},
 					["dps_started"] = false,
 					["end_time"] = 1594556439,
 					["serial"] = "Creature-0-3110-1331-4375-83628-00028A26B2",
-					["last_dps"] = 0,
+					["damage_taken"] = 0.006736,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["total"] = 0.006736,
 					["nome"] = "Lunarfall Goren",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["last_dps"] = 0,
 					["start_time"] = 1594556436,
 					["delay"] = 0,
 					["friendlyfire_total"] = 0,
@@ -22716,7 +23078,6 @@ _detalhes_database = {
 				{
 					["flag_original"] = 2632,
 					["totalabsorbed"] = 6422.006901,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["Korugen"] = true,
 						["Vaeldyn"] = true,
@@ -22728,19 +23089,18 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["fight_component"] = true,
+					["on_hold"] = false,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 19754.006901,
-					["last_event"] = 0,
+					["serial"] = "Creature-0-3110-1642-15542-133812-000018D10D",
 					["dps_started"] = false,
 					["end_time"] = 1595461939,
-					["friendlyfire"] = {
-					},
 					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["nome"] = "Zanxib",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -22762,17 +23122,17 @@ _detalhes_database = {
 								["DODGE"] = 1,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 1277,
 								["a_dmg"] = 10427,
 								["m_crit"] = 0,
 								["PARRY"] = 3,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 1277,
-								["n_amt"] = 10,
-								["r_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["m_amt"] = 0,
+								["n_amt"] = 10,
+								["extra"] = {
+								},
+								["r_amt"] = 0,
 							}, -- [1]
 							[260365] = {
 								["c_amt"] = 0,
@@ -22795,13 +23155,13 @@ _detalhes_database = {
 								},
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 4,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
+								["a_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[260366] = {
 								["c_amt"] = 0,
@@ -22826,30 +23186,31 @@ _detalhes_database = {
 								},
 								["a_dmg"] = 2905,
 								["m_crit"] = 0,
-								["a_amt"] = 3,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 4,
 								["b_dmg"] = 0,
 								["n_amt"] = 6,
+								["a_amt"] = 3,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["last_event"] = 0,
 					["total"] = 19754.006901,
-					["serial"] = "Creature-0-3110-1642-15542-133812-000018D10D",
+					["friendlyfire"] = {
+					},
 					["custom"] = 0,
 					["tipo"] = 1,
 					["damage_taken"] = 504075.006901,
 					["start_time"] = 1595461901,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["monster"] = true,
 				}, -- [37]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 0.00591,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["Korugen"] = true,
 					},
@@ -22859,19 +23220,18 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["fight_component"] = true,
+					["on_hold"] = false,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 31874.00591,
-					["last_event"] = 0,
+					["serial"] = "Creature-0-3773-1642-15561-136732-000018D15C",
 					["dps_started"] = false,
 					["end_time"] = 1595462050,
-					["friendlyfire"] = {
-					},
 					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["nome"] = "Skithis the Infused",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -22894,15 +23254,15 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 8030,
+								["b_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 5,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 5,
-								["r_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["m_amt"] = 0,
+								["n_amt"] = 5,
+								["a_dmg"] = 8030,
+								["r_amt"] = 0,
 							}, -- [1]
 							[277192] = {
 								["c_amt"] = 0,
@@ -22925,13 +23285,13 @@ _detalhes_database = {
 								},
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
+								["a_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[277199] = {
 								["c_amt"] = 0,
@@ -22955,13 +23315,13 @@ _detalhes_database = {
 								},
 								["a_dmg"] = 16908,
 								["m_crit"] = 0,
-								["a_amt"] = 4,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 4,
 								["b_dmg"] = 0,
 								["n_amt"] = 4,
+								["a_amt"] = 4,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[277201] = {
 								["c_amt"] = 0,
@@ -22985,30 +23345,31 @@ _detalhes_database = {
 								},
 								["a_dmg"] = 6936,
 								["m_crit"] = 0,
-								["a_amt"] = 2,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
+								["a_amt"] = 2,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["last_event"] = 0,
 					["total"] = 31874.00591,
-					["serial"] = "Creature-0-3773-1642-15561-136732-000018D15C",
+					["friendlyfire"] = {
+					},
 					["custom"] = 0,
 					["tipo"] = 1,
 					["damage_taken"] = 208181.00591,
 					["start_time"] = 1595462011,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["monster"] = true,
 				}, -- [38]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 0.005265000000000001,
-					["on_hold"] = false,
 					["damage_from"] = {
 					},
 					["targets"] = {
@@ -23017,19 +23378,18 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["fight_component"] = true,
+					["on_hold"] = false,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1963.005265,
-					["last_event"] = 0,
+					["serial"] = "Creature-0-3773-1642-15561-138258-000018A631",
 					["dps_started"] = false,
 					["end_time"] = 1595462087,
-					["friendlyfire"] = {
-					},
 					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["nome"] = "Bonepicker Scavenger",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -23053,30 +23413,31 @@ _detalhes_database = {
 								},
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
+								["a_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["last_event"] = 0,
 					["total"] = 1963.005265,
-					["serial"] = "Creature-0-3773-1642-15561-138258-000018A631",
+					["friendlyfire"] = {
+					},
 					["custom"] = 0,
 					["tipo"] = 1,
 					["damage_taken"] = 0.005265000000000001,
 					["start_time"] = 1595462075,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["monster"] = true,
 				}, -- [39]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 0.016965,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["Korugen"] = true,
 					},
@@ -23086,19 +23447,18 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["fight_component"] = true,
+					["on_hold"] = false,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 24904.016965,
-					["last_event"] = 0,
+					["serial"] = "Creature-0-3773-1642-15561-136335-000018D178",
 					["dps_started"] = false,
 					["end_time"] = 1595462170,
-					["friendlyfire"] = {
-					},
 					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["nome"] = "Enraged Krolusk",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -23120,17 +23480,17 @@ _detalhes_database = {
 								["MISS"] = 1,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 1050,
 								["a_dmg"] = 17582,
 								["m_crit"] = 0,
 								["PARRY"] = 5,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 1050,
-								["n_amt"] = 14,
-								["r_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["m_amt"] = 0,
+								["n_amt"] = 14,
+								["extra"] = {
+								},
+								["r_amt"] = 0,
 							}, -- [1]
 							[261712] = {
 								["c_amt"] = 0,
@@ -23153,15 +23513,15 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 4455,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 1,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 4,
 								["b_dmg"] = 2225,
 								["n_amt"] = 3,
+								["a_dmg"] = 4455,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[261732] = {
 								["c_amt"] = 0,
@@ -23185,25 +23545,27 @@ _detalhes_database = {
 								},
 								["a_dmg"] = 2867,
 								["m_crit"] = 0,
-								["a_amt"] = 2,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
+								["a_amt"] = 2,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["last_event"] = 0,
 					["total"] = 24904.016965,
-					["serial"] = "Creature-0-3773-1642-15561-136335-000018D178",
+					["friendlyfire"] = {
+					},
 					["custom"] = 0,
 					["tipo"] = 1,
 					["damage_taken"] = 257926.016965,
 					["start_time"] = 1595462116,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["monster"] = true,
 				}, -- [40]
 				{
 					["flag_original"] = 2600,
@@ -23215,37 +23577,36 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
+					["last_event"] = 0,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.009225,
-					["fight_component"] = true,
 					["dps_started"] = false,
+					["fight_component"] = true,
 					["end_time"] = 1595462170,
-					["friendlyfire"] = {
-					},
-					["last_event"] = 0,
+					["serial"] = "Creature-0-3773-1642-15561-137416-000018CF31",
+					["on_hold"] = false,
 					["nome"] = "Canyon Racer",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["total"] = 0.009225,
-					["serial"] = "Creature-0-3773-1642-15561-137416-000018CF31",
+					["friendlyfire"] = {
+					},
 					["custom"] = 0,
 					["tipo"] = 1,
 					["damage_taken"] = 839.009225,
 					["start_time"] = 1595462167,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["friendlyfire_total"] = 0,
 				}, -- [41]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 1386.016116,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["Siadra-Runetotem"] = true,
 						["Xorton"] = true,
@@ -23258,19 +23619,18 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["fight_component"] = true,
+					["on_hold"] = false,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4369.016116,
-					["last_event"] = 0,
+					["serial"] = "Creature-0-3773-1642-15561-134745-000018D251",
 					["dps_started"] = false,
 					["end_time"] = 1595462272,
-					["friendlyfire"] = {
-					},
 					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["nome"] = "Skycarver Krakit",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -23295,13 +23655,13 @@ _detalhes_database = {
 								},
 								["a_dmg"] = 2983,
 								["m_crit"] = 0,
-								["a_amt"] = 4,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 1939,
 								["n_amt"] = 5,
+								["a_amt"] = 4,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							}, -- [1]
 							[261792] = {
 								["c_amt"] = 0,
@@ -23325,13 +23685,13 @@ _detalhes_database = {
 								},
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
+								["a_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[272456] = {
 								["c_amt"] = 0,
@@ -23354,26 +23714,701 @@ _detalhes_database = {
 								},
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
+								["a_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["last_event"] = 0,
 					["total"] = 4369.016116,
-					["serial"] = "Creature-0-3773-1642-15561-134745-000018D251",
+					["friendlyfire"] = {
+					},
 					["custom"] = 0,
 					["tipo"] = 1,
 					["damage_taken"] = 320451.016116,
 					["start_time"] = 1595462256,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["monster"] = true,
 				}, -- [42]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.011277,
+					["damage_from"] = {
+						["Korugen"] = true,
+					},
+					["targets"] = {
+						["Korugen"] = 45980,
+					},
+					["pets"] = {
+					},
+					["monster"] = true,
+					["last_dps"] = 0,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 45980.01127700001,
+					["serial"] = "Creature-0-3102-1643-1282-129995-000023F6D5",
+					["fight_component"] = true,
+					["end_time"] = 1596192572,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 310477.011277,
+					["nome"] = "Emily Mayville",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 2,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1544,
+								["targets"] = {
+									["Korugen"] = 10906,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 10906,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 15,
+								["total"] = 10906,
+								["c_max"] = 0,
+								["a_amt"] = 11,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["m_amt"] = 0,
+								["m_crit"] = 0,
+								["PARRY"] = 4,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 1925,
+								["n_amt"] = 11,
+								["a_dmg"] = 10906,
+								["r_amt"] = 0,
+							}, -- [1]
+							[270157] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 730,
+								["targets"] = {
+									["Korugen"] = 28139,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 28139,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 40,
+								["total"] = 28139,
+								["c_max"] = 0,
+								["id"] = 270157,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 28139,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 4,
+								["b_dmg"] = 0,
+								["n_amt"] = 40,
+								["a_amt"] = 40,
+								["r_amt"] = 0,
+							},
+							[270158] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 270158,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 6,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[256871] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 3468,
+								["targets"] = {
+									["Korugen"] = 6935,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 6935,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 6935,
+								["c_max"] = 0,
+								["id"] = 256871,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 6935,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
+								["a_amt"] = 2,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_event"] = 0,
+					["total"] = 45980.01127700001,
+					["friendlyfire"] = {
+					},
+					["custom"] = 0,
+					["tipo"] = 1,
+					["on_hold"] = false,
+					["start_time"] = 1596192506,
+					["delay"] = 0,
+					["dps_started"] = false,
+				}, -- [43]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.004672,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Korugen"] = 86773,
+					},
+					["pets"] = {
+					},
+					["monster"] = true,
+					["last_dps"] = 0,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 86773.00467200001,
+					["serial"] = "Creature-0-3102-1643-1282-137479-000023F6FC",
+					["fight_component"] = true,
+					["end_time"] = 1596192572,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 0.004672,
+					["nome"] = "Soul Pillar",
+					["spells"] = {
+						["_ActorTable"] = {
+							[270161] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2189,
+								["targets"] = {
+									["Korugen"] = 86773,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 86773,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 41,
+								["total"] = 86773,
+								["c_max"] = 0,
+								["id"] = 270161,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 84628,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 41,
+								["a_amt"] = 40,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_event"] = 0,
+					["total"] = 86773.00467200001,
+					["friendlyfire"] = {
+					},
+					["custom"] = 0,
+					["tipo"] = 1,
+					["on_hold"] = false,
+					["start_time"] = 1596192515,
+					["delay"] = 0,
+					["dps_started"] = false,
+				}, -- [44]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 8473.006618000001,
+					["damage_from"] = {
+						["Korugen"] = true,
+						["Mngt-SteamwheedleCartel"] = true,
+					},
+					["targets"] = {
+						["Korugen"] = 18213,
+						["Mngt-SteamwheedleCartel"] = 8473,
+					},
+					["pets"] = {
+					},
+					["monster"] = true,
+					["last_dps"] = 0,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 26686.006618,
+					["serial"] = "Creature-0-3102-1643-1282-122961-000023F6F7",
+					["fight_component"] = true,
+					["end_time"] = 1596192677,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 82308.006618,
+					["nome"] = "Cursed Game-hawk",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2048,
+								["targets"] = {
+									["Korugen"] = 2368,
+									["Mngt-SteamwheedleCartel"] = 5840,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 8208,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 8208,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 2368,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 5,
+								["a_amt"] = 2,
+								["r_amt"] = 0,
+							}, -- [1]
+							[256498] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1064,
+								["targets"] = {
+									["Korugen"] = 3127,
+									["Mngt-SteamwheedleCartel"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3127,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 3127,
+								["c_max"] = 0,
+								["DODGE"] = 1,
+								["id"] = 256498,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["b_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 3,
+								["m_amt"] = 0,
+								["successful_casted"] = 2,
+								["c_min"] = 0,
+								["n_amt"] = 3,
+								["a_dmg"] = 3127,
+								["r_amt"] = 0,
+							},
+							[256499] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2633,
+								["targets"] = {
+									["Korugen"] = 2756,
+									["Mngt-SteamwheedleCartel"] = 2633,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 5389,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 5389,
+								["c_max"] = 0,
+								["id"] = 256499,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 2756,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 3,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["a_amt"] = 2,
+								["r_amt"] = 0,
+							},
+							[269800] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 3070,
+								["targets"] = {
+									["Korugen"] = 9962,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 9962,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 9962,
+								["c_max"] = 0,
+								["id"] = 269800,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 9962,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 7,
+								["a_amt"] = 7,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_event"] = 0,
+					["total"] = 26686.006618,
+					["friendlyfire"] = {
+					},
+					["custom"] = 0,
+					["tipo"] = 1,
+					["on_hold"] = false,
+					["start_time"] = 1596192650,
+					["delay"] = 0,
+					["dps_started"] = false,
+				}, -- [45]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.013719,
+					["damage_from"] = {
+						["Korugen"] = true,
+					},
+					["targets"] = {
+						["Korugen"] = 11833,
+					},
+					["pets"] = {
+					},
+					["monster"] = true,
+					["last_dps"] = 0,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 11833.013719,
+					["serial"] = "Creature-0-3102-1643-1282-129899-0002A3F768",
+					["fight_component"] = true,
+					["end_time"] = 1596192677,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 243062.013719,
+					["nome"] = "Frenzied Cottontail",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 17,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 350,
+								["targets"] = {
+									["Korugen"] = 11833,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 11833,
+								["a_amt"] = 64,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 87,
+								["DODGE"] = 3,
+								["total"] = 11833,
+								["c_max"] = 0,
+								["b_dmg"] = 2079,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["m_amt"] = 0,
+								["m_crit"] = 0,
+								["PARRY"] = 18,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_dmg"] = 11833,
+								["n_amt"] = 64,
+								["r_amt"] = 0,
+								["MISS"] = 2,
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["last_event"] = 0,
+					["total"] = 11833.013719,
+					["friendlyfire"] = {
+					},
+					["custom"] = 0,
+					["tipo"] = 1,
+					["on_hold"] = false,
+					["start_time"] = 1596192651,
+					["delay"] = 0,
+					["dps_started"] = false,
+				}, -- [46]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 2414.011022,
+					["damage_from"] = {
+						["Modar"] = true,
+						["Mngt-SteamwheedleCartel"] = true,
+						["Qrota"] = true,
+						["Korugen"] = true,
+					},
+					["targets"] = {
+						["Modar"] = 6555,
+						["Qrota"] = 5202,
+						["Korugen"] = 17930,
+					},
+					["pets"] = {
+					},
+					["monster"] = true,
+					["last_dps"] = 0,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 29687.011022,
+					["serial"] = "Creature-0-3102-1643-1282-129904-000023F772",
+					["fight_component"] = true,
+					["end_time"] = 1596192677,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 329800.0110220001,
+					["nome"] = "Cottontail Matron",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 6,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1394,
+								["targets"] = {
+									["Korugen"] = 16370,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 16370,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 31,
+								["a_amt"] = 21,
+								["r_amt"] = 0,
+								["c_max"] = 0,
+								["MISS"] = 1,
+								["extra"] = {
+								},
+								["r_dmg"] = 0,
+								["b_dmg"] = 2627,
+								["a_dmg"] = 16370,
+								["m_crit"] = 0,
+								["PARRY"] = 9,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["c_min"] = 0,
+								["n_amt"] = 21,
+								["id"] = 1,
+								["total"] = 16370,
+							}, -- [1]
+							[259328] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 3103,
+								["targets"] = {
+									["Modar"] = 6555,
+									["Qrota"] = 5202,
+									["Korugen"] = 1560,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 13317,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 17,
+								["total"] = 13317,
+								["c_max"] = 0,
+								["a_amt"] = 6,
+								["id"] = 259328,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["m_amt"] = 0,
+								["m_crit"] = 0,
+								["PARRY"] = 2,
+								["c_min"] = 0,
+								["successful_casted"] = 3,
+								["b_dmg"] = 0,
+								["n_amt"] = 15,
+								["a_dmg"] = 2217,
+								["r_amt"] = 0,
+							},
+							[259331] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 259331,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 3,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_event"] = 0,
+					["total"] = 29687.011022,
+					["friendlyfire"] = {
+					},
+					["custom"] = 0,
+					["tipo"] = 1,
+					["on_hold"] = false,
+					["start_time"] = 1596192629,
+					["delay"] = 0,
+					["dps_started"] = false,
+				}, -- [47]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.009823,
+					["damage_from"] = {
+						["Korugen"] = true,
+						["Sáiyon"] = true,
+					},
+					["targets"] = {
+						["Korugen"] = 11398,
+					},
+					["pets"] = {
+					},
+					["monster"] = true,
+					["last_dps"] = 0,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 11398.009823,
+					["serial"] = "Creature-0-3102-1643-1282-137715-000023F7CB",
+					["fight_component"] = true,
+					["end_time"] = 1596192723,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 79789.009823,
+					["nome"] = "Brittle Shardling",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 1,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2788,
+								["targets"] = {
+									["Korugen"] = 11398,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 11398,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 11398,
+								["c_max"] = 0,
+								["a_amt"] = 6,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["m_amt"] = 0,
+								["m_crit"] = 0,
+								["PARRY"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 994,
+								["n_amt"] = 6,
+								["a_dmg"] = 11398,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["last_event"] = 0,
+					["total"] = 11398.009823,
+					["friendlyfire"] = {
+					},
+					["custom"] = 0,
+					["tipo"] = 1,
+					["on_hold"] = false,
+					["start_time"] = 1596192712,
+					["delay"] = 0,
+					["dps_started"] = false,
+				}, -- [48]
 			},
 		}, -- [1]
 		{
@@ -23388,24 +24423,24 @@ _detalhes_database = {
 					},
 					["iniciar_hps"] = false,
 					["classe"] = "PALADIN",
-					["totalover"] = 0.03905400000000001,
-					["total_without_pet"] = 6929.039054,
-					["total"] = 6929.039054,
+					["totalover"] = 13868.055716,
+					["total_without_pet"] = 195265.055716,
+					["total"] = 195265.055716,
 					["targets_absorbs"] = {
-						["Korugen"] = 4123,
+						["Korugen"] = 1,
 					},
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
 					["isTank"] = true,
 					["serial"] = "Player-3391-0A827D5A",
-					["totalabsorb"] = 6929.039054,
+					["totalabsorb"] = 24003.055716,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Korugen"] = 4123,
+						["Korugen"] = 1,
 					},
-					["totalover_without_pet"] = 0.03905400000000001,
-					["healing_taken"] = 6929.039054,
+					["totalover_without_pet"] = 0.05571600000000002,
+					["healing_taken"] = 195265.055716,
 					["fight_component"] = true,
 					["end_time"] = 1594414100,
 					["boss_fight_component"] = true,
@@ -23415,98 +24450,98 @@ _detalhes_database = {
 						["_ActorTable"] = {
 							[203791] = {
 								["c_amt"] = 0,
-								["totalabsorb"] = 4968,
+								["totalabsorb"] = 18928,
 								["targets_overheal"] = {
 								},
-								["n_max"] = 232,
+								["n_max"] = 505,
 								["targets"] = {
-									["Korugen"] = 4968,
+									["Korugen"] = 18928,
 								},
 								["n_min"] = 0,
-								["counter"] = 69,
+								["counter"] = 282,
 								["overheal"] = 0,
-								["total"] = 4968,
+								["total"] = 18928,
 								["c_max"] = 0,
 								["id"] = 203791,
 								["targets_absorbs"] = {
-									["Korugen"] = 4968,
+									["Korugen"] = 18928,
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
-								["n_curado"] = 4968,
-								["n_amt"] = 69,
-								["m_healed"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 18928,
+								["n_amt"] = 282,
 								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 							[229976] = {
 								["c_amt"] = 0,
-								["totalabsorb"] = 1961,
+								["totalabsorb"] = 5075,
 								["targets_overheal"] = {
 								},
-								["n_max"] = 244,
+								["n_max"] = 538,
 								["targets"] = {
-									["Korugen"] = 1961,
+									["Korugen"] = 5075,
 								},
 								["n_min"] = 0,
-								["counter"] = 15,
+								["counter"] = 43,
 								["overheal"] = 0,
-								["total"] = 1961,
+								["total"] = 5075,
 								["c_max"] = 0,
 								["id"] = 229976,
 								["targets_absorbs"] = {
-									["Korugen"] = 1961,
+									["Korugen"] = 5075,
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
-								["n_curado"] = 1961,
-								["n_amt"] = 15,
-								["m_healed"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 5075,
+								["n_amt"] = 43,
 								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 							[213652] = {
-								["c_amt"] = 0,
+								["c_amt"] = 1,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["Korugen"] = 0,
+									["Korugen"] = 13868,
 								},
-								["n_max"] = 0,
+								["n_max"] = 39673,
 								["targets"] = {
-									["Korugen"] = 0,
+									["Korugen"] = 171262,
 								},
 								["n_min"] = 0,
-								["counter"] = 0,
-								["overheal"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
+								["counter"] = 4,
+								["overheal"] = 13868,
+								["total"] = 171262,
+								["c_max"] = 93784,
 								["id"] = 213652,
 								["targets_absorbs"] = {
 								},
-								["c_curado"] = 0,
+								["c_curado"] = 93784,
 								["m_crit"] = 0,
-								["m_healed"] = 0,
-								["c_min"] = 0,
 								["totaldenied"] = 0,
-								["n_amt"] = 0,
-								["n_curado"] = 0,
 								["m_amt"] = 0,
+								["m_healed"] = 0,
+								["n_amt"] = 3,
+								["n_curado"] = 77478,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["start_time"] = 1594413911,
+					["start_time"] = 1594413750,
 					["spec"] = 66,
 					["custom"] = 0,
-					["last_event"] = 0,
 					["tipo"] = 2,
-					["totaldenied"] = 0.03905400000000001,
+					["last_event"] = 0,
+					["totaldenied"] = 0.05571600000000002,
 					["delay"] = 0,
 					["targets_overheal"] = {
 						["Korugen"] = 0,
@@ -23526,12 +24561,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.005247,
 					["healing_from"] = {
 					},
-					["heal_enemy_amt"] = 0,
+					["classe"] = "UNGROUPPLAYER",
 					["totalover"] = 0.005247,
 					["total_without_pet"] = 0.005247,
 					["total"] = 0.005247,
 					["iniciar_hps"] = false,
-					["healing_taken"] = 0.005247,
+					["heal_enemy_amt"] = 0,
 					["end_time"] = 1594556439,
 					["serial"] = "Player-3391-0A7560F2",
 					["nome"] = "Bloodypaws",
@@ -23558,12 +24593,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["n_curado"] = 0,
 								["n_amt"] = 0,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 							[227034] = {
@@ -23586,19 +24621,19 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["n_curado"] = 0,
 								["n_amt"] = 0,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
 					["last_event"] = 0,
-					["classe"] = "UNGROUPPLAYER",
+					["healing_taken"] = 0.005247,
 					["heal_enemy"] = {
 					},
 					["targets_absorbs"] = {
@@ -23624,12 +24659,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.005019,
 					["healing_from"] = {
 					},
-					["heal_enemy_amt"] = 0,
+					["classe"] = "UNGROUPPLAYER",
 					["totalover"] = 0.005019,
 					["total_without_pet"] = 0.005019,
 					["total"] = 0.005019,
 					["iniciar_hps"] = false,
-					["healing_taken"] = 0.005019,
+					["heal_enemy_amt"] = 0,
 					["end_time"] = 1594556439,
 					["serial"] = "Player-3391-09FA2150",
 					["nome"] = "Ocd",
@@ -23656,19 +24691,19 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["n_curado"] = 0,
 								["n_amt"] = 0,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
 					["last_event"] = 0,
-					["classe"] = "UNGROUPPLAYER",
+					["healing_taken"] = 0.005019,
 					["heal_enemy"] = {
 					},
 					["targets_absorbs"] = {
@@ -23694,12 +24729,12 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.005609,
 					["healing_from"] = {
 					},
-					["heal_enemy_amt"] = 0,
+					["classe"] = "UNGROUPPLAYER",
 					["totalover"] = 0.005609,
 					["total_without_pet"] = 0.005609,
 					["total"] = 0.005609,
 					["iniciar_hps"] = false,
-					["healing_taken"] = 0.005609,
+					["heal_enemy_amt"] = 0,
 					["end_time"] = 1594556439,
 					["serial"] = "Player-3391-0A563FEE",
 					["nome"] = "Metsarogue",
@@ -23726,19 +24761,19 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["n_curado"] = 0,
 								["n_amt"] = 0,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
 					["last_event"] = 0,
-					["classe"] = "UNGROUPPLAYER",
+					["healing_taken"] = 0.005609,
 					["heal_enemy"] = {
 					},
 					["targets_absorbs"] = {
@@ -23765,11 +24800,11 @@ _detalhes_database = {
 					["debuff_uptime_spells"] = {
 						["_ActorTable"] = {
 							[204301] = {
-								["refreshamt"] = 21,
+								["refreshamt"] = 36,
 								["activedamt"] = 0,
-								["appliedamt"] = 21,
+								["appliedamt"] = 54,
 								["id"] = 204301,
-								["uptime"] = 71,
+								["uptime"] = 124,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -23777,19 +24812,19 @@ _detalhes_database = {
 							[31935] = {
 								["counter"] = 0,
 								["activedamt"] = 0,
-								["appliedamt"] = 10,
+								["appliedamt"] = 18,
 								["id"] = 31935,
-								["uptime"] = 23,
+								["uptime"] = 43,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["refreshamt"] = 1,
 							},
 							[204242] = {
 								["counter"] = 0,
 								["activedamt"] = 0,
-								["appliedamt"] = 19,
+								["appliedamt"] = 63,
 								["id"] = 204242,
-								["uptime"] = 129,
+								["uptime"] = 240,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
@@ -23797,9 +24832,9 @@ _detalhes_database = {
 							[62124] = {
 								["counter"] = 0,
 								["activedamt"] = 0,
-								["appliedamt"] = 4,
+								["appliedamt"] = 7,
 								["id"] = 62124,
-								["uptime"] = 12,
+								["uptime"] = 21,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
@@ -23807,7 +24842,12 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["buff_uptime"] = 1010,
+					["cooldowns_defensive"] = 1.011419,
+					["buff_uptime"] = 1757,
+					["cooldowns_defensive_targets"] = {
+						["Korugen"] = 1,
+					},
+					["spec"] = 66,
 					["classe"] = "PALADIN",
 					["interrupt_spells"] = {
 						["_ActorTable"] = {
@@ -23826,17 +24866,165 @@ _detalhes_database = {
 								["id"] = 96231,
 								["interrompeu_oque"] = {
 									[277199] = 1,
+									[256871] = 2,
 								},
 								["targets"] = {
 									["Skithis the Infused"] = 1,
+									["Emily Mayville"] = 2,
 								},
-								["counter"] = 1,
+								["counter"] = 3,
 							},
 						},
 						["tipo"] = 9,
 					},
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
+							[273935] = {
+								["counter"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 273935,
+								["uptime"] = 60,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[132403] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 31,
+								["appliedamt"] = 31,
+								["id"] = 132403,
+								["uptime"] = 232,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[225787] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 225787,
+								["uptime"] = 175,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[228128] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 228128,
+								["uptime"] = 52,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[186406] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 186406,
+								["uptime"] = 12,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[225788] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 225788,
+								["uptime"] = 59,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[335148] = {
+								["id"] = 335148,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[294027] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 11,
+								["appliedamt"] = 11,
+								["id"] = 294027,
+								["uptime"] = 145,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[231435] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 231435,
+								["uptime"] = 9,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[335150] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 335150,
+								["uptime"] = 59,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[31850] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 31850,
+								["uptime"] = 8,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[31884] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 11,
+								["appliedamt"] = 11,
+								["id"] = 31884,
+								["uptime"] = 148,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[197561] = {
+								["refreshamt"] = 4,
+								["activedamt"] = 30,
+								["appliedamt"] = 30,
+								["id"] = 197561,
+								["uptime"] = 138,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[186403] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 186403,
+								["uptime"] = 158,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[188370] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 52,
+								["appliedamt"] = 52,
+								["id"] = 188370,
+								["uptime"] = 332,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
 							[221887] = {
 								["id"] = 221887,
 								["targets"] = {
@@ -23853,176 +25041,72 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[197561] = {
-								["refreshamt"] = 1,
-								["activedamt"] = 16,
-								["appliedamt"] = 16,
-								["id"] = 197561,
-								["uptime"] = 65,
-								["targets"] = {
-								},
+							[328136] = {
 								["counter"] = 0,
-							},
-							[132403] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 16,
-								["appliedamt"] = 16,
-								["id"] = 132403,
-								["uptime"] = 126,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[188370] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 28,
-								["appliedamt"] = 28,
-								["id"] = 188370,
-								["uptime"] = 174,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[231435] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 231435,
-								["uptime"] = 9,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[228128] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 228128,
-								["uptime"] = 14,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[31884] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 6,
-								["appliedamt"] = 6,
-								["id"] = 31884,
-								["uptime"] = 75,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[294027] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 6,
-								["appliedamt"] = 6,
-								["id"] = 294027,
-								["uptime"] = 75,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[225788] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 4,
-								["appliedamt"] = 4,
-								["id"] = 225788,
-								["uptime"] = 59,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[335150] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 4,
-								["appliedamt"] = 4,
-								["id"] = 335150,
-								["uptime"] = 59,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[335148] = {
-								["id"] = 335148,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[186406] = {
-								["id"] = 186406,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[273935] = {
-								["counter"] = 0,
-								["activedamt"] = 6,
-								["appliedamt"] = 6,
-								["id"] = 273935,
-								["uptime"] = 60,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 328136,
+								["uptime"] = 23,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
-							},
-							[225787] = {
-								["id"] = 225787,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[186403] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 5,
-								["appliedamt"] = 5,
-								["id"] = 186403,
-								["uptime"] = 147,
-								["targets"] = {
-								},
-								["counter"] = 0,
 							},
 						},
 						["tipo"] = 9,
 					},
 					["interrompeu_oque"] = {
-						[277394] = 1,
 						[277199] = 1,
+						[256871] = 2,
+						[277394] = 1,
 					},
 					["fight_component"] = true,
-					["debuff_uptime"] = 235,
-					["spec"] = 66,
+					["debuff_uptime"] = 428,
+					["cooldowns_defensive_spells"] = {
+						["_ActorTable"] = {
+							[31850] = {
+								["id"] = 31850,
+								["targets"] = {
+									["Korugen"] = 1,
+								},
+								["counter"] = 1,
+							},
+						},
+						["tipo"] = 9,
+					},
 					["boss_fight_component"] = true,
-					["debuff_uptime_targets"] = {
+					["buff_uptime_targets"] = {
 					},
 					["interrupt_targets"] = {
+						["Emily Mayville"] = 2,
 						["Sister Hilga"] = 1,
 						["Skithis the Infused"] = 1,
 						["Dia Darkwhisper"] = 0,
 					},
 					["grupo"] = true,
 					["spell_cast"] = {
-						[213652] = 0,
-						[31935] = 16,
-						[26573] = 23,
-						[255647] = 5,
-						[275779] = 45,
-						[31884] = 6,
-						[96231] = 3,
+						[213652] = 4,
+						[31935] = 31,
+						[26573] = 45,
+						[255647] = 9,
+						[275779] = 87,
+						[31884] = 10,
+						[96231] = 6,
 						[273935] = 5,
 						[190784] = 0,
-						[53600] = 34,
-						[204019] = 22,
-						[62124] = 4,
+						[53600] = 62,
+						[31850] = 1,
+						[204019] = 37,
+						[62124] = 7,
 					},
-					["buff_uptime_targets"] = {
-					},
+					["last_event"] = 0,
 					["nome"] = "Korugen",
 					["tipo"] = 4,
-					["last_event"] = 0,
-					["pets"] = {
+					["interrupt"] = 4.011512,
+					["debuff_uptime_targets"] = {
 					},
 					["serial"] = "Player-3391-0A827D5A",
-					["interrupt"] = 2.005793,
+					["pets"] = {
+					},
 				}, -- [1]
 				{
 					["monster"] = true,
@@ -24032,9 +25116,9 @@ _detalhes_database = {
 						"Desecration <Archimonde>", -- [1]
 					},
 					["spell_cast"] = {
-						[185590] = 1,
-						[187107] = 2,
-						[182225] = 1,
+						[185590] = 3,
+						[187107] = 9,
+						[182225] = 4,
 					},
 					["flag_original"] = 68168,
 					["last_event"] = 0,
@@ -24044,18 +25128,18 @@ _detalhes_database = {
 				}, -- [2]
 				{
 					["flag_original"] = 2632,
-					["last_event"] = 0,
+					["monster"] = true,
 					["ownerName"] = "Archimonde",
 					["boss_fight_component"] = true,
+					["last_event"] = 0,
 					["pets"] = {
 					},
 					["nome"] = "Desecration <Archimonde>",
-					["monster"] = true,
 					["classe"] = "UNKNOW",
 					["spell_cast"] = {
-						[191068] = 1,
-						[183969] = 1,
-						[188950] = 1,
+						[191068] = 3,
+						[183969] = 3,
+						[188950] = 3,
 					},
 					["serial"] = "Vehicle-0-3892-1448-29845-92781-000008D40C",
 					["tipo"] = 4,
@@ -24067,7 +25151,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["spell_cast"] = {
-						[188614] = 1,
+						[188614] = 3,
 					},
 					["flag_original"] = 2632,
 					["last_event"] = 0,
@@ -24077,12 +25161,12 @@ _detalhes_database = {
 				}, -- [4]
 				{
 					["flag_original"] = 2584,
-					["nome"] = "Exarch Yrel",
 					["tipo"] = 4,
+					["nome"] = "Exarch Yrel",
 					["pets"] = {
 					},
 					["spell_cast"] = {
-						[183962] = 1,
+						[183962] = 4,
 					},
 					["classe"] = "UNKNOW",
 					["last_event"] = 0,
@@ -24410,7 +25494,7 @@ _detalhes_database = {
 					["boss_fight_component"] = true,
 					["serial"] = "Creature-0-1467-1448-6817-93615-00006601BE",
 					["spell_cast"] = {
-						[186662] = 0,
+						[186662] = 1,
 					},
 				}, -- [23]
 				{
@@ -24458,8 +25542,9 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["serial"] = "Creature-0-3774-1643-29669-137708-00000A27DC",
 					["spell_cast"] = {
-						[257659] = 1,
-						[257657] = 1,
+						[257659] = 2,
+						[257657] = 2,
+						[270871] = 1,
 					},
 				}, -- [26]
 				{
@@ -24557,6 +25642,56 @@ _detalhes_database = {
 					["serial"] = "Creature-0-3773-1642-15561-134745-000018D251",
 					["classe"] = "UNKNOW",
 				}, -- [32]
+				{
+					["monster"] = true,
+					["tipo"] = 4,
+					["nome"] = "Emily Mayville",
+					["pets"] = {
+					},
+					["spell_cast"] = {
+						[270157] = 4,
+						[270158] = 6,
+						[256871] = 2,
+					},
+					["flag_original"] = 68168,
+					["last_event"] = 0,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-3102-1643-1282-129995-000023F6D5",
+					["classe"] = "UNKNOW",
+				}, -- [33]
+				{
+					["monster"] = true,
+					["tipo"] = 4,
+					["nome"] = "Cursed Game-hawk",
+					["pets"] = {
+					},
+					["spell_cast"] = {
+						[256498] = 2,
+						[256499] = 3,
+						[269800] = 1,
+					},
+					["flag_original"] = 68168,
+					["last_event"] = 0,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-3102-1643-1282-122961-000023F6F7",
+					["classe"] = "UNKNOW",
+				}, -- [34]
+				{
+					["monster"] = true,
+					["tipo"] = 4,
+					["nome"] = "Cottontail Matron",
+					["pets"] = {
+					},
+					["spell_cast"] = {
+						[259328] = 3,
+						[259331] = 3,
+					},
+					["flag_original"] = 68168,
+					["last_event"] = 0,
+					["fight_component"] = true,
+					["serial"] = "Creature-0-3102-1643-1282-129904-000023F772",
+					["classe"] = "UNKNOW",
+				}, -- [35]
 			},
 		}, -- [4]
 		{
@@ -24575,21 +25710,21 @@ _detalhes_database = {
 		},
 		["combat_counter"] = 484,
 		["totals"] = {
-			8380427.204417996, -- [1]
-			151647.092901, -- [2]
+			21423757.26878, -- [1]
+			339983.0772690001, -- [2]
 			{
-				0, -- [1]
-				[0] = 0.030736,
+				-0.004448, -- [1]
+				[0] = 0.017602,
 				["alternatepower"] = 0,
-				[3] = -0.004598999999984699,
+				[3] = -0.01838399999999041,
 				[6] = 154.011049,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["cooldowns_defensive"] = 0,
+				["cooldowns_defensive"] = 1.007725,
 				["dispell"] = 0,
-				["interrupt"] = 2.005793,
+				["interrupt"] = 4.011512,
 				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
@@ -24605,13 +25740,13 @@ _detalhes_database = {
 		["__call"] = {
 		},
 		["data_inicio"] = "22:48:06",
-		["end_time"] = 61556.768,
+		["end_time"] = 5056.266000000001,
 		["cleu_events"] = {
 			["n"] = 1,
 		},
 		["totals_grupo"] = {
-			5040701.037523, -- [1]
-			6929.033846, -- [2]
+			17834961.071349, -- [1]
+			195265.050508, -- [2]
 			{
 				0, -- [1]
 				[0] = 0,
@@ -24622,9 +25757,9 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["cooldowns_defensive"] = 0,
+				["cooldowns_defensive"] = 1.007725,
 				["dispell"] = 0,
-				["interrupt"] = 2.005793,
+				["interrupt"] = 4.011512,
 				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
@@ -24636,61 +25771,97 @@ _detalhes_database = {
 		["hasSaved"] = true,
 		["segments_added"] = {
 			{
+				["elapsed"] = 11.75,
+				["type"] = 8,
+				["name"] = "Archimonde",
+				["clock"] = "13:56:44",
+			}, -- [1]
+			{
+				["elapsed"] = 11.55099999999948,
+				["type"] = 8,
+				["name"] = "Archimonde",
+				["clock"] = "22:15:01",
+			}, -- [2]
+			{
+				["elapsed"] = 14.15899999999965,
+				["type"] = 8,
+				["name"] = "Archimonde",
+				["clock"] = "12:55:31",
+			}, -- [3]
+			{
+				["elapsed"] = 24.08200000000034,
+				["type"] = 0,
+				["name"] = "Stone Golem",
+				["clock"] = "12:51:39",
+			}, -- [4]
+			{
+				["elapsed"] = 60.83300000000054,
+				["type"] = 0,
+				["name"] = "Cursed Game-hawk",
+				["clock"] = "12:50:16",
+			}, -- [5]
+			{
+				["elapsed"] = 74.55999999999949,
+				["type"] = 0,
+				["name"] = "Emily Mayville",
+				["clock"] = "12:48:17",
+			}, -- [6]
+			{
 				["elapsed"] = 14.06700000000274,
 				["type"] = 0,
 				["name"] = "Skycarver Krakit",
 				["clock"] = "01:57:38",
-			}, -- [1]
+			}, -- [7]
 			{
 				["elapsed"] = 51.12199999999575,
 				["type"] = 0,
 				["name"] = "Enraged Krolusk",
 				["clock"] = "01:55:19",
-			}, -- [2]
+			}, -- [8]
 			{
 				["elapsed"] = 9.16700000000128,
 				["type"] = 0,
 				["name"] = "Bonepicker Scavenger",
 				["clock"] = "01:54:38",
-			}, -- [3]
+			}, -- [9]
 			{
 				["elapsed"] = 37.05400000000373,
 				["type"] = 0,
 				["name"] = "Skithis the Infused",
 				["clock"] = "01:53:33",
-			}, -- [4]
+			}, -- [10]
 			{
 				["elapsed"] = 36.56600000000617,
 				["type"] = 0,
 				["name"] = "Zanxib",
 				["clock"] = "01:51:43",
-			}, -- [5]
+			}, -- [11]
 			{
 				["elapsed"] = 21.81399999999849,
 				["type"] = 0,
 				["name"] = "Matron Morana",
 				["clock"] = "23:02:04",
-			}, -- [6]
+			}, -- [12]
 			{
 				["elapsed"] = 9.650999999998021,
 				["type"] = 0,
 				["name"] = "Sister Hilga",
 				["clock"] = "22:59:59",
-			}, -- [7]
+			}, -- [13]
 			{
 				["elapsed"] = 14.58100000000559,
 				["type"] = 0,
 				["name"] = "Stone Golem",
 				["clock"] = "22:58:08",
-			}, -- [8]
+			}, -- [14]
 			{
 				["elapsed"] = 14.04999999999563,
 				["type"] = 8,
 				["name"] = "Archimonde",
 				["clock"] = "22:48:06",
-			}, -- [9]
+			}, -- [15]
 		},
-		["data_fim"] = "01:57:52",
+		["data_fim"] = "13:56:56",
 		["overall_enemy_name"] = "-- x -- x --",
 		["CombatSkillCache"] = {
 		},
@@ -24708,7 +25879,7 @@ _detalhes_database = {
 			["damage"] = {
 			},
 		},
-		["start_time"] = 61348.696,
+		["start_time"] = 4651.25900000001,
 		["TimeData"] = {
 			["Player Damage Done"] = {
 			},
@@ -24743,6 +25914,6 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-3391-0A578F46"] = 254,
+		["Player-3391-0A827D5A"] = 66,
 	},
 }

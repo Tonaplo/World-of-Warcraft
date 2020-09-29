@@ -13,9 +13,9 @@ ConditionerAddOn_SavedVariables = {
 			["x"] = 731.2558822631836,
 		},
 		["NumTrackedFrames"] = 5,
-		["ShowTargetCastBar"] = true,
-		["OnlyDisplayInCombat"] = true,
 		["TrackedFrameSize"] = 100,
+		["OnlyDisplayInCombat"] = true,
+		["ShowTargetCastBar"] = true,
 	},
 	["TalentsPerLoadout"] = {
 	},

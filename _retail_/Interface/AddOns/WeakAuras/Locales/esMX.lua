@@ -570,7 +570,8 @@ L["Grid"] = "Grid"
 --[[Translation missing --]]
 L["Grobbulus"] = "Grobbulus"
 L["Group"] = "Grupo"
-L["Group %s"] = "Grupo %s "
+--[[Translation missing --]]
+L["Group %s"] = "Group %s"
 --[[Translation missing --]]
 L["Group Arrangement"] = "Group Arrangement"
 L["Grow"] = "Crecer"
@@ -980,7 +981,8 @@ L["Power Type"] = "Tipo de poder"
 --[[Translation missing --]]
 L["Precision"] = "Precision"
 L["Preset"] = "Predefinido"
-L["Press Ctrl+C to copy"] = "Presionar Ctrl+C para copiar"
+--[[Translation missing --]]
+L["Press Ctrl+C to copy"] = "Press Ctrl+C to copy"
 --[[Translation missing --]]
 L["Princess Huhuran"] = "Princess Huhuran"
 --[[Translation missing --]]

@@ -11,12 +11,12 @@ ConditionerAddOn_SavedVariables = {
 		["AnchorDirection"] = 0,
 		["OnlyDisplayInCombat"] = true,
 		["TrackedFrameSize"] = 100,
-		["ShowTargetCastBar"] = true,
+		["NumTrackedFrames"] = 5,
 		["TrackedFrameAnchorCoords"] = {
 			["y"] = 543.7691879272461,
 			["x"] = 736.2558822631836,
 		},
-		["NumTrackedFrames"] = 5,
+		["ShowTargetCastBar"] = true,
 	},
 	["TalentsPerLoadout"] = {
 		[31] = "3122000",

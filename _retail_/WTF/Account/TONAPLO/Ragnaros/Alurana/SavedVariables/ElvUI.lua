@@ -335,5 +335,49 @@ ElvCharacterDB = {
 			[51] = 1582841175,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [15]
+		{
+			"> Hydra < WTS Glory|cffffff00|Hachievement:10149:Player-1084-08DF3EF0:1:4:20:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Hellfire Raider]|h|rMount |cff71d5ff|Hspell:186305:0|h[Infernal Direwolf]|h|r Going 15:00 Realm Time For 40K/W", -- [1]
+			"Ashidenn-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ashidenn-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			71, -- [11]
+			"Player-3682-09016D41", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cAshidenn|r",
+			[51] = 1599649831,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [16]
+		{
+			"Selling Mythic+15 for only 100k GOLD FREE ARMOR STACK, HC Nyalotha for 150k with +70k for Personal Trader, Jaina Mount for only 400k, Nyalotha Mythic starting with 1.8m and Keystone Master for only 1000k CHEAPEST Price - whisp for more", -- [1]
+			"Wardia-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Wardia-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			72, -- [11]
+			"Player-3682-08AB5A61", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecWardia|r",
+			[51] = 1599649831,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [17]
 	},
 }

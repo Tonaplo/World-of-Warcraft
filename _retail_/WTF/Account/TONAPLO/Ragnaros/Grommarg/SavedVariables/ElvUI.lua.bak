@@ -24,644 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"Hello", -- [1]
-			"Grommarg-Ragnaros", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Grommarg-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			151, -- [11]
-			"Player-3682-09B137D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cGrommarg|r",
-			[51] = 1587114402,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [1]
-		{
-			"heya", -- [1]
-			"Ossiossi-TarrenMill", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ossiossi-TarrenMill", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			153, -- [11]
-			"Player-1084-09751B61", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
-			[51] = 1587114422,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [2]
-		{
-			"Hello! :)", -- [1]
-			"Grommarg-Ragnaros", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Grommarg-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			154, -- [11]
-			"Player-3682-09B137D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cGrommarg|r",
-			[51] = 1587114426,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [3]
-		{
-			"hi", -- [1]
-			"Dkaquita-Sanguino", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dkaquita-Sanguino", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			155, -- [11]
-			"Player-1379-09448A0B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Dkaquita-Sanguino|r",
-			[51] = 1587114427,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [4]
-		{
-			"hi", -- [1]
-			"Хобартдрек-Голдринн", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Хобартдрек-Голдринн", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			156, -- [11]
-			"Player-1928-09D18809", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Хобартдрек-Голдринн|r",
-			[51] = 1587114436,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [5]
-		{
-			"hi ", -- [1]
-			"Êgô-Ysondre", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Êgô-Ysondre", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			159, -- [11]
-			"Player-1335-06D70CA6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeÊgô-Ysondre|r",
-			[51] = 1587114457,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [6]
-		{
-			"Yay full group", -- [1]
-			"Grommarg-Ragnaros", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Grommarg-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			160, -- [11]
-			"Player-3682-09B137D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cGrommarg|r",
-			[51] = 1587114459,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [7]
-		{
-			"Fixate on Grommarg", -- [1]
-			"Grommarg-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Grommarg-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			171, -- [11]
-			"Player-3682-09B137D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cGrommarg|r",
-			[51] = 1587114785,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"Interrupted Médico brujo Sombralóbrega's |cff71d5ff|Hspell:269973:0|h[Escalofrío sepulcral]|h|r!", -- [1]
-			"Dkaquita-Sanguino", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Dkaquita-Sanguino", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			174, -- [11]
-			"Player-1379-09448A0B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Dkaquita-Sanguino|r",
-			[51] = 1587114887,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
-		{
-			"Spit Gold on Ossiossi", -- [1]
-			"Ossiossi-TarrenMill", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Ossiossi-TarrenMill", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			179, -- [11]
-			"Player-1084-09751B61", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
-			[51] = 1587114940,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
-		{
-			"3", -- [1]
-			"Ossiossi-TarrenMill", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Ossiossi-TarrenMill", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			180, -- [11]
-			"Player-1084-09751B61", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
-			[51] = 1587114946,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
-		{
-			"2", -- [1]
-			"Ossiossi-TarrenMill", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Ossiossi-TarrenMill", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			181, -- [11]
-			"Player-1084-09751B61", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
-			[51] = 1587114947,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
-		{
-			"1", -- [1]
-			"Ossiossi-TarrenMill", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Ossiossi-TarrenMill", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			186, -- [11]
-			"Player-1084-09751B61", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
-			[51] = 1587114970,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
-		{
-			"Spit Gold on Ossiossi", -- [1]
-			"Ossiossi-TarrenMill", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Ossiossi-TarrenMill", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			191, -- [11]
-			"Player-1084-09751B61", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
-			[51] = 1587115007,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
-		{
-			"Spit Gold on Grommarg", -- [1]
-			"Grommarg-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Grommarg-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			192, -- [11]
-			"Player-3682-09B137D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cGrommarg|r",
-			[51] = 1587115021,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
-		{
-			"3", -- [1]
-			"Grommarg-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Grommarg-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			193, -- [11]
-			"Player-3682-09B137D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cGrommarg|r",
-			[51] = 1587115027,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
-		{
-			"2", -- [1]
-			"Grommarg-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Grommarg-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			194, -- [11]
-			"Player-3682-09B137D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cGrommarg|r",
-			[51] = 1587115028,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
-		{
-			"1", -- [1]
-			"Grommarg-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Grommarg-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			195, -- [11]
-			"Player-3682-09B137D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cGrommarg|r",
-			[51] = 1587115029,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
-		{
-			"is arms fun", -- [1]
-			"Ossiossi-TarrenMill", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ossiossi-TarrenMill", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			212, -- [11]
-			"Player-1084-09751B61", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
-			[51] = 1587115158,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [19]
-		{
-			"I think it is more fun than Fury", -- [1]
-			"Grommarg-Ragnaros", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Grommarg-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			214, -- [11]
-			"Player-3682-09B137D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cGrommarg|r",
-			[51] = 1587115207,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [20]
-		{
-			"gotta try", -- [1]
-			"Ossiossi-TarrenMill", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ossiossi-TarrenMill", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			215, -- [11]
-			"Player-1084-09751B61", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
-			[51] = 1587115212,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [21]
-		{
-			"Interrupted Reina Wasi's |cff71d5ff|Hspell:270923:0|h[Descarga de las Sombras]|h|r!", -- [1]
-			"Dkaquita-Sanguino", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Dkaquita-Sanguino", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			216, -- [11]
-			"Player-1379-09448A0B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Dkaquita-Sanguino|r",
-			[51] = 1587115216,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [22]
-		{
-			"Bladestorm on Grommarg", -- [1]
-			"Grommarg-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Grommarg-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			217, -- [11]
-			"Player-3682-09B137D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cGrommarg|r",
-			[51] = 1587115226,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [23]
-		{
-			"Bladestorm on Grommarg", -- [1]
-			"Grommarg-Ragnaros", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Grommarg-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			218, -- [11]
-			"Player-3682-09B137D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cGrommarg|r",
-			[51] = 1587115250,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [24]
-		{
-			"Entomb on Ossiossi", -- [1]
-			"Ossiossi-TarrenMill", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Ossiossi-TarrenMill", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			223, -- [11]
-			"Player-1084-09751B61", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
-			[51] = 1587115340,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [25]
-		{
-			"sorry!", -- [1]
-			"Grommarg-Ragnaros", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Grommarg-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			236, -- [11]
-			"Player-3682-09B137D6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cGrommarg|r",
-			[51] = 1587115459,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [26]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:13017:Player-3682-09B608EA:1:4:17:20:4294967295:4294967295:4294967295:4294967295|h[Champion of the Vulpera]|h|r!", -- [1]
-			"Opbob-Ragnaros", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Opbob-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			242, -- [11]
-			"Player-3682-09B608EA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Opbob|r",
-			[51] = 1587115506,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [27]
-		{
-			"Hunting Leap on Ossiossi", -- [1]
-			"Ossiossi-TarrenMill", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Ossiossi-TarrenMill", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			252, -- [11]
-			"Player-1084-09751B61", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
-			[51] = 1587115576,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
-		{
-			"Poison Barrage on Ossiossi", -- [1]
-			"Ossiossi-TarrenMill", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Ossiossi-TarrenMill", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			254, -- [11]
-			"Player-1084-09751B61", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
-			[51] = 1587115584,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
-		{
 			"3", -- [1]
 			"Ossiossi-TarrenMill", -- [2]
 			"Orcish", -- [3]
@@ -682,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
 			[51] = 1587115585,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
+		}, -- [1]
 		{
 			"2", -- [1]
 			"Ossiossi-TarrenMill", -- [2]
@@ -704,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
 			[51] = 1587115586,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
+		}, -- [2]
 		{
 			"1", -- [1]
 			"Ossiossi-TarrenMill", -- [2]
@@ -726,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
 			[51] = 1587115587,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
+		}, -- [3]
 		{
 			"Nicely done", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -748,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587115660,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [33]
+		}, -- [4]
 		{
 			"oom", -- [1]
 			"Êgô-Ysondre", -- [2]
@@ -770,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeÊgô-Ysondre|r",
 			[51] = 1587115660,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [34]
+		}, -- [5]
 		{
 			"good revcovery", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -792,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587115663,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [35]
+		}, -- [6]
 		{
 			"stop tank", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -814,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587115695,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [36]
+		}, -- [7]
 		{
 			"heals need mana", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -836,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587115697,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [37]
+		}, -- [8]
 		{
 			"cant regen bruh ", -- [1]
 			"Êgô-Ysondre", -- [2]
@@ -858,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeÊgô-Ysondre|r",
 			[51] = 1587115707,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [38]
+		}, -- [9]
 		{
 			"forgot", -- [1]
 			"Êgô-Ysondre", -- [2]
@@ -880,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeÊgô-Ysondre|r",
 			[51] = 1587115709,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [39]
+		}, -- [10]
 		{
 			"no food?", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -902,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587115717,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [40]
+		}, -- [11]
 		{
 			"Poison Barrage on Grommarg", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -924,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587115729,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
+		}, -- [12]
 		{
 			"Barrage on ME!", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -946,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587115730,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [13]
 		{
 			"no ", -- [1]
 			"Êgô-Ysondre", -- [2]
@@ -968,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeÊgô-Ysondre|r",
 			[51] = 1587115753,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [43]
+		}, -- [14]
 		{
 			"Interrupted Zanazal el Sabio's |cff71d5ff|Hspell:267308:0|h[Descarga de relámpagos]|h|r!", -- [1]
 			"Dkaquita-Sanguino", -- [2]
@@ -990,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dkaquita-Sanguino|r",
 			[51] = 1587115891,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [15]
 		{
 			"Interrupted Zanazal el Sabio's |cff71d5ff|Hspell:267273:0|h[Nova de veneno]|h|r!", -- [1]
 			"Dkaquita-Sanguino", -- [2]
@@ -1012,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dkaquita-Sanguino|r",
 			[51] = 1587115907,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
+		}, -- [16]
 		{
 			"need? ", -- [1]
 			"Êgô-Ysondre", -- [2]
@@ -1034,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeÊgô-Ysondre|r",
 			[51] = 1587116011,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [46]
+		}, -- [17]
 		{
 			"need cloack really?", -- [1]
 			"Dkaquita-Sanguino", -- [2]
@@ -1056,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dkaquita-Sanguino|r",
 			[51] = 1587116025,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [47]
+		}, -- [18]
 		{
 			"You should go get the leggo", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -1078,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587116033,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [19]
 		{
 			"Dark Revelation on Grommarg", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -1100,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587116062,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [20]
 		{
 			"3", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -1122,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587116069,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
+		}, -- [21]
 		{
 			"2", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -1144,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587116070,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [22]
 		{
 			"1", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -1166,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587116070,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [23]
 		{
 			"ye", -- [1]
 			"Êgô-Ysondre", -- [2]
@@ -1188,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeÊgô-Ysondre|r",
 			[51] = 1587116096,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [53]
+		}, -- [24]
 		{
 			"get |cffff8000|Hitem:169223::::::::120:250::11:1:6272:::|h[Ashjra'kamas, Velo de Resolución]|h|r pls", -- [1]
 			"Dkaquita-Sanguino", -- [2]
@@ -1210,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dkaquita-Sanguino|r",
 			[51] = 1587116109,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [54]
+		}, -- [25]
 		{
 			"oh yea ", -- [1]
 			"Êgô-Ysondre", -- [2]
@@ -1232,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeÊgô-Ysondre|r",
 			[51] = 1587116112,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [55]
+		}, -- [26]
 		{
 			"forgot lol ", -- [1]
 			"Êgô-Ysondre", -- [2]
@@ -1254,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeÊgô-Ysondre|r",
 			[51] = 1587116122,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [56]
+		}, -- [27]
 		{
 			"Quaking Leap on Grommarg", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -1276,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587116126,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [28]
 		{
 			"Hunting Leap on Ossiossi", -- [1]
 			"Ossiossi-TarrenMill", -- [2]
@@ -1298,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
 			[51] = 1587116164,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [29]
 		{
 			"Quaking Leap on Ossiossi", -- [1]
 			"Ossiossi-TarrenMill", -- [2]
@@ -1320,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
 			[51] = 1587116189,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [30]
 		{
 			"oh", -- [1]
 			"Ossiossi-TarrenMill", -- [2]
@@ -1342,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
 			[51] = 1587116215,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [60]
+		}, -- [31]
 		{
 			"Mana: 12%", -- [1]
 			"Êgô-Ysondre", -- [2]
@@ -1364,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeÊgô-Ysondre|r",
 			[51] = 1587116232,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [32]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12848:Player-3682-09B137D6:1:4:17:20:4294967295:4294967295:4294967295:4294967295|h[Kings' Rest]|h|r!", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -1386,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587116236,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [62]
+		}, -- [33]
 		{
 			"need head war?", -- [1]
 			"Dkaquita-Sanguino", -- [2]
@@ -1408,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dkaquita-Sanguino|r",
 			[51] = 1587116263,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [63]
+		}, -- [34]
 		{
 			"Yup :)", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -1430,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587116273,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [64]
+		}, -- [35]
 		{
 			"I do", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -1452,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587116274,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [65]
+		}, -- [36]
 		{
 			"oki", -- [1]
 			"Dkaquita-Sanguino", -- [2]
@@ -1474,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dkaquita-Sanguino|r",
 			[51] = 1587116277,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [66]
+		}, -- [37]
 		{
 			"gl bb", -- [1]
 			"Dkaquita-Sanguino", -- [2]
@@ -1496,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dkaquita-Sanguino|r",
 			[51] = 1587116283,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [67]
+		}, -- [38]
 		{
 			"BB", -- [1]
 			"Хобартдрек-Голдринн", -- [2]
@@ -1518,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Хобартдрек-Голдринн|r",
 			[51] = 1587116287,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [68]
+		}, -- [39]
 		{
 			"tyty", -- [1]
 			"Ossiossi-TarrenMill", -- [2]
@@ -1540,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOssiossi-TarrenMill|r",
 			[51] = 1587116288,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [69]
+		}, -- [40]
 		{
 			"Cheers!", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -1562,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587116301,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [70]
+		}, -- [41]
 		{
 			">HOT DEAL 250k|cffffff00|Hachievement:14068:Player-1305-0A160861:1:1:31:20:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r & |cff66bbff|Hjournal:1:2366:15|h[Carapace of N'Zoth]|h|r < GALLYWIX COMMUNITY!", -- [1]
 			"Nimabiibe-Ragnaros", -- [2]
@@ -1584,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Nimabiibe|r",
 			[51] = 1587116326,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [42]
 		{
 			"The Gallywix Community || WTS The Eternal Palace HEROIC & MYTHIC || Mythic+ 10-21 || Ahead of the Curve N'Zoth + Carapace every hour || Jaina Mount runs || Azshara Font runs || Visions || PvP || Transmog runs || Glory of the Ny'alotha Raider", -- [1]
 			"Woomdz-Ragnaros", -- [2]
@@ -1606,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWoomdz|r",
 			[51] = 1587116333,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [43]
 		{
 			"Gallywix WTS |cffffff00|Hachievement:14145:Player-3682-09BDECD0:0:0:0:-1:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|r |cffffff00|Hachievement:14068:Player-3682-09BDECD0:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r+Carapace |cffffff00|Hachievement:14069:Player-3682-09BDECD0:0:0:0:-1:0:0:0:0|h[Cutting Edge: N'Zoth the Corruptor]|h|r12/12 HC & Mythic by top 10 guilds VIP spots  M+ lvl 10-23 5k Raider IO || Visions/PVP/Jaina/Azshara ", -- [1]
 			"Kizagallypro-Ragnaros", -- [2]
@@ -1628,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKizagallypro|r",
 			[51] = 1587116333,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [44]
 		{
 			"HOT DEAL TODAY! WTS Freehold leveling BOOST! 5.000/LEVEL , 110-120 under AN HOUR!!", -- [1]
 			"Yamborghiní-Ragnaros", -- [2]
@@ -1650,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Yamborghiní|r",
 			[51] = 1587116339,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [45]
 		{
 			"<Twilight Community>  Ny'alotha 12/12  Heroic personal loot 400k, Shared loot 550k, tonight @ 8pm  VIP SPOTS STARTING from 800k, Cara & N'Zoth 230k, +10 for 108k || +15 for 250k  /w for more info!", -- [1]
 			"Lambritsche-Ragnaros", -- [2]
@@ -1672,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Lambritsche|r",
 			[51] = 1587116347,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [46]
 		{
 			"The Gallywix Community || WTS >>|cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r << 12/12HC || Going  19:00  &  21:00 ST || VIP SLOTS || M+10-23 || Visions 5 Masks || 12/12 Myth || Best Quality for the Best Prices || Only gold", -- [1]
 			"Nimabiibe-Ragnaros", -- [2]
@@ -1694,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Nimabiibe|r",
 			[51] = 1587116361,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [47]
 		{
 			"WTS |cffa335ee|Hitem:175009::::::::120:63::6:8:4824:1808:6578:6579:6548:6515:1517:4786:::|h[Zealous Ritualist's Reverie]|h|r", -- [1]
 			"Feeltheurge-Ragnaros", -- [2]
@@ -1716,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Feeltheurge|r",
 			[51] = 1587116364,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [48]
 		{
 			"> WM Community < WTS Achiev|cffffff00|Hachievement:12806:Player-1084-08DF3EF0:1:5:21:19:4294967295:4294967295:4294967295:4294967295|h[Glory of the Uldir Raider]|h|r Mount |cff71d5ff|Hspell:250735:0|h[Bloodgorged Crawg]|h|r Going 20:00 Realm Time /W ME", -- [1]
 			"Ashidenn-Ragnaros", -- [2]
@@ -1738,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAshidenn|r",
 			[51] = 1587116379,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [49]
 		{
 			"WTS 0-9 MYTH+ SPAM(10-40k GOLD)! Leather armor stacks/Rio boost/weekly chest! /w me for more info! ", -- [1]
 			"Yamborghiní-Ragnaros", -- [2]
@@ -1760,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Yamborghiní|r",
 			[51] = 1587116379,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [50]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13056:Player-3682-09B137D6:1:4:17:20:4294967295:4294967295:4294967295:4294967295|h[Giving a Scrap]|h|r!", -- [1]
 			"Grommarg-Ragnaros", -- [2]
@@ -1782,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrommarg|r",
 			[51] = 1587116381,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [51]
 		{
 			"The Gallywix Community || WTS The Eternal Palace HEROIC & MYTHIC || Mythic+ 10-21 || Ahead of the Curve N'Zoth + Carapace every hour || Jaina Mount runs || Azshara Font runs || Visions || PvP || Transmog runs || Glory of the Ny'alotha Raider", -- [1]
 			"Woomdz-Ragnaros", -- [2]
@@ -1804,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWoomdz|r",
 			[51] = 1587116394,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [52]
 		{
 			"WTS |cff0070dd|Hitem:9424::::::::18:259:::1:4065:::|h[Ginn-Su Sword]|h|r for 180k, |cff0070dd|Hitem:9422::::::::18:259:512:1:1:4065:60:::|h[Shadowforge Bushmaster]|h|r for 130k, both below AH price!", -- [1]
 			"Gnarlak-Ragnaros", -- [2]
@@ -1826,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gnarlak|r",
 			[51] = 1587116398,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [53]
 		{
 			">>M+15 330K<< +FREE ARMOR STACK  || Gallywix Community || |cffffff00|Hachievement:14145:Player-1305-0A160861:1:1:31:20:4294967295:4294967295:4294967295:4294967295|h[Battle for Azeroth Keystone Master: Season Four]|h|r  20% DISCOUNT  Package Deals!", -- [1]
 			"Nimabiibe-Ragnaros", -- [2]
@@ -1848,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Nimabiibe|r",
 			[51] = 1587116399,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [54]
 		{
 			"Gallywix WTS |cffffff00|Hachievement:14145:Player-3682-09BDECD0:0:0:0:-1:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|r |cffffff00|Hachievement:14068:Player-3682-09BDECD0:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r+Carapace |cffffff00|Hachievement:14069:Player-3682-09BDECD0:0:0:0:-1:0:0:0:0|h[Cutting Edge: N'Zoth the Corruptor]|h|r12/12 HC & Mythic by top 10 guilds VIP spots  M+ lvl 10-23 5k Raider IO || Visions/PVP/Jaina/Azshara ", -- [1]
 			"Kizagallypro-Ragnaros", -- [2]
@@ -1870,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKizagallypro|r",
 			[51] = 1587116415,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [55]
 		{
 			"HOT DEAL TODAY! WTS Freehold leveling BOOST! 5.000/LEVEL , 110-120 under AN HOUR!!", -- [1]
 			"Yamborghiní-Ragnaros", -- [2]
@@ -1892,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Yamborghiní|r",
 			[51] = 1587116419,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [56]
 		{
 			">HOT DEAL 250k|cffffff00|Hachievement:14068:Player-1305-0A160861:1:1:31:20:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r & |cff66bbff|Hjournal:1:2366:15|h[Carapace of N'Zoth]|h|r < GALLYWIX COMMUNITY!", -- [1]
 			"Nimabiibe-Ragnaros", -- [2]
@@ -1914,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Nimabiibe|r",
 			[51] = 1587116429,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [57]
 		{
 			"<Twilight Community>  Ny'alotha 12/12  Heroic personal loot 400k, Shared loot 550k, tonight @ 8pm  VIP SPOTS STARTING from 800k, Cara & N'Zoth 230k, +10 for 108k || +15 for 250k  /w for more info!", -- [1]
 			"Lambritsche-Ragnaros", -- [2]
@@ -1936,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Lambritsche|r",
 			[51] = 1587116437,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [58]
 		{
 			"<Ex Oblivione> [5/12M] are looking for more active and social members for it's dark humoured and politically incorrect community. Interested in another Healer (Monk) and DPS for our raid team (Wed/Sun 2030-2300). Whisper for more info", -- [1]
 			"Sládé-Ragnaros", -- [2]
@@ -1958,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sládé|r",
 			[51] = 1587116452,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [59]
 		{
 			"The Gallywix Community || WTS >>|cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r << 12/12HC || Going  19:00  &  21:00 ST || VIP SLOTS || M+10-23 || Visions 5 Masks || 12/12 Myth || Best Quality for the Best Prices || Only gold", -- [1]
 			"Nimabiibe-Ragnaros", -- [2]
@@ -1980,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Nimabiibe|r",
 			[51] = 1587116463,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [60]
 		{
 			"The Gallywix Community || WTS The Eternal Palace HEROIC & MYTHIC || Mythic+ 10-21 || Ahead of the Curve N'Zoth + Carapace every hour || Jaina Mount runs || Azshara Font runs || Visions || PvP || Transmog runs || Glory of the Ny'alotha Raider", -- [1]
 			"Woomdz-Ragnaros", -- [2]
@@ -2002,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWoomdz|r",
 			[51] = 1587116464,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [61]
 		{
 			"> WM Community < WTS Achiev|cffffff00|Hachievement:12806:Player-1084-08DF3EF0:1:5:21:19:4294967295:4294967295:4294967295:4294967295|h[Glory of the Uldir Raider]|h|r Mount |cff71d5ff|Hspell:250735:0|h[Bloodgorged Crawg]|h|r Going 20:00 Realm Time /W ME", -- [1]
 			"Ashidenn-Ragnaros", -- [2]
@@ -2024,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAshidenn|r",
 			[51] = 1587116479,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [62]
 		{
 			"{W  T  S} Wanna clear m+10-20 or any heroic or mythic raid  with skilled party?   twitch.tv/lepreteam", -- [1]
 			"Gtedese-Ragnaros", -- [2]
@@ -2046,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGtedese|r",
 			[51] = 1587116491,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [63]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12547:Player-3682-05C56601:1:4:25:20:4294967295:4294967295:4294967295:4294967295|h[Epic]|h|r!", -- [1]
 			"Plateman-Ragnaros", -- [2]
@@ -2068,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Plateman|r",
 			[51] = 1587850651,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [93]
+		}, -- [64]
 		{
 			"GALLYWIX COMMUNITY WTS N'zoth+Carapace.|cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r12/12 Mythic+HC Loot Trader! JaiNa MounT || PVP || M+(10-23) Loot Share.Buy 6x 20% OFF. VISION for gold", -- [1]
 			"Gwixshot-Ragnaros", -- [2]
@@ -2090,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Gwixshot|r",
 			[51] = 1587850674,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [65]
 		{
 			"BIG DISCOUNT <Sylvanas Boost Community ) +10 for [120k]  ONLY   / 5 M+ 10 [540k] / + 12  [160k] / +14 [210k] / +15 [275k] IN TIME / x5 M+ 15[ 1170k] M  /+16 [550k] IN TIME/ +17 [800k] IN TIME  / 18 [1000k] IN TIME / Nylotha Hc and Mythic / Jaina Mount", -- [1]
 			"Sylvabaank-Ragnaros", -- [2]
@@ -2112,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSylvabaank|r",
 			[51] = 1587850674,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [66]
 		{
 			">HOT DEAL 230k|cffffff00|Hachievement:14068:Player-2073-06F60169:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r & |cff66bbff|Hjournal:1:2366:16|h[Carapace of N'Zoth]|h|r < GALLYWIX COMMUNITY! ", -- [1]
 			"Varayes-Ragnaros", -- [2]
@@ -2134,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcVarayes|r",
 			[51] = 1587850677,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [67]
 		{
 			"DISCOUNT<SYLVANAS> SELLING  M+10 with loot a 120k ||12=160k|| 5x12=780k||14=210 ||5x14 900k || +15  275K || 3x15= 740k  |cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r  shared loot / vip and Mythic||jaina  ||H visions 1 /w me for info.", -- [1]
 			"Samuranaa-Ragnaros", -- [2]
@@ -2156,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSamuranaa|r",
 			[51] = 1587850677,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [68]
 		{
 			"<Krakenboost> WTS < Carapace - 90k >, < N'zoth the Corruptor - 140k >, < Cara + N'zoth - 200k > Heroic kills. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
 			"Ziratsu-Ragnaros", -- [2]
@@ -2178,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZiratsu|r",
 			[51] = 1587850683,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [69]
 		{
 			"<Riptide> PVP guild  újraéled és keresi Aktív tagjait! Aki szeretne egy jó hangulatú és aktív  közöséget kialakítani annak itt a helye! Kezdőket/Profikat egyaránt várunk! Egyenlőre Fun rated bg/Random BG/Aréna! Kérdésed van :/W", -- [1]
 			"Amfett-Ragnaros", -- [2]
@@ -2200,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Amfett|r",
 			[51] = 1587850687,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [99]
+		}, -- [70]
 		{
 			"Selling Ny'alotha Heroic/Mythic 480 Loot-Trade! Mounts|cffa335ee|Hitem:174872::::::::1:70::6:1:3524:::|h[Ny'alotha Allseer]|h|r/|cffa335ee|Hitem:166705::::::::1:70::6:1:3524:::|h[Glacial Tidestorm]|h|r||Best Prices||PST", -- [1]
 			"Wellorea-Ragnaros", -- [2]
@@ -2222,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Wellorea|r",
 			[51] = 1587850687,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [100]
+		}, -- [71]
 		{
 			"WTS Mythic +10 - +16 carry for gold only. Full guild group with various keys! LOW PRICE! ARMOR STACK!", -- [1]
 			"Keykongtwo-Ragnaros", -- [2]
@@ -2244,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Keykongtwo|r",
 			[51] = 1587850692,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [101]
+		}, -- [72]
 		{
 			"<Sylvanas Community> +15 FOR ONLY 275K /+10 for 120k ,Buy x2 runs and get FREE ARMOR STACK/Discounts on 3runs or more /+12 160k/+14 210k/Keystone Master 3M/Leveling/Jaina Mount/Visions 0-5 masks/TONIGT HC (PL/LOOT Share/VIP) Nylotha&Mythic", -- [1]
 			"Làna-Ragnaros", -- [2]
@@ -2266,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Làna|r",
 			[51] = 1587850693,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [73]
 		{
 			"<SYLVANAS COMMUNITY> WTS m+15 intime for only 275k ||m+10 at 120k  || m+11=140k ||+12=160k || +14= 210k||   ||5x10=500  5x11=585k 5x12=680k KEYSTONE MASTER S4 =2.8M only (PL-share-VIP)|| [Ny'alotha, the Waking City] hc /mythic (12/12M)+mount|| /w me ", -- [1]
 			"Bringa-Ragnaros", -- [2]
@@ -2288,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bringa|r",
 			[51] = 1587850694,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [103]
+		}, -- [74]
 		{
 			"<BOOST SQUAD> Selling CHEAP M+ from +10-+15 intime guaranteed! +15 ONLY 230K! Get 465 Items in the End of Dungeon Chest and 475 Items as Weekly reward! Also selling Vision boost, FH boost and much more! /w me for if you are interested :)", -- [1]
 			"Goldstacked-Ragnaros", -- [2]
@@ -2310,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Goldstacked|r",
 			[51] = 1587850694,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [104]
+		}, -- [75]
 		{
 			"<AZEROTH>  WTS Cheapest Quick Boost - Get your Weekly Loot up to 475 - 2.8k Rio Team  - You can stay AFK - All Tradable loot is Yours!  +15 250k +16 350k +17 600k <INTIME> Choose your key for FREE - /w for more info!", -- [1]
 			"Azerati-Ragnaros", -- [2]
@@ -2332,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Azerati|r",
 			[51] = 1587850697,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [76]
 		{
 			"Raid DISCOUNT Oblivion Community sells Nya'lotha the Waking City on Heroic!  Next Run at 00:00 450k  Server Time LootShare ! We also sell M+ 14-21 Runs with several Loot options and with intime guarantee! /w me for Pricing! =)", -- [1]
 			"Bawder-Ragnaros", -- [2]
@@ -2354,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBawder|r",
 			[51] = 1587850697,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [77]
 		{
 			"WTS |cffa335ee|Hitem:163574::::::::120:270::::::|h[Chewed-On Reins of the Terrified Pack Mule]|h|r /w me with your offer!", -- [1]
 			"Ondamonkk-Ragnaros", -- [2]
@@ -2376,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Ondamonkk|r",
 			[51] = 1587850699,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [78]
 		{
 			"<NOVA Community> Offering Heroic Nyalota Today! Free Armor Stack at Dungeons! ||+15=260k|| ||+14=190k|| ||5x11=585k|| ||2x14=360k|| ||5x14=850k|| <Visions> /w for more", -- [1]
 			"Jeffnova-Ragnaros", -- [2]
@@ -2398,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Jeffnova|r",
 			[51] = 1587850699,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [79]
 		{
 			">>M+15 315K<< +FREE ARMOR STACK  || The Gallywix Community |cffffff00|Hachievement:14145:Player-2073-06F60169:0:0:0:-1:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|r up to 20% off Bulk Discounts! ", -- [1]
 			"Varayes-Ragnaros", -- [2]
@@ -2420,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcVarayes|r",
 			[51] = 1587850703,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [109]
+		}, -- [80]
 		{
 			"<Oblivion Community> Selling FULL 12/12 Clear Nyalotha HEROIC! Unsaved boosters who are rolling out all their loot ! Roll on any items you need for only 450k 12/12HC! GOING NOW! /w", -- [1]
 			"Hardmodelyf-Ragnaros", -- [2]
@@ -2442,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHardmodelyf|r",
 			[51] = 1587850707,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [110]
+		}, -- [81]
 		{
 			"<SYLVANAS  COMMUNITY>SellingMythic+10=120k Mythic+11=140k /Mythic+12=160k /Mythic+13=180k / Mythic+14=210k/Mythic+15 275k 5x10 / 5x12/ 5x15 /(Timed guarantee) /W for more info", -- [1]
 			"Uaboost-Ragnaros", -- [2]
@@ -2464,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Uaboost|r",
 			[51] = 1587850709,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [82]
 		{
 			"<Deal With It-Twisting Nether> 12/12M  WR:54 selling HC N'Zoth. Get|cffffff00|Hachievement:14068:Player-1305-0A3CBDCE:1:1:26:20:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r now! We accept gold all realms.", -- [1]
 			"Ludwboost-Ragnaros", -- [2]
@@ -2486,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcLudwboost|r",
 			[51] = 1587850713,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [83]
 		{
 			"Oblivion Community is selling heroic Carapace of Nzoth 100k and Nzoth the Corruptor140k every 30 minutes. get your curve achievement, uncorrupted voidwing mount and the chance on 470 items. price =both 210k", -- [1]
 			"Bawder-Ragnaros", -- [2]
@@ -2508,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBawder|r",
 			[51] = 1587850717,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [113]
+		}, -- [84]
 		{
 			"FREE ARMOR STACK <SYLVANAS> SELLING  M+10  120k ||12=160k|| 5x12=780k||14=210 ||5x14 900k || +15  275K || 3x15= 740k  |cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r  shared loot / vip and Mythic||jaina  ||H visions 1 /w me for info.", -- [1]
 			"Samuranaa-Ragnaros", -- [2]
@@ -2530,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSamuranaa|r",
 			[51] = 1588021558,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [85]
 		{
 			"Raid DISCOUNT Oblivion Community sells Nya'lotha the Waking City on Heroic!  Next Run at 23:30/ 450k  Server Time LootShare ! We also sell M+ 14-21 Runs with several Loot options and with intime guarantee! /w me for Pricing! =)", -- [1]
 			"Bawder-Ragnaros", -- [2]
@@ -2552,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBawder|r",
 			[51] = 1588021560,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [86]
 		{
 			"<SYLVANAS COMMUNITY> (FREE ARMOR STACK FOR ALL KEYS) WTS m+15 intime for only 260k ||m+10 at 115k  || m+11=130k ||+12=150k || +14= 200k||   ||5x10=500  5x11=570k  5x14=900k   3x15=740k // discount if you take 3x or 5x runs / KEYSTONE MASTER S4 2.8M", -- [1]
 			"Alphat-Ragnaros", -- [2]
@@ -2574,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Alphat|r",
 			[51] = 1588021561,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [87]
 		{
 			"Üdv! A <Timeless Heroes>(11/12HC) klán tagfelvételt hirdet főleg DPS-eknek, de mindenki mást is meghallgatunk! Raid napjaink: sze(8-10) és vas(7-10). Ha szeretnél egy jó csapathoz tartozni /w", -- [1]
 			"Tufä-Ragnaros", -- [2]
@@ -2596,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tufä|r",
 			[51] = 1588021562,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [88]
 		{
 			"<Oblivion Community> Selling  Nyalotha, the Waking City HEROIC right now at 23:30 ST. All boosters are unsaved and their items are rolled out,! 11/12 or 10/12 possible too.  Interested? /w me - gold only", -- [1]
 			"Angelicka-Ragnaros", -- [2]
@@ -2618,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Angelicka|r",
 			[51] = 1588021566,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [89]
 		{
 			"WTS |cffa335ee|Hitem:175007::::::::120:63::6:9:4824:42:6578:6579:6439:6470:6515:1517:4786:::|h[Footpads of Terrible Delusions]|h|r /W OFFER", -- [1]
 			"Lylah-Ragnaros", -- [2]
@@ -2640,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Lylah|r",
 			[51] = 1588021571,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [90]
 		{
 			"FREE ARMOR STACK <Sylvanas Boost Community ) +10 for [115k]  ONLY   / 5 M+ 10 [500k] / + 12  [150k] / +14 [200k] / +15 [260k] IN TIME / x5 M+ 15[ 1150k] M  /+16 [450k] IN TIME/ +17 [650k] IN TIME   / Nylotha Hc and Mythic / Jaina Mount", -- [1]
 			"Sylvabaank-Ragnaros", -- [2]
@@ -2662,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSylvabaank|r",
 			[51] = 1588021573,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [91]
 		{
 			"WTS Mythic +10 - +16 carry for gold only. Full guild group with various keys! LOW PRICE! ARMOR STACK!", -- [1]
 			"Keykongtwo-Ragnaros", -- [2]
@@ -2684,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Keykongtwo|r",
 			[51] = 1588021573,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [92]
 		{
 			"<Twilight Community>Ny'alotha HC Tonight@20:00 pm - Personal loot=350k, Shared loot=500k Vıp slots starting from 700k. Cara & N'zoth 225k Specific boss 100k  N'zoth 150k  +10 110k +12 150k +14 190k +15 260k /w for more info ", -- [1]
 			"Hatuncuk-Ragnaros", -- [2]
@@ -2706,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Hatuncuk|r",
 			[51] = 1588021576,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [93]
 		{
 			"WTS Mythic +15-20 keys ! 3k+ experienced group. Armor stack and specific key options. Intime guarantee ! 12/12 HC full clear every week ! Share loot, VIP trader spots available.", -- [1]
 			"Paradisee-Ragnaros", -- [2]
@@ -2728,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcParadisee|r",
 			[51] = 1588021576,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [94]
 		{
 			"<NOVA Community> Free Armor Stack! Intime Guaranteed Dungeons! ||+15=260k|| ||+14=170k|| ||5x11=495k|| ||5x14=760k|| <Visions> /w for more", -- [1]
 			"Jeffnova-Ragnaros", -- [2]
@@ -2750,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Jeffnova|r",
 			[51] = 1588021578,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [95]
 		{
 			"<Deal With It-Twisting Nether> 12/12M  WR:54 selling HC N'Zoth. Get|cffffff00|Hachievement:14068:Player-1305-0A3CBDCE:1:1:26:20:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r now! We accept gold all realms.", -- [1]
 			"Ludwboost-Ragnaros", -- [2]
@@ -2772,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcLudwboost|r",
 			[51] = 1588021579,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [96]
 		{
 			"FREE ARMOR STACK <Sylvanas Boost Community ) +10 for [115k]  ONLY   / 5 M+ 10 [500k] / + 12  [150k] / +14 [200k] / +15 [260k] IN TIME / x5 M+ 15[ 1150k] M  /+16 [450k] IN TIME/ +17 [650k] IN TIME   / Nylotha Hc and Mythic / Jaina Mount", -- [1]
 			"Sylvabaank-Ragnaros", -- [2]
@@ -2794,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSylvabaank|r",
 			[51] = 1588021743,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [97]
 		{
 			"WTS |cffa335ee|Hitem:175005::::::::120:102::5:7:4823:6578:6579:6554:6515:1502:4786:::|h[Belt of Concealed Intent]|h|r 460 mail belt with rank 3 Infinite Star!", -- [1]
 			"Pivott-Ragnaros", -- [2]
@@ -2815,6 +2177,644 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cffa9d271Pivott|r",
 			[51] = 1588021748,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"GALLYWIX |cffffff00|Hachievement:14145:Player-3682-09D64927:0:0:0:0:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|rWTS  m+10-23 ArmorStack/All Dungeons!! |cffffff00|Hachievement:14069:Player-3682-09C88F19:0:0:0:-1:0:0:0:0|h[Cutting Edge: N'Zoth the Corruptor]|h|r12/12 HC/MYTHIC VIP Loot!! |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r8, PVP 0-2400 Gladiator, Visions!! Jaina Mount!!", -- [1]
+			"Gallyboost-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gallyboost-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			221, -- [11]
+			"Player-3682-09D49E37", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cGallyboost|r",
+			[51] = 1591632634,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [99]
+		{
+			"Gallywix WTS|cffffff00|Hachievement:14145:Player-1305-0AC0244F:1:2:11:20:4294967295:4294967295:4294967295:4294967295|h[Battle for Azeroth Keystone Master: Season Four]|h|r20% Off Buy 6x M+(10-24) intime,LOOT for You.|cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r12/12 MYTHIC+HC LOOT for You. PVP 0-2400,Carapace+Nzoth HC 140k, VISION+Mask, AZSHARA, JAINA Mount", -- [1]
+			"Anothing-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Anothing-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			222, -- [11]
+			"Player-3682-09DFB2A7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Anothing|r",
+			[51] = 1591632634,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [100]
+		{
+			"<Cloud Boosting Community> WTS 12/12 HC/MYTHIC Ny'alotha !Jaina Mount! Mythic + Boost -  m10=100k,  11=110k  12=130k  13=140k  14=170k +15=195k free armorstack!  /w for more info!", -- [1]
+			"Cloudb-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Cloudb-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			223, -- [11]
+			"Player-3682-09DC4E97", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cCloudb|r",
+			[51] = 1591632636,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [101]
+		{
+			"OBLIVIONCOMMUNITY Selling UNSAVED Nyalotha Heroic With FRESH ID Boosters! Next run 19:00CEST! 345k only for lootshare and 290k personal loot /w", -- [1]
+			"Oblivgrisha-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Oblivgrisha-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			224, -- [11]
+			"Player-3682-09DCF502", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Oblivgrisha|r",
+			[51] = 1591632638,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [102]
+		{
+			"<Gallywix Community> || Selling >>|cffa335ee|Hitem:44168::::::::1:259::3:1:1422:::|h[Reins of the Time-Lost Proto-Drake]|h|r<< || |cffa335ee|Hitem:121815::::::::1:259::3:1:1452:::|h[Voidtalon of the Dark Star]|h|r || Rare Draenor Mounts || |cff71d5ff|Hspell:88718:0|h[Phosphorescent Stone Drake]|h|r || Grey Riding Camel + Title || Rare >SPIRIT BEAST< Pets for Hunter || And many more mounts!", -- [1]
+			"Gallyagent-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gallyagent-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			225, -- [11]
+			"Player-3682-09D02FDC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Gallyagent|r",
+			[51] = 1591632640,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [103]
+		{
+			"<iBoost Community> --- Last Chance to get HC Nyalotha \"PL=250k , LS=300K , Vip With Ls and 1 trader start 425k>/Mythic Ny'alotha> & <Horrific Visions> , <pvp Rating> more! /w me for info!", -- [1]
+			"Holyboosty-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Holyboosty-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			226, -- [11]
+			"Player-3682-09DB7001", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcHolyboosty|r",
+			[51] = 1591632641,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [104]
+		{
+			"<SYLVANAS COMMUNITY>  FREE ARMOR STACK  +10 to +21 || Selling m+15 in time     ((( ONLY 200k)))     2x15=380k   || 5x12=570k || 5x14=720k || 3x15=540k|| 5x15=875k       +16=250k|| +17=325k || +18=550k || 12 /12Mythic-Heroic Raid with VIP / JAINA /w me", -- [1]
+			"Sylvyna-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sylvyna-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			227, -- [11]
+			"Player-3682-09CD383B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Sylvyna|r",
+			[51] = 1591632642,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [105]
+		{
+			"<Icecrown>[FREE ARMOR STACK FOR ALL M+ BOOSTS] INTIME guarenteed with ALL LOOT|| +15= 195K ||+14=160k|| +12=130k ||+10=100k|||cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|rHeroic 300k lootshare(with 2x VIP=500k)/Vision/GOLD ONLY/w info", -- [1]
+			"Thalragnar-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Thalragnar-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			228, -- [11]
+			"Player-3682-09BC9307", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Thalragnar|r",
+			[51] = 1591632642,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [106]
+		{
+			"> Hydra Community < WTS Achiev|cffffff00|Hachievement:11987:Player-1403-074C08CD:1:11:10:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Argus Raider]|h|rMount|cff71d5ff|Hspell:253087:0|h[Antoran Gloomhound]|h|r Going 20:00 RealmTime /W ", -- [1]
+			"Ashidenn-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ashidenn-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			229, -- [11]
+			"Player-3682-09016D41", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cAshidenn|r",
+			[51] = 1591632645,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [107]
+		{
+			"GALLYWIX WTS|cffffff00|Hachievement:14145:Player-3682-09D73A5B:0:0:0:-1:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|r |cffffff00|Hachievement:14068:Player-3682-09D73A5B:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r+Carapace/Raden|cffffff00|Hachievement:14069:Player-3682-09D73A5B:0:0:0:-1:0:0:0:0|h[Cutting Edge: N'Zoth the Corruptor]|h|rRAID HC/Mythic  M+ lvl 10-25 [ PVP 0-2400+GLADIATOR+Coaching ] {Jaina/Azshara/Vision/Glory Run}", -- [1]
+			"Galivixkiza-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Galivixkiza-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			230, -- [11]
+			"Player-3682-09D73A5B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcGalivixkiza|r",
+			[51] = 1591632648,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [108]
+		{
+			"<BOOST SQUAD> Selling Jaina mount CHEAP only 900k!! Runs going NOW and 19:00 /w me to book!", -- [1]
+			"Boostiemonk-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Boostiemonk-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			231, -- [11]
+			"Player-3682-09E1CE9A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Boostiemonk|r",
+			[51] = 1591632649,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [109]
+		{
+			"FREE ARMOR STACK FOR ALL KEYS <SBC> !  M+10 100k ||+12=130k or 5 = 570k||+14=160k  or 5 = 720k || +15  200K || 3x15= 540k|||cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r  heroic mythic|| jaina||H visions /w me for info.", -- [1]
+			"Syliviana-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Syliviana-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			233, -- [11]
+			"Player-3682-09CFDFF5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Syliviana|r",
+			[51] = 1591632652,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [110]
+		{
+			"A <Shattered Legends> 6/12M guild TGF-et hirdet elsősorban ranged DPS-ek számára mythic progressre. Raid napok: Szo, V: 16-20. További infoért /w", -- [1]
+			"Syran-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Syran-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			234, -- [11]
+			"Player-3682-09DEFD3B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Syran|r",
+			[51] = 1591632654,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [111]
+		{
+			"<SYLVANAS>Weekend DEALS <FREE ARMOR STACK> M+10 100k or  5x = 440k || M+12 130k or 5x = 570k|| 5x14 720k || M+15 = 200k 3x =540k  5x = 875k |cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|rHC/Mythic PL&VIP||<Jaina>||<Visions> /w me", -- [1]
+			"Sairynas-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sairynas-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			235, -- [11]
+			"Player-3682-09D86A41", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Sairynas|r",
+			[51] = 1591632654,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			"FREE ARMOR STACK <SYLVANAS COMMUNITY>  BIG DISCOUN>T WTS m+15 intime 200k ||m+10 at 100k  || m+11=110k ||+12=125k || +14= 165k||   ||5x10=440  5x11=480k  5x14=720k   3x15=540k  5x15=875k//  / KEYSTONE MASTER S4 =2M / heroic raid (pl-share-vip)mythic", -- [1]
+			"Alphat-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alphat-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			236, -- [11]
+			"Player-3682-09672A73", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Alphat|r",
+			[51] = 1591632654,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"The Gallywix Community || WTS >>|cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r<< 12/12HC || @19:00 ST || VIP Slots Available ||  All Loot is shared by our 12/12 mythic boosters! || PM me for more info or booking || Only gold", -- [1]
+			"Varayong-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Varayong-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			237, -- [11]
+			"Player-3682-09DDC584", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe95Varayong|r",
+			[51] = 1591632655,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"<>Sylvanas Boosting Community||- Mythic+ 10   [100k] Mythic+ 11   [110k] Mythic+ 12   [130k] Mythic+ 13   [140k] Mythic+ 14   [165k] Mythic+ 15   [200k] 5x10 /  5x15 /Raid HC or Mithyc /W for more info", -- [1]
+			"Synuftw-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Synuftw-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			238, -- [11]
+			"Player-3682-09E0344F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Synuftw|r",
+			[51] = 1591632657,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"The Gallywix WTS HC|cff66bbff|Hjournal:1:2375:14|h[N'Zoth the Corruptor]|h|r+|cff66bbff|Hjournal:1:2366:14|h[Carapace of N'Zoth]|h|r140k(NY'ALOTHA RAID (RADEN AS SPECIFIC BOSS)! Key (10-23) IN TIME (Vision WITH 5 mask)(PVP) Jaina Mount/gold all realms", -- [1]
+			"Ferymate-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ferymate-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			239, -- [11]
+			"Player-3682-09E1589D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Ferymate|r",
+			[51] = 1591632659,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"<SYLVANAS> FREE ARMOR STACK FOR 2+ KEYS ! mythic +10 with loot a 100k or pack of 5 at 450k || +12 130k or 5 at 590k|| 5x14 740k  +15 = 200k   |cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r]HC/Mythic||jaina  ||H visions/w me for info", -- [1]
+			"Samuranaa-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Samuranaa-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			240, -- [11]
+			"Player-3682-09C9EB7C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcSamuranaa|r",
+			[51] = 1591632660,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"Gallywix is now offering Raden on HC! Traders also available for Weapon and Trinket! /w now for details! LIMITED SPOTS AVAILABLE GOING NOW", -- [1]
+			"Gallykeep-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gallykeep-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			241, -- [11]
+			"Player-3682-09DBE641", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cGallykeep|r",
+			[51] = 1591632661,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"<OblivionCommunity> Selling 12/12 Nyalotha Heroic , Fresh ID Boosters rolling out ALL loot! Lootshare and personal loot available ! Next run 19:00Server Time /w 345k 12/12HC", -- [1]
+			"Qwandalive-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Qwandalive-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			242, -- [11]
+			"Player-3682-09DB5756", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8686ecQwandalive|r",
+			[51] = 1591632662,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"GALLYWIX |cffffff00|Hachievement:14145:Player-3682-09D64927:0:0:0:0:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|rWTS  m+10-23 ArmorStack/All Dungeons!! |cffffff00|Hachievement:14069:Player-3682-09C88F19:0:0:0:-1:0:0:0:0|h[Cutting Edge: N'Zoth the Corruptor]|h|r12/12 HC/MYTHIC VIP Loot!! |cff66bbff|Hjournal:0:1180:14|h[Ny'alotha, the Waking City]|h|r8, PVP 0-2400 Gladiator, Visions!! Jaina Mount!!", -- [1]
+			"Gallyboost-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gallyboost-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			291, -- [11]
+			"Player-3682-09D49E37", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cGallyboost|r",
+			[51] = 1591633000,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"GALLYWIX WTS|cffffff00|Hachievement:14145:Player-3682-09D73A5B:0:0:0:-1:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|r |cffffff00|Hachievement:14068:Player-3682-09D73A5B:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r+Carapace/Raden|cffffff00|Hachievement:14069:Player-3682-09D73A5B:0:0:0:-1:0:0:0:0|h[Cutting Edge: N'Zoth the Corruptor]|h|rRAID HC/Mythic  M+ lvl 10-25 [ PVP 0-2400+GLADIATOR+Coaching ] {Jaina/Azshara/Vision/Glory Run}", -- [1]
+			"Galivixkiza-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Galivixkiza-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			292, -- [11]
+			"Player-3682-09D73A5B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcGalivixkiza|r",
+			[51] = 1591633001,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"<SYLVANAS COMMUNITY>  FREE ARMOR STACK  +10 to +21 || Selling m+15 in time     ((( ONLY 200k)))     2x15=380k   || 5x12=570k || 5x14=720k || 3x15=540k|| 5x15=875k       +16=250k|| +17=325k || +18=550k || 12 /12Mythic-Heroic Raid with VIP / JAINA /w me", -- [1]
+			"Sylvyna-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sylvyna-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			293, -- [11]
+			"Player-3682-09CD383B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Sylvyna|r",
+			[51] = 1591633001,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"The Gallywix WTS HC|cff66bbff|Hjournal:1:2375:14|h[N'Zoth the Corruptor]|h|r+|cff66bbff|Hjournal:1:2366:14|h[Carapace of N'Zoth]|h|r140k(NY'ALOTHA RAID (RADEN AS SPECIFIC BOSS)! Key (10-23) IN TIME (Vision WITH 5 mask)(PVP) Jaina Mount/gold all realms", -- [1]
+			"Ferymate-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ferymate-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			294, -- [11]
+			"Player-3682-09E1589D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Ferymate|r",
+			[51] = 1591633002,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"<iBoost Community> --- Last Chance to get HC Nyalotha \"PL=250k , LS=300K , Vip With Ls and 1 trader start 425k>/Mythic Ny'alotha> & <Horrific Visions> , <pvp Rating> more! /w me for info!", -- [1]
+			"Holyboosty-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Holyboosty-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			295, -- [11]
+			"Player-3682-09DB7001", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcHolyboosty|r",
+			[51] = 1591633003,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"<Gallywix Community> || Selling >>|cffa335ee|Hitem:44168::::::::1:259::3:1:1422:::|h[Reins of the Time-Lost Proto-Drake]|h|r<< || |cffa335ee|Hitem:121815::::::::1:259::3:1:1452:::|h[Voidtalon of the Dark Star]|h|r || Rare Draenor Mounts || |cff71d5ff|Hspell:88718:0|h[Phosphorescent Stone Drake]|h|r || Grey Riding Camel + Title || Rare >SPIRIT BEAST< Pets for Hunter || And many more mounts!", -- [1]
+			"Gallyagent-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gallyagent-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			296, -- [11]
+			"Player-3682-09D02FDC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Gallyagent|r",
+			[51] = 1591633003,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"<>Sylvanas Boosting Community||- Mythic+ 10   [100k] Mythic+ 11   [110k] Mythic+ 12   [130k] Mythic+ 13   [140k] Mythic+ 14   [165k] Mythic+ 15   [200k] 5x10 /  5x15 /Raid HC or Mithyc /W for more info", -- [1]
+			"Synuftw-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Synuftw-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			298, -- [11]
+			"Player-3682-09E0344F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec5e9Synuftw|r",
+			[51] = 1591633003,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"> Hydra Community < WTS Achiev|cffffff00|Hachievement:11987:Player-1403-074C08CD:1:11:10:18:4294967295:4294967295:4294967295:4294967295|h[Glory of the Argus Raider]|h|rMount|cff71d5ff|Hspell:253087:0|h[Antoran Gloomhound]|h|r Going 20:00 RealmTime /W ", -- [1]
+			"Ashidenn-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ashidenn-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			300, -- [11]
+			"Player-3682-09016D41", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cAshidenn|r",
+			[51] = 1591633005,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},

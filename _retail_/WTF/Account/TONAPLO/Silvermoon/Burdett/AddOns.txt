@@ -23,7 +23,7 @@ AllTheThings: enabled
 BigWigs_Azeroth: enabled
 TomTom: enabled
 DailyToDo: enabled
-TradeSkillMaster: disabled
+TradeSkillMaster: enabled
 AngryAssignments: disabled
 StatPriority: enabled
 LittleWigs: enabled

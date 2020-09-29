@@ -17,6 +17,7 @@ FarmHudDB = {
 	["tracking^136456"] = "false",
 	["time_server"] = true,
 	["tracking^136465"] = "false",
+	["tracking^132328"] = "client",
 	["buttons_radius"] = 0.47,
 	["cardinalpoints_color1"] = {
 		1, -- [1]
@@ -29,6 +30,7 @@ FarmHudDB = {
 	["tracking^136457"] = "false",
 	["QuestArrowInfoMsg"] = false,
 	["tracking^136463"] = "false",
+	["buttons_bottom"] = false,
 	["gathercircle_color"] = {
 		0, -- [1]
 		1, -- [2]
@@ -38,7 +40,7 @@ FarmHudDB = {
 	["tracking^1863940"] = "false",
 	["rotation"] = true,
 	["buttons_alpha"] = 0.6,
-	["buttons_bottom"] = false,
+	["tracking^136025"] = "client",
 	["tracking^535616"] = "false",
 	["tracking^524051"] = "false",
 	["hud_size"] = 0.8,
@@ -74,13 +76,13 @@ FarmHudDB = {
 	["tracking^133888"] = "false",
 	["text_scale"] = 1,
 	["time_show"] = false,
-	["tracking^133939"] = "true",
 	["time_color"] = {
 		1, -- [1]
 		0.82, -- [2]
 		0, -- [3]
 		0.7, -- [4]
 	},
+	["tracking^133939"] = "true",
 	["coords_bottom"] = false,
 	["tracking^524052"] = "false",
 	["time_radius"] = 0.48,

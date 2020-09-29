@@ -75,3 +75,11 @@ HandyNotes_LongForgottenHippogryph: disabled
 HandyNotes_VisionsOfNZoth: disabled
 HandyNotes_MechagonAndNazjatar: disabled
 Handynotes_Pandaria: disabled
+ElvUI_VisualAuraTimers: disabled
+ElvUI_ExtraActionBars: disabled
+ElvUI_CastBarOverlay: disabled
+ElvUI_EverySecondCounts: disabled
+ElvUI_AuraBarsMovers: disabled
+ElvUI_CustomTweaks: disabled
+ElvUI_DTBars2: disabled
+WeakAurasArchive: enabled

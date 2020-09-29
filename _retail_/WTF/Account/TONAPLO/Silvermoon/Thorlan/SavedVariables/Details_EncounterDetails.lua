@@ -339,6 +339,7 @@ EncounterDetailsDB = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 		},
 		[181275] = {
@@ -410,43 +411,43 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
-				0.1, -- [1]
-				"Your foolish crusade ends here, mortals. The legion comes and with it this world breathes its dying breath!", -- [2]
+				0.1829999999999927, -- [1]
+				"Let the echoes of doom resound across this wretched world, that all who live may hear them and despair.", -- [2]
 				"Archimonde", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				4.885999999998603, -- [1]
+				4.515999999999622, -- [1]
 				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
 				"Archimonde", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				7.150000000001455, -- [1]
+				4.515999999999622, -- [1]
 				"The light will not fail!", -- [2]
 				"Exarch Yrel", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				8.515999999995984, -- [1]
+				5.916000000000167, -- [1]
 				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
 				"Archimonde", -- [3]
 				7, -- [4]
 			}, -- [4]
 			{
-				9.548999999999069, -- [1]
+				5.916000000000167, -- [1]
 				"Lok'tar ogar! They are pushed back! To the portal! Gul'dan is mine!", -- [2]
 				"Grommash Hellscream", -- [3]
 				7, -- [4]
 			}, -- [5]
 			{
-				10.94799999999668, -- [1]
+				7.148999999999433, -- [1]
 				"I will shatter this pathetic world! Its broken husk will be torn apart in the twisting nether for all time!", -- [2]
 				"Archimonde", -- [3]
 				7, -- [4]
 			}, -- [6]
 			{
-				12.33299999999872, -- [1]
+				9.699999999999818, -- [1]
 				"I grow tired of this pointless game. You face the immortal Legion, scourge of a thousand worlds.", -- [2]
 				"Archimonde", -- [3]
 				7, -- [4]
@@ -454,64 +455,88 @@ EncounterDetailsDB = {
 			["boss"] = "Archimonde",
 		}, -- [1]
 		{
-			["boss"] = "Slave Watcher Crushto",
-		}, -- [2]
-		{
 			{
-				2.951000000000022, -- [1]
-				"Yes, Dark Lady.", -- [2]
-				"Gurtogg Bloodboil", -- [3]
+				0.1509999999980209, -- [1]
+				"Your foolish crusade ends here, mortals. The legion comes and with it this world breathes its dying breath!", -- [2]
+				"Archimonde", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				14.62400000000002, -- [1]
-				"%s |cFFFF0404|Hspell:184476|h[Reaps]|h|r all marked foes!", -- [2]
-				"Dia Darkwhisper", -- [3]
-				1, -- [4]
+				3.432999999997264, -- [1]
+				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
 			}, -- [2]
 			{
-				14.62400000000002, -- [1]
-				"It rips. It tears. It is boundless and eternal...", -- [2]
-				"Dia Darkwhisper", -- [3]
+				5.900000000001455, -- [1]
+				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
+				"Archimonde", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				15.81700000000001, -- [1]
-				"|TInterface\\Icons\\inv_misc_boilingblood.blp:20|t %s begins to use |cFFFF0404|Hspell:184357|h[Tainted Blood]|h|r!", -- [2]
-				"Gurtogg Bloodboil", -- [3]
-				1, -- [4]
+				5.900000000001455, -- [1]
+				"The light will not fail!", -- [2]
+				"Exarch Yrel", -- [3]
+				7, -- [4]
 			}, -- [4]
 			{
-				15.81700000000001, -- [1]
-				"More! I want MORE!", -- [2]
-				"Gurtogg Bloodboil", -- [3]
+				8.33299999999872, -- [1]
+				"Lok'tar ogar! They are pushed back! To the portal! Gul'dan is mine!", -- [2]
+				"Grommash Hellscream", -- [3]
 				7, -- [4]
 			}, -- [5]
 			{
-				16.11699999999996, -- [1]
-				"The sweet mercy... of death.", -- [2]
-				"Dia Darkwhisper", -- [3]
+				9.561000000001513, -- [1]
+				"I will shatter this pathetic world! Its broken husk will be torn apart in the twisting nether for all time!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [6]
+			["boss"] = "Archimonde",
+		}, -- [2]
+		{
+			{
+				0.2330000000001746, -- [1]
+				"Let the echoes of doom resound across this wretched world, that all who live may hear them and despair.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				3.382999999999811, -- [1]
+				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				5.899999999999636, -- [1]
+				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				5.899999999999636, -- [1]
+				"The light will not fail!", -- [2]
+				"Exarch Yrel", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				7.032999999999447, -- [1]
+				"Lok'tar ogar! They are pushed back! To the portal! Gul'dan is mine!", -- [2]
+				"Grommash Hellscream", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				9.582999999999629, -- [1]
+				"I will shatter this pathetic world! Its broken husk will be torn apart in the twisting nether for all time!", -- [2]
+				"Archimonde", -- [3]
 				7, -- [4]
 			}, -- [6]
 			{
-				17.06700000000001, -- [1]
-				"Burn... BURN!", -- [2]
-				"Blademaster Jubei'thos", -- [3]
+				10.88299999999981, -- [1]
+				"I grow tired of this pointless game. You face the immortal Legion, scourge of a thousand worlds.", -- [2]
+				"Archimonde", -- [3]
 				7, -- [4]
 			}, -- [7]
-			{
-				18.08300000000008, -- [1]
-				"ArRRgghhHhh...", -- [2]
-				"Gurtogg Bloodboil", -- [3]
-				7, -- [4]
-			}, -- [8]
-			{
-				18.08300000000008, -- [1]
-				"I am everburning!", -- [2]
-				"Blademaster Jubei'thos", -- [3]
-				7, -- [4]
-			}, -- [9]
-			["boss"] = "Hellfire High Council",
+			["boss"] = "Archimonde",
 		}, -- [3]
 	},
 }

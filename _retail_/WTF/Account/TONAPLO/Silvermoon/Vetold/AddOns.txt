@@ -5,3 +5,15 @@ DailyToDo: disabled
 TradeSkillMaster: disabled
 AngryAssignments: disabled
 StatPriority: enabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+ElvUI_VisualAuraTimers: disabled
+ElvUI_ExtraActionBars: disabled
+ElvUI_CastBarOverlay: disabled
+ElvUI_EverySecondCounts: disabled
+ElvUI_AuraBarsMovers: disabled
+ElvUI_CustomTweaks: disabled
+ElvUI_DTBars2: disabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

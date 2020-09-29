@@ -1,32 +1,42 @@
 
 HandyNotes_ArgusDB = {
 	["profileKeys"] = {
-		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
-		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
-		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
+		["Elyrianna - Ragnaros"] = "Elyrianna - Ragnaros",
 		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
-		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
-		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
+		["Volgor - Ragnaros"] = "Volgor - Ragnaros",
+		["Deminath - Ragnaros"] = "Deminath - Ragnaros",
 		["Thorlan - Silvermoon"] = "Thorlan - Silvermoon",
 		["Amranar - Silvermoon"] = "Amranar - Silvermoon",
 		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
-		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
+		["Puukaa - Ragnaros"] = "Puukaa - Ragnaros",
 		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
+		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
+		["Amranar - Ragnaros"] = "Amranar - Ragnaros",
 		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
+		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
+		["Skyreacher - Ragnaros"] = "Skyreacher - Ragnaros",
+		["Grommarg - Ragnaros"] = "Grommarg - Ragnaros",
 		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
+		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
+		["Miriyam - Ragnaros"] = "Miriyam - Ragnaros",
+		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
+		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
+		["Navraj - Ragnaros"] = "Navraj - Ragnaros",
+		["Morifa - Ragnaros"] = "Morifa - Ragnaros",
+		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
+		["Vetold - Silvermoon"] = "Vetold - Silvermoon",
+		["Alurana - Ragnaros"] = "Alurana - Ragnaros",
+		["Granjior - Ragnaros"] = "Granjior - Ragnaros",
+		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
 	},
 	["profiles"] = {
-		["Thedodrouk - Silvermoon"] = {
-		},
-		["Kaldowrath - Silvermoon"] = {
-		},
-		["Faerand - Silvermoon"] = {
+		["Elyrianna - Ragnaros"] = {
 		},
 		["Miriyam - Silvermoon"] = {
 		},
-		["Burdett - Silvermoon"] = {
+		["Volgor - Ragnaros"] = {
 		},
-		["Rahran - Silvermoon"] = {
+		["Deminath - Ragnaros"] = {
 		},
 		["Thorlan - Silvermoon"] = {
 		},
@@ -34,13 +44,45 @@ HandyNotes_ArgusDB = {
 		},
 		["Korugen - Silvermoon"] = {
 		},
-		["Zearthan - Silvermoon"] = {
+		["Puukaa - Ragnaros"] = {
 		},
 		["Greyblood - Silvermoon"] = {
 		},
+		["Burdett - Silvermoon"] = {
+		},
+		["Amranar - Ragnaros"] = {
+		},
 		["Mallusof - Silvermoon"] = {
 		},
+		["Thedodrouk - Silvermoon"] = {
+		},
+		["Skyreacher - Ragnaros"] = {
+		},
+		["Grommarg - Ragnaros"] = {
+		},
 		["Praerend - Silvermoon"] = {
+		},
+		["Faerand - Silvermoon"] = {
+		},
+		["Miriyam - Ragnaros"] = {
+		},
+		["Zearthan - Silvermoon"] = {
+		},
+		["Kindhoof - Ragnaros"] = {
+		},
+		["Navraj - Ragnaros"] = {
+		},
+		["Morifa - Ragnaros"] = {
+		},
+		["Rahran - Silvermoon"] = {
+		},
+		["Vetold - Silvermoon"] = {
+		},
+		["Alurana - Ragnaros"] = {
+		},
+		["Granjior - Ragnaros"] = {
+		},
+		["Kaldowrath - Silvermoon"] = {
 		},
 	},
 }

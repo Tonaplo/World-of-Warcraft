@@ -60,3 +60,4 @@ ElvUI_AuraBarsMovers: disabled
 ElvUI_CustomTweaks: disabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
+ElvUI_DTBars2: disabled

@@ -25,13 +25,14 @@ SimulationCraftDB = {
 		["Weston - Icecrown"] = "Weston - Icecrown",
 		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
+		["Vetold - Silvermoon"] = "Vetold - Silvermoon",
 		["Greybone - Icecrown"] = "Greybone - Icecrown",
 		["Thedodrouk - Icecrown"] = "Thedodrouk - Icecrown",
 		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
-		["Rahran - Icecrown"] = "Rahran - Icecrown",
+		["Kaldorath - Icecrown"] = "Tank",
 		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
 		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
-		["Kaldorath - Icecrown"] = "Tank",
+		["Rahran - Icecrown"] = "Rahran - Icecrown",
 		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
 		["Mallusof - Icecrown"] = "DPS",
 	},
@@ -86,18 +87,23 @@ SimulationCraftDB = {
 		},
 		["Luugo - Frostwolf"] = {
 		},
+		["Vetold - Silvermoon"] = {
+		},
 		["Weston - Icecrown"] = {
 			["minimap"] = {
 				["minimapPos"] = 202.121936669121,
 			},
 		},
-		["Faerand - Silvermoon"] = {
+		["Mogfarmer - Silvermoon"] = {
 		},
 		["Praerend - Silvermoon"] = {
 		},
-		["Mogfarmer - Silvermoon"] = {
+		["Faerand - Silvermoon"] = {
 		},
-		["Kaldorath - Icecrown"] = {
+		["healer"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
 		},
 		["Greybone - Icecrown"] = {
 			["minimap"] = {
@@ -108,19 +114,16 @@ SimulationCraftDB = {
 		},
 		["Korugen - Icecrown"] = {
 		},
+		["Rahran - Silvermoon"] = {
+		},
 		["DPS"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
 		},
-		["Rahran - Silvermoon"] = {
-		},
 		["Zearthan - Silvermoon"] = {
 		},
-		["healer"] = {
-			["minimap"] = {
-				["hide"] = true,
-			},
+		["Kaldorath - Icecrown"] = {
 		},
 		["Mallusof - Silvermoon"] = {
 			["minimap"] = {

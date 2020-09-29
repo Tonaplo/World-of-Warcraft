@@ -158,5 +158,27 @@ ElvCharacterDB = {
 			[51] = 1582841535,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [7]
+		{
+			"Sylvanas >>>M+15 is 105k<<<Free Armor Stack orAll key- Multirun have discount 3x15 is 300k -- 5x15 is 445k- Mechagon mount 150k- Jaina mount 350k -|cff66bbff|Hjournal:0:1180:15|h[Ny'alotha, the Waking City]|h|r]-Keystonemaster 1000k-Vision-", -- [1]
+			"Nasimaa-Ragnaros", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nasimaa-Ragnaros", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			75, -- [11]
+			"Player-3682-0A16CC97", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcNasimaa|r",
+			[51] = 1599649853,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [8]
 	},
 }
