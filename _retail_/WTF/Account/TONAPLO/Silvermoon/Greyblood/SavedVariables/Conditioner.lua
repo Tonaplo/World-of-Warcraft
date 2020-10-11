@@ -2,6 +2,7 @@
 ConditionerAddOn_SavedVariables = {
 	["CurrentLoadouts"] = {
 		[250] = 14,
+		[252] = 16,
 	},
 	["Options"] = {
 		["ShowSwingTimers"] = false,
@@ -13,9 +14,9 @@ ConditionerAddOn_SavedVariables = {
 			["x"] = 744.2560653686523,
 		},
 		["TrackedFrameSize"] = 100,
-		["ShowTargetCastBar"] = true,
-		["NumTrackedFrames"] = 5,
 		["OnlyDisplayInCombat"] = true,
+		["NumTrackedFrames"] = 5,
+		["ShowTargetCastBar"] = true,
 	},
 	["TalentsPerLoadout"] = {
 	},

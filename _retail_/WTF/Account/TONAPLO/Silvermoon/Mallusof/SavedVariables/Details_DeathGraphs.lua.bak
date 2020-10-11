@@ -5716,10 +5716,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Ezergood-Ravencrest"] = {
+			["Клавалицодпс-Гордунни"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "SHAMAN",
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
@@ -5742,10 +5742,10 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Ewaa-Dalaran"] = {
+			["Janessmlot-Ravencrest"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "ROGUE",
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
 			},
@@ -5920,10 +5920,10 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-			["Janessmlot-Ravencrest"] = {
+			["Ewaa-Dalaran"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
 			},
@@ -5939,10 +5939,10 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Клавалицодпс-Гордунни"] = {
+			["Ezergood-Ravencrest"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
 			},

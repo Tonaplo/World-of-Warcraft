@@ -76,7 +76,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Frost",
 	}, -- [15]
 	{
-		["value"] = "[02+m0__ShiftE_47528_0_0]\n[000m3+j0__4_46584_0_0]\n[04072+a01b+70__F_47541_0_0]\n[01+c03+90_virulent plague_ShiftF_77575_0_0]\n[00w+4013000k+b0_cold heart_Shift3_45524_0_0]\n[0w+m0__F_47541_0_0]\n[+o0__2_63560_0_0]\n[+70250006+b0_festering wounds_E_85948_0_0]\n[+70220006+b0_festering wounds_C_220143_0_0]\n[00w+40220003+b0_festering wounds_3_55090_0_0]",
+		["value"] = "[02+m0__ShiftE_47528_0_0]\n[000m3+j0__4_46584_0_0]\n[04072+a01b+70__F_47541_0_0]\n[01+c03+90_virulent plague_ShiftF_77575_0_0]\n[00w+4013000k+b0_cold heart_Shift3_45524_0_0]\n[0w+m0__F_47541_0_0]\n[+o0__2_63560_0_0]\n[+70250006+b0_festering wounds_E_85948_0_0]\n[+70220006+b0_festering wounds_C_220143_0_0]\n[00w+40220003+b0_Festering Wound_3_55090_0_0]",
 		["spec"] = 252,
 		["name"] = "Unholy",
 	}, -- [16]

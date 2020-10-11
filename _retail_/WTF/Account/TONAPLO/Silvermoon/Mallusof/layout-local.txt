@@ -3,7 +3,7 @@ Frame: AllTheThings-Window-CurrentInstance
 FrameLevel: 1
 Anchor: TOPLEFT
 X: 0
-Y: -34
+Y: -33
 W: 305
 H: 390
 Frame: ObjectiveTrackerFrame
@@ -30,10 +30,10 @@ H: 240
 Frame: AllTheThings-Window-Prime
 FrameLevel: 1
 Anchor: CENTER
-X: 0
-Y: 0
-W: 425
-H: 305
+X: -12
+Y: 44
+W: 402
+H: 217
 Frame: AllTheThings-Window-Unsorted
 FrameLevel: 1
 Anchor: CENTER
@@ -97,6 +97,13 @@ X: -142
 Y: -8
 W: 800
 H: 500
+Frame: RematchDialog
+FrameLevel: 1
+Anchor: RIGHT
+X: -368
+Y: -45
+W: 420
+H: 200
 Frame: scanner_button
 FrameLevel: 200
 Anchor: RIGHT

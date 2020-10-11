@@ -54,7 +54,7 @@ local baseLocale = {
     ["GUI_TrackAchievementsInBlizzardUI"] = "Afficher les hauts-faits suivis dans la fenêtre de blizzard", -- "Track achievements in Achievements UI",
     -------------------------------------------------------
     --- Core
-    -------------------------------------------------------    
+    -------------------------------------------------------
     ["Core_StartingAchievementScan"] = "Démarrage du scan pour les hauts-faits", --["Starting Achievement Scan For"]
     ["Core_GameFreezeWarning"] = "Cela peut geler votre jeu pour quelques secondes", --["This may freeze your game for a few seconds"]
     ["Core_AchievementScanFinished"] = "Scan des hauts-faits achevés", --["Achievement Scanning Finished"]
@@ -72,7 +72,8 @@ local baseLocale = {
     ["Core_Failed"] = "RATÉ!", -- "FAILED!"
     ["Core_PersonalAchievement"] = "Haut-fait personnel", -- "Personal Achievement"
     ["Core_Reason"] = "Raison", -- "Reason"
-    ["Core_CriteriaMet"] = "Les critères ont été remplis. Le Boss peut maintenant être tué! ATTENTION: Ce tracker a utilisé les données collectées MANUELLEMENT par les joueurs.", -- "Criteria has been met. Boss can now be killed! Warning: This tracker has used data manually collected by players."
+    ["Core_CriteriaMet"] = "Les critères ont été remplis. Le Boss peut maintenant être tué!", -- "Criteria has been met. Boss can now be killed! Warning: This tracker has used data manually collected by players."
+    ["Core_CriteriaMetManual"] = "Les critères ont été remplis. Le Boss peut maintenant être tué! ATTENTION: Ce tracker a utilisé les données collectées MANUELLEMENT par les joueurs.", -- "Criteria has been met. Boss can now be killed! Warning: This tracker has used data manually collected by players."
     ["Core_Counter"] = "Compteur", -- "Counter",
     ["Core_CombatLogEnabled"] = "Enregistrement du combat activé", -- "Combat Logging enabled"
     ["Core_CombatLogDisabled"] = "Enregistrement du combat désactivé", -- "Combat Logging disabled"
@@ -96,8 +97,8 @@ local baseLocale = {
 
     -------------------------------------------------------
     --- Instances
-    -------------------------------------------------------  
-    ["Instances_Other"] = "Autre", 
+    -------------------------------------------------------
+    ["Instances_Other"] = "Autre",
     ["Instances_TrashAfterThirdBoss"] = "Trash aprés le 3ème boss", --L["Trash after the third boss"]
 
     -- ["Features:"] = " Fonctionnalités:",
@@ -107,7 +108,7 @@ local baseLocale = {
     -- ["- Scans all players in the group to see which achievements each player is missing for the current instance"] = "- Scans all players in the group to see which achievements each player is missing for the current instance",
     -- ["- Announce to chat players who are missing achievements for certain bosses"] = "- Announce to chat players who are missing achievements for certain bosses",
     -- ["- Announce to chat tactics for a certain boss"] = "- Announce to chat tactics for a certain boss",
-    
+
     -------------------------------------------------------
     --- Tactics & Boss Modules
     -------------------------------------------------------
@@ -204,7 +205,7 @@ local baseLocale = {
     -------------------------------------------------------
     --Tactics
     ["Ny’alotha_WrathionTheBlackEmperor"] = "Pour ce haut-fait vous devez éliminer 10 %s en 3 secondes. Vous pouvez facilement le faire en désignant 3 joueurs pour prendre %s en Phase 2 puis en les laissant marcher sur les éclats en même temps.\n\n %s du Chasseur de démon et %s du Moine sont d'excellents sorts pour ce combat, comme ils permettent de faire plusieurs éclats instantanément.",
-    ["Ny’alotha_Maut"] = "Pour ce haut-fait vous devez surcharger une %s en la laissant 'soak' une orbe de mana pendant la Phase 2, la tuer et ensuite vaincre %s.\n\n Pour rendre ce haut-fait plus simple, demandez à un troisième tank de garder %s loin du boss et de la tanker dans une %s jusqu'à que la Phase 2 commence.\n\n Une fois l'add transformé en %s, utilisez %s et atomisez l'add avant la fin de la canalisation de %s.",
+    ["Ny’alotha_Maut"] = "Pour ce haut-fait vous devez surcharger une %s en la laissant 'soak' un orbe de mana pendant la Phase 2, la tuer et ensuite vaincre %s.\n\n Pour rendre ce haut-fait plus simple, demandez à un troisième tank de garder %s loin du boss et de la tanker dans une %s jusqu'à que la Phase 2 commence.\n\n Une fois l'add transformé en %s, utilisez %s et atomisez l'add avant la fin de la canalisation de %s.",
     ["Ny’alotha_TheProphetSkitra"] = "Pour ce haut-fait vous devez vaincre %s et ses deux clones après avoir engagé %s.\n\n %s est trouvable au fond du couloir sur la gauche avant d'aller sur %s. Soyez sûr d'éliminer tous les 'trashs' sur le chemin ainsi que ceux dans la salle du boss avant d'engager %s.\n\n Après le début du combat, deux clones de %s vont apparaître. Utilisez %s et tuez les disciples, vous pouvez ensuite finir le boss et obtenir le haut-fait.",
     ["Ny’alotha_DarkInquisitorXanesh"] = "Pour ce haut-fait vous devez éliminer un %s trois fois, avec à chaque fois moins de 3 secondes restantes sur le debuff %s .\n\n Pour obtenir le debuff %s, les joueurs doivent absober les zones de %s. De là, faites des passes d'%s entre deux joueurs, approchez le du portail et éliminez le quand le debuff %s va expirer dans les 3 secondes.\n\n Note: Assurez-vous de prendre en compte le temps de déplacement de l'orbe, même si vous êtes proche du portail cela prendra 1 ou 2 secondes en plus à l'orbe pour être éliminé.\n\n Important: Si le debuff %s a expiré et que l'%s est rentré, ça ne comptera pas et vous devrez le refaire une nouvelle fois.",
     ["Ny’alotha_TheHivemind"] = "Pour ce haut-fait vous devez trouver et ramasser trois %s et les ramener au combat contre %s.\n\n Vous trouverez un spécimen près de l'entrée de la Gueule de Gor'ma (sur la droite), un dans la Chambre du Rituel (avant %s) et le dernier juste avant %s.\n\n Commencez le combat et les trois spécimens vont évoluer peu de temps après. Utilisez %s, atomisez les %s et finissez le boss pour avoir le haut-fait.\n\n Note: Les joueurs qui prennent les spécimens auront le buff: %s. Si le buff disparaît pour une raison quelconque, les spécimens réapparaîtront à leur position originale.",
@@ -315,7 +316,7 @@ local baseLocale = {
     ["AtalDazar_Other"] = "La IAT_122969 lancera tout au long du donjon des %s sur un joueur aléatoire qui le transformera en petit raptor pendant 5 secondes, et à la fin de sa durée, toute personne qui se tient près de ce joueur sera également transformé.\n\nAvant de pull une IAT_122969, il vous faudra nettoyer tous les trashs du donjon. Vous devrez promener l’add à chaque boss, et si vous avez une classe avec un long cc (comme Moine avec %s, Chasseur avec %s, Mage avec %s) alors vous devrez le garder sous contrôle jusqu’à la fin du combat. Si vous n’avez pas de classe avec CC, vous devrez simplement vous concentrer sur l’interruption de son sort %s tout le long du combat.",
     ["AtalDazar_Priestess_AlunZa"] = "Le boss invoquera un add en lançant %s. Cet add se déplacera vers n’importe quelle flaque %s et les absorbera, et quand il n’y a pas de flaques il se retournera pour attaquer les joueurs. À ce stade, vous deviez CC cet add afin d’éviter des dommages excessifs. L’add devra absorber 8 flaques de %s pour se transformer en IAT_131140. Tuez la IAT_131140 puis le boss et vous validerez le Haut-Fait.",
     ["Atal_Dazar_Yazma"] = "Afin d’allumer les 4 bougeoirs ombreflammes, tout le monde dans le groupe sauf le tank devront se séparer et se placer, chacuns, prêt de l'un des 4 coins lorsque le boss lance %s. Les bougeoirs resteront allumées pendant environ 25 secondes, donc vous ne devrez le faire QUE lorsque les points de vie du boss sont autour de 5 à 10%%.",
-    
+
     --Chat Output
     ["AtalDazar_BringingHexyBack_Hex"] = "Au moins un joueur doit être sous l'effet de Maléfice au moment de la mort du boss!", --Tout doux
 
@@ -383,17 +384,17 @@ local baseLocale = {
     --Tactics
     ["TolDagor_KnightCaptainValyri"] = "Pour ce Haut-Fait, vous devrez tank le boss au milieu de la salle, et les 4 autres joueurs déplaceront les barils (chacun le sien) près de %s. Vous devrez déplacer les barils loin du feu :\n %s - Ce sort est lancé sous les joueurs, vous avez simplement à déplacer le baril au loin.\n %s - Lorsque %s lance ce sort, vous devrez déplacer le baril loin de l’endroit vers lequel le boss se tourne.\n %s - Quand un joueur obtient ce debuff, il doit s’éloigner du baril immédiatement et attendre une dissipation.",
     ["TolDagor_OverseerKorgus"] = "Peu de temps après le début de la rencontre, %s tire des balles enduit de %s sur chaque joueur et leur applique le debuff %s. Chaque fois qu’un joueur bouge ses effets deviennent plus forts et finiront par provoquer l'étourdissement du joueur pendant 8 secondes. La tactique consiste à ce que Tout le groupe bouge en même temps jusqu'à être étourdi en début de rencontre car il n’y a pas de capacités à esquiver, puis vous pouvez tuer le boss.",
-        
+
     -------------------------------------------------------
     --- Waycrest Manor - Manoir Malvoie
     -------------------------------------------------------
     --Tactics
     ["WaycrestManor_SoulboundGoliath"] = "%s obtient un buff qui se cumule toutes les 2 secondes appelé %s. Pour obtenir ce HF, vous devrez kite le boss à travers les %s qui apparaissent dans la zone afin de garder les cumul de %s bas.",
     ["WaycrestManor_GorakTul"] = "Pendant la rencontre %s, le boss va périodiquement jeter des %s que vous aurez besoin d’utiliser pour brûler les cadavres des %s, de sorte qu’ils ne pourront pas ressusciter. Une fois que le boss lance %s et invoque le troisième adds, vous devrez tuer les 3 adds, puis rapidement utiliser %s pour brûler les 3 corps en un lancé Avant que le boss ne les ressuscite.",
-    ["WaycrestManor_Other"] = "Comme le nom du Haut-Fait l'implique, il s’agit d’un Haut-Fait basé sur des métiers avec lesquels vous pourrez intéragir avec des éléments du décors pour invoquer des mini-boss. Pour pouvoir activer ces éléments, il faudra un minimum de compétences de 75 dans le métier approprié.\n\n (Travail du cuir) %s - La carte pour invoquer ce boss se trouve dans la section pavillon de chasse du Manoir, dans le coin de la salle avec cheminée 'Kraker'??!!.\n (Couture) %s - Le '%s' se trouve dans la salle de banquet, au dernier étage.\n (Herboristerie) %s - Le '%s' se trouve dans la fontaine au milieu de la cour où le %s se trouve.\n (Calligraphie) %s - Le '%s' se trouve dans une étagère au rez-de-chaussée, sur le côté gauche juste avant de descendre à la cave.\n (Cuisine) %s - Le vin se trouve dans la cave, près d’autres fûts de vin.",  
+    ["WaycrestManor_Other"] = "Comme le nom du Haut-Fait l'implique, il s’agit d’un Haut-Fait basé sur des métiers avec lesquels vous pourrez intéragir avec des éléments du décors pour invoquer des mini-boss. Pour pouvoir activer ces éléments, il faudra un minimum de compétences de 75 dans le métier approprié.\n\n (Travail du cuir) %s - La carte pour invoquer ce boss se trouve dans la section pavillon de chasse du Manoir, dans le coin de la salle avec cheminée 'Kraker'??!!.\n (Couture) %s - Le '%s' se trouve dans la salle de banquet, au dernier étage.\n (Herboristerie) %s - Le '%s' se trouve dans la fontaine au milieu de la cour où le %s se trouve.\n (Calligraphie) %s - Le '%s' se trouve dans une étagère au rez-de-chaussée, sur le côté gauche juste avant de descendre à la cave.\n (Cuisine) %s - Le vin se trouve dans la cave, près d’autres fûts de vin.",
 
 
--- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- 
+-- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION -- -- LEGION --
 
 
     -------------------------------------------------------
@@ -471,10 +472,11 @@ local baseLocale = {
     ["TombOfSargeras_TheDesolateHost"] = "Au début du combat, une âme tombe et un joueur devra l’attraper en se tenant dans le cercle jaune tourbillonnant sous le Moteur des âmes.\n Après cela, toutes les 5 secondes l’âme sera lancée dans une direction aléatoire et un joueur du royaume opposé devra l’attraper.\n\n Vous devrez affecter deux personnes dans chaque royaume parce que la même personne ne peut pas 'soak' deux fois de suite. La raison pour laquelle vous faites cela est parce que si l’un des joueurs a l’âme au-dessus de leur personnage cela signifie qu’ils l’ont récemment attrapé et sont incapables de le faire à nouveau jusqu’à ce que quelqu’un d’autre du même royaume attrape l’âme.\n\n Soak Rotation\n soaker 1 - Monde physique\n soaker 1 - Monde des esprits\n soaker 2 - Monde physique\n soaker 2 - Monde des esprits\n\nAstuce\n Pour rendre les 'soak' plus facile, les joueurs assignés doivent être marqués et une fois qu’ils attrapent l’âme, ils doivent toujours se déplacer vers une position marquée comme le centre de la salle.\n les 'soakers' devront également faire attention au Templier réanimé car il va périodiquement lancer %s, un sort qui les renverseront s’ils sont touchés par les Vagues gangrenées.\n Toute personne affectée par %s doit s’éloigner le plus loin possible pour éviter de laisser une flaque sombre et gluante où l’âme est censée être attrapée.",
     ["TombOfSargeras_MaidenOfVigilance"] = "Il y a un total de 9 Anomalies Titaniques que vous devrez attraper : 5 à l’intérieur du puits et 4 au-dessus de la plate-forme où vous combattez la Damoiselle de vigilance.\n\n Divisez le raid en 2 parties comme d’habitude et ensuite placez un troisième marqueur où les joueurs assignés se grouperont pour déclencher des %s sur eux-mêmes.\n\n La première Anomalie titanesque est assez difficile à capturer car la gravité va vous tirer vers le bas dès que vous obtenez %s. C’est là que vos Chasseurs de Démons, Chasseurs et Chamans sont utiles en raison de leurs capacités de déplacement en plein air et parce que vous ne voulez pas perdre trop de temps avec cette premiere orbe, et vous devrez sacrifier l’un d’eux.\n\n Les quatres Anomalies titanesques suivantes apparaissent dès que la première est capturée et ils tournent dans le sens horaire. Vous devrez faire des essais et des erreurs jusqu’à ce que les gens s’habituent au 'timing'. Sauter quand il vous reste 5 secondes sur le debuff semble être le meilleur moment pour le faire puisque vous allez également revenir sur la plate-forme après avoir capturé l’orbe.\n\n Une fois que vous avez recueillis toutes les orbes à l’intérieur du puit, les quatre dernières Anomalies titanesques apparaîtront au-dessus de la plate-forme et celles-ci sont beaucoup plus faciles à obtenir. Il suffit de dé-zoomer votre caméra et de vous positionner dos aux orbes de sorte que vous l’attrapiez lorsque vous êtes envoyé dans l’air.",
     ["TombOfSargeras_FallenAvatar"] = "Au niveau max, vous pouvez juste tuer le boss avant qu’il ne lance %s.",
-    ["TombOfSargeras_Kiljaeden"] = "Préparation :\n Partez avec autant de Chevaliers de la Mort que vous le pouvez puisque leurs %s et %s sont nécessaires pour ce haut-fait.\n Assurez-vous que chaque joueur du raid a son zoom de la minimap au maximum. Dès que quelqu’un trouve Illidan pendant l’'entracte : le voile du trompeur', le joueur peut faire un ping sur la minimap pour informer les autres de son emplacement.\n En raison de leur mobilité, les moines et les guerriers sont extrêmement utiles et ils devraient utiliser leur talent %s / %s.\n\n Stratégie\n Tank Kil’jaeden dans un coin de la plate-forme pour forcer les adds à apparaître près l’un de l’autre.\n Assignez vos Chevaliers de la Mort pour saisir les Ombres. Ils devraient toujours %s d’abord et ensuite %s.\n Tout le monde devrait se disperser dans un demi-cercle autour de Kil’jaeden de sorte qu’au moins 1 personne trouvera instantanément Illdan, obtenir le buff %s puis se précipiter vers les Ombres à AoE stun et les tuer.",
+    ["TombOfSargeras_Kiljaeden"] = "Au niveau max, la façon la plus simple d'obtenir ce haut-fait est de vaincre le boss dans les 9 secondes après le début de la 2ème interphase (40%%) (%s).",
+    --["TombOfSargeras_Kiljaeden"] = "Préparation :\n Partez avec autant de Chevaliers de la Mort que vous le pouvez puisque leurs %s et %s sont nécessaires pour ce haut-fait.\n Assurez-vous que chaque joueur du raid a son zoom de la minimap au maximum. Dès que quelqu’un trouve Illidan pendant l’'entracte : le voile du trompeur', le joueur peut faire un ping sur la minimap pour informer les autres de son emplacement.\n En raison de leur mobilité, les moines et les guerriers sont extrêmement utiles et ils devraient utiliser leur talent %s / %s.\n\n Stratégie\n Tank Kil’jaeden dans un coin de la plate-forme pour forcer les adds à apparaître près l’un de l’autre.\n Assignez vos Chevaliers de la Mort pour saisir les Ombres. Ils devraient toujours %s d’abord et ensuite %s.\n Tout le monde devrait se disperser dans un demi-cercle autour de Kil’jaeden de sorte qu’au moins 1 personne trouvera instantanément Illdan, obtenir le buff %s puis se précipiter vers les Ombres à AoE stun et les tuer.",
 
     --Chat Output
-	
+
 	-- ["TombOfSargeras_DemonicInquisition_HasGainedUnbearableTorment"] = "a gagné Tourment insupportable", -- *** ADDED.Z
 	-- ["TombOfSargeras_MistressSasszine_HydraEssencePartOf"] = "'Essence d’hydre' partie de", -- *** ADDED.Z
 	-- ["TombOfSargeras_MistressSasszine_EelTartarePartOf"] = "'Tartare d’anguille' partie de", -- *** ADDED.Z
@@ -628,7 +630,7 @@ local baseLocale = {
     --Chat Output
 
 
--- WARLORDS OF DRAENOR -- -- WARLORDS OF DRAENOR -- -- WARLORDS OF DRAENOR -- -- WARLORDS OF DRAENOR -- -- WARLORDS OF DRAENOR -- -- WARLORDS OF DRAENOR -- -- WARLORDS OF DRAENOR -- -- WARLORDS OF DRAENOR -- -- WARLORDS OF DRAENOR -- 
+-- WARLORDS OF DRAENOR -- -- WARLORDS OF DRAENOR -- -- WARLORDS OF DRAENOR -- -- WARLORDS OF DRAENOR -- -- WARLORDS OF DRAENOR -- -- WARLORDS OF DRAENOR -- -- WARLORDS OF DRAENOR -- -- WARLORDS OF DRAENOR -- -- WARLORDS OF DRAENOR --
 
 
     -------------------------------------------------------
@@ -764,7 +766,7 @@ local baseLocale = {
     --Chat Output
 
 
--- MISTS OF PANDARIA -- -- MISTS OF PANDARIA -- -- MISTS OF PANDARIA -- -- MISTS OF PANDARIA -- -- MISTS OF PANDARIA -- -- MISTS OF PANDARIA -- -- MISTS OF PANDARIA -- -- MISTS OF PANDARIA -- -- MISTS OF PANDARIA -- 
+-- MISTS OF PANDARIA -- -- MISTS OF PANDARIA -- -- MISTS OF PANDARIA -- -- MISTS OF PANDARIA -- -- MISTS OF PANDARIA -- -- MISTS OF PANDARIA -- -- MISTS OF PANDARIA -- -- MISTS OF PANDARIA -- -- MISTS OF PANDARIA --
 
 
     -------------------------------------------------------
@@ -812,7 +814,7 @@ local baseLocale = {
     --Chat Output
 
     -------------------------------------------------------
-    --- 
+    ---
     -------------------------------------------------------
     --Tactics
     ["HeartOfFear_ImperialVizierZorlok"] = "Les insectes (%s) apparaissent aux quatres piliers autour du centre de la pièce. 2 Insecte Acharné (Bestiole) apparaissent à chaque pilier à la fois. Chaque joueur doit cliquer sur l’un de ces Insecte Acharné pour gagner un debuff. Une fois que chaque joueur du groupe a le debuff, vous pouvez tuer le boss. Tous les joueurs dans le raid doivent être vivants et avoir les debuff pour obtenir le Haut-Fait.",
@@ -868,7 +870,7 @@ local baseLocale = {
     --Chat Output
 
     -------------------------------------------------------
-    --- 
+    ---
     -------------------------------------------------------
     --Tactics
     -- ["Scholomance_JandiceBarov"] = "",
@@ -880,7 +882,7 @@ local baseLocale = {
     --Chat Output
 
     -------------------------------------------------------
-    --- 
+    ---
     -------------------------------------------------------
     --Tactics
     -- ["TempleOfTheJadeSerpent_WiseMari"] = "",
@@ -930,7 +932,7 @@ local baseLocale = {
     --Chat Output
 
 
--- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- 
+-- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM -- -- CATACLYSM --
 
 
     -------------------------------------------------------
@@ -1117,7 +1119,7 @@ local baseLocale = {
     --Chat Output
 
 
--- WRATH OF THE LICH KING -- -- WRATH OF THE LICH KING -- -- WRATH OF THE LICH KING -- -- WRATH OF THE LICH KING -- -- WRATH OF THE LICH KING -- -- WRATH OF THE LICH KING -- -- WRATH OF THE LICH KING -- -- WRATH OF THE LICH KING -- 
+-- WRATH OF THE LICH KING -- -- WRATH OF THE LICH KING -- -- WRATH OF THE LICH KING -- -- WRATH OF THE LICH KING -- -- WRATH OF THE LICH KING -- -- WRATH OF THE LICH KING -- -- WRATH OF THE LICH KING -- -- WRATH OF THE LICH KING --
 
 
     -------------------------------------------------------

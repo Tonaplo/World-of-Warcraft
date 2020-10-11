@@ -36,7 +36,7 @@ AchievementTrackerOptions = {}
 
 -- Purpose:         Information about the current release. This is mianly used to detect which addon should output messages to chat to avoid spam
 Config.majorVersion = 2						--Addon with a higher major version change have priority over a lower major version
-Config.minorVersion = 81    				--Addon with a minor version change have prioirty over a lower minor version
+Config.minorVersion = 83    				--Addon with a minor version change have prioirty over a lower minor version
 Config.revisionVersion = 0					--Addon with a revision change have the same priorty as a lower revision verison
 Config.releaseType = ""                     --Release type (Alpha, Beta, Release)
 
@@ -429,6 +429,9 @@ function Tab_OnClick(self)
             UIConfig.Main2.options28 = Config:CreateCheckBox("TOPLEFT", UIConfig.Main2.options2, "TOPLEFT", 363, 0, "AchievementTracker_TrackCharacterAchievements")
             UIConfig.Main2.options28:SetScript("OnClick", ATToggleTrackCharacterAchievements_OnClick)
             UIConfig.Main2.options29 = Config:CreateText2("TOPLEFT", UIConfig.Main2.options28, "TOPLEFT", 30, -9, L["GUI_TrackCharacterAchievements"],"GameFontHighlight")
+            UIConfig.Main2.options29:SetWordWrap(true)
+            UIConfig.Main2.options29:SetWidth(400)
+            UIConfig.Main2.options29:SetJustifyH("LEFT")
         end
     else                                --User has selected an expansion tab so hide main menu options
         UIConfig.ScrollFrame:Show()

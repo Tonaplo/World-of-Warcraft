@@ -5710,19 +5710,19 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MONK",
 			},
-			["Клавалицодпс-Гордунни"] = {
+			["Ezergood-Ravencrest"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "SHAMAN",
 			},
-			["Ewaa-Dalaran"] = {
+			["Janessmlot-Ravencrest"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
+				["class"] = "PALADIN",
 			},
 			["Voidmist-Pozzodell'Eternità"] = {
 				["encounters"] = 1,
@@ -5743,12 +5743,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MAGE",
 			},
-			["Janessmlot-Ravencrest"] = {
+			["Ewaa-Dalaran"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
+				["class"] = "ROGUE",
 			},
 			["Вайзменион-Гордунни"] = {
 				["encounters"] = 1,
@@ -5921,12 +5921,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-			["Ezergood-Ravencrest"] = {
+			["Клавалицодпс-Гордунни"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
+				["class"] = "DEMONHUNTER",
 			},
 			["Vanorlaa-ArgentDawn"] = {
 				["encounters"] = 3,

@@ -2,63 +2,52 @@
 PasteDB = {
 	["profileKeys"] = {
 		["Elyrianna - Ragnaros"] = "Elyrianna - Ragnaros",
-		["Mullemor - Magtheridon"] = "Mullemor - Magtheridon",
-		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
-		["Puukaa - Ragnaros"] = "Puukaa - Ragnaros",
 		["Kaldowrath - Silvermoon"] = "Kaldowrath - Silvermoon",
+		["Granjior - Ragnaros"] = "Granjior - Ragnaros",
+		["Deminath - Ragnaros"] = "Deminath - Ragnaros",
+		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
 		["Everrett - Magtheridon"] = "Everrett - Magtheridon",
 		["Volgor - Ragnaros"] = "Volgor - Ragnaros",
-		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
-		["Deminath - Ragnaros"] = "Deminath - Ragnaros",
+		["Vetold - Silvermoon"] = "Vetold - Silvermoon",
+		["Puukaa - Ragnaros"] = "Puukaa - Ragnaros",
 		["Thorlan - Silvermoon"] = "Thorlan - Silvermoon",
 		["Amranar - Silvermoon"] = "Amranar - Silvermoon",
 		["Korugen - Silvermoon"] = "Korugen - Silvermoon",
-		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
+		["Morifa - Ragnaros"] = "Morifa - Ragnaros",
 		["Greyblood - Silvermoon"] = "Greyblood - Silvermoon",
 		["Burdett - Silvermoon"] = "Burdett - Silvermoon",
 		["Amranar - Ragnaros"] = "Amranar - Ragnaros",
 		["Algalonheal - Silvermoon"] = "Algalonheal - Silvermoon",
 		["Thedodrouk - Silvermoon"] = "Thedodrouk - Silvermoon",
-		["Miriyam - Ragnaros"] = "Miriyam - Ragnaros",
+		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
 		["Grommarg - Ragnaros"] = "Grommarg - Ragnaros",
 		["Praerend - Silvermoon"] = "Praerend - Silvermoon",
 		["Faerand - Silvermoon"] = "Faerand - Silvermoon",
-		["Mallusof - Magtheridon"] = "Mallusof - Magtheridon",
-		["Skyreacher - Ragnaros"] = "Skyreacher - Ragnaros",
-		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
+		["Miriyam - Ragnaros"] = "Miriyam - Ragnaros",
 		["Navraj - Ragnaros"] = "Navraj - Ragnaros",
-		["Mogfarmer - Silvermoon"] = "Mogfarmer - Silvermoon",
-		["Morifa - Ragnaros"] = "Morifa - Ragnaros",
-		["Vetold - Silvermoon"] = "Vetold - Silvermoon",
+		["Kindhoof - Ragnaros"] = "Kindhoof - Ragnaros",
+		["Skyreacher - Ragnaros"] = "Skyreacher - Ragnaros",
+		["Mallusof - Magtheridon"] = "Mallusof - Magtheridon",
+		["Rahran - Silvermoon"] = "Rahran - Silvermoon",
+		["Zearthan - Silvermoon"] = "Zearthan - Silvermoon",
 		["Alurana - Ragnaros"] = "Alurana - Ragnaros",
-		["Granjior - Ragnaros"] = "Granjior - Ragnaros",
-		["Miriyam - Silvermoon"] = "Miriyam - Silvermoon",
+		["Mallusof - Silvermoon"] = "Mallusof - Silvermoon",
+		["Mullemor - Magtheridon"] = "Mullemor - Magtheridon",
 	},
 	["profiles"] = {
 		["Elyrianna - Ragnaros"] = {
 			["loaded"] = true,
 		},
-		["Mullemor - Magtheridon"] = {
-			["loaded"] = true,
-		},
-		["Mallusof - Silvermoon"] = {
-			["loaded"] = true,
-			["minimap"] = {
-				["hide"] = true,
-			},
-			["where"] = "Default",
-			["whispertarget"] = "",
-			["pos"] = {
-				["height"] = 320,
-				["top"] = 716.000732421875,
-				["left"] = 1129.002685546875,
-				["width"] = 499.9999084472656,
-			},
-		},
-		["Puukaa - Ragnaros"] = {
-			["loaded"] = true,
-		},
 		["Kaldowrath - Silvermoon"] = {
+			["loaded"] = true,
+		},
+		["Granjior - Ragnaros"] = {
+			["loaded"] = true,
+		},
+		["Deminath - Ragnaros"] = {
+			["loaded"] = true,
+		},
+		["Miriyam - Silvermoon"] = {
 			["loaded"] = true,
 		},
 		["Everrett - Magtheridon"] = {
@@ -67,10 +56,10 @@ PasteDB = {
 		["Volgor - Ragnaros"] = {
 			["loaded"] = true,
 		},
-		["Zearthan - Silvermoon"] = {
+		["Vetold - Silvermoon"] = {
 			["loaded"] = true,
 		},
-		["Deminath - Ragnaros"] = {
+		["Puukaa - Ragnaros"] = {
 			["loaded"] = true,
 		},
 		["Thorlan - Silvermoon"] = {
@@ -82,7 +71,7 @@ PasteDB = {
 		["Korugen - Silvermoon"] = {
 			["loaded"] = true,
 		},
-		["Rahran - Silvermoon"] = {
+		["Morifa - Ragnaros"] = {
 			["loaded"] = true,
 		},
 		["Greyblood - Silvermoon"] = {
@@ -103,8 +92,15 @@ PasteDB = {
 		["Thedodrouk - Silvermoon"] = {
 			["loaded"] = true,
 		},
-		["Miriyam - Ragnaros"] = {
+		["Mogfarmer - Silvermoon"] = {
+			["whispertarget"] = "",
+			["where"] = "Default",
 			["loaded"] = true,
+			["minimap"] = {
+				["minimapPos"] = 222.5805367040374,
+			},
+			["pos"] = {
+			},
 		},
 		["Grommarg - Ragnaros"] = {
 			["loaded"] = true,
@@ -115,41 +111,45 @@ PasteDB = {
 		["Faerand - Silvermoon"] = {
 			["loaded"] = true,
 		},
-		["Mallusof - Magtheridon"] = {
-			["loaded"] = true,
-		},
-		["Skyreacher - Ragnaros"] = {
-			["loaded"] = true,
-		},
-		["Kindhoof - Ragnaros"] = {
+		["Miriyam - Ragnaros"] = {
 			["loaded"] = true,
 		},
 		["Navraj - Ragnaros"] = {
 			["loaded"] = true,
 		},
-		["Mogfarmer - Silvermoon"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
-			["loaded"] = true,
-			["pos"] = {
-			},
-			["minimap"] = {
-				["minimapPos"] = 222.5805367040374,
-			},
-		},
-		["Morifa - Ragnaros"] = {
+		["Kindhoof - Ragnaros"] = {
 			["loaded"] = true,
 		},
-		["Vetold - Silvermoon"] = {
+		["Skyreacher - Ragnaros"] = {
+			["loaded"] = true,
+		},
+		["Mallusof - Magtheridon"] = {
+			["loaded"] = true,
+		},
+		["Rahran - Silvermoon"] = {
+			["loaded"] = true,
+		},
+		["Zearthan - Silvermoon"] = {
 			["loaded"] = true,
 		},
 		["Alurana - Ragnaros"] = {
 			["loaded"] = true,
 		},
-		["Granjior - Ragnaros"] = {
+		["Mallusof - Silvermoon"] = {
 			["loaded"] = true,
+			["minimap"] = {
+				["hide"] = true,
+			},
+			["where"] = "Default",
+			["whispertarget"] = "",
+			["pos"] = {
+				["height"] = 320,
+				["top"] = 716.000732421875,
+				["left"] = 1129.002685546875,
+				["width"] = 499.9999084472656,
+			},
 		},
-		["Miriyam - Silvermoon"] = {
+		["Mullemor - Magtheridon"] = {
 			["loaded"] = true,
 		},
 	},

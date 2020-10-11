@@ -1,8 +1,14 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Thedodrouk-silvermoon"
+RaiderIO_LastCharacter = "eu-Mallusof-silvermoon"
 RaiderIO_MissingCharacters = {
-	["eu-Thedodrouk-silvermoon"] = true,
+	["eu-Vongcheng-silvermoon"] = true,
+	["eu-Authiela-the-maelstrom"] = true,
+	["eu-Ríviaigeralt-arathor"] = true,
+	["eu-Azrâel-chamber-of-aspects"] = true,
+	["eu-Aralanna-outland"] = true,
+	["eu-Toverpuf-kazzak"] = true,
+	["eu-Sevik-pozzo-delleternità"] = true,
 }
 RaiderIO_CachedRuns = nil
